@@ -1,0 +1,26 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.local
+# Never commit the Mekra app's .env even if linked
+/Users/mekdesyared/Mekra-Catholic-Bible/.env
+
+# Obsidian workspace state — personal, not content
+.obsidian/workspace*
+.obsidian/cache
+
+# Temp files from OCR pipeline
+raw/catechism/.ocr_tmp/
+
+# Large binary scans — archival source lives in the Mekra app PDF.
+# Track only extracted markdown under raw/catechism/extracted/.
+raw/catechism/source_tif/
+raw/catechism/source_jpg/
+
+# Source PDFs (~96MB) — too large for git, rarely change.
+# Use `git add -f` to override if you want them tracked.
+raw/sources/
+
+# Defensive: an Obsidian path bug once created Users/mekdesyared/... here.
+Users/

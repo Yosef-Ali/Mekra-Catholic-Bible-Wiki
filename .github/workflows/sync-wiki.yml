@@ -1,0 +1,62 @@
+name: Sync wiki to Neon
+
+# Runs whenever markdown files under wiki/ change on main, or when
+# the sync script itself changes. Also exposes a manual trigger.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'wiki/**/*.md'
+      - 'scripts/sync_to_db.mjs'
+      - 'package.json'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force re-sync (ignore content hashes)'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+
+concurrency:
+  group: sync-wiki
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout wiki
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Sync to Neon
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            node scripts/sync_to_db.mjs --force
+          else
+            node scripts/sync_to_db.mjs
+          fi
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Wiki → Neon sync" >> $GITHUB_STEP_SUMMARY
+          echo "Commit: \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "Trigger: \`${{ github.event_name }}\`" >> $GITHUB_STEP_SUMMARY

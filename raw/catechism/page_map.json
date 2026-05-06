@@ -1,0 +1,5711 @@
+{
+  "stats": {
+    "files": 212,
+    "minPage": 1,
+    "maxPage": 293,
+    "numberedPages": 288,
+    "missing": 5,
+    "duplicates": 13,
+    "frontMatter": 27
+  },
+  "entries": [
+    {
+      "file": "Scan 1.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "269",
+        "n": 269,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 10.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "222",
+        "n": 222,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 11.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "221",
+        "n": 221,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 12.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "224",
+        "n": 224,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 13.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "223",
+        "n": 223,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 14.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "207",
+        "n": 207,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 15.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "208",
+        "n": 208,
+        "uncertain": false
+      },
+      "section": "ውሕደት ከበሬታ መለወጥን ይጠይቃል።",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 16.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "173",
+        "n": 173,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 17.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "Bottom of page is cropped/missing, the 1 at bottom right is likely page number of the English source document being scanned, and answer to 432 is cut off at the bottom."
+    },
+    {
+      "file": "Scan 18.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "Bottom-right corner of the page is cut off, truncating the answer to question 354."
+    },
+    {
+      "file": "Scan 19.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "144",
+        "n": 144,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 2.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "image is entirely blank or contains unreadable text"
+    },
+    {
+      "file": "Scan 20.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "110",
+        "n": 110,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 21.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "109",
+        "n": 109,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 22.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "92",
+        "n": 92,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 23.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "91?",
+        "n": 91,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page number is only partially visible or faint on the right page."
+    },
+    {
+      "file": "Scan 24.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "98",
+        "n": 98,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 25.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "97",
+        "n": 97,
+        "uncertain": false
+      },
+      "section": "ቤተክርስቲያን እሰከገዥ ድረስ «አክርስትያን» ናቸው::",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 26.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "95",
+        "n": 95,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 27.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "96",
+        "n": 96,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 28.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "94",
+        "n": 94,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 29.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "93",
+        "n": 93,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 3.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "293",
+        "n": 293,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 30.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "94",
+        "n": 94,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Contains large unprinted/blank areas on the left; page range looks like a spread but only the right side is filled. Text at the top is partially cut off/fragmented."
+    },
+    {
+      "file": "Scan 31.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "77",
+        "n": 77,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 32.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "78",
+        "n": 78,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 33.md",
+      "layout": "single",
+      "left": {
+        "raw": "43",
+        "n": 43,
+        "uncertain": false
+      },
+      "right": null,
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 34.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "44",
+        "n": 44,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 35.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "45",
+        "n": 45,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 36.md",
+      "layout": "spread",
+      "left": {
+        "raw": "4",
+        "n": 4,
+        "uncertain": false
+      },
+      "right": null,
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 37.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "48",
+        "n": 48,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 38.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "47",
+        "n": 47,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 39.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "11",
+        "n": 11,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 4.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "missing page numbers, contains only index entries not Q&A"
+    },
+    {
+      "file": "Scan 40.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "12",
+        "n": 12,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Marginal numbers present, but not clearly identifying as \"CCC\" paragraph references; they likely are, so marking for review to confirm format."
+    },
+    {
+      "file": "Scan 41.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "11",
+        "n": 11,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 42.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "13",
+        "n": 13,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 43.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "Bottom page number (right) is obscured; cannot confidently determine if it's 114 or 14. Setting needs_review for confirmation. Layout suggests single page, but left is mostly blank. The bottom-right corner shows a partial \"14\", likely part of a larger number (e.g., 114, 14, 14?)."
+    },
+    {
+      "file": "Scan 44.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "16",
+        "n": 16,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 45.md",
+      "layout": "spread",
+      "left": {
+        "raw": "15",
+        "n": 15,
+        "uncertain": false
+      },
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page 15 is actually on the right side of this spread (the left is blank). The structure requires printed_page_left and printed_page_right, so 15 will be placed on the right, and none on the left, but physically on the image it's on the right. Setting needs_review for clarification."
+    },
+    {
+      "file": "Scan 46.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "18",
+        "n": 18,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 47.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "17",
+        "n": 17,
+        "uncertain": false
+      },
+      "section": "ጸሎት ሃይማኖት",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 48.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "3",
+        "n": 3,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 49.md",
+      "layout": "spread",
+      "left": {
+        "raw": "4",
+        "n": 4,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "ix",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Left page is clearly from the main body (TOC for Chapter 2), but the Q&A items mentioned in the TOC (Questions 6 and 7) are not present on this page, only their titles. The right page is preface material and does not follow the Q&A format."
+    },
+    {
+      "file": "Scan 5.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "269",
+        "n": 269,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 50.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "272?",
+        "n": 272,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page number 272 is present but might belong to the right-hand page of a spread where only the left is visible. The content appears to be a topical index."
+    },
+    {
+      "file": "Scan 51.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "271",
+        "n": 271,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 52.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "270",
+        "n": 270,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 53.md",
+      "layout": "spread",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page might be cut off on the left (text on the right side only). No page number visible."
+    },
+    {
+      "file": "Scan 54.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "173",
+        "n": 173,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 55.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "23",
+        "n": 23,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 56.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "Bottom of page cut off; last paragraph incomplete."
+    },
+    {
+      "file": "Scan 57.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "79",
+        "n": 79,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 58.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "80",
+        "n": 80,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 59.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbers are cut off at the bottom."
+    },
+    {
+      "file": "Scan 6.md",
+      "layout": "single",
+      "left": {
+        "raw": "240",
+        "n": 240,
+        "uncertain": false
+      },
+      "right": null,
+      "section": "7) በጸሎት መልክ ሆኖ የወንጌልን መሠረታዊ ይዘት ያቀርባል።",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 60.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "13",
+        "n": 13,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 7.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "239",
+        "n": 239,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan 8.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page number at bottom right is partially cut off, reads only '23.' instead of '230'. This is a text-only page and contains no standard Q&A pairs; the text is a block transcription."
+    },
+    {
+      "file": "Scan 9.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "237",
+        "n": 237,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "Scan.md",
+      "layout": "spread",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "blank page, no content"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 10.md",
+      "layout": "spread",
+      "left": {
+        "raw": "108",
+        "n": 108,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "81",
+        "n": 81,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 11.md",
+      "layout": "spread",
+      "left": {
+        "raw": "84",
+        "n": 84,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "105",
+        "n": 105,
+        "uncertain": false
+      },
+      "section": "የሥርዓተ አምልኮ ልዩነትና የምሥጢሩ አንድነት",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 12.md",
+      "layout": "spread",
+      "left": {
+        "raw": "104",
+        "n": 104,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "85",
+        "n": 85,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbering sequence on this spread is illogical/discontinuous (Left: 104, Right: 85) suggesting a mis-pagination or re-binding issue."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 13.md",
+      "layout": "spread",
+      "left": {
+        "raw": "88",
+        "n": 88,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "101",
+        "n": 101,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 14.md",
+      "layout": "spread",
+      "left": {
+        "raw": "90",
+        "n": 90,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "99",
+        "n": 99,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 15.md",
+      "layout": "spread",
+      "left": {
+        "raw": "94",
+        "n": 94,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "95",
+        "n": 95,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 16.md",
+      "layout": "spread",
+      "left": {
+        "raw": "50",
+        "n": 50,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "75",
+        "n": 75,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 17.md",
+      "layout": "spread",
+      "left": {
+        "raw": "62",
+        "n": 62,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "63",
+        "n": 63,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 18.md",
+      "layout": "spread",
+      "left": {
+        "raw": "60",
+        "n": 60,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "65",
+        "n": 65,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 19.md",
+      "layout": "spread",
+      "left": {
+        "raw": "58",
+        "n": 58,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "67",
+        "n": 67,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbers 58 and 67 do not follow sequentially, indicating non-consecutive pages were scanned together."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 2.md",
+      "layout": "spread",
+      "left": {
+        "raw": "112",
+        "n": 112,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "141",
+        "n": 141,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 20.md",
+      "layout": "spread",
+      "left": {
+        "raw": "56",
+        "n": 56,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "69",
+        "n": 69,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbers indicate a significant skip, and some text at the edges might be clipped."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 21.md",
+      "layout": "spread",
+      "left": {
+        "raw": "54",
+        "n": 54,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "71",
+        "n": 71,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 22.md",
+      "layout": "spread",
+      "left": {
+        "raw": "52",
+        "n": 52,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "73",
+        "n": 73,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 23.md",
+      "layout": "spread",
+      "left": {
+        "raw": "10",
+        "n": 10,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "iii",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 24.md",
+      "layout": "spread",
+      "left": {
+        "raw": "12",
+        "n": 12,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "i",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 25.md",
+      "layout": "spread",
+      "left": {
+        "raw": "8",
+        "n": 8,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "V",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 26.md",
+      "layout": "spread",
+      "left": {
+        "raw": "6",
+        "n": 6,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "vii",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 27.md",
+      "layout": "spread",
+      "left": {
+        "raw": "4",
+        "n": 4,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "ix",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 28.md",
+      "layout": "spread",
+      "left": {
+        "raw": "2",
+        "n": 2,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "xi",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 29.md",
+      "layout": "spread",
+      "left": {
+        "raw": "xiv",
+        "n": null,
+        "uncertain": true
+      },
+      "right": {
+        "raw": "xv",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 3.md",
+      "layout": "spread",
+      "left": {
+        "raw": "126",
+        "n": 126,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "127",
+        "n": 127,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 30.md",
+      "layout": "spread",
+      "left": {
+        "raw": "30",
+        "n": 30,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "31",
+        "n": 31,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 31.md",
+      "layout": "spread",
+      "left": {
+        "raw": "28",
+        "n": 28,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "33",
+        "n": 33,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 32.md",
+      "layout": "spread",
+      "left": {
+        "raw": "26",
+        "n": 26,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "35",
+        "n": 35,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 33.md",
+      "layout": "spread",
+      "left": {
+        "raw": "24",
+        "n": 24,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "37",
+        "n": 37,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 34.md",
+      "layout": "spread",
+      "left": {
+        "raw": "22",
+        "n": 22,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "39",
+        "n": 39,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 35.md",
+      "layout": "spread",
+      "left": {
+        "raw": "20",
+        "n": 20,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "41",
+        "n": 41,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 36.md",
+      "layout": "spread",
+      "left": {
+        "raw": "274",
+        "n": 274,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "291",
+        "n": 291,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "image is index pages, not Q&A"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 37.md",
+      "layout": "spread",
+      "left": {
+        "raw": "276",
+        "n": 276,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "289",
+        "n": 289,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 38.md",
+      "layout": "spread",
+      "left": {
+        "raw": "278",
+        "n": 278,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "287",
+        "n": 287,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 39.md",
+      "layout": "spread",
+      "left": {
+        "raw": "280",
+        "n": 280,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "285",
+        "n": 285,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page contains index text, not Q&A pairs. Transcription covers full visible text."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 4.md",
+      "layout": "spread",
+      "left": {
+        "raw": "124",
+        "n": 124,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "129",
+        "n": 129,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 40.md",
+      "layout": "spread",
+      "left": {
+        "raw": "282",
+        "n": 282,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "283",
+        "n": 283,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 41.md",
+      "layout": "spread",
+      "left": {
+        "raw": "204",
+        "n": 204,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "177",
+        "n": 177,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 42.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "176",
+        "n": 176,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 43.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "205",
+        "n": 205,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 44.md",
+      "layout": "spread",
+      "left": {
+        "raw": "180",
+        "n": 180,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "201",
+        "n": 201,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "missing page 181"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 45.md",
+      "layout": "spread",
+      "left": {
+        "raw": "182",
+        "n": 182,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "199",
+        "n": 199,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 46.md",
+      "layout": "spread",
+      "left": {
+        "raw": "184",
+        "n": 184,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "197",
+        "n": 197,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 47.md",
+      "layout": "spread",
+      "left": {
+        "raw": "186",
+        "n": 186,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "195",
+        "n": 195,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 48.md",
+      "layout": "spread",
+      "left": {
+        "raw": "188",
+        "n": 188,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "193",
+        "n": 193,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 49.md",
+      "layout": "spread",
+      "left": {
+        "raw": "190",
+        "n": 190,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "191",
+        "n": 191,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbers are at the bottom outside of standard cropped area but visible on the scan."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 5.md",
+      "layout": "spread",
+      "left": {
+        "raw": "122",
+        "n": 122,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "131",
+        "n": 131,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 50.md",
+      "layout": "spread",
+      "left": {
+        "raw": "146",
+        "n": 146,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "171",
+        "n": 171,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 51.md",
+      "layout": "spread",
+      "left": {
+        "raw": "148",
+        "n": 148,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "169",
+        "n": 169,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbering is not consecutive (148 and 169) indicating a skip. Text on the left page ends incomplete and might be from a different section."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 52.md",
+      "layout": "spread",
+      "left": {
+        "raw": "150",
+        "n": 150,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "167",
+        "n": 167,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 53.md",
+      "layout": "spread",
+      "left": {
+        "raw": "152",
+        "n": 152,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "165",
+        "n": 165,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 54.md",
+      "layout": "spread",
+      "left": {
+        "raw": "154",
+        "n": 154,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "163",
+        "n": 163,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 55.md",
+      "layout": "spread",
+      "left": {
+        "raw": "156",
+        "n": 156,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "161",
+        "n": 161,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 56.md",
+      "layout": "spread",
+      "left": {
+        "raw": "158",
+        "n": 158,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "159",
+        "n": 159,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 57.md",
+      "layout": "spread",
+      "left": {
+        "raw": "236",
+        "n": 236,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "209",
+        "n": 209,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 58.md",
+      "layout": "spread",
+      "left": {
+        "raw": "234",
+        "n": 234,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "211",
+        "n": 211,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 59.md",
+      "layout": "spread",
+      "left": {
+        "raw": "232",
+        "n": 232,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "213",
+        "n": 213,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbering is chaotic: left page is 232, right page is 213. This suggests out-of-order binding or incorrect numbering in the source."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 6.md",
+      "layout": "spread",
+      "left": {
+        "raw": "120",
+        "n": 120,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "133",
+        "n": 133,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 60.md",
+      "layout": "spread",
+      "left": {
+        "raw": "230",
+        "n": 230,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "215",
+        "n": 215,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 61.md",
+      "layout": "spread",
+      "left": {
+        "raw": "228",
+        "n": 228,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "217",
+        "n": 217,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbering is out of order (228 followed by 217), indicating a mis-pagination or a non-sequential spread in the source booklet."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 62.md",
+      "layout": "single",
+      "left": {
+        "raw": "226",
+        "n": 226,
+        "uncertain": false
+      },
+      "right": null,
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 63.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "224",
+        "n": 224,
+        "uncertain": false
+      },
+      "section": "ጸሎት በኢየሱስ ሙሉ በሙሉ ተገልጦ ፣ ተፈጸመም",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 65.md",
+      "layout": "spread",
+      "left": {
+        "raw": "254",
+        "n": 254,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "255",
+        "n": 255,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 66.md",
+      "layout": "spread",
+      "left": {
+        "raw": "252",
+        "n": 252,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "257",
+        "n": 257,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 67.md",
+      "layout": "spread",
+      "left": {
+        "raw": "250",
+        "n": 250,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "259",
+        "n": 259,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 68.md",
+      "layout": "spread",
+      "left": {
+        "raw": "248",
+        "n": 248,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "261",
+        "n": 261,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 69.md",
+      "layout": "spread",
+      "left": {
+        "raw": "246",
+        "n": 246,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "263",
+        "n": 263,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 7.md",
+      "layout": "spread",
+      "left": {
+        "raw": "118",
+        "n": 118,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "135",
+        "n": 135,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 70.md",
+      "layout": "spread",
+      "left": {
+        "raw": "244",
+        "n": 244,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "265",
+        "n": 265,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 71.md",
+      "layout": "spread",
+      "left": {
+        "raw": "242",
+        "n": 242,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "267",
+        "n": 267,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 8.md",
+      "layout": "spread",
+      "left": {
+        "raw": "116",
+        "n": 116,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "137",
+        "n": 137,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page spread has non-consecutive page numbers, likely two separate pages combined into one image, and includes truncated text from a previous question."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 9.md",
+      "layout": "spread",
+      "left": {
+        "raw": "114",
+        "n": 114,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "139",
+        "n": 139,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 1.md",
+      "layout": "spread",
+      "left": {
+        "raw": "226",
+        "n": 226,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "219",
+        "n": 219,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 10.md",
+      "layout": "spread",
+      "left": {
+        "raw": "216",
+        "n": 216,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "229",
+        "n": 229,
+        "uncertain": false
+      },
+      "section": "ዛጠኛው ትእዛዝ / የጸሎት ምንጮች",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 11.md",
+      "layout": "spread",
+      "left": {
+        "raw": "214",
+        "n": 214,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "231",
+        "n": 231,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 12.md",
+      "layout": "spread",
+      "left": {
+        "raw": "212",
+        "n": 212,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "233",
+        "n": 233,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 13.md",
+      "layout": "spread",
+      "left": {
+        "raw": "210",
+        "n": 210,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "235",
+        "n": 235,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 14.md",
+      "layout": "spread",
+      "left": {
+        "raw": "160",
+        "n": 160,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "157",
+        "n": 157,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 15.md",
+      "layout": "spread",
+      "left": {
+        "raw": "162",
+        "n": 162,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "155",
+        "n": 155,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 16.md",
+      "layout": "spread",
+      "left": {
+        "raw": "164",
+        "n": 164,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "153",
+        "n": 153,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 17.md",
+      "layout": "spread",
+      "left": {
+        "raw": "166",
+        "n": 166,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "151",
+        "n": 151,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 18.md",
+      "layout": "spread",
+      "left": {
+        "raw": "168",
+        "n": 168,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "149",
+        "n": 149,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 19.md",
+      "layout": "spread",
+      "left": {
+        "raw": "170",
+        "n": 170,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "147",
+        "n": 147,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 2.md",
+      "layout": "spread",
+      "left": {
+        "raw": "268",
+        "n": 268,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "241",
+        "n": 241,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 20.md",
+      "layout": "spread",
+      "left": {
+        "raw": "172",
+        "n": 172,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "145",
+        "n": 145,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 21.md",
+      "layout": "spread",
+      "left": {
+        "raw": "192",
+        "n": 192,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "189",
+        "n": 189,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 22.md",
+      "layout": "spread",
+      "left": {
+        "raw": "194",
+        "n": 194,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "187",
+        "n": 187,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 23.md",
+      "layout": "spread",
+      "left": {
+        "raw": "196",
+        "n": 196,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "185",
+        "n": 185,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 24.md",
+      "layout": "spread",
+      "left": {
+        "raw": "198",
+        "n": 198,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "183",
+        "n": 183,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 25.md",
+      "layout": "spread",
+      "left": {
+        "raw": "200",
+        "n": 200,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "181",
+        "n": 181,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 26.md",
+      "layout": "spread",
+      "left": {
+        "raw": "202",
+        "n": 202,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "179",
+        "n": 179,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 27.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "206",
+        "n": 206,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 28.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "175",
+        "n": 175,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 29.md",
+      "layout": "spread",
+      "left": {
+        "raw": "178",
+        "n": 178,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "203",
+        "n": 203,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Left page contains a complex table which is mostly front matter (not a numbered Q&A item), and the right page begins mid-answer, possibly from another item. I cannot find a numbered item to start with for the whole page spread."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 3.md",
+      "layout": "spread",
+      "left": {
+        "raw": "266",
+        "n": 266,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "243",
+        "n": 243,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbering is incorrect in the source print (266 next to 243). The text from left to right does not follow a continuous sequence of catechism questions. Left page seems to be the very end of Part 3 or front matter, while the right page is Part 4. The marginal reference \"2857\" on the right page is also unusually small and placed. Transcribing visible text verbatim."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 30.md",
+      "layout": "spread",
+      "left": {
+        "raw": "284",
+        "n": 284,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "281",
+        "n": 281,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 31.md",
+      "layout": "spread",
+      "left": {
+        "raw": "286",
+        "n": 286,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "279",
+        "n": 279,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 32.md",
+      "layout": "spread",
+      "left": {
+        "raw": "288",
+        "n": 288,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "277",
+        "n": 277,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 33.md",
+      "layout": "spread",
+      "left": {
+        "raw": "290",
+        "n": 290,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "275",
+        "n": 275,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page ordering is reversed (290 is on left, 275 is on right). Content is an index, not a Q&A section, so standard Q&A transcription format is skipped."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 34.md",
+      "layout": "spread",
+      "left": {
+        "raw": "292",
+        "n": 292,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "273",
+        "n": 273,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 35.md",
+      "layout": "spread",
+      "left": {
+        "raw": "42",
+        "n": 42,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "19",
+        "n": 19,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 36.md",
+      "layout": "spread",
+      "left": {
+        "raw": "40",
+        "n": 40,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "21",
+        "n": 21,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbers are inconsistent (left page is higher than right) indicating a probable misbinding of the physical book this was scanned from."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 37.md",
+      "layout": "spread",
+      "left": {
+        "raw": "38",
+        "n": 38,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "23",
+        "n": 23,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 38.md",
+      "layout": "spread",
+      "left": {
+        "raw": "36",
+        "n": 36,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "25",
+        "n": 25,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 39.md",
+      "layout": "spread",
+      "left": {
+        "raw": "34",
+        "n": 34,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "27",
+        "n": 27,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 4.md",
+      "layout": "spread",
+      "left": {
+        "raw": "264",
+        "n": 264,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "245",
+        "n": 245,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 40.md",
+      "layout": "spread",
+      "left": {
+        "raw": "32",
+        "n": 32,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "29",
+        "n": 29,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 41.md",
+      "layout": "spread",
+      "left": {
+        "raw": "xvi",
+        "n": null,
+        "uncertain": true
+      },
+      "right": {
+        "raw": "xiii",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 42.md",
+      "layout": "spread",
+      "left": {
+        "raw": "xii",
+        "n": null,
+        "uncertain": true
+      },
+      "right": {
+        "raw": "1",
+        "n": 1,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 43.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 44.md",
+      "layout": "spread",
+      "left": {
+        "raw": "viii",
+        "n": null,
+        "uncertain": true
+      },
+      "right": {
+        "raw": "5",
+        "n": 5,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 45.md",
+      "layout": "spread",
+      "left": {
+        "raw": "vi",
+        "n": null,
+        "uncertain": true
+      },
+      "right": {
+        "raw": "7",
+        "n": 7,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 46.md",
+      "layout": "spread",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 47.md",
+      "layout": "spread",
+      "left": {
+        "raw": "iv",
+        "n": null,
+        "uncertain": true
+      },
+      "right": {
+        "raw": "9",
+        "n": 9,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 48.md",
+      "layout": "spread",
+      "left": {
+        "raw": "74",
+        "n": 74,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "51",
+        "n": 51,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 49.md",
+      "layout": "spread",
+      "left": {
+        "raw": "72",
+        "n": 72,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "53",
+        "n": 53,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 5.md",
+      "layout": "spread",
+      "left": {
+        "raw": "262",
+        "n": 262,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "247",
+        "n": 247,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 50.md",
+      "layout": "spread",
+      "left": {
+        "raw": "70",
+        "n": 70,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "55",
+        "n": 55,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 51.md",
+      "layout": "spread",
+      "left": {
+        "raw": "76",
+        "n": 76,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "49",
+        "n": 49,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 52.md",
+      "layout": "spread",
+      "left": {
+        "raw": "68",
+        "n": 68,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "57",
+        "n": 57,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 53.md",
+      "layout": "spread",
+      "left": {
+        "raw": "66",
+        "n": 66,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "59",
+        "n": 59,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 54.md",
+      "layout": "spread",
+      "left": {
+        "raw": "64",
+        "n": 64,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "61",
+        "n": 61,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 55.md",
+      "layout": "spread",
+      "left": {
+        "raw": "92",
+        "n": 92,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "93",
+        "n": 93,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 56.md",
+      "layout": "spread",
+      "left": {
+        "raw": "100",
+        "n": 100,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "89",
+        "n": 89,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 57.md",
+      "layout": "spread",
+      "left": {
+        "raw": "102",
+        "n": 102,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "87",
+        "n": 87,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 58.md",
+      "layout": "spread",
+      "left": {
+        "raw": "86",
+        "n": 86,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "103",
+        "n": 103,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 59.md",
+      "layout": "spread",
+      "left": {
+        "raw": "106",
+        "n": 106,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "83",
+        "n": 83,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 6.md",
+      "layout": "spread",
+      "left": {
+        "raw": "260",
+        "n": 260,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "249",
+        "n": 249,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbering is out of order (260 and 249 are adjacent). Content appears to be a back-matter section on standard prayers/catechism lists, not part of the main Q&A sequence."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 60.md",
+      "layout": "spread",
+      "left": {
+        "raw": "82",
+        "n": 82,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "107",
+        "n": 107,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 61.md",
+      "layout": "spread",
+      "left": {
+        "raw": "140",
+        "n": 140,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "113",
+        "n": 113,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbering is chaotic (140 on left, 113 on right), indicating misordered pages during binding/scanning, although both contain Q&A text."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 62.md",
+      "layout": "spread",
+      "left": {
+        "raw": "138",
+        "n": 138,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "115",
+        "n": 115,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 63.md",
+      "layout": "spread",
+      "left": {
+        "raw": "136",
+        "n": 136,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "117",
+        "n": 117,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 64.md",
+      "layout": "spread",
+      "left": {
+        "raw": "134",
+        "n": 134,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "119",
+        "n": 119,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 65.md",
+      "layout": "spread",
+      "left": {
+        "raw": "132",
+        "n": 132,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "121",
+        "n": 121,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 66.md",
+      "layout": "spread",
+      "left": {
+        "raw": "130",
+        "n": 130,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "123",
+        "n": 123,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 67.md",
+      "layout": "spread",
+      "left": {
+        "raw": "128",
+        "n": 128,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "125",
+        "n": 125,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 68.md",
+      "layout": "spread",
+      "left": {
+        "raw": "142",
+        "n": 142,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "111",
+        "n": 111,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page numbering sequence (142 then 111) indicates this image contains non-sequential pages from two different sections or a printer error in the source book. I have captured the questions on both pages, but users should be aware of this discontinuity."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 7.md",
+      "layout": "spread",
+      "left": {
+        "raw": "258",
+        "n": 258,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "251",
+        "n": 251,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 8.md",
+      "layout": "spread",
+      "left": {
+        "raw": "256",
+        "n": 256,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "253",
+        "n": 253,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 9.md",
+      "layout": "spread",
+      "left": {
+        "raw": "218",
+        "n": 218,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "227",
+        "n": 227,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b.md",
+      "layout": "spread",
+      "left": {
+        "raw": "220",
+        "n": 220,
+        "uncertain": false
+      },
+      "right": {
+        "raw": "225",
+        "n": 225,
+        "uncertain": false
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc 1.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc 3.md",
+      "layout": "single",
+      "left": {
+        "raw": "ii",
+        "n": null,
+        "uncertain": true
+      },
+      "right": null,
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc 4.md",
+      "layout": "single",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": true,
+      "reason": "Page number at bottom (iii) suggests front matter (TOC/Index) and page is truncated at the bottom and right edges."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc 5.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "vi",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc 6.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "vi",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc 7.md",
+      "layout": "single",
+      "left": {
+        "raw": "vii",
+        "n": null,
+        "uncertain": true
+      },
+      "right": null,
+      "section": "የትጓተና ማውጫ",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc-new 1.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "iii",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc-new 2.md",
+      "layout": "single",
+      "left": {
+        "raw": "iv",
+        "n": null,
+        "uncertain": true
+      },
+      "right": null,
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc-new 3.md",
+      "layout": "single",
+      "left": null,
+      "right": {
+        "raw": "V",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc-new 4.md",
+      "layout": "spread",
+      "left": null,
+      "right": {
+        "raw": "vi",
+        "n": null,
+        "uncertain": true
+      },
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc-new 8.md",
+      "layout": "single",
+      "left": {
+        "raw": "vii",
+        "n": null,
+        "uncertain": true
+      },
+      "right": null,
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc-new.md",
+      "layout": "single",
+      "left": {
+        "raw": "ii",
+        "n": null,
+        "uncertain": true
+      },
+      "right": null,
+      "section": "ማውጫ",
+      "needs_review": false,
+      "reason": "none"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc.md",
+      "layout": "spread",
+      "left": null,
+      "right": null,
+      "section": "none",
+      "needs_review": false,
+      "reason": "none"
+    }
+  ],
+  "pageIndex": {
+    "1": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 42.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "2": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 28.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "3": [
+      {
+        "file": "Scan 48.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "4": [
+      {
+        "file": "Scan 36.md",
+        "side": "left",
+        "uncertain": false
+      },
+      {
+        "file": "Scan 49.md",
+        "side": "left",
+        "uncertain": false
+      },
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 27.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "5": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 44.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "6": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 26.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "7": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 45.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "8": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 25.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "9": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 47.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "10": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 23.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "11": [
+      {
+        "file": "Scan 39.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "Scan 41.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "12": [
+      {
+        "file": "Scan 40.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 24.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "13": [
+      {
+        "file": "Scan 42.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "Scan 60.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "15": [
+      {
+        "file": "Scan 45.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "16": [
+      {
+        "file": "Scan 44.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "17": [
+      {
+        "file": "Scan 47.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "18": [
+      {
+        "file": "Scan 46.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "19": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 35.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "20": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 35.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "21": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 36.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "22": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 34.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "23": [
+      {
+        "file": "Scan 55.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 37.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "24": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 33.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "25": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 38.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "26": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 32.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "27": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 39.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "28": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 31.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "29": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 40.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "30": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 30.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "31": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 30.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "32": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 40.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "33": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 31.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "34": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 39.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "35": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 32.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "36": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 38.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "37": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 33.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "38": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 37.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "39": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 34.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "40": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 36.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "41": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 35.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "42": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 35.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "43": [
+      {
+        "file": "Scan 33.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "44": [
+      {
+        "file": "Scan 34.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "45": [
+      {
+        "file": "Scan 35.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "47": [
+      {
+        "file": "Scan 38.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "48": [
+      {
+        "file": "Scan 37.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "49": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 51.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "50": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 16.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "51": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 48.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "52": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 22.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "53": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 49.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "54": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 21.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "55": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 50.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "56": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 20.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "57": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 52.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "58": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 19.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "59": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 53.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "60": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 18.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "61": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 54.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "62": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 17.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "63": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 17.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "64": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 54.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "65": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 18.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "66": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 53.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "67": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 19.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "68": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 52.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "69": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 20.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "70": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 50.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "71": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 21.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "72": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 49.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "73": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 22.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "74": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 48.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "75": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 16.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "76": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 51.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "77": [
+      {
+        "file": "Scan 31.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "78": [
+      {
+        "file": "Scan 32.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "79": [
+      {
+        "file": "Scan 57.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "80": [
+      {
+        "file": "Scan 58.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "81": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 10.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "82": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 60.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "83": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 59.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "84": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 11.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "85": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 12.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "86": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 58.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "87": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 57.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "88": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 13.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "89": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 56.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "90": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 14.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "91": [
+      {
+        "file": "Scan 23.md",
+        "side": "right",
+        "uncertain": true
+      }
+    ],
+    "92": [
+      {
+        "file": "Scan 22.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 55.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "93": [
+      {
+        "file": "Scan 29.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 55.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "94": [
+      {
+        "file": "Scan 28.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "Scan 30.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 15.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "95": [
+      {
+        "file": "Scan 26.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 15.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "96": [
+      {
+        "file": "Scan 27.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "97": [
+      {
+        "file": "Scan 25.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "98": [
+      {
+        "file": "Scan 24.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "99": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 14.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "100": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 56.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "101": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 13.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "102": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 57.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "103": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 58.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "104": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 12.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "105": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 11.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "106": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 59.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "107": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 60.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "108": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 10.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "109": [
+      {
+        "file": "Scan 21.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "110": [
+      {
+        "file": "Scan 20.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "111": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 68.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "112": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 2.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "113": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 61.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "114": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 9.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "115": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 62.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "116": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 8.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "117": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 63.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "118": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 7.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "119": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 64.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "120": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 6.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "121": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 65.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "122": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 5.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "123": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 66.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "124": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 4.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "125": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 67.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "126": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 3.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "127": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 3.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "128": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 67.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "129": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 4.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "130": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 66.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "131": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 5.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "132": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 65.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "133": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 6.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "134": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 64.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "135": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 7.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "136": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 63.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "137": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 8.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "138": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 62.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "139": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 9.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "140": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 61.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "141": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 2.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "142": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 68.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "144": [
+      {
+        "file": "Scan 19.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "145": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 20.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "146": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 50.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "147": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 19.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "148": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 51.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "149": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 18.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "150": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 52.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "151": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 17.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "152": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 53.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "153": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 16.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "154": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 54.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "155": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 15.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "156": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 55.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "157": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 14.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "158": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 56.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "159": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 56.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "160": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 14.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "161": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 55.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "162": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 15.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "163": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 54.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "164": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 16.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "165": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 53.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "166": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 17.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "167": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 52.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "168": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 18.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "169": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 51.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "170": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 19.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "171": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 50.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "172": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 20.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "173": [
+      {
+        "file": "Scan 16.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "Scan 54.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "175": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 28.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "176": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 42.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "177": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 41.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "178": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 29.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "179": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 26.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "180": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 44.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "181": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 25.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "182": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 45.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "183": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 24.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "184": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 46.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "185": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 23.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "186": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 47.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "187": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 22.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "188": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 48.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "189": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 21.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "190": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 49.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "191": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 49.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "192": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 21.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "193": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 48.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "194": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 22.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "195": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 47.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "196": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 23.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "197": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 46.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "198": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 24.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "199": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 45.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "200": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 25.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "201": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 44.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "202": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 26.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "203": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 29.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "204": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 41.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "205": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 43.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "206": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 27.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "207": [
+      {
+        "file": "Scan 14.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "208": [
+      {
+        "file": "Scan 15.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "209": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 57.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "210": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 13.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "211": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 58.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "212": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 12.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "213": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 59.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "214": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 11.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "215": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 60.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "216": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 10.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "217": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 61.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "218": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 9.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "219": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 1.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "220": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "221": [
+      {
+        "file": "Scan 11.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "222": [
+      {
+        "file": "Scan 10.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "223": [
+      {
+        "file": "Scan 13.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "224": [
+      {
+        "file": "Scan 12.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 63.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "225": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "226": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 62.md",
+        "side": "left",
+        "uncertain": false
+      },
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 1.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "227": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 9.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "228": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 61.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "229": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 10.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "230": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 60.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "231": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 11.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "232": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 59.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "233": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 12.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "234": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 58.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "235": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 13.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "236": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 57.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "237": [
+      {
+        "file": "Scan 9.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "239": [
+      {
+        "file": "Scan 7.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "240": [
+      {
+        "file": "Scan 6.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "241": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 2.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "242": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 71.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "243": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 3.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "244": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 70.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "245": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 4.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "246": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 69.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "247": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 5.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "248": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 68.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "249": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 6.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "250": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 67.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "251": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 7.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "252": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 66.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "253": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 8.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "254": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 65.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "255": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 65.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "256": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 8.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "257": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 66.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "258": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 7.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "259": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 67.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "260": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 6.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "261": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 68.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "262": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 5.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "263": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 69.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "264": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 4.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "265": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 70.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "266": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 3.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "267": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 71.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "268": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 2.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "269": [
+      {
+        "file": "Scan 1.md",
+        "side": "right",
+        "uncertain": false
+      },
+      {
+        "file": "Scan 5.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "270": [
+      {
+        "file": "Scan 52.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "271": [
+      {
+        "file": "Scan 51.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "272": [
+      {
+        "file": "Scan 50.md",
+        "side": "right",
+        "uncertain": true
+      }
+    ],
+    "273": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 34.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "274": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 36.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "275": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 33.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "276": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 37.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "277": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 32.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "278": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 38.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "279": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 31.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "280": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 39.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "281": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 30.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "282": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 40.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "283": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 40.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "284": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 30.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "285": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 39.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "286": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 31.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "287": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 38.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "288": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 32.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "289": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 37.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "290": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 33.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "291": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-a 36.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ],
+    "292": [
+      {
+        "file": "compendium of the catecism of the catholics-2-page-b 34.md",
+        "side": "left",
+        "uncertain": false
+      }
+    ],
+    "293": [
+      {
+        "file": "Scan 3.md",
+        "side": "right",
+        "uncertain": false
+      }
+    ]
+  },
+  "missing": [
+    14,
+    46,
+    143,
+    174,
+    238
+  ],
+  "duplicates": [
+    {
+      "page": 269,
+      "list": [
+        {
+          "file": "Scan 1.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "Scan 5.md",
+          "side": "right",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 224,
+      "list": [
+        {
+          "file": "Scan 12.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "compendium of the catecism of the catholics-2-page-a 63.md",
+          "side": "right",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 173,
+      "list": [
+        {
+          "file": "Scan 16.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "Scan 54.md",
+          "side": "right",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 92,
+      "list": [
+        {
+          "file": "Scan 22.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "compendium of the catecism of the catholics-2-page-b 55.md",
+          "side": "left",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 95,
+      "list": [
+        {
+          "file": "Scan 26.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "compendium of the catecism of the catholics-2-page-a 15.md",
+          "side": "right",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 94,
+      "list": [
+        {
+          "file": "Scan 28.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "Scan 30.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "compendium of the catecism of the catholics-2-page-a 15.md",
+          "side": "left",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 93,
+      "list": [
+        {
+          "file": "Scan 29.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "compendium of the catecism of the catholics-2-page-b 55.md",
+          "side": "right",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "list": [
+        {
+          "file": "Scan 36.md",
+          "side": "left",
+          "uncertain": false
+        },
+        {
+          "file": "Scan 49.md",
+          "side": "left",
+          "uncertain": false
+        },
+        {
+          "file": "compendium of the catecism of the catholics-2-page-a 27.md",
+          "side": "left",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "list": [
+        {
+          "file": "Scan 39.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "Scan 41.md",
+          "side": "right",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "list": [
+        {
+          "file": "Scan 40.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "compendium of the catecism of the catholics-2-page-a 24.md",
+          "side": "left",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "list": [
+        {
+          "file": "Scan 42.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "Scan 60.md",
+          "side": "right",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 23,
+      "list": [
+        {
+          "file": "Scan 55.md",
+          "side": "right",
+          "uncertain": false
+        },
+        {
+          "file": "compendium of the catecism of the catholics-2-page-b 37.md",
+          "side": "right",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "page": 226,
+      "list": [
+        {
+          "file": "compendium of the catecism of the catholics-2-page-a 62.md",
+          "side": "left",
+          "uncertain": false
+        },
+        {
+          "file": "compendium of the catecism of the catholics-2-page-b 1.md",
+          "side": "left",
+          "uncertain": false
+        }
+      ]
+    }
+  ],
+  "frontMatter": [
+    "Scan 17.md",
+    "Scan 18.md",
+    "Scan 2.md",
+    "Scan 4.md",
+    "Scan 43.md",
+    "Scan 53.md",
+    "Scan 56.md",
+    "Scan 59.md",
+    "Scan 8.md",
+    "Scan.md",
+    "compendium of the catecism of the catholics-2-page-a 29.md",
+    "compendium of the catecism of the catholics-2-page-b 41.md",
+    "compendium of the catecism of the catholics-2-page-b 43.md",
+    "compendium of the catecism of the catholics-2-page-b 46.md",
+    "compendium of the catecism of the catholics-tc 1.md",
+    "compendium of the catecism of the catholics-tc 3.md",
+    "compendium of the catecism of the catholics-tc 4.md",
+    "compendium of the catecism of the catholics-tc 5.md",
+    "compendium of the catecism of the catholics-tc 6.md",
+    "compendium of the catecism of the catholics-tc 7.md",
+    "compendium of the catecism of the catholics-tc-new 1.md",
+    "compendium of the catecism of the catholics-tc-new 2.md",
+    "compendium of the catecism of the catholics-tc-new 3.md",
+    "compendium of the catecism of the catholics-tc-new 4.md",
+    "compendium of the catecism of the catholics-tc-new 8.md",
+    "compendium of the catecism of the catholics-tc-new.md",
+    "compendium of the catecism of the catholics-tc.md"
+  ],
+  "reviewList": [
+    {
+      "file": "Scan 17.md",
+      "reason": "Bottom of page is cropped/missing, the 1 at bottom right is likely page number of the English source document being scanned, and answer to 432 is cut off at the bottom."
+    },
+    {
+      "file": "Scan 18.md",
+      "reason": "Bottom-right corner of the page is cut off, truncating the answer to question 354."
+    },
+    {
+      "file": "Scan 2.md",
+      "reason": "image is entirely blank or contains unreadable text"
+    },
+    {
+      "file": "Scan 23.md",
+      "reason": "Page number is only partially visible or faint on the right page."
+    },
+    {
+      "file": "Scan 30.md",
+      "reason": "Contains large unprinted/blank areas on the left; page range looks like a spread but only the right side is filled. Text at the top is partially cut off/fragmented."
+    },
+    {
+      "file": "Scan 4.md",
+      "reason": "missing page numbers, contains only index entries not Q&A"
+    },
+    {
+      "file": "Scan 40.md",
+      "reason": "Marginal numbers present, but not clearly identifying as \"CCC\" paragraph references; they likely are, so marking for review to confirm format."
+    },
+    {
+      "file": "Scan 43.md",
+      "reason": "Bottom page number (right) is obscured; cannot confidently determine if it's 114 or 14. Setting needs_review for confirmation. Layout suggests single page, but left is mostly blank. The bottom-right corner shows a partial \"14\", likely part of a larger number (e.g., 114, 14, 14?)."
+    },
+    {
+      "file": "Scan 45.md",
+      "reason": "Page 15 is actually on the right side of this spread (the left is blank). The structure requires printed_page_left and printed_page_right, so 15 will be placed on the right, and none on the left, but physically on the image it's on the right. Setting needs_review for clarification."
+    },
+    {
+      "file": "Scan 49.md",
+      "reason": "Left page is clearly from the main body (TOC for Chapter 2), but the Q&A items mentioned in the TOC (Questions 6 and 7) are not present on this page, only their titles. The right page is preface material and does not follow the Q&A format."
+    },
+    {
+      "file": "Scan 50.md",
+      "reason": "Page number 272 is present but might belong to the right-hand page of a spread where only the left is visible. The content appears to be a topical index."
+    },
+    {
+      "file": "Scan 53.md",
+      "reason": "Page might be cut off on the left (text on the right side only). No page number visible."
+    },
+    {
+      "file": "Scan 56.md",
+      "reason": "Bottom of page cut off; last paragraph incomplete."
+    },
+    {
+      "file": "Scan 59.md",
+      "reason": "Page numbers are cut off at the bottom."
+    },
+    {
+      "file": "Scan 8.md",
+      "reason": "Page number at bottom right is partially cut off, reads only '23.' instead of '230'. This is a text-only page and contains no standard Q&A pairs; the text is a block transcription."
+    },
+    {
+      "file": "Scan.md",
+      "reason": "blank page, no content"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 12.md",
+      "reason": "Page numbering sequence on this spread is illogical/discontinuous (Left: 104, Right: 85) suggesting a mis-pagination or re-binding issue."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 19.md",
+      "reason": "Page numbers 58 and 67 do not follow sequentially, indicating non-consecutive pages were scanned together."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 20.md",
+      "reason": "Page numbers indicate a significant skip, and some text at the edges might be clipped."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 36.md",
+      "reason": "image is index pages, not Q&A"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 39.md",
+      "reason": "Page contains index text, not Q&A pairs. Transcription covers full visible text."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 44.md",
+      "reason": "missing page 181"
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 49.md",
+      "reason": "Page numbers are at the bottom outside of standard cropped area but visible on the scan."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 51.md",
+      "reason": "Page numbering is not consecutive (148 and 169) indicating a skip. Text on the left page ends incomplete and might be from a different section."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 59.md",
+      "reason": "Page numbering is chaotic: left page is 232, right page is 213. This suggests out-of-order binding or incorrect numbering in the source."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 61.md",
+      "reason": "Page numbering is out of order (228 followed by 217), indicating a mis-pagination or a non-sequential spread in the source booklet."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-a 8.md",
+      "reason": "Page spread has non-consecutive page numbers, likely two separate pages combined into one image, and includes truncated text from a previous question."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 29.md",
+      "reason": "Left page contains a complex table which is mostly front matter (not a numbered Q&A item), and the right page begins mid-answer, possibly from another item. I cannot find a numbered item to start with for the whole page spread."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 3.md",
+      "reason": "Page numbering is incorrect in the source print (266 next to 243). The text from left to right does not follow a continuous sequence of catechism questions. Left page seems to be the very end of Part 3 or front matter, while the right page is Part 4. The marginal reference \"2857\" on the right page is also unusually small and placed. Transcribing visible text verbatim."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 33.md",
+      "reason": "Page ordering is reversed (290 is on left, 275 is on right). Content is an index, not a Q&A section, so standard Q&A transcription format is skipped."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 36.md",
+      "reason": "Page numbers are inconsistent (left page is higher than right) indicating a probable misbinding of the physical book this was scanned from."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 6.md",
+      "reason": "Page numbering is out of order (260 and 249 are adjacent). Content appears to be a back-matter section on standard prayers/catechism lists, not part of the main Q&A sequence."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 61.md",
+      "reason": "Page numbering is chaotic (140 on left, 113 on right), indicating misordered pages during binding/scanning, although both contain Q&A text."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-2-page-b 68.md",
+      "reason": "Page numbering sequence (142 then 111) indicates this image contains non-sequential pages from two different sections or a printer error in the source book. I have captured the questions on both pages, but users should be aware of this discontinuity."
+    },
+    {
+      "file": "compendium of the catecism of the catholics-tc 4.md",
+      "reason": "Page number at bottom (iii) suggests front matter (TOC/Index) and page is truncated at the bottom and right edges."
+    }
+  ]
+}
