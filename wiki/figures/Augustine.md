@@ -9,7 +9,7 @@
 **Feast day:** August 28 (ነሐሴ 22 ዓ.ም.)
 **Titles:** Doctor of the Church, Doctor of Grace (Doctor Gratiae)
 **Patron of:** theologians, printers, brewers
-**Sources:** 8
+**Sources:** 4
 **Last updated:** 2026-04-09
 **Related:** [[concepts/ጸጋ]], [[concepts/ኃጢአት]], [[concepts/እምነት]], [[concepts/ነፃነት]], [[figures/ማርያም]], [[teaching/faith-and-revelation]], [[teaching/sin]], [[teaching/moral-law-and-grace]]
 

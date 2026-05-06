@@ -15,6 +15,7 @@
 ## [2026-04-13] distribution | path-A complete | added wiki_pages schema + sync_to_db.mjs + api/wiki.ts + WikiViewer component + nav integration + .github/workflows/sync-wiki.yml | 73 pages synced to Neon | live-tested via Express route
 
 ## [2026-05-06] bible | 73/73 Bible synthesis pages COMPLETE — all OT, NT, Apocrypha books covered
+## [2026-05-06] ingest | wiki/liturgical/seasons/ | 4 pages: Advent, Lent, Easter, OrdinaryTime | sources: 8
 ## [2026-05-06] glossary | 10 individual glossary pages created: ጸጋ, ምሥጢር, ኪዳን, ንስሐ, ሥርየት, ሕብረት, ቤዛ, ትንሣኤ, ሃይማኖት, ደኅንነት | each with Ge'ez/Greek/Latin
 ## [2026-05-06] commandment-audit | comprehensive audit: CCC ranges fixed on 5 pages, Q534-537 (prayer content) removed from commandments page | structural issue: page titles don't match Q content — 1st-3rd commandment Qs missing entirely, cross-page Q movement needed
 ## [2026-05-06] lint | checked: 73 pages | issues: 50 (broken-links=46 across 23 files, sources-mismatch=2, missing-meta=2, stale=0, ocr-markers=0, missing-raw=0)
@@ -27,3 +28,4 @@
 ## [2026-05-06] qa | 3 new QA entries: romans-db-mapping.md, fourth-commandment-mismatch.md, scripture-populate.md | total qa/ now 4 entries
 ## [2026-05-06] lint-fix | applied 2 auto-fixes: prefix bug ([[wiki/...]] → [[...]]) cleared 53 instances across 30 files (Apr 9 ingest residue + 7 new Bible regressions); concept stubs backfilled with real [[teaching/X]] links on 19 concept pages via Compendium-Q→teaching mapping | 0 broken-links + 0 empty stubs remaining
 ## [2026-05-06] git-init | initialized repo at vault root, branch main, root-commit a4ad7cc | 429 files / 39891 lines staged | gitignored: raw/catechism/source_tif (278MB), source_jpg (100MB), raw/sources/*.pdf (96MB), node_modules, .obsidian/workspace*, Users/ (defensive after Obsidian path-bug cleanup)
+## [2026-05-06] eval | wiki/liturgical/seasons/ (4 pages) | 8/8 checks passed after patch | found: Matt 4:17 smart-quote mismatch (straight→curly), Matt 28:19-20 v20 truncation (dropped "እነሆ እኔ እስከ ዓለም ፍጻሜ ድረስ ሁልጊዜ ከእናንተ ጋር ነኝ") | both fixed against Neon DB get_verse.mjs output | Hermes' self-report claimed byte-identical but was wrong on 2/7 verses
