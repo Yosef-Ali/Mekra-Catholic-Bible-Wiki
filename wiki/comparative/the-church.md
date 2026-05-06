@@ -1,28 +1,59 @@
 # The Church: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/the-church]] | **Compendium Q:** 147–193
-**Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+
+**Type:** comparative
+**Pairs with:** [[teaching/the-church]]
+**Compendium Q:** 147–193
+**Sources:** 3
+**Last updated:** 2026-05-06
+**Related:** [[concepts/እምነት]], [[teaching/holy-orders]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q147–193. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/the-church]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+The Church is the Body of Christ, the People of God, and the Temple of the Holy Spirit
+(CCC 751–810). It is one, holy, catholic, and apostolic. Full communion requires
+acceptance of papal primacy and the Magisterium. The Pope, as successor of Peter,
+possesses "full, supreme, and universal power over the Church" (CCC 882; Vatican I,
+Pastor Aeternus). The Church subsists in the Catholic Church (Lumen Gentium 8) while
+acknowledging that elements of sanctification and truth exist outside its visible
+boundaries. See [[teaching/the-church]] (Q147–193).
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን ከ1959 ዓ.ም. ጀምሮ ራሷን ችላ የምታስተዳድር (autocephalous)
+ቤተክርስቲያን ናት። ከዚያ በፊት ከ1600 ዓመታት በላይ በግብፁ ኮፕቲክ ፓትርያርክ ሥር ነበረች — የግብፁ
+ጳጳስ የኢትዮጵያን ሊቀ ጳጳሳት ይሾም ነበር።
+
+የኢትዮጵያ ቤተክርስቲያን የሮማን ጳጳስ የበላይነት አትቀበልም፤ ነገር ግን ከምሥራቃውያን ኦርቶዶክስ
+አብያተ ክርስቲያናት (ኮፕቲክ፣ ሲሪያክ፣ አርሜኒያን፣ ኤርትራዊ፣ የሕንድ ማላንካራ) ጋር ሙሉ ኅብረት አላት።
+ሥልጣኑ በቅዱስ ሲኖዶስ (የጳጳሳት ጉባኤ) እንጂ በአንድ ሰው ላይ ያልተማከረ ነው።
+
+በእያንዳንዷ የኢትዮጵያ ቤተክርስቲያን ቅድስተ ቅዱሳን ውስጥ የሚገኘው ታቦት (የቃል ኪዳኑ ታቦት ምሳሌ —
+Tabot) በሌሎቹ የምሥራቅ አብያተ ክርስቲያናትም እንኳ የሌለ ልዩ የኢትዮጵያ ልማድ ነው። ቤተክርስቲያኒቱ
+ያለ ታቦት አትቀደስም።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+Like EOTC, the Eastern Orthodox reject papal supremacy but accept a "primacy of honor"
+for the Bishop of Rome as first among equals (πρῶτος). They are organized as
+autocephalous national churches in communion with each other. The Ecumenical Patriarch
+of Constantinople serves as "first among equals" but with no jurisdictional authority
+over other churches.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Protestant ecclesiology varies: Anglican/Lutheran retain bishops; Reformed emphasize
+presbyterian governance; free churches favor congregational autonomy. All reject papal
+primacy. The invisible/visible Church distinction is central. The priesthood of all
+believers is foundational, institutional hierarchy is secondary.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+The EOTC's autocephaly (1959) reflects both Ethiopian national identity and the decline
+of Coptic patriarchate's capacity. Catholic papal primacy developed through the first
+millennium and was dogmatically defined at Vatican I (1870). The Tabot tradition is
+pre-Chalcedonian and unique to the Ethiopian tradition.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q147–193?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- How does the EOTC's Tabot tradition shape its ecclesiology — does the Church
+  understand herself as the new Ark of the Covenant?
+- Is there formal Catholic-EOTC dialogue on ecclesial communion beyond Christology?
 
 ## Sources
 - Compendium Q147–193
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- CCC 751–975
+- Vatican I, Pastor Aeternus (1870)

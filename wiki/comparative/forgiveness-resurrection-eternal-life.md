@@ -1,28 +1,52 @@
-# Forgiveness, Resurrection, and Eternal Life: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/forgiveness-resurrection-eternal-life]] | **Compendium Q:** 200–217
-**Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+# Forgiveness, Resurrection, Eternal Life: Catholic vs EOTC
+**Type:** comparative | **Pairs with:** [[teaching/forgiveness-resurrection-eternal-life]]
+**Compendium Q:** 200-217 | **Sources:** 3 | **Last updated:** 2026-05-06
+**Related:** [[concepts/ትንሣኤ]], [[concepts/ይቅርታ]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q200–217. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/forgiveness-resurrection-eternal-life]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+The Catholic Church teaches the forgiveness of sins through Baptism and the Sacrament of
+Penance (CCC 976-987). At death, each person undergoes particular judgment (CCC 1021).
+Those who die in God's grace go to heaven (immediately or after purification in
+purgatory); those who die in mortal sin without repentance go to hell (CCC 1033-1037).
+At the end of time, there will be the general judgment and the resurrection of the body
+(CCC 1038-1041). The Compendium Q200-217 covers the forgiveness of sins, the
+resurrection of the body, and life everlasting.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የኃጢአት ሥርየትን፣ ትንሣኤ ሙታንንና የዘላለም ሕይወትን በሃይማኖተ
+አበው በግልጽ ታስተምራለች። የተዘካር (Tezkar) ጸሎቶች ሙታን ከሞትና ከትንሣኤ መካከል ባለው ጊዜ ውስጥ
+እንደሚጸኑና የሕያዋን ጸሎት እንደሚጠቅማቸው ያሳያሉ -- ይህ በተዘዋዋሪ የመንጽሔ (purgatory) ጽንሰ-ሐሳብን
+የሚቀበል ነው።
+
+ነገር ግን የኢትዮጵያ ቤተክርስቲያን የላቲን ቤተክርስቲያን የፑርጋቶሪን ሕጋዊ/ፍርዳዊ ቋንቋ (juridical
+language of debt, satisfaction, temporal punishment) አትጠቀምም። በምትኩ "ምሕረት የሚያገኙበት
+መንጻት" (merciful purification) የሚለውን አገላለጽ ትከተላለች። ገሃነም እንደ ዘላለማዊ ቅጣት ቦታ
+ተደርጎ ይታመናል።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+The Orthodox affirm particular and general judgment, the resurrection of the body, and
+life everlasting. They reject the juridical framing of purgatory but accept an
+intermediate state of purification and the efficacy of prayer for the dead. Some
+Orthodox theologians speak of "aerial toll-houses" as a metaphorical description of
+the soul's post-mortem journey.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Reformed/Calvinist traditions: souls of the elect pass immediately to glory; purgatory
+is rejected as unbiblical. Lutherans hold to soul sleep or immediate presence with
+Christ, also rejecting purgatory. Anglicans vary. Evangelicals focus on heaven/hell with
+little speculation about the intermediate state.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+The Catholic doctrine of purgatory was defined at Lyons II (1274) and Trent (1563). The
+EOTC's intermediate-state prayers (Tezkar) function similarly but without the Latin
+juridical apparatus. The Orthodox rejection of purgatory as a "third place" with "fire"
+is primarily a reaction against Latin scholastic precision, not against prayer for the
+dead itself.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q200–217?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- How do Tezkar prayers on specific days (3rd, 7th, 40th) relate to the soul's post-
+  mortem state in EOTC theology?
+- Does the EOTC formally distinguish between "heaven," "paradise," and "kingdom"?
 
 ## Sources
-- Compendium Q200–217
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q200-217 | CCC 1020-1065

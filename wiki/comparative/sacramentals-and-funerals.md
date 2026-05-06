@@ -1,28 +1,43 @@
 # Sacramentals and Funerals: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/sacramentals-and-funerals]] | **Compendium Q:** 351–357
+**Type:** comparative | **Pairs with:** [[teaching/sacramentals-and-funerals]] | **Compendium Q:** 351-357
 **Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+**Related:** [[concepts/ጸሎት]], [[teaching/penance]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q351–357. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/sacramentals-and-funerals]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+Sacramentals are sacred signs that bear resemblance to the sacraments and signify
+spiritual effects obtained through the Church's intercession (CCC 1667-1679). They
+include blessings, exorcisms, and popular devotions (Rosary, Stations, scapulars).
+Christian funerals are a celebration of the paschal mystery through the Vigil, Funeral
+Mass, and Rite of Committal.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የተዘካር (Tezkar) የምትለውን ለሙታን የምታደርገውን መታሰቢያ
+በጥብቅ ትከተላለች። አንድ ሰው ከሞተ በኋላ በ3ኛው፣ 7ኛው፣ 12ኛው፣ 30ኛው፣ 40ኛው ቀን እና በዓመት
+መታሰቢያው የጸሎትና የምጽዋት ሥርዓቶች ይከናወናሉ። ይህ ከካቶሊክ ልማድ የበለጠ የተደራጀ ነው።
+
+የፍልሰታ (Assumption) ጾም፣ የቅዱሳን በዓላት፣ ቅዱስ ውኃ (ጸበል)፣ መስቀልና ማኅተም እንደ ምሥጢራዊ
+ምልክቶች ያገለግላሉ። በኢትዮጵያ ቤተክርስቲያን የቀብር ሥርዓት ማኅበረሰቡ በሙሉ የሚሳተፍበት ክስተት
+ነው። የልቅሶ ባህል ቢኖርም የትንሣኤ ተስፋ ማዕከላዊ መልእክት ነው።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+Similar memorial services at 3, 9, 40 days and annual commemorations. Kolyva (blessed
+wheat) offered. The EOTC's 12th-day is unique -- most Eastern traditions use 9th instead.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Protestants generally reject sacramentals as non-biblical. Funerals focus on resurrection
+hope and comforting the bereaved rather than prayer for the deceased. Reformed traditions
+reject any notion of the living affecting the dead's state through prayer.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+Tezkar has roots in Jewish mourning and early Christian memorial meals. 2 Maccabees
+12:46 ("pray for the dead") is canonical for Catholics/EOTC but rejected by Protestants.
+Ethiopia's structured memorial calendar is among Christianity's most elaborate.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q351–357?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- Is there a Latin parallel to the EOTC 12th-day Tezkar?
+- How does Ethiopian Catholic funeral practice blend Tezkar with Roman liturgy?
 
 ## Sources
-- Compendium Q351–357
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q351-357
+- CCC 1667-1690
+- EOTC Tezkar tradition

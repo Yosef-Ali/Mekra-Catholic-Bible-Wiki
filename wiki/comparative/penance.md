@@ -1,28 +1,46 @@
 # Penance: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/penance]] | **Compendium Q:** 295–312
+**Type:** comparative | **Pairs with:** [[teaching/penance]] | **Compendium Q:** 295-312
 **Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+**Related:** [[concepts/ንስሐ]], [[concepts/ይቅርታ]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q295–312. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/penance]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+The Sacrament of Penance (CCC 1422-1498) was instituted when Christ breathed on the
+apostles: "If you forgive the sins of any, they are forgiven" (John 20:22-23). The
+essential elements are contrition, confession of mortal sins in kind and number,
+absolution by the priest acting in persona Christi, and satisfaction. Individual
+auricular confession is the ordinary form. The seal of confession is absolute and
+inviolable -- priests may never reveal what they hear in confession.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+በኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን ንስሐ ሁለት መልክ አለው። አንደኛው የግል ኑዛዜ (individual confession)
+ሲሆን ምእመኑ ኃጢአቱን ለካህኑ በመናዘዝ ምሕረትን ያገኛል። የኑዛዜ ምሥጢር ጥብቅ ነው -- ካህኑ የሰማውን
+ለማንም መግለጽ አይችልም።
+
+ሁለተኛው የጋራ ንስሐ (communal penance) ነው -- ዓመታዊው የጾም ዑደት (ጾመ ነቢያት፣ ጾመ ሐዋርያት፣ ዐቢይ ጾም
+ሁዳዴ) ለመላው ማኅበረሰብ የንስሐ መገለጫ ናቸው። በኢትዮጵያ ወግ የጋራ ንስሐ ከግል ኑዛዜ ጋር እኩል ትኩረት
+ያገኛል።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+Confession is sacramental with priestly absolution, practiced as pastoral-therapeutic
+rather than juridical. The priest acts as spiritual physician. Fasting seasons function
+as communal penance -- similar to EOTC practice.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Most Protestants reject auricular confession as a sacrament. Lutherans retain private
+confession (Augsburg Confession XI). Anglicans: "all may, some should, none must."
+Evangelicals emphasize direct confession to God (1 Timothy 2:5).
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+Private confession developed in Celtic monasticism (6th-7th c.) and was codified by
+Lateran IV (1215). The EOTC preserved an older balance of individual and communal
+penance. The Reformation rejected auricular confession partly in reaction to indulgence
+abuses. The EOTC emphasis on fasting as communal penance is distinctive.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q295–312?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- How does the EOTC seal of confession compare to the absolute Catholic seal?
+- What role does communal fasting play in Ethiopian Catholic parishes?
 
 ## Sources
-- Compendium Q295–312
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q295-312
+- CCC 1422-1498
+- Fourth Lateran Council (1215), Canon 21

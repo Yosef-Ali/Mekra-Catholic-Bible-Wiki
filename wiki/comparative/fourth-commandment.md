@@ -1,28 +1,46 @@
 # Fourth Commandment: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/fourth-commandment]] | **Compendium Q:** 455–465
+**Type:** comparative | **Pairs with:** [[teaching/fourth-commandment]] | **Compendium Q:** 455-465
 **Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+**Related:** [[concepts/ክብር]], [[teaching/marriage]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q455–465. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/fourth-commandment]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+"Honor your father and your mother" is the first commandment of the second tablet of
+the Decalogue (CCC 2196-2257). This commandment requires children to respect, love, and
+obey their parents, and parents to provide for the spiritual and material welfare of
+their children. It extends to all legitimate authority -- civil authorities, teachers,
+employers. The family is the "domestic church" and the foundation of society.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+በኢትዮጵያ ባህል አራተኛዋ ትእዛዝ ልዩ ክብደት አላት -- የወላጆች ክብርና በረከት በኢትዮጵያ ማኅበረሰብ እምብርት
+ነው። ልጆች ወላጆቻቸውን እስከ ሞት ድረስ የማክበርና የመንከባከብ ግዴታ አለባቸው። የወላጆችም በረከት
+ለልጆች ሕይወት መሠረታዊ ነው ተብሎ ይታመናል።
+
+የኢትዮጵያ ባህል በትውልድ መካከል ያለውን የጋራ ኃላፊነት ያጎላል። ሽማግሌዎች በቤተሰብና በማኅበረሰብ
+ውስጥ ልዩ ክብር አላቸው። የእናት ሚና እንደ ቤተሰብ ማዕከል ይከበራል -- ኢትዮጵያዊት እናት በልጆቿ
+ሕይወት ውስጥ ልዩ ቦታ አላት።
+
+ከካቶሊክ አስተምህሮ ጋር ያለው ልዩነት በአስተምህሮው ሳይሆን በባህላዊው አጽንዖት ነው -- የኢትዮጵያ
+ቤተክርስቲያን የቤተሰብን ማኅበረሰባዊ ገጽታ (communal dimension) በልዩ ሁኔታ ታጎላለች።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+The family as "little church" is a strong theme (John Chrysostom). Elders and spiritual
+fathers (gerontes/startsi) hold honored positions. The Orthodox share the Catholic
+substance on filial duty and parental responsibility.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Most Protestants share the basic moral teaching. Conservative evangelicals emphasize
+the father's headship (complementarianism). Liberal Protestants may qualify "honor" when
+parents are abusive. Individual conscience can tension with the communal vision.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+The strong Ethiopian emphasis on intergenerational obligation has pre-Christian roots
+and was baptized into Christian practice. Western individualism that diluted this in
+Europe never penetrated Ethiopia to the same degree.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q455–465?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- How does Ethiopian Catholic pastoral practice address conflict between the fourth
+  commandment and vocational calling?
+- What role do godparents (የጥምቀት አባት/እናት) play in the extended EOTC family structure?
 
 ## Sources
-- Compendium Q455–465
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q455-465 | CCC 2196-2257

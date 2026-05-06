@@ -1,28 +1,47 @@
 # Human Dignity: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/human-dignity]] | **Compendium Q:** 358–376
+**Type:** comparative | **Pairs with:** [[teaching/human-dignity]] | **Compendium Q:** 358-376
 **Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+**Related:** [[concepts/ክብር]], [[teaching/society-and-justice]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q358–376. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/human-dignity]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+Human dignity is rooted in the fact that every person is created in the imago Dei and
+redeemed by Christ (CCC 1700-1715). This dignity is inalienable -- it cannot be lost
+through sin, disability, or social status. Catholic social teaching draws from this
+principle the rights to life, religious freedom, work, and participation in society
+(Pacem in Terris, 1963). The Compendium Q358-376 covers the dignity of the human
+person, freedom, morality of human acts, and conscience.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የሰውን ልጅ ክብር በእግዚአብሔር አርአያ መፈጠር ላይ ተመሥርታ
+ታስተምራለች። ይህ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም የኢትዮጵያ ባህል የግለሰብ መብት (individual
+rights) ላይ ሳይሆን የማኅበረሰቡን ክብር (communal dignity) ያጎላል።
+
+ሰው በማኅበረሰብ ውስጥ ባለው ሥፍራ (role, status, relationships) ነው ክብሩ የሚገለጸው -- አባትነት፣
+እናትነት፣ ሽማግሌነት፣ ካህንነት። ይህ ከምዕራቡ የግለሰብ መብቶች አካሄድ የተለየ ቢሆንም ሁለቱም ወጎች
+የሰውን ልጅ መሠረታዊ ክብር ያረጋግጣሉ።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+The Orthodox ground dignity in the imago Dei. The concept of theosis (deification) --
+that humans are called to become "partakers of the divine nature" (2 Peter 1:4) --
+elevates human dignity beyond what secular frameworks can conceive. The communal
+emphasis of the Orthodox mirrors the EOTC approach.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Protestant traditions generally affirm imago Dei dignity. More conservative traditions
+emphasize the fall's effects (total depravity). Liberal traditions align with secular
+human rights. The Catholic-EOTC communal emphasis finds less resonance in
+individualistic Protestant contexts.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+Catholic social teaching (from Rerum Novarum 1891 to Laudato Si' 2015) developed a
+systematic rights framework largely absent in the EOTC, which never faced the Industrial
+Revolution or developed a comparable social magisterium. Ethiopia's communal culture
+shaped EOTC's expression differently.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q358–376?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- Does the EOTC have formal teaching documents on human rights comparable to Catholic
+  social encyclicals?
+- How does Ethiopian communal dignity address the rights of marginalized individuals?
 
 ## Sources
-- Compendium Q358–376
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q358-376 | CCC 1700-1876 | Pacem in Terris (1963)

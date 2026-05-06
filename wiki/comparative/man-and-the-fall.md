@@ -1,28 +1,47 @@
 # Man and the Fall: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/man-and-the-fall]] | **Compendium Q:** 26–35
-**Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+**Type:** comparative | **Pairs with:** [[teaching/man-and-the-fall]] | **Compendium Q:** 26-35
+**Sources:** 3 | **Last updated:** 2026-05-06 | **Related:** [[concepts/ኃጢአት]], [[concepts/ጸጋ]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q26–35. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/man-and-the-fall]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+Humanity was created in original justice and holiness, with Adam and Eve as the first
+parents. Through their disobedience (original sin), they lost this original holiness.
+Original sin is transmitted to all descendants by propagation, not imitation, and is
+washed away by baptism (CCC 388-421). The Council of Trent (Session V, 1546) defined
+that Adam's sin affected the entire human race, but the Council also affirmed that
+concupiscence remains after baptism though it is not itself sin. The Compendium Q26-35
+covers the creation of man, the fall, and original sin.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የአዳምና የሔዋንን ውድቀት እንደ ታሪካዊ ክስተት ትቀበላለች።
+የቀርሎስን (Cyril of Alexandria) አስተምህሮ በመከተል የሰው ልጅ በአዳም ኃጢአት ምክንያት ከእግዚአብሔር ጸጋ
+እንደተለየ ታስተምራለች። ነገር ግን የኦሪጅናል ሲን ምዕራባዊውን የመሰለ ምሁራዊ ማብራሪያ (scholastic
+apparatus) አላዳበረችም -- የኦገስቲንን የወንጀል ጥፋተኝነት ትምህርት በምሥራቃዊው ወግ አትቀበልም።
+
+ለኢትዮጵያ ቤተክርስቲያን ዋናው ነጥብ ክርስቶስ የሰውን ልጅ ተፈጥሮ ከኃጢአት ማዳኑ እንጂ የኦሪጅናል ሲን
+ዝርዝር ማብራሪያ አይደለም።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+The Orthodox speak of "ancestral sin" rather than "original sin" with its juridical
+connotations. They reject the Augustinian notion of inherited guilt -- only the
+consequences of Adam's sin (mortality, concupiscence) are inherited, not the guilt.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Reformed/Calvinist traditions have the strongest doctrine of original sin ("total
+depravity"). Lutheran confessions affirm the bondage of the will apart from grace.
+Arminian/Wesleyan traditions hold that prevenient grace mitigates original sin's
+effects. Liberal Protestantism often reinterprets the Fall symbolically.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+Augustine's doctrine of original sin (developed against Pelagius) shaped the West but
+was never fully received in the East. The EOTC, following the Alexandrian tradition,
+emphasizes Christ the Healer who restores human nature rather than juridical categories
+of guilt and satisfaction. Trent's definition (1546) codified the Western position.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q26–35?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- How does the EOTC baptismal liturgy express the relationship between baptism and
+  the removal of ancestral sin?
+- What is the EOTC's position on the Immaculate Conception of Mary in relation to
+  original sin?
 
 ## Sources
-- Compendium Q26–35
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q26-35 | CCC 388-421 | Council of Trent, Session V (1546)

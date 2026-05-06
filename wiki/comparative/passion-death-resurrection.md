@@ -1,28 +1,47 @@
-# Passion, Death, and Resurrection: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/passion-death-resurrection]] | **Compendium Q:** 112–131
-**Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+# Passion, Death, Resurrection: Catholic vs EOTC
+**Type:** comparative | **Pairs with:** [[teaching/passion-death-resurrection]]
+**Compendium Q:** 112-131 | **Sources:** 3 | **Last updated:** 2026-05-06
+**Related:** [[concepts/ትንሣኤ]], [[concepts/ሥርየት]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q112–131. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/passion-death-resurrection]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+The Paschal Mystery -- Christ's Passion, Death, and Resurrection -- is the center of
+Christian faith (CCC 571-655). By His death, Christ accomplished redemption and
+satisfaction for sin. By His Resurrection, He conquered death and opened the way to
+eternal life. The Resurrection is a historical event (the empty tomb, the appearances)
+and a transcendent event by which Christ enters into glory (CCC 639-647). The Compendium
+Q112-131 covers the Passion, Death, descent into hell, Resurrection, and Ascension.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን ሰሙነ ሕማማት (Holy Week) በሚል ስም የምታከብረው ጥብቅ
+የሕማማት ሳምንት አላት። በዚህ ሳምንት ውስጥ፦ ሰላምታ አይባባልም፤ ጥብቅ ጾም ይደረጋል፤ የሕማማት ጸሎቶች
+የሚቀርቡት በየቀኑ ልዩ ጊዜያት ነው። ዐርብ ስቅለት የሚባለው አርብ ጽኑ ጾም (ጾመ ንግደት) የሚፈጸምበት
+ሲሆን ምንም ምግብም ሆነ ውኃ ሳይቀምሱ እስከ ማታ ድረስ የሚጾሙ ምእመናን አሉ።
+
+የፋሲካ ክብረ በዓል በታላቅ ደስታ ይከበራል -- ሌሊቱን ሙሉ በማኅሌት (Mahlet of St. Yared) በመዝመር ትንሣኤው
+ይታወጃል። ትንሣኤ የሞት ድል መደረጉን የሚያረጋግጥ የእምነት ማዕከል ነው። የክርስቶስ ወደ ሲኦል መውረድ
+(descent into hell) በኢትዮጵያ ሥዕላት ውስጥ ጉልህ ሥፍራ አለው።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+The Orthodox Holy Week similarly intense: strict fast, frequent services (Bridegroom
+Matins, 12 Passion Gospels, Lamentations at the Tomb). The Paschal vigil begins at
+midnight with light and the proclamation "Christ is risen!" (Χριστὸς ἀνέστη), identical
+in structure and spirit to the EOTC celebration.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Holy Week observance varies: Lutherans and Anglicans retain Palm Sunday, Maundy Thursday,
+and Good Friday services. Reformed and evangelical churches often focus on Easter Sunday
+with less emphasis on the Triduum. The Resurrection is central to all Christian
+traditions -- it is the one doctrine on which there is essentially no confessional
+disagreement across apostolic churches.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+The elaborate Holy Week observances developed in Jerusalem (4th century) and spread
+throughout the Church. Ethiopia received these traditions through Coptic Egypt. The
+Reformation simplified Holy Week but never denied the Paschal Mystery itself.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q112–131?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- Does the EOTC Tsom Ngedlat (Friday strict fast) have any parallel in Catholic practice?
+- How does Ethiopian Catholic Fasika differ from EOTC Fasika in liturgical detail?
 
 ## Sources
-- Compendium Q112–131
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q112-131 | CCC 571-655

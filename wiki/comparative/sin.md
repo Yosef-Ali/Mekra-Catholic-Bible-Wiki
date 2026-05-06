@@ -1,28 +1,44 @@
 # Sin: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/sin]] | **Compendium Q:** 391–414
+**Type:** comparative | **Pairs with:** [[teaching/sin]] | **Compendium Q:** 391-414
 **Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+**Related:** [[concepts/ኃጢአት]], [[concepts/ንስሐ]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q391–414. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/sin]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+Sin is an offense against reason, truth, and right conscience; a failure in genuine love
+for God and neighbor (CCC 1849-1851). Sin is distinguished as mortal (destroying charity)
+and venial (wounding charity). Conditions for mortal sin: grave matter, full knowledge,
+deliberate consent (CCC 1857-1860). The Compendium Q391-414 covers sin's nature, the
+mortal/venial distinction, and sin's social dimension.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን ስለ ኃጢአት ያላት የቃላት አጠቃቀም የበለጸገ ነው። ኃጢአት (sin)፣
+በደል (transgression)፣ ግፍ (injustice) -- እያንዳንዱ ቃል የተለየ የኃጢአትን ገጽታ ያሳያል።
+
+የኤቫግሪየስ (Evagrius Ponticus, 4th c.) ስምንቱ ክፉ ሐሳቦች በኢትዮጵያ ገዳማዊ ትውፊት መሠረታዊ ናቸው --
+እነዚህም የኋላውን ሰባቱን የሞት ኃጢአቶች የወለዱ ናቸው።
+
+የሟችና ቀላል ኃጢአት (mortal/venial) ልዩነት በኢትዮጵያ ቤተክርስቲያንም ይታወቃል ነገር ግን የላቲን
+ቤተክርስቲያን ያህል ምሁራዊ ትንታኔ አልተደረገም። የንስሐ ምሥጢር (Nuzaze) ለኃጢአት ሥርየት መንገድ
+ሲሆን የጋራ ጾምም የንስሐ አካል ነው።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+The Orthodox share the Evagrian tradition. They distinguish sin as sickness more than
+crime -- the therapeutic model emphasizes healing from the passions rather than juridical
+forgiveness. The Jesus Prayer functions as continual confession.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Reformed: total depravity. Lutheran: sin as unbelief. Evangelical: personal sin requiring
+conversion. Liberal: sin as systemic injustice. Most reject the mortal/venial distinction
+as unbiblical, viewing all sin as deserving of death apart from grace.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+The Evagrian tradition predates Chalcedon and is shared by all apostolic churches. The
+Western juridical framework developed in scholasticism and Trent. The EOTC preserves
+the older patristic pastoral approach without the Lateran/Trent juridical precision.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q391–414?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- How does EOTC confessional practice determine which sins require formal Nuzaze?
+- Are the eight Evagrian evil thoughts taught outside monastic contexts in Ethiopia?
 
 ## Sources
-- Compendium Q391–414
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q391-414 | CCC 1846-1876 | Evagrius Ponticus, Praktikos

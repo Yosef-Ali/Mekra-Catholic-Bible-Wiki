@@ -1,28 +1,60 @@
 # Holy Spirit: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/holy-spirit]] | **Compendium Q:** 136–146
-**Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+
+**Type:** comparative
+**Pairs with:** [[teaching/holy-spirit]]
+**Compendium Q:** 136–146
+**Sources:** 3
+**Last updated:** 2026-05-06
+**Related:** [[teaching/the-creed]], [[concepts/ሥላሴ]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q136–146. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/holy-spirit]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+The Holy Spirit is the third Person of the Blessed Trinity, proceeding from the Father
+and the Son (Filioque) as from one principle (CCC 246–248). The Spirit is consubstantial
+with the Father and the Son, worshipped and glorified together with them. The Spirit's
+mission includes sanctification, the inspiration of Scripture, the gifts and fruits, and
+the animation of the Church. The Catholic Church recognizes that the original Greek text
+of the Nicene Creed (381) did not include the Filioque — the Latin addition is a
+theological development, not a contradiction of the original. The Compendium covers
+the Holy Spirit in Q136–146.
+
+See [[teaching/holy-spirit]].
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን መንፈስ ቅዱስ "ከአብ የሚሰረጽ" (proceeds from the Father) ብቻ
+እንጂ "ከወልድም" (Filioque) አይደለም ብላ ታምናለች። ይህ አቋም የቀጰዶቅያ አባቶችን (Cappadocian
+Fathers: Basil the Great, Gregory of Nazianzus, Gregory of Nyssa) አስተምህሮ ይከተላል።
+
+የካቶሊክ ቤተክርስቲያን የፊልዮክ ጭማሪን ያለ ማኅበረ ቅዱሳን ጉባኤ (Ecumenical Council) በሃይማኖት
+መግለጫው ላይ መጨመሯ እንደ ቀኖናዊ ጥሰት (canonical violation) ተቆጥሯል። የኢትዮጵያ ቤተክርስቲያን
+የበዓለ ኀምሳን ታላቅ ክብረ በዓል ታከብራለች፤ የመንፈስ ቅዱስ ሥራ በቅዳሴው፣ በምሥጢራቱና በምእመናን
+ሕይወት ውስጥ ጉልህ ነው።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+Identical to EOTC on substance: the Filioque is the single most significant theological
+obstacle to Catholic-Orthodox reunion. The Orthodox hold that the Spirit proceeds from
+the Father alone (ἐκ τοῦ Πατρὸς ἐκπορευόμενον), following John 15:26 and the original
+Nicene-Constantinopolitan Creed (381). Some Orthodox theologians accept that the Spirit
+proceeds "through the Son" economically (in the economy of salvation) but not eternally.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Most Protestant churches retained the Filioque in their creeds, inherited from the Latin
+tradition. Anglican and Lutheran liturgies include it. Some ecumenically-minded
+Protestants have proposed dropping it as a concession to Orthodox dialogue. Pentecostal
+and Charismatic movements emphasize the Spirit's experiential gifts more than creedal
+procession theology. The Assemblies of God and similar groups affirm Filioque.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+The Filioque was added to the Latin Creed at the Third Council of Toledo (589) to combat
+Arianism, then gradually adopted throughout the West over centuries. Rome itself did not
+add the Filioque to its liturgy until 1014. The Eastern churches never accepted this
+unilateral addition. The Council of Florence (1439) attempted reunion but failed.
+Catholic-Orthodox dialogue now acknowledges the original Greek text as normative.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q136–146?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- Does the EOTC recognize Catholic baptisms and chrismations as valid despite Filioque?
+- How does the Mahlet of St. Yared poetically express the theology of the Holy Spirit?
 
 ## Sources
 - Compendium Q136–146
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- CCC 683–747
+- Council of Florence (1439), Decree for the Greeks

@@ -1,28 +1,49 @@
 # Seventh and Tenth Commandments: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/seventh-and-tenth-commandments]] | **Compendium Q:** 503–509, 529–537
-**Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+**Type:** comparative | **Pairs with:** [[teaching/seventh-and-tenth-commandments]]
+**Compendium Q:** 503-509, 529-537 | **Sources:** 3 | **Last updated:** 2026-05-06
+**Related:** [[concepts/ጽድቅ]], [[teaching/society-and-justice]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q503–509, 529–537. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/seventh-and-tenth-commandments]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+The seventh commandment ("You shall not steal") requires justice in the acquisition
+and use of material goods (CCC 2401-2463). The tenth commandment ("You shall not
+covet") forbids disordered desire for another's goods and calls for poverty of heart.
+Together they establish the moral framework for private property (subordinated to the
+universal destination of goods), honest labor, solidarity with the poor, and
+contentment with what one has.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+በኢትዮጵያ ባህል ስርቆትና ምኞት በሥነ ምግባር ከባድ ጥፋቶች ናቸው። በተለይ የኢትዮጵያ ባህላዊ ሕግ ስለ
+መሬት፣ ከብትና ንብረት ዝርዝር ደንቦች ነበሩት። የሰረቀ ሰው ንብረቱን የመመለስ ግዴታ አለበት -- ይህ ከካቶሊክ
+የማካስ (restitution) አስተምህሮ ጋር ይስማማል።
+
+ዓሥረኛዋ ትእዛዝ ("አትመኝ") በኢትዮጵያ ገዳማዊ ወግ ጠንካራ መሠረት አላት -- መነኮሳት ንብረት አይኖራቸውም፤
+ምኞትንም መዋጋት የገዳማዊ ሕይወት ማዕከል ነው።
+
+ከካቶሊክ አስተምህሮ ጋር ትልቅ አስተምህሮታዊ ልዩነት የለም። ዋናው ልዩነት የሮማ ካቶሊክ ማኅበራዊ አስተምህሮ
+የንብረትን ማኅበራዊ ሚና (social function of property) በስፋት ሲያብራራ የኢትዮጵያ ቤተክርስቲያን በዚህ
+ርዕስ ላይ የተለየ ማኅበራዊ ሰነድ አላወጣችም።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+Similar to EOTC: the moral teaching on theft and coveting is straightforward and
+largely shared. The Orthodox tradition of non-possession (aktemosyne) in monasticism
+radicalizes the tenth commandment into a way of life.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Protestants share the basic moral prohibitions. Reformed/Puritan "Protestant work ethic"
+has been credited (and criticized) for shaping capitalism. Liberation theology emerged
+from Latin American Catholicism, but Protestant traditions have their own theologies of
+economic justice.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+The Catholic social teaching tradition on property and the universal destination of goods
+is a distinctive development. The EOTC's less formalized approach reflects both a less
+industrialized economy and the communitarian ethos of Ethiopian rural life where
+customary law handled property disputes more than ecclesiastical canon law.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q503–509, 529–537?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- How does Ethiopian customary land law (rist, gult) interact with Christian teaching
+  on property?
+- Does the EOTC have canon law provisions for restitution of stolen goods?
 
 ## Sources
-- Compendium Q503–509, 529–537
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q503-509, 529-537 | CCC 2401-2557

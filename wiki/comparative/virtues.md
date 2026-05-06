@@ -1,28 +1,52 @@
 # Virtues: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/virtues]] | **Compendium Q:** 377–390
+**Type:** comparative | **Pairs with:** [[teaching/virtues]] | **Compendium Q:** 377-390
 **Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+**Related:** [[concepts/ጸጋ]], [[concepts/እምነት]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q377–390. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/virtues]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+The Catholic Church teaches three theological virtues (faith, hope, charity) infused by
+God at baptism, and four cardinal virtues (prudence, justice, fortitude, temperance)
+acquired and elevated by grace (CCC 1812-1832). The theological virtues have God as
+their object and are the foundation of Christian moral life. Charity is the greatest
+(1 Corinthians 13:13). The gifts and fruits of the Holy Spirit perfect the virtues.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን ሦስቱን የእግዚአብሔር በጎነቶች (theological virtues: እምነት፣ ተስፋ፣
+ፍቅር) እና አራቱን መሠረታዊ በጎነቶች (cardinal virtues: ጥበብ፣ ጽድቅ፣ ብርታት፣ ራስን መግዛት) በሙሉ
+ትቀበላለች።
+
+የኢትዮጵያ ገዳማዊ ትውፊት በተጨማሪ ትሕትናን (humility) እንደ ሁሉም በጎነቶች መሠረት ያጎላል። አቡነ
+ተክለ ሃይማኖት (Tekle Haymanot) ለሰባት ዓመታት በአንድ እግሩ ቆሞ በመጸለይ ትሕትናንና ጽናትን ያሳየ
+ሲሆን ይህ በኢትዮጵያ ወግ የሁሉም በጎነቶች ምሳሌ ነው።
+
+የመንፈስ ቅዱስ ስጦታዎች (gifts of the Holy Spirit) እና ፍሬዎቹ (fruits) በኢትዮጵያ አስተምህሮም ይታወቃሉ።
+ከካቶሊክ አስተምህሮ ጋር ትልቅ ልዩነት የለም -- የሁለቱም ወጎች በጎነት አስተምህሮ ከጥንታዊው የቤተክርስቲያን
+አባቶች ትውፊት የሚመነጭ ነው።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+Identical in substance: three theological, four cardinal virtues. The Orthodox emphasize
+the acquisition of the Holy Spirit as the goal of Christian life (Seraphim of Sarov).
+The Philokalic tradition focuses on watchfulness (nepsis) and purity of heart as the
+soil in which virtues grow.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Protestant ethics generally accept the classical virtues. Reformed theology emphasizes
+that even the virtues of unbelievers are "splendid vices" unless animated by faith.
+Wesleyan traditions emphasize sanctification and "holiness of heart and life." The
+virtues are seen as evidence of genuine faith rather than meritorious in themselves.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+The classical virtue tradition (Plato, Aristotle, Cicero) was baptized by Augustine and
+systematized by Aquinas. The EOTC received the same patristic synthesis independently
+through Alexandrian and Coptic channels. The Eastern emphasis on humility as the
+"foundation of virtues" reflects the Desert Fathers' influence on Ethiopian monasticism.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q377–390?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- How do the Gedlat (hagiographies) of Ethiopian saints illustrate the theological
+  virtues in culturally Ethiopian forms?
+- Does Ethiopian monasticism have a distinct taxonomy of virtues beyond the classical?
 
 ## Sources
-- Compendium Q377–390
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q377-390
+- CCC 1803-1845
+- Gadl of Abune Tekle Haymanot

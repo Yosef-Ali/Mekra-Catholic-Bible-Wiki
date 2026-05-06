@@ -1,28 +1,44 @@
 # God the Father and Creator: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/god-the-father-creator]] | **Compendium Q:** 36–72
-**Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+**Type:** comparative | **Pairs with:** [[teaching/god-the-father-creator]] | **Compendium Q:** 36-72
+**Sources:** 3 | **Last updated:** 2026-05-06 | **Related:** [[concepts/ሥላሴ]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q36–72. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/god-the-father-creator]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+God is the almighty Father, Creator of heaven and earth, of all things visible and
+invisible (CCC 198-354). Creation is the work of the entire Trinity, though appropriated
+to the Father. The world was created ex nihilo -- out of nothing -- and is sustained by
+divine providence. The Compendium Q36-72 covers creation, providence, angels, and the
+dignity of the human person as created in the imago Dei.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን ስለ እግዚአብሔር አብ ያላት አስተምህሮ ከካቶሊክ አስተምህሮ ጋር
+በአብዛኛው ይጣጣማል። እግዚአብሔር አብ ኤግዚአብሔር በመባል ይታወቃል። የሰው ልጅ በእግዚአብሔር አርአያና
+ምሳሌ መፈጠሩ የማይካድ የእምነት መሠረት ነው። በኢትዮጵያ ቤተክርስቲያን አገላለጽ እግዚአብሔር ሰብአዊ ጌታ
+ተብሎም ይጠራል። የብርሃነ ዓለም ጸሎት እግዚአብሔርን እንደ ፈጣሪ ያመሰግናል።
+
+የፍጥረት ቀናት ትርጓሜ በኢትዮጵያ ወግ ቃል በቃል አይደለም -- የአበው ትርጓሜ (Andemta) ስለ ፍጥረት ዘመናት
+ምሳሌያዊ ማብራሪያ ይሰጣል። ስለ መላእክት ያለው አስተምህሮም የበለጸገ ነው -- ሊቃነ መላእክት (ሚካኤል፣
+ገብርኤል፣ ሩፋኤል፣ ዑራኤል) ልዩ ክብር አላቸው።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+The Orthodox emphasize apophatic theology -- God is known more truly by what He is not
+than by what He is (Gregory of Nyssa, Dionysius). The distinction between God's essence
+(incomprehensible) and energies (participable) is the distinctive Eastern contribution.
+Creation theology is substantially shared with Catholicism.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+Creedal Protestants affirm Nicene creation theology. Young-earth creationism (American
+evangelical) insists on six literal days. Liberal Protestantism often accepts theistic
+evolution. These internal Protestant debates do not affect Catholic-EOTC dialogue.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+Differences on creation are minimal across apostolic traditions. The main divergence
+is between confessional Christianity and modern secularism. The EOTC's doxological
+language (ኤግዚአብሔር, ሰብአዊ ጌታ) reflects Ge'ez vocabulary shared by Ethiopian Catholics.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q36–72?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- How does the EOTC Ge'ez Anaphora of the Apostles address God the Father?
+- Does the EOTC Andemta tradition distinguish between creation ex nihilo and emanation?
+- What is the EOTC position on the compatibility of creation theology with modern science?
 
 ## Sources
-- Compendium Q36–72
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q36-72 | CCC 198-421 | EOTC Andemta

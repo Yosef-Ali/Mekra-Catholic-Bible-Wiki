@@ -1,28 +1,43 @@
 # Moral Law and Grace: Catholic vs EOTC
-**Type:** comparative | **Pairs with:** [[teaching/moral-law-and-grace]] | **Compendium Q:** 415–433
+**Type:** comparative | **Pairs with:** [[teaching/moral-law-and-grace]] | **Compendium Q:** 415-433
 **Sources:** 3 | **Last updated:** 2026-05-06
-**Related:** [[teaching/baptism]], [[concepts/እምነት]]
+**Related:** [[concepts/ጸጋ]], [[concepts/ነፃነት]]
 
 ## Catholic teaching
-The Compendium of the Catechism of the Catholic Church addresses this topic in Q415–433. The Catholic position is rooted in Sacred Scripture, Apostolic Tradition, and the teaching authority of the Magisterium. See [[teaching/moral-law-and-grace]] for the full Compendium Q&A and theological synthesis with Amharic explanation and Scripture references from the Emmaus edition.
+The moral law is the work of divine Wisdom, a fatherly instruction that prescribes the
+ways of conduct leading to beatitude (CCC 1950-1986). It includes the eternal law, the
+natural law written on every heart, the revealed Old Law and New Law. Grace is the
+free gift of God that heals wounded human nature and enables the Christian to keep the
+moral law -- not by unaided human effort but by the power of the Holy Spirit.
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን በዚህ ርዕሰ አንቀጽ ላይ ያላት አቋም በብዙ መልኩ ከካቶሊክ አስተምህሮ ጋር የሚስማማ ቢሆንም አንዳንድ ልዩነቶች አሉ። የኢትዮጵያ ቤተክርስቲያን የራሷ የሆነ የሊቃውንት ትርጓሜ (Andemta) ትውፊት አላት፤ እንዲሁም በካልኬዶን ጉባኤ (451 ዓ.ም.) ከመለያየት በፊት የነበሩትን የመጀመሪያዎቹን ሦስት የማኅበረ ቅዱሳን ጉባኤያት ትከተላለች። የኢትዮጵያ ካቶሊኮች ከሮማ ጋር ሙሉ ኅብረት ሲኖራቸው የኢትዮጵያን ልማዳዊ ሥርዓተ አምልኮ ጠብቀዋል።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የእግዚአብሔር ሕግ እና ጸጋ በአንድነት እንደሚሠሩ ታስተምራለች።
+ከካቶሊክ-ፕሮቴስታንት የእምነትና ሥራ ውዝግብ ውጭ ሆና ስለቀረች የኢትዮጵያ ቤተክርስቲያን ጸጋና
+የሰው ፈቃድ በጋራ እንደሚሠሩ (synergism) ያለ ምዕራባዊው ውዝግብ ታስተምራለች።
+
+የብሉይ ኪዳን ሕግ፣ የወንጌል ሕግ፣ የተፈጥሮ ሕግ ሁሉም ከአንድ እግዚአብሔር የመጡ ናቸው የሚለው አቋም
+ከካቶሊክ አስተምህሮ ጋር ይስማማል። በዚህ ርዕስ ላይ ዋና ልዩነት የለም።
 
 ## Eastern Orthodox position
-The Eastern Orthodox Churches share substantial common ground with the Catholic position on this topic, rooted in the first seven ecumenical councils, patristic tradition, and apostolic succession. Differences, where they exist, typically concern the exercise of authority and later doctrinal formulations rather than fundamental theological content. The Orthodox emphasize conciliarity over papal primacy.
+The Orthodox teach synergism -- cooperation between divine grace and human free will --
+as normative since the patristic era. The Orthodox never experienced an Augustinian-
+Pelagian controversy or a Reformation, so the grace-works problematic is largely absent.
 
 ## Protestant positions
-Protestant positions vary widely by denomination. Lutherans and Anglicans retain more structural and sacramental continuity with Catholic teaching. Reformed and Evangelical traditions differ more significantly, often emphasizing sola scriptura (Scripture alone) as the sole authority, rejecting the Magisterium, and reinterpreting or rejecting elements of sacramental theology and apostolic succession.
+The Reformation was fought precisely here. Luther: sola gratia, sola fide -- the law
+cannot save; grace is imputed, not infused. Calvin: irresistible grace. Arminianism:
+prevenient grace enables free response. This is the single largest Catholic-Protestant
+divergence. The EOTC stands outside this Western debate entirely.
 
 ## Where the differences come from
-The differences trace primarily to the Christological controversies of the fifth century (Council of Chalcedon, 451) for the EOTC and Eastern Orthodox, and to the Protestant Reformation (16th century) for Protestant churches. The EOTC's isolation from both Latin and Byzantine developments after Chalcedon preserved a distinct theological vocabulary and liturgical tradition. The Reformation introduced a new paradigm of authority and ecclesiology.
+Augustine vs Pelagius (5th c.) set the Western framework. Luther's reaction against
+medieval works-righteousness hardened the positions. The Council of Trent (1547) defined
+the Catholic position on justification. The EOTC, isolated from these Western
+controversies, preserved the earlier patristic synthesis.
 
 ## Open questions
-- How does EOTC Andemta tradition interpret the Compendium Q range Q415–433?
-- What specific liturgical texts in the Ethiopian Qeddase address this topic?
+- Does the EOTC have formal canon law defining the relationship of grace and free will?
+- How is the concept of merit understood in EOTC soteriology?
 
 ## Sources
-- Compendium Q415–433
-- Catechism of the Catholic Church (corresponding paragraphs)
-- [EOTC position — to verify against primary liturgical and Andemta sources]
+- Compendium Q415-433 | CCC 1949-2029 | Council of Trent, Session VI (1547)
