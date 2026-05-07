@@ -16,6 +16,7 @@
 
 ## [2026-05-06] bible | 73/73 Bible synthesis pages COMPLETE — all OT, NT, Apocrypha books covered
 ## [2026-05-06] ingest | wiki/liturgical/seasons/ | 4 pages: Advent, Lent, Easter, OrdinaryTime | sources: 8
+## [2026-05-06] ingest | wiki/liturgical/feasts/ | 12 pages: Gena, Timket, Hosanna, Siqlet, Fasika, Erget, Peraclitos, Selassie, Filsata, Meskel, All Saints, Immaculate Conception | verses from DB
 ## [2026-05-06] ingest | wiki/comparative/ | 31 new pages paired with teaching/ | all links resolve, no prefix regressions | total 36 comparative pages
 ## [2026-05-06] glossary | 10 individual glossary pages created: ጸጋ, ምሥጢር, ኪዳን, ንስሐ, ሥርየት, ሕብረት, ቤዛ, ትንሣኤ, ሃይማኖት, ደኅንነት | each with Ge'ez/Greek/Latin
 ## [2026-05-06] commandment-audit | comprehensive audit: CCC ranges fixed on 5 pages, Q534-537 (prayer content) removed from commandments page | structural issue: page titles don't match Q content — 1st-3rd commandment Qs missing entirely, cross-page Q movement needed
