@@ -27,7 +27,7 @@ However, Ethiopian Catholics honor Mary's purity and holiness throughout the yea
 
 ## Scripture
 
-> «ማርያምም እንዲህ አለች "ነፍሴ ጌታን ታከብረዋለች፤ መንፈሴም በአምላኬ በመድኃኒቴ ሐሴት ታደርጋለች፤ እኔን ዝቅተኛይቱን አገልጋይ ተመልክቷልና፤ እነሆም፥ ከዛሬ ጀምሮ ትውልድ ሁሉ ብፅዕት ይሉኛል።"»
+> «ማርያምም እንዲህ አለች “ነፍሴ ጌታን ታከብረዋለች፤ መንፈሴም በአምላኬ በመድኃኒቴ ሐሴት ታደርጋለች፤ እኔን ዝቅተኛይቱን አገልጋይ ተመልክቷልና፤ እነሆም፥ ከዛሬ ጀምሮ ትውልድ ሁሉ ብፅዕት ይሉኛል።”»
 > — ሉቃስ 1:46-48
 
 ## Open questions
@@ -35,6 +35,6 @@ However, Ethiopian Catholics honor Mary's purity and holiness throughout the yea
 - Is there an Ethiopian liturgical text for this feast in the Qeddase tradition?
 
 ## Sources
-- 38|- Ineffabilis Deus (Pius IX, 1854)
-- 39|- Luke 1:26-38
-- 40|- Ethiopian Mariology
+- Ineffabilis Deus (Pius IX, 1854)
+- Luke 1:26-38
+- Ethiopian Mariology

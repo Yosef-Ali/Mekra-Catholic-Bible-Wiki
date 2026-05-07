@@ -24,7 +24,7 @@ saints in the Diptychs.
 
 ## Scripture
 
-> «"በእርሱ የሚያምን ሁሉ የዘላለም ሕይወት እንዲኖረው እንጂ እንዳይጠፋ እግዚአብሔር አንድያ ልጁን እስኪሰጥ ድረስ ዓለሙን እንዲሁ ወዶአልና።"»
+> «“በእርሱ የሚያምን ሁሉ የዘላለም ሕይወት እንዲኖረው እንጂ እንዳይጠፋ እግዚአብሔር አንድያ ልጁን እስኪሰጥ ድረስ ዓለሙን እንዲሁ ወዶአልና።”»
 > — ዮሐንስ 3:16
 
 ## Open questions
@@ -32,6 +32,6 @@ saints in the Diptychs.
 - How is the Ethiopian Synaxarium integrated into the Catholic Qeddase?
 
 ## Sources
-- 35|- CCC 946-962
-- 36|- Ethiopian Synaxarium
-- 37|- Ethiopian Catholic calendar
+- CCC 946-962
+- Ethiopian Synaxarium
+- Ethiopian Catholic calendar
