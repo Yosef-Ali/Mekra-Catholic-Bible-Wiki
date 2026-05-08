@@ -6,9 +6,8 @@
 **Compendium Q:** 321–336
 **CCC:** 1533-1600
 **Sources:** 6
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/eucharist]], [[teaching/the-church]], [[teaching/marriage]], [[concepts/ሕብረት]]
 ## Synthesis
 
 ምሥጢረ ክህነት (Holy Orders) ክርስቶስ ለሐዋርያቱ የሰጠው ተልእኮ በቤተክርስቲያን ውስጥ እስከ ዘመን ፍጻሜ ድረስ የሚቀጥልበት ምሥጢር ነው። በብሉይ ኪዳን ውስጥ አስቀድሞ የተገለጠው በሌዋውያን አገልግሎት፣ በኦሪት ክህነት፣ እና በሰባ ሽማግሌዎች መመረጥ (ዘኁ. 11፡25) ሲሆን፣ የተፈጸመው ግን «በእግዚአብሔርና በሰው መካከል ያለ አንድ መካከለኛ» (1ኛ ጢሞ. 2፡5) በሆነውና እንደ መልከ ጼዴቅ ሹመት የዘላለም ሊቀ ካህናት በሆነው (ዕብ. 5፡4-6) በክርስቶስ ኢየሱስ ነው። ሐዋርያት ይህን ተልእኮ በእጅ ጭኖና በ[[concepts/ጸሎት]] አማካይነት ለተተኪዎቻቸው አስተላልፈዋል (የሐዋ. 6፡6፤ 13፡3፤ 1ኛ ጢሞ. 4፡14)። በመንፈስ ቅዱስ ልዩ መፍሰስ አማካይነት ካህኑ ከክርስቶስ ጋር የሚያመሳስለውን የማይፋቅ መንፈሳዊ ባሕርይ ያገኝና በክርስቶስ ስምና ሥልጣን ሕዝበ እግዚአብሔርን የማገልገል የተቀደሰ ሥልጣን ይሰጠዋል።
@@ -166,8 +165,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

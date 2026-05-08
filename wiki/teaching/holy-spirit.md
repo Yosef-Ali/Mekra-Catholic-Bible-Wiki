@@ -6,9 +6,8 @@
 **Compendium Q:** 136–146
 **CCC:** 683-747
 **Sources:** 6
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/the-creed]], [[teaching/confirmation]], [[teaching/the-church]], [[concepts/ቅድስት ሥላሴ]]
 ## Synthesis
 
 መንፈስ ቅዱስ የ[[concepts/ቅድስት-ሥላሴ]] ሦስተኛ አካል ነው — ከአብና ከወልድ ጋር አንድ አምላክ፣ አብረው የሚሰገዱና የሚከበሩ ናቸው። መንፈስ ቅዱስ ከአብ ይወጣል፣ ከወልድም ይሠርጻል። እርሱ «ጰራቅሊጦስ» (አጽናኝ፣ ጠበቃ) እና «የእውነት መንፈስ» ተብሎ ይጠራል። ምንም እንኳን መንፈስ ቅዱስ በራሱ ረቂቅ ቢሆንም፣ በምልክቶቹ — እንደ ርግብ፣ እሳት፣ ነፋስ፣ ሕያው ውኃ፣ የቅባት ዘይት — በቤተክርስቲያን ውስጥ ያለውን ሥራ እናስተውላለን።
@@ -114,8 +113,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

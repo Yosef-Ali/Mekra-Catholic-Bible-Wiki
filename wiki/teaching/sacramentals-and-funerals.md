@@ -6,9 +6,8 @@
 **Compendium Q:** 351–356
 **CCC:** 1667-1690
 **Sources:** 3
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/baptism]], [[teaching/anointing-of-the-sick]], [[concepts/ሞት]], [[concepts/ትንሣኤ]]
 ## Synthesis
 
 ## Synthesis
@@ -77,8 +76,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

@@ -6,9 +6,8 @@
 **Compendium Q:** 105–131
 **CCC:** 571-682
 **Sources:** 11
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/jesus-christ-incarnation]], [[teaching/eucharist]], [[teaching/ascension-and-judgment]], [[concepts/ቤዛ]], [[concepts/ትንሣኤ]]
 ## Synthesis
 
 የኢየሱስ ክርስቶስ ሕማም፣ ሞትና ትንሣኤ — የፋሲካ ምሥጢር — የክርስቲያናዊ እምነት ማዕከል ነው። [[figures/ኢየሱስ-ክርስቶስ]] በፈቃደኝነት ራሱን ለአብ መሥዋዕት አድርጎ አቀረበ፤ በመስቀል ላይ ሞቶ የሰውን ዘር ከ[[teaching/god-the-father-creator]] ጋር አስታረቀ። ምንም እንኳ ኢየሱስ ራሱ ኃጢአት ባይኖርበትም፣ የዓለምን ኃጢአት ሁሉ በራሱ ሥጋ ተሸክሞ «እስከ ሞት ድረስ በመታዘዝ» (ፊልጵ. 2፡8) የኃጢአታችንን ካሣ ከፈለ። የመጨረሻው እራት ይህን መሥዋዕት አስቀድሞ የገለጠ ሲሆን፣ በ[[teaching/the-church]] ቅዱስ ቍርባን ውስጥ ይህ መሥዋዕት ዘወትር ይታደሳል።
@@ -238,8 +237,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

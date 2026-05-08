@@ -6,9 +6,8 @@
 **Compendium Q:** 357–378
 **CCC:** 1691-1775
 **Sources:** 9
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/morality-and-conscience]], [[teaching/society-and-justice]], [[concepts/ኅሊና]], [[concepts/ነፃነት]], [[concepts/ክብር]]
 ## Synthesis
 
 የሰው ልጅ ክብር መሠረቱ በእግዚአብሔር መልክና አምሳል መፈጠሩ ነው። ሰው መንፈሳዊና ሕያው ነፍስ፣ አእምሮና ነፃ ፈቃድ የታደለ በመሆኑ ለእግዚአብሔር የተመረጠና ለዘላለማዊ ብፅዕና የተጠራ ነው። ይህ ክብር ከተፀነሰበት ጊዜ አንሥቶ እስከ ተፈጥሮአዊ ሞት ድረስ የማይገሰስ ነው። [[concepts/ነፃ-ፈቃድ]] የሰው ልጅ ከእግዚአብሔር የተቀበለው ታላቅ ስጦታ ሲሆን፣ መልካምን ለመምረጥ በተጠቀመበት መጠን እውነተኛ ነፃነትን ያገኛል። ነገር ግን ክፉን መምረጥ የነፃነትን አላግባብ መጠቀም ሲሆን ወደ ኃጢአት ባርነት ይወስዳል።
@@ -205,8 +204,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

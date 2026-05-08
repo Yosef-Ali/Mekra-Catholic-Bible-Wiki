@@ -6,9 +6,8 @@
 **Compendium Q:** 200–217
 **CCC:** 976-1065
 **Sources:** 7
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/penance]], [[teaching/passion-death-resurrection]], [[teaching/ascension-and-judgment]], [[concepts/ይቅርታ]], [[concepts/ትንሣኤ]], [[concepts/ዘላለማዊ ሕይወት]]
 ## Synthesis
 
 የኃጢአት ሥርየትና የዘላለም ሕይወት ተስፋ የክርስትና እምነት ልብ ነው። ለኃጢአት ስርየት የመጀመሪያውና ዋናኛው ምሥጢር [[teaching/baptism]] ሲሆን፣ ከጥምቀት በኋላ ለሚሠሩ ኃጢአቶች የዕርቅ ወይም የንስሐ ምሥጢር ተመሥርቷል። ክርስቶስ ራሱ ለሐዋርያት «የማንንም ኃጢአት ይቅር ብትሉ ይቀርላቸዋል» (ዮሐ. 20፡23) በማለት ቤተክርስቲያን ኃጢአትን ይቅር የማለት ሥልጣን ሰጥቷታል። ይህ የምሕረት ሥልጣን የእግዚአብሔር ወሰን የለሽ ፍቅር መግለጫ ነው።
@@ -161,8 +160,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

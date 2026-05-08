@@ -6,9 +6,8 @@
 **Compendium Q:** 26–35
 **CCC:** 185-197
 **Sources:** 4
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/faith-and-revelation]], [[teaching/god-the-father-creator]], [[teaching/jesus-christ-incarnation]], [[teaching/holy-spirit]], [[concepts/እምነት]]
 ## Synthesis
 
 ጸሎተ ሃይማኖት (የእምነት መግለጫ) የ[[teaching/the-church]] እምነትን በአጭሩ የሚያስተላልፍ የጋራ መግለጫ ነው። በ[[teaching/god-the-father-creator]] ማመን ማለት ከራሱ ከእግዚአብሔር ጋር መጣበቅ፣ ራስን ለእርሱ አሳልፎ መስጠትና እርሱ የገለጣቸውን እውነቶች በሙሉ መቀበል ማለት ነው — ይህም በ[[concepts/ቅድስት-ሥላሴ]] አንድ አምላክ (አብ፣ ወልድ፣ መንፈስ ቅዱስ) ማመንን ያጠቃልላል። እምነት የእግዚአብሔር ስጦታ ነው — ለደኅንነት አስፈላጊ የሆነ የላቀ ጸጋ — ነገር ግን ሰው በነጻ ፈቃዱ የሚሰጠው ምላሽም ነው። እምነት ከሳይንስ ጋር አይጋጭም፤ ምክንያቱም የሁለቱም ምንጭ እግዚአብሔር ነው።
@@ -101,8 +100,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

@@ -6,9 +6,8 @@
 **Compendium Q:** 295–312
 **CCC:** 1420-1498
 **Sources:** 4
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/baptism]], [[teaching/sin]], [[teaching/eucharist]], [[apologetics/confession-to-priest]], [[concepts/ንስሐ]], [[concepts/ይቅርታ]], [[concepts/ምሕረት]]
 ## Synthesis
 
 የንስሐና የዕርቅ ምሥጢር (Penance and Reconciliation) ከጥምቀት በኋላ በኃጢአት የተጎዳውን የ[[concepts/ጸጋ]] ሕይወት የምንመልስበት የእግዚአብሔር የ[[concepts/ምሕረት]] ምሥጢር ነው። ክርስቶስ ይህን ምሥጢር የመሠረተው ከሞት ከተነሣ በኋላ ለሐዋርያት ተገልጦ «መንፈስ ቅዱስን ተቀበሉ፤ ኃጢአታቸውን ይቅር ያላችኋቸው ሁሉ ይቅር ይባልላቸዋል፤ የያዛችሁባቸው ተይዞባቸዋል» ባለ ጊዜ ነው (ዮሐ. 20፡22-23)። ይህ ሥልጣን በቤተክርስቲያን በኩል እስከ ዛሬ ቀጥሏል፤ ካህናት «በክርስቶስ ስም» የኃጢአት ሥርየትን የሚሰጡት በዚሁ ሐዋርያዊ ሥልጣን ነው (2ኛ ቆሮ. 5፡18-20)። የንስሐ ምሥጢር ከእግዚአብሔር ጋር ብቻ ሳይሆን ከቤተክርስቲያንም ታርቀን ወደ ሙሉ [[concepts/ሕብረት]] የምንመለስበት መንገድ ነው። በኢትዮጵያ ካቶሊካዊ ልማድ ይህ ምሥጢር "ኑዛዜ" ተብሎም የሚጠራ ሲሆን፣ የ[[concepts/ንስሐ]] ሕይወት በዕለታዊ ጾም፣ ጸሎትና ምጽዋት የሚገለጥ ቀጣይ ጉዞ ነው።
@@ -179,8 +178,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

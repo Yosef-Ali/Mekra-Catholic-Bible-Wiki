@@ -6,9 +6,8 @@
 **Compendium Q:** 73–83
 **CCC:** 355-421
 **Sources:** 5
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/sin]], [[teaching/jesus-christ-incarnation]], [[teaching/baptism]], [[concepts/ኃጢአት]], [[concepts/ፍጥረት]], [[figures/አዳም]], [[figures/ሔዋን]]
 ## Synthesis
 
 የሰው ልጅ ፍጥረትና መውደቅ የክርስትና እምነት ዋና መሠረት ነው። እግዚአብሔር ሰውን በመልኩና በአምሳሉ ፈጥሮታል፤ ነገር ግን የመጀመሪያዎቹ ወላጆቻችን በዲያብሎስ ፈተና አማካይነት በፈጣሪያቸው ላይ በማመፃቸው የመጀመሪያውን ቅድስናና ጽድቅ አጡ። ይህ ውድቀት የኃጢአትንና የሞትን እውነታ ወደ ዓለም አስገባ። ነገር ግን እግዚአብሔር ሰውን ለሞት አሳልፎ አልሰጠውም፤ ይልቁንም በዘፍጥረት 3፡15 የመጀመሪያውን የምሥራች ቃል (ፕሮቶኢቫንጌሊየም) በመስጠት አዳኝ እንደሚልክ ተስፋ ሰጠ። ይህ ተስፋ የተፈጸመው በጌታችን በኢየሱስ ክርስቶስ ነው፤ እርሱም በሕማማቱ፣ በሞቱና በትንሣኤው በኃጢአትና በሞት ላይ ድል ተቀዳጀ።
@@ -114,8 +113,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

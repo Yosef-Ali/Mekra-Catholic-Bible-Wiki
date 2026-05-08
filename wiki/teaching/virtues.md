@@ -6,9 +6,8 @@
 **Compendium Q:** 401–420
 **CCC:** 1803-1845
 **Sources:** 9
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/morality-and-conscience]], [[teaching/society-and-justice]], [[teaching/moral-law-and-grace]], [[concepts/ጸጋ]], [[concepts/ፍቅር]]
 ## Synthesis
 
 ሰው በባሕርዩ ማኅበራዊ ፍጡር ነው፤ ለብፅዕና በግል ከመጠራት በተጨማሪ ሰው ሁሉ ለአንድ ግብ ማለትም ለእግዚአብሔር ተጠርቷል። [[concepts/የጋራ-ጥቅም]] ማለት ሰዎች እንደ ግለሰብም ሆነ እንደ ቡድን ወደ ተገቢው ፍጽምናቸው እንዲደርሱ የሚያስችሉ የማኅበራዊ ሕይወት ድምር ሁኔታዎች ናቸው። የጋራ ጥቅም የግለሰቡን መሠረታዊ መብቶች፣ መንፈሳዊና ዓለማዊ ሀብትን ማሳደግን፣ እንዲሁም የሁሉንም ሰላምና ደኅንነት ማክበርን ያካትታል። የቅርዝጫፍነት መርሆ የላይኛው ማኅበር ለታችኛው ማኅበረሰብ የተሰጠውን ሥራ መሥራት እንደሌለበት ያስተምራል።
@@ -187,8 +186,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

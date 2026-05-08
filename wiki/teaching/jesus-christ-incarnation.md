@@ -6,9 +6,8 @@
 **Compendium Q:** 84–104
 **CCC:** 422-570
 **Sources:** 9
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/the-creed]], [[teaching/passion-death-resurrection]], [[teaching/mary]], [[figures/ኢየሱስ-ክርስቶስ]], [[figures/ማርያም]]
 ## Synthesis
 
 ኢየሱስ ክርስቶስ የ[[teaching/god-the-father-creator]] አንድያ ልጅ፣ ሁለተኛው የ[[concepts/ቅድስት-ሥላሴ]] አካል፣ ስለ እኛና ስለ ደኅንነታችን ከሰማይ ወርዶ በመንፈስ ቅዱስ ኃይል ከድንግል [[teaching/mary]] ሥጋ ለበሰ። ይህ የሥጋዌ ምሥጢር የሚያሳየው ኢየሱስ እውነተኛ አምላክና እውነተኛ ሰው መሆኑን ነው — ሁለት ባሕርያት (መለኮታዊና ሰብአዊ) ያለ መደባለቅና ያለ መለያየት በአንድ አካል ተዋሕደዋል። ይህንን የኬልቄዶን ጉባኤ (451 ዓ.ም.) ትምህርት የኢትዮጵያ ካቶሊካዊ ቤተክርስቲያንም ታምናለች።
@@ -200,8 +199,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

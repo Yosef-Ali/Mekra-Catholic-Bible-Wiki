@@ -6,9 +6,8 @@
 **Compendium Q:** 36–72
 **CCC:** 198-421
 **Sources:** 12
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/the-creed]], [[teaching/jesus-christ-incarnation]], [[teaching/holy-spirit]], [[concepts/ቅድስት ሥላሴ]], [[concepts/ፍጥረት]]
 ## Synthesis
 
 የክርስቲያናዊ እምነት መሠረት «በአንድ እግዚአብሔር አብ፣ ሁሉን ቻይ፣ ሰማይንና ምድርን ፈጣሪ አምናለሁ» በሚለው መግለጫ ይጀምራል። እግዚአብሔር አንድ አምላክ ብቻ ነው — «ያለና የሚኖር»፣ የማይለወጥ፣ ሁሉን ቻይ፣ ፍቅርና እውነት የሆነ። ይህ አንድ አምላክ ግን ሦስት መለኮታዊ አካላት አሉት — አብ፣ ወልድና መንፈስ ቅዱስ — ይህም የ[[concepts/ቅድስት-ሥላሴ]] ምሥጢር ይባላል። ሦስቱ አካላት አንድ አምላክ ናቸው እንጂ ሦስት አማልክት አይደሉም፤ በባሕርያቸው አንድ ሲሆኑ በአካላዊ ግንኙነታቸው ግን የተለያዩ ናቸው — አብ ወልድን ይወልዳል፣ ወልድ ከአብ ይወለዳል፣ መንፈስ ቅዱስ ከአብና ከወልድ ይሠርጻል።
@@ -331,8 +330,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

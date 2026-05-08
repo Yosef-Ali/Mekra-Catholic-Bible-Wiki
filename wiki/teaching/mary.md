@@ -6,9 +6,8 @@
 **Compendium Q:** 194–199
 **CCC:** 484-511, 963-975
 **Sources:** 4
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/jesus-christ-incarnation]], [[teaching/the-church]], [[apologetics/mary-veneration]], [[figures/ማርያም]], [[concepts/ጸጋ]]
 ## Synthesis
 
 ቅድስት ድንግል ማርያም የእግዚአብሔር እናት (ወላዲተ አምላክ) ናት፣ ምክንያቱም ከመንፈስ ቅዱስ ኃይል የተፀነሰውንና ከእርሷ ሥጋ የለበሰውን የእግዚአብሔርን ዘላለማዊ ልጅ [[figures/ኢየሱስ-ክርስቶስ]]ን ወልዳለችና። ማርያም ከፅንሰቷ ጀምራ ያለ አዳም ኃጢአት (በንጽሕና የተፀነሰች) ናት፤ በሕይወቷ ሙሉ ድንግል ነበረች — ልጇን ስትፀንስ፣ ስትወልድና ከዚያም በኋላ ድንግልናዋ ጸንቷል። በእግዚአብሔር ጸጋ የተሞላችው ማርያም የእምነትና የታዛዥነት ፍጹም ምሳሌ ናት፤ «እንደ ቃልህ ይሁንልኝ» (ሉቃ. 1፡38) በማለት ለእግዚአብሔር ፈቃድ ሙሉ በሙሉ ራሷን አሳልፋ ሰጥታለች።
@@ -78,8 +77,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

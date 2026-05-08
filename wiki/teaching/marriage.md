@@ -6,9 +6,8 @@
 **Compendium Q:** 337–350
 **CCC:** 1601-1666
 **Sources:** 6
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/sixth-and-ninth-commandments]], [[teaching/holy-orders]], [[teaching/the-church]], [[concepts/ፍቅር]], [[concepts/ቃል ኪዳን]]
 ## Synthesis
 
 ምሥጢረ ተክሊል (Marriage) ፍቅር በሆነው በእግዚአብሔር አምሳል የተፈጠሩት ወንድና ሴት በ[[concepts/ፍቅር]] አንድ የሚሆኑበት ቅዱስ ኪዳን ነው። ከፍጥረት መጀመሪያ ጀምሮ እግዚአብሔር ወንድና ሴትን በመፍጠር እርስ በርሳቸው የሕይወትና የፍቅር ኅብረት እንዲመሠርቱ ባረካቸው፦ «ወንድና ሴት አድርጎ ፈጠራቸው... ብዙ ተባዙ» (ዘፍ. 1፡27-28)። በብሉይ ኪዳን የእግዚአብሔር ከእስራኤል ጋር ያለው የ[[concepts/ቃል ኪዳን]] ግንኙነት ክርስቶስ ከቤተክርስቲያን ጋር ለሚያደርገው አዲስ ኪዳን ቅድመ ምሳሌ ሆኖ አገልግሏል። ኢየሱስ ክርስቶስ በቃና ዘገሊላ በሠርግ ላይ በመገኘትና የመጀመሪያውን ተአምር በማድረግ ጋብቻን ባረከ (ዮሐ. 2፡1-11)፤ ከዚህም በላይ ተክሊልን ወደ [[concepts/ምሥጢር]] ደረጃ ከፍ አደረገው፤ ለተጋቢዎችም ትዳራቸው ክርስቶስ ለቤተክርስቲያን ያለውን የመሥዋዕት ፍቅር የሚያንጸባርቅ እንዲሆን ልዩ [[concepts/ጸጋ]] ሰጣቸው (ኤፌ. 5፡25)።
@@ -135,8 +134,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

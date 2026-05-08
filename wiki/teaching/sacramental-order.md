@@ -6,9 +6,8 @@
 **Compendium Q:** 218–249
 **CCC:** 1066-1209
 **Sources:** 13
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/baptism]], [[teaching/confirmation]], [[teaching/eucharist]], [[teaching/penance]], [[teaching/anointing-of-the-sick]], [[teaching/holy-orders]], [[teaching/marriage]], [[concepts/ምሥጢር]]
 ## Synthesis
 
 ## Synthesis
@@ -273,8 +272,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

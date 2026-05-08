@@ -6,9 +6,8 @@
 **Compendium Q:** 1–25
 **CCC:** 1-141
 **Sources:** 10
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/the-creed]], [[concepts/እምነት]]
 ## Synthesis
 
 ## Synthesis
@@ -210,8 +209,6 @@
 ## Open questions
 
 - Q&As 22 are missing — check if rescans cover them.
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

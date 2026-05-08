@@ -6,9 +6,8 @@
 **Compendium Q:** 538–568
 **CCC:** 2558-2758
 **Sources:** 12
-**Last updated:** 2026-05-07
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/the-lords-prayer]], [[teaching/prayer-combat]], [[concepts/ጸሎት]], [[concepts/አምልኮ]]
 ## Synthesis
 
 ## Synthesis
@@ -275,8 +274,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

@@ -2,41 +2,155 @@
 
 **Type:** teaching
 **Amharic:** ጥምቀት
-**Compendium Q:** 105, 256, 297, 396
+**Part:** ክፍል ፪ — የክርስቲያን ምሥጢራት (The Sacraments of Christian Initiation)
+**Compendium Q:** 252–264
 **CCC:** 1213–1284
-**Sources:** 7
-**Last updated:** 2026-05-06
-**Related:** [[concepts/ጸጋ]], [[teaching/reconciliation]], [[figures/ዮሐንስ-መጥምቅ]]
+**Sources:** 9
+**Last updated:** 2026-05-08
+**Related:** [[concepts/ጸጋ]], [[concepts/ምሥጢር]], [[teaching/confirmation]], [[teaching/eucharist]], [[teaching/penance]], [[figures/ዮሐንስ-መጥምቅ]]
 
 ## Synthesis
-ጥምቀት የክርስቲያናዊ ሕይወት መሠረት፣ የጸጋ በርና ወደ ቤተክርስቲያን የምንቀላቀልበት ምሥጢር ነው። በክርስቶስ በማመንና በጥምቀት አማካይነት ሰዎች የእግዚአብሔር ሕዝብ አባል ይሆናሉ። በጥምቀት አማካይነት የኃጢአት ሥርየት እናገኛለን፣ የመንፈስ ቅዱስ ማህተምም በነፍሳችን ላይ ይታተማል።
+
+ጥምቀት የክርስቲያናዊ ሕይወት መሠረትና የጸጋ በር ነው። በጥምቀት ሰው ከክርስቶስ ሞት ጋር ተቀብሮ ከእርሱ ጋር ለትንሣኤ ይነሣል፤ «አዲስ ፍጥረት» ይሆናል (2ኛ ቆሮ. 5፡17)። የብሉይ ኪዳን ምሳሌዎች — የፍጥረት ውሃ፣ የኖህ መርከብ፣ የቀይ ባሕር መሻገር፣ የዮርዳኖስ ወንዝ — በክርስቶስ ጥምቀት ላይ ተፈጽመዋል። ቤተክርስቲያንም ከጴንጠቆስጤ ቀን ጀምሮ በስሙ ለሚያምን ሁሉ ጥምቀትን ትሰጣለች።
+
+ሥነ ሥርዓቱ ቀላልና ጥልቅ ነው፦ የአብ፣ የወልድና የመንፈስ ቅዱስ ስም እየጠራ ተጠማቂውን ውሃ ውስጥ መንከር ወይም በራሱ ላይ ውሃ ማፍሰስ። ጥምቀት የአዳምን ኃጢአትን፣ የግል ኃጢአቶችን ሁሉንና በኃጢአት ምክንያት የሚመጣውን ቅጣት ሁሉ ያስወግዳል። ተጠማቂውን በተቀደሰ ጸጋ ያደርጋል፣ በቅድስት ሥላሴ መለኮታዊ ሕይወት ያካፍላል፣ በክርስቶስ ክህነት ያሳትፋል፣ ከቤተክርስቲያን አባላት ጋር አንድነት ይፈጥራል። ጥምቀት የማይጠፋ መንፈሳዊ ማህተም በነፍስ ላይ ያትማል — ስለዚህ ጥምቀት አንድ ጊዜ ብቻ ይሰጣል።
+
+በኢትዮጵያ ካቶሊካዊት ቤተክርስቲያን ጥምቀት የሚሰጠው ጥንታዊውን የምሥራቅ ሥርዓት በተከተለ መልኩ ነው — ህፃናትና ጎልማሶች በመንከር ወይም በማፍሰስ ውሃ የሥላሴ ስም ሲጠራ ይጠመቃሉ። የጥምቀት ቀን — በዓለ ጥምቀት — ከኤጳፍንያ በኋላ የሚከበረው የክርስቶስ ጥምቀት መታሰቢያ ሆኖ የተጠማቂዎችን ቃል ኪዳን በማደስ ይከበራል። የክርስትና ስም በጥምቀት ቀን የሚሰጥ ሲሆን፣ የተጠማቂው የቅድስና ምሳሌና በእግዚአብሔር ፊት ግላዊ መጠሪያ ነው።
+
+[[teaching/confirmation]] የጥምቀትን ጸጋ የሚያጠናክር ሁለተኛው የክርስቲያን ምሥጢር ሲሆን፣ [[teaching/eucharist]] የክርስትና መግቢያ ምሥጢራት ሦስተኛውና ሙሉ ደረጃ ነው።
 
 ## Compendium Q&A
-- **Q105** — ኢየሱስ ከዮሐንስ «ለኃጢአት ስርየት የሚሆን የንስሐ ጥምቀት» የተቀበለው ለምንድነው?
-  Summary: Christ, though sinless, identified with sinners and sanctified the waters of the Jordan, prefiguring our own baptism.
-- **Q256** — ቤተክርስቲያን ማጥመቅ የጀመረችው መቼና ለማን ነው?
-  Summary: From Pentecost, to all who believe in Jesus Christ.
-- **Q297** — ከጥምቀት በኋላ የንስሐ ምሥጢር መኖር ለምንድነው?
-  Summary: Baptism removes sin but does not eradicate the inclination to sin; thus, the Sacrament of Reconciliation is necessary for those who fall after baptism.
-- **Q396** — ይቅርታ የምናገኝበት መደበኛው መንገድ ምንድነው?
-  Summary: Baptism and Reconciliation.
+
+### Q252
+
+**Q:** ወደ ክርስትና ሕይወት መግቢያ የሚሰጡ ስሞች ምንድናቸው?
+
+**A:** ይህ ምሥጢር ከሚከበርበት መሠረታዊ ሥነ ሥርዓት የተነሣ ጥምቀት በመባል ይታወቃል። ማጥመቅ ማለት ውሃ ውስጥ «መንከር» ማለት ነው። በሚነከርበት ጊዜም ተጠማቂው ከክርስቶስ ጋር በመቃብር በመውረድ ከእርሱ ጋር አብሮ ለመነሣትና «አዲስ ፍጥረት» ለመሆን ነው (2ኛ ቆሮ. 5፡17)። በተጨማሪም ይህ ምሥጢር «የመንፈስ ቅዱስ መታጠቢያና መታደስ» (ቲቶ 3፡5)፤ እንዲሁም ጥምቀት የተቀበለ ሰው «የብርሃን ልጅ» (ኤፌ. 5፡8) ስለሚሆን፣ የብርሃን ምሥጢር ተብሎም ይጠራል።
+
+[CCC 1213-1216]
+
+### Q253
+
+**Q:** ጥምቀት በብሉይ ኪዳን አስቀድሞ የታየው እንዴት ነው?
+
+**A:** በብሉይ ኪዳን ውስጥ ጥምቀት በልዩ ልዩ መንገዶች ተገልጿል፦ ውሃ የሕይወትና የሞት ምንጭ ተደርጎ ይወሰድ ነበር። በውሃ በዳነው በኖህ መርከብ ይመሰላል። እንደዚሁም እስራኤላውያንን ከግብፅ ባርነት ነፃ ባወጣው ቀይ ባሕርን በመሻገር ይገለፃል። የእስራኤልን ሕዝብ የዘላለማዊ ሕይወት ምሳሌ ወደ ሆነው ወደ ተስፋይቱ ምድር ያመጣውን የዮርዳኖስ ወንዝ መሻገርን ይመስላል።
+
+[CCC 1217-1222]
+
+### Q254
+
+**Q:** እነዚህን ምሳሌዎች ተፈጻሚ ያደረገው ማነው?
+
+**A:** የብሉይ ኪዳን ምሳሌዎች ሁሉ የተፈጸሙት በኢየሱስ ክርስቶስ ነው። ኢየሱስ ይፋ ሕይወቱን በጀመረ ጊዜ በመጥምቁ ዮሐንስ አማካይነት በዮርዳኖስ ወንዝ ተጠመቀ። በመስቀል ላይ ተሰቅሎ ሳለ የጥምቀትና የቅዱስ ቁርባን ምልክቶች የሆኑት ደምና ውሃ ከተወጋው ጎኑ ፈሰሱ። ከሙታን ተለይቶ ከተነሣ በኋላ «እንግዲህ ሂዱና አሕዛብን ሁሉ በአብ፣ በወልድና በመንፈስ ቅዱስ ስም እያጠመቃችኋቸው ደቀመዛሙርት አድርጓቸው» (ማቴ. 28፡19) በማለት ለሐዋርያቱ አዘዘ።
+
+[CCC 1223-1225]
+
+### Q255
+
+**Q:** ቤተክርስቲያን ማጥመቅ የጀመረችው መቼና ለማን ነው?
+
+**A:** ቤተክርስቲያን፣ ከጴንጠቆስጤ ቀን ጀምሮ በኢየሱስ ክርስቶስ ለሚያምን ማንኛውም ሰው ጥምቀት መስጠት ጀምራለች።
+
+[CCC 1226-1228]
+
+### Q256
+
+**Q:** የጥምቀት ሥነ ሥርዓት ምን ያካትታል?
+
+**A:** የዚህ ምስጢር ዋና ሥርዓት የአብ፣ የወልድና የመንፈስ ቅዱስን ስም እየጠሩ ዕጩ ተጠማቂውን ውሃ ውስጥ መንከርን ወይም በራሱ ላይ ውሃ ማፍሰስን ያካትታል።
+
+[CCC 1229-1245]
+
+### Q257
+
+**Q:** ጥምቀት መቀበል የሚችለው ማነው?
+
+**A:** ያልተጠመቀ ማንኛውም ሰው ጥምቀት መቀበል ይችላል።
+
+[CCC 1246-1252]
+
+### Q258
+
+**Q:** ቤተክርስቲያን ሕፃናትን የምታጠምቀው ለምንድነው?
+
+**A:** ቤተክርስቲያን ሕፃናትን የምታጠምቀው በአዳም ኃጢአት ስለተወለዱ ነው። ስለዚህ፣ ከሰይጣን ኃይል ነፃ መውጣትና ወደ እግዚአብሔር ልጆች የነፃነት መንግሥት መግባት ይኖርባቸዋል።
+
+[CCC 1250-1252, 1282]
+
+### Q259
+
+**Q:** ከሚጠመቅ ሰው ምን ይጠበቃል?
+
+**A:** የሚጠመቅ ሰው ሁሉ እምነትን መግለጽ ይጠበቅበታል። ይህም ሊሆን የሚችለው አዋቂ ከሆነ በራሱ፣ ሕፃናት ከሆኑ ደግሞ በወላጆችና በቤተክርስቲያን በኩል ነው።
+
+[CCC 1253-1255]
+
+### Q260
+
+**Q:** ማጥመቅ የሚችለው ማነው?
+
+**A:** የጥምቀት መደበኛ አገልጋዮች ጳጳሳትና ካህናት ናቸው። በላቲን ቤተክርስቲያን ዲያቆንም ማጥመቅ ይችላል። አስፈላጊ ሲሆን፣ ዓላማው ቤተ ክርስቲያን የምታደርገውን ለማድረግ ከሆነ፣ ማንኛውም ሰው ሊያጠምቅ ይችላል። ይህም የሚሆነው በተጠማቂው ራስ ላይ በማፍሰስና ለጥምቀት የተቀመጠውን ሥላሴአዊ ቃል በመድገም ማለትም «በአብ፣ በወልድና በመንፈስ ቅዱስ ስም አጠምቅሃለሁ» በማለት ነው።
+
+[CCC 1256]
+
+### Q261
+
+**Q:** ጥምቀት ለደኅንነት ያስፈልጋል?
+
+**A:** ጥምቀት ወንጌል ለተሰበከላቸውና ይህንን ምሥጢር ለመቀበል ችሎታው ላላቸው ሰዎች ደኅንነት አስፈላጊ ነው።
+
+[CCC 1257]
+
+### Q262
+
+**Q:** ያለጥምቀት መዳን ይቻላል?
+
+**A:** ክርስቶስ ስለሁሉም ሰው ደኅንነት ስለሞተ ስለ እምነታቸው ያለ ጥምቀት የሞቱ ሰዎች ሊድኑ ይችላሉ — ይህም የደም ጥምቀት ይባላል። ቅን ፈቃድ ያላቸው ክርስቶስንና ቤተክርስቲያንን የማያውቁ ሰዎች እንኳ (በጸጋ ኃይል) እግዚአብሔርን በእውነት ሊፈልጉና ፈቃዱን ሊያደርጉ ስለሚችሉ የፍላጎት ጥምቀት ሊቀበሉና ሊድኑ ይችላሉ። ቤተክርስቲያን ሳይጠመቁ የሞቱ ሕፃናትንም ለእግዚአብሔር ምሕረት በጸሎት ታስረክባለች።
+
+[CCC 1258-1261, 1283]
+
+### Q263
+
+**Q:** የጥምቀት ውጤቶች ምንድናቸው?
+
+**A:** ጥምቀት የአዳምን ኃጢአት፣ የግል ኃጢአትን በሙሉ፣ እና በኃጢአት ምክንያት የሚመጣውን ቅጣት ሁሉ ያስወግዳል። የተጠመቀውን ሰው በሚቀድስ ጸጋ ማለትም አንድን ሰው ከክርስቶስና ከቤተክርስቲያኑ ጋር በሚያዋህድ የጽድቅ ጸጋ አማካይነት በቅድስት ሥላሴ መለኮታዊ ሕይወት ተካፋይ ያደርገዋል። ሰውን በክርስቶስ ክህነት እንዲሳተፍና ከክርስቲያኖች ሁሉ ጋር አንድነት እንዲኖረው ያደርጋል። ነገረ መለኮታዊ ትሩፋትና የመንፈስ ቅዱስ ስጦታዎችን ይሰጣል። የተጠመቀው ሰው ለዘላለም የክርስቶስ ሆኖ ይታወቃል፤ በነፍሱ ላይ የማይጠፋ የክርስቶስ መንፈሳዊ ማህተም ይታተማል።
+
+[CCC 1262-1274, 1279-1280]
+
+### Q264
+
+**Q:** በጥምቀት ጊዜ የሚሰጥ የክርስትና ስም ምን ትርጉም አለው?
+
+**A:** ስም ጠቀሜታ አለው — ምክንያቱም እግዚአብሔር እያንዳንዳችንን የሚያውቀን በስማችን ማለትም በግላዊ እውነታችን ነው። በጥምቀት አንድ ክርስቲያን በቤተክርስቲያን ውስጥ የራሱ ወይም የቅዱስ ስም ይሰጠዋል፤ ይህም ለተጠመቀው ሰው የቅድስና ምሳሌ የሚሆንና በእግዚአብሔር ፊት የሚያማልድ ነው።
+
+[CCC 2156-2159]
 
 ## Scripture
 
-ឃ> «ሂዱና አሕዛብን ሁሉ በአብ፥ በወልድና በመንፈስ ቅዱስ ስም እያጠመቃችኋቸው ደቀ መዛሙርት አድርጓቸው።»
+> «ስለዚህ ሂዱና አሕዛብን ሁሉ በአብ፥ በወልድና በመንፈስ ቅዱስ ስም እያጠመቃችኋቸው ደቀ መዛሙርት አድርጓቸው።»
 > — ማቴዎስ 28:19
 
 > «ሰው ከውኃና ከመንፈስ ካልተወለደ በቀር ወደ እግዚአብሔር መንግሥት መግባት አይችልም።»
 > — ዮሐንስ 3:5
 
 > «ወይስ ከክርስቶስ ኢየሱስ ጋር አንድ ለመሆን የተጠመቅን ሁላችን ከሞቱ ጋር አንድ ለመሆን እንደ ተጠመቅን አታውቁምን? ስለዚህ በክርስቶስ ከሙታን እንደ ተነሣ እንዲሁ እኛም በአዲስ ሕይወት እንድንኖር፥ በጥምቀት አማካኝነት በሞት ከእርሱ ጋር ተቀብረናል።»
-> — ሮሜ 6:3–4 (Baptism into Christ's death and resurrection)
+> — ሮሜ 6:3–4
+
+> «የእናንተም ጥምቀት እርሱም ብቻ የእውነት ዋናው ምሳሌ ነው፤ ይኸውም የቆሻሻን ሥጋ ማስወገድ ሳይሆን ለእግዚአብሔር መልካም ሕሊናን ለመስጠት የሚደረግ ስእለት ነው።»
+> — 1ኛ ጴጥሮስ 3:21
 
 ## Open questions
-- How does the Compendium's specific wording on the indelible seal (ማህተም) in Q256 compare to EOTC teaching on "rebaptism" of apostates?
+
+- How does the Ethiopian Catholic *ጥምቀት* practice differ in detail from the Roman rite — chrismation immediately after baptism (as in the Eastern usage) or deferred to confirmation (as in the Latin usage)?
+- The Ethiopian commemoration of Christ's baptism (በዓለ ጥምቀት / Timket) draws crowds of millions; how does the Compendium's universal teaching on baptism interact with the deeply Ethiopian liturgical theology of Timket as a public renewal of baptismal vows?
+- The Compendium's broad acceptance of validly conferred baptisms across denominations — what pastoral protocol does the Ethiopian Catholic eparchy follow when receiving a baptized Protestant or Tewahedo Orthodox into full communion?
 
 ## Sources
-- `raw/catechism/extracted/Scan 35.md` (Q105)
-- `raw/catechism/extracted/Scan 21.md` (Q256)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 66.md` (Q297)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 15.md` (Q396)
+
+- `raw/catechism/extracted/Scan 35.md` (Q105 — Christ's baptism by John)
+- `raw/catechism/extracted/Scan 21.md` (Q256 — sacramental rite)
+- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 66.md` (Q297 — necessity of penance after baptism)
+- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 15.md` (Q396 — ordinary path of forgiveness)
+- `raw/catechism/qa_index.json` (Q252-264 — full baptism block)
+- Compendium of the Catechism of the Catholic Church, Part Two §§252-264
+- Catechism of the Catholic Church 1213-1284

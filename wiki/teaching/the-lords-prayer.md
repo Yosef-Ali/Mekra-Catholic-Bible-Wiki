@@ -6,9 +6,8 @@
 **Compendium Q:** 578–598
 **CCC:** 2759-2865
 **Sources:** 9
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/prayer-in-christian-life]], [[teaching/prayer-combat]], [[concepts/ጸሎት]], [[figures/ኢየሱስ-ክርስቶስ]]
 ## Synthesis
 
 ## Synthesis
@@ -211,8 +210,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

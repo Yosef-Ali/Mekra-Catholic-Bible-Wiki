@@ -6,9 +6,8 @@
 **Compendium Q:** 265–270
 **CCC:** 1285-1321
 **Sources:** 3
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/baptism]], [[teaching/eucharist]], [[teaching/holy-spirit]], [[concepts/ጸጋ]]
 ## Synthesis
 
 ሜሮን በጥምቀት የተቀበልነውን የ[[concepts/ጸጋ]] ሕይወት የሚያጠናክርና የ[[concepts/መንፈስ ቅዱስ]]ን ስጦታዎች በሙላት የሚያፈስበት ምሥጢር ነው። በብሉይ ኪዳን ነቢያት መሲሑ በመንፈስ ቅዱስ እንደሚቀባና የእግዚአብሔር መንፈስ በመሲሐዊ ሕዝብ ላይ እንደሚያርፍ ተናግረዋል (ኢሳ. 11፡2)። ይህ ተስፋ በጴንጤቆስጤ ዕለት ሐዋርያት መንፈስ ቅዱስን ሲቀበሉና «የእግዚአብሔርን ታላቅ ሥራ» ሲናገሩ ተፈጸመ (የሐዋ. 2፡4፣11)። ሐዋርያትም ይህን ስጦታ እጅ በመጫን ለአዲስ ተጠማቂዎች አስተላለፉ (የሐዋ. 8፡17)፤ ይህ ልማድ እስከ ዛሬ በቤተክርስቲያን ቀጥሏል። በኢትዮጵያ ካቶሊካዊ ትውፊት ይህ ምሥጢር "ሜሮን" ተብሎ የሚጠራ ሲሆን፣ ስያሜው የመጣው በሥርዓቱ ዋና ተግባር ከሆነው ከቅዱስ ቅባት መቀባት ነው፤ ይህም የጥምቀትን ጸጋ ስለሚያጠናክር ነው።
@@ -83,8 +82,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

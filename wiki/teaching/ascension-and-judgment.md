@@ -6,9 +6,8 @@
 **Compendium Q:** 132–135
 **CCC:** 659-682
 **Sources:** 2
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/passion-death-resurrection]], [[teaching/jesus-christ-incarnation]], [[concepts/ዘላለማዊ ሕይወት]], [[concepts/ትንሣኤ]], [[concepts/ፍርድ]]
 ## Synthesis
 
 ከ[[teaching/passion-death-resurrection]] በኋላ ኢየሱስ ለአርባ ቀናት ራሱን ለሐዋርያት ከገለጠ በኋላ ወደ ሰማይ ዐረገ፣ በ[[teaching/god-the-father-creator]] አብ ቀኝም ተቀመጠ። ይህ ዕርገት ማለት ክርስቶስ ከዓለም መለየቱን ሳይሆን፣ በሰብአዊነቱ ወደ እግዚአብሔር ክብር መግባቱን የሚያሳይ ነው። አሁን በሰማይ ሆኖ ስለ እኛ ዘወትር ይማልዳል፤ [[teaching/holy-spirit]]ን ይልክልናል፤ እኛም እርሱ ወዳለበት እንደምንደርስ ተስፋ ይሰጠናል።
@@ -61,8 +60,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

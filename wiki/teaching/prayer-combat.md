@@ -6,9 +6,8 @@
 **Compendium Q:** 569–577
 **CCC:** 2725-2758
 **Sources:** 5
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/prayer-in-christian-life]], [[teaching/the-lords-prayer]], [[concepts/ጸሎት]]
 ## Synthesis
 
 ## Synthesis
@@ -101,8 +100,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

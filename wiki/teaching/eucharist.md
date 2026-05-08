@@ -6,9 +6,8 @@
 **Compendium Q:** 271–294
 **CCC:** 1322-1419
 **Sources:** 9
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/baptism]], [[teaching/confirmation]], [[teaching/passion-death-resurrection]], [[teaching/holy-orders]], [[concepts/ሕብረት]], [[concepts/ቤዛ]]
 ## Synthesis
 
 ## Synthesis
@@ -211,8 +210,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

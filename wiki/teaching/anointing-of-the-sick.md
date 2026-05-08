@@ -6,9 +6,8 @@
 **Compendium Q:** 313–320
 **CCC:** 1499-1532
 **Sources:** 4
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/penance]], [[teaching/eucharist]], [[teaching/holy-orders]], [[concepts/ምሕረት]], [[concepts/ሞት]]
 ## Synthesis
 
 የሕሙማን ቅባት (Anointing of the Sick) በከባድ ሕመም ወይም በእርጅና ምክንያት ለተዳከሙ ምእመናን ልዩ የ[[concepts/ጸጋ]] መጽናናትንና የፈውስ ተስፋን የሚሰጥ ምሥጢር ነው። መሠረቱን በሐዋርያዊ ትውፊት ያለው ሲሆን፣ ቅዱስ ያዕቆብ በመልእክቱ እንዲህ ሲል ያስተምራል፦ «ከእናንተ የታመመ ማንም ቢኖር የቤተ ክርስቲያንን ሽማግሌዎች ወደ እርሱ ይጥራ፤ በጌታም ስም ዘይት ቀብተው ይጸልዩለት። በ[[concepts/እምነት]] የቀረበ ጸሎት የታመመውን ሰው ያድነዋል፤ ጌታም ያስነሣዋል፤ ኃጢአትም ሠርቶ ከሆነ ይቅር ይባላል» (ያዕ. 5፡14-15)። ጌታ ኢየሱስ ራሱ በምድራዊ አገልግሎቱ ወቅት ብዙ ሕሙማንን ፈውሷል፤ ይህም የእግዚአብሔር መንግሥት መምጣቱንና በኃጢአት፣ በመከራና በሞት ላይ ድል መገኘቱን የሚያሳይ ምልክት ነበር (ማር. 6፡13)።
@@ -93,8 +92,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

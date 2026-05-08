@@ -6,9 +6,8 @@
 **Compendium Q:** 433–454
 **CCC:** 1877-1948
 **Sources:** 11
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/human-dignity]], [[teaching/seventh-and-tenth-commandments]], [[teaching/morality-and-conscience]], [[concepts/ጽድቅ]]
 ## Synthesis
 
 የክርስቲያናዊ ግብረገብ ሕይወት ማዕከል አሥርቱ ትእዛዛት ናቸው። ጌታችን ኢየሱስ ክርስቶስ እነዚህን ትእዛዛት በሁለት ታላላቅ የፍቅር ትእዛዛት ጠቅልሎ ገልጧቸዋል፦ እግዚአብሔርን በፍጹም ልብህ፣ በፍጹም ነፍስህና በፍጹም አሳብህ ውደድ፤ ባልንጀራህንም እንደ ነፍስህ ውደድ። አሥርቱ ትእዛዛት «አሥሩ የቃል ኪዳን ቃላት» ሲሆኑ፣ የእግዚአብሔርን ፈቃድና ወደ ሕይወትና ደስታ የሚወስደውን መንገድ ያሳያሉ። እነዚህ ትእዛዛት መሠረታዊና የማይነጣጠሉ ናቸው፤ አንዱን መጣስ ሁሉንም እንደመጣስ ነው።
@@ -201,8 +200,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 

@@ -6,9 +6,8 @@
 **Compendium Q:** 147–193
 **CCC:** 748-975
 **Sources:** 19
-**Last updated:** 2026-04-09
-**Related:** *(to be linked during future ingests)*
-
+**Last updated:** 2026-05-08
+**Related:** [[teaching/holy-spirit]], [[teaching/the-creed]], [[teaching/holy-orders]], [[teaching/eucharist]], [[apologetics/pope-primacy]], [[concepts/ሕብረት]]
 ## Synthesis
 
 ቤተክርስቲያን ከዓለም ሁሉ የተጠሩና የተሰበሰቡ የእግዚአብሔር ሕዝብ ጉባኤ ናት። በ[[concepts/ጥምቀት]]ና በ[[concepts/እምነት]] አማካይነት የእግዚአብሔር ልጆች፣ የ[[figures/ኢየሱስ-ክርስቶስ]] አካል ክፍሎችና የ[[teaching/holy-spirit]] ማደሪያዎች የሆኑ ምእመናን ይመሠርቷታል። ቤተክርስቲያን ምንጭዋ ከ[[teaching/god-the-father-creator]] ዘላለማዊ ዕቅድ የተነሣ ሲሆን፣ በኢየሱስ ክርስቶስ ሕማም፣ ሞትና ትንሣኤ ተመሥርታ፣ በጴንጠቆስጤ ዕለት መንፈስ ቅዱስ ሲወርድ ተገልጣለች።
@@ -410,8 +409,6 @@
 
 ## Open questions
 
-- Synthesis section needs to be written.
-- Related links need to be filled in.
 
 ## Sources
 
