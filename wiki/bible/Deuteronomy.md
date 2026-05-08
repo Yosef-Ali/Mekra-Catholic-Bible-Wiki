@@ -58,7 +58,7 @@ Deuteronomy is foundational for Catholic moral theology, covenant theology, and 
 - The Amharic Emmaus rendering of the Shema in Deut 6:4 — does "አንድ ጌታ ነው" (one LORD) adequately capture the Hebrew יְהוָה אֶחָד (YHWH is one), which can carry both numerical singularity and the qualitative uniqueness/singleness of YHWH?
 - Deuteronomy 18:15 — the Samaritan Pentateuch reads this as a distinct promise of a specific prophet (the Taheb, the restorer), while Jewish and Christian tradition read it as instituting the prophetic office generically with an eschatological fulfillment. Does the Emmaus Amharic note this range of interpretation?
 - The relationship between the Deuteronomic covenant structure and the Hittite suzerainty treaty form (2nd millennium BC) — a thematic page on "Ancient Near Eastern Covenants and Biblical Covenant Theology" would enrich the apologetics dimension.
-- The Song of Moses (Deut 32) and its use in Revelation 15:3–4 as the "song of Moses and the Lamb" — this canonical connection between the two Testaments deserves a thematic page under [[themes/]].
+- The Song of Moses (Deut 32) and its use in Revelation 15:3–4 as the "song of Moses and the Lamb" — this canonical connection between the two Testaments deserves a thematic page under themes/.
 
 ## Sources
 

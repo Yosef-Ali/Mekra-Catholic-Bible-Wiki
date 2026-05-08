@@ -62,7 +62,7 @@ Matthew is the most-quoted Gospel in Catholic catechesis. Its key passages under
 
 ## Open questions
 
-- Does the Amharic Emmaus edition consistently render መንግሥተ ሰማያት (Kingdom of Heaven) in Matthew versus መንግሥተ እግዚአብሔር (Kingdom of God) in Mark/Luke? A comparison of usage across the Synoptics would enrich [[themes/]].
+- Does the Amharic Emmaus edition consistently render መንግሥተ ሰማያት (Kingdom of Heaven) in Matthew versus መንግሥተ እግዚአብሔር (Kingdom of God) in Mark/Luke? A comparison of usage across the Synoptics would enrich themes/.
 - How does the Amharic Emmaus translation handle Matthew's formula-quotations ("this was to fulfill...") — are they marked typographically or by consistent phrasing?
 - The Compendium's catechetical use of Matthew 16:18 — is the Emmaus rendering of ዓለት (rock) and the play on ጴጥሮስ/ጴጥሮስ consistent with the Latin *Petrus/petram* wordplay?
 

@@ -10,7 +10,7 @@
 **Titles:** Doctor of the Church, Father of Biblical Scholarship, Translator of the Vulgate, Patron of Translators and Librarians
 **Sources:** 3
 **Last updated:** 2026-05-07
-**Related:** [[teaching/scripture-and-tradition]], [[teaching/the-canon]], [[bible/Genesis]], [[concepts/ቅዱስ-መጽሐፍ]], [[figures/Augustine]]
+**Related:** [[teaching/faith-and-revelation]], [[teaching/faith-and-revelation]], [[bible/Genesis]], [[teaching/faith-and-revelation]], [[figures/Augustine]]
 
 ## Biography
 

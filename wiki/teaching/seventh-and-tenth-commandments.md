@@ -193,7 +193,7 @@
 
 ## Open questions
 
-- Synthesis cross-references with [[teaching/social-doctrine]] need to be filled in once that page exists.
+- Synthesis cross-references with [[teaching/society-and-justice]] need to be filled in once that page exists.
 
 ## Sources
 

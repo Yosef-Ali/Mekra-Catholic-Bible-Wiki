@@ -10,7 +10,7 @@
 **Titles:** Doctor of the Church, Father of Latin Hymnody, Bishop of Milan, "Honey-Tongued" (*mellifluus*)
 **Sources:** 3
 **Last updated:** 2026-05-07
-**Related:** [[figures/Augustine]], [[figures/Jerome]], [[teaching/baptism]], [[teaching/the-mass]], [[concepts/አምልኮ]]
+**Related:** [[figures/Augustine]], [[figures/Jerome]], [[teaching/baptism]], [[teaching/eucharist]], [[concepts/አምልኮ]]
 
 ## Biography
 

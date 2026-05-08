@@ -7,7 +7,7 @@
 **CCC:** 1213–1284
 **Sources:** 9
 **Last updated:** 2026-05-08
-**Related:** [[concepts/ጸጋ]], [[concepts/ምሥጢር]], [[teaching/confirmation]], [[teaching/eucharist]], [[teaching/penance]], [[figures/ዮሐንስ-መጥምቅ]]
+**Related:** [[concepts/ጸጋ]], [[concepts/ምሥጢር]], [[teaching/confirmation]], [[teaching/eucharist]], [[teaching/penance]], [[figures/ዮሐንስ-መጥምቁ]]
 
 ## Synthesis
 

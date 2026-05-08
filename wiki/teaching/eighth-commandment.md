@@ -7,7 +7,7 @@
 **CCC:** 2464-2513
 **Sources:** 3
 **Last updated:** 2026-05-07
-**Related:** [[concepts/እውነት]], [[figures/ኢየሱስ]]
+**Related:** [[concepts/እውነት]], [[figures/ኢየሱስ-ክርስቶስ]]
 
 ## Synthesis
 
@@ -76,7 +76,7 @@
 
 ## Open questions
 
-- Cross-link to [[teaching/social-doctrine]] on media ethics once that page exists.
+- Cross-link to [[teaching/society-and-justice]] on media ethics once that page exists.
 
 ## Sources
 

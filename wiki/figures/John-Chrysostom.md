@@ -10,7 +10,7 @@
 **Titles:** Doctor of the Church, "Golden-Mouth" (Χρυσόστομος), Patriarch of Constantinople, Father of the Liturgy
 **Sources:** 3
 **Last updated:** 2026-05-07
-**Related:** [[teaching/the-mass]], [[teaching/eucharist]], [[teaching/holy-orders]], [[concepts/አምልኮ]], [[teaching/prayer-in-christian-life]]
+**Related:** [[teaching/eucharist]], [[teaching/eucharist]], [[teaching/holy-orders]], [[concepts/አምልኮ]], [[teaching/prayer-in-christian-life]]
 
 ## Biography
 

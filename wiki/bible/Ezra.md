@@ -6,7 +6,7 @@
 **Section:** OT
 **Sources:** 2
 **Last updated:** 2026-05-06
-**Related:** [[teaching/the-church]], [[concepts/ኪዳን]], [[concepts/አምልኮ]]
+**Related:** [[teaching/the-church]], [[concepts/ቃል ኪዳን]], [[concepts/አምልኮ]]
 
 ## Overview
 Ezra recounts the return of the Jewish exiles from Babylon under Persian decree (c. 538 BC) and the rebuilding of the Temple in Jerusalem. The book is named after Ezra the scribe-priest who leads a second wave of returnees and spearheads a spiritual reform centered on the Torah. Historically it covers approximately 80 years and is continued in the book of Nehemiah. Catholic tradition reads Ezra as a model of fidelity to God's law and the renewal of liturgical worship after exile — a type of the Church's own mission of restoration.

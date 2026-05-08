@@ -2,8 +2,8 @@
 // One-shot script: replace `**Related:** *(to be linked during future ingests)*`
 // across teaching pages with topic-specific [[wiki-link]] lists; bump Last updated;
 // drop the two stale "Synthesis section needs to be written" / "Related links need
-// to be filled in" bullets in `## Open questions`. Validates that every link target
-// actually exists on disk before writing.
+// to be filled in" bullets in `## Open questions`. Validates every link target
+// across every file BEFORE writing — aborts without mutating if any are missing.
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -45,51 +45,53 @@ const STALE_BULLETS = [
   /^\s*-\s+Related links need to be filled in\.?\s*$/,
 ];
 
-let updated = 0, skipped = 0, missing = [];
-
+// --- Phase 1: validate every link target across every file before mutating anything.
+const missing = [];
+const fileNotFound = [];
 for (const [slug, links] of Object.entries(RELATED)) {
   const file = join(ROOT, 'wiki', 'teaching', `${slug}.md`);
-  if (!existsSync(file)) { skipped++; continue; }
-
-  // Validate all link targets exist on disk
+  if (!existsSync(file)) {
+    fileNotFound.push(slug);
+    continue;
+  }
   for (const link of links) {
-    const targetFile = join(ROOT, 'wiki', `${link}.md`);
-    if (!existsSync(targetFile)) {
+    if (!existsSync(join(ROOT, 'wiki', `${link}.md`))) {
       missing.push(`${slug} → ${link}`);
     }
   }
+}
 
-  let body = readFileSync(file, 'utf8');
-  let changed = false;
+if (missing.length) {
+  console.error(`\n⚠️  Aborting — link targets do not exist on disk:`);
+  for (const m of missing) console.error(`  - ${m}`);
+  process.exit(1);
+}
 
-  // Replace Related: line
+// --- Phase 2: apply transforms. Safe to mutate now.
+let updated = 0, unchanged = 0;
+
+for (const [slug, links] of Object.entries(RELATED)) {
+  if (fileNotFound.includes(slug)) continue;
+  const file = join(ROOT, 'wiki', 'teaching', `${slug}.md`);
+  const original = readFileSync(file, 'utf8');
+
   const relatedLine = `**Related:** ${links.map((l) => `[[${l}]]`).join(', ')}`;
-  const newBody = body.replace(/^\*\*Related:\*\*\s*\*\(to be linked during future ingests\)\*\s*$/m, relatedLine);
-  if (newBody !== body) { body = newBody; changed = true; }
+  let body = original
+    .replace(/^\*\*Related:\*\*\s*\*\(to be linked during future ingests\)\*\s*$/m, relatedLine)
+    .replace(/^\*\*Last updated:\*\*\s*[^\n]+$/m, `**Last updated:** ${TODAY}`);
 
-  // Bump Last updated
-  const updatedLine = `**Last updated:** ${TODAY}`;
-  const newBody2 = body.replace(/^\*\*Last updated:\*\*\s*[^\n]+$/m, updatedLine);
-  if (newBody2 !== body) { body = newBody2; changed = true; }
+  body = body.split('\n').filter((l) => !STALE_BULLETS.some((re) => re.test(l))).join('\n');
 
-  // Remove stale Open questions bullets
-  for (const re of STALE_BULLETS) {
-    const newBody3 = body.split('\n').filter((l) => !re.test(l)).join('\n');
-    if (newBody3 !== body) { body = newBody3; changed = true; }
-  }
-
-  if (changed) {
+  if (body !== original) {
     writeFileSync(file, body);
     updated++;
     console.log(`  ✓ ${slug}`);
   } else {
-    skipped++;
+    unchanged++;
   }
 }
 
-console.log(`\n📊 updated=${updated} skipped=${skipped}`);
-if (missing.length) {
-  console.log(`\n⚠️  Link targets that do not exist on disk:`);
-  for (const m of missing) console.log(`  - ${m}`);
-  process.exit(1);
+console.log(`\n📊 updated=${updated} unchanged=${unchanged} not-found=${fileNotFound.length}`);
+if (fileNotFound.length) {
+  console.log(`Files not found: ${fileNotFound.join(', ')}`);
 }

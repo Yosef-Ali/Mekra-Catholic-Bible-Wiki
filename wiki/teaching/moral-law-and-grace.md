@@ -7,7 +7,7 @@
 **CCC:** 1949-2051
 **Sources:** 5
 **Last updated:** 2026-05-08
-**Related:** [[teaching/morality-and-conscience]], [[teaching/virtues]], [[teaching/sin]], [[teaching/the-church]], [[concepts/ጸጋ]], [[concepts/ኪዳን]], [[concepts/ጽድቅ]]
+**Related:** [[teaching/morality-and-conscience]], [[teaching/virtues]], [[teaching/sin]], [[teaching/the-church]], [[concepts/ጸጋ]], [[concepts/ቃል ኪዳን]], [[concepts/ጽድቅ]]
 
 ## Synthesis
 

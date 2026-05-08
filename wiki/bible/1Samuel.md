@@ -55,7 +55,7 @@ David's confession before Goliath — the battle belongs to the LORD, not to hum
 ## Open questions
 
 - The Amharic Emmaus rendering of "a man after his own heart" (1 Sam 13:14) — does the Amharic capture the Hebrew sense of divine election and alignment of the heart, or does it risk being read as moral perfection (which David certainly lacked)?
-- Hannah's song (1 Sam 2:1–10) and its relationship to Mary's Magnificat (Luke 1:46–55) — the Amharic parallels between these two canticles deserve a thematic page under [[themes/]].
+- Hannah's song (1 Sam 2:1–10) and its relationship to Mary's Magnificat (Luke 1:46–55) — the Amharic parallels between these two canticles deserve a thematic page under themes/.
 - The troubling narrative of the witch of Endor (1 Sam 28) — how does the Emmaus edition handle this episode, and does it address the Catholic understanding of necromancy and the afterlife?
 - David's anointing as a type of Christ — the three anointings of David (by Samuel, by Judah, by all Israel; 1 Sam 16, 2 Sam 2, 2 Sam 5) as prefiguring Christ's anointing at His baptism, transfiguration, and resurrection.
 

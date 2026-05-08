@@ -5,7 +5,7 @@
 **Compendium Q:** 136–146
 **Sources:** 3
 **Last updated:** 2026-05-06
-**Related:** [[teaching/the-creed]], [[concepts/ሥላሴ]]
+**Related:** [[teaching/the-creed]], [[concepts/ቅድስት ሥላሴ]]
 
 ## Catholic teaching
 The Holy Spirit is the third Person of the Blessed Trinity, proceeding from the Father

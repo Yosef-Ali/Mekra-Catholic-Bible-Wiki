@@ -1,7 +1,7 @@
 # Zephaniah (ትንቢተ ሶፎንያስ)
 **Type:** bible | **Amharic:** ትንቢተ ሶፎንያስ | **Chapters:** 3 | **Section:** OT
 **Sources:** 2 | **Last updated:** 2026-05-06
-**Related:** [[concepts/ትሕትና]], [[concepts/ድኅነት]]
+**Related:** [[concepts/ትሕትና]], [[concepts/ደኅንነት]]
 
 ## Overview
 Zephaniah prophesies during the reign of King Josiah (7th century BC). His message is dominated by "the day of the Lord" — a day of wrath against Judah's idolatry but also a day of restoration for a humble remnant. The Latin hymn "Dies Irae" draws its imagery from Zephaniah. The book ends with one of Scripture's most tender images: God rejoicing over His people with singing (3:17).

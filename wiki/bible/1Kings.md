@@ -59,7 +59,7 @@ The still small voice at Horeb — God is not in the spectacular displays of pow
 - The Old Testament tolerance of Elijah's slaughter of the prophets of Baal (18:40) presents a challenge for Catholic moral teaching on violence and religious coercion — a dedicated page on "Prophetic Violence in the Old Testament" would be valuable for apologetics and moral theology.
 - The Amharic rendering of the "still small voice" (የሹክሹክታ ድምፅ) in 19:12 — does it capture the Hebrew דְּמָמָה דַקָּה (a sound of sheer silence) adequately, and how does this affect the contemplative reading of the passage?
 - Solomon's foreign wives and his descent into idolatry (ch. 11) — a synthesis page on "The Danger of Mixed Marriage in the Deuteronomistic History" would connect this to Ezra-Nehemiah and the Church's pastoral approach to interfaith marriage.
-- The relationship between the prophetic "sons of the prophets" in 1–2 Kings and early Christian monasticism and religious orders merits a thematic exploration under [[themes/]].
+- The relationship between the prophetic "sons of the prophets" in 1–2 Kings and early Christian monasticism and religious orders merits a thematic exploration under themes/.
 
 ## Sources
 

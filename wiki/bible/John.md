@@ -66,7 +66,7 @@ John's theological depth makes it the most-quoted Gospel in doctrinal and sacram
 - The "I AM" (እኔ ነኝ) statements: Does the Amharic Emmaus edition render these identically across all seven instances? The theological weight of the divine name requires consistent translation.
 - John 6:51–58 (the "hard saying" on eating Jesus' flesh): How does the Emmaus Amharic handle the shift from φαγεῖν (eat) to τρώγων (gnaw/chew) in v. 54? This lexical shift is significant for Catholic Eucharistic apologetics.
 - The Johannine Comma (1 John 5:7–8) is not present in John's Gospel, but the Johannine corpus's Trinitarian shape will be relevant when the epistles are synthesized. Note for future cross-referencing.
-- The relationship between John and the Synoptics — especially the chronology of the Last Supper — will need a dedicated thematic page under [[themes/]] (e.g., "The Johannine Passion Chronology").
+- The relationship between John and the Synoptics — especially the chronology of the Last Supper — will need a dedicated thematic page under themes/ (e.g., "The Johannine Passion Chronology").
 
 ## Sources
 

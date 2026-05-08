@@ -1,7 +1,7 @@
 # Malachi (ትንቢተ ሚልክያስ)
 **Type:** bible | **Amharic:** ትንቢተ ሚልክያስ | **Chapters:** 4 | **Section:** OT
 **Sources:** 2 | **Last updated:** 2026-05-06
-**Related:** [[figures/ዮሐንስ-መጥምቅ]], [[teaching/eucharist]]
+**Related:** [[figures/ዮሐንስ-መጥምቁ]], [[teaching/eucharist]]
 
 ## Overview
 Malachi, the last book of the Old Testament in the Christian canon, addresses a disillusioned post-exilic community. The Temple is rebuilt but the fervor has faded — priests offer blemished sacrifices and the people wonder if serving God is worth it. Malachi calls for purified worship and announces the coming of a messenger who will prepare the way. The book ends with the promise of Elijah's return, bridging the Testaments.

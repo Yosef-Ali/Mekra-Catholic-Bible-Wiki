@@ -65,7 +65,7 @@ Genesis is the foundational biblical text for the opening articles of the Creed 
 - The Amharic Emmaus rendering of "image and likeness" (መልክ / ምሳሌ) in Genesis 1:26 — does the translation distinguish the two terms (צֶלֶם / דְּמוּת) consistently, and does it preserve the patristic distinction that some Greek and Latin Fathers drew between image (reason/freedom) and likeness (sanctifying grace)?
 - Genesis 3:15 — the translation of the Hebrew "he" (הוּא) vs. the Septuagint "he" (αὐτός) vs. the Vulgate "she" (ipsa). How does the Emmaus Amharic render the subject who crushes the serpent's head, and does this affect the Mariological reading?
 - The relationship between Genesis 1–11 and ancient Near Eastern mythologies (Enuma Elish, Atrahasis, Gilgamesh) — a dedicated thematic page (e.g., "Genesis and Ancient Near Eastern Context") would be valuable for apologetics.
-- The Joseph narrative (chs. 37–50) as a type of Christ: betrayed by his brothers, sold for silver, descends into the pit, rises to save the nations. This typology deserves its own synthesis page under [[themes/]].
+- The Joseph narrative (chs. 37–50) as a type of Christ: betrayed by his brothers, sold for silver, descends into the pit, rises to save the nations. This typology deserves its own synthesis page under themes/.
 
 ## Sources
 

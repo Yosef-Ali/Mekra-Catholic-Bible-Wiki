@@ -5,7 +5,7 @@
 **Compendium Q:** 321–335
 **Sources:** 3
 **Last updated:** 2026-05-06
-**Related:** [[teaching/the-church]], [[concepts/ክህነት]]
+**Related:** [[teaching/the-church]], [[teaching/holy-orders]]
 
 ## Catholic teaching
 Holy Orders is the sacrament through which the mission entrusted by Christ to His apostles

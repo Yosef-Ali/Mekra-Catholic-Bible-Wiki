@@ -56,7 +56,7 @@ Judges provides the biblical paradigm for the cycle of sin and grace, human weak
 - The Amharic Emmaus rendering of "judge" (መሳፍንት / ፈራጅ) — does the translation adequately convey the Hebrew shophet as a Spirit-empowered deliverer and covenant enforcer, not a forensic magistrate?
 - The morally troubling narratives — Jephthah's daughter (Judg 11), the Levite's concubine (Judg 19) — how does the Emmaus edition present these texts, and does it provide any theological framework for reading them as descriptive rather than prescriptive?
 - The relationship between the judges and the charismatic gifts of the Holy Spirit — a thematic page on "The Spirit of the LORD in the Old Testament" would illuminate the pattern of the Spirit rushing upon unlikely deliverers.
-- Samson as a type of Christ: betrayed by a woman he loved, blinded by his enemies, achieving his greatest victory through his death — this typology deserves a dedicated thematic page under [[themes/]].
+- Samson as a type of Christ: betrayed by a woman he loved, blinded by his enemies, achieving his greatest victory through his death — this typology deserves a dedicated thematic page under themes/.
 
 ## Sources
 

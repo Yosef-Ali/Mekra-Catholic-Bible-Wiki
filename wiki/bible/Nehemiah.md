@@ -6,7 +6,7 @@
 **Section:** OT
 **Sources:** 2
 **Last updated:** 2026-05-06
-**Related:** [[teaching/the-church]], [[concepts/ኪዳን]], [[concepts/ንስሐ]]
+**Related:** [[teaching/the-church]], [[concepts/ቃል ኪዳን]], [[concepts/ንስሐ]]
 
 ## Overview
 Nehemiah continues the post-exilic narrative. Nehemiah, cupbearer to King Artaxerxes of Persia, receives royal permission to return to Jerusalem and rebuild its walls (c. 445 BC). Together with Ezra, he leads a spiritual and civic renewal: the reading of the Law, the Feast of Tabernacles, a national confession of sin, and a covenant renewal ceremony. The book models lay leadership in God's service — Nehemiah is not a priest but a royal official whose faith moves him to rebuild God's city.

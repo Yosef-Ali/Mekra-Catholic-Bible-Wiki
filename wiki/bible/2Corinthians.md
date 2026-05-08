@@ -6,7 +6,7 @@
 **Section:** NT
 **Sources:** 2
 **Last updated:** 2026-05-06
-**Related:** [[teaching/penance]], [[teaching/holy-orders]], [[concepts/ጸጋ]], [[concepts/ድኅነት]]
+**Related:** [[teaching/penance]], [[teaching/holy-orders]], [[concepts/ጸጋ]], [[concepts/ደኅንነት]]
 
 ## Overview
 2 Corinthians is Paul's most personal letter, written in the heat of a crisis in his relationship with the Corinthian church. False "super-apostles" had undermined his authority, and the community had wavered in their loyalty. The letter oscillates between anguish, defense of his apostolic ministry, and soaring theological reflection on suffering, consolation, and the power of God made perfect in weakness. It is essential for understanding Catholic priesthood as a ministry of reconciliation and the theology of redemptive suffering.

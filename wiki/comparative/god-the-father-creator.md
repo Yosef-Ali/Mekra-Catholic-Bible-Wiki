@@ -1,6 +1,6 @@
 # God the Father and Creator: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/god-the-father-creator]] | **Compendium Q:** 36-72
-**Sources:** 3 | **Last updated:** 2026-05-06 | **Related:** [[concepts/ሥላሴ]]
+**Sources:** 3 | **Last updated:** 2026-05-06 | **Related:** [[concepts/ቅድስት ሥላሴ]]
 
 ## Catholic teaching
 God is the almighty Father, Creator of heaven and earth, of all things visible and
