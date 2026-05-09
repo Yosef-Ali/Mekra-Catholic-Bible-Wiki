@@ -37,3 +37,13 @@
 ## [2026-05-07] batch 4 | wiki/figures/ | 10 pages | 4 Ethiopian saints (አባ-ሰላማ, ቅዱስ-ያሬድ, ተክለ-ሃይማኖት, ገብረ-መንፈስ-ቅዱስ) + 6 Greek/Latin Fathers (Athanasius, John-Chrysostom, Basil-the-Great, Gregory-of-Nazianzus, Jerome, Ambrose) | self-written after Hermes hit Anthropic usage limit | all verses canonical from Emmaus DB; audit clean: 0 ASCII quotes in blockquotes after 1 fix to Romans 10:15 in Chrysostom | commit e252b09
 ## [2026-05-08] batch 5 | commandment Q-misattribution audit | 6 wiki/teaching/ pages | surgical Q-block moves verified against raw/catechism/qa_index.json: Q466-484 → fifth-commandment, Q510-520 → seventh-and-tenth, Q521-526 → eighth, Q529-530 → sixth-and-ninth, Q538-543 → prayer-in-christian-life | moral-law-and-grace reduced to framing stub | flagged missing: Q485-486, Q487-502 (chastity body), Q534-537 | commit 2905918
 ## [2026-05-08] lint-fix | broken-link sweep | 41 targets resolved | 40 alias rewrites across 35 files (typos, hyphen↔space, redundant concept→teaching) + 23 `[[themes/]]`/`[[teaching/]]` placeholders stripped + 16 new concept/figure stubs (ንጽሕና, መስዋዕት, ቅዱሳን-ሱታፌ, ድል, ትሕትና, እውነት, ራእይ, ሰንበት, የእግዚአብሔር-ስም, መንጻት, ቤተሰብ, መለኮታዊ-ክብካቤ, ፍትሕ, የጋራ-ጥቅም, የተፈጥሮ-ሕግ, figures/መላእክት) | scripts/fix_broken_links.mjs | 0 broken remaining
+## [2026-05-09] catechist-batch | Phases 1-8 of catechist's review executed
+##   Phase 1: 6 practical guides (confession, mass, baptism, communion, marriage, daily-prayer)
+##   Phase 2: 9 prayer pages (our-father, hail-mary, glory-be, apostles-creed, nicene-creed, rosary, stations, grace, litany-bvm)
+##   Phase 3: apologetics — 8 of 10 already pre-existing; 2 duplicates I created were removed (icons, assumption)
+##   Phase 4: 6 toolkit pages (capital-sins, works-of-mercy, gifts-of-hs, precepts, beatitudes, four-last-things)
+##   Phase 5: the-mass.md teaching page
+##   Phase 6: 17 figures — 11 missing apostles + Isaiah, Jeremiah, Ezekiel, Daniel, Job, Solomon
+##   Phase 7: ethiopian-catholic-history.md (~250 lines, Acts 8 → ECC today)
+##   Phase 8: DB verification — Romans/Colossians fixes confirmed stable; Sirach broken upstream of DB; documented as wiki/qa/2026-05-09-outstanding-data-issues.md
+## [2026-05-09] git status | wiki content additions: ~40 new pages across teaching/, liturgical/prayers/, figures/, themes/, qa/
