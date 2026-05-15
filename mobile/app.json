@@ -2,6 +2,7 @@
   "expo": {
     "name": "Emmaus",
     "slug": "emmaus",
+    "owner": "dev.yosefali",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,6 +16,7 @@
     },
     "ios": {
       "supportsTablet": true,
+      "bundleIdentifier": "com.yosefali.emmaus",
       "infoPlist": {
         "NSAppTransportSecurity": {
           "NSAllowsArbitraryLoads": true,
@@ -23,6 +25,7 @@
       }
     },
     "android": {
+      "package": "com.yosefali.emmaus",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -36,6 +39,12 @@
     "plugins": [
       "expo-router",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3e51bea4-1b69-48d8-9c1d-4190476f95cb"
+      }
+    }
   }
 }
