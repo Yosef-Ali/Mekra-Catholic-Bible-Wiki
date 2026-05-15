@@ -4,6 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "dev": "node server/index.mjs",
+    "server": "node server/index.mjs",
+    "mobile": "cd mobile && npx expo start",
     "verse": "node scripts/get_verse.mjs",
     "sync": "node scripts/sync_to_db.mjs",
     "sync:dry": "node scripts/sync_to_db.mjs --dry-run",
