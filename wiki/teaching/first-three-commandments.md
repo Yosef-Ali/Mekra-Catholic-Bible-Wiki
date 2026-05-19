@@ -148,11 +148,10 @@
 
 ## Sources
 
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 45.md` (Q440-442)
-- `raw/catechism/extracted/Scan 67.md` (Q440-442, cleaner text)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 24.md` (Q443-444)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 46.md` (Q445)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 23.md` (Q446-447)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 47.md` (Q448-450)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 22.md` (Q451-453)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 48.md` (Q454)
+- `raw/catechism-digital/Q440.md` (Q440-442)
+- `raw/catechism-digital/Q443.md` (Q443-444)
+- `raw/catechism-digital/Q445.md` (Q445)
+- `raw/catechism-digital/Q446.md` (Q446-447)
+- `raw/catechism-digital/Q448.md` (Q448-450)
+- `raw/catechism-digital/Q451.md` (Q451-453)
+- `raw/catechism-digital/Q454.md` (Q454)

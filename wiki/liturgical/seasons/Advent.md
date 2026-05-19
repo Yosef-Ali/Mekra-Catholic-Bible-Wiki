@@ -33,5 +33,5 @@
 - How does the Ethiopian Catholic Advent fasting practice compare to the Latin Rite's non-fasting Advent?
 
 ## Sources
-- `raw/catechism/extracted/Scan 35.md` (Q105 — Christ's baptism by John)
+- `raw/catechism-digital/Q105.md` (Q105 — Christ's baptism by John)
 - Compendium Q102–105

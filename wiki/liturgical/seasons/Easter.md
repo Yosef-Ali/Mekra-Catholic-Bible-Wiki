@@ -34,4 +34,4 @@
 
 ## Sources
 - Compendium Q126–135 (Resurrection) and Q136–140 (Holy Spirit/Pentecost)
-- `raw/catechism/extracted/Scan 35.md` (Q105 — Baptism and Paschal Mystery)
+- `raw/catechism-digital/Q105.md` (Q105 — Baptism and Paschal Mystery)

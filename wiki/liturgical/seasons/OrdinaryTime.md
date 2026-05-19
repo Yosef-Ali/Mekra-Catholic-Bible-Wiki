@@ -31,4 +31,4 @@
 
 ## Sources
 - Compendium Q377–390 (Virtues), Q391–400 (Sin and Mercy), Q456–465 (Fourth Commandment)
-- `raw/catechism/extracted/Scan 6.md` (Q580–582 — The Lord's Prayer, concluding Part 4)
+- `raw/catechism-digital/Q580.md` (Q580–582 — The Lord's Prayer, concluding Part 4)

@@ -158,8 +158,8 @@
 
 ## Sources
 
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 19.md` (Q421-422)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 50.md` (Q423-425)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 20.md` (Q426-428)
-- `raw/catechism/extracted/Scan 16.md` (Q429-431)
-- `raw/catechism/extracted/Scan 17.md` (Q432)
+- `raw/catechism-digital/Q421.md` (Q421-422)
+- `raw/catechism-digital/Q423.md` (Q423-425)
+- `raw/catechism-digital/Q426.md` (Q426-428)
+- `raw/catechism-digital/Q429.md` (Q429-431)
+- `raw/catechism-digital/Q432.md` (Q432)

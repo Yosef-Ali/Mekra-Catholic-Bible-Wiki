@@ -65,11 +65,7 @@
 
 ## Open questions
 
-- Q487–502 (the 6th commandment body Q&A) are not in the extracted corpus. Identify which `raw/catechism/source_jpg/` scans cover these printed pages and re-OCR.
+- *Resolved 2026-05-19: Q487–502 are now present in the canonical digital extraction at `raw/catechism-digital/`.*
 
 ## Sources
 
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 12.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 59.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 11.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 60.md`

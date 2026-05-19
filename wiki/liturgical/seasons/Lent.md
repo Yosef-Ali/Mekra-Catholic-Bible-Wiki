@@ -35,4 +35,4 @@
 
 ## Sources
 - Compendium Q295–312 (Penance and Reconciliation)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 15.md` (Q396)
+- `raw/catechism-digital/Q396.md` (Q396)

@@ -58,12 +58,12 @@ The five missing printed pages (14, 46, 143, 174, 238) hold:
 - **p.174**: Q422–426 area (grace)
 - **p.238**: Lord's Prayer area
 
-Q gaps in the indexed Q&A list (per `raw/catechism/qa_index.json`):
+Q gaps in the OCR'd corpus (historical, from the legacy `raw/catechism/extracted/` archive):
 ```
 5, 6, 7, 21, 23, 113, 114, 115, 122, 177, 178, 181, 182, 408, 417, 455, 483, 484, 485, 557
 ```
 
-Some gaps map to missing scan pages; others are OCR drops that may resolve with a re-OCR pass on the affected source JPGs.
+*Resolved 2026-05-19: All but Q417 are now present in the canonical digital extraction at `raw/catechism-digital/`. Q417 is absent from the publisher's source itself (a publication anomaly, not extraction defect). The OCR archive has been removed.*
 
 ## Q485–502 chastity content status
 
@@ -93,5 +93,4 @@ When time permits:
 - `scripts/get_verse.mjs` (live DB query)
 - `extraction_output/page_map.json`
 - `extraction_output/structure_page_390.json`
-- `raw/catechism/qa_index.json`
 - Prior batches: db-validate (2026-05-06), db-fix (2026-05-06), batch 5 (2026-05-08)

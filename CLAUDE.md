@@ -23,14 +23,7 @@ You **read** from here. You **never** modify, rename, or delete anything.
   - `intro.md` — title page, table of contents, Pope John Paul II's motu proprio (items 1–6) introducing the Compendium.
   - `appendix.md` — angels coda, all common Catholic prayers in Amharic (Sign of the Cross, Hail Mary, Angelus, Salve Regina, Te Deum, Veni Creator, Anima Christi, Memorare, Coptic/Syrian/Byzantine prayers, Acts of Faith/Hope/Love/Contrition, etc.), catechism formulas (commandments of love, Golden Rule, Beatitudes, theological & cardinal virtues, gifts & fruits of the Holy Spirit, precepts of the Church, corporal & spiritual works of mercy, capital sins, four last things), the Amharic alphabetical index, and Pope Benedict XVI's closing words.
   - `_source.txt` — the intermediate `pdftotext` output (committed for reproducibility).
-- `raw/catechism/` — **OCR-scan archive** of the same Compendium. Use this **only** for printed-page provenance, visual verification of layout, or when `raw/catechism-digital/` has a gap (e.g. Q417). Do **not** use as the text-of-record; the digital edition wins on every text discrepancy.
-  - `source_tif/` — 151 original scans (don't touch)
-  - `source_jpg/` — 151 JPEGs converted from the TIFs (feed to OCR)
-  - `extracted/` — one markdown per source scan, produced by `scripts/ocr_compendium.mjs`. Each file starts with a frontmatter block carrying `printed_page_left`, `printed_page_right`, `layout`, `section_heading`, `needs_review`.
-  - `page_map.json` — machine-readable index built by `scripts/build_page_map.mjs`. Use this to map a printed page number to a scan file when the digital edition needs visual auditing.
-  - `MANIFEST.md`, `NEXT-STEPS.md` — historical context from Phases A/B/C.
-
-**Precedence rule (load-bearing):** When a user asks anything Compendium-related — a Q-number, a topic, a doctrine, an Amharic phrase, a prayer — the AI assistant **must** consult `raw/catechism-digital/` first. Quote from there, cite the relevant `QNNN.md` (or `intro.md` / `appendix.md`) by path. Only fall back to `raw/catechism/extracted/` when the digital source is silent (Q417, or rare extraction artifacts flagged in **Open questions**).
+**Precedence rule (load-bearing):** When a user asks anything Compendium-related — a Q-number, a topic, a doctrine, an Amharic phrase, a prayer — the AI assistant **must** consult `raw/catechism-digital/` first. Quote from there, cite the relevant `QNNN.md` (or `intro.md` / `appendix.md`) by path. Q417 is the only known gap — it is absent from the publisher's source itself. There is **no OCR fallback** anymore; the legacy OCR archive at `raw/catechism/` has been retired (2026-05-19).
 - `raw/bible/` — Amharic Emmaus edition. **The bulk verse text lives in the Mekra app's Neon DB, not here** (see "Bible lookups (hybrid pattern)" below). This folder is reserved for source PDFs and any rare extractions that need to be ingested into the wiki as commentary or apparatus, not as primary text. Canonical sources in the app repo:
   - PDF: `/Users/mekdesyared/Mekra-Catholic-Bible/The Amharic Bible Catholic Edition - Emmaus.pdf`
   - Gemini extractions: `/Users/mekdesyared/Mekra-Catholic-Bible/extraction_output/`
@@ -67,8 +60,10 @@ Humans rarely edit here. You write, update, and maintain every page.
 
 ### `scripts/` — tooling
 
-- `scripts/ocr_compendium.mjs` — batch OCR from `raw/catechism/source_jpg/` → `raw/catechism/extracted/`. Idempotent (skips files already done). Supports `--limit N` and `--only <filename>`.
-- `scripts/build_page_map.mjs` — parses extracted frontmatter into `raw/catechism/page_map.json`. Re-run after any new OCR.
+- `scripts/extract_compendium_digital.mjs` — extracts the 597 Q&As from the publisher's `.pages` source into `raw/catechism-digital/Q001.md` … `Q598.md`.
+- `scripts/extract_compendium_extras.mjs` — extracts the intro (title, ToC, Pope's preface) and appendix (angels, prayers, formulas, index) into `raw/catechism-digital/intro.md` + `appendix.md`.
+- `scripts/sync_qa_blocks_from_digital.mjs` — idempotently regenerates every `### QNNN` Q&A block across `wiki/**/*.md` from the canonical digital source. Run after any change to `raw/catechism-digital/`.
+- `scripts/audit_wiki_content.mjs` — sweep that flags wiki Q-blocks that disagree with canonical text (should always be empty post-sync).
 - `scripts/get_verse.mjs` — **Bible lookup bridge.** Queries the Mekra app's Neon DB (73 books, Amharic Emmaus edition) for verses on demand. Use this whenever you need to quote Scripture; never paste full chapters into wiki pages. See **Bible lookups (hybrid pattern)** below.
 
 ### `log.md` — append-only activity log
@@ -112,7 +107,7 @@ Every wiki page starts with **bold-field metadata** — not YAML. Bold fields pa
 - How does the Amharic Emmaus translation render the baptismal formula vs. the Compendium phrasing?
 
 ## Sources
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 10.md` (Q253–254, printed pp. 108/81)
+- `raw/catechism-digital/Q253.md`, `raw/catechism-digital/Q254.md`
 - [[raw/commentaries/...]] (when available)
 ```
 
@@ -153,13 +148,11 @@ Every wiki page starts with **bold-field metadata** — not YAML. Bold fields pa
 
 - Always link entities with `[[wiki path]]` (e.g. `[[concepts/ጸጋ]]`, `[[figures/ማርያም]]`).
 - Always cite raw sources precisely:
-  - **Compendium (preferred):** `raw/catechism-digital/QNNN.md` (Q&A) or `raw/catechism-digital/intro.md` / `appendix.md` (preface, prayers, formulas, index). Cite the Q number.
-  - Compendium (OCR fallback, only when digital is silent): `raw/catechism/extracted/<filename>.md` + printed page number + Q number.
+  - **Compendium:** `raw/catechism-digital/QNNN.md` (Q&A) or `raw/catechism-digital/intro.md` / `appendix.md` (preface, prayers, formulas, index). Cite the Q number. Q417 is the only gap (absent in publisher's source).
   - Emmaus PDF: `Emmaus PDF p. N`.
   - Extraction JSONs: `structure_page_NNN.json`.
 - Synthesis is in your own words. Direct quotations must be marked with `>` blockquote and a citation immediately after.
 - **Never invent citations.** If you're not sure of the verse, Q number, or page, say so inline and add to **Open questions**.
-- If a term or passage was extracted from a page flagged `needs_review: yes` in the extracted frontmatter, mark uses with `[OCR-uncertain]` so future lint passes can verify.
 - Filename conventions:
   - `wiki/teaching/`, `wiki/apologetics/`, `wiki/comparative/`, `wiki/bible/`, `wiki/themes/` — English slug.
   - `wiki/concepts/` — Amharic term.
@@ -196,11 +189,10 @@ Triggered when the user asks a substantive question.
 
 1. Search the wiki first. If a page already answers it, quote the relevant section and cite the page.
 2. **If the wiki doesn't answer, consult `raw/catechism-digital/` next** — this is the canonical Compendium text. Open the relevant `QNNN.md` by topic / Q-number, or `intro.md` / `appendix.md` for preface, prayers, formulas, and the Amharic index. Quote the Amharic directly and cite by Q number + file path.
-3. Only fall back to `raw/catechism/extracted/` when the digital source has a known gap (Q417, or where you find a discrepancy worth visually auditing against the OCR scan). When you do, cite filename + printed page + Q number.
-4. If the question is about Bible verses, also use `scripts/get_verse.mjs` for the Emmaus DB (see hybrid pattern below).
-5. Write the answer in Amharic when the question is in Amharic; bilingual or English otherwise, matching the user's phrasing.
-6. **After answering, file the Q&A under `wiki/qa/` as `YYYY-MM-DD-slug.md`.** Even short answers. This is how the wiki compounds.
-7. If the answer exposed a gap that should become a permanent page, offer to create it.
+3. If the question is about Bible verses, use `scripts/get_verse.mjs` for the Emmaus DB (see hybrid pattern below).
+4. Write the answer in Amharic when the question is in Amharic; bilingual or English otherwise, matching the user's phrasing.
+5. **After answering, file the Q&A under `wiki/qa/` as `YYYY-MM-DD-slug.md`.** Even short answers. This is how the wiki compounds.
+6. If the answer exposed a gap that should become a permanent page, offer to create it.
 
 ### `lint`
 
@@ -212,7 +204,7 @@ Triggered when the user asks you to audit the wiki for rot.
    - Check that every `raw/` citation still exists.
    - Check **Sources** count matches the number of sources actually listed.
    - Check that **Last updated** is ≤ 60 days old for high-traffic pages.
-   - Flag any `[OCR-uncertain]` or `[missing-scan]` markers that are now resolvable (OCR was redone, scan was added).
+   - Flag any stale `[OCR-uncertain]` or `[missing-scan]` markers — these are historical, now resolved by the canonical digital edition; strip them.
 3. Report findings; don't auto-fix unless the user says so.
 4. Append: `## [YYYY-MM-DD] lint | checked: <N pages> | issues: <N>` to `log.md`.
 
@@ -285,7 +277,7 @@ This is an Amharic-first wiki. Apply these rules to every page you write or edit
 
 - **Preserve archaic forms.** Do not modernize. ሠ stays ሠ, not ሰ. ሐ/ኀ stay distinct from ሀ. ጸ stays distinct from ፀ. አ stays distinct from ዐ. Church texts frequently use the archaic forms deliberately.
 - **Use Ethiopic punctuation.** ። (full stop), ፣ (comma), ፤ (semicolon), ፥ (colon). Never Latin `.` or `,` in Amharic sentences.
-- **Don't auto-correct OCR extractions.** If the extracted source says ሰላም and you think it should be ሠላም, leave the extracted text alone and note the discrepancy in **Open questions**. The extraction is evidence; your guess is not.
+- **Trust the canonical digital extraction.** `raw/catechism-digital/` is the publisher's text. Do not paraphrase, translate, or "correct" it — quote it as-is.
 - **Amharic numerals are valid.** ፩፪፫፬፭፮፯፰፱፲ for 1–10. The Compendium uses both Ethiopic and Arabic numerals — preserve whichever is printed.
 - **Transliteration.** When giving a Latin transliteration of an Amharic term, use the form the user is likely to recognize (`tsedq` not `ṣədq`). But the Amharic form is always primary.
 - **Bilingual glosses.** Teaching and concept pages should have a bilingual title: `Baptism (ጥምቀት)` or `ጥምቀት (Baptism)`. Choose the order that matches the primary audience for the page.
@@ -296,7 +288,7 @@ This is an Amharic-first wiki. Apply these rules to every page you write or edit
 
 Things you must never do:
 
-1. **Never modify `raw/`.** Not even to fix a typo in an OCR extraction. If an extraction is wrong, re-run OCR on that file with a better prompt; don't edit the output by hand.
+1. **Never modify `raw/`.** Not even to fix a typo. If `raw/catechism-digital/` has an extraction artifact, re-run `scripts/extract_compendium_digital.mjs` or `scripts/extract_compendium_extras.mjs` — don't edit the output by hand.
 2. **Never invent a citation.** If you can't verify a Q number, verse, or page number, say so inline (`[unverified]`) and list it under **Open questions**.
 3. **Never write across multiple wiki pages without discussing the plan first.** Big ingests touch 30+ pages; you surface the plan in 1–2 paragraphs, get confirmation, then proceed.
 4. **Never create a new top-level folder under `wiki/` without user confirmation.** The structure in this file is load-bearing.
@@ -320,6 +312,6 @@ At the start of every session, before responding to the user's first request:
 ## Known state (as of 2026-05-18)
 
 - **Compendium digital extraction complete: 597/598 Q&As in `raw/catechism-digital/Q001.md` … `Q598.md`, plus `intro.md` and `appendix.md`.** Source: `raw/books/Compendium OF THE CATECHISM OF THE CATHOLIC CHURCH.pages`. Only Q417 is absent — it doesn't exist in the publisher's source, not an extraction defect. This is the canonical text-of-record.
-- Compendium OCR archive: 151/151 scans extracted at `raw/catechism/extracted/`, 251 unique body pages, 41 pages missing in the OCR'd set (now non-blocking — digital edition fills them). See `raw/catechism/page_map.json` when you need printed-page provenance.
+- Legacy OCR archive (`raw/catechism/`) retired and removed on 2026-05-19. The publisher's digital extraction is the sole text source. Git history retains the OCR'd material if ever needed.
 - p.226 is scanned twice (`a 62` + `b 1`). Both are legitimate captures of the same page in different spread configurations. Not a duplicate error.
 - Wiki has ~150+ pages across teaching/, concepts/, figures/, bible/, apologetics/, comparative/, liturgical/, themes/, qa/. See `log.md` for ingest history.

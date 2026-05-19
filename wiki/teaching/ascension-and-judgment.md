@@ -63,6 +63,4 @@
 
 ## Sources
 
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 20.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 52.md`
 

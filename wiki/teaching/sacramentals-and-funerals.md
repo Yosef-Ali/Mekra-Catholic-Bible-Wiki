@@ -79,7 +79,4 @@
 
 ## Sources
 
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 68.md`
-- `raw/catechism/extracted/Scan 18.md`
-- `raw/catechism/extracted/Scan 19.md`
 

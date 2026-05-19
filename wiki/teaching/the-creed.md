@@ -109,8 +109,4 @@
 
 ## Sources
 
-- `raw/catechism/extracted/Scan 40.md`
-- `raw/catechism/extracted/Scan 42.md`
-- `raw/catechism/extracted/Scan 43.md`
-- `raw/catechism/extracted/Scan 46.md`
 

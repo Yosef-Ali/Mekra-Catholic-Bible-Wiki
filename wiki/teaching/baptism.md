@@ -145,10 +145,9 @@
 
 ## Sources
 
-- `raw/catechism/extracted/Scan 35.md` (Q105 — Christ's baptism by John)
-- `raw/catechism/extracted/Scan 21.md` (Q256 — sacramental rite)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 66.md` (Q297 — necessity of penance after baptism)
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 15.md` (Q396 — ordinary path of forgiveness)
-- `raw/catechism/qa_index.json` (Q252-264 — full baptism block)
+- `raw/catechism-digital/Q105.md` (Q105 — Christ's baptism by John)
+- `raw/catechism-digital/Q256.md` (Q256 — sacramental rite)
+- `raw/catechism-digital/Q297.md` (Q297 — necessity of penance after baptism)
+- `raw/catechism-digital/Q396.md` (Q396 — ordinary path of forgiveness)
 - Compendium of the Catechism of the Catholic Church, Part Two §§252-264
 - Catechism of the Catholic Church 1213-1284

@@ -103,9 +103,4 @@
 
 ## Sources
 
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 12.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 58.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 13.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 57.md`
-- `raw/catechism/extracted/Scan 9.md`
 

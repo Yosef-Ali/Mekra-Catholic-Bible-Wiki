@@ -428,23 +428,4 @@
 
 ## Sources
 
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 17.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 54.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 18.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 53.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 19.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 52.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 20.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 50.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 21.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 49.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 22.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 48.md`
-- `raw/catechism/extracted/translated-from-english-compendium`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 16.md`
-- `raw/catechism/extracted/Scan 62.md`
-- `raw/catechism/extracted/Scan 31.md`
-- `raw/catechism/extracted/Scan 32.md`
-- `raw/catechism/extracted/Scan 57.md`
-- `raw/catechism/extracted/Scan 58.md`
 

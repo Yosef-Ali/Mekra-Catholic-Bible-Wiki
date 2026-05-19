@@ -175,11 +175,4 @@
 
 ## Sources
 
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 59.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 11.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 12.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 58.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 57.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 13.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 56.md`
 

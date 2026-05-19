@@ -200,13 +200,4 @@
 
 ## Sources
 
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 33.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 37.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 34.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 36.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-a 35.md`
-- `raw/catechism/extracted/compendium of the catecism of the catholics-2-page-b 35.md`
-- `raw/catechism/extracted/Scan 33.md`
-- `raw/catechism/extracted/Scan 34.md`
-- `raw/catechism/extracted/Scan 35.md`
 
