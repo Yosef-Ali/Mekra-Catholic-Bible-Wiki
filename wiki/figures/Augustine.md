@@ -77,38 +77,53 @@ Augustine was the first Christian thinker to systematically ask: when is war per
 
 The Compendium quotes ቅዱስ አጎስጢኖስ six times. Each quotation captures a different facet of his thought:
 
-### Q29 — Faith and Reason
-> «ለማወቅ እምናለሁ፤ በተሻለ ሁኔታ ለማወቅም እውቃለሁ።»
-> "I believe in order to know; and I know in order to believe better."
+### Q29
 
-Augustine's famous principle: faith and reason are not enemies. Faith opens the door to understanding, and understanding deepens faith. See [[teaching/faith-and-revelation]].
+**Q:** በእምነትና በሳይንስ መካከል ቅራኔ የሌለው ለምንድን ነው?
 
-### Q99 — Mary's perpetual virginity
-> «ልጇን ስትፀንስ ድንግል፣ ስትወልደው ድንግል፣ ስትሸከመው ድንግል፣ ጡትዋን ስታጠባው ድንግል፣ ሁልጊዜ ድንግል»
-> "Virgin in conceiving, virgin in giving birth, virgin in carrying, virgin in nursing — always virgin."
+**A:** እምነት ከአእምሮ በላይ ቢሆንም በእምነትና በሳይንስ መካከል ቅራኔ ሊኖር አይትልም፣ ምክንያቱም የሁለቱም ምንጭ እግዚአብሔር ነውና፡፡ የአእምሮና የእምነት ብርሃን የሚሰጠን ራሱ እግዚአብሔር ነው፡፡ “ለማወቅ አምናለሁ፤ በተሻለ ለማመንም አውቃለሁ፡፡” (ቅዱስ አውጎስጢኖስ) እናምናለን
 
-Augustine's clear testimony to Mary's perpetual virginity — a teaching shared by Catholics, Orthodox, and the Ethiopian tradition. See [[figures/ማርያም]], [[teaching/mary]].
+[CCC 159]
 
-### Q392 — Definition of sin
-> «ዘላለማዊ ሕግን የሚጻረር ቃል፣ ሥራ ወይም ምኞት»
-> "A word, deed, or desire contrary to the eternal law."
+### Q99
 
-The classic definition of sin that the Compendium adopts directly. See [[concepts/ኃጢአት]], [[teaching/sin]].
+**Q:** ማርያም «ምን ጊዜም ድንግል» የሆነችው እንዴት ነው?
 
-### Q416 — Natural law written on the heart
-> «ሰዎች በልባቸው ውስጥ ሳሉ ያላነቡትን በጽላት ላይ ጻፈ።»
-> "He wrote on the tablets what they did not read in their hearts."
+**A:** ማርያም ምን ጊዜም ድንግል የሆነችው «ልጅዋን ስትፀንስ ድንግል፣ ስትወልደው ድንግል፣ ስትሸከመው ድንግል፣ ጡትዋን ስታጠባው ድንግል፣ ሁልጊዜ ድንግል» በመሆንዋ ነው (ቅዱስ አውግስጢኖስ)፡፡ ስለዚህ፣ የወንጌል መጻሕፍት ስለ «ኢየሱስ ወንድሞችና እህቶች» ሲናገሩ፣ በመጽሐፍ ቅዱስ ውስጥ በተለመደው የአነጋገር ዘይቤ ስለ ኢየሱስ የቅርብ ዘመዶች ማውሳታቸው ነው፡፡
 
-God gave the Ten Commandments in writing because humans had become too darkened by sin to read the natural law already written in their hearts. See [[teaching/moral-law-and-grace]].
+[CCC 499-507, 510-511]
 
-### Q481 — Peace as "tranquility of order"
-> ሰላም «የሥርዓት እርጋታ»
-> "Peace is the tranquility of order."
+### Q392
 
-From *City of God* XIX.13. True peace is not just the absence of war but a rightly ordered society. See [[teaching/society-and-justice]].
+**Q:** ኃጢአት ምንድን ነው?
 
-### Q1 — (indirect reference)
-Augustine's theology of God's plan for humanity pervades the Compendium's opening answer on why God created us: to share in his own blessed life through grace.
+**A:** ኃጢአት «ዘለዓለማዊ ሕግን የሚጻረር ቃል፣ ሥራ ወይም ምኞት» ነው (ቅዱስ አውግስጢኖስ)፡፡ ለፍቅሩ አለመታዘዝ እግዚአብሔርን መበደል ነው፡፡ ሰብአዊ ባሕርይንና ሰብአዊ አንድነትን ይጎዳል፡፡ ክርስቶስ በሕማማቱ የኃጢአትን አስከፊነት ሙሉ በሙሉ አጋለጠ፣ በምሕረቱም ኃጢአትን አሸነፈ፡፡
+
+[CCC 1849-1851, 1871-1872]
+
+### Q416
+
+**Q:** የተፈጥሮ ግብረገባዊ ሕግ ይዘት ምንድን ነው?
+
+**A:** ፈጣሪ በእያንዳንዱ ሰው ውስጥ የቀረጸው የተፈጥሮ ሕግ በሁሉም ሰው ዘንድ በእኩል ግልጽነትና ፍጥነት አይታወቅም፣ ግንዛቤም ውስጥ አይገባም፡፡ በዚህ ምክንያት እግዚአብሔር «ሰዎች በልባቸው ውስጥ ሳለ ያላነበቡትን በጽላት ላይ ጻፈ» (ቅዱስ አውግስጢኖስ)
+
+[CCC 1962, 1980-1981]
+
+### Q481
+
+**Q:** የዚህ ዓለም ሰላም ምንድን ነው?
+
+**A:** በሰው ሕይወት ክብርና ዕድገት አስፈላጊ የሆነው የዚህ ዓለም ሰላም የጦርነት አለመኖር ወይም በተቀናቃኞች መካከል የኃይል ሚዛን መጠበቅ ብቻ አይደለም፡፡ ሰላም «የሥርዓት እርጋታ» (ቅዱስ አውግስጢኖስ)፣«የፍትህ ሥራ» (ኢሳ. 32፡ 17) እና የፍቅር ውጤት ነው፡፡ ምድራዊ ሰላም የክርስቶስ ሰላም ምሳሌና ፍሬ ነው፡፡
+
+[CCC 2304-2305]
+
+### Q1
+
+**Q:** እግዚአብሔር ለሰው ያለው ዕቅድ ምንድን ነው?
+
+**A:** ለፍጽምናው ወሰን የሌለውና በራሱ ቅዱስ የሆነው እግዚአብሔር በርሱ የተቀደሰ ሕየወት ይካፈል ዘንድ ሰውን በቸርነቱና በፈቃዱ ፈጠረ፡፡ ጊዜው ሲደርስ፣ እግዚአብሔር አብ በኃጢአት ለወደቀው የሰው ዘር ቤዛና አዳኝ ይሆን ዘንድ ልጁን ላከ፤ የሰውንም ልጅ ሁሉ ወደ ቤተክርስቲያኑ ጠራ፣ በመንፈስ ቅዱስም አማካይነት ልጆቹና የዘላለማዊ ደስታው ወራሾች አደረጋቸው፡፡ “ጌታ ሆይ፣ አንተ ታላቅ ነህ፣ እጅግም ልትመሰገን ይገባል (…) እኛን ስለራስህ ብለህ ፈጠርኸን፣ ልባችንም በአንተ እስከሚያርፍ ድረስ ይባዝናል፡፡” (ቅዱስ አውግስጢኖስ)
+
+[CCC 1-25, 27-30]
 
 ## Why he matters for Ethiopian Catholics
 
