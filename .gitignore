@@ -22,5 +22,12 @@ raw/catechism/source_jpg/
 # Use `git add -f` to override if you want them tracked.
 raw/sources/
 
+# Compendium digital source files (.pages binaries, ~69MB+). The derived
+# extraction at raw/catechism-digital/ is tracked instead.
+raw/books/
+
+# Intermediate docx — regenerable from docs/user-guide.md via pandoc.
+docs/*.docx
+
 # Defensive: an Obsidian path bug once created Users/mekdesyared/... here.
 Users/
