@@ -17,15 +17,22 @@ const VAULT  = '/Users/mekdesyared/Mekra-Catholic-Bible-Wiki';
 const SRC    = path.join(VAULT, 'raw/catechism/source_jpg');
 const OUT    = path.join(VAULT, 'raw/catechism/extracted');
 const EXTRACTOR = '/Users/mekdesyared/amharic-ocr-extractor';
-const MODEL  = 'gemini-3.1-flash-image-preview';
+const MODEL      = 'gemini-3-flash-preview';
 const CONCURRENCY = 4;
 
-// Pull the API key from the extractor's .env (VITE_GEMINI_API_KEY=...)
+// Pull the API key from local .env or extractor's .env
 function loadApiKey() {
+  const localEnvPath = path.join(VAULT, '.env');
+  if (existsSync(localEnvPath)) {
+    const env = readFileSync(localEnvPath, 'utf8');
+    const m = env.match(/GEMINI_API_KEY\s*=\s*(\S+)/);
+    if (m) return m[1];
+  }
+
   const envPath = path.join(EXTRACTOR, '.env');
   const env = readFileSync(envPath, 'utf8');
   const m = env.match(/VITE_GEMINI_API_KEY\s*=\s*(\S+)/);
-  if (!m) throw new Error(`GEMINI_API_KEY not found in ${envPath}`);
+  if (!m) throw new Error(`GEMINI_API_KEY not found in ${localEnvPath} or ${envPath}`);
   return m[1];
 }
 

@@ -28,7 +28,7 @@ const PAGE_MAP   = path.join(VAULT, 'raw/catechism/page_map.json');
 const EXTRACTED  = path.join(VAULT, 'raw/catechism/extracted');
 const SOURCE_JPG = path.join(VAULT, 'raw/catechism/source_jpg');
 const EXTRACTOR  = '/Users/mekdesyared/amharic-ocr-extractor';
-const MODEL      = 'gemini-3.1-flash-image-preview';
+const MODEL      = 'gemini-3-flash-preview';
 
 // ── CLI args ──────────────────────────────────────────────────────────────────
 const args     = process.argv.slice(2);
@@ -38,10 +38,17 @@ const ONLY_Q   = onlyIdx >= 0 ? parseInt(args[onlyIdx + 1], 10) : null;
 
 // ── Load Gemini ───────────────────────────────────────────────────────────────
 function loadApiKey() {
+  const localEnvPath = path.join(VAULT, '.env');
+  if (existsSync(localEnvPath)) {
+    const env = readFileSync(localEnvPath, 'utf8');
+    const m = env.match(/GEMINI_API_KEY\s*=\s*(\S+)/);
+    if (m) return m[1];
+  }
+
   const envPath = path.join(EXTRACTOR, '.env');
   const env = readFileSync(envPath, 'utf8');
   const m = env.match(/VITE_GEMINI_API_KEY\s*=\s*(\S+)/);
-  if (!m) throw new Error(`GEMINI_API_KEY not found in ${envPath}`);
+  if (!m) throw new Error(`GEMINI_API_KEY not found in ${localEnvPath} or ${envPath}`);
   return m[1];
 }
 const require = createRequire(path.join(EXTRACTOR, 'package.json'));
