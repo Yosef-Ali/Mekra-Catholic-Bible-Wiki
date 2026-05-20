@@ -106,12 +106,3 @@ St. Jerome (translator of the Vulgate, late 4th century) initially expressed res
 The Ethiopian Orthodox Tewahedo Church accepts an **even broader canon** (81 books) — including, e.g., the **Book of Enoch**, quoted in the New Testament (Jude 14–15), and **Jubilees**. The Ethiopian tradition is therefore *more* expansive than the Catholic canon. Ethiopian Catholics use the standard 73-book Catholic canon.
 
 The narrow 66-book canon is an anomaly in the history of the Church — a 16th-century innovation, not the apostolic deposit.
-
-## Sources
-
-- Jude 14–15 (citing 1 Enoch)
-- Hebrews 11:35 (citing 2 Maccabees 7)
-- Council of Rome (382), Hippo (393), Carthage (397)
-- Council of Trent, *Decree on the Sacred Books and Traditions* (1546)
-- Pope Pius XII, *Divino Afflante Spiritu* (1943)
-- [[teaching/faith-and-revelation]]

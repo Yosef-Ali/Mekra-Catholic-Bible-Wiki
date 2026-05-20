@@ -41,25 +41,3 @@ The interiority of the new covenant — the law written on the heart, immediate 
 > — ኤርምያስ 29:11
 
 God's plans for the exiles — plans for shalom (peace, welfare, wholeness), a hope anchored not in immediate rescue but in the long faithfulness of God through exile.
-
-## In the Compendium
-
-Jeremiah provides the biblical foundation for the theology of the new covenant, conversion, and the interiority of the moral law:
-
-- **The New Covenant (Jer 31:31–34):** The most comprehensive Old Testament prophecy of the new covenant, directly supporting [[teaching/eucharist]] (the blood of the new covenant) and [[teaching/the-church]] as the new covenant community.
-- **Interiority of the Law (Jer 31:33):** The law written on the heart transforms the moral life from external compliance to interior transformation, foundational to [[teaching/moral-law-and-grace]] and the New Law of the Gospel.
-- **Conversion and Repentance (Jer 3:12–14, 18:1–11, chs. 2–6):** Jeremiah's relentless call to return (shuv) to the LORD supports [[teaching/penance]] and [[teaching/sin]] — sin is covenant infidelity, and conversion is the return of the bride to the Bridegroom.
-- **The Righteous Branch (Jer 23:5–6, 33:15–16):** The messianic promise of a righteous Branch from David's line connects to [[teaching/jesus-christ-incarnation]].
-- **Jeremiah's Suffering Vocation (Jer 11:18–20:18):** The prophet's rejection and suffering prefigure the passion of Christ, supporting [[teaching/passion-death-resurrection]] and the theology of redemptive suffering.
-- **Hope in Exile (Jer 29:4–14):** The call to seek the welfare of the city and trust God's long-term plans supports [[teaching/faith-and-revelation]] — faith as trust in God's providence through history.
-
-## Open questions
-
-- Jeremiah 31:31–34 — the Emmaus Amharic rendering of "new covenant" (አዲስ ቃል ኪዳን): does it distinguish between "new" (חָדָשׁ, kainos) and "renewed" as some Jewish interpreters argue? The Catholic reading insists on genuine novelty, not merely covenant renewal.
-- The relationship between Jeremiah's new covenant and Ezekiel's (Ezek 36:26–27) — Ezekiel adds the gift of the Spirit and the heart of flesh, while Jeremiah emphasizes the law on the heart. A thematic page on "The New Covenant in the Prophets" would synthesize these complementary visions.
-- The "Confessions of Jeremiah" and their influence on the development of the psalm of individual lament — a thematic page on "Prophetic Lament and the Interior Life" would connect Jeremiah to the Psalter and Christian spirituality.
-- Jeremiah 31:15 (Rachel weeping for her children) is quoted in Matthew 2:18 in the context of the Holy Innocents — the typological reading deserves exploration under a thematic page on "Jeremiah in the New Testament."
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Jeremiah (52 chapters, OT).

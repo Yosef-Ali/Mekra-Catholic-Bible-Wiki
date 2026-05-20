@@ -43,23 +43,3 @@ Seek good and not evil — the ethical core of Amos: authentic religion requires
 > — አሞጽ 9:11
 
 The restoration of David's fallen booth — cited by James at the Council of Jerusalem as fulfilled in the Church's inclusion of the Gentiles.
-
-## In the Compendium
-
-Amos is the Old Testament's primary resource for social justice and the integrity of worship:
-
-- **Justice and Righteousness (Amos 5:24):** The demand that justice flow like water is foundational for [[teaching/moral-law-and-grace]] and the Church's social doctrine — the moral law requires justice toward the poor.
-- **The Famine of the Word (Amos 8:11–12):** Supports [[teaching/faith-and-revelation]] — the word of God is gift, not possession, and can be withdrawn as judgment.
-- **The Day of the LORD (Amos 5:18–20):** Judgment beginning with God's own people supports [[teaching/ascension-and-judgment]].
-- **David's Fallen Booth (Amos 9:11–12):** James' citation at the Council of Jerusalem (Acts 15) directly supports [[teaching/the-church]] — the Church is the restored dwelling of David.
-- **God as Creator and Judge (Amos 4:13, 5:8–9):** The doxologies embedded in the judgment oracles confess God as Creator, supporting [[teaching/god-the-father-creator]].
-
-## Open questions
-
-- Amos 5:24 — the Emmaus Amharic rendering of "justice" (ፍርድ) and "righteousness" (ጽድቅ): does it distinguish between God's justice and human justice, or use the same vocabulary?
-- Amos 9:11–12 in the Septuagint vs. the Hebrew: the LXX reads "that the rest of mankind may seek the Lord" (cited in Acts 15:17), while the MT has "that they may possess the remnant of Edom." Which reading does the Emmaus Amharic follow?
-- Amos' social critique and Catholic Social Teaching — a thematic page on "The Prophets and Catholic Social Doctrine" would connect Amos, Isaiah, Micah, and the Compendium's social teaching.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Amos (id: 160, 9 chapters, OT).

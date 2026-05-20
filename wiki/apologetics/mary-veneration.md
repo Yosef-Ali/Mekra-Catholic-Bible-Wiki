@@ -25,17 +25,3 @@ Mary prophesied under the Holy Spirit that "all generations will call me blessed
 > ኢየሱስም እናቱን የሚወደውንም ደቀ መዝሙር በአጠገቡ ቆሞ ባየ ጊዜ እናቱን "አንቺ ሴት፥ እነሆ ልጅሽ" አላት። ከዚያም ደቀ መዝሙሩን "እነሆ እናትህ" አለው። (ዮሐንስ 19፡26-27)
 
 On the cross, Jesus entrusted Mary to the beloved disciple — representing all faithful Christians. Mary is our spiritual mother by Christ's own gift.
-
-## In the Compendium
-
-**Q196:** Mary is Mother of the Church because she gave birth to Jesus, the Head of the Church. At the cross, Jesus gave her to the disciple: "Behold, your mother" (Jn 19:27).
-
-**Q197:** After the Ascension, Mary supported the Church through prayer. From heaven she continues interceding as model of faith.
-
-**Q198:** "From now on all generations will call me blessed" (Lk 1:48) — Mary's prophecy fulfilled in the Church's perpetual honor.
-
-## Open Questions
-
-- How do we explain Mary's Immaculate Conception and Assumption from Scripture alone?
-- What is the Catholic response to "Who is my mother?" (Matt 12:48)?
-- How did Luther and Calvin actually regard Mary, and where did Protestant rejection originate?

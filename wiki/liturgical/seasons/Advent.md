@@ -28,10 +28,3 @@
 
 > «እንግዲህ ከእንቅልፍ የምትነቁበት ሰዓት ጊዜው አሁን መሆኑን እወቁ፤ ካመንንበት ጊዜ ይልቅ አሁን መዳናችን ወደ እኛ ቀርቧልና።»
 > — ሮሜ 13:11
-
-## Open questions
-- How does the Ethiopian Catholic Advent fasting practice compare to the Latin Rite's non-fasting Advent?
-
-## Sources
-- `raw/catechism-digital/Q105.md` (Q105 — Christ's baptism by John)
-- Compendium Q102–105

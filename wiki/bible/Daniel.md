@@ -36,25 +36,3 @@ The clearest Old Testament prophecy of the resurrection of the dead — a twofol
 > — ዳንኤል 3:18
 
 The "but if not" of the three young men — faith without guarantee, trusting God's power while accepting His will, the paradigm of faithful witness under persecution.
-
-## In the Compendium
-
-Daniel is the primary Old Testament resource for eschatology, the resurrection, and the theology of faithful witness:
-
-- **The Son of Man (Dan 7:13–14):** Jesus' use of this title is central to [[teaching/jesus-christ-incarnation]] — the Son of Man is the divine judge and the representative of the new humanity.
-- **The Resurrection of the Dead (Dan 12:1–3):** The foundational Old Testament text for [[teaching/forgiveness-resurrection-eternal-life]] — the promise of bodily resurrection is already present in the prophets.
-- **The Last Judgment (Dan 7:9–14, 12:2):** The vision of the Ancient of Days and the books being opened supports [[teaching/ascension-and-judgment]] — Christ is the judge of the living and the dead.
-- **Faithful Witness Under Persecution (Dan 3, 6):** The refusal to worship idols supports [[teaching/faith-and-revelation]] — faith requires public witness even at the cost of one's life.
-- **The Seventy Weeks (Dan 9:24–27):** The prophecy of seventy weeks of years, traditionally read as pointing to the time of Christ's coming, supports [[teaching/jesus-christ-incarnation]] and the theology of salvation history.
-- **Daniel and the Liturgy:** The Song of the Three Young Men (Dan 3:52–90, deuterocanonical) is used as a canticle in the Liturgy of the Hours, connecting Daniel to [[teaching/prayer-in-christian-life]].
-
-## Open questions
-
-- The Emmaus Amharic rendering of "son of man" (የሰው ልጅ) in Daniel 7:13 — does it retain the Aramaic כְּבַר אֱנָשׁ ("one like a son of man") with its emphasis on the figure's likeness to humanity, or does it translate more definitively?
-- Daniel's bilingual structure (Hebrew/Aramaic) and its implications for the book's composition and dating — the Aramaic of Daniel is now widely dated to the Persian or early Hellenistic period rather than the Babylonian exile, raising questions of genre and historicity. A thematic page on "Biblical Languages and the Composition of Scripture" would address this.
-- The deuterocanonical additions (Susanna, Bel and the Dragon, the Prayer of Azariah, the Song of the Three Young Men) — are they present in the Emmaus Amharic edition, and how are they integrated into the chapter structure?
-- The relationship between Daniel's succession of kingdoms (Dan 2, 7) and the historicist, preterist, and futurist schools of interpretation — a thematic page on "The Interpretation of Apocalyptic Literature" would serve both Daniel and Revelation.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Daniel (id: 180, 14 chapters, OT).

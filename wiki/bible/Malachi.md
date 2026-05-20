@@ -16,9 +16,3 @@ Malachi, the last book of the Old Testament in the Christian canon, addresses a 
 - Malachi 3:1 — My messenger shall prepare the way
 - Malachi 3:10 — Bring the full tithe... put me to the test
 - Malachi 4:2 — The sun of righteousness with healing in its wings
-
-## In the Compendium
-Q271-294 on the Eucharist; Q105-106 on John the Baptist.
-
-## Open questions
-- How does the Ethiopian Catholic Qeddase liturgy use Malachi 1:11?

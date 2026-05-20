@@ -34,10 +34,3 @@ Augustine vs Pelagius (5th c.) set the Western framework. Luther's reaction agai
 medieval works-righteousness hardened the positions. The Council of Trent (1547) defined
 the Catholic position on justification. The EOTC, isolated from these Western
 controversies, preserved the earlier patristic synthesis.
-
-## Open questions
-- Does the EOTC have formal canon law defining the relationship of grace and free will?
-- How is the concept of merit understood in EOTC soteriology?
-
-## Sources
-- Compendium Q415-433 | CCC 1949-2029 | Council of Trent, Session VI (1547)

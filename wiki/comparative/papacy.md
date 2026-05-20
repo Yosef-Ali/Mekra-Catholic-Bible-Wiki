@@ -34,9 +34,3 @@ Only in 1959 did the Ethiopian Church gain full autocephaly with its own Patriar
 - Both use Matthew 16:18-19 and John 21:15-17 as foundational texts for understanding Church authority.
 - Both have a patriarchal structure (though the scope and nature of patriarchal authority differ).
 - Both seek visible unity — the Catholic Church through communion with the Pope, the EOTC through communion of autocephalous churches.
-
-## Open questions
-
-- Could a "primacy of honor" without jurisdiction satisfy both Catholic ecclesiology and the EOTC's autocephalous tradition — what model of unity is possible?
-- How does the EOTC interpret the role of St. Peter in the early Church as evidenced by Acts (Peter leading the apostles, presiding at Pentecost, making the decisive speech at the Council of Jerusalem)?
-- What would an Ethiopian Catholic Patriarchate in full communion with Rome look like under the Eastern Catholic model, and how does the existing Ethiopian Catholic Church (a *sui iuris* church) address this?

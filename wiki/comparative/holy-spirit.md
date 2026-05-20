@@ -49,12 +49,3 @@ Arianism, then gradually adopted throughout the West over centuries. Rome itself
 add the Filioque to its liturgy until 1014. The Eastern churches never accepted this
 unilateral addition. The Council of Florence (1439) attempted reunion but failed.
 Catholic-Orthodox dialogue now acknowledges the original Greek text as normative.
-
-## Open questions
-- Does the EOTC recognize Catholic baptisms and chrismations as valid despite Filioque?
-- How does the Mahlet of St. Yared poetically express the theology of the Holy Spirit?
-
-## Sources
-- Compendium Q136–146
-- CCC 683–747
-- Council of Florence (1439), Decree for the Greeks

@@ -35,10 +35,3 @@ as unbiblical, viewing all sin as deserving of death apart from grace.
 The Evagrian tradition predates Chalcedon and is shared by all apostolic churches. The
 Western juridical framework developed in scholasticism and Trent. The EOTC preserves
 the older patristic pastoral approach without the Lateran/Trent juridical precision.
-
-## Open questions
-- How does EOTC confessional practice determine which sins require formal Nuzaze?
-- Are the eight Evagrian evil thoughts taught outside monastic contexts in Ethiopia?
-
-## Sources
-- Compendium Q391-414 | CCC 1846-1876 | Evagrius Ponticus, Praktikos

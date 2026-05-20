@@ -42,11 +42,3 @@ EOTC's intermediate-state prayers (Tezkar) function similarly but without the La
 juridical apparatus. The Orthodox rejection of purgatory as a "third place" with "fire"
 is primarily a reaction against Latin scholastic precision, not against prayer for the
 dead itself.
-
-## Open questions
-- How do Tezkar prayers on specific days (3rd, 7th, 40th) relate to the soul's post-
-  mortem state in EOTC theology?
-- Does the EOTC formally distinguish between "heaven," "paradise," and "kingdom"?
-
-## Sources
-- Compendium Q200-217 | CCC 1020-1065

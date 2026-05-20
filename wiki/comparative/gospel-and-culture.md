@@ -38,11 +38,3 @@ Scripture, adapting worship forms). The Ethiopian Kale Heywet and Mekane Yesus c
 The EOTC's 1600-year history in Ethiopia produced Christianity's deepest inculturation
 in Africa. The Ethiopian Catholic Church uniquely bridges this tradition with Roman
 communion. Protestant missions (19th-20th centuries) brought different approaches.
-
-## Open questions
-- How does Ethiopian Catholic identity navigate "double belonging" to Ethiopian tradition
-  and Roman communion?
-- What elements of pre-Christian Ethiopian culture were rejected vs baptized by the EOTC?
-
-## Sources
-- Compendium Q1-25 | Gaudium et Spes 58 | Vatican II

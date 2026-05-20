@@ -23,9 +23,3 @@ Micah prophesied in the 8th century BC, contemporary with Isaiah, in the souther
 - Micah 6:8 — "Do justice, love mercy, walk humbly with your God"
 - Micah 4:3 — "They shall beat swords into plowshares"
 - Micah 7:18-19 — "Who is a God like you, pardoning iniquity?"
-
-## In the Compendium
-Q79-83 on the Nativity, and moral teaching on justice and the common good.
-
-## Open questions
-- How does the Ge'ez Andemta commentary tradition interpret Micah's Bethlehem prophecy?

@@ -41,13 +41,3 @@ The icon controversy (8th-9th c.) was resolved at Nicaea II (787), which the EOT
 received. The Reformation's rejection of images stemmed from concern about superstition
 and strict biblical interpretation. The Tabot tradition has pre-Christian roots baptized
 into Ethiopian liturgy -- possibly the world's most distinctive Christian practice.
-
-## Open questions
-- What is the theological justification for the Tabot's liturgical role in the EOTC?
-- How does EOTC teaching distinguish latria from proskynesis in Amharic vocabulary?
-- Does the Ethiopian Catholic Rite use the Tabot?
-
-## Sources
-- Compendium Q440-454
-- CCC 2084-2195
-- Second Council of Nicaea (787)

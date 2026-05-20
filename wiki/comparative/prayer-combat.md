@@ -42,13 +42,3 @@ The Desert tradition (Antony, Pachomius, Evagrius) influenced both Egyptian Copt
 Ethiopian monasticism before Chalcedon. Eastern hesychasm developed in Byzantium.
 Western mysticism (John of the Cross, 16th c.) developed independently. The Reformation
 moved away from monastic-ascetical paradigms toward domestic spirituality.
-
-## Open questions
-- Does the EOTC have a text analogous to the Philokalia for spiritual combat?
-- How does Abune Tekle Haymanot's intercession function in Ethiopian prayer practice?
-
-## Sources
-- Compendium Q569-577
-- CCC 2725-2758
-- Sayings of the Desert Fathers
-- Gadl (Hagiography) of Abune Tekle Haymanot

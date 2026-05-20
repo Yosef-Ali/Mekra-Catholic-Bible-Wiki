@@ -36,12 +36,3 @@ sacramental. Some conservative evangelicals restrict divorce to adultery alone.
 Catholic indissolubility was clarified at Trent (Session XXIV, 1563). The Eastern (EOTC)
 position reflects an earlier interpretation of Matthew 19:9. Ethiopia's ጥሎሽ has
 pre-Christian roots, now integrated into Christian marriage custom.
-
-## Open questions
-- How do Ethiopian Catholic pastors address ጥሎሽ expectations pastorally?
-- What is the EOTC formal canon law for ecclesiastical divorce grounds?
-
-## Sources
-- Compendium Q336-350
-- CCC 1601-1666
-- Council of Trent, Session XXIV (1563)

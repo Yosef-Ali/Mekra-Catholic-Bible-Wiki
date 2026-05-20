@@ -25,15 +25,3 @@ Jesus intensifies rather than explains away the realism. The Greek verb used (*t
 > ስለዚህ ያለአግባብ ይህን ኅብስት የበላ ወይም የጌታን ጽዋ የጠጣ ሁሉ የጌታ ሥጋና ደም ዕዳ አለበት። ... ሳይገባው የሚበላና የሚጠጣ የጌታን ሥጋ ስለማይለይ ለራሱ ፍርድ ይበላል፤ ይጠጣል። (1ኛ ቆሮንቶስ 11፡27, 29)
 
 Paul says the unworthy communicant is *guilty of the body and blood of the Lord*. Juridical guilt over a mere symbol is incoherent. Failure to "discern the body" brings judgment — some in Corinth had died (v. 30).
-
-## In the Compendium
-
-**Q282:** Jesus Christ is present in the Eucharist in a unique, true, real, and substantial way: Body, Blood, soul, and divinity — the whole Christ — under the appearances of bread and wine.
-
-**Q283:** Transubstantiation is the complete change of substance into Christ's Body and Blood, while the sensible appearances (species) of bread and wine remain.
-
-## Open Questions
-
-- How to explain transubstantiation to someone who says it contradicts science?
-- What is the difference between Catholic, Lutheran (consubstantiation), and Reformed (spiritual presence) views?
-- What did the early Fathers (St. Ignatius of Antioch, St. Justin Martyr, St. Cyril of Jerusalem) teach about the Real Presence?

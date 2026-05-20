@@ -87,25 +87,8 @@
 
 ቅዱስ ቶማስ — በ ኢትዮጵያ ካቶሊክ ቤተክርስቲያን ላይ — በ ሥነ መለኮት መሰረታዊ ድርሰቶቹ — የተደነቀ ነው። ብዙ የኢትዮጵያ ካቶሊክ ካህናት — በ ቶማስቲ ሥነ መለኮት ይማራሉ — በ ሮም ወይም ካምፐስ ኮለጅ።
 
-## In the Compendium
-
-- **Q278** — *"ቅዱስ ቶማስ ኦቅዊናስ"* — ስለ ቅዱስ ቁርባን ጥልቀት
-- **Q284** — *"በመጨረሻው ግባቸው — ቅዱስ ቁርባን"* (ቶማስ ተጠቅሷል)
-- **Q307** — የቅዱስ ቁርባን ስጦታ — *"adoremus in aeternum"* — ጳውሎስ ጳውሎስ ስለ ቶማስ መዝሙር
-- **Q345, 388** — የእምነት ጻድቅነት — በ ቶማስቲ ቅርጽ
-- **Q468** — የተፈጥሮ ሕግ — በ ቶማስ ሥነ መለኮት
-
 ## In Scripture (ቶማስ የተጠቀሰ ስነጥቅሶች)
 
 - ማቴ. 22:37–40 — *"ጌታ አምላክህን ውደድ"* — የ ሞራል ሕግ ቅንጣት
 - ሮሜ 1:19–20 — *"መለኮታዊ ባሕርዩ — ከ ፍጥረት ይታወቃል"* — የ ታናሽ ጊዜ መሠረት
 - ዕብ. 11:1 — *"እምነት — የማይታየው ነገር — ርግጠኛነት"* — የ ቶማስ ስለ እምነት
-
-## Sources
-
-- St. Thomas Aquinas, *Summa Theologiae* (Latin and English critical editions)
-- Pope Leo XIII, *Aeterni Patris* (1879)
-- Pope John Paul II, *Fides et Ratio* (1998) — modern Catholic philosophy
-- G.K. Chesterton, *Saint Thomas Aquinas* (1933)
-- Jean-Pierre Torrell OP, *Saint Thomas Aquinas* (2 volumes)
-- Compendium Q278, 284, 307, 345, 388, 468

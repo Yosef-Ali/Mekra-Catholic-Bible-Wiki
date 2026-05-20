@@ -108,14 +108,3 @@ In each case, the Protestant is implicitly relying on **Catholic Tradition** to 
 ## The Ethiopian context
 
 Ethiopian Christians — Orthodox and Catholic alike — have always held that the **Ge'ez Scriptures**, the **Liturgy of the Cherubim**, the **synaxarium** (lives of saints), and the **canons of the Apostles and Fathers** are received together as a single living deposit. The Sola Scriptura principle was never part of Ethiopian Christianity. It is a 16th-century European innovation.
-
-## Sources
-
-- 2 Thessalonians 2:15; 3:6
-- 2 Timothy 3:14–17
-- 1 Timothy 3:15
-- Jude 3 ("the faith once delivered to the saints")
-- *Dei Verbum* §9–10 (Vatican II)
-- CCC 80–95
-- [[teaching/faith-and-revelation]]
-- [[apologetics/deuterocanon]]

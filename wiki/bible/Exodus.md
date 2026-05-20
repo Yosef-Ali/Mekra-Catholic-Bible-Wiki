@@ -48,26 +48,3 @@ The ratification of the Sinai covenant in blood — echoed by Christ at the Last
 > — ዘፀአት 40:34
 
 The glory of God fills the Tabernacle — the climax of Exodus, God dwelling in the midst of His people, the prototype of the Incarnation and the Church.
-
-## In the Compendium
-
-Exodus provides the biblical foundation for the sacraments and the moral law:
-
-- **The Divine Name (Exodus 3:14):** The revelation of YHWH as "I AM" supports [[teaching/god-the-father-creator]] and Christ's "I AM" declarations in [[teaching/jesus-christ-incarnation]].
-- **The Passover (Exodus 12):** The primary Old Testament type of the Eucharist — [[teaching/eucharist]] (Q271–294) draws directly on the Paschal lamb and the perpetual memorial.
-- **The Crossing of the Red Sea (Exodus 14–15):** The patristic and liturgical reading of this event as a type of Baptism supports [[teaching/baptism]] (Q252–264).
-- **The Decalogue (Exodus 20:1–17):** The moral law is permanently binding; the first three commandments are treated in [[teaching/first-three-commandments]], the remainder in the subsequent commandment pages.
-- **The Covenant Blood (Exodus 24:8):** The ratification of the old covenant prefigures the Eucharistic blood of the new, directly underpinning [[teaching/eucharist]] and [[teaching/passion-death-resurrection]].
-- **The Tabernacle (Exodus 25–40):** The theology of sacred space and the indwelling presence of God supports [[teaching/the-church]] as the temple of the Holy Spirit.
-- **Manna in the Wilderness (Exodus 16):** Prefigures the Eucharist as the bread from heaven, supporting [[teaching/eucharist]].
-
-## Open questions
-
-- The Amharic rendering of the divine name in Exodus 3:14 as "የምኖር" (the one who is/exists) — does this adequately capture the Hebrew אֶהְיֶה אֲשֶׁר אֶהְיֶה (I AM WHO I AM), and is it consistent with how the Septuagint's ὁ ὤν is rendered elsewhere?
-- Exodus 12 — the Emmaus edition's rendering of "memorial" (መታሰቢያ) in the Passover institution: does it carry the strong sense of anamnesis (making-present) that the Hebrew זִכָּרוֹן and the Greek ἀνάμνησις carry, or does it lean toward mere remembrance?
-- The relationship between the Tabernacle instructions and the heavenly liturgy (cf. Hebrews 8–9) — a dedicated thematic page on "The Tabernacle and the Temple in Salvation History" would serve as a bridge to Hebrews and Revelation.
-- The Golden Calf incident (Exodus 32) and Moses' intercession — a profound type of Christ the mediator and Mary's intercessory role, deserving a thematic page.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Exodus (id: 2, 40 chapters, OT).

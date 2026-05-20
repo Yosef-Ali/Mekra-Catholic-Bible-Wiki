@@ -15,9 +15,3 @@ Joel prophesies in response to a devastating locust plague that has stripped Jud
 - Joel 2:12 — Return to me with all your heart
 - Joel 2:28 — I will pour out my Spirit on all flesh
 - Joel 2:32 — Whoever calls on the name of the Lord shall be saved
-
-## In the Compendium
-Referenced in Q136-140 on the Holy Spirit and Pentecost.
-
-## Open questions
-- How does Ethiopian Catholic Pentecost liturgy use Joel 2? 

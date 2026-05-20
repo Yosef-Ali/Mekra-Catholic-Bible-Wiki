@@ -21,12 +21,3 @@ Most Protestant churches do not recognize the Anointing as a sacrament. Some (Lu
 
 ## Where the differences come from
 The divergence traces to the Reformation's reduction of sacraments to two (Baptism, Eucharist) based on explicit dominical institution. James 5:14-15 was deemed insufficient to establish a sacrament, though the Council of Trent (Session XIV) defined the Anointing as one of the seven instituted by Christ and promulgated by James. The EOTC retains the sacrament but developed its own pastoral discipline not codified by Trent.
-
-## Open questions
-- When does EOTC canon law permit repeated anointing of the same person?
-- Is Ethiopian olive oil specially blessed for this use?
-
-## Sources
-- Compendium Q313–320
-- Catechism of the Catholic Church 1499–1532
-- [EOTC practice — to verify against Andemta tradition]

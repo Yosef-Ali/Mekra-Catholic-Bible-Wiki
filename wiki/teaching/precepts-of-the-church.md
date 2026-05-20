@@ -109,9 +109,3 @@ The precepts say *support the Church*. The saint tithes and gives the widow's mi
 The precepts say *marry properly*. The saint makes the marriage a domestic church.
 
 The precepts give the shape; love fills the volume.
-
-## Sources
-
-- Compendium Q432
-- CCC 2041–2043
-- *Code of Canon Law* canons 1246–1253 (feast days, fasting)

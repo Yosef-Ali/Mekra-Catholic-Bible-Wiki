@@ -43,22 +43,3 @@ David's great prayer of praise — the OT's most comprehensive doxology, acknowl
 > — 1ኛ ዜና መዋዕል 21:17
 
 David's intercessory self-offering — the king accepts personal responsibility before God, prefiguring Christ who takes the judgment of His people upon Himself.
-
-## In the Compendium
-
-1 Chronicles provides biblical foundations for several key Catholic doctrines:
-
-- **The Davidic Covenant (1 Chronicles 17:11–14):** The promise of an eternal throne for David's son is the primary OT text for [[teaching/jesus-christ-incarnation]] — Jesus is the Son of David whose kingdom has no end.
-- **David's Prayer of Praise (1 Chronicles 29:10–13):** This comprehensive doxology — "Yours is the kingdom, the power, and the glory" — is a model of adoration that supports [[teaching/prayer-in-christian-life]] and informs the Church's liturgical prayer.
-- **The Temple Worship (1 Chronicles 15–16, 23–25):** The detailed organization of Levitical singers, musicians, and gatekeepers prefigures the Church's ordered liturgy, supporting [[teaching/eucharist]] and [[teaching/the-church]] — worship is not spontaneous but ordered, beautiful, and sacramental.
-- **David's Charge to Solomon (1 Chronicles 28:9):** The call to know God with a whole heart and seek Him diligently underpins [[teaching/virtues]] — the virtue of religion requires wholehearted devotion, not half-measures.
-
-## Open questions
-
-- The Chronicler's conspicuous omission of David's sins (Bathsheba, Uriah, Absalom's rebellion) — is this "sanitized history" or a deliberate theological choice to present David as a liturgical model? A comparative page on "The Two Davids: Samuel-Kings vs. Chronicles" would serve biblical theology.
-- The census narrative in 1 Chronicles 21 attributes David's action to "Satan" (21:1), whereas 2 Samuel 24:1 says "the anger of the Lord" incited David. How does Catholic exegesis reconcile these two accounts, and what does the development reveal about the theology of evil in the OT?
-- The genealogies of 1 Chronicles 1–9 — a dedicated page on "The Chronicler's Genealogies and the Unity of God's People" would help modern readers understand their theological purpose and liturgical function.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for 1 Chronicles (id: 159, 29 chapters, OT).

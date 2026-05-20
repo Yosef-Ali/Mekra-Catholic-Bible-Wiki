@@ -17,8 +17,3 @@ Evangelical Protestants are strongly pro-life, with abortion being a central pol
 
 ## Where the differences come from
 The Catholic death penalty revision (2018) represents a development in doctrine. The EOTC's historic alliance with the Ethiopian state affected its stance on capital punishment. Orthodox penitential canons reflect the early Church's stricter discipline around killing.
-
-## Open questions
-- How does the EOTC apply its canon law to soldiers returning from war?
-## Sources
-- Compendium Q510–518 | CCC 2258–2330

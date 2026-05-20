@@ -48,23 +48,3 @@ The primitive apostolic creed — Christ died, was buried, was raised on the thi
 > — 1ኛ ቆሮንቶስ 15:14
 
 The non-negotiable foundation — without the resurrection, Christian proclamation is empty and faith is futile. Everything hangs on the risen Christ.
-
-## In the Compendium
-
-1 Corinthians is indispensable for Catholic sacramental, ecclesial, and moral catechesis:
-
-- **The Institution of the Eucharist (1 Corinthians 11:23–26):** The earliest biblical text for [[teaching/eucharist]] (Q271–294). Paul's account establishes the sacrificial commemoration and the Real Presence.
-- **The Church as the Body of Christ (1 Corinthians 12:12–27):** Central to [[teaching/the-church]] (Q147–193) — the diversity of gifts, offices, and services within the one Body animated by the Holy Spirit.
-- **Baptism into One Body (1 Corinthians 12:13):** Essential for [[teaching/baptism]] (Q252–264) — Baptism incorporates the believer into the ecclesial Body of Christ, transcending all human divisions.
-- **The Resurrection (1 Corinthians 15):** The definitive biblical text for [[teaching/forgiveness-resurrection-eternal-life]] (Q105–131) — Christ's bodily resurrection is the guarantee of our own.
-- **Love as the Supreme Gift (1 Corinthians 13):** The Hymn to Love (ፍቅር) is foundational for [[teaching/virtues]] (Q377–390) — love is the form of all virtues and the bond of perfection.
-- **Moral Discipline (1 Corinthians 5–6):** Addresses sexual morality and community discipline, underpinning [[teaching/moral-law-and-grace]].
-
-## Open questions
-
-- The Emmaus rendering of 1 Corinthians 11:24 — "This is my body, which is for you" (τοῦτό μού ἐστιν τὸ σῶμα τὸ ὑπὲρ ὑμῶν): Does the Amharic use ሥጋዬ (my flesh) as in the DB output? This is theologically significant for Catholic Eucharistic realism versus symbolic interpretations.
-- 1 Corinthians 15:29 — "baptism for the dead": How does the Emmaus Amharic render this notoriously difficult verse, and does it preserve the ambiguity of the Greek? This verse has been cited in Catholic tradition regarding the communion of saints and purgatory.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for 1 Corinthians (id: 199, 16 chapters, NT).

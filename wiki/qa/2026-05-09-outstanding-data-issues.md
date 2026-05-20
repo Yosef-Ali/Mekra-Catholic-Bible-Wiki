@@ -87,10 +87,3 @@ When time permits:
 1. **Rescan** Compendium pages 14, 46, 143, 174, 238 → drop into `source_jpg/`.
 2. **Re-OCR** by running `node scripts/ocr_compendium.mjs` (idempotent — only processes new files).
 3. **Sirach** — schedule a focused extraction pass on PDF pages 390–409. The structure_page JSONs need their `verses` arrays populated.
-
-## Sources
-
-- `scripts/get_verse.mjs` (live DB query)
-- `extraction_output/page_map.json`
-- `extraction_output/structure_page_390.json`
-- Prior batches: db-validate (2026-05-06), db-fix (2026-05-06), batch 5 (2026-05-08)

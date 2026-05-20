@@ -41,25 +41,3 @@ The Fourth Servant Song — the vicarious, substitutionary suffering of the Serv
 > — ኢሳይያስ 61:1
 
 The Spirit-anointed herald of good news — claimed by Jesus in the Nazareth synagogue (Luke 4:18–19) as the program of His public ministry.
-
-## In the Compendium
-
-Isaiah is arguably the most-quoted Old Testament book in the Catechism and Compendium, providing the scriptural foundation for Christology, Mariology, and sacramental theology:
-
-- **Immanuel and the Virginal Conception (Isa 7:14):** The prophecy of the virgin birth is the cornerstone of [[teaching/jesus-christ-incarnation]] and [[teaching/mary]] — God has definitively visited His people in the flesh.
-- **The Divine Titles of the Messianic Child (Isa 9:6–7):** The royal titles (Mighty God, Everlasting Father) confess the divinity of Christ, supporting [[teaching/jesus-christ-incarnation]] and the Creed's confession of Christ as "God from God."
-- **The Suffering Servant (Isa 52:13–53:12):** The prophecies of vicarious, redemptive suffering are thoroughly integrated into [[teaching/passion-death-resurrection]] — Christ died for our sins according to the Scriptures (1 Cor 15:3).
-- **The Spirit-Anointed Mission (Isa 61:1–2):** Jesus' self-interpretation of His ministry supports [[teaching/holy-spirit]] and the theology of the Spirit's work in the Church.
-- **The New Exodus and the Highway in the Desert (Isa 40:3–5):** John the Baptist is the voice in the wilderness, prefiguring [[teaching/baptism]] as the passage through water into new life.
-- **New Heavens and New Earth (Isa 65:17, 66:22):** The eschatological vision of cosmic renewal is foundational to [[teaching/forgiveness-resurrection-eternal-life]].
-
-## Open questions
-
-- Isaiah 7:14 — the Hebrew `עַלְמָה` (almah, "young woman") vs. the Septuagint's `παρθένος` (parthenos, "virgin"). Does the Emmaus Amharic use "ድንግል" (virgin) following the Septuagint and Church tradition, and is the text-critical issue noted in study apparatus?
-- The identity of the Servant in the Servant Songs — does the Emmaus edition reflect the Christian conviction that the Servant is ultimately Christ, or does it present the Servant as a fluid figure (Israel, the prophet, the remnant, the Messiah)?
-- Isaiah 66's 66-chapter structure and its relationship to the 66 books of the Protestant canon vs. the 73 books of the Catholic canon — a thematic page on the canonical shape of prophetic literature would be valuable.
-- The absence of the Suffering Servant in the weekly synagogue lectionary (haftarot) — a thematic page on "Isaiah in Jewish and Christian Liturgy" would illuminate the divergent reading traditions.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Isaiah (66 chapters, OT).

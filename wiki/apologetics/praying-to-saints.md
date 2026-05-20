@@ -25,15 +25,3 @@ The elders in heaven hold "golden bowls full of incense, which are the prayers o
 > እንግዲህ እንደዚህ ዓይነት ምስክሮች እንደ ደመና በዙሪያችን ካሉን፥ እኛ ደግሞ ማንኛውንም ሸክምና የተጠላለፈብንን ኃጢአት ሁሉ አስወግደን፤ በፊታችን ያለውን ሩጫ በጽናት እንሩጥ። (ዕብራውያን 12፡1)
 
 We are "surrounded by so great a cloud of witnesses" — the saints of Hebrews 11 who actively witness our race of faith.
-
-## In the Compendium
-
-**Q194:** The communion of saints is sharing in holy things — faith, sacraments, charisms. Its root is charity, which "does not seek its own" (1 Cor 13:5).
-
-**Q195:** It also means union among holy persons: pilgrims on earth, those being purified, and those in glory — one family in Christ, the Church.
-
-## Open Questions
-
-- What is the biblical basis for asking deceased saints to intercede (vs. them only presenting our prayers)?
-- How do we respond to the objection that necromancy (Deut 18:10-11) forbids all communication with the dead?
-- What did the early Church Fathers (St. Augustine, St. John Chrysostom) teach about invoking saints?

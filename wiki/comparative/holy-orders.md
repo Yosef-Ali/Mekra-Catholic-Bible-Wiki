@@ -49,12 +49,3 @@ The celibacy requirement in the Latin Rite developed gradually (mandated univers
 the First Lateran Council, 1123, and reinforced at Trent). The EOTC and Eastern churches
 preserved the earlier discipline of married priesthood rooted in 1 Timothy 3:2. The
 EOTC practice of episcopal celibacy mirrors the broader Eastern tradition.
-
-## Open questions
-- How does the EOTC determine which monasteries supply episcopal candidates?
-- Does the EOTC recognize the validity of Catholic ordinations?
-
-## Sources
-- Compendium Q321–335
-- CCC 1536–1600
-- Ordinatio Sacerdotalis (1994)

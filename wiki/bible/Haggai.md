@@ -15,9 +15,3 @@ Haggai is the first post-exilic prophet, active in 520 BC. The returned exiles h
 - Haggai 1:4 — Is it time to dwell in paneled houses?
 - Haggai 2:7-9 — The desire of nations shall come
 - Haggai 2:23 — Zerubbabel as God's signet ring
-
-## In the Compendium
-Referenced in teaching on the Church as the new Temple.
-
-## Open questions
-- How does Ethiopian church architecture reflect Haggai's vision of latter glory?

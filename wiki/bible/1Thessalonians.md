@@ -21,9 +21,3 @@
 - 1 Thessalonians 4:3 — This is the will of God: your sanctification
 - 1 Thessalonians 5:2 — The day of the Lord will come like a thief in the night
 - 1 Thessalonians 5:8 — Breastplate of faith and love, helmet of the hope of salvation
-
-## In the Compendium
-Q105–131 on the resurrection and eternal life; Q420–432 on moral life and the call to holiness.
-
-## Open questions
-- The parousia language: how does the Emmaus Amharic render παρουσία (coming/presence) in 4:15 — as ምጽአት (coming) or መምጣት? The term bears weight for both eschatology and sacramental theology.

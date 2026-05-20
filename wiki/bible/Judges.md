@@ -41,23 +41,3 @@ Samson's final prayer and death — the flawed judge's last act of self-giving, 
 > — መሣፍንት 21:25
 
 The book's haunting final refrain — a portrait of moral anarchy without godly leadership, the condition that cries out for the true King who will reign in righteousness.
-
-## In the Compendium
-
-Judges provides the biblical paradigm for the cycle of sin and grace, human weakness, and the need for righteous kingship:
-
-- **The Cycle of Sin and Deliverance (Judg 2:11–19):** The pattern of apostasy, judgment, repentance, and deliverance grounds [[teaching/sin]] and [[teaching/moral-law-and-grace]] — the moral life is lived in the rhythm of fall and rise through grace.
-- **Strength in Weakness (Judg 6–16):** God's use of flawed, weak instruments supports [[teaching/virtues]] — true strength is humility and reliance on God, not self-sufficiency.
-- **The Refusal of Divine Kingship (Judg 8:22–23, cf. 21:25):** Gideon's refusal to rule ("the LORD will rule over you") and the chaos of kinglessness ground [[teaching/the-church]] — the Church recognizes Christ alone as the head and king.
-- **The Spiral into Chaos (Judg 17–21):** The moral anarchy that results from "everyone doing what is right in his own eyes" supports [[teaching/moral-law-and-grace]] and the Compendium's teaching on conscience — conscience must be formed by God's law, not subjective preference.
-
-## Open questions
-
-- The Amharic Emmaus rendering of "judge" (መሳፍንት / ፈራጅ) — does the translation adequately convey the Hebrew shophet as a Spirit-empowered deliverer and covenant enforcer, not a forensic magistrate?
-- The morally troubling narratives — Jephthah's daughter (Judg 11), the Levite's concubine (Judg 19) — how does the Emmaus edition present these texts, and does it provide any theological framework for reading them as descriptive rather than prescriptive?
-- The relationship between the judges and the charismatic gifts of the Holy Spirit — a thematic page on "The Spirit of the LORD in the Old Testament" would illuminate the pattern of the Spirit rushing upon unlikely deliverers.
-- Samson as a type of Christ: betrayed by a woman he loved, blinded by his enemies, achieving his greatest victory through his death — this typology deserves a dedicated thematic page under themes/.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Judges (id: 7, 21 chapters, OT).

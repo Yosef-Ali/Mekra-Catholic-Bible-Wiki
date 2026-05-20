@@ -34,11 +34,3 @@ evolution. These internal Protestant debates do not affect Catholic-EOTC dialogu
 Differences on creation are minimal across apostolic traditions. The main divergence
 is between confessional Christianity and modern secularism. The EOTC's doxological
 language (ኤግዚአብሔር, ሰብአዊ ጌታ) reflects Ge'ez vocabulary shared by Ethiopian Catholics.
-
-## Open questions
-- How does the EOTC Ge'ez Anaphora of the Apostles address God the Father?
-- Does the EOTC Andemta tradition distinguish between creation ex nihilo and emanation?
-- What is the EOTC position on the compatibility of creation theology with modern science?
-
-## Sources
-- Compendium Q36-72 | CCC 198-421 | EOTC Andemta

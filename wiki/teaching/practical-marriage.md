@@ -10,7 +10,7 @@
 
 ## Synthesis
 
-ጋብቻ የእግዚአብሔር ሥራ ነው — በፍጥረት መጀመሪያ የተመሠረተ፤ በክርስቶስ ወደ ምሥጢርነት የተነሣ። የተጠመቀ ወንድና ሴት የሚገቡት ጋብቻ የክርስቶስና የቤተክርስቲያን ፍቅር ምሳሌ ነው። የምሥጢሩ ሦስት ምልክቶች **ነጻ ፈቃድ፣ ዘላለማዊ ታማኝነት፣ ለልጆች ክፍት መሆን** ናቸው። ጋብቻ ሊፈርስ የማይችል ነው — *"እግዚአብሔር ያጣመረውን ሰው አይለየው"* (ማቴ. 19:6)።
+ፍቅርየሆነውናወንድናሴትንለፍቅርየፈጠረው እግዚአብሔር ለፍቅር ጠርቶአቸዋል፡፡ ወንድና ሴት አድርጎ በመፍጠሩ በትዳር ለሚሆን ጥልቅ የሕይወትና የፍቅር ሱታፌ ጠርቶአቸዋል፡፡ «ስለዚህ አንድ ሥጋ ናቸው እንጂ ወደፊት ሁለት አይደሉም» (ማቴ. 19፡6)፡፡ እግዚአብሔርም ሲባርካቸው «ብዙ ተባዙ» (ዘፍ. 1፡28) አላቸው፡፡
 
 ## Three essential properties (ሦስቱ ዋና ባሕርያት)
 
@@ -118,12 +118,3 @@ If they were both baptized at the time of their wedding, their marriage was alre
 
 **Is contraception really a serious sin?**
 The Church teaches it is gravely contrary to the openness to life that defines marriage (Compendium Q499; *Humanae Vitae* §11–14). Natural Family Planning is permitted for serious reasons.
-
-## Sources
-
-- Compendium Q337–350 (Marriage)
-- CCC 1601–1666
-- *Code of Canon Law* canons 1055–1165
-- *Humanae Vitae* (Pope Paul VI, 1968)
-- *Familiaris Consortio* (John Paul II, 1981)
-- [[teaching/marriage]]

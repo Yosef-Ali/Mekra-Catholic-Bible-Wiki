@@ -38,19 +38,3 @@ Wisdom identified with Torah — the Law as the path of life and the dwelling pl
 > — ባሮክ 3:38
 
 The Incarnation prophecy — read during Advent as foretelling the Word dwelling among us (John 1:14).
-
-## In the Compendium
-
-- **Penitential Prayer (Baruch 1–3):** Model of confession, supporting [[teaching/penance]] and [[teaching/sin]].
-- **Wisdom as Law (Baruch 3–4):** Anchors [[teaching/moral-law-and-grace]] — the Law as gift of wisdom.
-- **Consolation of Jerusalem (Baruch 4–5):** Eschatological hope, connected to [[teaching/the-church]] and the heavenly Jerusalem.
-- **Incarnation Prophecy (Baruch 3:38):** Read in Advent liturgy, supporting [[teaching/jesus-christ-incarnation]].
-
-## Open questions
-
-- Does the Emmaus Amharic edition include Baruch 6 (the Letter of Jeremiah) as a separate book or as the final chapter of Baruch?
-- The relationship between Baruch and the Ethiopian canon — Ethiopian tradition includes additional Baruch material (the Rest of the Words of Baruch, or Paralipomena of Baruch). How does the Ethiopian Catholic edition handle this?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Baruch (id: 211, 6 chapters, Apocrypha).

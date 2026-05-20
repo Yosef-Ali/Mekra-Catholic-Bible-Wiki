@@ -10,7 +10,7 @@
 
 ## Synthesis
 
-ንስሐ የክርስቶስ ስጦታ ነው፤ የተጠመቀ ሰው ካደረገው ኃጢአት ጋር ታርቆ የጸጋ ሕይወቱን እንዲቀጥል የተሰጠ ምሥጢር። ጥሩ ኑዛዜ የሚሠራው አምስት እርምጃዎች ሲሟሉ ነው፦ **ሕሊናን መመርመር፣ ንስሐ መግባት፣ ለመለወጥ መወሰን፣ ኃጢአትን መናዘዝ፣ የተሰጠውን ቀኖና መፈጸም**።
+የነፍሳችንና የሥጋችን ሐኪም የሆነው ክርስቶስ እነዚህን ምሥጢራትየመሠረተውወደክርስትናሕይወት በሚያስገቡን ምሥጢራት የሚሰጠን አዲስ ሕይወት በኃጢአት ምክንያት ሊዳከም እንዲያውም ሊጠፋ ስለሚችል ነው፡፡ ስለዚህ፣ቤተ ክርስቲያኑ በእነዚህ ሁለት ምሥጢራት አማካኝነት የእርሱን የፈውስና የደኅንነት ሥራ እንድትቀጥል ፈለገ፡፡ ምሥጢረ ንስሐና ዕርቅ
 
 ## The Five Steps (አምስቱ ደረጃዎች)
 
@@ -119,11 +119,3 @@ Make the sign of the cross. Leave quietly. Do your penance. Thank God — your s
 - **Required by Church law:** at least once a year if conscious of mortal sin.
 - **Recommended:** monthly (devotional confession), even without mortal sin — for spiritual direction and growth.
 - **Always before receiving Communion** if conscious of mortal sin.
-
-## Sources
-
-- Compendium Q295–312 (Penance and Reconciliation)
-- CCC 1422–1498
-- [[teaching/penance]]
-- [[teaching/sin]]
-- [[apologetics/confession-to-priest]]

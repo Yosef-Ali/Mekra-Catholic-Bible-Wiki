@@ -37,11 +37,3 @@ Catholic social teaching (from Rerum Novarum 1891 to Laudato Si' 2015) developed
 systematic rights framework largely absent in the EOTC, which never faced the Industrial
 Revolution or developed a comparable social magisterium. Ethiopia's communal culture
 shaped EOTC's expression differently.
-
-## Open questions
-- Does the EOTC have formal teaching documents on human rights comparable to Catholic
-  social encyclicals?
-- How does Ethiopian communal dignity address the rights of marginalized individuals?
-
-## Sources
-- Compendium Q358-376 | CCC 1700-1876 | Pacem in Terris (1963)

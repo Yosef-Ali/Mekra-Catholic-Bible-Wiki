@@ -48,25 +48,3 @@ The call of Abraham — the election of a particular people for the sake of univ
 > — ዘፍጥረት 15:6
 
 Abraham's faith reckoned as righteousness — the paradigm text for Paul's doctrine of justification by faith (Romans 4, Galatians 3).
-
-## In the Compendium
-
-Genesis is the foundational biblical text for the opening articles of the Creed and Catholic anthropology:
-
-- **Creation (Genesis 1–2):** Primary scriptural source for [[teaching/god-the-father-creator]] (Q36–72) — God creates ex nihilo, through the Word, declaring all creation good.
-- **Human Dignity and the Imago Dei (Genesis 1:26–27):** Anchors [[teaching/human-dignity]] — every person is created in God's image, establishing the foundation of Catholic social teaching.
-- **The Fall and Original Sin (Genesis 3:1–24):** Essential for [[teaching/man-and-the-fall]] (Q73–83) and [[teaching/sin]] — the origin of sin, concupiscence, and death in human experience.
-- **The Protoevangelium (Genesis 3:15):** The first promise of redemption, traditionally read in connection with [[teaching/mary]] and [[teaching/jesus-christ-incarnation]].
-- **The Abrahamic Covenant (Genesis 12, 15, 17):** The paradigm of faith and divine election, grounding [[teaching/faith-and-revelation]] — faith is personal trust in God's promise.
-- **The Testing of Abraham (Genesis 22):** A type of the Father's sacrifice of the Son, supporting [[teaching/passion-death-resurrection]] and the theology of redemptive suffering.
-
-## Open questions
-
-- The Amharic Emmaus rendering of "image and likeness" (መልክ / ምሳሌ) in Genesis 1:26 — does the translation distinguish the two terms (צֶלֶם / דְּמוּת) consistently, and does it preserve the patristic distinction that some Greek and Latin Fathers drew between image (reason/freedom) and likeness (sanctifying grace)?
-- Genesis 3:15 — the translation of the Hebrew "he" (הוּא) vs. the Septuagint "he" (αὐτός) vs. the Vulgate "she" (ipsa). How does the Emmaus Amharic render the subject who crushes the serpent's head, and does this affect the Mariological reading?
-- The relationship between Genesis 1–11 and ancient Near Eastern mythologies (Enuma Elish, Atrahasis, Gilgamesh) — a dedicated thematic page (e.g., "Genesis and Ancient Near Eastern Context") would be valuable for apologetics.
-- The Joseph narrative (chs. 37–50) as a type of Christ: betrayed by his brothers, sold for silver, descends into the pit, rises to save the nations. This typology deserves its own synthesis page under themes/.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Genesis (id: 1, 50 chapters, OT).

@@ -144,17 +144,3 @@ The Assumption is the Church's proclamation that:
 For Ethiopian Catholics, the Filseta fast and feast are part of the **shared Christian patrimony of Ethiopia** — a doctrine and devotion held in common with the Tewahedo brothers and sisters, in full communion with the universal Catholic Church.
 
 See [[liturgical/feasts/ፍልሰታ]].
-
-## Sources
-
-- Genesis 5:24; Hebrews 11:5 (Enoch)
-- 2 Kings 2:11 (Elijah)
-- Matthew 27:52–53
-- Luke 1:48
-- Revelation 12:1
-- Psalm 16:10
-- St. John of Damascus, *Homily on the Dormition* (~AD 730)
-- Pope Pius XII, *Munificentissimus Deus* (1950)
-- CCC 966
-- [[teaching/mary]]
-- [[liturgical/feasts/ፍልሰታ]]

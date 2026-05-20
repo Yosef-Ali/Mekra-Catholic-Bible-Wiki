@@ -33,9 +33,3 @@ Phase 2 Scripture population was **completed on 2026-05-06**. All **35 teaching 
 
 1. **Romans DB mapping bug** — Romans 6 returns 1 Corinthians 6 content (see [[qa/2026-05-06-romans-db-mapping]])
 2. **Fourth Commandment content mismatch** — Q&A 503–509 covers the Seventh Commandment (see [[qa/2026-05-06-fourth-commandment-mismatch]])
-
-## Sources
-
-- `log.md` lines 18–19 — Phase 2 scripture-populate entries
-- `wiki/teaching/` — all 35 pages, `## Scripture` section confirmed via grep
-- Neon DB via `scripts/get_verse.mjs` — verse text source

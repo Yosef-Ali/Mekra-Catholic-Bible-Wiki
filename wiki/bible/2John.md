@@ -21,9 +21,3 @@
 - 2 John 6 — This is love: that we walk according to his commandments
 - 2 John 7 — Many deceivers have gone out who do not confess the coming of Jesus Christ in the flesh
 - 2 John 10–11 — Do not receive false teachers into your house or give them greeting
-
-## In the Compendium
-Q147–193 on the Church as guardian of revealed truth; Q420–432 on the inseparability of love and obedience.
-
-## Open questions
-- The identity of the "elect lady" (ἐκλεκτῇ κυρίᾳ) — a specific woman or a personified church? How does the Emmaus Amharic render the feminine address?

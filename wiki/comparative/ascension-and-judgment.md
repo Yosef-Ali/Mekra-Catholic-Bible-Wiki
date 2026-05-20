@@ -21,12 +21,3 @@ Most Protestants affirm the Ascension and the final judgment. The key difference
 
 ## Where the differences come from
 The Ascension is biblically uncontested. The judgment differences trace to the Reformation rejection of purgatory (and associated practices like indulgences) which the Council of Trent reaffirmed in 1563. The EOTC's non-definition of purgatory reflects its pre-Reformation isolation from Western doctrinal development.
-
-## Open questions
-- How does EOTC's Matshafa Henok (Book of Enoch) influence its eschatology compared to the Catholic canon?
-- Does Ethiopian tradition distinguish particular and general judgment explicitly?
-
-## Sources
-- Compendium Q132–135
-- CCC 659–667, 1021–1041
-- [EOTC eschatology — to verify against Andemta]

@@ -15,9 +15,3 @@ Zephaniah prophesies during the reign of King Josiah (7th century BC). His messa
 - Zephaniah 2:3 — Seek the Lord, all you humble
 - Zephaniah 3:12 — I will leave a people humble and lowly
 - Zephaniah 3:17 — He will rejoice over you with singing
-
-## In the Compendium
-Referenced in teaching on the final judgment and the communion of saints.
-
-## Open questions
-- How does the Ethiopian Requiem liturgy incorporate Zephaniah's imagery?

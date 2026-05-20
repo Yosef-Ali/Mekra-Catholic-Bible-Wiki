@@ -34,9 +34,3 @@ A distinctive EOTC practice is the rebaptism of those who apostatize from the fa
 - Both teach the remission of original sin through baptism.
 - Both link baptism to Christ's death and resurrection.
 - Both recognize each other's baptism as valid (the Catholic Church explicitly recognizes EOTC baptism; EOTC generally recognizes Catholic baptism, though some require conditional baptism in practice).
-
-## Open questions
-
-- How did the rebaptism-of-apostates practice develop in Ethiopian history, and which EOTC councils or texts authorize it?
-- Does the EOTC's chrismation-at-baptism practice affect how it views the Catholic separation of Baptism and Confirmation?
-- Can the EOTC's *de facto* recognition of Catholic baptism (without rebaptism) be reconciled with its theological principle that apostasy severs baptismal grace?

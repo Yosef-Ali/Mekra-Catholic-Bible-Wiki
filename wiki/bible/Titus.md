@@ -21,9 +21,3 @@ Titus is the shortest of the Pastoral Epistles, written by Paul (or a close disc
 - Titus 2:13 — Awaiting our blessed hope, the appearing of our great God and Savior Jesus Christ
 - Titus 3:4–5 — He saved us through the washing of regeneration and renewal of the Holy Spirit
 - Titus 3:8 — Those who have believed in God should be careful to devote themselves to good works
-
-## In the Compendium
-Q252–264 on baptism; Q320–335 on Holy Orders; Q420–432 on ethics and good works as fruit of grace.
-
-## Open questions
-- 2:13's phrase "our great God and Savior Jesus Christ" (τοῦ μεγάλου θεοῦ καὶ σωτῆρος ἡμῶν Ἰησοῦ Χριστοῦ) — the Granville Sharp rule implies both titles refer to the same person. How does the Emmaus Amharic convey this Christological weight?

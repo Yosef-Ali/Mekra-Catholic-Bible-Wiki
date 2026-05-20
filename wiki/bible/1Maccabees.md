@@ -33,18 +33,3 @@ Judas Maccabeus rallies the faithful — the formation of the resistance communi
 > — 1ኛ መቃብያን 4:36-59 (summary)
 
 The rededication of the Temple — the origin of Hanukkah, the feast Jesus Himself observed (John 10:22).
-
-## In the Compendium
-
-- **Religious Persecution and Resistance:** Supports [[teaching/society-and-justice]] — the right to religious liberty and the duty to resist unjust laws.
-- **The Feast of Dedication (1 Macc 4):** Connected to [[teaching/the-church]] — the liturgical commemoration of God's deliverance.
-- **Intertestamental History:** The political and religious context of the New Testament, supporting [[teaching/faith-and-revelation]].
-
-## Open questions
-
-- How does the Ethiopian Orthodox Tewahedo Church receive 1 Maccabees? The Ethiopian canon includes the Book of Maccabees, but its exact textual tradition differs from the Septuagint.
-- The alliance with Rome (ch. 8) — a dedicated comparative page on "Rome in the Deuterocanonical Books" would illuminate the irony that the Jewish alliance with Republican Rome eventually led to Roman occupation.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for 1 Maccabees (id: 217, 16 chapters, Apocrypha).

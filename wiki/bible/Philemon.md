@@ -21,9 +21,3 @@ Philemon is Paul's shortest and most personal canonical letter — a 25-verse ap
 - Philemon 15–16 — Receive him no longer as a slave but as a beloved brother
 - Philemon 17–18 — If he has wronged you or owes you anything, charge it to me
 - Philemon 20 — Refresh my heart in Christ
-
-## In the Compendium
-Q358–376 on human dignity and social justice (the letter implicitly undermines slavery); Q252–264 on baptismal equality as brothers and sisters in Christ.
-
-## Open questions
-- The Emmaus Amharic rendering of δοῦλος (slave v. 16) — is it ባሪያ? The tension between the legal institution and the familial language of "brother" is the letter's theological core.

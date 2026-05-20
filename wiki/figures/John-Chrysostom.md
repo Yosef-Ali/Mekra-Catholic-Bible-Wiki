@@ -64,15 +64,3 @@ Against any merely symbolic reading: Christ in the Eucharist is the same Christ 
 > — ወደ ሮሜ ሰዎች 10:15
 
 This is the Pauline charter of the preaching office — quoted by Chrysostom at his ordination and embedded in the prayers of episcopal consecration in every apostolic Church.
-
-## Open questions
-
-- Is the Anaphora of Saint John Chrysostom celebrated regularly in Ethiopian Catholic eparchies, or is it primarily a feast-day anaphora alongside the standard Anaphora of the Apostles?
-- The Amharic translation of Chrysostom's homilies — does the Ethiopian Catholic seminary curriculum include any of his Matthew or John commentaries in Ge'ez or Amharic?
-- The Ethiopian commemoration on መስከረም 12 — does the proper of the Mass draw from his own preaching, as Byzantine practice does on his feast?
-
-## Sources
-
-- John Chrysostom, *De Sacerdotio* (On the Priesthood)
-- John Chrysostom, *Homilies on Matthew* (90 homilies, the most cited patristic commentary on Matthew)
-- Divine Liturgy of Saint John Chrysostom (Byzantine textus receptus)

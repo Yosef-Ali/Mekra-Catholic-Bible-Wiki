@@ -37,9 +37,3 @@ EOTC Eucharistic discipline is notably strict. The faithful must fast completely
 - Both see the Eucharist as the central act of Christian worship, the "mystery of mysteries."
 - Both trace the Eucharist to Christ's institution at the Last Supper.
 - The Catholic Church permits EOTC faithful to receive communion from Catholic ministers under certain conditions, recognizing the validity of EOTC sacraments (Compendium Q293).
-
-## Open questions
-
-- At what precise moment does the EOTC understand consecration to occur — at the Words of Institution, or at the epiclesis, or both inseparably?
-- How do EOTC theologians respond to the Catholic argument that John 6 and the Last Supper accounts require a realist understanding beyond mere symbolism?
-- Does the EOTC's use of leavened bread carry a theological argument about the Risen Christ versus the Passover connection of unleavened bread?

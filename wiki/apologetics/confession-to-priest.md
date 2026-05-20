@@ -25,15 +25,3 @@ Jesus gave the apostles authority to forgive and retain sins. This requires hear
 > All this is from God, who through Christ reconciled us to himself and gave us the ministry of reconciliation. (2 Corinthians 5:18)
 
 Paul teaches that God gave the apostles a *ministry of reconciliation*. They serve as ambassadors for Christ, through whom God continues reconciling the world to Himself. *(N.b.: DB lookup for 2 Cor 5:18 Amharic returned a mismatched verse; the English is used here as the canonical text.)*
-
-## In the Compendium
-
-**Q303:** The essential elements of Penance are the acts of the penitent — contrition, confession, and satisfaction — and the absolution given by the priest in Christ's name.
-
-**Q307:** Confession is made to a priest who, by Holy Orders, acts *in persona Christi Capitis* exercising the power of binding and loosing received from Christ.
-
-## Open Questions
-
-- How does the Catholic reading of John 20:23 compare to Protestant interpretations?
-- What evidence from the early Church (Didache, St. Cyprian, St. Augustine) supports sacramental confession?
-- Why is perfect contrition not always sufficient without sacramental absolution?

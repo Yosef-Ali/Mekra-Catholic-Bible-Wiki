@@ -51,13 +51,3 @@ was interpreted differently by Greek-speaking and Syriac/Coptic-speaking churche
 sides confess that Christ is fully divine and fully human. The 20th-century bilateral
 dialogues concluded the disagreement is substantially verbal. The EOTC's continuing
 separate identity reflects 1500 years of institutional and liturgical independence.
-
-## Open questions
-- Do the 1990s Christological agreements imply Chalcedon's rejection by the EOTC was
-  based on a misunderstanding of Greek terminology?
-- How is the Common Christological Declaration received in Ethiopian Catholic parishes?
-
-## Sources
-- Compendium Q73–97
-- CCC 464–469
-- Common Christological Declaration (Pope John Paul II and Oriental Orthodox, 1990s)

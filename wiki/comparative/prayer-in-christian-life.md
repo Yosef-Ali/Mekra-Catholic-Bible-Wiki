@@ -32,12 +32,3 @@ Contemplative traditions largely lost in the Reformation, revived by Catholic in
 The Hours derive from Jewish practice (Daniel 6:10, Acts 3:1). St. Yared (6th c.)
 created the Ethiopian tradition independently. The EOTC's unique three-mode chant system
 and Sa'atat represent Christianity's richest African liturgical prayer tradition.
-
-## Open questions
-- Are the EOTC Sa'atat texts available in Amharic or only Ge'ez?
-- How does St. Yared's three-mode chant compare to Gregorian modes?
-
-## Sources
-- Compendium Q534-556
-- CCC 2558-2758
-- Tradition of St. Yared (6th c.)

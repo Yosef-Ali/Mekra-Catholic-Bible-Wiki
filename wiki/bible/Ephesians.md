@@ -48,23 +48,3 @@ The great spousal mystery — Christ's self-giving love for the Church is the mo
 > — ኤፌሶን 6:11–12
 
 The armor of God — the Christian life is spiritual warfare against cosmic powers, requiring the full panoply of divine protection: truth, righteousness, the gospel of peace, faith, salvation, and the word of God.
-
-## In the Compendium
-
-Ephesians is foundational for Catholic ecclesiology, sacramental theology, and the doctrine of grace:
-
-- **The Church as the Body of Christ (Ephesians 1:22–23; 4:1–16):** The central text for [[teaching/the-church]] (Q147–193) — the Church is the fullness of Christ, the organic Body whose head is Christ Himself.
-- **Salvation by Grace through Faith (Ephesians 2:8–10):** Essential for [[teaching/faith-and-revelation]] (Q1–25) — the absolute priority of grace and the gift-character of faith.
-- **The One Baptism (Ephesians 4:5):** The profession of "one Lord, one faith, one baptism" is foundational for [[teaching/baptism]] (Q252–264) and the unity of the Church.
-- **Creation in Christ (Ephesians 1:3–10):** The cosmic scope of Christ's predestination and the summing up of all things in Him (ἀνακεφαλαίωσις) underpins [[teaching/god-the-father-creator]] — creation and redemption are united in the eternal Son.
-- **The New Self and the Old Self (Ephesians 4:17–24):** The call to "put off the old self" and "put on the new self" informs [[teaching/moral-law-and-grace]] and [[teaching/virtues]].
-- **Spiritual Warfare (Ephesians 6:10–20):** The armor of God undergirds [[teaching/holy-spirit]] and the ascetical dimension of Christian life.
-
-## Open questions
-
-- Ephesians 1:4 — "he chose us in him before the foundation of the world": Does the Amharic Emmaus rendering align with the Catholic understanding of predestination as God's universal salvific will (CCC 600, 1037) rather than a Calvinist double predestination?
-- The ἐκκλησία (Church) language in Ephesians is the most developed in the NT. How does the Emmaus Amharic render the term — consistently as ቤተ ክርስቲያን across all uses (1:22; 3:10, 21; 5:23–32), distinguishing local from universal, or with variation?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Ephesians (id: 202, 6 chapters, NT).

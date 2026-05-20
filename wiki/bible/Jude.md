@@ -21,9 +21,3 @@ Jude (25 verses), written by "Jude, a servant of Jesus Christ and brother of Jam
 - Jude 6 — The angels who did not stay within their own position
 - Jude 20–21 — Build yourselves up in your most holy faith; pray in the Holy Spirit; keep yourselves in the love of God
 - Jude 24–25 — The doxology: to him who is able to keep you from stumbling
-
-## In the Compendium
-Q1–25 on the deposit of faith; Q420–432 on moral vigilance and discernment; Q105–131 on eschatological hope and judgment.
-
-## Open questions
-- Jude's use of apocryphal texts (Book of Enoch, Assumption of Moses) raises the question of the canon's boundaries. How does the Emmaus Amharic handle these citations — as scriptural or as traditional allusions? The Catholic canon includes neither Enoch nor the Assumption of Moses.

@@ -31,18 +31,3 @@ Esther's self-offering — the courage of intercession unto death, read as a typ
 > — አስቴር 4:14
 
 Mordecai's statement of hidden providence — God's purposes unfold through ordinary historical events and human decisions.
-
-## In the Compendium
-
-- **Divine Providence (Esther 4:14, ch. 6):** The hidden hand of God in history supports [[teaching/god-the-father-creator]] — God governs all things through His providence.
-- **Intercessory Prayer (Esther 4:16; Addition C):** Esther's prayer and fasting support [[teaching/prayer-in-christian-life]] — prayer as petition and self-offering.
-- **Typology of Mary:** Esther as queen-intercessor prefigures Mary, connected to [[teaching/mary]] — the Blessed Virgin as Advocate and Queen.
-
-## Open questions
-
-- Does the Amharic Emmaus edition include the deuterocanonical Greek additions to Esther, and if so, are they integrated or appended?
-- How does the Ethiopian Catholic tradition celebrate Purim (if at all) given the strong Jewish influences in Ethiopian Christianity?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Esther (id: 17, 10 chapters, OT, with deuterocanonical additions).

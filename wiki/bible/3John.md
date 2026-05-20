@@ -21,9 +21,3 @@
 - 3 John 7–8 — They went out for the sake of the name; we ought to support such people
 - 3 John 9–10 — Diotrephes, who likes to put himself first, does not acknowledge our authority
 - 3 John 11 — Do not imitate evil but imitate good
-
-## In the Compendium
-Q147–193 on the communion of the Church and the exercise of authority; Q320–335 on episcopal oversight and the dangers of autocratic leadership.
-
-## Open questions
-- The name Diotrephes means "nourished by Zeus" — does the Emmaus Amharic preserve the name or transliterate it? The conflict between apostolic authority and local leadership remains pastorally relevant.

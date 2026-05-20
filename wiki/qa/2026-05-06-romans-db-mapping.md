@@ -23,10 +23,3 @@ The issue was discovered during Phase 2 Scripture population (2026-05-06) when `
 ### Workaround
 
 Until the Neon DB is fixed, Romans 6 references on wiki pages carry a `[DB-issue]` marker. No fallback text source is available in the wiki itself.
-
-## Sources
-
-- Neon DB query via `scripts/get_verse.mjs Romans 6` (2026-05-06) — returned 1 Corinthians 6 content
-- `wiki/teaching/baptism.md` — Open questions line 36: DB mapping needs fixing
-- `wiki/teaching/sin.md` — Romans 6:23 citation line 114 (content may be unreliable)
-- `log.md` line 18 — "DB issue found: Romans 6 maps to 1 Corinthians 6 content"

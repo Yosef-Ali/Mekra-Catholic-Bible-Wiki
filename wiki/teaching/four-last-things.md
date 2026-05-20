@@ -150,11 +150,3 @@ Practical preparation, drawn from the Church's wisdom:
 - **Daily prayer for the dead** — at every Mass, the Church remembers the faithful departed.
 
 The dead are not gone. They are **before us** on the path. They need our prayers; we need theirs. Death does not break the communion of saints — it deepens it.
-
-## Sources
-
-- Compendium Q202–216
-- CCC 988–1060
-- Matthew 25:31–46
-- St. Cyprian, *On Mortality* (3rd c.)
-- *Catechism on the Last Things* (traditional)

@@ -38,10 +38,3 @@ disagreement across apostolic churches.
 The elaborate Holy Week observances developed in Jerusalem (4th century) and spread
 throughout the Church. Ethiopia received these traditions through Coptic Egypt. The
 Reformation simplified Holy Week but never denied the Paschal Mystery itself.
-
-## Open questions
-- Does the EOTC Tsom Ngedlat (Friday strict fast) have any parallel in Catholic practice?
-- How does Ethiopian Catholic Fasika differ from EOTC Fasika in liturgical detail?
-
-## Sources
-- Compendium Q112-131 | CCC 571-655

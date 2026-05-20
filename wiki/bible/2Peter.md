@@ -21,9 +21,3 @@
 - 2 Peter 1:16–18 — Eyewitnesses of his majesty at the Transfiguration
 - 2 Peter 1:20–21 — No prophecy of Scripture comes from private interpretation; men spoke from God as carried by the Holy Spirit
 - 2 Peter 3:9 — The Lord is patient, not wishing any should perish but all reach repentance
-
-## In the Compendium
-Q1–25 on revelation and the inspiration of Scripture; Q105–131 on the new heavens and new earth; Q420–432 on moral life and vigilance.
-
-## Open questions
-- "Partakers of the divine nature" (θείας κοινωνοὶ φύσεως, 1:4) — how does the Amharic render this participative language? This is a key text for the Catholic (and Eastern) doctrine of theosis / divinization (CCC 460).

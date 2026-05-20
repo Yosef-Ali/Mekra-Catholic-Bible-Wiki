@@ -23,9 +23,3 @@
 - 2 Corinthians 5:18-19 — The ministry of reconciliation
 - 2 Corinthians 5:17 — "If anyone is in Christ, new creation"
 - 2 Corinthians 12:9 — "My grace is sufficient for you"
-
-## In the Compendium
-Q295-312 on Penance and Reconciliation; Q130-132 on apostolic ministry.
-
-## Open questions
-- How does the Amharic rendering of "power made perfect in weakness" (12:9) compare to the Greek δύναμις ἐν ἀσθενείᾳ τελεῖται?

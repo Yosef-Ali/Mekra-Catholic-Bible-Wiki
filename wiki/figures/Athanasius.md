@@ -68,15 +68,3 @@ A theological biography that turned a single Egyptian hermit into the model for 
 > — የዮሐንስ ወንጌል 1:14
 
 These are the verses Athanasius cited against Arius. If the Word *was God* (1:1) and the Word *became flesh* (1:14), then the one who became flesh was God. Arianism falls.
-
-## Open questions
-
-- The Ethiopian liturgical commemoration of Athanasius (ግንቦት 7) — does the Ethiopian Catholic proper of the Mass include language drawn from his *De Incarnatione*?
-- Are Athanasius's works available in Amharic translation? *De Incarnatione* would be the highest priority.
-- The Athanasian Creed (Quicumque vult) is medieval Latin and likely not by Athanasius. Does it appear in any Ethiopian Catholic liturgical context, given the Ethiopian preference for the apostolic and Nicene creeds?
-
-## Sources
-
-- Athanasius, *De Incarnatione Verbi Dei*
-- Athanasius, *Vita Antonii* (Life of Anthony)
-- Athanasius, *Apologia ad Constantium* §29-31 (account of Frumentius)

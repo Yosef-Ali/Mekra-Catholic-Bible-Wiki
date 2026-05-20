@@ -36,23 +36,3 @@ Nathan's prophetic confrontation — the king is not above the law, and the prop
 > — 2ሳሙኤል 12:13
 
 David's confession and absolution — the paradigm of repentant faith: immediate, unexcusing confession met by immediate divine forgiveness, a foreshadowing of sacramental confession.
-
-## In the Compendium
-
-2 Samuel provides the biblical foundation for the Davidic covenant, messianic kingship, and the theology of sin and repentance:
-
-- **The Davidic Covenant (2 Sam 7:12–16):** The promise of an eternal throne for David's son is the primary Old Testament text for [[teaching/jesus-christ-incarnation]] — Jesus is the Son of David whose kingdom has no end.
-- **David's Sin and Repentance (2 Sam 11–12):** The narrative of adultery, murder, confrontation, confession, and absolution underpins [[teaching/sin]] and [[teaching/forgiveness-resurrection-eternal-life]] — divine mercy surpasses human sin, and sacramental confession restores the sinner to grace.
-- **David as Type of Christ:** David's crossing of the Kidron, ascent of Olivet in sorrow, and merciful return support [[teaching/passion-death-resurrection]] — the king's suffering prefigures the suffering of Christ.
-- **The Ark Entering Jerusalem (2 Sam 6):** David's liturgical dancing before the ark supports [[teaching/the-church]] — worship is joyful, embodied, and ordered to the presence of God.
-
-## Open questions
-
-- The Amharic Emmaus rendering of Nathan's parable (2 Sam 12:1–4) — does it preserve the narrative artistry that draws David into self-judgment before the revelation "you are the man"?
-- Psalm 51 — the Miserere, traditionally attributed to David after his sin with Bathsheba — deserves a cross-reference page linking 2 Samuel's narrative to the Psalter's theology of repentance.
-- The census and plague (2 Sam 24) and its relationship to the purchase of the threshing floor of Araunah (the future Temple site) — a thematic page on "The Temple Mount in Salvation History" would connect 2 Samuel, 1 Chronicles, and the Gospels.
-- David's lament over Absalom (2 Sam 18:33) — a profound expression of parental love across betrayal, which some Church Fathers read as a type of God's lament over lost humanity.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for 2 Samuel (id: 10, 24 chapters, OT).

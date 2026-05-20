@@ -41,23 +41,3 @@ The great decision at Shechem — Joshua's challenge to exclusive covenant loyal
 > — ኢያሱ 24:24
 
 The people's triple ratification of the covenant — a liturgical act that binds Israel to the LORD at the very place where the promise was first given to Abraham.
-
-## In the Compendium
-
-Joshua provides the biblical paradigm for covenant fidelity, divine faithfulness, and the typology of Jesus:
-
-- **The Commission to Joshua (Josh 1:6–9):** The command to meditate on the law and be strong and courageous supports [[teaching/moral-law-and-grace]] and [[teaching/faith-and-revelation]] — the Word of God is the source of strength and direction for the life of faith.
-- **The Conquest as Gift (Josh 6, 21:43–45):** The land is given by God, not earned, undergirding [[teaching/god-the-father-creator]] and the theology of grace — all good things come as divine gift.
-- **The Covenant at Shechem (Josh 24:14–28):** The choice between the LORD and other gods grounds [[teaching/first-three-commandments]] — the exclusive worship of God and the personal decision of faith.
-- **Joshua as Type of Jesus:** The name Yehoshua/Yeshua (salvation) and the role of leading God's people into their inheritance supports [[teaching/the-church]] — the Church is the new Israel led by Christ into the heavenly promised land.
-
-## Open questions
-
-- The Amharic Emmaus rendering of "the ban" (ḥerem) in the conquest narratives — does the translation adequately convey the theological dimension of devotion-to-destruction as an act of divine judgment, or does it read as mere military violence?
-- Joshua 10:12–14, where the sun stands still — how does the Emmaus edition handle this miracle poetically drawn from the Book of Jashar, and does it address the ancient Near Eastern poetic context versus modern cosmological concerns?
-- The relationship between the book of Joshua and the broader Deuteronomistic History (Judges through Kings) — a dedicated thematic page on "The Deuteronomistic History" would illuminate the theological framework shared by these books.
-- The typological connection between Rahab the Canaanite prostitute (Josh 2, 6:22–25) and her inclusion in the genealogy of Christ (Matthew 1:5) — a profound theme of redemptive incorporation deserving a thematic page.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Joshua (id: 6, 24 chapters, OT).

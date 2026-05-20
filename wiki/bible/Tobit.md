@@ -23,9 +23,3 @@ Tobit is a deuterocanonical book set in the Assyrian exile (8th century BC). It 
 - Tobit 8:5-7 — Tobias and Sarah's wedding prayer
 - Tobit 12:8 — "Prayer with fasting and almsgiving is good"
 - Tobit 12:15 — Raphael reveals his angelic identity
-
-## In the Compendium
-Referenced in Q551-553 on prayer and Q491-495 on marriage as a sacrament.
-
-## Open questions
-- How does Ethiopian Catholic devotion to the archangels draw on Tobit compared to EOTC tradition?

@@ -48,7 +48,11 @@ function collapseLetterSpacing(line) {
 function detectHeader(line) {
   const t = line.trim();
   if (new RegExp(`^ክፍል\\s+(${ORD_RE})\\s*$`).test(t)) return { type: 'part', label: t };
-  if (new RegExp(`^ንኡስ\\s+ክፍል\\s+(${ORD_RE})`).test(t)) return { type: 'subsection', label: t };
+  // The book interleaves two spellings of "subsection": ToC uses `ንኡስ ክፍል`
+  // (U+12A1), body section headers use `ንዑስ ክፍል` (U+12D1). Accept either or
+  // bleed text from the *next* subsection (e.g. the Creed columns after Q32)
+  // gets captured as part of the previous Q's answer.
+  if (new RegExp(`^ን[ኡዑ]ስ\\s+ክፍል(\\s+(${ORD_RE}))?`).test(t)) return { type: 'subsection', label: t };
   if (new RegExp(`^ምዕራፍ\\s+(${ORD_RE})\\s*$`).test(t)) return { type: 'chapter', label: t };
   return null;
 }
@@ -213,8 +217,15 @@ function main() {
     const next = qIndex[qi + 1];
     // For the final Q (no next), cap answer at 30 lines so we don't swallow the
     // post-Q598 appendix (common prayers, catechism formulas, beatitudes, etc.).
-    const ansEnd = next ? next.startIdx : Math.min(cur.endIdxOfQuestion + 30, lines.length);
+    const upperBound = next ? next.startIdx : Math.min(cur.endIdxOfQuestion + 30, lines.length);
+    // Also cap at the first section-break header between this Q and the next.
+    // Without this, layout-heavy pages between Q&As (e.g. the multi-column
+    // Creed printed after Q32) bleed into the previous Q's answer as garbage.
     const ansStart = cur.endIdxOfQuestion + 1;
+    let ansEnd = upperBound;
+    for (let j = ansStart; j < upperBound; j++) {
+      if (detectHeader(lines[j])) { ansEnd = j; break; }
+    }
 
     const ccc = [];
     const bodyLines = [];

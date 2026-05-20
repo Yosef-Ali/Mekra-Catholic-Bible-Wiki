@@ -36,9 +36,3 @@ However, the EOTC does **not** accept the Immaculate Conception as defined by th
 - Both see Luke 1:48 ("all generations will call me blessed") as prophetic warrant for Marian veneration.
 - Both see Mary as the New Eve and the Ark of the New Covenant, fulfilling Old Testament types.
 - Both reject any worship (*latria*) of Mary; all honor is relative to Christ.
-
-## Open questions
-
-- Could the EOTC accept the Immaculate Conception if it were expressed in their own theological categories (e.g., Mary sanctified from the womb rather than "from the first moment of conception")?
-- How close is the EOTC's Dormition tradition to the Catholic Assumption — is the difference merely one of timing (immediate vs. third-day assumption) or are there deeper theological divergences?
-- Given the EOTC's intense Marian devotion, what would be the pastoral impact in Ethiopia if reunion with Rome required accepting the Immaculate Conception as defined in 1854?

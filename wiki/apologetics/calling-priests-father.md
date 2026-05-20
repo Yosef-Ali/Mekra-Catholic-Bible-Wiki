@@ -116,15 +116,3 @@ Ask: *"Do you call your biological father 'father'?"*
 - If **no** — they would be the only person in human history to obey their reading.
 
 Either way, the literal-absolute reading collapses, and the Catholic position is left standing: **Christ condemned proud titles, not paternal language for spiritual leaders.**
-
-## Sources
-
-- Matthew 23:1–12 (read in full context)
-- 1 Corinthians 4:14–17
-- Acts 7:2
-- Judges 17:10
-- 1 John 2:1, 12 (children)
-- 2 Timothy 1:2 ("my dear son")
-- Romans 4:16; James 2:21 (Abraham as father)
-- CCC 871–873, 1547
-- [[teaching/holy-orders]]

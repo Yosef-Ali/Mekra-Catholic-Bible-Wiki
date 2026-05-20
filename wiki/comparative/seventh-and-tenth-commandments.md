@@ -39,11 +39,3 @@ The Catholic social teaching tradition on property and the universal destination
 is a distinctive development. The EOTC's less formalized approach reflects both a less
 industrialized economy and the communitarian ethos of Ethiopian rural life where
 customary law handled property disputes more than ecclesiastical canon law.
-
-## Open questions
-- How does Ethiopian customary land law (rist, gult) interact with Christian teaching
-  on property?
-- Does the EOTC have canon law provisions for restitution of stolen goods?
-
-## Sources
-- Compendium Q503-509, 529-537 | CCC 2401-2557

@@ -17,8 +17,3 @@ Protestantism holds to sola scriptura — Scripture alone is the supreme authori
 
 ## Where the differences come from
 The Reformation principle of sola scriptura was a direct response to perceived abuses of ecclesial authority. The EOTC canon reflects its historical isolation and use of Ge'ez literature. The Catholic position was clarified at Trent (1546) and Vatican II (Dei Verbum, 1965).
-
-## Open questions
-- How does EOTC Andemta tradition function as an analogue to the Catholic Magisterium?
-## Sources
-- Compendium Q1–25 | CCC 50–175 | Dei Verbum

@@ -21,9 +21,3 @@ Philippians is Paul's letter of joy, written from prison (probably Rome or Ephes
 - Philippians 2:10–11 — Every knee shall bow; Jesus Christ is Lord
 - Philippians 3:20 — Our citizenship is in heaven
 - Philippians 4:13 — I can do all things through him who strengthens me
-
-## In the Compendium
-Q377–390 on virtues and moral life; the Christ Hymn undergirds the theology of the Incarnation and the call to imitate Christ's humility.
-
-## Open questions
-- How does the Emmaus Amharic render ἐκένωσεν (he emptied himself) in 2:7 — as ራሱን ባዶ አደረገ (emptied himself) or with another dynamic equivalent?

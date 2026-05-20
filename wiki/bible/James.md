@@ -21,9 +21,3 @@ The Letter of James is a practical, wisdom-infused exhortation written by "James
 - James 2:17 — Faith by itself, if it does not have works, is dead
 - James 3:5–6 — The tongue is a fire, a world of unrighteousness
 - James 5:14–15 — Anointing of the sick with prayer and forgiveness of sins
-
-## In the Compendium
-Q1–25 on faith as both gift and living response; the Anointing of the Sick (5:14–15) grounds Q313–319; Q377–390 on virtues and the control of the tongue.
-
-## Open questions
-- James 2:21 and Romans 4:2–3 both discuss Abraham's justification but appear to reach opposite conclusions. How does the Emmaus Amharic render the key verb δικαιόω in both passages, and does the translation help clarify the complementary (not contradictory) senses?

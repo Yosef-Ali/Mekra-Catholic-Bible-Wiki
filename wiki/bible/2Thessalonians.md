@@ -21,9 +21,3 @@
 - 2 Thessalonians 2:7 — The mystery of lawlessness is already at work
 - 2 Thessalonians 2:15 — Stand firm and hold to the traditions you were taught
 - 2 Thessalonians 3:10 — If anyone is not willing to work, let him not eat
-
-## In the Compendium
-Q105–131 on eschatology and final judgment; Q420–432 on the moral obligation of work and social responsibility.
-
-## Open questions
-- The "restrainer" (τὸ κατέχον, 2:6–7) is one of the most contested terms in the NT. How does the Amharic render this — as something that "holds back" (የሚከለክለው) or "restrains"? The Catholic tradition does not bind to a single interpretation.

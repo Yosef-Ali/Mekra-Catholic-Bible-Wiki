@@ -10,7 +10,7 @@
 
 ## Synthesis
 
-ቅዳሴ (the Mass) የክርስቲያን ሕይወት ምንጭና ቁንጮ ነው። የክርስቶስ መስቀል ላይ የሰጠው አንድ ዘላለማዊ መሥዋዕት በምሥጢራዊ ሁኔታ የሚታደስበት ነው። ምእመኑ የሚያደርገው ነገር በራሱ ምንም አይደለም — የክርስቶስ መሥዋዕት ነው የሚሠራው። ሆኖም ምእመኑ **በልብ፣ በአይምሮና በሥጋ መሳተፍ** አለበት፤ አለበለዚያ በዐይኑ ብቻ ቆሞ ቅዳሴ ይሳተፋል ማለት አይደለም።
+ቁርባን የመስቀል ላይ መሥዋዕቱን ዳግመኛ በክብር እስከ ሚመለስ ድረስ ለዘመናት ለማቆየት የተመሠረተ የጌታ ኢየሱስ የሥጋና የደም መሥዋዕት ነው፡፡ ስለዚህ፣ ይህን የሞቱና የትንሣኤውን መታሰቢያ ለቤተክርስቲያኑ ሰጠ፡፡ ቁርባን የአንድነትምልክት፣የፍቅርማሠሪያ፣ክርስቶስ የሚበላበት÷አእምሮ በጸጋ የሚሞላበት እና የወደፊት ክብር ተስፋ ያገኘበት የፋሲካ እራት ነው፡፡
 
 ## Before Mass (ከቅዳሴ በፊት)
 
@@ -100,11 +100,3 @@ The most important "activity" is **interior**: offer your whole life to the Fath
 - ❌ Leaving immediately after Communion — wait for the final blessing.
 - ❌ Treating the church like a public space — phones, conversation, casual movement.
 - ❌ Coming dressed as for the beach or sport.
-
-## Sources
-
-- Compendium Q271–294 (The Eucharist)
-- CCC 1322–1419
-- *Sacrosanctum Concilium* §11, 14 (active participation)
-- [[teaching/eucharist]]
-- [[teaching/practical-communion]]

@@ -48,25 +48,3 @@ The cry of dereliction prayed by Jesus from the cross — the passion psalm that
 > — መዝሙረ ዳዊት 95:1–2
 
 The invitatory psalm — the Church's daily call to worship at Matins, celebrating God as the rock of salvation and summoning the faithful to joyful praise.
-
-## In the Compendium
-
-The Psalms pervade the Catechism and the Compendium's teaching on prayer and Christology:
-
-- **Christian Prayer (Psalms as a whole):** The Psalter is the primary biblical school of [[teaching/prayer-in-christian-life]] (Q544–568) — every form of prayer is modeled and taught in the psalms.
-- **The Battle of Prayer (Ps 42, Ps 63, Ps 130):** The psalms of longing, thirst, and lament support [[teaching/prayer-combat]] — prayer is a struggle that requires vigilance and perseverance.
-- **Christ's Passion and Resurrection (Ps 22, Ps 16, Ps 110):** The messianic psalms are directly quoted in [[teaching/passion-death-resurrection]] (Q112–124) — Jesus Himself prays the psalms in His suffering.
-- **The Our Father (Ps 103, Ps 145):** The psalms of praise and blessing form the background of [[teaching/the-lords-prayer]] — the language of divine fatherhood and kingdom is shaped by the Psalter.
-- **The Holy Spirit (Ps 104):** The Spirit as the Lord and giver of life echoes the creation psalm, supporting [[teaching/holy-spirit]].
-- **Resurrection Hope (Ps 16, Ps 49, Ps 73):** The psalms that express confidence beyond death support [[teaching/forgiveness-resurrection-eternal-life]] (Q105–131).
-
-## Open questions
-
-- The Amharic Emmaus numbering: the psalm superscriptions (titles/headings) appear to be counted as verse 1 in the database, shifting traditional verse numbers by 1–2. Is this consistent across all 150 psalms, and how should wiki psalm citations handle this offset?
-- The imprecatory psalms (e.g., Ps 137:8–9, Ps 69:22–28) — how does Catholic tradition interpret these? The Compendium teaches love of enemies; a dedicated thematic page on "The Imprecatory Psalms in Christian Prayer" would address this challenge.
-- Psalm 22:16 (22:17 in Amharic offset): The famous textual variant "they have pierced my hands and feet" (כארי / ὤρυξαν). How does the Emmaus Amharic render this verse, and is it from the Hebrew or the Septuagint?
-- The five-book structure of the Psalter and its relationship to the five books of the Torah — a potential thematic page: "The Architecture of the Psalter."
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Psalms (id: 169, 150 chapters, OT).

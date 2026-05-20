@@ -79,12 +79,3 @@ The Catholic tradition takes Matthew 25 with full seriousness: **at the Last Jud
 > *"Lord, when did we see you naked and clothe you?"*
 
 The question is asked by both the saved and the lost. The saved did not realize they were serving Christ. The lost did not realize they were rejecting him. Mercy is not always done with awareness. **It is always done with consequences.**
-
-## Sources
-
-- Matthew 25:31–46 (the Last Judgment)
-- Tobit 1:16–17 (burial of the dead)
-- James 2:14–17 (faith and works)
-- Compendium Q388, 426
-- CCC 2447
-- St. Vincent de Paul, *Conferences*

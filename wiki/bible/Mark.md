@@ -48,23 +48,3 @@ The definitive statement of Jesus' mission: the Son of Man came not to be served
 > — ማርቆስ 16:15
 
 The risen Christ's universal commission — the Gospel is for all creation, echoing the cosmic scope of Mark's vision.
-
-## In the Compendium
-
-Mark's terse, dramatic narrative supports several core catechetical themes:
-
-- **The Call to Repentance (Mark 1:15):** The Compendium's treatment of conversion in [[teaching/sin]] (Q421–432) and the sacrament of [[teaching/penance]] draws on the radical call to μετάνοια that opens Mark's Gospel.
-- **Baptism of Jesus (Mark 1:9–11):** Jesus' own baptism by John is a key prefiguration treated in [[teaching/baptism]] (Q253–254) — the heavens torn open prefigure the sacramental opening of heaven through Christian baptism.
-- **The Passion Narrative (Mark 14–15):** The Compendium draws heavily on Mark's Passion in [[teaching/passion-death-resurrection]] (Q105–131), especially the cry of dereliction ("My God, my God...") and the centurion's confession.
-- **The Longer Ending (Mark 16:9–20):** The mission mandate in v. 15–16 is referenced in [[teaching/baptism]] and [[teaching/ascension-and-judgment]], though its canonicity has been debated — see Open Questions below.
-- **The Kingdom of God parables (Mark 4):** The mysterious growth of the Kingdom described in Mark's parables supports the Compendium's teaching on the Church's mission in [[teaching/the-church]] and the hidden yet real presence of the Kingdom in history.
-
-## Open questions
-
-- Mark 16:9–20 (the "Longer Ending") is absent from the earliest Greek manuscripts (Codex Vaticanus, Codex Sinaiticus) but included in the majority of later witnesses and received as canonical by the Catholic Church. Does the Amharic Emmaus edition include these verses? If so, are they marked with a note?
-- How does the Amharic Emmaus render the "Messianic Secret" commands to silence (e.g., 1:44, 8:30) — is the imperative form consistent with the Compendium's theological vocabulary?
-- The centurion's confession at 15:39 ("Truly this man was the Son of God"): is the Amharic rendering consistent with the Compendium's Christological titles for Jesus?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Mark (id: 194, 16 chapters, NT).

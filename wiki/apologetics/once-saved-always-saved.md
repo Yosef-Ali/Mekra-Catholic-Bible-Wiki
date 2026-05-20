@@ -174,17 +174,3 @@ Paul tells the Corinthians to **examine** themselves — implying that some of t
 - **Trust in God's mercy** — without presumption.
 
 This is the **narrow road** Christ describes (ማቴ. 7:14). Not gloomy, not anxious, but *vigilant* — confident in grace, alert to one's own weakness.
-
-## Sources
-
-- Matthew 24:13; 12:32
-- John 15:1–6
-- Romans 11:21–22
-- 1 Corinthians 9:27; 10:12
-- Hebrews 6:4–6; 10:26–27
-- 2 Peter 2:21
-- Philippians 2:12 ("work out your salvation with fear and trembling")
-- Council of Trent, *Decree on Justification* (1547), canons 23–27
-- CCC 161–162, 1854–1864
-- [[teaching/sin]]
-- [[apologetics/sola-fide]]

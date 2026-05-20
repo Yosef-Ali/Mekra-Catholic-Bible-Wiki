@@ -89,7 +89,9 @@ The Compendium quotes ቅዱስ አጎስጢኖስ six times. Each quotation cap
 
 **Q:** ማርያም «ምን ጊዜም ድንግል» የሆነችው እንዴት ነው?
 
-**A:** ማርያም ምን ጊዜም ድንግል የሆነችው «ልጅዋን ስትፀንስ ድንግል፣ ስትወልደው ድንግል፣ ስትሸከመው ድንግል፣ ጡትዋን ስታጠባው ድንግል፣ ሁልጊዜ ድንግል» በመሆንዋ ነው (ቅዱስ አውግስጢኖስ)፡፡ ስለዚህ፣ የወንጌል መጻሕፍት ስለ «ኢየሱስ ወንድሞችና እህቶች» ሲናገሩ፣ በመጽሐፍ ቅዱስ ውስጥ በተለመደው የአነጋገር ዘይቤ ስለ ኢየሱስ የቅርብ ዘመዶች ማውሳታቸው ነው፡፡
+**A:** ማርያም ምን ጊዜም ድንግል የሆነችው «ልጅዋን ስትፀንስ ድንግል፣ ስትወልደው ድንግል፣ ስትሸከመው ድንግል፣ ጡትዋን ስታጠባው ድንግል፣ ሁልጊዜ ድንግል» በመሆንዋ ነው (ቅዱስ አውግስጢኖስ)፡፡
+
+ስለዚህ፣ የወንጌል መጻሕፍት ስለ «ኢየሱስ ወንድሞችና እህቶች» ሲናገሩ፣ በመጽሐፍ ቅዱስ ውስጥ በተለመደው የአነጋገር ዘይቤ ስለ ኢየሱስ የቅርብ ዘመዶች ማውሳታቸው ነው፡፡
 
 [CCC 499-507, 510-511]
 
@@ -121,9 +123,11 @@ The Compendium quotes ቅዱስ አጎስጢኖስ six times. Each quotation cap
 
 **Q:** እግዚአብሔር ለሰው ያለው ዕቅድ ምንድን ነው?
 
-**A:** ለፍጽምናው ወሰን የሌለውና በራሱ ቅዱስ የሆነው እግዚአብሔር በርሱ የተቀደሰ ሕየወት ይካፈል ዘንድ ሰውን በቸርነቱና በፈቃዱ ፈጠረ፡፡ ጊዜው ሲደርስ፣ እግዚአብሔር አብ በኃጢአት ለወደቀው የሰው ዘር ቤዛና አዳኝ ይሆን ዘንድ ልጁን ላከ፤ የሰውንም ልጅ ሁሉ ወደ ቤተክርስቲያኑ ጠራ፣ በመንፈስ ቅዱስም አማካይነት ልጆቹና የዘላለማዊ ደስታው ወራሾች አደረጋቸው፡፡ “ጌታ ሆይ፣ አንተ ታላቅ ነህ፣ እጅግም ልትመሰገን ይገባል (…) እኛን ስለራስህ ብለህ ፈጠርኸን፣ ልባችንም በአንተ እስከሚያርፍ ድረስ ይባዝናል፡፡” (ቅዱስ አውግስጢኖስ)
+**A:** ለፍጽምናው ወሰን የሌለውና በራሱ ቅዱስ የሆነው እግዚአብሔር በርሱ የተቀደሰ ሕየወት ይካፈል ዘንድ ሰውን በቸርነቱና በፈቃዱ ፈጠረ፡፡
 
-[CCC 1-25, 27-30]
+ጊዜው ሲደርስ፣ እግዚአብሔር አብ በኃጢአት ለወደቀው የሰው ዘር ቤዛና አዳኝ ይሆን ዘንድ ልጁን ላከ፤ የሰውንም ልጅ ሁሉ ወደ ቤተክርስቲያኑ ጠራ፣ በመንፈስ ቅዱስም አማካይነት ልጆቹና የዘላለማዊ ደስታው ወራሾች አደረጋቸው፡፡
+
+[CCC 1-25]
 
 ## Why he matters for Ethiopian Catholics
 
@@ -145,16 +149,3 @@ The Compendium quotes ቅዱስ አጎስጢኖስ six times. Each quotation cap
 >
 > "Late have I loved you, O Beauty ever ancient, ever new — late have I loved you!"
 > — *Confessions* X.27
-
-## Open questions
-
-- Is there an Amharic translation of Augustine's *Confessions* (ኑዛዜ)? If so, it would be a major source for this page.
-- How does the Ethiopian Orthodox tradition view Augustine? He is primarily a Latin Father — is he venerated in the Ge'ez synaxarium?
-- Are there Ethiopian Catholic parishes named after ቅዱስ አጎስጢኖስ?
-
-## Sources
-
-- Compendium Q1, Q29, Q99, Q392, Q416, Q481
-- [Catholic Answers Encyclopedia — Augustine of Hippo](https://www.catholic.com/encyclopedia/augustine-of-hippo-saint)
-- [Wikipedia — Augustine of Hippo](https://en.wikipedia.org/wiki/Augustine_of_Hippo)
-- [Britannica — St. Augustine](https://www.britannica.com/biography/Saint-Augustine)

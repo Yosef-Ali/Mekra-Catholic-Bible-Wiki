@@ -23,9 +23,3 @@ Judith recounts the deliverance of the Israelite city of Bethulia from the Assyr
 - Judith 13:18 — "Blessed are you, daughter, above all women"
 - Judith 15:9 — "You are the glory of Jerusalem, you are the great pride of Israel"
 - Judith 16:13-14 — Judith's hymn of praise
-
-## In the Compendium
-Referenced in connection with Mary (Q194-199) as a type of the Blessed Virgin.
-
-## Open questions
-- How is Judith received in Ethiopian Catholic liturgy compared to Latin use?

@@ -41,24 +41,3 @@ The principle of divine election — God sees the heart, not appearances, the ch
 > — 1ሳሙኤል 17:45
 
 David's confession before Goliath — the battle belongs to the LORD, not to human armament, the paradigm of spiritual warfare by faith.
-
-## In the Compendium
-
-1 Samuel establishes the pattern of prophetic kingship, divine election, and the messianic hope:
-
-- **The Call of Samuel (1 Sam 3:1–21):** The prophetic office as attentiveness to God's word supports [[teaching/faith-and-revelation]] — God speaks, and the human response is obedient listening.
-- **The Demand for a King (1 Sam 8):** The tension between divine and human kingship grounds [[teaching/the-church]] — all earthly authority is judged by the kingship of Christ, the only King who is also Servant.
-- **David's Anointing (1 Sam 16:1–13):** The election of the unlikely, the youngest, the shepherd prefigures [[teaching/jesus-christ-incarnation]] — the Messiah comes from humble origins, and [[teaching/mary]] — Mary's Magnificat echoes Hannah's song.
-- **David and Goliath (1 Sam 17):** Victory through weakness and faith supports [[teaching/moral-law-and-grace]] — the battle against sin is won by grace, not human effort.
-- **David's Refusal to Kill Saul (1 Sam 24, 26):** David's restraint toward the LORD's anointed supports the Compendium's teaching on respect for legitimate authority and refusal of vengeance.
-
-## Open questions
-
-- The Amharic Emmaus rendering of "a man after his own heart" (1 Sam 13:14) — does the Amharic capture the Hebrew sense of divine election and alignment of the heart, or does it risk being read as moral perfection (which David certainly lacked)?
-- Hannah's song (1 Sam 2:1–10) and its relationship to Mary's Magnificat (Luke 1:46–55) — the Amharic parallels between these two canticles deserve a thematic page under themes/.
-- The troubling narrative of the witch of Endor (1 Sam 28) — how does the Emmaus edition handle this episode, and does it address the Catholic understanding of necromancy and the afterlife?
-- David's anointing as a type of Christ — the three anointings of David (by Samuel, by Judah, by all Israel; 1 Sam 16, 2 Sam 2, 2 Sam 5) as prefiguring Christ's anointing at His baptism, transfiguration, and resurrection.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for 1 Samuel (id: 9, 31 chapters, OT).

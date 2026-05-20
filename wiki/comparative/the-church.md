@@ -47,13 +47,3 @@ The EOTC's autocephaly (1959) reflects both Ethiopian national identity and the 
 of Coptic patriarchate's capacity. Catholic papal primacy developed through the first
 millennium and was dogmatically defined at Vatican I (1870). The Tabot tradition is
 pre-Chalcedonian and unique to the Ethiopian tradition.
-
-## Open questions
-- How does the EOTC's Tabot tradition shape its ecclesiology — does the Church
-  understand herself as the new Ark of the Covenant?
-- Is there formal Catholic-EOTC dialogue on ecclesial communion beyond Christology?
-
-## Sources
-- Compendium Q147–193
-- CCC 751–975
-- Vatican I, Pastor Aeternus (1870)

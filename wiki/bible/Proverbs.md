@@ -43,24 +43,3 @@ Wisdom personified speaks of her origin before creation — the Christological a
 > — ምሳሌ 9:10
 
 The restatement of the foundational principle with an added dimension — knowing the Holy One is the deepest understanding; wisdom is ultimately relational, not merely intellectual.
-
-## In the Compendium
-
-Proverbs provides the biblical foundation for Catholic moral theology and the theology of wisdom:
-
-- **The Fear of the Lord (Proverbs 1:7, 9:10):** Establishes the foundation of faith as the beginning of true wisdom, grounding [[teaching/faith-and-revelation]] and the virtue of religion in [[teaching/virtues]].
-- **Trust in Providence (Proverbs 3:5–6):** The paradigm of faith as personal surrender to God's guidance, supporting [[teaching/faith-and-revelation]] and the spirituality of divine providence.
-- **Wisdom Personified (Proverbs 8:22–31):** Christological revelation of the eternal Son as Wisdom, foundational for [[teaching/god-the-father-creator]] and [[teaching/jesus-christ-incarnation]] — all creation is through Christ the Wisdom of God.
-- **The Moral Formation of Character (Proverbs 10–31):** Practical guidance for the virtuous life — the control of speech, diligence, honesty, justice, and purity — grounding [[teaching/morality-and-conscience]], [[teaching/moral-law-and-grace]], and [[teaching/virtues]].
-- **The Virtuous Woman (Proverbs 31:10–31):** The biblical paradigm of feminine dignity and vocation, supporting [[teaching/human-dignity]] and [[teaching/marriage]], and read liturgically in honor of holy women and the Blessed Virgin as Sedes Sapientiae.
-
-## Open questions
-
-- The Amharic rendering of Wisdom as "begotten" or "created" in Proverbs 8:22 — the Hebrew קָנָה (qanah) can mean "acquired, possessed, created, begot." The Emmaus translation's choice here has significant implications for the Arian controversy and the orthodox doctrine of Christ's eternal generation.
-- The relation between Proverbs 8 and the Logos theology of John 1 — a dedicated page on "Wisdom Christology in the Old Testament" would connect Proverbs 8, Sirach 24, Wisdom 7, and the New Testament Logos hymns.
-- The tension between Proverbs' general principle of retribution (the wise prosper, fools suffer) and the Book of Job's deconstruction of that same principle — a synthesis on "Retribution Theology in Wisdom Literature" would be valuable.
-- The "strange woman" (እንግዳ ሴት) motif in Proverbs 1–9 — how does Catholic tradition interpret this figure in light of both literal sexual ethics and the allegorical reading (Folly vs. Wisdom, the world vs. the Church)?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Proverbs (id: 170, 31 chapters, OT).

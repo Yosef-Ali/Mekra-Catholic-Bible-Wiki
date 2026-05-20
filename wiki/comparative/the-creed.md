@@ -1,4 +1,4 @@
-# The Creed: Catholic vs EOTC
+# Profession of Faith (የእምነት ምስክርነት): Catholic vs EOTC
 
 **Type:** comparative
 **Pairs with:** [[teaching/the-creed]]
@@ -42,13 +42,3 @@ council. The East viewed this as a violation of the conciliar principle that bin
 Church. Catholic-Orthodox dialogue has since acknowledged that the original Greek text
 without Filioque is the normative ecumenical text. The Ethiopian ጸሎተ ሃይማኖት appears
 to be an independent Ethiopian formulation with no direct Western equivalent.
-
-## Open questions
-- Is the EOTC's ጸሎተ ሃይማኖት textually dependent on the Apostles' Creed or an independent
-  Ethiopian composition?
-- How does the Ethiopian Catholic Rite handle the Filioque in its Qeddase liturgy?
-
-## Sources
-- Compendium Q26–35
-- CCC 184–197
-- Nicene-Constantinopolitan Creed (381) — original Greek text

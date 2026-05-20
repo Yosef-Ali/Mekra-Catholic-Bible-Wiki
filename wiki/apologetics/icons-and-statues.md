@@ -131,15 +131,3 @@ When God works miracles through the bones of Elisha (2 ነገ. 13:21), the shado
 Ethiopian Christianity has produced a **distinctive iconographic tradition** for over 1,500 years — frescoes in rock-hewn churches, painted Bible scrolls, magic-defeating images of saints. These are part of Ethiopia's Christian heritage, **shared between Catholic and Orthodox** Ethiopian believers.
 
 To reject icons is to reject not only Catholic teaching but the entire Ethiopian Christian artistic and spiritual patrimony.
-
-## Sources
-
-- Exodus 20:4–6 (the actual commandment)
-- Exodus 25:18–22 (the cherubim)
-- Numbers 21:8–9 (the bronze serpent)
-- 1 Kings 6–7 (the Temple's images)
-- John 1:14 (the Word made flesh)
-- John of Damascus, *On the Divine Images* (~AD 730)
-- Second Council of Nicaea (787 AD)
-- CCC 2129–2132
-- [[teaching/first-three-commandments]]

@@ -10,7 +10,7 @@
 
 ## Synthesis
 
-ጥምቀት የክርስቲያን ሕይወት በር ነው። ሰው ከመጀመሪያ ኃጢአትና ከራሱ ኃጢአት የሚነጻበት፣ የእግዚአብሔር ልጅ የሚሆንበት፣ የክርስቶስ አባል፣ የመንፈስ ቅዱስ ቤተመቅደስና የቤተክርስቲያን አባል የሚሆንበት ምሥጢር ነው። ይህ ምሥጢር **አንዴ ብቻ የሚደረግ ዘላለማዊ ማኅተም** ነው — ሊደገም አይችልም።
+የቤተክርስቲያን ምሥጢራት የተከፋፈሉት ወደ ክርስትና ሕይወት መግቢያ በሆኑት (ጥምቀት፣ ሜሮን፣ ቁርባን)፣ በፈውስ ምሥጢራት (ንስሐ እና ቅብዐ ቅዱስ) እና በሱታፌ አገልግሎትና ተልእኮ (ክህነትና ተክሊል) ነው፡፡ ምሥጢራቱ ሁሉንም ዋና ዋና ክርስቲያናዊ የሕይወት ወቅቶችን የሚመለከቱ ናቸው፡፡ እነዚህ ሁሉ ምሥጢራት «በመጨረሻ ግባቸው» ቅዱስ ቁርባን ነው (ቅዱስ ቆማስ አኳይነስ)፡፡
 
 ## Who can be baptized?
 
@@ -112,11 +112,3 @@ The child can still be baptized. The Church does not refuse the child for the pa
 
 **What name can the child be given?**
 A Christian name — a saint's name or a name with Christian meaning. Avoid names that are foreign to Christian sensibility.
-
-## Sources
-
-- Compendium Q250–264 (Baptism)
-- CCC 1213–1284
-- *Code of Canon Law* canons 849–878
-- [[teaching/baptism]]
-- [[teaching/confirmation]]

@@ -25,15 +25,3 @@ Jesus gives Peter a new name and a unique office. "Keys" signify royal stewardsh
 > ... ኢየሱስ ስምዖን ጴጥሮስን "የዮና ልጅ ስምዖን ሆይ! ከእነዚህ ይልቅ ትወደኛለህን?" አለው። ... ኢየሱስም "ግልገሎቼን አሰማራ፤" አለው። ... "ጠቦቶቼን ጠብቅ፤" ... "በጎቼን አሰማራ።" (ዮሐንስ 21፡15-17)
 
 Three times Christ entrusts the entire flock — lambs and sheep, laity and pastors — to Peter alone. This universal pastoral commission is personal and singular.
-
-## In the Compendium
-
-**Q182:** The Pope, Bishop of Rome and Peter's successor, is the perpetual and visible source of unity for bishops and faithful. He holds supreme, full, immediate, and universal pastoral authority.
-
-**Q174:** The Church is apostolic in three senses: built on the apostles' foundation, preserving their teaching, and governed by their successors — the bishops with the Pope as their head.
-
-## Open Questions
-
-- How to reconcile Peter's fallibility (Gal 2:11-14) with papal infallibility?
-- What is the Orthodox/Protestant response to Matthew 16:18-19, and how do Catholics answer?
-- What role did Roman primacy play in the first three ecumenical councils?

@@ -36,11 +36,3 @@ parents are abusive. Individual conscience can tension with the communal vision.
 The strong Ethiopian emphasis on intergenerational obligation has pre-Christian roots
 and was baptized into Christian practice. Western individualism that diluted this in
 Europe never penetrated Ethiopia to the same degree.
-
-## Open questions
-- How does Ethiopian Catholic pastoral practice address conflict between the fourth
-  commandment and vocational calling?
-- What role do godparents (የጥምቀት አባት/እናት) play in the extended EOTC family structure?
-
-## Sources
-- Compendium Q455-465 | CCC 2196-2257

@@ -72,15 +72,3 @@ Basil's nine homilies on the six days of creation became the founding text of Ch
 > — የሐዋርያት ሥራ 4:32
 
 This verse is the charter of cenobitic monasticism. Basil's *Asketikon* opens with extended commentary on it: the monastic life is not invention but restoration — a return to the primitive Jerusalem community of one heart and one soul, with all things held in common.
-
-## Open questions
-
-- Is the Anaphora of Saint Basil currently celebrated in Ethiopian Catholic eparchies on the same Lenten/Christmas-eve schedule as in Byzantine practice, or is the Ethiopian use different?
-- The Basilian Rule in Ge'ez or Amharic translation: is there a critical edition, and is it part of Ethiopian Catholic novitiate formation?
-- The relationship between the Pachomian and Basilian rules in the Ethiopian monastic tradition — is the inheritance more Pachomian (through Egyptian transmission) or more Basilian (through Greek transmission via Athanasius)?
-
-## Sources
-
-- Basil the Great, *De Spiritu Sancto* (On the Holy Spirit)
-- Basil the Great, *Asketikon* (the monastic rules — Greater and Lesser)
-- Divine Liturgy of Saint Basil (Anaphora text in the Byzantine and Ethiopian traditions)

@@ -21,9 +21,3 @@
 - 1 Timothy 3:1–7 — Qualifications for bishops (overseers)
 - 1 Timothy 3:15 — The Church is the household of God, pillar and bulwark of the truth
 - 1 Timothy 6:10 — The love of money is the root of all evils
-
-## In the Compendium
-Q320–335 on Holy Orders and apostolic succession; Q147–193 on the nature and structure of the Church.
-
-## Open questions
-- The phrase "husband of one wife" (3:2, μιᾶς γυναικὸς ἄνδρα): how does the Emmaus Amharic render this, and does it align with the Catholic discipline of clerical celibacy as a development of apostolic tradition rather than a contradiction of it?

@@ -139,17 +139,3 @@ The Immaculate Conception is not just a privilege for Mary; it is a **promise to
 2. **Christ's redemption is so powerful** it can apply backward through time and forward forever.
 3. **The Church can hold a perfect member in her communion** — Mary is the first fruits of a redeemed humanity.
 4. **God prepares the vessel before he uses it** — and he prepares each of us, in our own measure, for whatever he wills.
-
-## Sources
-
-- Luke 1:28 (κεχαριτωμένη)
-- Luke 1:39–56 (Visitation)
-- Genesis 3:15 (Protoevangelium)
-- Romans 3:23 (and the saving exceptions)
-- 2 Corinthians 5:21
-- Justin Martyr, *Dialogue with Trypho* (~AD 155)
-- Irenaeus, *Against Heresies* III.22 (~AD 180)
-- Pope Pius IX, *Ineffabilis Deus* (1854)
-- CCC 490–493
-- [[teaching/mary]]
-- [[liturgical/feasts/Immaculate-Conception]]

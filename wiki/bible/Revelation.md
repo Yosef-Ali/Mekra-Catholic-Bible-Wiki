@@ -46,27 +46,3 @@ Christ as Alpha and Omega — the beginning and end of all things, the Lord of h
 > — ራእይ 22:20
 
 The Maranatha — Christ's promise to come quickly and the Church's urgent response, the final prayer of Scripture, the perpetual Advent of the Christian life.
-
-## In the Compendium
-
-Revelation is the capstone of the biblical canon, providing the definitive vision of the Church's eternal destiny:
-
-- **The Church as the Bride of Christ (Rev 19:7, 21:2, 9):** The nuptial imagery of the New Jerusalem descending as a bride supports [[teaching/the-church]] — the Church is the spotless bride prepared for her divine Bridegroom.
-- **The New Heaven and the New Earth (Rev 21:1–5):** The vision of cosmic renewal is the primary scriptural text for [[teaching/forgiveness-resurrection-eternal-life]] — the resurrection hope encompasses not only souls but the entire created order.
-- **The Last Judgment (Rev 20:11–15):** The great white throne and the book of life support [[teaching/ascension-and-judgment]] — Christ the Judge separates the saved from the lost.
-- **The Heavenly Liturgy (Rev 4–5, 7:9–17, 19:1–10):** The worship of the Lamb in heaven is the prototype of [[teaching/eucharist]] — the Mass is a participation in the eternal liturgy.
-- **The Spirit and the Bride Say "Come" (Rev 22:17):** The invocation of the Spirit in the eschatological prayer connects to [[teaching/holy-spirit]] and [[teaching/prayer-in-christian-life]].
-- **The Woman Clothed with the Sun (Rev 12):** The great sign supports [[teaching/mary]] (the woman as the Mother of the Messiah) and [[teaching/the-church]] (the woman as the mother of all the faithful).
-- **The Blood of the Lamb (Rev 5:9–10, 7:14, 12:11):** The victory through the blood of the Lamb underscores [[teaching/passion-death-resurrection]] — the cross is the instrument of cosmic victory.
-
-## Open questions
-
-- Revelation 1:8 and 1:17–18 — the verse data for Revelation chapter 1 in the Emmaus DB appears to contain cross-references to other biblical texts (Isaiah 11:11, Zephaniah 3:10, Acts 8:27) rather than the expected apocalyptic content. This suggests a data partitioning issue in the formatted_chapter_contents table that needs investigation.
-- The millennium (Rev 20:1–6): the amillennial, premillennial, and postmillennial interpretations have divided Christian traditions. How does the Emmaus Amharic translation render the key terms (χίλια ἔτη, "a thousand years"), and does the study apparatus present the Catholic reading (the millennium as the present age of the Church)?
-- The number of the beast (Rev 13:18) — 666/616: does the Emmaus edition preserve the majority text reading or note the variant?
-- The relationship between Revelation's liturgical structure and the early Christian Eucharistic liturgy — numerous scholars (e.g., Scott Hahn, Ugo Vanni) argue that Revelation is structured around the Mass. A thematic page on "Revelation and the Eucharist" would be a valuable apologetics resource.
-- The interpretation of the seven letters (chs. 2–3) in Catholic tradition — are they read solely as first-century churches, or also as seven ages of Church history (the historicist reading popular in some Catholic commentary)?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Revelation (22 chapters, NT). Note: some verses in Revelation 1 appear to be misaligned in the DB, returning cross-reference text rather than the Apocalypse text. The verses cited above (19:7, 21:3–4, 22:13, 22:20) were verified as returning the correct content.

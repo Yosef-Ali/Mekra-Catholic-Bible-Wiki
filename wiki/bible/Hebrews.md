@@ -48,26 +48,3 @@ The biblical definition of faith — the assurance (ὑπόστασις) of thin
 > — ዕብራውያን 12:1–2
 
 The Christian life as a race — surrounded by the cloud of witnesses, shedding every weight and sin, fixing eyes on Jesus the pioneer and perfecter of faith.
-
-## In the Compendium
-
-Hebrews is essential to Catholic teaching on Christ's priesthood, the Eucharist, and the theological virtue of faith:
-
-- **Christ as Son and High Priest (Hebrews 1:1–4; 4:14–5:10):** The Christology of Hebrews directly supports [[teaching/jesus-christ-incarnation]] (Q84–104) — the Son is the radiance of God's glory and the compassionate high priest.
-- **The Sacrifice of Christ (Hebrews 9–10):** The once-for-all sacrifice of Christ is the biblical foundation for [[teaching/eucharist]] (Q271–294) — the Mass makes present the one sacrifice of the new covenant.
-- **Faith Defined (Hebrews 11):** The definition and examples of faith support [[teaching/faith-and-revelation]] (Q1–25) — faith is the free, personal response to God's self-communication.
-- **Endurance and Perseverance (Hebrews 12:1–13):** The call to run the race with endurance underpins [[teaching/virtues]] and the moral life — the Christian life requires the virtue of fortitude.
-- **The Heavenly Liturgy (Hebrews 8:1–6; 9:11–14):** Christ's entry into the heavenly sanctuary supports [[teaching/holy-orders]] — ordained ministry participates in the eternal high priesthood of Christ.
-- **The New Covenant (Hebrews 8:6–13):** The new and eternal covenant sealed in Christ's blood is central to [[teaching/the-church]] — the Church is the assembly of the new covenant.
-- **Eternal Rest (Hebrews 4:1–11):** The promised sabbath rest points toward [[teaching/forgiveness-resurrection-eternal-life]] (Q105–131).
-
-## Open questions
-
-- The Amharic rendering of "faith" (እምነት) throughout Hebrews — does it capture both the subjective act (fides qua, the act of believing) and the objective content (fides quae, the deposit of faith) that Hebrews oscillates between?
-- Hebrews 6:4–6 and 10:26–31 — the "unforgivable" passages on apostasy. How does Catholic tradition reconcile these with the sacrament of Penance and the possibility of post-baptismal repentance? A dedicated thematic page is needed.
-- The Melchizedek priesthood (Hebrews 7) — the Emmaus Amharic treatment of the Genesis 14 narrative and Psalm 110:4 as filtered through Hebrews 7 would be valuable for Catholic-Jewish and Eucharistic theology.
-- The relationship between Hebrews and the Levitical sacrificial system — a thematic page on "The Old Covenant Sacrifices as Types of Christ's Sacrifice" would bridge Exodus, Leviticus, and Hebrews.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Hebrews (id: 208, 13 chapters, NT).

@@ -21,12 +21,3 @@ Most Protestant churches reject confirmation as a sacrament entirely. Some (Angl
 
 ## Where the differences come from
 The separation of confirmation from baptism developed in the Latin West as bishops delegated baptism to priests while reserving chrismation to themselves. The Reformation rejected confirmation as a sacrament because it lacked explicit dominical institution. The EOTC preserves the ancient Eastern practice of unified initiation.
-
-## Open questions
-- Does EOTC Meron use the same chrism formula as the Catholic Church?
-- How does Ethiopian Catholic practice (Eastern rite) handle the baptism-confirmation interval?
-
-## Sources
-- Compendium Q265–270
-- CCC 1285–1321
-- [EOTC Meron practice — from liturgical text]

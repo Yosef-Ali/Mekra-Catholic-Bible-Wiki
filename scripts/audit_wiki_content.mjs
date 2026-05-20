@@ -50,7 +50,10 @@ function amharicRatio(s) {
   return total === 0 ? 0 : am / total;
 }
 
-const BLOCK_RE = /^### Q(\d+)\b[^\n]*\n+\*\*Q:\*\*\s*([^\n]*)\n+\*\*A:\*\*\s*([\s\S]*?)(?=\n\[CCC|\n### Q\d+|\n## |$)/gm;
+// No /m flag — with /m, `$` matches end-of-line which makes `[\s\S]*?` stop
+// at the first line break of a multi-paragraph answer. Without /m, `$` means
+// end-of-string only, and we still anchor block starts via `(?:^|\n)`.
+const BLOCK_RE = /(?:^|\n)### Q(\d+)\b[^\n]*\n+\*\*Q:\*\*\s*([^\n]*)\n+\*\*A:\*\*\s*([\s\S]*?)(?=\n\[CCC|\n### Q\d+|\n## |$)/g;
 
 const findings = {
   critical: [],   // Q-block doesn't match canonical (post-sync this should be empty)
@@ -86,18 +89,25 @@ async function main() {
         continue;
       }
 
+      // Compare on character content alone — strip ALL whitespace so paragraph
+      // re-formatting and post-`፡፡` spacing differences don't register as
+      // content mismatches. The publisher's `.pages` source has inconsistent
+      // post-punctuation spacing; the wiki adds one space for readability.
+      const norm = (s) => s.replace(/\s+/g, '').trim();
+      const aNorm = norm(aText);
+      const refNorm = norm(ref.answer);
+
       if (qText !== ref.question) {
         findings.critical.push(`${rel} Q${qNum} — question mismatch\n   wiki: ${qText.slice(0, 80)}\n   ref:  ${ref.question.slice(0, 80)}`);
       }
 
-      if (aText !== ref.answer) {
-        const lenRatio = aText.length / ref.answer.length;
+      if (aNorm !== refNorm) {
+        const lenRatio = aNorm.length / refNorm.length;
         if (lenRatio < 0.5) {
-          findings.major.push(`${rel} Q${qNum} — answer is ${Math.round(lenRatio * 100)}% of canonical length (${aText.length} vs ${ref.answer.length})`);
+          findings.major.push(`${rel} Q${qNum} — answer is ${Math.round(lenRatio * 100)}% of canonical length (${aNorm.length} vs ${refNorm.length})`);
         } else if (lenRatio < 0.95) {
           findings.warning.push(`${rel} Q${qNum} — answer differs from canonical (${Math.round(lenRatio * 100)}% length)`);
         } else {
-          // length matches but content differs → real diff
           findings.critical.push(`${rel} Q${qNum} — answer text mismatch (lengths match, content differs)`);
         }
       }

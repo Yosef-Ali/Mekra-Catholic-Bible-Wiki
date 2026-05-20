@@ -48,24 +48,3 @@ The foundation of the Church — Christ's promise to Peter and the guarantee of 
 > — ማቴዎስ 28:19
 
 The Great Commission — the risen Lord's universal mandate for baptism in the Trinitarian name, the foundation of the Church's sacramental mission.
-
-## In the Compendium
-
-Matthew is the most-quoted Gospel in Catholic catechesis. Its key passages underpin teaching across the entire Compendium:
-
-- **The Lord's Prayer (Matthew 6:9–13):** Treated extensively in [[teaching/the-lords-prayer]] (Compendium Q578–598). Matthew's version is the liturgical form used in the Latin Rite.
-- **The Great Commission and Baptism (Matthew 28:19):** Grounds [[teaching/baptism]] (Q256, 297, 396) — the Trinitarian formula is the essential form of the sacrament.
-- **Peter and the Church (Matthew 16:18–19):** Central to [[teaching/the-church]] (Q147–193), particularly the Petrine office and apostolic succession.
-- **The Beatitudes (Matthew 5:3–12):** Form the foundation of Christian moral teaching in [[teaching/moral-law-and-grace]] and [[teaching/virtues]] — the New Law of grace.
-- **The Passion narrative (Matthew 26–27):** Quoted extensively in [[teaching/passion-death-resurrection]] (Q105–131).
-- **The Incarnation announcement (Matthew 1:21):** Referenced in [[teaching/jesus-christ-incarnation]] (Q84–104) — "He will save his people from their sins."
-
-## Open questions
-
-- Does the Amharic Emmaus edition consistently render መንግሥተ ሰማያት (Kingdom of Heaven) in Matthew versus መንግሥተ እግዚአብሔር (Kingdom of God) in Mark/Luke? A comparison of usage across the Synoptics would enrich themes/.
-- How does the Amharic Emmaus translation handle Matthew's formula-quotations ("this was to fulfill...") — are they marked typographically or by consistent phrasing?
-- The Compendium's catechetical use of Matthew 16:18 — is the Emmaus rendering of ዓለት (rock) and the play on ጴጥሮስ/ጴጥሮስ consistent with the Latin *Petrus/petram* wordplay?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Matthew (id: 193, 28 chapters, NT).

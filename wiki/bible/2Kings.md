@@ -43,23 +43,3 @@ The theological explanation of the exile — the fall of Israel is not political
 > — 2ኛ ነገሥት 25:9
 
 The destruction of Jerusalem and the Temple — the unthinkable catastrophe that shatters Israel's world, the endpoint of the Deuteronomistic History's trajectory of judgment.
-
-## In the Compendium
-
-2 Kings provides biblical foundations for several key Catholic doctrines:
-
-- **Elijah's Assumption (2 Kings 2:11):** The prophet taken to heaven in the whirlwind prefigures Christ's Ascension ([[teaching/ascension-and-judgment]]) and Mary's Assumption — God takes His faithful ones to Himself, body and soul.
-- **Elisha's Miracles (2 Kings 4–5):** The multiplication of loaves (4:42–44), the raising of the dead son (4:32–37), and the healing of Naaman (ch. 5) prefigure Christ's messianic works. Naaman's washing in the Jordan is a type of baptism ([[teaching/baptism]]), healing through obedient faith in humble means.
-- **The Exile as Judgment (2 Kings 17:7–23):** The fall of Israel demonstrates the reality of sin's consequences, supporting [[teaching/sin]] and the Catholic understanding that apostasy and idolatry sever the covenant relationship.
-- **Josiah's Reform and the Book of the Law (2 Kings 22–23):** The recovery of Scripture, public proclamation, and covenant renewal support [[teaching/faith-and-revelation]] — God's Word, when rediscovered and proclaimed, brings reformation and repentance.
-
-## Open questions
-
-- The Amharic rendering of Elijah's ascent (ዐውሎ ነፋስ, "whirlwind") — does it convey the same sense of divine mystery as the Hebrew סְעָרָה (storm-wind), and how does this affect the typological reading of the Ascension?
-- The apparent contradiction between 2 Kings' judgment theology ("exile is punishment") and contemporary discomfort with collective punishment — a dedicated page on "Corporate Sin and Individual Responsibility in the Deuteronomistic History" would serve apologetics and moral theology.
-- Elisha and the bears (2:23–25) — the episode where children mock the prophet and are mauled by bears is deeply troubling. A page on "Violence in the Prophetic Narratives" would address this and related passages for Catholic moral teaching.
-- The final four verses about Jehoiachin's release (25:27–30) — do they function as a whisper of messianic hope, and how does Catholic exegesis relate this to the genealogy of Christ in Matthew 1?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for 2 Kings (id: 158, 25 chapters, OT).

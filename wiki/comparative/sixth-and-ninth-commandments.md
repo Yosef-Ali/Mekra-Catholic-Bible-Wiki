@@ -36,11 +36,3 @@ The sixth/ninth commandment ethics are substantially shared across apostolic chu
 Modern divergence stems from the sexual revolution's impact on Western Protestantism.
 The EOTC and Ethiopian Catholic churches have been less affected by these Western
 cultural shifts, though globalization is changing this.
-
-## Open questions
-- How does Ethiopian Catholic pastoral practice address traditional polygamous
-  households seeking baptism?
-- What role does the EOTC Mahlet (liturgical chant) play in forming chastity?
-
-## Sources
-- Compendium Q485-502, 519-528 | CCC 2331-2400, 2514-2533

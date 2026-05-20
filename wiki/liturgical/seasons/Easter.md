@@ -28,10 +28,3 @@
 
 > «በሁሉም መንፈስ ቅዱስ ሞላባቸው፥ መንፈስም ይናገሩ ዘንድ እንደሰጣቸው በሌላ ልሳኖች ይናገሩ ጀመር።»
 > — የሐዋርያት ሥራ 2:4
-
-## Open questions
-- How does the Ethiopian Catholic Qeddase liturgy for Fasika compare to the Latin Easter Vigil?
-
-## Sources
-- Compendium Q126–135 (Resurrection) and Q136–140 (Holy Spirit/Pentecost)
-- `raw/catechism-digital/Q105.md` (Q105 — Baptism and Paschal Mystery)

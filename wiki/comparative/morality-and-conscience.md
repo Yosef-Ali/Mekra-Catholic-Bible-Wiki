@@ -34,10 +34,3 @@ than conscience formation.
 The Western emphasis on individual conscience arose from medieval casuistry and the
 Reformation's rejection of ecclesial mediation. The EOTC's communal framing of conscience
 reflects patristic anthropology where the person is constituted in relationship.
-
-## Open questions
-- How does EOTC spiritual direction guide the examination of conscience?
-- Is there an EOTC equivalent to the Catholic "examination of conscience" before Nuzaze?
-
-## Sources
-- Compendium Q368-376 | CCC 1776-1802 | Gaudium et Spes 16

@@ -21,9 +21,3 @@
 - 2 Timothy 1:12 — I know whom I have believed
 - 2 Timothy 2:3 — Share in suffering as a good soldier of Christ Jesus
 - 2 Timothy 4:7 — I have fought the good fight, I have finished the race, I have kept the faith
-
-## In the Compendium
-Q1–25 on divine revelation and Scripture; Q320–335 on apostolic ministry and succession; Q105–131 on resurrection and eternal life.
-
-## Open questions
-- The Amharic rendering of θεόπνευστος (God-breathed) in 3:16 — is it እግዚአብሔር ያፈሰው (inspired by God) or a more literal rendering? The term is foundational for the Catholic doctrine of biblical inspiration.

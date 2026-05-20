@@ -36,11 +36,3 @@ The Latin Vulgate and earliest Greek manuscripts do not include the doxology in 
 the Byzantine text-type. The Catholic liturgical practice preserves the ancient Western
 pattern (prayer followed by embolism), while the Ethiopian and Eastern traditions
 integrated the doxology directly into the prayer text.
-
-## Open questions
-- What is the exact Amharic text of the Our Father as used in the Ethiopian Catholic
-  Qeddase, and how does it compare to the EOTC liturgical text?
-- Are there textual variants between the Emmaus Bible (Neon DB) and the liturgical text?
-
-## Sources
-- Compendium Q578-598 | CCC 2759-2865

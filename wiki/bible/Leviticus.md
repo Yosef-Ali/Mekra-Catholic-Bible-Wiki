@@ -38,19 +38,3 @@ The command to love neighbor — the second great commandment, cited by Jesus an
 > — ዘሌዋውያን 19:2
 
 The universal call to holiness — the foundation of the Church's teaching on the universal call to sanctity.
-
-## In the Compendium
-
-- **Sacrifice (Lev 1–7):** Fulfilled in Christ's sacrifice on the Cross, foundational for [[teaching/eucharist]] and [[teaching/passion-death-resurrection]].
-- **Day of Atonement (Lev 16):** The primary Old Testament type of Christ's redemptive work, read in [[teaching/sin]] and [[teaching/forgiveness-resurrection-eternal-life]].
-- **Love of Neighbor (Lev 19:18):** Anchors [[teaching/moral-law-and-grace]] — the second great commandment binding love of God and neighbor.
-- **Holiness Code (Lev 17–27):** Supports [[teaching/morality-and-conscience]] and the universal call to holiness in [[teaching/the-church]].
-
-## Open questions
-
-- How does the Ethiopian Andemta tradition interpret the scapegoat ritual (ch. 16) in relation to Christ's atonement?
-- The distinction between clean and unclean animals — does the Ethiopian Catholic tradition maintain any dietary observances, and how is this reconciled with Mark 7:19 and Acts 10?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Leviticus (id: 3, 27 chapters, OT).

@@ -138,12 +138,3 @@ The Mass is the central Christian act because it is the central Christian gift: 
 
 > «ይህ ቅዱስ ስጦታ — ሕይወታችንና አምልኮአችን — ምንጭ ነው።»
 > — Sacrosanctum Concilium §10
-
-## Sources
-
-- Compendium Q271–294
-- CCC 1322–1419
-- *Sacrosanctum Concilium* (Vatican II, 1963)
-- Council of Trent, Session XXII (1562) on the Sacrifice of the Mass
-- *General Instruction of the Roman Missal*
-- The *Anaphora of the Apostles* (Ethiopian Ge'ez Rite)

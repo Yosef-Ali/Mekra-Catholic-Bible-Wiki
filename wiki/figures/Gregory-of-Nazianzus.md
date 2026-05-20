@@ -73,15 +73,3 @@ Against Apollinarius, who held that in Christ the Logos replaced the human soul,
 > — የዮሐንስ ወንጌል 14:26
 
 The Paraclete promise — that the Spirit *teaches* and *recalls* — is one of the Johannine pillars of Gregory's case for the Spirit's divinity. Only God teaches saving truth; only God recalls the words of God to the Church across centuries.
-
-## Open questions
-
-- Are Gregory's *Five Theological Orations* available in Amharic or Ge'ez translation? They are the most concentrated patristic argument for the Trinity and would be of high catechetical value in Ethiopian Catholic seminaries.
-- The Ethiopian Catholic celebration of Constantinople I (381) — is there a feast in the proper of saints commemorating the council itself, as there is for Nicaea?
-- Gregory's poetry (he wrote ~17,000 lines of religious verse, much of it autobiographical) — has any of this entered Ethiopian Catholic devotional use?
-
-## Sources
-
-- Gregory of Nazianzus, *Five Theological Orations* (Orations 27-31)
-- Gregory of Nazianzus, *Letter 101 to Cledonius* (the locus classicus of "what is not assumed is not healed")
-- Acts of the First Council of Constantinople (381) and the Niceno-Constantinopolitan Creed

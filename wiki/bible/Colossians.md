@@ -21,9 +21,3 @@ Colossians, written by Paul (or a close disciple in his name) from prison, addre
 - Colossians 1:19–20 — Through him God reconciled all things, making peace by the blood of his cross
 - Colossians 2:9 — In Christ the whole fullness of deity dwells bodily
 - Colossians 3:1–2 — Seek the things that are above, where Christ is seated at the right hand of God
-
-## In the Compendium
-Q147–193 on the Church as the Body of Christ; Q252–264 on baptism as death and resurrection with Christ; Q1–25 on the revelation of the mystery of Christ.
-
-## Open questions
-- The Amharic rendering of πλήρωμα (fullness) in 1:19 and 2:9 — does it use ሙላት or another term? This is theologically significant for understanding the completeness of Christ's deity and the Church's participation.

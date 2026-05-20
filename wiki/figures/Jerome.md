@@ -78,15 +78,3 @@ While more associated with Origen, the **literal-historical, moral, and spiritua
 > — 2ኛ ወደ ጢሞቴዎስ 3:17
 
 Jerome's most-quoted sentence — *"Ignorantia Scripturarum ignorantia Christi est"* ("Ignorance of the Scriptures is ignorance of Christ", from his Prologue to Isaiah) — is essentially a paraphrase of 2 Timothy 3:16-17. If Scripture *makes the man of God complete*, then to be ignorant of Scripture is to be incomplete in Christ.
-
-## Open questions
-
-- The relationship between the Ge'ez Bible and Jerome's Vulgate: did the Ge'ez translators of the 4th-6th centuries ever consult the Vulgate, or are the Ge'ez OT and NT independently translated from Greek (LXX and the Greek NT) without Latin influence?
-- Is there a critical edition of Jerome's letters in Amharic translation? Letters 22 (to Eustochium on virginity) and 53 (to Paulinus on biblical study) would be of high catechetical value.
-- The Ethiopian Catholic seminary curriculum on Scripture: how much of Jerome's principle of *hebraica veritas* has been received through *Divino Afflante Spiritu* and *Dei Verbum* in Ge'ez and Amharic Bible work?
-
-## Sources
-
-- Jerome, *Vulgata* (the Latin Bible — translation work spanning 382-405)
-- Jerome, *Letters* (corpus of ~150 letters, many of them treatises)
-- Jerome, *De Viris Illustribus* (135 chapters of Christian biographical and bibliographic notice)

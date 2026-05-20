@@ -35,10 +35,3 @@ The Catholic CST tradition is uniquely systematic, driven by the papacy's teachi
 The EOTC's social role has been shaped by Ethiopia's unique history as the only African
 nation to resist colonization. The Soviet-aligned Derg regime (1974-1991) suppressed
 church social activity, which has only recently been rebuilt.
-
-## Open questions
-- Has the EOTC patriarchate issued any formal social teaching documents since 1991?
-- How does Ethiopian Catholic social engagement compare to EOTC's post-Derg recovery?
-
-## Sources
-- Compendium Q401-414 | CCC 1877-1948 | Rerum Novarum (1891)

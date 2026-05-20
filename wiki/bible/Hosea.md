@@ -41,23 +41,3 @@ God desires steadfast love and knowledge of God over ritual sacrifice — Jesus'
 > — ሆሴዕ 14:5
 
 The final promise of healing — God will heal their apostasy and love them freely, without compulsion. Grace is gratuitous love.
-
-## In the Compendium
-
-Hosea's spousal theology and revelation of God's merciful heart are essential for Catholic doctrine:
-
-- **The Covenant Marriage Metaphor (Hos 1–3):** The foundational Old Testament type of Christ the Bridegroom and the Church the Bride, supporting [[teaching/the-church]] and the spousal theology of Ephesians 5.
-- **The Heart of God (Hos 11:8–9):** The transcendence of divine mercy — "I am God and not man" — is central to [[teaching/god-the-father-creator]] and the doctrine of God's merciful love.
-- **Steadfast Love Over Sacrifice (Hos 6:6):** Jesus' use of this text supports [[teaching/moral-law-and-grace]] — interior love takes priority over external observance.
-- **The New Betrothal (Hos 2:21–22):** The covenant language of righteousness, justice, steadfast love, mercy, and faithfulness informs [[teaching/faith-and-revelation]].
-- **Hosea's Marriage as Sign:** The prophet's marriage to Gomer prefigures Christ's union with sinful humanity, supporting [[teaching/jesus-christ-incarnation]] and the theology of the Incarnation as God's espousal to human nature.
-
-## Open questions
-
-- The Emmaus Amharic rendering of חֶסֶד (chesed) in Hosea: is it consistently ጽኑ ፍቅር (steadfast love), or does it vary with ምሕረት (mercy) at key points like 6:6?
-- Hosea's use of "knowledge of God" (דַּעַת אֱלֹהִים) as the core of covenant relationship — how does the Emmaus Amharic render the relationship between "knowing" (ዕውቀት) and "love" (ፍቅር)?
-- The historical context of Hosea's marriage to Gomer — is it literal or visionary? A topical page on "Prophetic Sign-Acts" across Isaiah, Jeremiah, Ezekiel, and Hosea would illuminate the genre.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Hosea (id: 154, 14 chapters, OT).

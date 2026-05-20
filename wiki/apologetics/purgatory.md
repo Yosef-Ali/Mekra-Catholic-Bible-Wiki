@@ -123,16 +123,3 @@ Many Protestants who lose loved ones quietly find themselves wanting to pray for
 
 > «የሞቱ ምእመናን ነፍሶች — በእግዚአብሔር ምሕረት — በሰላም ያድሩ።»
 > *"May the souls of the faithful departed, through the mercy of God, rest in peace."*
-
-## Sources
-
-- 2 Maccabees 12:43–46
-- 1 Corinthians 3:11–15
-- Matthew 5:25–26; 12:32
-- Hebrews 12:14, 22–24
-- Revelation 21:27
-- Tertullian, *De Corona* 3
-- Augustine, *Confessions* IX
-- Council of Trent, Session XXV (1563)
-- CCC 1030–1032
-- [[teaching/forgiveness-resurrection-eternal-life]]

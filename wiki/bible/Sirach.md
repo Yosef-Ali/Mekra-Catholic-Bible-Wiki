@@ -38,19 +38,3 @@ Wisdom's self-praise — the personification of Wisdom dwelling in Israel, read 
 > — ሲራክ 4:1-2
 
 Care for the poor — Sirach's social ethics, foundational for Catholic social teaching on the preferential option for the poor.
-
-## In the Compendium
-
-- **The Fear of the Lord (Sirach 1):** Anchors [[teaching/virtues]] and [[teaching/moral-law-and-grace]] — virtue begins with reverence for God.
-- **Honor of Parents (Sirach 3:1-16):** Supports [[teaching/fourth-commandment]] — the duties of children toward parents.
-- **Almsgiving and Justice (Sirach 4, 29):** Foundational for [[teaching/society-and-justice]] — the moral obligation to care for the poor.
-- **Wisdom Identified with Torah (Sirach 24):** Connects to [[teaching/mary]] (Marian liturgy) and [[teaching/faith-and-revelation]].
-
-## Open questions
-
-- The Hebrew fragments of Sirach discovered at Qumran and Masada — how do they compare with the Greek and the Ge'ez textual tradition in Ethiopia?
-- Sirach's teaching on women (e.g., 25:24, 42:9-14) presents pastoral challenges. How does the Ethiopian Catholic tradition interpret these passages in light of the Church's teaching on the dignity of women?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Sirach (id: 210, 51 chapters, Apocrypha).

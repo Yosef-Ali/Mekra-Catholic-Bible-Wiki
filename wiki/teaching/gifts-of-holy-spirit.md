@@ -103,11 +103,3 @@ The traditional **Veni Sancte Spiritus** prayer — Come, Holy Spirit — should
 > በአንተ ለሚታመኑ ሁሉ — ቅዱሳት ስጦታዎችን ስጥ።
 > የበጎነት ሽልማት — የመጨረሻ ድል — የዘላለም ደስታ — ስጥ።
 > አሜን — አሌሉያ።»
-
-## Sources
-
-- Isaiah 11:2–3 (the seven Spirits resting on the Messiah)
-- Galatians 5:22–23 (the fruits)
-- Compendium Q389
-- CCC 1830–1832
-- St. Thomas Aquinas, *Summa Theologiae* I-II, q.68–70

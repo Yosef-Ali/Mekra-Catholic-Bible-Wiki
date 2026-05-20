@@ -92,15 +92,3 @@ The Trinitarian baptismal formula is what Ambrose pronounced over Augustine on t
 > — መዝሙረ ዳዊት 51:12
 
 The verse Theodosius prayed in penance at the cathedral porch of Milan, by tradition. The Miserere (Ps 50/51) is the great penitential psalm of the Christian tradition, and Ambrose's confrontation made it imperial as well as personal.
-
-## Open questions
-
-- Are Ambrose's hymns preserved in Ge'ez in their original metrical structure, or have they been re-set to Yaredic chant patterns?
-- The Ambrosian rite's relationship to the Ge'ez rite at the level of liturgical structure: are there shared archaic elements that point to a common pre-Constantinian Western/African substrate?
-- *De Sacramentis* in Amharic translation: this would be the highest-priority patristic catechetical text after the Compendium itself, given how directly it describes the rites Ethiopian Catholic catechumens still receive.
-
-## Sources
-
-- Ambrose, *De Mysteriis* and *De Sacramentis* (catechetical lectures on baptism, confirmation, and Eucharist)
-- Ambrose, *De Officiis Ministrorum* (the founding Christian treatise on public ethics)
-- Augustine, *Confessions* V-IX (the Milanese material — encounter with Ambrose, baptism at the Easter Vigil 387)

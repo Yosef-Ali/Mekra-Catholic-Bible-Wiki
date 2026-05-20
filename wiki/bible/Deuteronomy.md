@@ -41,25 +41,3 @@ The promise of a prophet like Moses — read Christologically as the promise of 
 > — ዘዳግም 30:19
 
 The great choice — life and death set before God's people, a summons to covenant fidelity that respects human freedom and calls for a decisive response.
-
-## In the Compendium
-
-Deuteronomy is foundational for Catholic moral theology, covenant theology, and the understanding of the Church:
-
-- **The Shema and the Greatest Commandment (Deut 6:4–5):** The command to love God with one's whole being is the core of [[teaching/first-three-commandments]] and is cited by Jesus in the Gospels as the greatest commandment.
-- **The Decalogue (Deut 5:6–21):** The second giving of the Ten Commandments anchors [[teaching/first-three-commandments]] and the subsequent commandment pages — the moral law is the path of the redeemed, not the means of redemption.
-- **Election and Holiness (Deut 7:6–11):** The theology of God's gratuitous choice of a people for Himself supports [[teaching/the-church]] — the Church is the new Israel, a holy nation, a people for God's own possession.
-- **The Prophet Like Moses (Deut 18:15–19):** The messianic promise of a new prophet bridges to [[teaching/jesus-christ-incarnation]] — Jesus is the Word made flesh, the prophet who speaks God's definitive word.
-- **The Covenant Blessings and Curses (Deut 28):** The covenantal framework of obedience and blessing grounds [[teaching/moral-law-and-grace]] — grace precedes law, and obedience is the grateful response of the redeemed.
-- **Choose Life (Deut 30:15–20):** The moral decision set before every person affirms human freedom and responsibility, foundational to [[teaching/moral-law-and-grace]] and the Compendium's treatment of conscience.
-
-## Open questions
-
-- The Amharic Emmaus rendering of the Shema in Deut 6:4 — does "አንድ ጌታ ነው" (one LORD) adequately capture the Hebrew יְהוָה אֶחָד (YHWH is one), which can carry both numerical singularity and the qualitative uniqueness/singleness of YHWH?
-- Deuteronomy 18:15 — the Samaritan Pentateuch reads this as a distinct promise of a specific prophet (the Taheb, the restorer), while Jewish and Christian tradition read it as instituting the prophetic office generically with an eschatological fulfillment. Does the Emmaus Amharic note this range of interpretation?
-- The relationship between the Deuteronomic covenant structure and the Hittite suzerainty treaty form (2nd millennium BC) — a thematic page on "Ancient Near Eastern Covenants and Biblical Covenant Theology" would enrich the apologetics dimension.
-- The Song of Moses (Deut 32) and its use in Revelation 15:3–4 as the "song of Moses and the Lamb" — this canonical connection between the two Testaments deserves a thematic page under themes/.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Deuteronomy (id: 151, 34 chapters, OT).

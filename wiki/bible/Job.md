@@ -43,24 +43,3 @@ God's answer from the whirlwind — the divine majesty confronts human presumpti
 > — ኢዮብ 42:5-6
 
 Job's final surrender — the transformation from hearsay religion to personal encounter; repentance is not for sin that caused suffering but for speaking beyond knowledge.
-
-## In the Compendium
-
-Job is a crucial biblical foundation for the Church's teaching on suffering, evil, faith, and divine providence:
-
-- **The Problem of Evil (Job 1–2):** Job frames the deepest question of theodicy — why do the innocent suffer? — grounding [[teaching/god-the-father-creator]] (Q36–72) and the Catechism's treatment of divine providence and the scandal of evil (CCC 309–314).
-- **Innocent Suffering as Type of Christ (Job 1–42):** Job's undeserved suffering prefigures Christ's passion; supports [[teaching/passion-death-resurrection]] — the truly Innocent One suffers for the redemption of all.
-- **Faith in Darkness (Job 19:25–27):** The Redeemer confession anchors [[teaching/faith-and-revelation]] — biblical faith is trust that persists even when all evidence seems to contradict God's goodness.
-- **The Divine Majesty (Job 38–41):** The theophany establishes the limits of human reason before divine mystery, grounding [[teaching/god-the-father-creator]] and the virtue of hope.
-- **The Resurrection Hope (Job 19:25–27, 42:5–6):** Patristic and liturgical tradition reads Job's confession as a seed of the resurrection faith that flowers in Christ, supporting [[teaching/forgiveness-resurrection-eternal-life]].
-
-## Open questions
-
-- The Amharic rendering of Job's "Redeemer" (የሚቤዠኝ) in 19:25 — does it carry the full legal and familial connotations of the Hebrew גֹּאֵל (go'el, kinsman-redeemer), and how does this affect the Christological reading?
-- The role of Satan in the prologue — God permits the Adversary to test Job, raising questions about divine sovereignty and the origin of evil. A thematic page on "The Satan Figure in the Old Testament" would serve apologetics and [[teaching/sin]].
-- Elihu's speeches (chs. 32–37) — are they a later insertion preparing for the divine speeches, or an integral part of the book's argument? Their theological role deserves deeper exploration.
-- The relationship between Job and ancient Near Eastern wisdom literature (the Babylonian Theodicy, Ludlul bēl nēmeqi) — a dedicated page on "Job in Its Ancient Near Eastern Context" would enrich apologetics and biblical studies.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Job (id: 168, 42 chapters, OT).

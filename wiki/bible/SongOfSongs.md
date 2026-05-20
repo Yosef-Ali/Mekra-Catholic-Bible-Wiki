@@ -38,24 +38,3 @@ The Bridegroom's gaze on the Bride — she is "all beautiful" without blemish, r
 > — መኃልየ መኃልይ 8:6-7
 
 The climax of the Song — love is as strong as death, as fierce as fire, inextinguishable and priceless; the definitive biblical proclamation of love's invincibility.
-
-## In the Compendium
-
-The Song of Songs is the supreme biblical text for the Church's theology of love, marriage, and mystical union:
-
-- **Christ the Bridegroom, the Church the Bride (Song 1–8):** The nuptial hermeneutic shapes [[teaching/the-church]] — the Church is the Bride of Christ, loved, chosen, and sanctified — and [[teaching/jesus-christ-incarnation]] — the Incarnation as the divine Bridegroom's pursuit of His beloved.
-- **Human Marriage as Sacrament (Song 4, 8:6–7):** The Song's celebration of human love provides the biblical language for [[teaching/marriage]] — marriage as a covenant of exclusive, fruitful, and indissoluble love that images divine love.
-- **The Immaculate Bride (Song 4:7):** "You are all beautiful, my love; there is no flaw in you" — read Mariologically as a type of the Immaculate Conception, supporting [[teaching/mary]].
-- **The Spiritual Life as Journey of Love (Song 3:1–4, 5:2–8):** The alternating rhythm of presence and absence grounds [[teaching/prayer-in-christian-life]] — prayer as a love relationship with seasons of sweetness and aridity.
-- **Love Strong as Death (Song 8:6–7):** The declaration that love is stronger than death and waters cannot quench it undergirds [[teaching/forgiveness-resurrection-eternal-life]] and the entire theology of redemptive love.
-
-## Open questions
-
-- The Amharic rendering of the Song's erotic imagery — does the Emmaus translation preserve the frank physicality of the Hebrew, or does it soften it in deference to liturgical sensibilities? The translation choices for terms like dodim (caresses/lovemaking) deserve examination.
-- The identification of the Bridegroom — is he Solomon, a shepherd, or both? How does the "shepherd hypothesis" (the Shulammite's true love is a shepherd, not the king) coexist with the allegorical tradition that reads the Bridegroom as Christ the King?
-- The Song's influence on Ethiopian Orthodox spirituality — the Ethiopian tradition has a rich mystical and Marian reading of the Song. A dedicated page on "The Song of Songs in Ethiopian Christian Tradition" would be valuable.
-- The relationship between the Song and the "theology of the body" of John Paul II — a thematic synthesis page exploring how the Song grounds a Catholic theology of embodied love and the sacramentality of the body would be a major contribution.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Song of Songs (id: 172, 8 chapters, OT).

@@ -29,10 +29,3 @@
 
 > «ከዚያን ጊዜ ጀምሮ ኢየሱስ “መንግሥተ ሰማያት ቀርባለችና ንስሐ ግቡ” እያለ መስበክ ጀመረ።»
 > — ማቴዎስ 4:17
-
-## Open questions
-- How does the Ethiopian Catholic Church harmonize Latin-rite fasting rules with the Hudade tradition of total abstinence?
-
-## Sources
-- Compendium Q295–312 (Penance and Reconciliation)
-- `raw/catechism-digital/Q396.md` (Q396)

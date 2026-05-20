@@ -14,9 +14,3 @@ Obadiah, the shortest book in the Old Testament, is a single oracle against Edom
 - Obadiah 1:3-4 — The pride of your heart has deceived you
 - Obadiah 1:15 — As you have done, it shall be done to you
 - Obadiah 1:21 — The kingdom shall be the Lord's
-
-## In the Compendium
-Referenced in teaching on divine justice and the final judgment.
-
-## Open questions
-- How does the compactness of Obadiah shape its use in Ethiopian liturgical readings?

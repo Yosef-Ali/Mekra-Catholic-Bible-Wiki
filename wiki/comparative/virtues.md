@@ -40,13 +40,3 @@ The classical virtue tradition (Plato, Aristotle, Cicero) was baptized by August
 systematized by Aquinas. The EOTC received the same patristic synthesis independently
 through Alexandrian and Coptic channels. The Eastern emphasis on humility as the
 "foundation of virtues" reflects the Desert Fathers' influence on Ethiopian monasticism.
-
-## Open questions
-- How do the Gedlat (hagiographies) of Ethiopian saints illustrate the theological
-  virtues in culturally Ethiopian forms?
-- Does Ethiopian monasticism have a distinct taxonomy of virtues beyond the classical?
-
-## Sources
-- Compendium Q377-390
-- CCC 1803-1845
-- Gadl of Abune Tekle Haymanot

@@ -33,18 +33,3 @@ The theological center — hope rising from the ruins, the confession that God's
 > — ሰቆቃወ ኤርምያስ 5:1
 
 The final plea — the book ends without resolution, an open question awaiting God's response. The Church finds the answer in Christ.
-
-## In the Compendium
-
-- **Sin and Its Consequences:** Supports [[teaching/sin]] — the devastation of Jerusalem as a type of the spiritual devastation of sin.
-- **The Mercy of God (Lam 3:22-33):** Anchors [[teaching/penance]] and [[teaching/forgiveness-resurrection-eternal-life]] — God's mercy renews daily.
-- **Liturgical Lament:** The book's use in Holy Week liturgy supports [[teaching/passion-death-resurrection]] — mourning for Jerusalem as type of mourning for Christ.
-
-## Open questions
-
-- How does the Ethiopian Orthodox Andemta commentary interpret the acrostic structure of Lamentations? Does the Ge'ez tradition preserve any awareness of the alphabetic form?
-- The Ge'ez title ሰቆቃወ ኤርምያስ ("The Lament of Jeremiah") — does the Emmaus Amharic follow the Ge'ez naming convention?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Lamentations (id: 25, 5 chapters, OT).

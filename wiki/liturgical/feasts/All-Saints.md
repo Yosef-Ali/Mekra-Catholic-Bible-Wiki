@@ -26,12 +26,3 @@ saints in the Diptychs.
 
 > «“በእርሱ የሚያምን ሁሉ የዘላለም ሕይወት እንዲኖረው እንጂ እንዳይጠፋ እግዚአብሔር አንድያ ልጁን እስኪሰጥ ድረስ ዓለሙን እንዲሁ ወዶአልና።”»
 > — ዮሐንስ 3:16
-
-## Open questions
-- Does the Ethiopian Catholic calendar have a unified All Saints date?
-- How is the Ethiopian Synaxarium integrated into the Catholic Qeddase?
-
-## Sources
-- CCC 946-962
-- Ethiopian Synaxarium
-- Ethiopian Catholic calendar

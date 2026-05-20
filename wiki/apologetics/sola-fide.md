@@ -117,14 +117,3 @@ In 1999, the Catholic Church and the Lutheran World Federation signed a **Joint 
 - The Reformation-era condemnations no longer apply, given mutual clarification.
 
 This is itself a sign that the apparent "either/or" was always a misreading of both sides.
-
-## Sources
-
-- James 2:14–26 (the only "faith alone" passage in Scripture)
-- Galatians 5:6
-- Matthew 7:21; 25:31–46
-- Ephesians 2:8–10
-- Council of Trent, *Decree on Justification* (1547)
-- Joint Declaration on the Doctrine of Justification (1999)
-- CCC 1987–2029
-- [[teaching/moral-law-and-grace]]

@@ -151,13 +151,3 @@ The Ethiopian Catholic Church inherits both the **2000-year apostolic tradition*
 The path forward is the path Saint Justin de Jacobis taught and the Second Vatican Council affirmed: **respect the heritage, preach Christ, work for unity in truth and charity.**
 
 > «የሁሉም ቤተክርስቲያን — የቅዱስ ሐዋርያዊ ጅረቷ — በምሥጢራዊ አንድነት — ጸንታ ትኖራለች።»
-
-## Sources
-
-- *Acts of the Apostles* 8:26–40 (Ethiopian Eunuch)
-- *Kebra Nagast* (14th c. Ethiopian national epic)
-- Stuart Munro-Hay, *Aksum: An African Civilisation of Late Antiquity* (1991)
-- *Lumen Gentium* §13–17 (Vatican II on the local Churches)
-- *Orientalium Ecclesiarum* (Vatican II decree on Eastern Catholic Churches, 1964)
-- Compendium of the CCC, Q174–176 on the Church's apostolicity
-- The Ethiopian Catholic Church website (cbce.org) and Bishops' Conference statements

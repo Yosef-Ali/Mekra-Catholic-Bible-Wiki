@@ -32,12 +32,3 @@ The EOTC-Catholic agreement on seven is significant ecumenically.
 The septenary number was settled in the West by Peter Lombard (12th c.) and defined at
 Trent (1547). The EOTC never participated in Trent but through shared patristic
 tradition also acknowledges seven -- an independent confirmation of the same conclusion.
-
-## Open questions
-- Which EOTC liturgical text most explicitly enumerates the seven sacraments?
-- Does Ethiopian Catholic Qeddase follow identical sacramental order as EOTC?
-
-## Sources
-- Compendium Q218-251
-- CCC 1210-1211
-- Council of Trent, Session VII (1547)

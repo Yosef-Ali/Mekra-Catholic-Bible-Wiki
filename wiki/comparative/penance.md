@@ -35,12 +35,3 @@ Private confession developed in Celtic monasticism (6th-7th c.) and was codified
 Lateran IV (1215). The EOTC preserved an older balance of individual and communal
 penance. The Reformation rejected auricular confession partly in reaction to indulgence
 abuses. The EOTC emphasis on fasting as communal penance is distinctive.
-
-## Open questions
-- How does the EOTC seal of confession compare to the absolute Catholic seal?
-- What role does communal fasting play in Ethiopian Catholic parishes?
-
-## Sources
-- Compendium Q295-312
-- CCC 1422-1498
-- Fourth Lateran Council (1215), Canon 21

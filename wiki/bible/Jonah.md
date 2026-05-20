@@ -36,24 +36,3 @@ Jonah's confession — the creed of Exodus 34 spoken as accusation. Jonah knows 
 > — ዮናስ 4:11
 
 God's final question — the book ends open-ended, demanding the reader's answer: if you pity a plant, should not God pity a great city? The universal scope of divine mercy.
-
-## In the Compendium
-
-Jonah is essential for the theology of universal salvation and the typology of Christ's resurrection:
-
-- **The Sign of Jonah (Jonah 2):** Jesus explicitly applies Jonah's three days in the fish to His own death and resurrection, directly supporting [[teaching/passion-death-resurrection]] and [[teaching/forgiveness-resurrection-eternal-life]].
-- **Universal Mercy (Jonah 4:2, 4:10–11):** The scandal of God's mercy toward Israel's enemies is foundational for [[teaching/god-the-father-creator]] — God's fatherhood extends to all nations.
-- **Repentance of the Pagans (Jonah 3):** The Ninevites' repentance at Jonah's preaching supports [[teaching/faith-and-revelation]] — faith and conversion are possible for all peoples.
-- **The Reluctant Prophet (Jonah 1):** Jonah's resistance and God's persistence illustrate the theology of vocation, supporting [[teaching/faith-and-revelation]].
-- **Jonah in the Compendium:** The Catechism and Compendium use Jonah's three days as the primary Old Testament type of Christ's descent into hell and His resurrection on the third day.
-
-## Open questions
-
-- Jonah 2:1 in the Emmaus Amharic — does it specify "a great fish" (ዓሣ) or follow later traditions with "whale"? The Hebrew is דָּג גָּדוֹל (dag gadol, "great fish").
-- The book's genre — is it historical narrative, parable, or satire? A topical page on "The Literary Genres of Scripture" would address how the Church reads narrative books like Jonah, Job, and Esther.
-- The ending's open question — the book refuses narrative closure. How does the Emmaus commentary, if any, handle the theological significance of the open ending?
-- Jonah in the Lectionary — the book is read on the Monday, Tuesday, and Wednesday of Holy Week in the Roman Rite. A topical page on "Jonah in the Liturgy" would illuminate its place in the Paschal Mystery.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Jonah (id: 164, 4 chapters, OT).

@@ -48,22 +48,3 @@ The conversion of Saul on the Damascus road — Christ identifies Himself with t
 > — የሐዋርያት ሥራ 28:28
 
 Paul's final declaration in Rome — the salvation of God has been sent to the Gentiles, and they will listen. The book closes with the Gospel reaching the heart of the Empire.
-
-## In the Compendium
-
-Acts is foundational for Catholic ecclesiology, sacramental theology, and pneumatology:
-
-- **Pentecost and the Holy Spirit (Acts 2:1–4):** Central to [[teaching/holy-spirit]] (Compendium Q136–146) — the descent of the Spirit fulfills Christ's promise and inaugurates the age of the Church.
-- **Baptism and the Gift of the Spirit (Acts 2:38; 8:14–17; 10:44–48):** These narratives ground the relationship between Baptism and Confirmation in [[teaching/baptism]] (Q252–264), where the laying on of hands confers the fullness of the Spirit.
-- **The Breaking of Bread (Acts 2:42; 20:7):** The earliest description of the Eucharistic assembly — foundational for [[teaching/eucharist]] (Q271–294).
-- **The Apostolic Preaching (Acts 2:14–36; 10:34–43):** The kerygma (proclamation of Christ's death and resurrection) is the Scriptural model for [[teaching/faith-and-revelation]] (Q1–25).
-- **The Church's Nature and Mission (Acts 2:42–47; 15:1–35):** The communal life and the Council of Jerusalem are essential for [[teaching/the-church]] (Q147–193), demonstrating both the unity and the hierarchical-synodal structure of the Church.
-
-## Open questions
-
-- How does the Amharic Emmaus edition render the key term ኅብረት (fellowship/communio) in Acts 2:42 — is it consistent with its use in 1 John 1:3 and 2 Corinthians 13:13, where the same Greek word κοινωνία underlies Catholic communion ecclesiology?
-- Acts 15 (the Council of Jerusalem): Does the Emmaus translation preserve the distinction between the "apostles and elders" (v. 2, 4, 6, 22) and "the whole church" (v. 22), which is significant for understanding the synodal character of the Church's decision-making?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Acts (id: 197, 28 chapters, NT).

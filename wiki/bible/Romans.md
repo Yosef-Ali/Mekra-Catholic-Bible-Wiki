@@ -48,23 +48,3 @@ The assurance of divine providence — God works all things for the good of thos
 > — ሮሜ 12:2
 
 The hinge from theology to ethics — the transformed life flows from the mercies of God. Christian moral life is renewal of the mind, not conformity to the world.
-
-## In the Compendium
-
-Romans is the doctrinal backbone of Catholic catechesis on grace, justification, baptism, and moral life:
-
-- **Justification by Faith (Romans 3:21–28):** Central to [[teaching/faith-and-revelation]] (Q1–25) and [[teaching/moral-law-and-grace]] (Q420–432) — the gratuitousness of salvation is the heart of the Gospel.
-- **Baptism into Christ's Death and Resurrection (Romans 6:3–4):** The primary biblical text for [[teaching/baptism]] (Q252–264). Baptism effects a real ontological union with the Paschal Mystery.
-- **Universal Sinfulness (Romans 1:18–3:20):** Foundational for [[teaching/sin]] and [[teaching/human-dignity]] — the doctrine of original sin and the universality of the need for redemption.
-- **Life in the Spirit and Moral Transformation (Romans 8; 12–15):** Essential for [[teaching/virtues]] (Q377–390) — the Spirit enables the moral life that the Law could only command.
-- **Resurrection Hope (Romans 8:18–39):** Supports [[teaching/forgiveness-resurrection-eternal-life]] (Q105–131) — nothing can separate us from the love of God in Christ Jesus our Lord.
-- **The Body of Christ (Romans 12:4–8):** The diversity of gifts and unity of the Church underpins [[teaching/the-church]].
-
-## Open questions
-
-- The Amharic Emmaus translation of δικαιοσύνη θεοῦ (righteousness of God) in Romans 1:17 and 3:21–22 — does it consistently render it as የእግዚአብሔር ጽድቅ, and does this capture both the forensic (declared righteous) and transformative (made righteous) dimensions that Catholic theology affirms?
-- Romans 5:12 (the one-man typology of Adam and Christ): the Latin Vulgate's rendering "in quo omnes peccaverunt" (in whom all sinned) influenced the doctrine of original sin. How does the Emmaus Amharic render this verse, and does it align with the Greek ἐφ' ᾧ πάντες ἥμαρτον ("because all sinned")?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Romans (id: 198, 16 chapters, NT).

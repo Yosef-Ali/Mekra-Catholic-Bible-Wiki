@@ -31,18 +31,3 @@ Ruth's confession of faith — the paradigm of gentile conversion and covenant l
 > — ሩት 4:10
 
 Boaz's redemption of Ruth — the legal act of the go'el (kinsman-redeemer) that prefigures Christ's redemption of the Church.
-
-## In the Compendium
-
-- **Gentile Inclusion (Ruth 1:16):** Ruth's confession supports [[teaching/the-church]] — the universality of salvation and the Church's catholicity.
-- **Levirate Marriage (Ruth 4):** The legal institution of the go'el supports [[teaching/marriage]] — marriage as covenant with communal dimension.
-- **The Davidic Lineage (Ruth 4:18-22):** Ruth's place in David's genealogy anchors [[teaching/jesus-christ-incarnation]] — God draws the outsider into the messianic line.
-
-## Open questions
-
-- How does the Ethiopian Catholic tradition read Ruth in light of Ethiopian self-understanding as a people included in salvation history (cf. the Ethiopian eunuch, Acts 8)?
-- The book's setting "in the days when the judges ruled" — a comparative study with Judges would illuminate the contrast between Israel's chaos and Bethlehem's quiet fidelity.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Ruth (id: 8, 4 chapters, OT).

@@ -43,24 +43,3 @@ Elijah's prayer on Mount Carmel — fire from heaven vindicates the one true God
 > — 1ኛ ነገሥት 19:12-13
 
 The still small voice at Horeb — God is not in the spectacular displays of power but in the gentle whisper that calls for silent, reverent listening.
-
-## In the Compendium
-
-1 Kings provides foundational narratives for several key Catholic doctrines:
-
-- **Solomon's Wisdom (1 Kings 3:5–12):** Prefigures Christ as the true Wisdom of God; supports [[teaching/faith-and-revelation]] — wisdom is a gift received through humble prayer, not human achievement.
-- **The Temple (1 Kings 5–8):** The Temple as God's dwelling among His people prefigures the Incarnation ([[teaching/jesus-christ-incarnation]]), the Church as the temple of the Holy Spirit ([[teaching/the-church]]), and the Eucharist as the place of God's presence ([[teaching/eucharist]]).
-- **The Divided Kingdom (1 Kings 12):** Illustrates the consequences of infidelity and the importance of right worship, grounding [[teaching/the-church]] in the imperative of unity in truth.
-- **Elijah on Carmel (1 Kings 18):** The contest with Baal demonstrates the exclusive claim of the one true God, foundational for [[teaching/first-three-commandments]] — worship belongs to God alone.
-- **The Still Small Voice (1 Kings 19:11–13):** A paradigm for contemplative prayer and spiritual discernment, supporting [[teaching/prayer-in-christian-life]] — God speaks in silence, not clamor.
-
-## Open questions
-
-- The Old Testament tolerance of Elijah's slaughter of the prophets of Baal (18:40) presents a challenge for Catholic moral teaching on violence and religious coercion — a dedicated page on "Prophetic Violence in the Old Testament" would be valuable for apologetics and moral theology.
-- The Amharic rendering of the "still small voice" (የሹክሹክታ ድምፅ) in 19:12 — does it capture the Hebrew דְּמָמָה דַקָּה (a sound of sheer silence) adequately, and how does this affect the contemplative reading of the passage?
-- Solomon's foreign wives and his descent into idolatry (ch. 11) — a synthesis page on "The Danger of Mixed Marriage in the Deuteronomistic History" would connect this to Ezra-Nehemiah and the Church's pastoral approach to interfaith marriage.
-- The relationship between the prophetic "sons of the prophets" in 1–2 Kings and early Christian monasticism and religious orders merits a thematic exploration under themes/.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for 1 Kings (id: 157, 22 chapters, OT).

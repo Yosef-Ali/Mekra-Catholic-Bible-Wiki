@@ -48,23 +48,3 @@ The battle cry of Christian freedom — Christ has set us free; stand firm and d
 > — ገላትያ 5:22–23
 
 The ninefold fruit of the Holy Spirit — the organic character of the Christian formed by the indwelling Spirit, the measure of authentic spiritual life.
-
-## In the Compendium
-
-Galatians is essential for Catholic teaching on grace, freedom, baptism, and moral life:
-
-- **Justification by Faith, Not Works of the Law (Galatians 2:16):** A foundational text for [[teaching/faith-and-revelation]] (Q1–25) and [[teaching/moral-law-and-grace]] (Q420–432) — grace is gratuitous, not earned.
-- **Baptism and "Putting On" Christ (Galatians 3:27):** Vital for [[teaching/baptism]] (Q252–264) — Baptism effects a real transformation, clothing the believer in Christ and incorporating them into the Body where all are one.
-- **Freedom in Christ (Galatians 5:1, 13):** Central to [[teaching/moral-law-and-grace]] — Christian freedom is freedom *for* love, not license for the flesh.
-- **The Fruit of the Spirit (Galatians 5:22–23):** The foundation of [[teaching/virtues]] (Q377–390) — the Spirit produces virtues that no law can command.
-- **The Church and Baptismal Unity (Galatians 3:28):** Supports [[teaching/the-church]] — the Church transcends all human divisions.
-- **Life in the Spirit (Galatians 5:16–25):** Underpins [[teaching/holy-spirit]] — the Spirit leads, sanctifies, and produces fruit.
-
-## Open questions
-
-- The Amharic rendering of "works of the law" (ἔργα νόμου) in Galatians 2:16 and 3:2 versus "works" in Romans — does the Emmaus translation distinguish these from general "good works" in the way Catholic theology requires (distinguishing ceremonial law observance from the meritorious works of grace)?
-- Galatians 4:4–5 — "when the fullness of time had come, God sent his Son, born of a woman, born under the law": The Amharic rendering of "born of a woman" (γενόμενον ἐκ γυναικός) is significant for Marian theology and the Incarnation — how does it compare with the Compendium's Marian language in [[teaching/mary]]?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Galatians (id: 201, 6 chapters, NT).

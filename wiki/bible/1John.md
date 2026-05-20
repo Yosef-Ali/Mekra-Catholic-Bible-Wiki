@@ -22,9 +22,3 @@
 - 1 John 3:1 — See what kind of love the Father has given us, that we should be called children of God
 - 1 John 4:8 — God is love
 - 1 John 5:13 — I write so that you may know that you have eternal life
-
-## In the Compendium
-Q295–312 on the Sacrament of Penance; Q420–432 on the twofold commandment of love; Q1–25 on the incarnation as the criterion of authentic faith; Q105–131 on the assurance of eternal life.
-
-## Open questions
-- The Johannine Comma (1 John 5:7–8) — the longer reading ("the Father, the Word, and the Holy Spirit, and these three are one") is absent from Greek manuscripts before the 14th century. Does the Emmaus Amharic include it, and if so, with what annotation?

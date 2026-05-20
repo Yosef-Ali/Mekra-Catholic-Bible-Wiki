@@ -86,10 +86,3 @@ Each capital sin is a **good thing distorted**. Pride is dignity gone wrong. Gre
 
 > «እግዚአብሔር ሆይ — ነፍሴን አንተ ነህ።»
 > — መዝ. 73:25
-
-## Sources
-
-- Compendium Q398
-- CCC 1866
-- St. Gregory the Great, *Moralia* (6th c.) — first systematic list of seven
-- St. Thomas Aquinas, *Summa Theologiae* II-II, q.34–46

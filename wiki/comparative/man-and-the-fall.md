@@ -36,12 +36,3 @@ Augustine's doctrine of original sin (developed against Pelagius) shaped the Wes
 was never fully received in the East. The EOTC, following the Alexandrian tradition,
 emphasizes Christ the Healer who restores human nature rather than juridical categories
 of guilt and satisfaction. Trent's definition (1546) codified the Western position.
-
-## Open questions
-- How does the EOTC baptismal liturgy express the relationship between baptism and
-  the removal of ancestral sin?
-- What is the EOTC's position on the Immaculate Conception of Mary in relation to
-  original sin?
-
-## Sources
-- Compendium Q26-35 | CCC 388-421 | Council of Trent, Session V (1546)

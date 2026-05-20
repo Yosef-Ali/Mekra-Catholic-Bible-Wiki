@@ -151,19 +151,3 @@ Ask any bishop: *"From whom did you receive the laying on of hands?"* He will na
 For a Catholic bishop, this list is documented. For most Protestant ministers, the list ends with someone in the 16th–20th century who founded the denomination — there is no further chain.
 
 This is what apostolic succession means in practice: **the unbroken historical reception of Christ's commission from his own hands.**
-
-## Sources
-
-- Matthew 28:18–20
-- John 20:21
-- Acts 1:15–26 (Matthias replaces Judas)
-- Acts 14:23
-- Titus 1:5
-- 2 Timothy 1:6
-- 1 Clement 44 (~AD 96)
-- Ignatius of Antioch, *Letters* (~AD 107)
-- Irenaeus, *Against Heresies* III.3 (~AD 180)
-- *Apostolicae Curae* (Leo XIII, 1896)
-- CCC 857–862, 1555–1561
-- [[teaching/the-church]]
-- [[teaching/holy-orders]]

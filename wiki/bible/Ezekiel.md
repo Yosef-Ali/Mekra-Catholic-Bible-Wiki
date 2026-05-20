@@ -43,23 +43,3 @@ God's heart revealed — He takes no pleasure in the death of the wicked but des
 > — ሕዝቅኤል 34:23
 
 The one shepherd prophecy — God will shepherd His people through His servant David, the messianic king who feeds the flock.
-
-## In the Compendium
-
-Ezekiel provides the scriptural foundation for the theology of interior renewal, resurrection, and the Church:
-
-- **The New Heart and New Spirit (Ezek 36:24–28):** The water-and-Spirit promise is foundational for [[teaching/baptism]] — Baptism is the sprinkling of clean water and the gift of the Spirit foretold by the prophet.
-- **The Indwelling Spirit (Ezek 36:27):** "I will put my Spirit within you" directly supports [[teaching/holy-spirit]] and the theology of sanctifying grace.
-- **The Valley of Dry Bones (Ezek 37:1–14):** The clearest Old Testament type of bodily resurrection, essential for [[teaching/forgiveness-resurrection-eternal-life]].
-- **The Good Shepherd (Ezek 34):** The prophecy of one shepherd from the line of David is fulfilled in Christ and supports both [[teaching/jesus-christ-incarnation]] and [[teaching/the-church]].
-- **The Watchman and Repentance (Ezek 33):** The call to personal conversion and the universal salvific will of God supports [[teaching/moral-law-and-grace]].
-
-## Open questions
-
-- Ezekiel's visionary Temple (chs. 40–48) — the most detailed architectural vision in Scripture. How does the Emmaus Amharic edition handle these chapters, and is there apparatus noting the relationship to Revelation 21–22?
-- The "glory of the LORD" departing from the Temple (ch. 10) and returning (ch. 43) — this theology of divine presence and absence is central to the book. Does the Emmaus Amharic render ከበደ (kebede, "glory") consistently with the Pentateuch?
-- The Gog and Magog oracles (chs. 38–39) — a topical page on "Apocalyptic Imagery in Ezekiel and Revelation" would connect the prophet's eschatological warfare with Revelation 20.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Ezekiel (id: 150, 48 chapters, OT).

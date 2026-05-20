@@ -15,9 +15,3 @@ Nahum is a triumphant oracle against Nineveh, capital of the Assyrian empire tha
 - Nahum 1:3 — The Lord is slow to anger
 - Nahum 1:7 — The Lord is good, a stronghold in the day of trouble
 - Nahum 1:15 — How beautiful are the feet of those who bring good news
-
-## In the Compendium
-Referenced in teaching on divine justice and God's sovereignty over nations.
-
-## Open questions
-- How does the Amharic Emmaus translation render Nahum's poetic battle scenes?

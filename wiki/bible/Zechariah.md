@@ -16,9 +16,3 @@ Zechariah, a contemporary of Haggai, is the most messianic of the minor prophets
 - Zechariah 12:10 — They will look on him whom they have pierced
 - Zechariah 13:1 — A fountain opened for sin and uncleanness
 - Zechariah 14:9 — The Lord will be king over all the earth
-
-## In the Compendium
-Q112-124 on the Passion and Death of Christ; the Church as messianic people.
-
-## Open questions
-- How does the Ge'ez Andemta interpret Zechariah's apocalyptic visions?

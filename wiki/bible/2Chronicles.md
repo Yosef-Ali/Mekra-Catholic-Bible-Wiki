@@ -48,24 +48,3 @@ The pathos of God — the Lord persistently sends prophets, but the people mock 
 > — 2ኛ ዜና መዋዕል 36:23
 
 Cyrus's decree — the pagan emperor becomes God's instrument of restoration, ending the exile and opening the door to the rebuilding of the Temple, fulfilling Jeremiah's prophecy.
-
-## In the Compendium
-
-2 Chronicles provides foundational narratives for several key Catholic doctrines:
-
-- **The Temple Dedication (2 Chronicles 7:1–3):** Fire from heaven and the glory filling the Temple prefigure the Eucharist where Christ's presence fills the sanctuary, supporting [[teaching/eucharist]] and [[teaching/the-church]].
-- **The Promise of Healing (2 Chronicles 7:14):** Humility, prayer, seeking God's face, and repentance as the conditions for forgiveness ground [[teaching/penance]] and the sacrament of reconciliation.
-- **Jehoshaphat's Prayer (2 Chronicles 20:15):** "The battle is the Lord's" is foundational for [[teaching/prayer-in-christian-life]] — the prayer of trust that acknowledges God as the true actor in history.
-- **Cyrus's Decree (2 Chronicles 36:22–23):** God's sovereignty over pagan rulers — He moves the heart of a Persian emperor to restore His people — supports [[teaching/god-the-father-creator]] and the Catholic understanding of divine providence.
-- **The Prophetic Pattern of Warning and Rejection (2 Chronicles 36:15–16):** The rejection of prophets prefigures the rejection of Christ, supporting [[teaching/jesus-christ-incarnation]] and the theology of the Cross.
-
-## Open questions
-
-- The Chronicler's exclusive focus on Judah — is this a narrowing of vision or a necessary theological concentration on the Davidic line as the bearer of the messianic promise? A page on "The Chronicler's Davidic Hermeneutic" would explore this.
-- The Amharic rendering of 7:14 (ራሳቸውን አዋርደው "humble themselves") — does it adequately convey the Hebrew וְיִכָּנְעוּ (to be subdued, humbled), and how does this affect the penitential reading?
-- The contrast between Kings' and Chronicles' portrayal of Manasseh — in Kings he is irredeemably evil; in Chronicles he repents and is restored (2 Chronicles 33:10–17). A comparative page on "Manasseh: The Worst King Who Repented" would serve as a profound meditation on the theology of mercy.
-- The absence of any mention of the northern kingdom's prophets (Elijah, Elisha, Amos, Hosea) in Chronicles — a page exploring the Chronicler's ecclesiology of the south would complement the larger biblical theology of the divided kingdom.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for 2 Chronicles (id: 160, 36 chapters, OT).

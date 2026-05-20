@@ -23,9 +23,3 @@ Nehemiah continues the post-exilic narrative. Nehemiah, cupbearer to King Artaxe
 - Nehemiah 4:14 — "Remember the Lord... and fight"
 - Nehemiah 8:10 — "The joy of the Lord is your strength"
 - Nehemiah 9:17 — God's mercy despite rebellion
-
-## In the Compendium
-Referenced in teaching on the Church, divine law, and the communion of saints.
-
-## Open questions
-- How does Ethiopian Catholic tradition understand Nehemiah's lay leadership in relation to the priesthood?

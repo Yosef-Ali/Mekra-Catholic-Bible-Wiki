@@ -23,9 +23,3 @@ Ezra recounts the return of the Jewish exiles from Babylon under Persian decree 
 - Ezra 3:11 — Joy at laying the Temple foundation
 - Ezra 7:10 — Ezra devoted himself to study and teach the Law
 - Ezra 9:6 — Ezra's prayer of confession for the people's sin
-
-## In the Compendium
-Referenced in teaching on the Church as the new People of God and the importance of fidelity to divine law.
-
-## Open questions
-- How does the Amharic Emmaus translation render Ezra's prayer of confession compared to the Latin Vulgate?

@@ -48,26 +48,3 @@ The exclusive and universal claim — Christ is the sole mediator between humani
 > — ዮሐንስ 20:31
 
 The Gospel's stated purpose — the whole work is written to engender faith in Jesus as Messiah and Son of God, and through that faith to grant life.
-
-## In the Compendium
-
-John's theological depth makes it the most-quoted Gospel in doctrinal and sacramental catechesis:
-
-- **The Incarnation (John 1:1–18):** The Prologue is the central Scriptural text for [[teaching/jesus-christ-incarnation]] (Q84–104) — the Word made flesh is the definitive revelation of God.
-- **Baptism and the Spirit (John 3:1–15):** Jesus' discourse with Nicodemus on being "born of water and the Spirit" directly informs [[teaching/baptism]] (Q256, 297) and the theology of regeneration.
-- **The Eucharist (John 6:22–59):** The Bread of Life discourse is the primary biblical foundation for [[teaching/eucharist]] (Q271–294) — "my flesh is true food, my blood is true drink" grounds the Catholic understanding of the Real Presence.
-- **The Holy Spirit (John 14–16):** The Farewell Discourse's teaching on the Paraclete is essential for [[teaching/holy-spirit]] (Q136–146) — the Spirit proceeds from the Father, teaches, and sanctifies.
-- **Creation and the Word (John 1:1–3):** The Prologue links creation and redemption, supporting [[teaching/god-the-father-creator]] — "all things were made through him."
-- **Eternal Life and Resurrection (John 11, 20):** The raising of Lazarus and Jesus' own resurrection are the narrative heart of [[teaching/forgiveness-resurrection-eternal-life]] (Q105–131).
-- **Faith (John 20:31):** The Gospel's stated purpose — "that you may believe" — anchors [[teaching/faith-and-revelation]] (Q1–25).
-
-## Open questions
-
-- The "I AM" (እኔ ነኝ) statements: Does the Amharic Emmaus edition render these identically across all seven instances? The theological weight of the divine name requires consistent translation.
-- John 6:51–58 (the "hard saying" on eating Jesus' flesh): How does the Emmaus Amharic handle the shift from φαγεῖν (eat) to τρώγων (gnaw/chew) in v. 54? This lexical shift is significant for Catholic Eucharistic apologetics.
-- The Johannine Comma (1 John 5:7–8) is not present in John's Gospel, but the Johannine corpus's Trinitarian shape will be relevant when the epistles are synthesized. Note for future cross-referencing.
-- The relationship between John and the Synoptics — especially the chronology of the Last Supper — will need a dedicated thematic page under themes/ (e.g., "The Johannine Passion Chronology").
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for John (id: 196, 21 chapters, NT).

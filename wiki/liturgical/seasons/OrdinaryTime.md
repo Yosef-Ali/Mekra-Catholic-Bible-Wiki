@@ -25,10 +25,3 @@
 
 > «ስለዚህ ሂዱና አሕዛብን ሁሉ በአብ፥ በወልድና በመንፈስ ቅዱስ ስም እያጠመቃችኋቸው ደቀ መዛሙርት አድርጓቸው፤ ያዘዝኋችሁንም ሁሉ እንዲጠብቁ አስተምሯቸው፤ እነሆ እኔ እስከ ዓለም ፍጻሜ ድረስ ሁልጊዜ ከእናንተ ጋር ነኝ።»
 > — ማቴዎስ 28:19–20
-
-## Open questions
-- How does the Ethiopian Catholic liturgical calendar integrate local saint feasts within Ordinary Time?
-
-## Sources
-- Compendium Q377–390 (Virtues), Q391–400 (Sin and Mercy), Q456–465 (Fourth Commandment)
-- `raw/catechism-digital/Q580.md` (Q580–582 — The Lord's Prayer, concluding Part 4)

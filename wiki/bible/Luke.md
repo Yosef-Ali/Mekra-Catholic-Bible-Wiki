@@ -48,24 +48,3 @@ The turning point of the Prodigal Son — the sinner's resolution to return, and
 > — ሉቃስ 22:19
 
 The institution of the Eucharist — the memorial command (ተውስቶ/anamnesis) that the Church fulfills in every Mass. Luke's account uniquely includes "given for you" — emphasizing the personal, sacrificial dimension.
-
-## In the Compendium
-
-Luke's distinctive material enriches Catholic catechesis across multiple domains:
-
-- **Mary and the Magnificat (Luke 1:46–55):** Central to [[teaching/mary]] (Q194–199) — the Magnificat is the Church's great hymn of praise and the model of Marian devotion.
-- **The Eucharist (Luke 22:19–20):** Luke's institution narrative, with its "do this in remembrance of me," is foundational for [[teaching/eucharist]] (Q271–294) and the theology of the Mass as memorial sacrifice.
-- **The Holy Spirit (Luke 4:18; Acts 2):** Luke–Acts provides the narrative backbone for [[teaching/holy-spirit]] (Q136–146), from the annunciation to Pentecost.
-- **Forgiveness and Mercy (Luke 15, 7:36–50):** The parables of mercy and the forgiveness of the sinful woman directly support [[teaching/forgiveness-resurrection-eternal-life]] and the theology of [[teaching/penance]].
-- **Prayer (Luke 11:1–13, 18:1–14):** Luke's teaching on persistent prayer and the model of the Lord's Prayer enriches [[teaching/the-lords-prayer]] and [[teaching/prayer-in-christian-life]].
-- **Social Justice (Luke 4:18–19, 16:19–31):** Jesus' preferential option for the poor and the parable of the Rich Man and Lazarus are essential for [[teaching/society-and-justice]] and Catholic social teaching.
-
-## Open questions
-
-- The Emmaus edition's rendering of Luke 22:19 — "this is my body given for you" — is the phrase "given for you" (ስለ እናንተ የሚሰጠው) consistent with the Compendium's Eucharistic language?
-- Luke includes unique infancy material (1:5–2:52) that is not in Matthew. How well does the Emmaus Amharic capture the poetic quality of the canticles (Magnificat, Benedictus, Nunc Dimittis)?
-- The relationship between Luke's volume 1 (Gospel) and volume 2 (Acts) will require a cross-reference system linking the two synthesis pages when Acts is created — note this as a future task.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Luke (id: 195, 24 chapters, NT).

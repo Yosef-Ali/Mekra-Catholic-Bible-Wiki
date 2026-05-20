@@ -15,9 +15,3 @@ Habakkuk is unique among the prophets: instead of delivering God's word to the p
 - Habakkuk 1:2 — How long shall I cry for help?
 - Habakkuk 2:4 — The righteous shall live by his faith
 - Habakkuk 3:17-18 — Though the fig tree does not blossom, yet I will rejoice in the Lord
-
-## In the Compendium
-Referenced in Q25-28 on faith and Q415-421 on justification and grace.
-
-## Open questions
-- How does Ge'ez tradition interpret Habakkuk 3 (the prayer of Habakkuk) liturgically?

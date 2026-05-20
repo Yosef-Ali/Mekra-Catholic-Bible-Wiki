@@ -33,9 +33,3 @@ The Fourth Commandment is "Honor your father and mother" (አባትህንና እ
 During the initial Compendium ingest (2026-04-09), Q&A items 503–509 were assigned to `fourth-commandment.md` instead of a Seventh Commandment page. A separate page `wiki/teaching/seventh-and-tenth-commandments.md` exists but covers a different Q range. The mapping error is likely due to Q numbering confusion during the bulk ingest.
 
 The page itself flags the mismatch in its **Open questions** section and carries a `[Note]` under Scripture acknowledging the content discrepancy.
-
-## Sources
-
-- `wiki/teaching/fourth-commandment.md` — full page content, Q503–509, Open questions line 85
-- `log.md` line 19 — "page-content mismatch found: fourth-commandment.md Q&A (503-509) covers 7th commandment"
-- Compendium CCC cross-references: Q503–509 → CCC 2401–2451 (Seventh Commandment)

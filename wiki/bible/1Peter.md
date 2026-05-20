@@ -21,9 +21,3 @@
 - 1 Peter 2:9 — A chosen race, a royal priesthood, a holy nation
 - 1 Peter 3:15 — Always be prepared to give a defense (apologia) for the hope that is in you
 - 1 Peter 5:7 — Cast all your anxieties on him, because he cares for you
-
-## In the Compendium
-Q147–193 on the Church; Q252–264 on baptism and the common priesthood; Q320–335 on the ministerial priesthood; Q105–131 on eschatological hope.
-
-## Open questions
-- Christ's preaching to the "spirits in prison" (3:19) — how does the Emmaus Amharic render this? The Catholic tradition links this to the descent into hell in the Apostles' Creed (CCC 632–635).

@@ -38,19 +38,3 @@ The bronze serpent — the Old Testament type of the crucifixion, where looking 
 > — ዘኍልቍ 24:17
 
 Balaam's messianic oracle — the star from Jacob, read by the Church as a prophecy of Christ and the star of Bethlehem.
-
-## In the Compendium
-
-- **Wilderness Testing:** The pattern of rebellion and grace supports [[teaching/faith-and-revelation]] and [[teaching/sin]] — faith is trust in God tested in the wilderness of life.
-- **Bronze Serpent (Num 21:4-9):** Christ's primary Old Testament type of the crucifixion, foundational for [[teaching/passion-death-resurrection]].
-- **Aaronic Blessing (Num 6:24-26):** Used in the Church's liturgy, supporting [[teaching/the-church]] and sacramental theology.
-- **Balaam's Oracle (Num 24:17):** Messianic prophecy read during Advent, connected to [[teaching/jesus-christ-incarnation]].
-
-## Open questions
-
-- How does the Ethiopian Andemta interpret the bronze serpent typology, especially given Ethiopian Orthodox reverence for the serpent-cross symbol?
-- The second census (ch. 26) — how does the Amharic Emmaus edition render the tribal names compared to Ge'ez tradition?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Numbers (id: 4, 36 chapters, OT).

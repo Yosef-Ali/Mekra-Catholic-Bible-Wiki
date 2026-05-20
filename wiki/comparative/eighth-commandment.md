@@ -17,8 +17,3 @@ Protestant ethics emphasize truth-telling but make distinctions: "necessary lies
 
 ## Where the differences come from
 The numbering difference (Catholic/Lutheran 8th = Protestant 9th) goes back to Augustine vs Origen. The Catholic Church follows Augustine's numbering adopted at Trent. The substantive ethics of truthfulness have minimal confessional divergence.
-
-## Open questions
-- How does EOTC tradition treat cases where truth-telling conflicts with protecting another person?
-## Sources
-- Compendium Q538–543 | CCC 2464–2513

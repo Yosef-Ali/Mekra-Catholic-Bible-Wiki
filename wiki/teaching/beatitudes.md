@@ -124,11 +124,3 @@ Read the Gospels and you find that **Jesus himself** is the perfect fulfillment 
 - He was persecuted unto death — *persecuted for righteousness*.
 
 To live the Beatitudes is, in the end, to **become Christlike**. They are his self-portrait, and they are the path to becoming his image.
-
-## Sources
-
-- Matthew 5:1–12 (the Beatitudes proper)
-- Luke 6:20–26 (the Sermon on the Plain)
-- St. Augustine, *De Sermone Domini in Monte* (4th c.)
-- CCC 1716–1729
-- Compendium Q359–362

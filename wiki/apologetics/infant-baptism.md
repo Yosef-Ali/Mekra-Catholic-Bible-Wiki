@@ -105,16 +105,3 @@ Christ was baptized as an adult to **inaugurate his public ministry** and to ful
 Ethiopian Catholic infants are baptized following the ancient practice — usually on the **40th day for boys, the 80th day for girls** (echoing the Levitical purification of Mary, ሉቃ. 2:22) — though this timing is customary, not mandatory.
 
 The Ethiopian Orthodox Tewahedo Church follows the same practice. **On infant baptism, Catholic and Ethiopian Orthodox tradition are united; only post-16th-century Protestant groups dissent.**
-
-## Sources
-
-- Acts 2:38–39; 16:15, 33; 18:8
-- Colossians 2:11–12
-- Mark 10:14
-- Irenaeus, *Against Heresies* II.22.4
-- Hippolytus, *Apostolic Tradition* 21
-- Cyprian, *Letter 64*
-- Council of Trent, Session VII, on baptism
-- CCC 1250–1252
-- [[teaching/baptism]]
-- [[teaching/practical-baptism]]

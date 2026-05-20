@@ -38,19 +38,3 @@ Prayer for the dead — the foundational Old Testament text for purgatory and th
 > — 2ኛ መቃብያን 7:28
 
 Creation ex nihilo — the mother's testimony, the strongest Old Testament affirmation that God creates from nothing.
-
-## In the Compendium
-
-- **Purgatory and Prayer for the Dead (2 Macc 12:43-45):** The primary scriptural foundation for Catholic teaching on purgatory, referenced in [[teaching/sin]], [[teaching/penance]], and [[teaching/forgiveness-resurrection-eternal-life]].
-- **Bodily Resurrection (2 Macc 7):** Essential for [[teaching/forgiveness-resurrection-eternal-life]] — the resurrection of the body professed in the Creed.
-- **Creation Ex Nihilo (2 Macc 7:28):** Foundational for [[teaching/god-the-father-creator]] — God creates from nothing.
-- **Intercession of Saints (2 Macc 15:11-16):** The deceased Jeremiah prays for the living, supporting [[teaching/the-church]] and the communion of saints.
-
-## Open questions
-
-- The Ethiopian canon's relationship to 2 Maccabees — Ethiopian tradition often groups the Maccabean books differently. Clarifying the Amharic Emmaus edition's arrangement would be valuable.
-- The doctrine of purgatory in Ethiopian Catholic vs. Latin Catholic theology — does the Ethiopian tradition emphasize 2 Maccabees 12 similarly?
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for 2 Maccabees (id: 218, 16 chapters, Apocrypha).

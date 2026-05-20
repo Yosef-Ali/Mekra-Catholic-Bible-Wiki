@@ -48,16 +48,52 @@ function loadCanonical(qNum) {
   if (!qM) return null;
 
   const question = qM[1].trim().replace(/\s+/g, ' ');
-  // Collapse the answer paragraphs into a single line of markdown.
-  // (The wiki Q-block convention is one paragraph per A: line — matches the
-  // existing pages and the WikiViewer renderer.)
-  const answer = qM[2].trim()
+
+  // Step 1: collapse the pdftotext-output "paragraphs" into one logical run.
+  // The publisher's `.pages` source prints answers in narrow columns, so
+  // pdftotext splits a single sentence across many short paragraphs (a layout
+  // artifact, not a semantic break). E.g. Q32: "…ቋንቋዎች፣ ባህሎችና ሥርዓቶች ያላቸው"
+  // is followed by a blank line then "ሰዎች ስብስብ…" — clearly one sentence cut
+  // mid-flow. Joining with a single space restores the original sentence.
+  const joined = qM[2].trim()
     .split(/\n{2,}/)
     .map(p => p.replace(/\s+/g, ' ').trim())
     .filter(Boolean)
     .join(' ');
 
-  return { question, answer, ccc };
+  // Step 2: re-introduce paragraph breaks at Ethiopic sentence boundaries
+  // (`።` or `፡፡`) so the rendered answer is readable rather than a wall of
+  // text. Target ≈ 220 chars per chunk → 1–2 sentences each. Purely visual
+  // — every character stays canonical.
+  const paragraphs = joined.length > 220 ? splitLongParagraph(joined, 220) : [joined];
+
+  return { question, answer: paragraphs.join('\n\n'), ccc };
+}
+
+// Split a long Amharic paragraph at sentence boundaries (`።` or `፡፡`) so each
+// resulting chunk is roughly ≤ `target` chars. Never splits mid-word; greedily
+// packs sentences into chunks.
+function splitLongParagraph(p, target = 220) {
+  // Sentence enders in Amharic are `።` (U+1362, full stop) and `፡፡` (two
+  // U+1361 in a row). A single `፡` is a WORDSPACE between words, NOT a
+  // sentence break — splitting on it would drop content like "የተለመዱ ስሞች፡".
+  // Use a positive sentence-ender pattern (look for `፡፡` first, then `።`).
+  const sentences = p.match(/[\s\S]*?(?:፡፡|።)|[\s\S]+$/g);
+  if (!sentences) return [p];
+  const out = [];
+  let buf = '';
+  for (const s of sentences) {
+    const piece = s.trim();
+    if (!piece) continue;
+    if (buf && (buf.length + piece.length + 1) > target) {
+      out.push(buf.trim());
+      buf = piece;
+    } else {
+      buf = buf ? `${buf} ${piece}` : piece;
+    }
+  }
+  if (buf) out.push(buf.trim());
+  return out;
 }
 
 // Walk wiki/ for .md files

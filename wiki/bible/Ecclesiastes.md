@@ -38,24 +38,3 @@ The poem on times and seasons — the Bible's most celebrated meditation on the 
 > — መክብብ 12:13
 
 The final word — after all the questioning, the conclusion is not an intellectual solution but a posture of reverence and obedience before the God who will judge all.
-
-## In the Compendium
-
-Ecclesiastes is a critical resource for Catholic teaching on the meaning of life, the limits of created goods, and the reality of death:
-
-- **The Vanity of Created Goods (Ecclesiastes 1–2):** The exhaustive demonstration that wisdom, pleasure, work, and wealth cannot satisfy the human heart grounds [[teaching/man-and-the-fall]] — the restless heart that Augustine described, made for God and unsatisfied by anything less.
-- **The Desire for God (Ecclesiastes 3:11):** Qoheleth's observation that God "has put eternity into man's heart" anchors [[teaching/faith-and-revelation]] and the Catechism's teaching on the innate human desire for God (CCC 27–30).
-- **The Reality and Meaning of Death (Ecclesiastes 3:19–21, 12:7):** The book's frank confrontation with mortality supports [[teaching/forgiveness-resurrection-eternal-life]] — death is revealed as both limit and judgment, awaiting Christ's definitive victory.
-- **The Final Judgment (Ecclesiastes 12:13–14):** The conclusion that God will bring every deed into judgment grounds [[teaching/moral-law-and-grace]] — moral seriousness and eternal accountability.
-- **The Gift of Temporal Joy (Ecclesiastes 2:24, 3:13, etc.):** The exhortation to receive daily pleasures as divine gifts supports [[teaching/god-the-father-creator]] — creation is good and to be enjoyed, while not mistaken for the ultimate good.
-
-## Open questions
-
-- The Amharic rendering of "vanity" (ከንቱ) — does it capture the full semantic range of Hebrew hevel (vapor, breath, futility, absurdity), and does the repetition pattern in the Emmaus translation convey the literary force of the superlative construction "vanity of vanities"?
-- The apparent contradictions within Ecclesiastes (e.g., 1:18 vs. 2:13 on the value of wisdom) — are these signs of editorial layers, the Preacher's rhetorical strategy of "deconstructing from within," or genuine tensions that reflect the complexity of lived experience?
-- Ecclesiastes and existentialist philosophy — a dedicated page on "Ecclesiastes and Modern Questions of Meaning" would serve apologetics, connecting the Preacher's honesty to the questions raised by thinkers like Camus, Kierkegaard, and Pascal.
-- The place of Ecclesiastes in the liturgy — the poem on time (3:1–8) is a staple of funerals and memorials. A thematic page on "Ecclesiastes in Catholic Liturgy and Prayer" would be valuable.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Ecclesiastes (id: 171, 12 chapters, OT).

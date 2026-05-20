@@ -32,12 +32,3 @@ reject any notion of the living affecting the dead's state through prayer.
 Tezkar has roots in Jewish mourning and early Christian memorial meals. 2 Maccabees
 12:46 ("pray for the dead") is canonical for Catholics/EOTC but rejected by Protestants.
 Ethiopia's structured memorial calendar is among Christianity's most elaborate.
-
-## Open questions
-- Is there a Latin parallel to the EOTC 12th-day Tezkar?
-- How does Ethiopian Catholic funeral practice blend Tezkar with Roman liturgy?
-
-## Sources
-- Compendium Q351-357
-- CCC 1667-1690
-- EOTC Tezkar tradition

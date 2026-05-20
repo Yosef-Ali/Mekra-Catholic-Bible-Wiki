@@ -29,12 +29,3 @@ However, Ethiopian Catholics honor Mary's purity and holiness throughout the yea
 
 > «ማርያምም እንዲህ አለች “ነፍሴ ጌታን ታከብረዋለች፤ መንፈሴም በአምላኬ በመድኃኒቴ ሐሴት ታደርጋለች፤ እኔን ዝቅተኛይቱን አገልጋይ ተመልክቷልና፤ እነሆም፥ ከዛሬ ጀምሮ ትውልድ ሁሉ ብፅዕት ይሉኛል።”»
 > — ሉቃስ 1:46-48
-
-## Open questions
-- How is the Immaculate Conception received in Ethiopian Catholic catechesis?
-- Is there an Ethiopian liturgical text for this feast in the Qeddase tradition?
-
-## Sources
-- Ineffabilis Deus (Pius IX, 1854)
-- Luke 1:26-38
-- Ethiopian Mariology

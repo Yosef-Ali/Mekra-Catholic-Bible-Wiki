@@ -48,24 +48,3 @@ The most sublime Old Testament description of Wisdom — the language of emanati
 > — ጥበብ 6:17, 20
 
 The ladder of wisdom — desire leads to love, love to obedience, obedience to incorruption, incorruption to nearness to God, and nearness to God to the Kingdom.
-
-## In the Compendium
-
-The Book of Wisdom is one of the most doctrinally rich books in the deuterocanon, providing essential foundations for Church teaching:
-
-- **The Immortality of the Soul (Wisdom 3:1–6):** The most explicit Old Testament teaching on life after death; the souls of the righteous are at peace in God's hand. Foundational for [[teaching/forgiveness-resurrection-eternal-life]] and the Church's funeral liturgy.
-- **The Origin of Death and Sin (Wisdom 2:23–24):** God created humanity for incorruption; death entered through the devil's envy. Essential for [[teaching/man-and-the-fall]] and [[teaching/sin]], cited by the Catechism (CCC 391, 413).
-- **The Spirit's Universal Presence (Wisdom 1:7):** The Spirit of the Lord fills the world, grounding [[teaching/holy-spirit]] — the Holy Spirit's cosmic activity before Pentecost and in the Church.
-- **Wisdom as Divine Person (Wisdom 7:25–27):** Wisdom as the breath, emanation, reflection, and image of God — foundational for [[teaching/jesus-christ-incarnation]] and the Nicene theology of the Son's eternal generation.
-- **The Ladder of Wisdom (Wisdom 6:17–20):** The stages of spiritual growth — desire, love, obedience, incorruption, nearness to God, the Kingdom — supporting [[teaching/virtues]] and [[teaching/moral-law-and-grace]].
-
-## Open questions
-
-- The Amharic rendering of the Greek philosophical vocabulary in Wisdom (e.g., "emanation," "reflection," "incorruption") — does the Emmaus translation preserve the technical precision of terms drawn from Hellenistic philosophy, or does it adapt them into a Semitic idiom?
-- The Book of Wisdom's relationship to Middle Platonism and Stoicism — the author deliberately uses Greek philosophical terms to express Jewish theology. A dedicated page on "Wisdom and Hellenistic Philosophy" would serve apologetics and the "faith and reason" dialogue.
-- The identification of the "righteous man" in Wisdom 2:12–20 — the early Church saw this as a direct prophecy of Christ's passion (the mockery, the testing, the condemnation to a shameful death). How does the Emmaus Amharic translation render the taunts of the wicked, and does it preserve the Christological resonance?
-- Wisdom's absence from the Hebrew canon and its status as deuterocanonical — a thematic page on "The Deuterocanonical Books in Catholic-Canonical Perspective" would address ecumenical questions about Wisdom, Sirach, Tobit, Judith, Baruch, and 1–2 Maccabees.
-
-## Sources
-
-- Neon DB via `scripts/get_verse.mjs` — verses from the Amharic Emmaus Catholic Edition, books table entry for Wisdom (id: 173, 19 chapters, Apocrypha).
