@@ -22,9 +22,11 @@ interface DisplayVerse {
 
 interface DesktopBibleSelectorProps {
   setView: (view: View) => void;
+  initialRef?: { book: string; chapter: number; verses?: string } | null;
+  onRefConsumed?: () => void;
 }
 
-export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setView }) => {
+export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setView, initialRef, onRefConsumed }) => {
   const [books, setBooks] = useState<BibleBook[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedBook, setSelectedBook] = useState<string>('Genesis');
@@ -112,7 +114,7 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
             verses.push({
               type: 'verse',
               number: verseNum,
-              text: v.text || '',
+              text: (v.text || '').replace(/^[፩-፼]+/, ''),
               sectionType: formatting.type as 'prose' | 'poetry' | 'list',
               isNewParagraph: paragraphBreaks.includes(verseNum) || v.is_new_paragraph,
               indent: v.indent || formatting.indent || 0,
@@ -128,7 +130,7 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
       return raw.map((v: any) => ({
         type: 'verse' as const,
         number: v.verse_number || v.number || 0,
-        text: v.text || '',
+        text: (v.text || '').replace(/^[፩-፼]+/, ''),
         sectionType: 'prose' as const,
       }));
     }
@@ -139,6 +141,32 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
     }
     return [];
   }, [getVerseFormatting]);
+
+  // Apply initial Bible reference (from wiki scripture link) — jump straight to content
+  useEffect(() => {
+    if (!initialRef || books.length === 0) return;
+    const refBook = initialRef.book.trim();
+    const match = books.find(
+      (b) => b.name === refBook
+        || b.amharicName === refBook
+        || b.amharicName?.includes(refBook)
+        || b.name.toLowerCase() === refBook.toLowerCase()
+    );
+    if (match) {
+      setSelectedBook(match.name);
+      setSelectedChapter(initialRef.chapter);
+      setReaderMode(true);
+      setReaderLoading(true);
+      setReaderVerses([]);
+      chaptersApi.getContent(match.id, initialRef.chapter)
+        .then(({ content, formattingRules }) => {
+          setReaderVerses(parseContent(content, formattingRules || null));
+        })
+        .catch(() => setReaderVerses([]))
+        .finally(() => setReaderLoading(false));
+      onRefConsumed?.();
+    }
+  }, [initialRef, books, onRefConsumed, parseContent]);
 
   // Fetch verse preview when book/chapter changes (selector mode)
   useEffect(() => {

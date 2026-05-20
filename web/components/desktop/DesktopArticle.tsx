@@ -9,9 +9,10 @@ interface DesktopArticleProps {
   setView: (view: View) => void;
   slug: string | null;
   onSelectSlug: (slug: string | null) => void;
+  openBibleRef?: (ref: { book: string; chapter: number; verses?: string }) => void;
 }
 
-export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, onSelectSlug }) => {
+export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, onSelectSlug, openBibleRef }) => {
   const [list, setList] = useState<WikiPageListItem[]>([]);
   const [page, setPage] = useState<WikiPage | null>(null);
   const [loading, setLoading] = useState(false);
@@ -28,7 +29,7 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
     return () => { cancelled = true; };
   }, []);
 
-  // Fetch selected page
+  // Fetch selected page (no type filter — supports teaching, concept, figure, etc.)
   useEffect(() => {
     if (!slug) {
       setPage(null);
@@ -36,12 +37,9 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
     }
     let cancelled = false;
     setLoading(true);
-    wikiApi.get(slug, 'teaching')
+    wikiApi.get(slug)
       .then((d) => { if (!cancelled) setPage(d); })
-      .catch(() => {
-        // Try without type filter
-        wikiApi.get(slug).then((d) => { if (!cancelled) setPage(d); }).catch(() => {});
-      })
+      .catch(() => {})
       .finally(() => { if (!cancelled) setLoading(false); });
     return () => { cancelled = true; };
   }, [slug]);
@@ -229,7 +227,7 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
                 {page.bible_refs.slice(0, 8).map((ref) => (
                   <div
                     key={`${ref.book}-${ref.chapter}-${ref.verses}`}
-                    onClick={() => setView(View.READER)}
+                    onClick={() => openBibleRef ? openBibleRef(ref) : setView(View.READER)}
                     className="py-3 border-b border-dashed border-rule flex gap-3 cursor-pointer hover:bg-parchment/30 transition-colors"
                   >
                     <CrossMark size={11} color="var(--ochre)" />

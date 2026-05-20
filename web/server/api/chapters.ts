@@ -51,13 +51,12 @@ export async function getChapterContent(bookId: number, chapterNumber: number) {
 /**
  * Server action: Update chapter content
  */
-export async function updateChapterContent(bookId: number, chapterNumber: number, content: string) {
+export async function updateChapterContent(bookId: number, chapterNumber: number, content: string, formattingRules?: any) {
   try {
+    const updates: any = { content, updatedAt: new Date() };
+    if (formattingRules !== undefined) updates.formattingRules = formattingRules;
     const result = await db.update(chapterContents)
-      .set({ 
-        content,
-        updatedAt: new Date()
-      })
+      .set(updates)
       .where(and(
         eq(chapterContents.bookId, bookId),
         eq(chapterContents.chapterNumber, chapterNumber)
@@ -110,7 +109,7 @@ export async function searchChapters(pattern: string) {
       const lines = chapter.content?.split('\n') || [];
       let lineNumber = 1;
       let matchedText = '';
-      
+
       for (let i = 0; i < lines.length; i++) {
         if (lines[i].includes(pattern)) {
           lineNumber = i + 1;

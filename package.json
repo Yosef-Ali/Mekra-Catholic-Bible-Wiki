@@ -4,8 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "node server/index.mjs",
-    "server": "node server/index.mjs",
+    "dev": "cd web && npm run dev",
+    "build": "cd web && npm run build",
     "mobile": "cd mobile && npx expo start",
     "verse": "node scripts/get_verse.mjs",
     "sync": "node scripts/sync_to_db.mjs",

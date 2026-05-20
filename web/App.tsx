@@ -37,12 +37,19 @@ const AppContent: React.FC = () => {
   const [hideFooter, setHideFooter] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [selectedWikiSlug, setSelectedWikiSlug] = useState<string | null>(null);
+  const [pendingBibleRef, setPendingBibleRef] = useState<{ book: string; chapter: number; verses?: string } | null>(null);
   const isDesktop = useIsDesktop();
 
   // Navigate to a wiki article by slug
   const openWikiPage = useCallback((slug: string) => {
     setSelectedWikiSlug(slug);
     setView(View.WIKI);
+  }, []);
+
+  // Navigate to a specific Bible verse
+  const openBibleRef = useCallback((ref: { book: string; chapter: number; verses?: string }) => {
+    setPendingBibleRef(ref);
+    setView(View.READER);
   }, []);
 
   useEffect(() => {
@@ -97,11 +104,11 @@ const AppContent: React.FC = () => {
       case View.DEVOTION:
         return <DesktopHome setView={setView} openWikiPage={openWikiPage} />;
       case View.WIKI:
-        return <DesktopArticle setView={setView} slug={selectedWikiSlug} onSelectSlug={setSelectedWikiSlug} />;
+        return <DesktopArticle setView={setView} slug={selectedWikiSlug} onSelectSlug={setSelectedWikiSlug} openBibleRef={openBibleRef} />;
       case View.CHAT:
         return <DesktopAskAI setView={setView} />;
       case View.READER:
-        return <DesktopBibleSelector setView={setView} />;
+        return <DesktopBibleSelector setView={setView} initialRef={pendingBibleRef} onRefConsumed={() => setPendingBibleRef(null)} />;
       case View.BOOKMARKS:
         return <DesktopBookmarks />;
       case View.ADMIN_EDIT:
