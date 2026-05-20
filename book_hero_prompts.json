@@ -1,0 +1,294 @@
+[
+  {
+    "book": "Genesis",
+    "prompt": "The Creation of the World, God forming the earth. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Exodus",
+    "prompt": "Prophet Moses raising his staff as the Red Sea parts into two towering walls of water; Israelites crossing on dry ground; Pharaoh's chariots distant; a beam of divine light breaking through the clouds. 16:9 aspect ratio. Ethiopian Orthodox Coptic icon painting, traditional manuscript illumination, flat perspective, gold leaf background, rich earthy pigments, intricate geometric border patterns, large expressive eyes, sacred and reverent atmosphere, no modern objects, no text."
+  },
+  {
+    "book": "Leviticus",
+    "prompt": "High Priest offering sacrifice in the Tabernacle. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Numbers",
+    "prompt": "The Pillar of Cloud leading the Israelites. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Deuteronomy",
+    "prompt": "Moses holding the Ten Commandments on Mount Nebo. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Joshua",
+    "prompt": "The crumbling walls of Jericho, Ark of the Covenant. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Judges",
+    "prompt": "Gideon blowing the horn, ancient warriors. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Ruth",
+    "prompt": "Ruth gathering grain in the fields, gentle holy presence. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "1 Samuel",
+    "prompt": "Prophet Samuel anointing David as king. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "2 Samuel",
+    "prompt": "King David playing the harp, royal robes. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "1 Kings",
+    "prompt": "King Solomon building the Temple of Jerusalem. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "2 Kings",
+    "prompt": "The Prophet Elijah ascending in a chariot of fire. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "1 Chronicles",
+    "prompt": "King David organizing the musicians and priests. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "2 Chronicles",
+    "prompt": "Solomon praying at the dedication of the Temple. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Ezra",
+    "prompt": "Ezra reading the Law to the people, rebuilding the temple. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Nehemiah",
+    "prompt": "Nehemiah overseeing the rebuilding of Jerusalem's walls. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Tobit",
+    "prompt": "Tobias and the Angel Raphael carrying a fish. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Judith",
+    "prompt": "Judith holding the sword of Holofernes, brave and holy. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Esther",
+    "prompt": "Queen Esther touching the golden scepter of the King. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "1 Maccabees",
+    "prompt": "Judas Maccabeus leading the army in defense of the faith. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "2 Maccabees",
+    "prompt": "The seven brothers and their mother, martyrs with halos. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Job",
+    "prompt": "Job enduring suffering with patience, friends nearby. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Psalms",
+    "prompt": "King David playing the harp and singing to God. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Proverbs",
+    "prompt": "King Solomon holding a scroll of wisdom. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Ecclesiastes",
+    "prompt": "The Preacher contemplating the vanity of life. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Song of Solomon",
+    "prompt": "The Bride and Bridegroom in a garden, symbolic of Christ and Church. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Wisdom of Solomon",
+    "prompt": "Personification of Divine Wisdom, radiant and holy. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Sirach",
+    "prompt": "Jesus Sirach teaching wisdom to students. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Isaiah",
+    "prompt": "Prophet Isaiah seeing the Seraphim touching his lips with coal. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Jeremiah",
+    "prompt": "Prophet Jeremiah weeping over the city of Jerusalem. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Lamentations",
+    "prompt": "A figure mourning amidst the ruins of the Holy City. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Baruch",
+    "prompt": "Baruch writing the words of Jeremiah on a scroll. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Ezekiel",
+    "prompt": "Prophet Ezekiel seeing the wheel within a wheel vision. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Daniel",
+    "prompt": "Daniel in the lions' den, unharmed by the lions. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Hosea",
+    "prompt": "Prophet Hosea redeeming Gomer, symbolizing God's love. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Joel",
+    "prompt": "Prophet Joel preaching repentance, locusts in background. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Amos",
+    "prompt": "Amos the shepherd prophesying justice. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Obadiah",
+    "prompt": "Prophet Obadiah vision of the eagle's nest brought down. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Jonah",
+    "prompt": "Jonah praying from inside the great fish. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Micah",
+    "prompt": "Micah prophesying the birth of Messiah in Bethlehem. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Nahum",
+    "prompt": "Prophet Nahum announcing the fall of Nineveh. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Habakkuk",
+    "prompt": "Habakkuk standing on the watchtower waiting for God. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Zephaniah",
+    "prompt": "Zephaniah proclaiming the Day of the Lord. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Haggai",
+    "prompt": "Haggai encouraging the people to rebuild the Temple. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Zechariah",
+    "prompt": "Zechariah's vision of the lampstand and olive trees. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Malachi",
+    "prompt": "Malachi prophesying the Sun of Righteousness. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Matthew",
+    "prompt": "Saint Matthew writing the Gospel, with a winged man symbol. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Mark",
+    "prompt": "Saint Mark with the winged lion symbol. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Luke",
+    "prompt": "Saint Luke painting the Virgin Mary, winged ox symbol. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "John",
+    "prompt": "Saint John the Evangelist with the eagle symbol, mystical light. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Acts",
+    "prompt": "The Descent of the Holy Spirit at Pentecost, flames on Apostles. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Romans",
+    "prompt": "Saint Paul writing the epistle to the Romans. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "1 Corinthians",
+    "prompt": "Saint Paul preaching in Corinth, ancient Greek city background. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "2 Corinthians",
+    "prompt": "Saint Paul holding a scroll, bearing thorns of suffering. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Galatians",
+    "prompt": "Saint Paulrebuking Galatians, fruits of the spirit tree. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Ephesians",
+    "prompt": "The Armor of God displayed, shield of faith. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Philippians",
+    "prompt": "Saint Paul rejoicing in prison chains. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Colossians",
+    "prompt": "Christ Pantocrator, supreme over all creation. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "1 Thessalonians",
+    "prompt": "Saint Paul teaching about the Second Coming, clouds opening. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "2 Thessalonians",
+    "prompt": "Saint Paul writing warning against idleness and deception. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "1 Timothy",
+    "prompt": "Saint Paul handing a scroll to young Bishop Timothy. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "2 Timothy",
+    "prompt": "Saint Paul in prison writing his final letter, crown of life. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Titus",
+    "prompt": "Saint Titus organizing the church in Crete. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Philemon",
+    "prompt": "Saint Paul sending Onesimus back with a letter. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Hebrews",
+    "prompt": "Jesus as the Great High Priest entering the Holy of Holies. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "James",
+    "prompt": "Saint James leaning on a staff, scroll of faith and works. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "1 Peter",
+    "prompt": "Saint Peter holding the Keys of the Kingdom, shepherd staff. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "2 Peter",
+    "prompt": "Saint Peter writing about the day of the Lord. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "1 John",
+    "prompt": "Saint John teaching about God is Love. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "2 John",
+    "prompt": "Saint John writing to the Elect Lady. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "3 John",
+    "prompt": "Saint John commending Gaius for hospitality. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Jude",
+    "prompt": "Saint Jude holding an image of Jesus, contending for faith. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  },
+  {
+    "book": "Revelation",
+    "prompt": "Christ Alpha and Omega surrounded by the four living creatures. 16:9 aspect ratio. Ethiopian Orthodox Coptic art style, traditional icon style, vivid earthy colors, golden background, large expressive eyes, flat perspective, intricate patterns, holy atmosphere."
+  }
+]

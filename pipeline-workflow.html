@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amharic Bible – Full Pipeline</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #1a1a2e;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    color: #e0e0e0;
+  }
+  #canvas {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle, #ffffff08 1px, transparent 1px);
+    background-size: 24px 24px;
+    cursor: grab;
+  }
+  #connections {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    pointer-events: none; z-index: 1;
+  }
+  .node {
+    position: absolute; background: #16213e; border: 2px solid #0f3460;
+    border-radius: 14px; min-width: 200px; z-index: 10;
+    cursor: grab; transition: box-shadow 0.3s, border-color 0.3s; user-select: none;
+  }
+  .node:hover { border-color: #e94560; box-shadow: 0 0 30px #e9456030, 0 8px 32px #00000060; }
+  .node.active { border-color: #00d4aa; box-shadow: 0 0 40px #00d4aa30; animation: npulse 2s ease infinite; }
+  .node.active .node-status { background: #00d4aa; }
+  .node.active .node-cmd { opacity: 1; }
+  .node.done { border-color: #0f346080; background: #16213ecc; }
+  .node.done .node-status { background: #00d4aa60; }
+  .node.error { border-color: #ff4757; box-shadow: 0 0 40px #ff475730; }
+  .node.error .node-status { background: #ff4757; }
+  @keyframes npulse { 0%,100%{box-shadow:0 0 40px #00d4aa30;} 50%{box-shadow:0 0 55px #00d4aa40;} }
+  .node-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 14px 8px; border-bottom: 1px solid #0f346040;
+  }
+  .node-icon {
+    width: 32px; height: 32px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; flex-shrink: 0;
+  }
+  .node-title { font-weight: 600; font-size: 13px; color: #fff; }
+  .node-subtitle { font-size: 10px; color: #888; margin-top: 1px; }
+  .node-status { width: 10px; height: 10px; border-radius: 50%; background: #555; margin-left: auto; flex-shrink: 0; }
+  .exec-count {
+    position: absolute; top: -8px; right: -8px;
+    background: #e94560; color: #fff; font-size: 10px; font-weight: 700;
+    width: 20px; height: 20px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 25; opacity: 0; transform: scale(0); transition: all 0.3s;
+    box-shadow: 0 2px 8px #e9456060;
+  }
+  .exec-count.visible { opacity: 1; transform: scale(1); }
+  .node-body { padding: 10px 14px 6px; font-size: 11px; color: #aaa; line-height: 1.5; }
+  .node-body code { background: #0a0e1a; padding: 1px 5px; border-radius: 4px; font-size: 10px; color: #00d4aa; }
+  .node-cmd {
+    display: flex; align-items: center; gap: 4px;
+    margin: 4px 14px 10px; padding: 4px 8px;
+    background: #0a0e1a; border: 1px solid #1a1a3e; border-radius: 6px;
+    font-size: 9px; font-family: 'SF Mono','Fira Code',monospace;
+    color: #555; cursor: pointer; transition: all 0.3s; opacity: 0.6;
+  }
+  .node-cmd:hover { border-color: #00d4aa; color: #00d4aa; }
+  .node-cmd.copied { border-color: #00d4aa; color: #00d4aa; }
+  .port { position: absolute; width: 10px; height: 10px; border-radius: 50%; background: #0f3460; border: 2px solid #e94560; z-index: 20; }
+  .port.out { right: -6px; top: 50%; transform: translateY(-50%); }
+  .port.in  { left: -6px; top: 50%; transform: translateY(-50%); }
+  .conn-label { font-size: 9px; font-weight: 700; fill: #666; text-anchor: middle; }
+  .conn-label.active-label { fill: #00d4aa; }
+  .conn-label.error-label { fill: #ff4757; }
+  .conn-label-bg { fill: #1a1a2e; rx: 3; }
+  @keyframes dash-flow { to { stroke-dashoffset: -20; } }
+  @keyframes glow-pulse { 0%,100%{filter:drop-shadow(0 0 4px #00d4aa40);} 50%{filter:drop-shadow(0 0 12px #00d4aa80);} }
+  .conn-line { fill: none; stroke: #0f3460; stroke-width: 2; stroke-dasharray: 8 4; animation: dash-flow 0.8s linear infinite; }
+  .conn-line.active { stroke: #00d4aa; stroke-width: 2.5; filter: drop-shadow(0 0 6px #00d4aa60); animation: dash-flow 0.5s linear infinite, glow-pulse 2s ease infinite; }
+  .conn-line.error { stroke: #ff4757; stroke-width: 2.5; animation: dash-flow 0.5s linear infinite; }
+  .particle { fill: #00d4aa; filter: drop-shadow(0 0 4px #00d4aa); }
+  #topbar {
+    position: fixed; top: 0; left: 0; right: 0; height: 50px;
+    background: #0a0e1a; border-bottom: 1px solid #1a1a3e;
+    display: flex; align-items: center; padding: 0 20px; z-index: 100; gap: 14px;
+  }
+  #topbar h1 { font-size: 15px; font-weight: 700; color: #fff; }
+  #topbar .sep { width: 1px; height: 20px; background: #333; }
+  .badge { padding: 3px 10px; border-radius: 20px; font-size: 10px; font-weight: 600; transition: all 0.3s; }
+  .badge.running { background: #00d4aa20; color: #00d4aa; }
+  .badge.paused  { background: #ffa50220; color: #ffa502; }
+  .badge.idle    { background: #55555530; color: #888; }
+  .badge.done-b  { background: #00d4aa20; color: #00d4aa; }
+  .badge.dry-b    { background: #ffa50220; color: #ffa502; }
+  #progress-wrap { position: fixed; top: 50px; left: 0; right: 0; height: 3px; background: #0f3460; z-index: 100; }
+  #progress-bar { height: 100%; background: linear-gradient(90deg, #e94560, #00d4aa); width: 0%; transition: width 0.5s ease; box-shadow: 0 0 10px #00d4aa60; }
+
+  /* ── Command Bar ── */
+  #controls {
+    position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%);
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 0;
+    z-index: 100; align-items: center;
+    background: #0a0e1ad9; backdrop-filter: blur(16px); border: 1px solid #1a1a3e;
+    border-radius: 14px; padding: 0;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    max-width: 95vw;
+  }
+  #controls button {
+    background: transparent; border: none; color: #e0e0e0;
+    padding: 10px 14px; font-size: 12px; font-weight: 600;
+    cursor: pointer; transition: all 0.2s; white-space: nowrap;
+    border-right: 1px solid #1a1a3e;
+  }
+  #controls button:last-child { border-right: none; }
+  #controls button:hover { background: #16213e; color: #fff; }
+  #controls button.primary { background: linear-gradient(135deg, #e94560, #c23152); color: #fff; }
+  #controls button.primary:hover { background: linear-gradient(135deg, #ff5a75, #d44060); }
+  #controls button.warn { background: linear-gradient(135deg, #ffa502, #e17055); color: #fff; }
+  #controls button.warn:hover { background: linear-gradient(135deg, #ffb832, #f08060); }
+  #controls button:disabled { opacity: 0.4; cursor: not-allowed; }
+  .ctrl-sep { width: 1px; height: 28px; background: #1a1a3e; flex-shrink: 0; }
+
+  /* ── Mode Selector ── */
+  .mode-select {
+    display: flex; align-items: center; gap: 0; background: transparent;
+  }
+  .mode-opt {
+    padding: 10px 13px; font-size: 11px; font-weight: 600; color: #666;
+    cursor: pointer; transition: all 0.2s; border: none; background: none;
+    border-right: 1px solid #1a1a3e; white-space: nowrap; position: relative;
+  }
+  .mode-opt:last-child { border-right: none; }
+  .mode-opt:hover { color: #ccc; background: #16213e; }
+  .mode-opt.active-mode { color: #00d4aa; background: #00d4aa10; }
+  .mode-opt.active-mode::after {
+    content: ''; position: absolute; bottom: 0; left: 20%; right: 20%;
+    height: 2px; background: #00d4aa; border-radius: 1px;
+  }
+
+  /* ── Speed Control ── */
+  .speed-control {
+    display: flex; align-items: center; gap: 6px;
+    padding: 0 10px; font-size: 10px; color: #888;
+    border-left: 1px solid #1a1a3e;
+  }
+  .speed-control input[type="range"] { width: 50px; accent-color: #e94560; cursor: pointer; }
+  .speed-control .speed-val { color: #e94560; font-weight: 600; min-width: 28px; text-align: center; }
+
+  /* ── Real Pipeline Control ── */
+  .real-controls {
+    display: none; position: fixed; bottom: 60px; right: 12px;
+    background: #0a0e1aee; border: 1px solid #00d4aa40; border-radius: 10px;
+    padding: 14px; z-index: 100; min-width: 280px; backdrop-filter: blur(8px);
+  }
+  .real-controls.visible { display: block; }
+  .real-controls h3 {
+    font-size: 10px; text-transform: uppercase; letter-spacing: 1px;
+    color: #00d4aa; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
+  }
+  .real-controls h3::before {
+    content: ''; font-size: 8px;
+  }
+  .cmd-row {
+    display: flex; align-items: center; gap: 6px; margin-bottom: 6px;
+    background: #16213e; border: 1px solid #1a1a3e; border-radius: 6px;
+    padding: 6px 8px;
+  }
+  .cmd-row code {
+    flex: 1; font-size: 10px; font-family: 'SF Mono','Fira Code',monospace;
+    color: #e0e0e0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .cmd-row button {
+    background: #00d4aa20; border: 1px solid #00d4aa40; color: #00d4aa;
+    padding: 3px 8px; border-radius: 4px; font-size: 9px; cursor: pointer;
+    font-weight: 600; transition: all 0.2s; white-space: nowrap;
+  }
+  .cmd-row button:hover { background: #00d4aa40; }
+  .cmd-row button.copied { background: #00d4aa; color: #0a0e1a; }
+  .pipeline-status {
+    margin-top: 8px; padding: 8px; background: #16213e; border-radius: 6px;
+    font-size: 10px; color: #888; line-height: 1.5;
+  }
+  .pipeline-status .stat-val { color: #00d4aa; font-weight: 600; }
+  .pipeline-status .stat-warn { color: #ffa502; font-weight: 600; }
+
+  /* ── Book Selector Dropdown ── */
+  .book-selector {
+    display: none; align-items: center; gap: 6px;
+    padding: 0 12px; font-size: 11px; border-left: 1px solid #1a1a3e;
+  }
+  .book-selector.visible { display: flex; }
+  .book-selector label { color: #888; white-space: nowrap; }
+  .book-selector select {
+    background: #16213e; border: 1px solid #0f3460; color: #e0e0e0;
+    padding: 6px 10px; border-radius: 6px; font-size: 11px; font-weight: 500;
+    cursor: pointer; outline: none; max-width: 200px; font-family: inherit;
+  }
+  .book-selector select:hover { border-color: #e94560; }
+  .book-selector select:focus { border-color: #00d4aa; box-shadow: 0 0 0 2px #00d4aa20; }
+  .book-selector .book-info {
+    font-size: 10px; color: #555; white-space: nowrap;
+    padding: 4px 8px; background: #0a0e1a; border-radius: 4px;
+  }
+
+  /* ── Page Range Inputs ── */
+  .page-range-inputs {
+    display: none; align-items: center; gap: 6px;
+    padding: 0 12px; font-size: 11px; border-left: 1px solid #1a1a3e;
+  }
+  .page-range-inputs.visible { display: flex; }
+  .page-range-inputs label { color: #888; white-space: nowrap; }
+  .page-range-inputs input[type="number"] {
+    background: #16213e; border: 1px solid #0f3460; color: #e0e0e0;
+    padding: 6px 8px; border-radius: 6px; font-size: 11px; width: 60px;
+    text-align: center; outline: none; font-family: inherit;
+  }
+  .page-range-inputs input[type="number"]:hover { border-color: #e94560; }
+  .page-range-inputs input[type="number"]:focus { border-color: #00d4aa; box-shadow: 0 0 0 2px #00d4aa20; }
+  .page-range-inputs .range-sep { color: #555; }
+  .page-range-inputs .range-info {
+    font-size: 10px; color: #555; padding: 4px 8px; background: #0a0e1a;
+    border-radius: 4px; white-space: nowrap;
+  }
+
+  /* ── Dry Run Badge ── */
+  .dry-badge {
+    display: none; align-items: center; gap: 4px;
+    padding: 4px 10px; border-radius: 6px;
+    background: #ffa50215; border: 1px solid #ffa50240;
+    font-size: 10px; font-weight: 700; color: #ffa502;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    margin-left: 4px; animation: dryPulse 2s ease infinite;
+  }
+  .dry-badge.visible { display: flex; }
+  @keyframes dryPulse { 0%,100%{opacity:1;} 50%{opacity:0.7;} }
+  #stats {
+    position: fixed; top: 66px; right: 12px;
+    background: #0a0e1aee; border: 1px solid #1a1a3e; border-radius: 10px;
+    padding: 14px; z-index: 100; min-width: 180px; backdrop-filter: blur(8px);
+  }
+  #stats h3 { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: #555; margin-bottom: 10px; }
+  .stat-row { display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 12px; }
+  .stat-row .label { color: #888; }
+  .stat-row .value { color: #fff; font-weight: 600; }
+  .stat-row .value.green { color: #00d4aa; }
+  .stat-row .value.red { color: #ff4757; }
+  .stat-row .value.blue { color: #74b9ff; }
+  .stat-divider { border-top: 1px solid #1a1a3e; margin: 8px 0 6px; }
+  #log-panel {
+    position: fixed; bottom: 60px; left: 50%; transform: translateX(-50%);
+    background: #0a0e1aee; border: 1px solid #1a1a3e; border-radius: 8px;
+    width: 640px; max-height: 130px; z-index: 100; overflow: hidden; backdrop-filter: blur(8px);
+  }
+  #log-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 4px 10px; border-bottom: 1px solid #1a1a3e;
+    font-size: 9px; text-transform: uppercase; letter-spacing: 1px; color: #555; cursor: pointer;
+  }
+  #log-body { max-height: 95px; overflow-y: auto; padding: 4px 0; scrollbar-width: thin; scrollbar-color: #333 transparent; }
+  #log-body::-webkit-scrollbar { width: 3px; }
+  #log-body::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+  .log-entry { padding: 2px 10px; font-size: 10px; font-family: 'SF Mono','Fira Code',monospace; color: #00d4aa; white-space: nowrap; }
+  .log-entry .timestamp { color: #444; margin-right: 6px; }
+  .log-entry.error-log { color: #ff4757; }
+  .log-entry.info-log { color: #aaa; }
+  .log-entry.success-log { color: #00d4aa; }
+  .log-entry.db-log { color: #74b9ff; }
+  .icon-pdf     { background: linear-gradient(135deg, #ff6b6b, #ee5a24); }
+  .icon-extract { background: linear-gradient(135deg, #4ecdc4, #2bc4bb); }
+  .icon-struct  { background: linear-gradient(135deg, #a29bfe, #6c5ce7); }
+  .icon-llm     { background: linear-gradient(135deg, #ffa502, #e17055); }
+  .icon-decide  { background: linear-gradient(135deg, #e94560, #c23152); }
+  .icon-retry   { background: linear-gradient(135deg, #ff4757, #ff6b81); }
+  .icon-trigger { background: linear-gradient(135deg, #fd79a8, #e84393); }
+  .icon-eval    { background: linear-gradient(135deg, #74b9ff, #0984e3); }
+  .icon-seed    { background: linear-gradient(135deg, #55efc4, #00b894); }
+  .icon-quality { background: linear-gradient(135deg, #fdcb6e, #f39c12); }
+  .icon-done    { background: linear-gradient(135deg, #00d4aa, #00b894); }
+</style>
+</head>
+<body>
+
+<div id="topbar">
+  <h1>&#128214; Amharic Bible &#8212; Full Pipeline</h1>
+  <div class="sep"></div>
+  <span class="badge idle" id="status-badge">Idle</span>
+  <div class="sep"></div>
+  <span id="step-counter" style="font-size:10px; color:#555;">Page 0 / 0</span>
+  <span style="margin-left:auto; font-size:11px; color:#555;">Extract &#8594; Review &#8594; Match DB &#8594; Seed &#8594; Verify</span>
+</div>
+<div id="progress-wrap"><div id="progress-bar"></div></div>
+
+<div id="canvas"><svg id="connections"></svg></div>
+
+<div id="stats">
+  <h3>Pipeline Stats</h3>
+  <div class="stat-row"><span class="label">Current Page</span><span class="value" id="s-page">&mdash;</span></div>
+  <div class="stat-row"><span class="label">Book</span><span class="value" id="s-book" style="font-size:11px;">&mdash;</span></div>
+  <div class="stat-row"><span class="label">Pages Done</span><span class="value green" id="s-done">0</span></div>
+  <div class="stat-row"><span class="label">Failed</span><span class="value red" id="s-fail">0</span></div>
+  <div class="stat-row"><span class="label">Verses</span><span class="value" id="s-verses">0</span></div>
+  <div class="stat-divider"></div>
+  <div class="stat-row"><span class="label">DB Match %</span><span class="value green" id="s-match">&mdash;</span></div>
+  <div class="stat-row"><span class="label">DB Updated</span><span class="value blue" id="s-updated">0</span></div>
+  <div class="stat-row"><span class="label">DB Inserted</span><span class="value blue" id="s-inserted">0</span></div>
+  <div class="stat-row"><span class="label">DB Skipped</span><span class="value" id="s-skipped">0</span></div>
+  <div class="stat-divider"></div>
+  <div class="stat-row"><span class="label">Quality</span><span class="value green" id="s-quality">&mdash;</span></div>
+</div>
+
+<!-- Real Pipeline Control Panel -->
+<div class="real-controls" id="real-controls">
+  <h3>&#128295; Real Pipeline Commands <span onclick="document.getElementById('real-controls').classList.remove('visible')" style="margin-left:auto;cursor:pointer;color:#555;font-size:14px;">&times;</span></h3>
+  <div id="real-cmds">
+    <div class="cmd-row">
+      <code id="real-cmd-text">npm run vision:auto</code>
+      <button onclick="copyRealCmd()">Copy</button>
+    </div>
+  </div>
+  <div class="pipeline-status">
+    <div>&#128218; Books: <span class="stat-val">73</span> (Catholic canon)</div>
+    <div>&#128196; PDF pages: <span class="stat-val">700+</span></div>
+    <div>&#128203; Copy command above and run in terminal</div>
+  </div>
+</div>
+
+<div id="log-panel">
+  <div id="log-header" onclick="toggleLog()"><span>Execution Log</span><span id="log-toggle">&#9660;</span></div>
+  <div id="log-body">
+    <div class="log-entry info-log"><span class="timestamp">00:00:00</span> Select a mode and click &#9654; Run.</div>
+  </div>
+</div>
+
+<div id="controls">
+  <div class="mode-select">
+    <button class="mode-opt active-mode" data-mode="auto" onclick="setMode('auto')">&#128640; Auto All</button>
+    <button class="mode-opt" data-mode="book" onclick="setMode('book')">&#128214; Book</button>
+    <button class="mode-opt" data-mode="range" onclick="setMode('range')">&#128196; Pages</button>
+    <button class="mode-opt" data-mode="dry" onclick="setMode('dry')">&#127966; Dry Run</button>
+    <span class="dry-badge" id="dry-badge">&#127966; Dry Run</span>
+  </div>
+  <div class="ctrl-sep"></div>
+
+  <!-- Book Selector (shown when Book mode is active) -->
+  <div class="book-selector" id="book-selector">
+    <label>Book:</label>
+    <select id="book-select" onchange="onBookChange()" oninput="onBookChange()">
+      <option value="">-- Select Book --</option>
+    </select>
+    <span class="book-info" id="book-info"></span>
+  </div>
+
+  <!-- Page Range Inputs (shown when Pages mode is active) -->
+  <div class="page-range-inputs" id="page-range-inputs">
+    <label>From:</label>
+    <input type="number" id="page-from" min="1" max="700" value="49" onchange="onPageRangeChange()" oninput="onPageRangeChange()">
+    <span class="range-sep">to</span>
+    <input type="number" id="page-to" min="1" max="700" value="55" onchange="onPageRangeChange()" oninput="onPageRangeChange()">
+    <span class="range-info" id="range-info"></span>
+  </div>
+
+  <div class="ctrl-sep"></div>
+  <button class="primary" id="btn-run" onclick="runPipeline()">&#9654; Run</button>
+  <button class="warn" id="btn-pause" onclick="pausePipeline()" style="display:none;">&#10074;&#10074; Pause</button>
+  <button onclick="resetPipeline()">&#8634; Reset</button>
+  <button onclick="stepMode()">&#9197; Step</button>
+  <div class="ctrl-sep"></div>
+  <div class="speed-control">
+    <span>Speed</span>
+    <input type="range" min="1" max="5" value="2" id="speed-slider" oninput="updateSpeed()">
+    <span class="speed-val" id="speed-val">1x</span>
+  </div>
+</div>
+
+<script>
+// ── Bible book data (from page_map.json) ──
+var BOOKS = [
+  {name:'Genesis',amharic:'\u12D8\u1295\u12D6',start:10,end:33},
+  {name:'Exodus',amharic:'\u12D8\u1340\u12A0\u1275',start:34,end:54},
+  {name:'Leviticus',amharic:'\u12C8\u1208\u12CA\u1260\u1228\u12DA',start:55,end:67},
+  {name:'Numbers',amharic:'\u1218\u1233\u134D\u1295\u1275',start:68,end:89},
+  {name:'Deuteronomy',amharic:'\u12D8\u1233\u1295\u12ED \u1210\u130D',start:90,end:108},
+  {name:'Joshua',amharic:'\u12ED\u1201\u1233',start:109,end:121},
+  {name:'Judges',amharic:'\u1218\u1233\u134D\u1295\u1275',start:122,end:134},
+  {name:'Ruth',amharic:'\u1229\u1275',start:135,end:137},
+  {name:'1 Samuel',amharic:'1 \u1233\u121D\u12A4\u120D',start:138,end:160},
+  {name:'2 Samuel',amharic:'2 \u1233\u121D\u12A4\u120D',start:161,end:178},
+  {name:'1 Kings',amharic:'1 \u1290\u1308\u1235\u1275',start:179,end:198},
+  {name:'2 Kings',amharic:'2 \u1290\u1308\u1235\u1275',start:199,end:217},
+  {name:'Psalms',amharic:'\u1218\u12DD\u1219\u1228',start:350,end:395},
+  {name:'Proverbs',amharic:'\u121D\u1233\u120C',start:396,end:410},
+  {name:'Isaiah',amharic:'\u12A2\u1233\u12ED\u12EB\u1235',start:430,end:465},
+  {name:'Jeremiah',amharic:'\u12A4\u122D\u121D\u12EB\u1235',start:466,end:500},
+  {name:'Matthew',amharic:'\u121B\u1274\u12CE\u1235',start:560,end:584},
+  {name:'Mark',amharic:'\u121B\u122D\u1246\u1235',start:585,end:599},
+  {name:'Luke',amharic:'\u1209\u1243\u1235',start:600,end:624},
+  {name:'John',amharic:'\u12E8\u1205\u1293\u1235',start:625,end:644},
+  {name:'Acts',amharic:'\u12E8\u1210\u12CB\u122D\u12EB\u1275',start:645,end:669},
+  {name:'Romans',amharic:'\u122E\u121C',start:670,end:680},
+  {name:'Revelation',amharic:'\u122B\u12A5\u12ED',start:690,end:700}
+];
+
+// ── Backend API URL (same server) ──
+var API_BASE = window.location.origin + '/api/pipeline';
+
+// ── Pipeline mode ──
+var currentMode = 'auto';
+var dryRun = false;
+var eventSource = null; // SSE connection
+
+function setMode(mode) {
+  if (running) return;
+  currentMode = mode;
+  dryRun = (mode === 'dry');
+
+  document.querySelectorAll('.mode-opt').forEach(function(b){
+    b.classList.toggle('active-mode', b.getAttribute('data-mode') === mode);
+  });
+
+  var bookSel = document.getElementById('book-selector');
+  var pageRange = document.getElementById('page-range-inputs');
+  var dryBadge = document.getElementById('dry-badge');
+  bookSel.classList.toggle('visible', mode === 'book');
+  pageRange.classList.toggle('visible', mode === 'range');
+  dryBadge.classList.toggle('visible', mode === 'dry');
+
+  var trigBody = document.querySelector('#node-trigger .node-body');
+  var trigCmd = document.querySelector('#node-trigger .node-cmd');
+  if (!trigBody) return;
+  if (mode === 'auto') {
+    trigBody.innerHTML = 'Process <b>all 73 books</b><br>Pages 10\u2013700';
+    if(trigCmd) trigCmd.innerHTML = '<span style="opacity:0.5">$</span> npm run vision:auto';
+  } else if (mode === 'dry') {
+    trigBody.innerHTML = 'Process <b>all 73 books</b><br>Pages 10\u2013700 <code>dry-run</code>';
+    if(trigCmd) trigCmd.innerHTML = '<span style="opacity:0.5">$</span> npm run vision:auto:dry';
+  } else if (mode === 'book') {
+    updateBookNode();
+  } else {
+    updatePageRangeNode();
+  }
+  addLog('Mode: ' + mode.toUpperCase() + (dryRun ? ' (no DB writes)' : ''), 'info');
+  updateRealCmd();
+  showRealControls();
+}
+
+function onBookChange() {
+  var sel = document.getElementById('book-select');
+  var idx = sel.selectedIndex - 1;
+  if (idx < 0 || idx >= BOOKS.length) {
+    document.getElementById('book-info').textContent = '';
+    updateRealCmd();
+    return;
+  }
+  var bk = BOOKS[idx];
+  document.getElementById('book-info').textContent = 'pp.' + bk.start + '\u2013' + bk.end;
+  updateBookNode();
+  updateRealCmd();
+}
+
+function updateBookNode() {
+  var sel = document.getElementById('book-select');
+  var idx = sel.selectedIndex - 1;
+  var bk = (idx >= 0 && idx < BOOKS.length) ? BOOKS[idx] : BOOKS[1];
+  var trigBody = document.querySelector('#node-trigger .node-body');
+  var trigCmd = document.querySelector('#node-trigger .node-cmd');
+  if (!trigBody) return;
+  trigBody.innerHTML = 'Process <b>' + bk.name + '</b> (' + bk.amharic + ')<br>Pages ' + bk.start + '\u2013' + bk.end;
+  if(trigCmd) trigCmd.innerHTML = '<span style="opacity:0.5">$</span> npm run vision:harness -- --book ' + bk.name;
+}
+
+function onPageRangeChange() {
+  var from = parseInt(document.getElementById('page-from').value) || 0;
+  var to = parseInt(document.getElementById('page-to').value) || 0;
+  var count = Math.max(0, to - from + 1);
+  document.getElementById('range-info').textContent = count + ' page' + (count !== 1 ? 's' : '');
+  updatePageRangeNode();
+  updateRealCmd();
+}
+
+function updatePageRangeNode() {
+  var from = parseInt(document.getElementById('page-from').value) || 0;
+  var to = parseInt(document.getElementById('page-to').value) || 0;
+  var trigBody = document.querySelector('#node-trigger .node-body');
+  var trigCmd = document.querySelector('#node-trigger .node-cmd');
+  if (!trigBody) return;
+  trigBody.innerHTML = 'Pages <b>' + from + '\u2013' + to + '</b><br>Manual range';
+  if(trigCmd) trigCmd.innerHTML = '<span style="opacity:0.5">$</span> npm run vision:harness -- ' + from + ' ' + to;
+}
+
+function resolveBook(page) {
+  for (var i = 0; i < BOOKS.length; i++) {
+    if (page >= BOOKS[i].start && page <= BOOKS[i].end) return BOOKS[i];
+  }
+  return {name:'Unknown',amharic:'?',start:page,end:page};
+}
+
+// ─── REAL PIPELINE: SSE Connection to Backend ──────────────────────────────
+
+// Connection index map for node→node animations
+var CONN_MAP = {
+  'trigger': 0,    // trigger → pdf
+  'pdf': 1,        // pdf → extract
+  'extract': 2,    // extract → structural
+  'structural': 3, // structural → llm
+  'llm': 4,        // llm → decide
+  'decide_fail': 5,  // decide → retry (FAIL)
+  'retry': 6,      // retry → extract
+  'decide_pass': 7,  // decide → dbmatch (PASS)
+  'dbmatch': 8,    // dbmatch → dbseed
+  'dbseed': 9,     // dbseed → quality
+  'quality': 10,   // quality → verified
+  'verified': null
+};
+
+var pagesProcessed = 0;
+var totalPagesInRun = 0;
+
+// ── Node data ──
+var nodes = [
+  { id:'trigger', title:'Page Range', subtitle:'meta-harness.ts', icon:'\uD83C\uDFAF', iconClass:'icon-trigger',
+    body:'Process <b>all 73 books</b><br>Pages 10\u2013700', cmd:'npm run vision:auto', x:40, y:80 },
+  { id:'pdf', title:'PDF \u2192 Image', subtitle:'Ghostscript 300 DPI', icon:'\uD83D\uDCC4', iconClass:'icon-pdf',
+    body:'Converts to <code>PNG</code> at 300 DPI<br>Cached in <code>pages/</code>', cmd:'npm run vision:test -- 49', x:270, y:80 },
+  { id:'extract', title:'Vision Extract', subtitle:'Gemini 3.1 Flash', icon:'\uD83E\uDD16', iconClass:'icon-extract',
+    body:'OCR via vision model<br>Returns <code>{ book, chapter, verses[] }</code>', cmd:null, x:500, y:80 },
+  { id:'structural', title:'Structural Check', subtitle:'Deterministic', icon:'\uD83D\uDD0D', iconClass:'icon-struct',
+    body:'Verse gaps \u00B7 Duplicates<br>Ge\u2019ez encoding \u00B7 Empty text', cmd:'npm run vision:review', x:740, y:80 },
+  { id:'llm', title:'LLM Review', subtitle:'Gemma 4 (Ollama)', icon:'\uD83E\uDDE0', iconClass:'icon-llm',
+    body:'Semantic coherence check<br>Only runs if structure passes', cmd:null, x:980, y:80 },
+  { id:'decide', title:'Pass / Fail', subtitle:'Decision gate', icon:'\u2696\uFE0F', iconClass:'icon-decide',
+    body:'Max <code>2</code> retries per page', cmd:null, x:980, y:260 },
+  { id:'retry', title:'Retry', subtitle:'Clear cache, re-extract', icon:'\uD83D\uDD04', iconClass:'icon-retry',
+    body:'Deletes cached PNG<br>Re-sends to Gemini', cmd:'npm run vision:harness:resume', x:740, y:260 },
+  { id:'dbmatch', title:'Match DB', subtitle:'db-matcher.ts', icon:'\uD83D\uDCCA', iconClass:'icon-eval',
+    body:'Diff vs existing verses<br>Exact \u00B7 Improved \u00B7 New', cmd:'npm run vision:match', x:740, y:420 },
+  { id:'dbseed', title:'Seed DB', subtitle:'db-sync.ts', icon:'\uD83D\uDCBE', iconClass:'icon-seed',
+    body:'Merge + upsert chapters<br>Only if improvement found', cmd:'npm run vision:sync', x:500, y:420 },
+  { id:'quality', title:'Quality Check', subtitle:'quality-loop.ts', icon:'\u2705', iconClass:'icon-quality',
+    body:'Sections \u00B7 Verse count<br>Poetry detect \u00B7 Paragraphs', cmd:'npm run quality:check', x:270, y:420 },
+  { id:'verified', title:'Verified', subtitle:'Next page \u2192', icon:'\uD83C\uDF1F', iconClass:'icon-done',
+    body:'<code>verified: 1</code><br>Ready for frontend', cmd:null, x:40, y:420 }
+];
+
+var connections = [
+  {from:'trigger',to:'pdf'},         // 0
+  {from:'pdf',to:'extract'},         // 1
+  {from:'extract',to:'structural'},  // 2
+  {from:'structural',to:'llm'},      // 3
+  {from:'llm',to:'decide'},          // 4
+  {from:'decide',to:'retry',label:'FAIL'},    // 5
+  {from:'retry',to:'extract'},       // 6
+  {from:'decide',to:'dbmatch',label:'PASS'},  // 7
+  {from:'dbmatch',to:'dbseed'},      // 8
+  {from:'dbseed',to:'quality'},      // 9
+  {from:'quality',to:'verified'},    // 10
+  {from:'verified',to:'trigger',label:'Next page'} // 11
+];
+
+// ── State ──
+var running=false, paused=false, interval=null;
+var totalDone=0, totalVerses=0, dbUpdated=0, dbInserted=0, dbSkipped=0;
+var dragNode=null, dragOff={x:0,y:0};
+var execCounts={};
+var animSpeed=1800;
+var logExpanded=true;
+var canvas=document.getElementById('canvas');
+var svg=document.getElementById('connections');
+
+function activateNode(nodeId, connIdx, isFail) {
+  nodes.forEach(function(n){
+    var el=document.getElementById('node-'+n.id);
+    if(el.classList.contains('active')){el.classList.remove('active');el.classList.add('done');}
+    el.classList.remove('error');
+  });
+  connections.forEach(function(c){c._active=false;c._error=false;});
+  var ae=document.getElementById('node-'+nodeId);
+  ae.classList.remove('done');
+  isFail?ae.classList.add('error'):ae.classList.add('active');
+  execCounts[nodeId]=(execCounts[nodeId]||0)+1;
+  var badge=document.getElementById('exec-'+nodeId);
+  badge.textContent=execCounts[nodeId]; badge.classList.add('visible');
+  if(connIdx!==null&&connIdx!==undefined){
+    isFail?connections[connIdx]._error=true:connections[connIdx]._active=true;
+  }
+  drawConnections();
+}
+
+function createNodes(){
+  nodes.forEach(function(n){
+    execCounts[n.id]=0;
+    var el=document.createElement('div');
+    el.className='node'; el.id='node-'+n.id;
+    el.style.left=n.x+'px'; el.style.top=(n.y+53)+'px';
+    var cmdHtml='';
+    if(n.cmd){
+      cmdHtml='<div class="node-cmd" onclick="event.stopPropagation();copyNodeCmd(this,\''+n.cmd+'\')">'+
+        '<span style="opacity:0.5">$</span> '+n.cmd+'</div>';
+    }
+    el.innerHTML=
+      '<div class="exec-count" id="exec-'+n.id+'">0</div>'+
+      '<div class="node-header">'+
+        '<div class="node-icon '+n.iconClass+'">'+n.icon+'</div>'+
+        '<div><div class="node-title">'+n.title+'</div><div class="node-subtitle">'+n.subtitle+'</div></div>'+
+        '<div class="node-status"></div>'+
+      '</div>'+
+      '<div class="node-body">'+n.body+'</div>'+cmdHtml+
+      '<div class="port out"></div><div class="port in"></div>';
+    el.addEventListener('mousedown',function(e){
+      if(e.target.closest('.port')||e.target.closest('.node-cmd'))return;
+      dragNode=el;dragOff.x=e.clientX-el.offsetLeft;dragOff.y=e.clientY-el.offsetTop;el.style.zIndex=50;
+    });
+    canvas.appendChild(el);
+  });
+}
+document.addEventListener('mousemove',function(e){if(!dragNode)return;dragNode.style.left=(e.clientX-dragOff.x)+'px';dragNode.style.top=(e.clientY-dragOff.y)+'px';drawConnections();});
+document.addEventListener('mouseup',function(){if(dragNode)dragNode.style.zIndex=10;dragNode=null;});
+
+function copyNodeCmd(el,cmd){
+  navigator.clipboard.writeText(cmd).then(function(){
+    el.classList.add('copied');
+    setTimeout(function(){el.classList.remove('copied');},1200);
+  });
+}
+
+function getPortPos(id,type){var el=document.getElementById('node-'+id);var r=el.getBoundingClientRect();return type==='out'?{x:r.right-1,y:r.top+r.height/2}:{x:r.left+1,y:r.top+r.height/2};}
+
+function drawConnections(){
+  var html='';
+  connections.forEach(function(c){
+    var f=getPortPos(c.from,'out'),t=getPortPos(c.to,'in');
+    var dx=Math.abs(t.x-f.x)*0.5;
+    var cp1x=f.x+dx,cp1y=f.y,cp2x=t.x-dx,cp2y=t.y;
+    if(t.x<f.x){var my=Math.min(f.y,t.y)-70;cp1x=f.x+70;cp1y=my;cp2x=t.x-70;cp2y=my;}
+    var path='M'+f.x+','+f.y+' C'+cp1x+','+cp1y+' '+cp2x+','+cp2y+' '+t.x+','+t.y;
+    var cls=c._active?'conn-line active':c._error?'conn-line error':'conn-line';
+    html+='<path class="'+cls+'" d="'+path+'"/>';
+    if(c._active){
+      html+='<circle class="particle" r="3.5"><animateMotion dur="0.9s" repeatCount="indefinite" path="'+path+'"/></circle>';
+      html+='<circle class="particle" r="2.5" opacity="0.4"><animateMotion dur="0.9s" repeatCount="indefinite" begin="0.45s" path="'+path+'"/></circle>';
+    }
+    if(c.label){
+      var mx=(f.x+t.x)/2,my2=(f.y+t.y)/2;
+      if(t.x<f.x)my2=Math.min(f.y,t.y)-70;
+      if(c.label==='FAIL')mx+=25;
+      var lc=c._active?'conn-label active-label':c._error?'conn-label error-label':'conn-label';
+      var tw=c.label.length*5.5+10;
+      html+='<rect class="conn-label-bg" x="'+(mx-tw/2)+'" y="'+(my2-9)+'" width="'+tw+'" height="14"/>';
+      html+='<text class="'+lc+'" x="'+mx+'" y="'+(my2+2)+'">'+c.label+'</text>';
+    }
+  });
+  svg.innerHTML=html;
+}
+
+function addLog(msg,type){
+  var b=document.getElementById('log-body');var d=document.createElement('div');
+  d.className='log-entry '+(type||'info')+'-log';
+  var t=new Date();var ts=t.toLocaleTimeString('en',{hour12:false,hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  d.innerHTML='<span class="timestamp">'+ts+'</span> '+msg;
+  b.appendChild(d);b.scrollTop=b.scrollHeight;
+}
+function toggleLog(){logExpanded=!logExpanded;document.getElementById('log-body').style.display=logExpanded?'block':'none';document.getElementById('log-toggle').innerHTML=logExpanded?'\u25BC':'\u25B2';}
+
+function updateSpeed(){
+  var v=parseInt(document.getElementById('speed-slider').value);
+  var sp={1:3000,2:1800,3:1000,4:600,5:300};var lb={1:'0.5x',2:'1x',3:'2x',4:'3x',5:'5x'};
+  animSpeed=sp[v];document.getElementById('speed-val').textContent=lb[v];
+}
+
+function runPipeline() {
+  if (running) return;
+
+  var qs = '?mode=' + currentMode + '&dryRun=' + dryRun;
+  if (currentMode === 'book') {
+    var sel = document.getElementById('book-select');
+    var idx = sel.selectedIndex - 1;
+    var bk = (idx >= 0 && idx < BOOKS.length) ? BOOKS[idx] : BOOKS[0];
+    qs += '&book=' + bk.name;
+  } else if (currentMode === 'range') {
+    qs += '&from=' + document.getElementById('page-from').value;
+    qs += '&to=' + document.getElementById('page-to').value;
+  }
+
+  running = true; paused = false;
+  document.getElementById('status-badge').className = 'badge running';
+  document.getElementById('status-badge').textContent = 'Running';
+  document.getElementById('btn-run').style.display = 'none';
+  document.getElementById('btn-pause').innerHTML = '\u25A0 Stop';
+  document.getElementById('btn-pause').style.display = 'inline-block';
+  
+  addLog('Connecting to backend pipeline...', 'info');
+
+  if (eventSource) eventSource.close();
+  eventSource = new EventSource(API_BASE + '/run' + qs);
+
+  eventSource.addEventListener('status', function(e) {
+    var data = JSON.parse(e.data);
+    if (data.state === 'starting') addLog('Pipeline starting...', 'info');
+    if (data.state === 'running') addLog('Pipeline running (PID: ' + data.pid + ')', 'success');
+    if (data.state === 'stopped') {
+      addLog('Pipeline manually stopped.', 'error');
+      stopPipeline(true);
+    }
+    if (data.state === 'done') {
+      addLog('Pipeline completed with code ' + data.exitCode, data.exitCode === 0 ? 'success' : 'error');
+      stopPipeline(true);
+      document.getElementById('status-badge').className = data.exitCode === 0 ? 'badge done-b' : 'badge error';
+      document.getElementById('status-badge').textContent = data.exitCode === 0 ? 'Done' : 'Error';
+    }
+  });
+
+  eventSource.addEventListener('log', function(e) {
+    var data = JSON.parse(e.data);
+    addLog(data.raw, 'info');
+
+    if (data.type === 'page_start' && data.detail) {
+       document.getElementById('s-page').textContent = data.detail;
+       var bk = resolveBook(parseInt(data.detail));
+       document.getElementById('s-book').textContent = bk.name;
+    }
+
+    if (data.phase) {
+      var nodeId = data.phase;
+      var isFail = data.type === 'decide_fail' || data.type === 'page_fail';
+      
+      var connMapKey = data.type === 'decide_pass' ? 'decide_pass' : 
+                       data.type === 'decide_fail' ? 'decide_fail' : data.phase;
+      var connIdx = CONN_MAP[connMapKey] !== undefined ? CONN_MAP[connMapKey] : null;
+
+      // Handle node activation if node exists
+      if (nodes.some(function(n) { return n.id === nodeId; })) {
+         activateNode(nodeId, connIdx, isFail);
+      }
+    }
+
+    if (data.raw.indexOf('db-sync: Inserted new chapter') !== -1) { dbInserted++; document.getElementById('s-inserted').textContent = dbInserted; }
+    if (data.raw.indexOf('db-sync: Updated chapter') !== -1) { dbUpdated++; document.getElementById('s-updated').textContent = dbUpdated; }
+    if (data.raw.indexOf('db-sync: Skipped seeding') !== -1) { dbSkipped++; document.getElementById('s-skipped').textContent = dbSkipped; }
+    if (data.raw.indexOf('📝 Got') !== -1 && data.raw.indexOf('verses') !== -1) { totalVerses += 20; document.getElementById('s-verses').textContent = '~'+totalVerses; } 
+    if (data.type === 'page_start') { pagesProcessed++; document.getElementById('s-done').textContent = pagesProcessed; }
+  });
+
+  eventSource.addEventListener('stderr', function(e) {
+    var data;
+    try { data = JSON.parse(e.data); } catch(err) { data = { raw: 'Pipeline STDERR' }; }
+    addLog(data.raw || data.message || 'SSE Error', 'error');
+  });
+
+  eventSource.onerror = function() {
+    addLog('Server connection dropped.', 'error');
+    stopPipeline(true);
+  };
+}
+
+function stopPipeline(isInternal) {
+  if (!running) return;
+  running = false; paused = false;
+  
+  if (eventSource) {
+    eventSource.close();
+    eventSource = null;
+  }
+  
+  document.getElementById('status-badge').className = 'badge idle';
+  document.getElementById('status-badge').textContent = 'Stopped';
+  document.getElementById('btn-run').style.display = 'inline-block';
+  document.getElementById('btn-run').innerHTML = '\u25B6 Run';
+  document.getElementById('btn-pause').style.display = 'none';
+
+  if (!isInternal) {
+    fetch(API_BASE + '/stop', { method: 'POST' }).catch(function(){}); // signal backend
+    addLog('Sent stop signal to backend.', 'warn');
+  }
+}
+
+function pausePipeline() {
+  stopPipeline(false);
+}
+
+function resetPipeline(){
+  stopPipeline(false);
+  totalDone=0;totalVerses=0;dbUpdated=0;dbInserted=0;dbSkipped=0;
+  pagesProcessed=0;
+  if(window._seenPages) window._seenPages.clear();
+  ['s-page','s-book','s-match','s-quality'].forEach(function(id){document.getElementById(id).textContent='\u2014';});
+  ['s-done','s-fail','s-verses','s-updated','s-inserted','s-skipped'].forEach(function(id){document.getElementById(id).textContent='0';});
+  document.getElementById('progress-bar').style.width='0%';
+  document.getElementById('step-counter').textContent='Page 0 / 0';
+  document.getElementById('status-badge').className='badge idle';document.getElementById('status-badge').textContent='Idle';
+  document.getElementById('btn-run').style.display='inline-block';document.getElementById('btn-run').innerHTML='\u25B6 Run';document.getElementById('btn-pause').style.display='none';
+  // Keep current mode selection — only reset pipeline state, not mode
+  document.getElementById('log-body').innerHTML='<div class="log-entry info-log"><span class="timestamp">00:00:00</span> Ready.</div>';
+  nodes.forEach(function(n){var el=document.getElementById('node-'+n.id);el.classList.remove('active','error','done');execCounts[n.id]=0;var b=document.getElementById('exec-'+n.id);b.textContent='0';b.classList.remove('visible');});
+  connections.forEach(function(c){c._active=false;c._error=false;});drawConnections();
+}
+
+function stepMode(){
+  addLog('Step mode not supported with live backend. Use Run/Stop.', 'warn');
+}
+
+// ── Populate book dropdown ──
+function populateBookDropdown() {
+  var sel = document.getElementById('book-select');
+  BOOKS.forEach(function(bk, i) {
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = bk.name + ' — ' + bk.amharic + ' (pp.' + bk.start + '–' + bk.end + ')';
+    sel.appendChild(opt);
+  });
+  // Default to Exodus
+  sel.selectedIndex = 2; // index 1 is placeholder, index 2 is Exodus
+  // Don't call onBookChange() yet - nodes aren't created yet
+  // Just set the book info text
+  var bk = BOOKS[1];
+  document.getElementById('book-info').textContent = 'pp.' + bk.start + '\u2013' + bk.end;
+}
+
+// ── Real Pipeline Command Generation ──
+function updateRealCmd() {
+  var cmdEl = document.getElementById('real-cmd-text');
+  if (!cmdEl) return;
+
+  var cmd;
+  if (currentMode === 'auto') {
+    cmd = 'npx tsx scripts/meta-harness.ts --auto';
+  } else if (currentMode === 'dry') {
+    cmd = 'npx tsx scripts/meta-harness.ts --auto --dry-run';
+  } else if (currentMode === 'book') {
+    var sel = document.getElementById('book-select');
+    var idx = sel.selectedIndex - 1;
+    var bk = (idx >= 0 && idx < BOOKS.length) ? BOOKS[idx] : BOOKS[0];
+    cmd = 'npx tsx scripts/meta-harness.ts --book ' + bk.name;
+  } else {
+    var from = document.getElementById('page-from').value || '10';
+    var to = document.getElementById('page-to').value || '33';
+    cmd = 'npx tsx scripts/meta-harness.ts ' + from + ' ' + to;
+  }
+  cmdEl.textContent = cmd;
+}
+
+function copyRealCmd() {
+  var cmdEl = document.getElementById('real-cmd-text');
+  if (!cmdEl) return;
+  navigator.clipboard.writeText(cmdEl.textContent).then(function() {
+    var btn = cmdEl.parentElement.querySelector('button');
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(function() {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 1500);
+  });
+}
+
+// ── Show real controls panel ──
+function showRealControls() {
+  document.getElementById('real-controls').classList.add('visible');
+}
+
+createNodes();
+drawConnections();
+window.addEventListener('resize', drawConnections);
+
+// Now populate dropdown and set initial page range info (nodes exist now)
+populateBookDropdown();
+onPageRangeChange();
+updateRealCmd();
+</script>
+</body>
+</html>

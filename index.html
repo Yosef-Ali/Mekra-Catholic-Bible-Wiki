@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Emmaus — Catholic Amharic Bible</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+Ethiopic:wght@100..900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['"Noto Serif Ethiopic"', 'serif'],
+              garamond: ['"EB Garamond"', 'serif'],
+              ethiopic: ['"Noto Serif Ethiopic"', 'serif'],
+              mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+            },
+            spacing: {
+              'safe': 'env(safe-area-inset-bottom)',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              zoomIn: {
+                '0%': { opacity: '0', transform: 'scale(0.95)' },
+                '100%': { opacity: '1', transform: 'scale(1)' },
+              },
+              slideInRight: {
+                '0%': { transform: 'translateX(100%)' },
+                '100%': { transform: 'translateX(0)' },
+              },
+              slideInBottom: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideInTop: {
+                '0%': { transform: 'translateY(-20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              spinSlow: {
+                '0%': { transform: 'rotate(0deg)' },
+                '100%': { transform: 'rotate(360deg)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-5px)' },
+              }
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.4s ease-out',
+              'zoom-in-95': 'zoomIn 0.3s cubic-bezier(0.16, 1, 0.3, 1)',
+              'slide-in-from-right': 'slideInRight 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
+              'slide-in-from-bottom-2': 'slideInBottom 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
+              'slide-in-from-bottom-5': 'slideInBottom 0.6s cubic-bezier(0.16, 1, 0.3, 1)',
+              'slide-in-from-top-2': 'slideInTop 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
+              'spin-slow': 'spinSlow 60s linear infinite',
+              'float': 'float 3s ease-in-out infinite',
+            },
+            colors: {
+              /* Manuscript Modern palette */
+              parchment: {
+                DEFAULT: '#F4EEDD',
+                light: '#FAF5E7',
+                dark: '#ECE3C8',
+              },
+              ink: {
+                DEFAULT: '#1F1B14',
+                mid: '#4F4738',
+                soft: '#847B68',
+              },
+              oxblood: {
+                DEFAULT: '#7A2522',
+                light: '#9A3532',
+              },
+              ochre: {
+                DEFAULT: '#B68530',
+                light: '#D4A040',
+              },
+              rule: '#D9CFB5',
+            },
+            boxShadow: {
+              'glass': '0 8px 32px 0 rgba(31, 38, 135, 0.07)',
+              'glow': '0 0 15px rgba(212, 175, 55, 0.3)',
+              'premium': '0 20px 40px -10px rgba(0, 0, 0, 0.1)',
+            },
+            backgroundImage: {
+              'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --sat: env(safe-area-inset-top);
+        --sab: env(safe-area-inset-bottom);
+        /* Manuscript Modern design tokens */
+        --parchment:    #F4EEDD;
+        --cream:        #FAF5E7;
+        --vellum-dark:  #ECE3C8;
+        --rule:         #D9CFB5;
+        --ink:          #1F1B14;
+        --ink-mid:      #4F4738;
+        --ink-soft:     #847B68;
+        --oxblood:      #7A2522;
+        --ochre:        #B68530;
+        --ui-font:      'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        --mono-font:    'JetBrains Mono', ui-monospace, monospace;
+        --garamond:     'EB Garamond', serif;
+        --ethiopic:     'Noto Serif Ethiopic', serif;
+      }
+      html, body, #root { height: 100%; }
+      * { -webkit-tap-highlight-color: transparent; }
+      body {
+        background-color: var(--parchment);
+        color: var(--ink);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* Utility for safe areas */
+      .pb-safe { padding-bottom: var(--sab); }
+      .pt-safe { padding-top: var(--sat); }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 10px; }
+      ::-webkit-scrollbar-thumb:hover { background: var(--ink-soft); }
+
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+      /* Text Selection */
+      ::selection {
+        background: rgba(122, 37, 34, 0.2);
+        color: var(--ink);
+      }
+
+      /* Typography Enhancements */
+      .text-balance { text-wrap: balance; }
+      .font-feature-settings { font-feature-settings: "kern" 1, "liga" 1; }
+
+      /* TailwindCSS Animate (CDN-friendly subset) */
+      @keyframes enter {
+        from {
+          opacity: var(--tw-enter-opacity, 1);
+          transform:
+            translate3d(var(--tw-enter-translate-x, 0), var(--tw-enter-translate-y, 0), 0)
+            scale3d(var(--tw-enter-scale, 1), var(--tw-enter-scale, 1), 1);
+        }
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+        }
+      }
+      .animate-in {
+        --tw-enter-opacity: 1;
+        --tw-enter-scale: 1;
+        --tw-enter-translate-x: 0;
+        --tw-enter-translate-y: 0;
+        animation-name: enter;
+        animation-duration: var(--tw-enter-duration, 150ms);
+        animation-delay: var(--tw-enter-delay, 0ms);
+        animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+        animation-fill-mode: both;
+      }
+      .fade-in { --tw-enter-opacity: 0; }
+      .zoom-in-95 { --tw-enter-scale: 0.95; }
+      .slide-in-from-bottom-2 { --tw-enter-translate-y: 0.5rem; }
+      .slide-in-from-bottom-4 { --tw-enter-translate-y: 1rem; }
+      .slide-in-from-bottom-6 { --tw-enter-translate-y: 1.5rem; }
+      .slide-in-from-right { --tw-enter-translate-x: 1rem; }
+      .duration-200 { --tw-enter-duration: 200ms; }
+      .duration-300 { --tw-enter-duration: 300ms; }
+      .duration-500 { --tw-enter-duration: 500ms; }
+      .duration-700 { --tw-enter-duration: 700ms; }
+      .delay-100 { --tw-enter-delay: 100ms; }
+      .delay-150 { --tw-enter-delay: 150ms; }
+      .delay-200 { --tw-enter-delay: 200ms; }
+
+      /* Keyframes used by arbitrary Tailwind animations */
+      @keyframes shimmer {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+      }
+      @keyframes soundwave {
+        0%, 100% { transform: scaleY(1); }
+        50% { transform: scaleY(0.5); }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation-duration: 1ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 1ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

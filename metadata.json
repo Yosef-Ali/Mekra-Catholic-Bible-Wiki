@@ -1,0 +1,7 @@
+{
+  "name": "Emmaus Catholic Bible",
+  "description": "Emmaus: Your AI-powered Catholic Bible companion in Amharic, featuring scripture reading, daily devotions, and theological chat assistance.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
