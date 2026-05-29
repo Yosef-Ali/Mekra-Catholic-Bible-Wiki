@@ -402,13 +402,36 @@ export default function ArticleScreen() {
               <View style={s.sectionRule} />
               <Rubric>Scripture References</Rubric>
               <View style={s.refsGrid}>
-                {page.bible_refs.map((ref: any, idx: number) => (
-                  <View key={idx} style={s.refChip}>
-                    <Text style={s.refChipText}>
-                      {typeof ref === 'string' ? ref : `${ref.book} ${ref.chapter}:${ref.verses}`}
-                    </Text>
-                  </View>
-                ))}
+                {page.bible_refs.map((ref: any, idx: number) => {
+                  const isLinkable = ref && typeof ref === 'object' && ref.book && ref.chapter;
+                  const label = isLinkable
+                    ? `${ref.book} ${ref.chapter}${ref.verses ? `:${ref.verses}` : ''}`
+                    : String(ref);
+                  if (!isLinkable) {
+                    return (
+                      <View key={idx} style={s.refChip}>
+                        <Text style={s.refChipText}>{label}</Text>
+                      </View>
+                    );
+                  }
+                  return (
+                    <TouchableOpacity
+                      key={idx}
+                      style={s.refChip}
+                      activeOpacity={0.7}
+                      onPress={() => router.push({
+                        pathname: '/(tabs)/bible',
+                        params: {
+                          book: String(ref.book),
+                          chapter: String(ref.chapter),
+                          verses: ref.verses ? String(ref.verses) : '',
+                        },
+                      })}
+                    >
+                      <Text style={s.refChipText}>{label}</Text>
+                    </TouchableOpacity>
+                  );
+                })}
               </View>
             </View>
           )}

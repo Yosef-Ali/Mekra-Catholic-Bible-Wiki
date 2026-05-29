@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import {
   View,
   Text,
@@ -8,8 +8,17 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import { ChevronLeft, Search } from 'lucide-react-native';
-import { fetchBooks, BibleBook } from '../../src/services/api';
+import {
+  fetchBooks,
+  fetchChapterContent,
+  parseVerses,
+  parseVerseRange,
+  matchBook,
+  BibleBook,
+  DisplayVerse,
+} from '../../src/services/api';
 import { useApi } from '../../src/hooks/useApi';
 import { Rubric, screenBase } from '../../src/components/Primitives';
 import { colors, fonts, layout } from '../../src/theme/colors';
@@ -26,8 +35,16 @@ const scrollContent = { paddingBottom: layout.scrollBottomPadding };
 
 export default function BibleScreen() {
   const insets = useSafeAreaInsets();
+  const router = useRouter();
+  const params = useLocalSearchParams<{ book?: string; chapter?: string; verses?: string }>();
   const [activeTab, setActiveTab] = useState<Section>('NT');
   const [selectedBook, setSelectedBook] = useState<BibleBook | null>(null);
+
+  // Reader state
+  const [readerChapter, setReaderChapter] = useState<number | null>(null);
+  const [readerVerses, setReaderVerses] = useState<DisplayVerse[]>([]);
+  const [readerLoading, setReaderLoading] = useState(false);
+  const [highlight, setHighlight] = useState<Set<number>>(new Set());
 
   const { data: allBooks, loading } = useApi<BibleBook[]>(fetchBooks);
 
@@ -40,6 +57,97 @@ export default function BibleScreen() {
     () => (selectedBook ? Array.from({ length: selectedBook.chapters }, (_, i) => i + 1) : []),
     [selectedBook],
   );
+
+  // Open the reader for a given book + chapter, optionally highlighting verses.
+  const openReader = useCallback(
+    async (book: BibleBook, chapter: number, highlightVerses?: string) => {
+      setSelectedBook(book);
+      setReaderChapter(chapter);
+      setHighlight(parseVerseRange(highlightVerses));
+      setReaderLoading(true);
+      setReaderVerses([]);
+      const result = await fetchChapterContent(book.id, chapter);
+      setReaderVerses(result ? parseVerses(result.content, result.formattingRules) : []);
+      setReaderLoading(false);
+    },
+    [],
+  );
+
+  const closeReader = useCallback(() => {
+    setReaderChapter(null);
+    setReaderVerses([]);
+    setHighlight(new Set());
+  }, []);
+
+  // Consume an incoming scripture deep-link (book + chapter + verses params).
+  // Guard against re-running for the same link on re-render.
+  const consumedRef = useRef<string | null>(null);
+  useEffect(() => {
+    if (!params.book || !params.chapter || !allBooks?.length) return;
+    const key = `${params.book}|${params.chapter}|${params.verses ?? ''}`;
+    if (consumedRef.current === key) return;
+    const match = matchBook(allBooks, params.book);
+    if (!match) return;
+    consumedRef.current = key;
+    setActiveTab(match.section as Section);
+    openReader(match, parseInt(params.chapter, 10) || 1, params.verses);
+  }, [params.book, params.chapter, params.verses, allBooks, openReader]);
+
+  // ── Reader view ──
+  if (readerChapter !== null && selectedBook) {
+    return (
+      <View style={[screenBase.container, { paddingTop: insets.top }]}>
+        <View style={styles.header}>
+          <TouchableOpacity onPress={closeReader} hitSlop={12} style={styles.readerBack}>
+            <ChevronLeft size={22} strokeWidth={1.6} color={colors.inkSoft} />
+            <Text style={styles.readerBackText}>Chapters</Text>
+          </TouchableOpacity>
+          <Rubric>{`${selectedBook.amharicName} ${readerChapter}`}</Rubric>
+          <View style={{ width: 60 }} />
+        </View>
+        {readerLoading ? (
+          <View style={styles.loadingWrap}>
+            <ActivityIndicator color={colors.oxblood} size="small" />
+          </View>
+        ) : readerVerses.length === 0 ? (
+          <View style={styles.loadingWrap}>
+            <Text style={styles.emptyText}>This chapter isn't available yet.</Text>
+          </View>
+        ) : (
+          <ScrollView contentContainerStyle={scrollContent} showsVerticalScrollIndicator={false}>
+            <View style={styles.readerTitleBlock}>
+              <Text style={styles.readerBookAm}>{selectedBook.amharicName}</Text>
+              <Text style={styles.readerChapterNum}>{`Chapter ${readerChapter} · ${selectedBook.name}`}</Text>
+            </View>
+            <View style={styles.readerBody}>
+              {readerVerses.map((v, idx) => {
+                if (v.type === 'header') {
+                  return <Text key={idx} style={styles.verseSectionTitle}>{v.text}</Text>;
+                }
+                if (v.type === 'subtitle') {
+                  return <Text key={idx} style={styles.verseSubtitle}>{v.text}</Text>;
+                }
+                const isHit = highlight.has(v.number);
+                return (
+                  <View
+                    key={idx}
+                    style={[
+                      styles.verseRow,
+                      v.isNewParagraph && styles.verseParaBreak,
+                      isHit && styles.verseRowHit,
+                    ]}
+                  >
+                    <Text style={[styles.verseNum, isHit && styles.verseNumHit]}>{v.number}</Text>
+                    <Text style={[styles.verseText, isHit && styles.verseTextHit]}>{v.text}</Text>
+                  </View>
+                );
+              })}
+            </View>
+          </ScrollView>
+        )}
+      </View>
+    );
+  }
 
   return (
     <View style={[screenBase.container, { paddingTop: insets.top }]}>
@@ -136,7 +244,12 @@ export default function BibleScreen() {
             </View>
             <View style={styles.chapterGrid}>
               {chapterNumbers.map((n) => (
-                <TouchableOpacity key={n} style={styles.chapterCell} activeOpacity={0.7}>
+                <TouchableOpacity
+                  key={n}
+                  style={styles.chapterCell}
+                  activeOpacity={0.7}
+                  onPress={() => selectedBook && openReader(selectedBook, n)}
+                >
                   <Text style={styles.chapterCellText}>{n}</Text>
                 </TouchableOpacity>
               ))}
@@ -318,5 +431,101 @@ const styles = StyleSheet.create({
     fontFamily: fonts.mono,
     fontSize: 9,
     color: colors.inkSoft,
+  },
+
+  // ── Reader ──
+  readerBack: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    width: 60,
+  },
+  readerBackText: {
+    fontFamily: fonts.ui,
+    fontSize: 13,
+    color: colors.inkSoft,
+  },
+  emptyText: {
+    fontFamily: fonts.garamondItalic,
+    fontSize: 15,
+    fontStyle: 'italic',
+    color: colors.inkSoft,
+    textAlign: 'center',
+    paddingHorizontal: 32,
+  },
+  readerTitleBlock: {
+    paddingHorizontal: 24,
+    paddingTop: 20,
+    paddingBottom: 12,
+  },
+  readerBookAm: {
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 26,
+    color: colors.ink,
+  },
+  readerChapterNum: {
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    color: colors.inkSoft,
+    textTransform: 'uppercase',
+    letterSpacing: 1,
+    marginTop: 4,
+  },
+  readerBody: {
+    paddingHorizontal: 24,
+    paddingTop: 4,
+  },
+  verseSectionTitle: {
+    fontFamily: fonts.garamondSemiBold,
+    fontSize: 18,
+    color: colors.oxblood,
+    marginTop: 18,
+    marginBottom: 8,
+  },
+  verseSubtitle: {
+    fontFamily: fonts.garamondItalic,
+    fontSize: 14,
+    fontStyle: 'italic',
+    color: colors.inkMid,
+    marginTop: 10,
+    marginBottom: 4,
+  },
+  verseRow: {
+    flexDirection: 'row',
+    gap: 8,
+    marginBottom: 4,
+  },
+  verseParaBreak: {
+    marginTop: 12,
+  },
+  verseRowHit: {
+    backgroundColor: colors.cream,
+    borderLeftWidth: 3,
+    borderLeftColor: colors.ochre,
+    paddingLeft: 8,
+    paddingVertical: 4,
+    marginLeft: -11,
+    borderRadius: 2,
+  },
+  verseNum: {
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    color: colors.ochre,
+    lineHeight: 28,
+    minWidth: 18,
+    textAlign: 'right',
+  },
+  verseNumHit: {
+    color: colors.oxblood,
+  },
+  verseText: {
+    flex: 1,
+    fontFamily: fonts.ethiopic,
+    fontSize: 16,
+    lineHeight: 28,
+    color: colors.ink,
+  },
+  verseTextHit: {
+    color: colors.ink,
   },
 });
