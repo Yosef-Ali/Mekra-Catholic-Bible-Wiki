@@ -96,12 +96,11 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
             <div className="font-mono text-[10px] tracking-[0.18em] uppercase mb-3">
               <Rubric>{'Vol. I  ·  Eastertide  ·  Anno Domini ⅯⅯⅩⅩⅥ'}</Rubric>
             </div>
-            <h1 className="font-garamond font-medium text-[64px] leading-[1.02] m-0 -tracking-[0.015em]">
-              An Amharic-first<br />
-              <em className="text-oxblood italic">Catholic</em> wiki,
-            </h1>
-            <div className="font-ethiopic text-[42px] leading-[1.05] mt-1 text-ink-mid">
+            <h1 className="font-ethiopic font-medium text-[60px] leading-[1.05] m-0">
               {'ከመጽሐፍ ቅዱስ '}<span className="text-oxblood">{'እስከ'}</span>{' ቅዳሴ።'}
+            </h1>
+            <div className="font-garamond text-[34px] leading-[1.04] mt-2 text-ink-mid -tracking-[0.015em]">
+              An Amharic-first <em className="text-oxblood italic">Catholic</em> wiki
             </div>
           </div>
           <div className="w-[220px] font-sans text-xs text-ink-mid leading-relaxed pb-2">
@@ -113,8 +112,8 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
 
         {/* Teaching grid — real data */}
         <div className="flex items-baseline justify-between mt-8 mb-4">
-          <h2 className="font-garamond font-medium text-[22px] m-0">
-            Teaching <span className="font-ethiopic text-ink-mid">{'· ትምህርት'}</span>
+          <h2 className="font-ethiopic font-medium text-[22px] m-0">
+            {'ትምህርት'} <span className="font-garamond text-ink-mid">· Teaching</span>
           </h2>
           <div className="font-mono text-[10px] text-ink-soft uppercase tracking-[0.14em]">
             {teachings.length} pages
@@ -147,11 +146,11 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
                 <div className="font-mono text-[9px] tracking-[0.16em] text-ink-soft uppercase mb-2.5">
                   {t.page_type} {t.compendium_q ? `· Q ${t.compendium_q}` : ''}
                 </div>
-                <div className="font-garamond text-[28px] leading-[1.05] font-medium">
-                  {t.title_en || t.slug}
+                <div className="font-ethiopic text-[26px] leading-[1.12] font-medium">
+                  {t.title_am || t.title_en || t.slug}
                 </div>
-                {t.title_am && (
-                  <div className="font-ethiopic text-[22px] text-ink-mid mt-0.5">{t.title_am}</div>
+                {t.title_am && t.title_en && (
+                  <div className="font-garamond text-[19px] italic text-ink-mid mt-1 leading-[1.05]">{t.title_en}</div>
                 )}
                 <div className="absolute bottom-3.5 left-5 right-5 flex justify-between font-mono text-[9px] text-ink-soft">
                   <span>{t.sources ? `${t.sources} sources` : ''}</span>
@@ -166,8 +165,8 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
         {concepts.length > 0 && (
           <>
             <div className="flex items-baseline justify-between mt-10 mb-3.5">
-              <h2 className="font-garamond font-medium text-[22px] m-0">
-                Concepts <span className="font-ethiopic text-ink-mid">{'· ፅንሰ ሐሳቦች'}</span>
+              <h2 className="font-ethiopic font-medium text-[22px] m-0">
+                {'ፅንሰ ሐሳቦች'} <span className="font-garamond text-ink-mid">· Concepts</span>
               </h2>
               <div className="font-mono text-[10px] text-ink-soft uppercase tracking-[0.14em]">
                 {concepts.length} entries

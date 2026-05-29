@@ -8,12 +8,12 @@ interface DesktopTopBarProps {
   onSearchOpen: () => void;
 }
 
-const NAV_ITEMS: { id: View; label: string }[] = [
-  { id: View.DEVOTION, label: 'Home' },
-  { id: View.WIKI, label: 'Teaching' },
-  { id: View.READER, label: 'Emmaus' },
-  { id: View.CHAT, label: 'Ask' },
-  { id: View.BOOKMARKS, label: 'Bookmarks' },
+const NAV_ITEMS: { id: View; label: string; am: string }[] = [
+  { id: View.DEVOTION, label: 'Home', am: 'ዋና ገጽ' },
+  { id: View.WIKI, label: 'Teaching', am: 'ትምህርት' },
+  { id: View.READER, label: 'Emmaus', am: 'መጽሐፍ ቅዱስ' },
+  { id: View.CHAT, label: 'Ask', am: 'ጠይቅ' },
+  { id: View.BOOKMARKS, label: 'Bookmarks', am: 'ዕልባቶች' },
 ];
 
 export const DesktopTopBar: React.FC<DesktopTopBarProps> = ({ currentView, setView, onSearchOpen }) => {
@@ -29,26 +29,27 @@ export const DesktopTopBar: React.FC<DesktopTopBarProps> = ({ currentView, setVi
       {/* Logo */}
       <button onClick={() => setView(View.DEVOTION)} className="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
         <CrossMark size={18} />
-        <div className="font-garamond font-semibold text-[19px] tracking-wide">Emmaus</div>
+        <div className="font-ethiopic font-medium text-[19px] tracking-wide">{'ኤማዉስ'}</div>
         <span className="text-rule text-[13px] mx-1">·</span>
-        <div className="font-ethiopic text-[16px] text-ink-mid">{'ኤማዉስ'}</div>
+        <div className="font-garamond text-[16px] text-ink-mid">Emmaus</div>
       </button>
 
-      {/* Nav links */}
-      <nav className="flex gap-7 ml-12 font-sans text-[13px]">
+      {/* Nav links — Amharic primary, English beneath */}
+      <nav className="flex gap-7 ml-12">
         {NAV_ITEMS.map((item) => {
           const active = currentView === item.id;
           return (
             <button
               key={item.id}
               onClick={() => setView(item.id)}
-              className={`pb-[18px] -mb-[18px] border-b-[1.5px] transition-colors ${
+              className={`flex flex-col items-start leading-none pb-[10px] -mb-[10px] border-b-[1.5px] transition-colors ${
                 active
-                  ? 'text-ink font-medium border-oxblood'
+                  ? 'text-ink border-oxblood'
                   : 'text-ink-soft border-transparent hover:text-ink-mid'
               }`}
             >
-              {item.label}
+              <span className={`font-ethiopic text-[15px] ${active ? 'font-medium' : ''}`}>{item.am}</span>
+              <span className="font-sans text-[9px] uppercase tracking-[0.12em] text-ink-soft mt-0.5">{item.label}</span>
             </button>
           );
         })}

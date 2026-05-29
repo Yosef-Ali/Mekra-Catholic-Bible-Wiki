@@ -472,8 +472,8 @@ export const WikiViewer: React.FC = () => {
     <div className="flex flex-col h-full text-ink" style={{ background: 'var(--parchment)' }}>
       <div className="sticky top-0 z-30 px-6 pt-12 pb-4" style={{ background: 'rgba(244,238,221,0.92)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)', borderBottom: '1px solid var(--rule)' }}>
         <div className="max-w-4xl mx-auto w-full">
-          <h1 className="font-garamond text-2xl font-medium text-ink leading-tight mb-0.5">
-            Teaching <span className="font-ethiopic text-ink-mid text-lg">· ትምህርት</span>
+          <h1 className="font-ethiopic text-2xl font-medium text-ink leading-tight mb-0.5">
+            {'ትምህርት'} <span className="font-garamond text-ink-mid text-lg">· Teaching</span>
           </h1>
           <p className="font-mono text-[10px] text-ink-soft uppercase tracking-[0.14em] mb-4">Catholic Teaching Wiki</p>
 
@@ -518,8 +518,8 @@ export const WikiViewer: React.FC = () => {
                       : 'border-transparent text-ink-soft hover:text-ink-mid'
                   }`}
                 >
-                  <span>{t.label_en}</span>
-                  <span className="font-ethiopic text-ink-soft ml-1.5">· {t.label_am}</span>
+                  <span className="font-ethiopic">{t.label_am}</span>
+                  <span className="text-ink-soft ml-1.5">· {t.label_en}</span>
                 </button>
               ))}
               {TABS.some(t => !t.ready) && (

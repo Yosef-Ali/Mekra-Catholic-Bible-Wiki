@@ -190,12 +190,12 @@ export const SearchPalette: React.FC<SearchPaletteProps> = ({ open, onClose, set
               </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-baseline gap-2">
-                  <span className="font-garamond text-[15px] font-medium text-ink truncate">
-                    {r.label}
+                  <span className="font-ethiopic text-[15px] font-medium text-ink truncate">
+                    {r.am || r.label}
                   </span>
                   {r.am && (
-                    <span className="font-ethiopic text-[13px] text-ink-mid truncate">
-                      {r.am}
+                    <span className="font-garamond text-[13px] italic text-ink-mid truncate">
+                      {r.label}
                     </span>
                   )}
                 </div>

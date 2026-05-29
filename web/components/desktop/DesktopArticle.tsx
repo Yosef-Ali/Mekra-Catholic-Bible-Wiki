@@ -86,21 +86,28 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
             ))}
           </div>
         ) : (
-          <div className="font-sans text-[13px] leading-8 text-ink-mid">
-            <div className="pl-3 border-l border-rule">
+          <div className="text-ink-mid">
+            <div className="pl-3 border-l border-rule space-y-2.5">
               {list.map((item) => {
                 const active = item.slug === slug;
+                const am = item.title_am;
+                const en = item.title_en;
                 return (
                   <div
                     key={item.slug}
                     onClick={() => onSelectSlug(item.slug)}
-                    className={`cursor-pointer transition-colors truncate ${
+                    className={`cursor-pointer transition-colors ${
                       active
-                        ? 'text-ink font-medium -ml-3 pl-[9px] border-l-[3px] border-oxblood'
+                        ? 'text-ink -ml-3 pl-[9px] border-l-[3px] border-oxblood'
                         : 'hover:text-ink'
                     }`}
                   >
-                    {item.title_en || item.title_am || item.slug}
+                    <div className={`font-ethiopic text-[15px] leading-[1.25] truncate ${active ? 'font-medium' : ''}`}>
+                      {am || en || item.slug}
+                    </div>
+                    {am && en && (
+                      <div className="font-sans text-[11px] leading-tight text-ink-soft truncate">{en}</div>
+                    )}
                   </div>
                 );
               })}
@@ -129,12 +136,12 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
               <Rubric>{`${page.page_type} ${page.frontmatter?.part ? `· Part ${page.frontmatter.part}` : ''}`}</Rubric>
             </div>
 
-            <h1 className="font-garamond font-medium text-[56px] leading-[1.04] m-0 -tracking-[0.015em]">
-              {page.title_en || page.slug}
+            <h1 className="font-ethiopic font-medium text-[52px] leading-[1.12] m-0">
+              {page.title_am || page.title_en || page.slug}
             </h1>
-            {page.title_am && (
-              <div className="font-ethiopic text-[38px] text-ink-mid mt-1 leading-[1.1]">
-                {page.title_am}
+            {page.title_am && page.title_en && (
+              <div className="font-garamond italic text-[32px] text-ink-mid mt-2 leading-[1.05] -tracking-[0.015em]">
+                {page.title_en}
               </div>
             )}
 
