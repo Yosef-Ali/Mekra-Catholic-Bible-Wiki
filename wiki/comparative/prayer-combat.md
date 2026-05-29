@@ -1,5 +1,6 @@
 # Spiritual Combat in Prayer: Catholic vs EOTC
 **Type:** comparative
+**Amharic:** የጸሎት ውጊያ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Pairs with:** [[teaching/prayer-combat]]
 **Compendium Q:** 569-577
 **Sources:** 3

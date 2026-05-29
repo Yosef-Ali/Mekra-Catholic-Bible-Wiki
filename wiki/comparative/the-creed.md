@@ -1,6 +1,7 @@
 # Profession of Faith (የእምነት ምስክርነት): Catholic vs EOTC
 
 **Type:** comparative
+**Amharic:** የእምነት ምስክርነት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Pairs with:** [[teaching/the-creed]]
 **Compendium Q:** 26–35
 **Sources:** 3

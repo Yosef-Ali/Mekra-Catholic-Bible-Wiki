@@ -1,5 +1,6 @@
 # Prayer in Christian Life: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/prayer-in-christian-life]] | **Compendium Q:** 534-556
+**Amharic:** ጸሎት በክርስቲያን ሕይወት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ጸሎት]], [[teaching/the-lords-prayer]]
 

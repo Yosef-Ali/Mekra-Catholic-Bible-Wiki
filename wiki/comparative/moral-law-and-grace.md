@@ -1,5 +1,6 @@
 # Moral Law and Grace: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/moral-law-and-grace]] | **Compendium Q:** 415-433
+**Amharic:** የሞራል ሕግና ጸጋ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ጸጋ]], [[concepts/ነፃነት]]
 

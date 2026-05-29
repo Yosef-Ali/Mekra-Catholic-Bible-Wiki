@@ -1,5 +1,6 @@
 # Marriage: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/marriage]] | **Compendium Q:** 336-350
+**Amharic:** ተክሊል፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ፍቅር]], [[teaching/sixth-and-ninth-commandments]]
 

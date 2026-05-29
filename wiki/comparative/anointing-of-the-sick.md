@@ -1,6 +1,7 @@
 # Anointing of the Sick: Catholic vs EOTC
 
 **Type:** comparative
+**Amharic:** የሕሙማን ቅባት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Pairs with:** [[teaching/anointing-of-the-sick]]
 **Compendium Q:** 313–320
 **Sources:** 3

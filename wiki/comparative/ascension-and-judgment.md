@@ -1,6 +1,7 @@
 # Ascension and Judgment: Catholic vs EOTC
 
 **Type:** comparative
+**Amharic:** ዕርገትና ፍርድ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Pairs with:** [[teaching/ascension-and-judgment]]
 **Compendium Q:** 132–135
 **Sources:** 3

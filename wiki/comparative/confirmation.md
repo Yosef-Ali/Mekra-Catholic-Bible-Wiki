@@ -1,6 +1,7 @@
 # Confirmation: Catholic vs EOTC
 
 **Type:** comparative
+**Amharic:** ሜሮን፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Pairs with:** [[teaching/confirmation]]
 **Compendium Q:** 265–270
 **Sources:** 3

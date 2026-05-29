@@ -1,6 +1,7 @@
 # First Three Commandments: Catholic vs EOTC
 
 **Type:** comparative
+**Amharic:** ሦስቱ የመጀመሪያ ትእዛዛት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Pairs with:** [[teaching/first-three-commandments]]
 **Compendium Q:** 440-454
 **Sources:** 3

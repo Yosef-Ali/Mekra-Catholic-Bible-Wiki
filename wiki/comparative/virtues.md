@@ -1,5 +1,6 @@
 # Virtues: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/virtues]] | **Compendium Q:** 377-390
+**Amharic:** በጎ ምግባራት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ጸጋ]], [[concepts/እምነት]]
 

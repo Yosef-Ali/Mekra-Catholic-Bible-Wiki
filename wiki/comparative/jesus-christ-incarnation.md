@@ -1,6 +1,7 @@
 # Jesus Christ and the Incarnation: Catholic vs EOTC
 
 **Type:** comparative
+**Amharic:** ኢየሱስ ክርስቶስ፡ ሥጋ መልበስ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Pairs with:** [[teaching/jesus-christ-incarnation]]
 **Compendium Q:** 73–97
 **Sources:** 3

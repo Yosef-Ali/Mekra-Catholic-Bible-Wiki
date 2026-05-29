@@ -1,5 +1,6 @@
 # Forgiveness, Resurrection, Eternal Life: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/forgiveness-resurrection-eternal-life]]
+**Amharic:** ይቅርታ ትንሣኤ ዘላለማዊ ሕይወት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Compendium Q:** 200-217 | **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ትንሣኤ]], [[concepts/ይቅርታ]]
 

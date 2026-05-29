@@ -1,6 +1,7 @@
 # Holy Spirit: Catholic vs EOTC
 
 **Type:** comparative
+**Amharic:** መንፈስ ቅዱስ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Pairs with:** [[teaching/holy-spirit]]
 **Compendium Q:** 136–146
 **Sources:** 3

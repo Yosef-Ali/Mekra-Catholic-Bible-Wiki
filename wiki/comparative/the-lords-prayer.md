@@ -1,5 +1,6 @@
 # The Lord's Prayer: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/the-lords-prayer]] | **Compendium Q:** 578-598
+**Amharic:** የጌታ ጸሎት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Sources:** 3 | **Last updated:** 2026-05-06 | **Related:** [[concepts/ጸሎት]]
 
 ## Catholic teaching

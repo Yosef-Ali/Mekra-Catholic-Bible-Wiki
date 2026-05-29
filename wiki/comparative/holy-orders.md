@@ -1,6 +1,7 @@
 # Holy Orders: Catholic vs EOTC
 
 **Type:** comparative
+**Amharic:** ክህነት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Pairs with:** [[teaching/holy-orders]]
 **Compendium Q:** 321–335
 **Sources:** 3

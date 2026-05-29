@@ -1,6 +1,7 @@
 # The Church: Catholic vs EOTC
 
 **Type:** comparative
+**Amharic:** ቤተክርስቲያን፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Pairs with:** [[teaching/the-church]]
 **Compendium Q:** 147–193
 **Sources:** 3

@@ -1,5 +1,6 @@
 # Eighth Commandment: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/eighth-commandment]] | **Compendium Q:** 538–543
+**Amharic:** ስምንተኛይቱ ትእዛዝ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[teaching/sin]], [[concepts/ጸጋ]]
 

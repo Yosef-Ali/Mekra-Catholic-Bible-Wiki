@@ -1,5 +1,6 @@
 # Penance: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/penance]] | **Compendium Q:** 295-312
+**Amharic:** ንስሐና ዕርቅ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ንስሐ]], [[concepts/ይቅርታ]]
 

@@ -1,5 +1,6 @@
 # Sin: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/sin]] | **Compendium Q:** 391-414
+**Amharic:** ኃጢአት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ኃጢአት]], [[concepts/ንስሐ]]
 

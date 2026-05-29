@@ -1,5 +1,6 @@
 # God the Father and Creator: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/god-the-father-creator]] | **Compendium Q:** 36-72
+**Amharic:** እግዚአብሔር አብ ፈጣሪ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
 **Sources:** 3 | **Last updated:** 2026-05-06 | **Related:** [[concepts/ቅድስት ሥላሴ]]
 
 ## Catholic teaching
