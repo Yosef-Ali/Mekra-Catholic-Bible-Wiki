@@ -6,7 +6,7 @@
 import * as dotenv from "dotenv";
 import { drizzle } from "drizzle-orm/neon-http";
 import { neon } from "@neondatabase/serverless";
-import { books } from "./services/schema";
+import { books } from "../services/schema";
 
 // Load environment variables
 dotenv.config();

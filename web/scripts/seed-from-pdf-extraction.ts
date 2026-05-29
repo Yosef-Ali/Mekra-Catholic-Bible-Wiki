@@ -1,6 +1,6 @@
 import fs from 'fs';
-import { db } from './services/db';
-import { books, chapterContents } from './services/schema';
+import { db } from '../services/db';
+import { books, chapterContents } from '../services/schema';
 import { eq, and } from 'drizzle-orm';
 
 /**
