@@ -214,6 +214,54 @@ def slugify(title, fallback):
     return slug or "untitled"
 
 
+# --- season/theme tagging ---------------------------------------------------
+# Keyword classification over each song's text using high-precision Amharic
+# markers (archaic forms included). A song may carry several tags; ~38% carry
+# none (general worship/testimony) and are left blank rather than force-fit.
+# TAG_LEGEND fixes both the Amharic↔English glossary and the tag display order
+# (liturgical seasons first, then themes). Eucharist also fires on a ሥጋ+ደም
+# co-occurrence — a small soft spot where a few incarnation references may slip
+# in. Verified against the song corpus 2026-07-01.
+TAG_LEGEND = [
+    ("ልደት", "Christmas/Nativity"),
+    ("ስቅለት", "Cross/Passion"),
+    ("ትንሣኤ", "Easter/Resurrection"),
+    ("መንፈስ ቅዱስ", "Pentecost/Holy Spirit"),
+    ("ማርያም", "Marian"),
+    ("ቁርባን", "Eucharist/Communion"),
+    ("ምስጋና", "Praise/Thanksgiving"),
+    ("ምሕረት", "Mercy"),
+    ("እምነት", "Trust/Faith"),
+    ("ፈውስ", "Petition/Healing"),
+]
+_TAG_KW = {
+    "ልደት": r"ተወለደ|ልደት|ቤተልሔም|በበረት|ጨቅላ",
+    "ስቅለት": r"መስቀል|ተሰቀለ|ተሰቅሎ|ስቅለት|ቀራንዮ|ሕማም|ጎኑን|ችንካር|ተቸነከረ",
+    "ትንሣኤ": r"ትንሣኤ|ትንሳኤ|ፋሲካ|ተነሥ|ተነስቷል|ተንሥ|ከሙታን|ከመቃብር|መቃብር ፈንቅሎ"
+             r"|ሞትን ድል|ሞትን አሸነፈ|ሞትን ረታ",
+    "መንፈስ ቅዱስ": r"መንፈስ ቅዱስ|ጰራቅሊጦስ|ጴራቅሊጦስ",
+    "ማርያም": r"ማርያም|እመቤት|ድንግል|ወላዲተ|እመቤታችን",
+    "ምስጋና": r"ምስጋና|አመሰግን|ተመስገን|አወድስ|ውዳሴ|ላመስግን|እናመሰግን|አሞግስ|ዝማሬ",
+    "ምሕረት": r"ምሕረት|ምህረት|ይቅርታ|ማረኝ|ማረን|ይቅር በለኝ",
+    "እምነት": r"መታመኛ|ተማመን|መጠጊያ|አምባ|መሸሸጊያ|ታመንኩ|ምርኩዝ|ዐለት",
+    "ፈውስ": r"ፈውስ|ፈውሰኝ|አድነኝ|እባክህ|ጩኸት|ለምኜ|ማልደኝ",
+}
+
+
+def classify(text):
+    tags = []
+    for tag, _ in TAG_LEGEND:
+        if tag == "ቁርባን":
+            hit = bool(re.search(
+                r"ቁርባን|ማዕድ|መሠዊያ|መሰዊያ|ሥጋህን|ሥጋህ|ሥጋውን|ሥጋሽን|ሥጋ ወደም|ሥጋና ደም",
+                text)) or (("ሥጋ" in text or "ስጋ" in text) and "ደም" in text)
+        else:
+            hit = bool(re.search(_TAG_KW[tag], text))
+        if hit:
+            tags.append(tag)
+    return tags
+
+
 def main():
     info, total = load_slides()
     songs = segment(info, total)
@@ -226,10 +274,29 @@ def main():
         shutil.rmtree(OUT)
     os.makedirs(OUT)
 
+    # build song records (title / file / body / tags) in one pass
+    n_songs = len(songs)
+    records = []
+    for i, (s, e) in enumerate(songs, 1):
+        title = TITLE_OVERRIDES.get(s) or info[s][0].strip() \
+            or (info[s][1][0] if info[s][1] else "")
+        title = title.strip() or f"(untitled {i})"
+        slug = slugify(title, f"song-{i}")
+        fname = f"{i:04d}-{slug}.md"
+        chunks = [  # every slide's lines, blank line between slides
+            "\n".join(info[n][1]) for n in range(s, e + 1) if info[n][1]
+        ]
+        body = "\n\n".join(chunks)
+        tags = classify(title + "\n" + body)
+        records.append((i, s, e, title, fname, body, tags))
+
+    tag_counts = Counter(t for r in records for t in r[6])
+    n_untagged = sum(1 for r in records if not r[6])
+
     index = ["# All in One — song index", "",
              "**Type:** hymn-index",
              "**Collection:** All in One",
-             f"**Songs:** {len(songs)}",
+             f"**Songs:** {n_songs}",
              f"**Source file:** All in one 1.pptx ({total} slides)",
              f"**Extracted:** {TODAY}",
              "**Extractor:** scripts/split_all_in_one.py",
@@ -242,28 +309,28 @@ def main():
              f"{sum(1 for s,e in songs if e-s+1>15)} entries still exceed 15 slides "
              "(refrain-less praise clusters kept whole by design).",
              "",
-             "| # | Title | Slides | File |",
-             "|---|---|---|---|"]
+             "## Tags (season/theme)",
+             "",
+             "Keyword-classified; a song may carry several tags. "
+             f"{n_untagged} songs are untagged (general worship/testimony).",
+             "",
+             "| Tag | English | Songs |",
+             "|---|---|---|"]
+    for tag, eng in TAG_LEGEND:
+        index.append(f"| {tag} | {eng} | {tag_counts.get(tag, 0)} |")
+    index += ["",
+              "## Songs",
+              "",
+              "| # | Title | Tags | Slides | File |",
+              "|---|---|---|---|---|"]
 
-    n_songs = len(songs)
-    for i, (s, e) in enumerate(songs, 1):
-        title = TITLE_OVERRIDES.get(s) or info[s][0].strip() \
-            or (info[s][1][0] if info[s][1] else "")
-        title = title.strip() or f"(untitled {i})"
-        slug = slugify(title, f"song-{i}")
-        fname = f"{i:04d}-{slug}.md"
-        # body: every slide's lines, blank line between slides
-        chunks = []
-        for n in range(s, e + 1):
-            lines = info[n][1]
-            if lines:
-                chunks.append("\n".join(lines))
-        body = "\n\n".join(chunks)
+    for i, s, e, title, fname, body, tags in records:
         page = (
             f"# {title}\n\n"
             f"**Type:** hymn\n"
             f"**Amharic:** {title}\n"
             f"**Collection:** All in One\n"
+            f"**Tags:** {', '.join(tags) if tags else '—'}\n"
             f"**Song #:** {i} of {n_songs}\n"
             f"**Source slides:** {s}–{e}\n"
             f"**Source file:** All in one 1.pptx\n"
@@ -274,7 +341,8 @@ def main():
         )
         with open(os.path.join(OUT, fname), "w", encoding="utf-8") as fh:
             fh.write(page)
-        index.append(f"| {i} | {title[:60]} | {s}–{e} | `{fname}` |")
+        index.append(
+            f"| {i} | {title[:50]} | {', '.join(tags)} | {s}–{e} | `{fname}` |")
 
     with open(os.path.join(OUT, "index.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(index) + "\n")

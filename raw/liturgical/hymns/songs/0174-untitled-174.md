@@ -3,6 +3,7 @@
 **Type:** hymn
 **Amharic:** (untitled 174)
 **Collection:** All in One
+**Tags:** —
 **Song #:** 174 of 697
 **Source slides:** 1373–1380
 **Source file:** All in one 1.pptx
