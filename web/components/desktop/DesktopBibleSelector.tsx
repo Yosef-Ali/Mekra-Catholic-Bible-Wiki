@@ -1,7 +1,14 @@
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
+import { Volume2, Pause, Square, Copy, Check, Printer, Share2 } from 'lucide-react';
 import { View, BibleBook } from '../../types';
 import { Rubric, CrossMark } from '../ui/ManuscriptPrimitives';
 import { booksApi, chaptersApi } from '../../services/apiClient';
+import {
+  generateAndPlayAudio,
+  pauseAudioPlayback,
+  resumeAudioPlayback,
+  stopAudioPlayback,
+} from '../../services/geminiService';
 import { CATHOLIC_BOOKS } from '../../constants';
 
 interface FormattingRules {
@@ -36,6 +43,7 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
   const [versePreview, setVersePreview] = useState<string>('');
   const [previewLoading, setPreviewLoading] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [audio, setAudio] = useState<'idle' | 'active' | 'paused'>('idle');
 
   // Reader mode state
   const [readerMode, setReaderMode] = useState(false);
@@ -227,6 +235,99 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
     } catch { /* fallback */ }
   }, [amName, selectedChapter, selectedVerseStart, versePreview]);
 
+  // ── Reader-mode chapter: plain text for copy / print / share ──
+  const readerText = useMemo(() => {
+    if (!readerVerses.length) return '';
+    const header = `${amName} · ምዕራፍ ${selectedChapter}`;
+    const body = readerVerses
+      .filter((v) => v.type === 'verse' && v.text)
+      .map((v) => `${v.number}. ${v.text}`)
+      .join('\n');
+    return `${header}\n\n${body}`;
+  }, [readerVerses, amName, selectedChapter]);
+
+  const handleCopyChapter = useCallback(async () => {
+    if (!readerText) return;
+    try {
+      await navigator.clipboard.writeText(readerText);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch { /* ignore */ }
+  }, [readerText]);
+
+  const handlePrint = useCallback(() => window.print(), []);
+
+  const handleShareChapter = useCallback(async () => {
+    const data = {
+      title: `${amName} ${selectedChapter} — Emmaus Catholic Bible`,
+      text: readerText.slice(0, 800),
+      url: window.location.href,
+    };
+    try {
+      if (navigator.share) await navigator.share(data);
+      else {
+        await navigator.clipboard.writeText(`${data.title}\n${data.url}`);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      }
+    } catch { /* cancelled / unsupported */ }
+  }, [amName, selectedChapter, readerText]);
+
+  const toolBtn =
+    'inline-flex items-center gap-1.5 px-3 py-1.5 border border-rule font-mono text-[10px] tracking-[0.08em] uppercase text-ink-mid hover:border-ink-soft hover:text-oxblood transition-colors';
+
+  // ── Reader audio: read the chapter verse-by-verse (fast start) ──
+  const audioSessionRef = useRef(0);
+  const audioStoppedRef = useRef(false);
+
+  const verseTexts = useMemo(
+    () => readerVerses.filter((v) => v.type === 'verse' && v.text).map((v) => v.text as string),
+    [readerVerses],
+  );
+
+  const speakVerse = useCallback(
+    async (i: number, session: number) => {
+      if (session !== audioSessionRef.current || audioStoppedRef.current || i >= verseTexts.length) {
+        if (session === audioSessionRef.current) setAudio('idle');
+        return;
+      }
+      try {
+        await generateAndPlayAudio(verseTexts[i]);
+        if (session === audioSessionRef.current && !audioStoppedRef.current) speakVerse(i + 1, session);
+      } catch (err: any) {
+        if (err?.name === 'AbortError') return; // stop pressed
+        if (session === audioSessionRef.current && !audioStoppedRef.current) speakVerse(i + 1, session);
+      }
+    },
+    [verseTexts],
+  );
+
+  // Stop audio when the chapter/book changes or when leaving reader mode.
+  useEffect(() => {
+    audioSessionRef.current++;
+    audioStoppedRef.current = true;
+    stopAudioPlayback();
+    setAudio('idle');
+    return () => { audioSessionRef.current++; audioStoppedRef.current = true; stopAudioPlayback(); };
+  }, [selectedBook, selectedChapter, readerMode]);
+
+  const handleListen = () => {
+    if (audio === 'active') { pauseAudioPlayback(); setAudio('paused'); return; }
+    if (audio === 'paused') { resumeAudioPlayback(); setAudio('active'); return; }
+    if (!verseTexts.length) return;
+    audioStoppedRef.current = false;
+    const session = ++audioSessionRef.current;
+    setAudio('active');
+    speakVerse(0, session);
+  };
+
+  const handleStopAudio = () => {
+    audioSessionRef.current++;
+    audioStoppedRef.current = true;
+    stopAudioPlayback();
+    setAudio('idle');
+  };
+
   // Dynamic verse count for the grid (based on actual chapter content)
   const verseNumbers = useMemo(() => {
     if (readerVerses.length > 0) {
@@ -350,9 +451,9 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
   /* ──────────────────── READER MODE ──────────────────── */
   if (readerMode) {
     return (
-      <div className="grid h-full" style={{ gridTemplateColumns: '260px 1fr 300px' }}>
+      <div className="grid h-full print:block" style={{ gridTemplateColumns: '260px 1fr 300px' }}>
         {/* ── Left — book list ── */}
-        <aside className="border-r border-rule px-5 py-7 overflow-y-auto">
+        <aside className="border-r border-rule px-5 py-7 overflow-y-auto print:hidden">
           <div
             onClick={() => setReaderMode(false)}
             className="font-mono text-[10px] tracking-[0.14em] uppercase text-ink-soft mb-4 cursor-pointer hover:text-ink-mid transition-colors"
@@ -400,7 +501,7 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
         </aside>
 
         {/* ── Center — reading pane ── */}
-        <main className="px-16 py-10 overflow-y-auto">
+        <main className="px-16 py-10 overflow-y-auto print:overflow-visible print:px-0 print:py-0">
           {/* Header */}
           <div className="font-mono text-[10px] tracking-[0.18em] uppercase text-oxblood mb-3">
             <Rubric>{'Emmaus Catholic Edition · Amharic'}</Rubric>
@@ -415,8 +516,32 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
             Chapter {selectedChapter} of {totalChapters}
           </div>
 
+          {/* Reading toolbar — listen, copy, print, share */}
+          {readerVerses.length > 0 && (
+            <div className="flex flex-wrap items-center gap-2 mb-6 print:hidden">
+              <button onClick={handleListen} className={toolBtn} style={{ background: 'var(--parchment)' }}>
+                {audio === 'active' ? <Pause size={13} /> : <Volume2 size={13} />}
+                {audio === 'active' ? 'Pause' : audio === 'paused' ? 'Resume' : 'Listen'}
+              </button>
+              {audio !== 'idle' && (
+                <button onClick={handleStopAudio} className={toolBtn} style={{ background: 'var(--parchment)' }}>
+                  <Square size={12} /> Stop
+                </button>
+              )}
+              <button onClick={handleCopyChapter} className={toolBtn} style={{ background: 'var(--parchment)' }}>
+                {copied ? <Check size={13} /> : <Copy size={13} />} {copied ? 'Copied' : 'Copy'}
+              </button>
+              <button onClick={handlePrint} className={toolBtn} style={{ background: 'var(--parchment)' }}>
+                <Printer size={13} /> Print
+              </button>
+              <button onClick={handleShareChapter} className={toolBtn} style={{ background: 'var(--parchment)' }}>
+                <Share2 size={13} /> Share
+              </button>
+            </div>
+          )}
+
           {/* Chapter nav */}
-          <div className="flex items-center gap-3 mb-8 border-b border-rule pb-4">
+          <div className="flex items-center gap-3 mb-8 border-b border-rule pb-4 print:hidden">
             <button
               onClick={() => goToChapter(selectedChapter - 1)}
               disabled={selectedChapter <= 1}
@@ -461,7 +586,7 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
 
           {/* Bottom nav */}
           {readerVerses.length > 0 && (
-            <div className="flex items-center gap-3 mt-10 pt-4 border-t border-rule">
+            <div className="flex items-center gap-3 mt-10 pt-4 border-t border-rule print:hidden">
               <button
                 onClick={() => goToChapter(selectedChapter - 1)}
                 disabled={selectedChapter <= 1}
@@ -483,7 +608,7 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
         </main>
 
         {/* ── Right — chapter picker ── */}
-        <aside className="border-l border-rule px-7 py-10 overflow-y-auto" style={{ background: 'var(--cream)' }}>
+        <aside className="border-l border-rule px-7 py-10 overflow-y-auto print:hidden" style={{ background: 'var(--cream)' }}>
           <div className="font-mono text-[10px] tracking-[0.18em] uppercase text-oxblood">
             <Rubric>{amName}{' · '}{selectedBook}</Rubric>
           </div>
