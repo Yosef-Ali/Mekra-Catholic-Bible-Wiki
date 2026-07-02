@@ -1,4 +1,4 @@
-# The Qidase (ቅዳሴ) — the KMCC Divine Liturgy as celebrated
+# The Qidase — KMCC Divine Liturgy (ቅዳሴ)
 
 **Type:** liturgical
 **Amharic:** ቅዳሴ / ሥርዓተ ቅዳሴ

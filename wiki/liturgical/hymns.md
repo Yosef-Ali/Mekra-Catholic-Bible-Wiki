@@ -1,4 +1,4 @@
-# Hymns & Mezmur (መዝሙር) — index
+# Hymns & Mezmur (መዝሙር)
 
 **Type:** liturgical
 **Amharic:** መዝሙር / ዝማሬ
