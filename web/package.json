@@ -48,6 +48,7 @@
     "express": "^5.2.1",
     "google-tts-api": "^2.0.2",
     "lucide-react": "^0.555.0",
+    "msedge-tts": "^2.0.6",
     "pdf-lib": "^1.17.1",
     "pdf-parse": "^2.4.5",
     "react": "^19.2.0",

@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import { GoogleGenAI } from '@google/genai';
 import { getAllAudioBase64 } from 'google-tts-api';
+import { MsEdgeTTS, OUTPUT_FORMAT } from 'msedge-tts';
 
 const router = Router();
 
@@ -10,6 +11,28 @@ const OLLAMA_MODEL = (process.env.OLLAMA_MODEL || 'gemma4:31b-cloud').trim();
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
 const GEMINI_MODEL = 'gemini-3-flash-preview';
+
+// Free neural TTS via Microsoft Edge (no API key, no daily cap).
+// Amharic voices: am-ET-MekdesNeural (female), am-ET-AmehaNeural (male).
+const EDGE_TTS_VOICE = process.env.EDGE_TTS_VOICE || 'am-ET-MekdesNeural';
+const EDGE_AMHARIC_VOICES = new Set(['am-ET-MekdesNeural', 'am-ET-AmehaNeural']);
+
+// Synthesize `text` with an Edge neural voice and return the MP3 bytes.
+async function edgeTTS(text: string, voice: string): Promise<Buffer> {
+  const tts = new MsEdgeTTS();
+  await tts.setMetadata(voice, OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
+  const { audioStream } = tts.toStream(text);
+  const chunks: Buffer[] = [];
+  await new Promise<void>((resolve, reject) => {
+    audioStream.on('data', (c: Buffer) => chunks.push(c));
+    audioStream.on('end', () => resolve());
+    audioStream.on('close', () => resolve());
+    audioStream.on('error', reject);
+    setTimeout(() => reject(new Error('edge-tts timeout')), 20000);
+  });
+  try { (tts as any).close?.(); } catch { /* ignore */ }
+  return Buffer.concat(chunks);
+}
 
 type ChatMessage = { role: 'system' | 'user' | 'assistant'; content: string };
 
@@ -195,14 +218,31 @@ router.post('/chat-stream', async (req, res) => {
   }
 });
 
-// ── TTS (Google Translate — free, no API key, supports Amharic) ──
+// ── TTS (Gemini neural, Amharic; google-translate fallback) ──
 router.post('/tts', async (req, res) => {
-  const { text, lang } = req.body || {};
+  const { text, lang, voice } = req.body || {};
   if (!text) {
     res.status(400).json({ success: false, error: 'Missing text' });
     return;
   }
+  const edgeVoice = (typeof voice === 'string' && EDGE_AMHARIC_VOICES.has(voice)) ? voice : EDGE_TTS_VOICE;
 
+  // Preferred: Microsoft Edge neural TTS — free, no key, natural Amharic voice.
+  try {
+    const mp3 = await edgeTTS(text, edgeVoice);
+    if (mp3.length > 0) {
+      res.setHeader('Content-Type', 'audio/mpeg');
+      res.setHeader('X-TTS-Provider', 'edge');
+      res.setHeader('Content-Length', mp3.length.toString());
+      res.send(mp3);
+      return;
+    }
+    console.warn('Edge TTS returned no audio; falling back to google-tts');
+  } catch (err: any) {
+    console.warn('Edge TTS failed, falling back to google-tts:', err?.message);
+  }
+
+  // Fallback: free Google Translate TTS (robotic, but always available).
   try {
     const results = await getAllAudioBase64(text, {
       lang: lang || 'am',
@@ -210,10 +250,9 @@ router.post('/tts', async (req, res) => {
       host: 'https://translate.google.com',
       splitPunct: '።፣፤',
     });
-    const buffers = results.map((r: any) => Buffer.from(r.base64, 'base64'));
-    const combined = Buffer.concat(buffers);
-
+    const combined = Buffer.concat(results.map((r: any) => Buffer.from(r.base64, 'base64')));
     res.setHeader('Content-Type', 'audio/mpeg');
+    res.setHeader('X-TTS-Provider', 'google');
     res.setHeader('Content-Length', combined.length.toString());
     res.send(combined);
   } catch (err: any) {
