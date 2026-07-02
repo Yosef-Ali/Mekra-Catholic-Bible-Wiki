@@ -1,9 +1,16 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { Volume2, Pause, Square, Copy, Check, Printer, Share2 } from 'lucide-react';
 import { View } from '../../types';
 import { Rubric, Meta, CrossMark } from '../ui/ManuscriptPrimitives';
 import { wikiApi, WikiPageListItem, WikiPage } from '../../services/apiClient';
+import {
+  generateAndPlayAudio,
+  pauseAudioPlayback,
+  resumeAudioPlayback,
+  stopAudioPlayback,
+} from '../../services/geminiService';
 
 interface DesktopArticleProps {
   setView: (view: View) => void;
@@ -17,6 +24,8 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
   const [page, setPage] = useState<WikiPage | null>(null);
   const [loading, setLoading] = useState(false);
   const [listLoading, setListLoading] = useState(true);
+  const [audio, setAudio] = useState<'idle' | 'active' | 'paused'>('idle');
+  const [copied, setCopied] = useState(false);
 
   // Fetch teaching list for sidebar
   useEffect(() => {
@@ -64,10 +73,103 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
       .trim();
   }, [page]);
 
+  // Plain, readable text (markdown stripped) for audio / copy / share.
+  const readableText = useMemo(() => {
+    if (!page) return '';
+    const title = [page.title_am, page.title_en].filter(Boolean).join(' — ');
+    const prose = cleanBody
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1') // [text](url) -> text
+      .replace(/[#>*`_]/g, '')                 // markdown syntax
+      .replace(/\n{2,}/g, '\n')
+      .trim();
+    return title ? `${title}\n\n${prose}` : prose;
+  }, [page, cleanBody]);
+
+  // ── Article audio: play in segments so playback starts fast ──
+  // (one big TTS call would synthesize the whole article before any sound;
+  //  chaining sentence-sized calls lets the first segment play in ~1s.)
+  const sessionRef = useRef(0);
+  const stoppedRef = useRef(false);
+
+  const segments = useMemo(
+    () =>
+      readableText
+        .split(/(?<=[።?!])\s+|\n+/) // Amharic full stop / sentence ends / newlines
+        .map((s) => s.trim())
+        .filter((s) => s.length > 1),
+    [readableText],
+  );
+
+  const speakSegment = useCallback(
+    async (i: number, session: number) => {
+      if (session !== sessionRef.current || stoppedRef.current || i >= segments.length) {
+        if (session === sessionRef.current) setAudio('idle');
+        return;
+      }
+      try {
+        await generateAndPlayAudio(segments[i]);
+        if (session === sessionRef.current && !stoppedRef.current) speakSegment(i + 1, session);
+      } catch (err: any) {
+        if (err?.name === 'AbortError') return; // stop pressed — do not advance
+        if (session === sessionRef.current && !stoppedRef.current) speakSegment(i + 1, session);
+      }
+    },
+    [segments],
+  );
+
+  // Stop playback when switching pages or unmounting.
+  useEffect(() => {
+    sessionRef.current++;
+    stoppedRef.current = true;
+    stopAudioPlayback();
+    setAudio('idle');
+    return () => { sessionRef.current++; stoppedRef.current = true; stopAudioPlayback(); };
+  }, [slug]);
+
+  const handleListen = () => {
+    if (audio === 'active') { pauseAudioPlayback(); setAudio('paused'); return; }
+    if (audio === 'paused') { resumeAudioPlayback(); setAudio('active'); return; }
+    if (!segments.length) return;
+    stoppedRef.current = false;
+    const session = ++sessionRef.current;
+    setAudio('active');
+    speakSegment(0, session);
+  };
+
+  const handleStopAudio = () => {
+    sessionRef.current++;
+    stoppedRef.current = true;
+    stopAudioPlayback();
+    setAudio('idle');
+  };
+
+  const flashCopied = () => { setCopied(true); setTimeout(() => setCopied(false), 1800); };
+
+  const handleCopy = async () => {
+    try { await navigator.clipboard.writeText(readableText); flashCopied(); } catch { /* ignore */ }
+  };
+
+  const handlePrint = () => window.print();
+
+  const handleShare = async () => {
+    const data = {
+      title: page?.title_en || page?.title_am || 'Mekra Catholic Wiki',
+      text: readableText.slice(0, 800),
+      url: window.location.href,
+    };
+    try {
+      if (navigator.share) await navigator.share(data);
+      else { await navigator.clipboard.writeText(`${data.title}\n${data.url}`); flashCopied(); }
+    } catch { /* user cancelled or unsupported */ }
+  };
+
+  const toolBtn =
+    'inline-flex items-center gap-1.5 px-3 py-1.5 border border-rule font-mono text-[10px] tracking-[0.08em] uppercase text-ink-mid hover:border-ink-soft hover:text-oxblood transition-colors';
+
   return (
-    <div className="grid h-full" style={{ gridTemplateColumns: '260px 1fr 320px' }}>
+    <div className="grid h-full print:block" style={{ gridTemplateColumns: '260px 1fr 320px' }}>
       {/* ── Left rail — Teaching list ── */}
-      <aside className="border-r border-rule px-6 py-7 overflow-y-auto">
+      <aside className="border-r border-rule px-6 py-7 overflow-y-auto print:hidden">
         <div
           onClick={() => setView(View.DEVOTION)}
           className="font-mono text-[10px] tracking-[0.14em] uppercase text-ink-soft mb-3 cursor-pointer hover:text-ink-mid transition-colors"
@@ -117,7 +219,7 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
       </aside>
 
       {/* ── Article body ── */}
-      <main className="px-[72px] py-12 overflow-y-auto relative">
+      <main className="px-[72px] py-12 overflow-y-auto relative print:overflow-visible print:px-0 print:py-0">
         {loading ? (
           <div className="space-y-4 animate-pulse">
             <div className="h-3 w-48 bg-rule/40 rounded" />
@@ -152,6 +254,28 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
               {page.frontmatter?.ccc && <Meta k="CCC" v={page.frontmatter.ccc} />}
               {page.sources && <Meta k="Sources" v={`${page.sources} verified`} />}
               {page.wiki_updated_at && <Meta k="Last updated" v={page.wiki_updated_at.split('T')[0]} />}
+            </div>
+
+            {/* Reading toolbar — listen (Amharic TTS), copy, print, share */}
+            <div className="mt-4 flex flex-wrap items-center gap-2 print:hidden">
+              <button onClick={handleListen} className={toolBtn} style={{ background: 'var(--cream)' }}>
+                {audio === 'active' ? <Pause size={13} /> : <Volume2 size={13} />}
+                {audio === 'active' ? 'Pause' : audio === 'paused' ? 'Resume' : 'Listen'}
+              </button>
+              {audio !== 'idle' && (
+                <button onClick={handleStopAudio} className={toolBtn} style={{ background: 'var(--cream)' }}>
+                  <Square size={12} /> Stop
+                </button>
+              )}
+              <button onClick={handleCopy} className={toolBtn} style={{ background: 'var(--cream)' }}>
+                {copied ? <Check size={13} /> : <Copy size={13} />} {copied ? 'Copied' : 'Copy'}
+              </button>
+              <button onClick={handlePrint} className={toolBtn} style={{ background: 'var(--cream)' }}>
+                <Printer size={13} /> Print
+              </button>
+              <button onClick={handleShare} className={toolBtn} style={{ background: 'var(--cream)' }}>
+                <Share2 size={13} /> Share
+              </button>
             </div>
 
             {/* Article content */}
@@ -220,7 +344,7 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
 
       {/* ── Right rail — bible refs + related ── */}
       <aside
-        className="border-l border-rule px-7 py-10 overflow-y-auto"
+        className="border-l border-rule px-7 py-10 overflow-y-auto print:hidden"
         style={{ background: 'var(--cream)' }}
       >
         {page && (
