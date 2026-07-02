@@ -23,6 +23,7 @@ interface DesktopHomeProps {
 export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage }) => {
   const [teachings, setTeachings] = useState<WikiPageListItem[]>([]);
   const [concepts, setConcepts] = useState<WikiPageListItem[]>([]);
+  const [liturgy, setLiturgy] = useState<WikiPageListItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [daily, setDaily] = useState<DailyMassContent | null>(null);
 
@@ -33,11 +34,13 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
     Promise.all([
       wikiApi.list('teaching').catch(() => []),
       wikiApi.list('concept').catch(() => []),
+      wikiApi.list('liturgical').catch(() => []),
       getDailyMassReadings(new Date()).catch(() => null),
-    ]).then(([t, c, d]) => {
+    ]).then(([t, c, lit, d]) => {
       if (cancelled) return;
       setTeachings(t);
       setConcepts(c);
+      setLiturgy(lit);
       setDaily(d);
       setLoading(false);
     });
@@ -191,6 +194,44 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
             </div>
           </>
         )}
+
+        {/* Liturgy — the Mass, prayers, feasts, and seasons of the Ethiopian
+            liturgical year. Surfaced from wiki/liturgical/. */}
+        {liturgy.length > 0 && (
+          <>
+            <div className="flex items-baseline justify-between mt-12 mb-1.5">
+              <h2 className="font-ethiopic font-medium text-[22px] m-0">
+                {'አምልኮና ጸሎት'} <span className="font-garamond text-ink-mid">· Liturgy</span>
+              </h2>
+              <div className="font-mono text-[10px] text-ink-soft uppercase tracking-[0.14em]">
+                {liturgy.length} pages
+              </div>
+            </div>
+            <div className="font-garamond text-[13px] italic text-ink-soft mb-3.5 max-w-[640px] leading-snug">
+              የቅዳሴ ስርዓት፣ ጸሎቶች፣ በዓላትና የቤተክርስቲያን ወቅቶች።
+              <span className="not-italic text-ink-soft/80"> — The Mass, prayers, feasts, and seasons of the Ethiopian liturgical year.</span>
+            </div>
+            <div className="grid grid-cols-3 border-t border-rule">
+              {liturgy.map((c, i) => (
+                <div
+                  key={c.slug}
+                  onClick={() => openWikiPage(c.slug)}
+                  className={`py-3.5 flex items-baseline gap-3.5 cursor-pointer hover:bg-parchment-dark transition-colors ${
+                    (i % 3) !== 2 ? 'border-r border-rule' : ''
+                  } border-b border-rule`}
+                  style={{ paddingLeft: (i % 3) === 0 ? 0 : 18, paddingRight: (i % 3) === 2 ? 0 : 18 }}
+                >
+                  <div className="flex-1 min-w-0">
+                    <div className="font-ethiopic text-[18px] leading-[1.2] text-ink truncate">{c.title_am || c.title_en || c.slug}</div>
+                    {c.title_en && (
+                      <div className="font-garamond text-[13px] italic text-ink-mid truncate">{c.title_en}</div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
       </main>
 
       {/* ── Right rail ── */}
@@ -224,6 +265,9 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
           </div>
           <div className="flex justify-between">
             <span>Concepts</span><span className="text-ink">{concepts.length}</span>
+          </div>
+          <div className="flex justify-between">
+            <span>Liturgy</span><span className="text-ink">{liturgy.length}</span>
           </div>
         </div>
       </aside>
