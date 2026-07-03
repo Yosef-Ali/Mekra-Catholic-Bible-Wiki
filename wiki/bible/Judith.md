@@ -1,11 +1,12 @@
-# Judith (መጽሐፈ ይሁዲት)
+# Judith (መጽሐፈ ዮዲት)
 
 **Type:** bible
-**Amharic:** መጽሐፈ ይሁዲት
+**Amharic:** መጽሐፈ ዮዲት
+**Variants:** መጽሐፈ ይሁዲት (common in other Amharic translations; the Emmaus print uses ዮዲት throughout — see [[qa/2026-07-03-judith-yodit-not-typo]])
 **Chapters:** 16
 **Section:** Apocrypha
 **Sources:** 2
-**Last updated:** 2026-05-06
+**Last updated:** 2026-07-03
 **Related:** [[figures/ማርያም]], [[concepts/እምነት]], [[concepts/ድል]]
 
 ## Overview

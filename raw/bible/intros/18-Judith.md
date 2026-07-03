@@ -1,9 +1,8 @@
-# መጽሐፈ ይሁዲት (Judith) — መግቢያ
+# መጽሐፈ ዮዲት (Judith) — መግቢያ
 
 **Type:** book-intro
 **Book:** Judith
-**Amharic:** መጽሐፈ ይሁዲት
-**Display title:** መጽሐፈ ዮዲት
+**Amharic:** መጽሐፈ ዮዲት
 **Source:** Emmaus PDF p. 259
 **Extracted:** 2026-07-03
 
