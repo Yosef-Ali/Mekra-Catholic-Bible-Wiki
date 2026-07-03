@@ -350,6 +350,29 @@ export interface WikiPage extends WikiPageListItem {
   synced_at: string;
 }
 
+// ---------- Daily Mass readings (both rites) ----------
+export interface DailyReading {
+  type: string; label: string; labelAm: string; citation: string;
+  book?: string; chapter?: number; verses?: string;
+}
+export interface RiteDaily {
+  liturgical: any;
+  celebration?: string | null;
+  readings: DailyReading[] | null;
+  source?: string;
+  verified?: boolean;
+}
+export interface DailyReadingsData { date: string; roman: RiteDaily; geez: RiteDaily }
+
+export const readingsApi = {
+  async get(date: string = 'today'): Promise<DailyReadingsData> {
+    const response = await fetch(`${API_BASE}/readings/${date}`);
+    const result: ApiResponse<DailyReadingsData> = await response.json();
+    if (!result.success || !result.data) throw new Error(result.error || 'Failed to fetch readings');
+    return result.data;
+  },
+};
+
 export const wikiApi = {
   async list(type?: string): Promise<WikiPageListItem[]> {
     const url = type

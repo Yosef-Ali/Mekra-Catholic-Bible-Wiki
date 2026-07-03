@@ -102,7 +102,7 @@ const AppContent: React.FC = () => {
   const renderDesktopView = () => {
     switch (currentView) {
       case View.DEVOTION:
-        return <DesktopHome setView={setView} openWikiPage={openWikiPage} />;
+        return <DesktopHome setView={setView} openWikiPage={openWikiPage} openBibleRef={openBibleRef} />;
       case View.WIKI:
         return <DesktopArticle setView={setView} slug={selectedWikiSlug} onSelectSlug={setSelectedWikiSlug} openBibleRef={openBibleRef} />;
       case View.CHAT:
@@ -120,7 +120,7 @@ const AppContent: React.FC = () => {
           </DesktopContentWrapper>
         );
       default:
-        return <DesktopHome setView={setView} />;
+        return <DesktopHome setView={setView} openWikiPage={openWikiPage} openBibleRef={openBibleRef} />;
     }
   };
 

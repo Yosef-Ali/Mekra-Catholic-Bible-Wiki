@@ -8,6 +8,14 @@ export enum View {
   CONTENT_EDITOR = 'content_editor', // The actual Bible Content Editor
 }
 
+export interface BookIntroduction {
+  display_title: string | null;   // e.g. የጌታችን የኢየሱስ ክርስቶስ ወንጌል · ቅዱስ ሉቃስ እንደ ጻፈው
+  introduction: string;           // መግቢያ prose from the printed Emmaus edition
+  outline_heading: string | null; // usually አጠቃላይ የመጽሐፉ ይዘት
+  outline: string[];              // outline entries with verse ranges
+  source_page: number | null;     // Emmaus PDF page
+}
+
 export interface BibleBook {
   id: number; // Database ID - required for API calls
   name: string; // English name for API ease
@@ -15,6 +23,7 @@ export interface BibleBook {
   chapters: number;
   section: 'OT' | 'NT' | 'Apocrypha';
   heroImage?: string;
+  introduction?: BookIntroduction | null;
 }
 
 export interface ChatMessage {

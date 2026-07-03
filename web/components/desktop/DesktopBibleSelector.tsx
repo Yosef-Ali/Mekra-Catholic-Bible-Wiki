@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
-import { Volume2, Pause, Square, Copy, Check, Printer, Share2 } from 'lucide-react';
+import { Volume2, Pause, Square, Copy, Check, Printer, Share2, ChevronDown } from 'lucide-react';
 import { View, BibleBook } from '../../types';
 import { Rubric, CrossMark } from '../ui/ManuscriptPrimitives';
 import { booksApi, chaptersApi } from '../../services/apiClient';
@@ -44,6 +44,8 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
   const [previewLoading, setPreviewLoading] = useState(false);
   const [copied, setCopied] = useState(false);
   const [audio, setAudio] = useState<'idle' | 'active' | 'paused'>('idle');
+  const [introOpen, setIntroOpen] = useState(false);
+  const [activeVerse, setActiveVerse] = useState<number>(-1); // verse being read (highlight)
 
   // Reader mode state
   const [readerMode, setReaderMode] = useState(false);
@@ -284,13 +286,21 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
     () => readerVerses.filter((v) => v.type === 'verse' && v.text).map((v) => v.text as string),
     [readerVerses],
   );
+  const verseNums = useMemo(
+    () => readerVerses.filter((v) => v.type === 'verse' && v.text).map((v) => v.number),
+    [readerVerses],
+  );
 
   const speakVerse = useCallback(
     async (i: number, session: number) => {
       if (session !== audioSessionRef.current || audioStoppedRef.current || i >= verseTexts.length) {
-        if (session === audioSessionRef.current) setAudio('idle');
+        if (session === audioSessionRef.current) { setAudio('idle'); setActiveVerse(-1); }
         return;
       }
+      // Highlight + scroll to the verse being read.
+      const num = verseNums[i] ?? -1;
+      setActiveVerse(num);
+      document.getElementById(`verse-${num}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
       try {
         await generateAndPlayAudio(verseTexts[i]);
         if (session === audioSessionRef.current && !audioStoppedRef.current) speakVerse(i + 1, session);
@@ -299,7 +309,7 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
         if (session === audioSessionRef.current && !audioStoppedRef.current) speakVerse(i + 1, session);
       }
     },
-    [verseTexts],
+    [verseTexts, verseNums],
   );
 
   // Stop audio when the chapter/book changes or when leaving reader mode.
@@ -308,6 +318,7 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
     audioStoppedRef.current = true;
     stopAudioPlayback();
     setAudio('idle');
+    setActiveVerse(-1);
     return () => { audioSessionRef.current++; audioStoppedRef.current = true; stopAudioPlayback(); };
   }, [selectedBook, selectedChapter, readerMode]);
 
@@ -326,6 +337,7 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
     audioStoppedRef.current = true;
     stopAudioPlayback();
     setAudio('idle');
+    setActiveVerse(-1);
   };
 
   // Dynamic verse count for the grid (based on actual chapter content)
@@ -368,7 +380,16 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
               if (pending) lines.push(pending);
 
               return (
-                <div key={verse.number} id={`verse-${verse.number}`} className="my-1.5">
+                <div
+                  key={verse.number}
+                  id={`verse-${verse.number}`}
+                  className="my-1.5"
+                  style={{
+                    background: verse.number === activeVerse ? 'rgba(124,45,45,0.12)' : undefined,
+                    borderRadius: 4,
+                    transition: 'background 0.25s',
+                  }}
+                >
                   {lines.map((line, lineIdx) => (
                     <p
                       key={lineIdx}
@@ -395,7 +416,17 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
       return (
         <p key={`p-${idx}`} className="font-ethiopic text-[19px] leading-[1.75] text-ink mb-5 text-justify">
           {verses.map((verse) => (
-            <span key={verse.number} id={`verse-${verse.number}`}>
+            <span
+              key={verse.number}
+              id={`verse-${verse.number}`}
+              style={{
+                background: verse.number === activeVerse ? 'rgba(124,45,45,0.12)' : undefined,
+                borderRadius: 3,
+                WebkitBoxDecorationBreak: 'clone',
+                boxDecorationBreak: 'clone',
+                transition: 'background 0.25s',
+              }}
+            >
               {verse.number > 0 && (
                 <sup className="text-oxblood font-mono text-[10px] font-semibold mr-1">{verse.number}</sup>
               )}
@@ -562,6 +593,62 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
               {'Next →'}
             </button>
           </div>
+
+          {/* Book introduction (መግቢያ) from the printed Emmaus edition — chapter 1 only */}
+          {selectedChapter === 1 && activeBookData?.introduction && (
+            <div className="mb-8 border border-rule print:hidden" style={{ background: 'var(--parchment)' }}>
+              <button
+                onClick={() => setIntroOpen(v => !v)}
+                className="w-full flex items-center justify-between gap-3 px-5 py-3 text-left"
+                aria-expanded={introOpen}
+              >
+                <span className="flex items-baseline gap-3">
+                  <span className="font-mono text-[10px] tracking-[0.18em] uppercase text-oxblood">መግቢያ</span>
+                  <span className="font-garamond text-[15px] text-ink-mid italic">Introduction — from the printed edition</span>
+                </span>
+                <ChevronDown size={15} className={`text-ink-soft transition-transform duration-200 ${introOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {introOpen && (
+                <div className="px-5 pb-5 border-t border-rule">
+                  {activeBookData.introduction.display_title && (
+                    <p className="font-ethiopic text-oxblood text-[17px] font-semibold mt-4 mb-3">
+                      {activeBookData.introduction.display_title}
+                    </p>
+                  )}
+                  <p className="font-ethiopic text-ink text-justify mt-3 mb-4 text-[15px]" style={{ lineHeight: 2 }}>
+                    {activeBookData.introduction.introduction}
+                  </p>
+                  {(activeBookData.introduction.outline?.length ?? 0) > 0 && (
+                    <>
+                      <p className="font-ethiopic text-ink text-[14px] font-semibold mb-2">
+                        {activeBookData.introduction.outline_heading || 'አጠቃላይ የመጽሐፉ ይዘት'}
+                      </p>
+                      <ul className="space-y-1.5">
+                        {activeBookData.introduction.outline.map((item, i) => {
+                          const m = item.match(/\((\d{1,3})\s*[፥:]/);
+                          const ch = m ? parseInt(m[1], 10) : null;
+                          const linked = ch !== null && ch >= 1 && ch <= totalChapters;
+                          return (
+                            <li
+                              key={i}
+                              onClick={() => { if (linked) goToChapter(ch!); }}
+                              className={`font-ethiopic text-[14px] flex gap-2 ${linked ? 'text-oxblood cursor-pointer hover:underline' : 'text-ink-mid'}`}
+                            >
+                              <span className="text-oxblood">•</span>
+                              <span>{item}</span>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </>
+                  )}
+                  <p className="font-mono text-[10px] tracking-[0.14em] uppercase text-ink-soft mt-4">
+                    ከኤማሁስ ኅትመት የተወሰደ
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Verses */}
           {readerLoading ? (

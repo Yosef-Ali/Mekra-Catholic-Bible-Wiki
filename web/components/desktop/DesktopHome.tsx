@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View } from '../../types';
 import { Ornament, Rubric, CrossMark } from '../ui/ManuscriptPrimitives';
-import { wikiApi, WikiPageListItem } from '../../services/apiClient';
-import { getDailyMassReadings } from '../../services/geminiService';
-import { DailyMassContent } from '../../types';
+import { wikiApi, WikiPageListItem, readingsApi, DailyReadingsData, DailyReading } from '../../services/apiClient';
 
 /* Compendium parts — static structure with first teaching slug for navigation */
 const PARTS = [
@@ -17,15 +15,17 @@ const PART_COLORS = ['var(--oxblood)', 'var(--ochre)', 'var(--teal, #2C4A52)', '
 
 interface DesktopHomeProps {
   setView: (view: View) => void;
-  openWikiPage: (slug: string) => void;
+  openWikiPage?: (slug: string) => void;
+  openBibleRef?: (ref: { book: string; chapter: number; verses?: string }) => void;
 }
 
-export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage }) => {
+export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage, openBibleRef }) => {
   const [teachings, setTeachings] = useState<WikiPageListItem[]>([]);
   const [concepts, setConcepts] = useState<WikiPageListItem[]>([]);
   const [liturgy, setLiturgy] = useState<WikiPageListItem[]>([]);
   const [loading, setLoading] = useState(true);
-  const [daily, setDaily] = useState<DailyMassContent | null>(null);
+  const [daily, setDaily] = useState<DailyReadingsData | null>(null);
+  const [rite, setRite] = useState<'roman' | 'geez'>('roman');
 
   useEffect(() => {
     let cancelled = false;
@@ -35,7 +35,7 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
       wikiApi.list('teaching').catch(() => []),
       wikiApi.list('concept').catch(() => []),
       wikiApi.list('liturgical').catch(() => []),
-      getDailyMassReadings(new Date()).catch(() => null),
+      readingsApi.get('today').catch(() => null),
     ]).then(([t, c, lit, d]) => {
       if (cancelled) return;
       setTeachings(t);
@@ -48,8 +48,11 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
     return () => { cancelled = true; };
   }, []);
 
-  const verse = daily?.readings?.[0];
-  const verseText = verse ? verse.text.split(/[።፡]/)[0] + '።' : '';
+  const active = daily ? daily[rite] : null;
+  const gospel = daily?.roman.readings?.find(r => r.type === 'gospel') ?? null;
+  const openReading = (r: DailyReading) => {
+    if (r.book && r.chapter && openBibleRef) openBibleRef({ book: r.book, chapter: r.chapter, verses: r.verses });
+  };
 
   return (
     <div className="grid h-full" style={{ gridTemplateColumns: '260px 1fr 300px' }}>
@@ -61,7 +64,7 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
         {PARTS.map((p, i) => (
           <div
             key={p.num}
-            onClick={() => openWikiPage(p.slug)}
+            onClick={() => openWikiPage?.(p.slug)}
             className={`flex items-baseline gap-3 py-2.5 cursor-pointer hover:bg-parchment-dark transition-colors ${i < 3 ? 'border-b border-dashed border-rule' : ''}`}
           >
             <span className="font-mono text-[10px] text-oxblood w-[22px]">{p.num}</span>
@@ -72,20 +75,69 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
           </div>
         ))}
 
-        {/* Liturgical week */}
+        {/* Daily Mass readings — both rites */}
         {daily && (
           <>
-            <div className="mt-9 font-sans text-[10px] tracking-[0.14em] uppercase text-ink-soft mb-3.5">
-              Today
+            <div className="mt-9 font-sans text-[10px] tracking-[0.14em] uppercase text-ink-soft mb-3">
+              የዕለቱ ንባባት · Daily Readings
+            </div>
+            {/* rite toggle */}
+            <div className="flex gap-1 mb-3">
+              {(['roman', 'geez'] as const).map(r => (
+                <button
+                  key={r}
+                  onClick={() => setRite(r)}
+                  className={`px-2.5 py-1 font-mono text-[10px] tracking-wide border transition-colors ${
+                    rite === r ? 'bg-oxblood text-parchment border-oxblood' : 'border-rule text-ink-mid hover:border-ink-soft'
+                  }`}
+                >
+                  {r === 'roman' ? 'ላቲን · Roman' : 'ግዕዝ · Geʽez'}
+                </button>
+              ))}
             </div>
             <div className="font-garamond text-sm leading-relaxed">
               <div className="flex gap-2.5 mb-2.5">
                 <div className="w-1 bg-oxblood rounded-sm" />
-                <div>
-                  <div className="font-ethiopic text-sm">{daily.liturgicalFeast}</div>
-                  <div className="font-mono text-[10px] text-ink-soft">{daily.date}</div>
+                <div className="min-w-0">
+                  {rite === 'roman' ? (
+                    <>
+                      <div className="font-ethiopic text-[13px]">{active?.liturgical?.celebration?.nameAm ?? active?.liturgical?.dayName}</div>
+                      <div className="font-mono text-[10px] text-ink-soft">
+                        {active?.liturgical?.dayName} · {active?.liturgical?.sundayCycle}/{active?.liturgical?.weekdayCycle}
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="font-ethiopic text-[13px]">{active?.liturgical?.ethDateAm}</div>
+                      <div className="font-ethiopic text-[11px] text-ink-soft">
+                        {[...(active?.liturgical?.feasts ?? []), active?.liturgical?.fasting].filter(Boolean).join(' · ') || '—'}
+                      </div>
+                    </>
+                  )}
                 </div>
               </div>
+              {/* readings list */}
+              {active?.readings ? (
+                <div className="space-y-1.5 mt-2">
+                  {active.readings.map((r, i) => (
+                    <div
+                      key={i}
+                      onClick={() => openReading(r)}
+                      className={`flex items-baseline gap-2 ${r.book && openBibleRef ? 'cursor-pointer group' : ''}`}
+                    >
+                      <span className="font-ethiopic text-[11px] text-ink-soft w-[76px] shrink-0">{r.labelAm}</span>
+                      <span className={`font-garamond text-[13px] ${r.book && openBibleRef ? 'text-oxblood group-hover:underline' : 'text-ink-mid'}`}>
+                        {r.citation}
+                      </span>
+                    </div>
+                  ))}
+                  {active.verified === false && (
+                    <div className="font-mono text-[9px] text-ochre mt-1.5">ያልተረጋገጠ · unverified — pending review</div>
+                  )}
+                </div>
+              ) : (
+                <div className="font-ethiopic text-[11px] text-ink-soft mt-2">ንባባት ገና አልገቡም — coming soon</div>
+              )}
             </div>
           </>
         )}
@@ -138,7 +190,7 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
             {teachings.slice(0, 9).map((t, i) => (
               <div
                 key={t.slug}
-                onClick={() => openWikiPage(t.slug)}
+                onClick={() => openWikiPage?.(t.slug)}
                 className="relative p-5 pb-4 border border-rule min-h-[156px] cursor-pointer hover:border-ink-soft transition-colors"
                 style={{ background: 'var(--cream)' }}
               >
@@ -179,7 +231,7 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
               {concepts.slice(0, 6).map((c, i) => (
                 <div
                   key={c.slug}
-                  onClick={() => openWikiPage(c.slug)}
+                  onClick={() => openWikiPage?.(c.slug)}
                   className={`py-3.5 flex items-baseline gap-3.5 cursor-pointer hover:bg-parchment-dark transition-colors ${
                     (i % 3) !== 2 ? 'border-r border-rule' : ''
                   } border-b border-rule`}
@@ -215,7 +267,7 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
               {liturgy.map((c, i) => (
                 <div
                   key={c.slug}
-                  onClick={() => openWikiPage(c.slug)}
+                  onClick={() => openWikiPage?.(c.slug)}
                   className={`py-3.5 flex items-baseline gap-3.5 cursor-pointer hover:bg-parchment-dark transition-colors ${
                     (i % 3) !== 2 ? 'border-r border-rule' : ''
                   } border-b border-rule`}
@@ -237,20 +289,28 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage 
       {/* ── Right rail ── */}
       <aside className="border-l border-rule px-7 py-8 overflow-y-auto" style={{ background: 'var(--cream)' }}>
         <div className="font-sans text-[10px] tracking-[0.14em] uppercase text-ink-soft mb-3.5">
-          Verse of the day
+          የዕለቱ ወንጌል · Gospel of the day
         </div>
-        {verse ? (
-          <>
-            <div className="font-ethiopic text-[19px] leading-[1.6] text-ink">
-              {verseText.length > 200 ? verseText.substring(0, 200) + '…' : verseText}
+        {gospel ? (
+          <div
+            onClick={() => openReading(gospel)}
+            className={gospel.book && openBibleRef ? 'cursor-pointer group' : ''}
+          >
+            <div className={`font-garamond text-[24px] leading-[1.35] ${gospel.book && openBibleRef ? 'text-oxblood group-hover:underline' : 'text-ink'}`}>
+              {gospel.citation}
             </div>
-            <div className="font-mono text-[10px] text-ink-soft uppercase tracking-[0.14em] mt-3.5">
-              {verse.reference}
+            <div className="font-ethiopic text-[13px] text-ink-mid mt-2">
+              {daily?.roman.celebration ?? daily?.roman.liturgical?.dayName}
             </div>
-          </>
+            {gospel.book && openBibleRef && (
+              <div className="font-mono text-[10px] text-ink-soft uppercase tracking-[0.14em] mt-3">
+                ንባቡን ለማንበብ ይጫኑ · tap to read →
+              </div>
+            )}
+          </div>
         ) : (
-          <div className="font-ethiopic text-[19px] leading-[1.6] text-ink-soft animate-pulse">
-            Loading…
+          <div className="font-ethiopic text-[15px] leading-[1.6] text-ink-soft">
+            {daily ? 'ንባባት ገና አልገቡም።' : 'Loading…'}
           </div>
         )}
 

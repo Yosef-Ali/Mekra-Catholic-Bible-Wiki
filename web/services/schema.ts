@@ -7,6 +7,10 @@ export const books = pgTable("books", {
   chapters: integer("chapters").notNull(),
   section: varchar("section", { length: 50 }).notNull(), // 'OT', 'NT', 'Apocrypha'
   heroImage: text("hero_image"), // URL or path to hero image
+  // printed book introduction from the Emmaus edition (መግቢያ + outline),
+  // loaded by scripts/load_book_intros.mjs in the app repo:
+  // { display_title, introduction, outline_heading, outline[], source_page }
+  introduction: jsonb("introduction"),
 });
 
 // New table to store actual chapter content extracted from PDFs

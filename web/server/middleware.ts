@@ -3,6 +3,7 @@ import { getAllBooks, getBookById, getBooksBySection, searchBooks } from './api/
 import { getChapterContent, getAvailableChapters, updateChapterContent, searchChapters } from './api/chapters';
 import { proofreadContent, extractTextFromImage, chatWithAI } from './api/ai';
 import { syncUser, getAllUsers, updateUserRole, isUserAdmin } from './api/users';
+import { getDailyReadings, upsertDailyReadings } from './api/readings';
 
 // Helper to parse request body
 async function parseBody(req: any): Promise<any> {
@@ -36,6 +37,22 @@ export function apiMiddleware(): Connect.NextHandleFunction {
     try {
       const url = new URL(req.url, `http://${req.headers.host}`);
       const pathname = url.pathname;
+
+      // Daily Mass readings (both rites)
+      if (pathname.startsWith('/api/readings/')) {
+        const dateStr = pathname.split('/')[3] ?? 'today';
+        if (req.method === 'GET') {
+          const result = await getDailyReadings(dateStr);
+          return res.end(JSON.stringify(result));
+        }
+        if (req.method === 'PUT') {
+          // express.json() (mounted ahead of this middleware in vite.config)
+          // already drains the stream for JSON requests — use its result
+          const body = (req as any).body ?? await parseBody(req);
+          const result = await upsertDailyReadings(dateStr, body);
+          return res.end(JSON.stringify(result));
+        }
+      }
 
       // Books routes
       if (pathname === '/api/books' && req.method === 'GET') {

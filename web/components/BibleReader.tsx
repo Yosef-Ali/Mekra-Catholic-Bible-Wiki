@@ -58,6 +58,7 @@ export const BibleReader: React.FC = () => {
   // Reader settings (typography + navigation helpers)
   const { settings } = useTypography();
   const [typographyOpen, setTypographyOpen] = useState(false);
+  const [introOpen, setIntroOpen] = useState(false);
   const [jumpOpen, setJumpOpen] = useState(false);
   const [jumpVerseValue, setJumpVerseValue] = useState('');
   const [jumpError, setJumpError] = useState('');
@@ -696,6 +697,62 @@ export const BibleReader: React.FC = () => {
                  </span>
               </div>
             </div>
+
+            {/* Book introduction (መግቢያ) from the printed Emmaus edition — chapter 1 only */}
+            {chapter === 1 && selectedBook?.introduction && (
+              <div className="max-w-3xl mx-auto mb-7" style={{ border: '1px solid var(--rule)', background: 'var(--cream)', borderRadius: '0.75rem' }}>
+                <button
+                  onClick={() => setIntroOpen(v => !v)}
+                  className="w-full flex items-center justify-between gap-3 px-5 py-3.5 text-left"
+                  aria-expanded={introOpen}
+                >
+                  <span className="flex items-center gap-3">
+                    <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-ochre">✦</span>
+                    <span className="font-ethiopic text-ink text-sm font-semibold">የመጽሐፉ መግቢያ</span>
+                  </span>
+                  <ChevronDown size={16} className={`text-ink-soft transition-transform duration-200 ${introOpen ? 'rotate-180' : ''}`} />
+                </button>
+                {introOpen && (
+                  <div className="px-5 pb-5" style={{ borderTop: '1px solid var(--rule)' }}>
+                    {selectedBook.introduction.display_title && (
+                      <p className="font-ethiopic text-oxblood text-base font-semibold mt-4 mb-3">
+                        {selectedBook.introduction.display_title}
+                      </p>
+                    )}
+                    <p className="font-ethiopic text-ink text-justify mt-3 mb-4" style={{ lineHeight: 1.9, fontSize: '0.95rem' }}>
+                      {selectedBook.introduction.introduction}
+                    </p>
+                    {(selectedBook.introduction.outline?.length ?? 0) > 0 && (
+                      <>
+                        <p className="font-ethiopic text-ink text-sm font-semibold mb-2">
+                          {selectedBook.introduction.outline_heading || 'አጠቃላይ የመጽሐፉ ይዘት'}
+                        </p>
+                        <ul className="space-y-1.5">
+                          {selectedBook.introduction.outline.map((item, i) => {
+                            const m = item.match(/\((\d{1,3})\s*[፥:]/);
+                            const ch = m ? parseInt(m[1], 10) : null;
+                            const linked = ch !== null && ch >= 1 && ch <= selectedBook.chapters;
+                            return (
+                              <li
+                                key={i}
+                                onClick={() => { if (linked) setChapter(ch!); }}
+                                className={`font-ethiopic text-sm flex gap-2 ${linked ? 'text-oxblood cursor-pointer hover:underline' : 'text-ink-soft'}`}
+                              >
+                                <span className="text-ochre">•</span>
+                                <span>{item}</span>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </>
+                    )}
+                    <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-ink-soft mt-4">
+                      ከኤማሁስ ኅትመት የተወሰደ
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
 
             {/* Poetry indicator badge */}
             {hasPoetry && (
