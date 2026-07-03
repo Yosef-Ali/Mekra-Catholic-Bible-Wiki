@@ -15,7 +15,7 @@ individually — paste one task section as the prompt.
 
 ---
 
-## Task 1 — Clickable outline items in the book-introduction cards (S, quick win)
+## ✅ DONE 2026-07-03 — Task 1 — Clickable outline items in the book-introduction cards (S, quick win)
 
 **Context:** All 73 books have printed introductions stored in `books.introduction`
 (JSONB: `{display_title, introduction, outline_heading, outline[], source_page}`).
@@ -114,7 +114,7 @@ and PDFs: `node scripts/convert_review_pdfs.mjs`.
 
 ---
 
-## Task 6 — Commit the accumulated work (S, do soon)
+## ✅ DONE 2026-07-03 — Task 6 — Commit the accumulated work (S, do soon)
 
 **Context:** Both repos have large uncommitted changes from the text-repair and
 feature sessions (see `git status`). Nothing has been committed on purpose —
@@ -144,7 +144,7 @@ present). Then `npm run sync` (wiki→DB sync for the app's wiki viewer).
 
 ---
 
-## Task 8 — Residual review-queue shrinkage: soft-hyphen taints (M, technical)
+## ✅ DONE 2026-07-03 — Task 8 — soft-hyphen taints (queue 10,704→8,387) (M, technical)
 
 **Context:** The word-fixer skipped PDF tokens containing soft hyphens (U+00AD)
 as "tainted" — e.g. `በእግዚአ­ ብሔር` (word split across lines). Many are trivially
@@ -161,7 +161,7 @@ regenerate review files + PDFs. Expect several hundred queue items to resolve.
 
 ---
 
-## Task 9 — Refresh app derived data after text changes (S, investigate first)
+## ✅ DONE 2026-07-03 (no derived stores exist) — Task 9 — Refresh app derived data after text changes (S, investigate first)
 
 **Context:** ~21,000 verses changed in `formatted_chapter_contents` during the
 repair. If the app maintains derived stores (search index, embeddings, cached TTS

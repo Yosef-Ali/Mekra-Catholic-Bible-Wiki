@@ -272,7 +272,8 @@ async function verifyBook(book, pb, nextStart, findings, stats) {
     WHERE book_id = ${book.id} ORDER BY chapter_number`;
   const texts = pdfTextForBook(pb, nextStart);
   const variants = ['raw', 'layout'].map(mode => {
-    const keepLines = s => s.replace(INVISIBLES, '').replace(/‑/g, '-').replace(/[ \t]+/g, ' ').trim();
+    // rejoin typesetter hyphenation (soft hyphen + break) before anything strips it
+    const keepLines = s => s.replace(/\u00AD\s*/g, '').replace(INVISIBLES, '').replace(/‑/g, '-').replace(/[ \t]+/g, ' ').trim();
     const main = keepLines(cleanPdfLines(texts[mode].main, book.amharic_name));
     const bdy = keepLines(cleanPdfLines(texts[mode].bdy, book.amharic_name));
     return splitChapters(bdy ? main + '\n' + bdy : main, book.chapters, main.length);
