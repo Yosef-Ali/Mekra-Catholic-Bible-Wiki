@@ -1,6 +1,7 @@
 # Seventh and Tenth Commandments: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/seventh-and-tenth-commandments]]
 **Amharic:** ሰባተኛይቱና አሥረኛይቱ ትእዛዛት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Compendium Q:** 503-509, 529-537 | **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ጽድቅ]], [[teaching/society-and-justice]]
 

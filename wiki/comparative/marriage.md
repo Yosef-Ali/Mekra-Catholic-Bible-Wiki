@@ -1,6 +1,7 @@
 # Marriage: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/marriage]] | **Compendium Q:** 336-350
 **Amharic:** ተክሊል፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ፍቅር]], [[teaching/sixth-and-ninth-commandments]]
 
@@ -14,7 +15,7 @@ that no valid marriage bond ever existed, not "Catholic divorce."
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
 በኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን ጋብቻ በታላቅ ክብር የሚከበር ምሥጢር ነው። የተክሊል (crowning)
-ሥርዓት በሁለቱም የኢትዮጵያ ወጎች -- ካቶሊክና ኦርቶዶክስ -- ማዕከላዊ ነው። ሁለት ዋና ልዩነቶች አሉ፦
+ሥርዓት በሁለቱም የኢትዮጵያ አብያተ ክርስቲያናት -- ካቶሊክና ኦርቶዶክስ -- ማዕከላዊ ነው። ሁለት ዋና ልዩነቶች አሉ፦
 
 አንደኛ፦ የኢትዮጵያ ቤተክርስቲያን በተወሰኑ ሁኔታዎች ፍቺንና ዳግም ጋብቻን ትፈቅዳለች -- በምንዝርና
 (adultery) ወይም መተው (abandonment)። ይህ የካቶሊክን ፍጹም አለመፈረስ (absolute indissolubility) አይቀበልም።

@@ -2,6 +2,7 @@
 
 **Type:** comparative
 **Amharic:** ቤተክርስቲያን፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Pairs with:** [[teaching/the-church]]
 **Compendium Q:** 147–193
 **Sources:** 3

@@ -12,6 +12,33 @@ import {
   stopAudioPlayback,
 } from '../../services/geminiService';
 
+// Find a DOM Range spanning `needle` inside `container`, tolerant of whitespace
+// differences between the audio text and the rendered markdown. Returns null if
+// not found (fail-safe: no highlight rather than a wrong one).
+function findTextRange(container: HTMLElement, needle: string): Range | null {
+  if (!needle) return null;
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+  const map: { node: Text; offset: number }[] = [];
+  let compact = '';
+  let node: Node | null;
+  while ((node = walker.nextNode())) {
+    const t = node.textContent || '';
+    for (let k = 0; k < t.length; k++) {
+      if (!/\s/.test(t[k])) { compact += t[k]; map.push({ node: node as Text, offset: k }); }
+    }
+  }
+  const nd = needle.replace(/\s+/g, '');
+  if (!nd) return null;
+  const idx = compact.indexOf(nd);
+  if (idx < 0 || idx + nd.length > map.length) return null;
+  const s = map[idx];
+  const e = map[idx + nd.length - 1];
+  const range = document.createRange();
+  range.setStart(s.node, s.offset);
+  range.setEnd(e.node, e.offset + 1);
+  return range;
+}
+
 interface DesktopArticleProps {
   setView: (view: View) => void;
   slug: string | null;
@@ -26,6 +53,8 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
   const [listLoading, setListLoading] = useState(true);
   const [audio, setAudio] = useState<'idle' | 'active' | 'paused'>('idle');
   const [copied, setCopied] = useState(false);
+  const [activeSeg, setActiveSeg] = useState(-1); // sentence being read (highlight)
+  const contentRef = useRef<HTMLDivElement>(null);
 
   // Fetch teaching list for sidebar
   useEffect(() => {
@@ -65,7 +94,7 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
     if (!page) return '';
     return page.body_md
       .replace(/^#\s+.+\n*/, '')
-      .replace(/^\*\*(?:Type|Amharic|English|Part|Role|Compendium Q|CCC|Sources|Last updated|Related):\*\*\s*.+$/gm, '')
+      .replace(/^\*\*(?:Type|Amharic|English|Part|Role|Compendium Q|CCC|Sources|Last updated|Related|Comparison source|Amharic source|Pairs with):\*\*\s*.+$/gm, '')
       .replace(/^\*\(.*?\)\*\s*$/gm, '')
       .replace(/<\/?p>/g, '')
       .replace(/\[\[([^\]]+)\]\]/g, (_m: string, p: string) => `[${p}](#wiki:${p})`)
@@ -103,9 +132,10 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
   const speakSegment = useCallback(
     async (i: number, session: number) => {
       if (session !== sessionRef.current || stoppedRef.current || i >= segments.length) {
-        if (session === sessionRef.current) setAudio('idle');
+        if (session === sessionRef.current) { setAudio('idle'); setActiveSeg(-1); }
         return;
       }
+      setActiveSeg(i);
       try {
         await generateAndPlayAudio(segments[i]);
         if (session === sessionRef.current && !stoppedRef.current) speakSegment(i + 1, session);
@@ -123,8 +153,26 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
     stoppedRef.current = true;
     stopAudioPlayback();
     setAudio('idle');
+    setActiveSeg(-1);
     return () => { sessionRef.current++; stoppedRef.current = true; stopAudioPlayback(); };
   }, [slug]);
+
+  // Read-along: highlight the sentence currently being spoken (CSS Custom
+  // Highlight API — no DOM mutation; silently no-ops if unsupported).
+  useEffect(() => {
+    const H: any = (window as any).Highlight;
+    const hls: any = (CSS as any)?.highlights;
+    if (!H || !hls) return;
+    if (activeSeg < 0 || !contentRef.current) { hls.delete('tts'); return; }
+    const range = findTextRange(contentRef.current, segments[activeSeg] || '');
+    if (range) {
+      hls.set('tts', new H(range));
+      (range.startContainer.parentElement as HTMLElement | null)
+        ?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    } else {
+      hls.delete('tts');
+    }
+  }, [activeSeg, segments]);
 
   const handleListen = () => {
     if (audio === 'active') { pauseAudioPlayback(); setAudio('paused'); return; }
@@ -168,6 +216,7 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
 
   return (
     <div className="grid h-full print:block" style={{ gridTemplateColumns: '260px 1fr 320px' }}>
+      <style>{`::highlight(tts){ background: rgba(124,45,45,0.15); color: var(--oxblood); }`}</style>
       {/* ── Left rail — Teaching list ── */}
       <aside className="border-r border-rule px-6 py-7 overflow-y-auto print:hidden">
         <div
@@ -247,6 +296,32 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
               </div>
             )}
 
+            {/* Comparative banner — clarifies this is a comparison page, not
+                primary catechesis. Catholic teaching leads; other traditions
+                follow only for context. */}
+            {page.page_type === 'comparative' && (
+              <div
+                className="mt-5 px-4 py-3 border-l-[3px] border-oxblood"
+                style={{ background: 'var(--cream)' }}
+              >
+                <div className="font-mono text-[9px] tracking-[0.16em] uppercase text-oxblood mb-1">
+                  <Rubric>ልዩነትና አንድነት · Comparison</Rubric>
+                </div>
+                <div className="font-ethiopic text-[14px] leading-[1.55] text-ink-mid">
+                  ይህ ገጽ የካቶሊክ ቤተክርስቲያን ትምህርት ከሌሎች አብያተ ክርስቲያናት ትምህርት ጋር ያለውን ልዩነትና አንድነት ያሳያል። የካቶሊክ ትምህርት ቀዳሚ ነው፤ የቀሩት አብያተ ክርስቲያናት ለማብራሪያ ብቻ ቀርበዋል።
+                </div>
+                <div className="font-garamond text-[12px] italic text-ink-soft mt-1">
+                  A comparison page — Catholic teaching is primary; other traditions appear for context only.
+                </div>
+                {page.frontmatter?.comparison_source?.toLowerCase().includes('ai-generated') && (
+                  <div className="font-mono text-[10px] text-ochre mt-2 flex items-center gap-1.5">
+                    <span className="inline-block w-1.5 h-1.5 rounded-full bg-ochre" />
+                    AI-generated · pending review — non-Catholic positions are not drawn from the Compendium.
+                  </div>
+                )}
+              </div>
+            )}
+
             {/* Metadata grid */}
             <div className="mt-5 py-4 border-t border-b border-rule grid grid-cols-2 gap-x-8 gap-y-1.5">
               {page.frontmatter?.part && <Meta k="Part" v={page.frontmatter.part} />}
@@ -279,7 +354,7 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
             </div>
 
             {/* Article content */}
-            <div className="mt-8 prose-wiki">
+            <div className="mt-8 prose-wiki" ref={contentRef}>
               {cleanBody ? (
                 <ReactMarkdown
                   remarkPlugins={[remarkGfm]}

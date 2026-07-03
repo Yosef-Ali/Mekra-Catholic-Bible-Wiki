@@ -1,6 +1,7 @@
 # Passion, Death, Resurrection: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/passion-death-resurrection]]
 **Amharic:** ሕማም ሞትና ትንሣኤ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Compendium Q:** 112-131 | **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ትንሣኤ]], [[concepts/ሥርየት]]
 

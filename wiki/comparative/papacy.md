@@ -1,6 +1,7 @@
 # Papacy: Catholic vs EOTC
 **Type:** comparative
 **Amharic:** ሊቀ ጳጳስነት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Sources:** 5
 **Last updated:** 2026-05-06
 **Related:** [[apologetics/pope-primacy]], [[teaching/the-church]]

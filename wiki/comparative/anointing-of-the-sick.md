@@ -2,6 +2,7 @@
 
 **Type:** comparative
 **Amharic:** የሕሙማን ቅባት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Pairs with:** [[teaching/anointing-of-the-sick]]
 **Compendium Q:** 313–320
 **Sources:** 3

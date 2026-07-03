@@ -1,6 +1,7 @@
 # Eucharist: Catholic vs EOTC
 **Type:** comparative
 **Amharic:** ቁርባን፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Sources:** 7
 **Last updated:** 2026-05-06
 **Related:** [[teaching/eucharist]], [[apologetics/eucharist-real-presence]]

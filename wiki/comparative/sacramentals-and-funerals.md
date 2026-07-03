@@ -1,6 +1,7 @@
 # Sacramentals and Funerals: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/sacramentals-and-funerals]] | **Compendium Q:** 351-357
 **Amharic:** ምሥጢራዊ ምልክቶችና ሥርዓተ ቀብር፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ጸሎት]], [[teaching/penance]]
 

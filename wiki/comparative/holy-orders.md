@@ -2,6 +2,7 @@
 
 **Type:** comparative
 **Amharic:** ክህነት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Pairs with:** [[teaching/holy-orders]]
 **Compendium Q:** 321–335
 **Sources:** 3

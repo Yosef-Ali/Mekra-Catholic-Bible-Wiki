@@ -1,6 +1,7 @@
 # Fifth Commandment: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/fifth-commandment]] | **Compendium Q:** 510–518
 **Amharic:** አምስተኛይቱ ትእዛዝ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[teaching/human-dignity]], [[concepts/ክብር]], [[concepts/ሕይወት]]
 

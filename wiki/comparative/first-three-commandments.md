@@ -2,6 +2,7 @@
 
 **Type:** comparative
 **Amharic:** ሦስቱ የመጀመሪያ ትእዛዛት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Pairs with:** [[teaching/first-three-commandments]]
 **Compendium Q:** 440-454
 **Sources:** 3

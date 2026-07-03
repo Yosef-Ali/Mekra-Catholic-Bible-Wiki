@@ -1,6 +1,7 @@
 # Gospel and Culture: Catholic vs EOTC
 **Type:** comparative
 **Amharic:** ወንጌልና ባህል፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Pairs with:** [[teaching/faith-and-revelation]]
 **Compendium Q:** 1-25
 **Sources:** 3

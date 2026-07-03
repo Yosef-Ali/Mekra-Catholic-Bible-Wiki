@@ -2,6 +2,7 @@
 
 **Type:** comparative
 **Amharic:** ሜሮን፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Pairs with:** [[teaching/confirmation]]
 **Compendium Q:** 265–270
 **Sources:** 3

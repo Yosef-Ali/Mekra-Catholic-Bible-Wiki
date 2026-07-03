@@ -2,6 +2,7 @@
 
 **Type:** comparative
 **Amharic:** ዕርገትና ፍርድ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Pairs with:** [[teaching/ascension-and-judgment]]
 **Compendium Q:** 132–135
 **Sources:** 3
@@ -12,7 +13,7 @@
 The Ascension is the definitive entrance of Christ's humanity into God's heavenly glory, forty days after the Resurrection (Acts 1:3). Christ sits at the right hand of the Father and intercedes for the Church as eternal High Priest (CCC 659–667). He will return in glory to judge the living and the dead. The Catholic understanding of judgment includes the particular judgment immediately after death and the general judgment at the Parousia, when all will be revealed (CCC 1021–1022, 1038–1041). See [[teaching/ascension-and-judgment]] (Q132–135).
 
 ## Ethiopian Orthodox Tewahedo (EOTC) position
-የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የዕርገትን በዓል ከትንሣኤ በኋላ በ40ኛው ቀን ታከብራለች። ክርስቶስ በሥጋው ወደ ሰማይ ማረጉ ከአብ ጋር ያለውን አንድነት የሚያረጋግጥ ነው። የመጨረሻው ፍርድ በኢትዮጵያ ኦርቶዶክስ ትውፊት ጉልህ ሥፍራ አለው — ክርስቶስ በክብር ሲመለስ ሕያዋንንና ሙታንን ይፈርዳል። የኢትዮጵያ ቤተክርስቲያን ስለ መንግሥተ ሰማያትና ስለ ገሃነም ያላት አስተምህሮ ከካቶሊክ አስተምህሮ ጋር በአብዛኛው ይጣጣማል፤ የመንጽሔ (purgatory) ጽንሰ-ሐሳብ ግን በግልጽ አልተቀመረም።
+የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የዕርገትን በዓል ከትንሣኤ በኋላ በ40ኛው ቀን ታከብራለች። ክርስቶስ በሥጋው ወደ ሰማይ ማረጉ ከአብ ጋር ያለውን አንድነት የሚያረጋግጥ ነው። የመጨረሻው ፍርድ በኢትዮጵያ ኦርቶዶክስ ትውፊት ጉልህ ሥፍራ አለው — ክርስቶስ በክብር ሲመለስ ሕያዋንንና ሙታንን ይፈርዳል። የኢትዮጵያ ቤተክርስቲያን ስለ መንግሥተ ሰማያትና ስለ ገሃነም ያላት አስተምህሮ ከካቶሊክ አስተምህሮ ጋር በአብዛኛው ይጣጣማል፤ የመንጽሔ (purgatory) ጽንሰ ሐሳብ ግን በግልጽ አልተቀመረም።
 
 ## Eastern Orthodox position
 The Orthodox share the Catholic doctrine of the Ascension as Christ's glorification and His heavenly intercession. On judgment, the Orthodox affirm particular and general judgment but are less dogmatic about purgatory — preferring the language of "aerial toll-houses" or purification after death as a mystery rather than a defined doctrine with temporal punishment.

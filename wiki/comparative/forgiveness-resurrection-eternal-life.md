@@ -1,6 +1,7 @@
 # Forgiveness, Resurrection, Eternal Life: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/forgiveness-resurrection-eternal-life]]
 **Amharic:** ይቅርታ ትንሣኤ ዘላለማዊ ሕይወት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Compendium Q:** 200-217 | **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ትንሣኤ]], [[concepts/ይቅርታ]]
 
@@ -16,7 +17,7 @@ resurrection of the body, and life everlasting.
 ## Ethiopian Orthodox Tewahedo (EOTC) position
 የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የኃጢአት ሥርየትን፣ ትንሣኤ ሙታንንና የዘላለም ሕይወትን በሃይማኖተ
 አበው በግልጽ ታስተምራለች። የተዘካር (Tezkar) ጸሎቶች ሙታን ከሞትና ከትንሣኤ መካከል ባለው ጊዜ ውስጥ
-እንደሚጸኑና የሕያዋን ጸሎት እንደሚጠቅማቸው ያሳያሉ -- ይህ በተዘዋዋሪ የመንጽሔ (purgatory) ጽንሰ-ሐሳብን
+እንደሚጸኑና የሕያዋን ጸሎት እንደሚጠቅማቸው ያሳያሉ -- ይህ በተዘዋዋሪ የመንጽሔ (purgatory) ጽንሰ ሐሳብን
 የሚቀበል ነው።
 
 ነገር ግን የኢትዮጵያ ቤተክርስቲያን የላቲን ቤተክርስቲያን የፑርጋቶሪን ሕጋዊ/ፍርዳዊ ቋንቋ (juridical

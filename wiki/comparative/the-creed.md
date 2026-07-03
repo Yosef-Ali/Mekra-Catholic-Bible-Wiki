@@ -2,6 +2,7 @@
 
 **Type:** comparative
 **Amharic:** የእምነት ምስክርነት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Pairs with:** [[teaching/the-creed]]
 **Compendium Q:** 26–35
 **Sources:** 3

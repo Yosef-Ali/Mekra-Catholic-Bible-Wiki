@@ -2,6 +2,7 @@
 
 **Type:** comparative
 **Amharic:** ኢየሱስ ክርስቶስ፡ ሥጋ መልበስ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Pairs with:** [[teaching/jesus-christ-incarnation]]
 **Compendium Q:** 73–97
 **Sources:** 3

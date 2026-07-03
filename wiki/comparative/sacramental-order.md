@@ -1,6 +1,7 @@
 # Sacramental Order: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/sacramental-order]] | **Compendium Q:** 218-251
 **Amharic:** የምሥጢራት ሥርዓት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[teaching/baptism]], [[teaching/eucharist]], [[concepts/ምሥጢር]]
 

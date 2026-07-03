@@ -2,6 +2,7 @@
 
 **Type:** comparative
 **Amharic:** መንፈስ ቅዱስ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Pairs with:** [[teaching/holy-spirit]]
 **Compendium Q:** 136–146
 **Sources:** 3

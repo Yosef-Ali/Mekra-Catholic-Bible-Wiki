@@ -1,6 +1,7 @@
 # Virtues: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/virtues]] | **Compendium Q:** 377-390
 **Amharic:** በጎ ምግባራት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/ጸጋ]], [[concepts/እምነት]]
 
@@ -21,7 +22,7 @@ their object and are the foundation of Christian moral life. Charity is the grea
 ሲሆን ይህ በኢትዮጵያ ወግ የሁሉም በጎነቶች ምሳሌ ነው።
 
 የመንፈስ ቅዱስ ስጦታዎች (gifts of the Holy Spirit) እና ፍሬዎቹ (fruits) በኢትዮጵያ አስተምህሮም ይታወቃሉ።
-ከካቶሊክ አስተምህሮ ጋር ትልቅ ልዩነት የለም -- የሁለቱም ወጎች በጎነት አስተምህሮ ከጥንታዊው የቤተክርስቲያን
+ከካቶሊክ አስተምህሮ ጋር ትልቅ ልዩነት የለም -- የሁለቱም አብያተ ክርስቲያናት በጎነት አስተምህሮ ከጥንታዊው የቤተክርስቲያን
 አባቶች ትውፊት የሚመነጭ ነው።
 
 ## Eastern Orthodox position

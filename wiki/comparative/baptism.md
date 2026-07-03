@@ -1,6 +1,7 @@
 # Baptism: Catholic vs EOTC
 **Type:** comparative
 **Amharic:** ጥምቀት፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Sources:** 6
 **Last updated:** 2026-05-06
 **Related:** [[teaching/baptism]]

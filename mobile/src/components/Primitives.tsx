@@ -44,7 +44,7 @@ export const ScreenHeader: React.FC<{
 }> = ({ title, titleAm, subtitle }) => (
   <View style={styles.header}>
     <Text style={styles.headerTitle}>
-      {title} <Text style={styles.headerTitleAm}>{'· ' + titleAm}</Text>
+      {titleAm} <Text style={styles.headerTitleEn}>{'· ' + title}</Text>
     </Text>
     <Text style={styles.headerSubtitle}>{subtitle}</Text>
   </View>
@@ -99,12 +99,12 @@ const styles = StyleSheet.create({
     borderBottomColor: colors.rule,
   },
   headerTitle: {
-    fontFamily: fonts.garamond,
+    fontFamily: fonts.ethiopicMedium,
     fontSize: 24,
     color: colors.ink,
   },
-  headerTitleAm: {
-    fontFamily: fonts.ethiopic,
+  headerTitleEn: {
+    fontFamily: fonts.garamond,
     fontSize: 18,
     color: colors.inkMid,
   },

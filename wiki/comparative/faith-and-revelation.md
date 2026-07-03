@@ -1,6 +1,7 @@
 # Faith and Revelation: Catholic vs EOTC
 **Type:** comparative | **Pairs with:** [[teaching/faith-and-revelation]] | **Compendium Q:** 1–25
 **Amharic:** እምነትና መገለጥ፦ ካቶሊክ እና ኦርቶዶክስ ተዋሕዶ
+**Comparison source:** AI-generated — non-Catholic positions not from the Compendium; pending review
 **Sources:** 3 | **Last updated:** 2026-05-06
 **Related:** [[concepts/እምነት]], [[teaching/the-creed]]
 

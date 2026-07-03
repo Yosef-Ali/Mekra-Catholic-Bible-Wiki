@@ -252,6 +252,13 @@ export default function ArticleScreen() {
   const fm = page?.frontmatter ?? (page?.body_md ? parseFrontmatterFromBody(page.body_md) : {});
   const body = page?.body_md ? getArticleBody(page.body_md) : '';
 
+  // Comparative pages get a banner framing Catholic teaching as primary.
+  // The DB normalizes the frontmatter key to `comparison_source`; the local
+  // fallback parser keeps the printed `Comparison source` — accept either.
+  const isComparative = page?.page_type === 'comparative';
+  const comparisonSource = (fm['comparison_source'] ?? fm['Comparison source'] ?? '').toLowerCase();
+  const isAiGenerated = comparisonSource.includes('ai-generated');
+
   // ── Audio state ──
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
@@ -373,6 +380,28 @@ export default function ArticleScreen() {
               </View>
             )}
           </View>
+
+          {/* Comparative banner — Catholic teaching is primary; other
+              traditions appear for context only. Mirrors web DesktopArticle. */}
+          {isComparative && (
+            <View style={s.cmpBanner}>
+              <Rubric>ልዩነትና አንድነት · Comparison</Rubric>
+              <Text style={s.cmpBannerAm}>
+                ይህ ገጽ የካቶሊክ ቤተክርስቲያን ትምህርት ከሌሎች አብያተ ክርስቲያናት ትምህርት ጋር ያለውን ልዩነትና አንድነት ያሳያል። የካቶሊክ ትምህርት ቀዳሚ ነው፤ የቀሩት አብያተ ክርስቲያናት ለማብራሪያ ብቻ ቀርበዋል።
+              </Text>
+              <Text style={s.cmpBannerEn}>
+                A comparison page — Catholic teaching is primary; other traditions appear for context only.
+              </Text>
+              {isAiGenerated && (
+                <View style={s.cmpAiRow}>
+                  <View style={s.cmpAiDot} />
+                  <Text style={s.cmpAiText}>
+                    AI-generated · pending review — non-Catholic positions are not drawn from the Compendium.
+                  </Text>
+                </View>
+              )}
+            </View>
+          )}
 
           {/* Metadata bar */}
           <View style={s.metaBlock}>
@@ -607,6 +636,52 @@ const s = StyleSheet.create({
     color: colors.oxblood,
     textTransform: 'uppercase',
     letterSpacing: 1,
+  },
+
+  // Comparative banner
+  cmpBanner: {
+    marginHorizontal: 24,
+    marginBottom: 12,
+    paddingLeft: 14,
+    paddingRight: 14,
+    paddingVertical: 12,
+    backgroundColor: colors.cream,
+    borderLeftWidth: 3,
+    borderLeftColor: colors.oxblood,
+  },
+  cmpBannerAm: {
+    fontFamily: fonts.ethiopic,
+    fontSize: 14,
+    lineHeight: 22,
+    color: colors.inkMid,
+    marginTop: 6,
+  },
+  cmpBannerEn: {
+    fontFamily: fonts.garamondItalic,
+    fontSize: 12,
+    lineHeight: 18,
+    color: colors.inkSoft,
+    fontStyle: 'italic',
+    marginTop: 4,
+  },
+  cmpAiRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginTop: 8,
+  },
+  cmpAiDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: colors.ochre,
+  },
+  cmpAiText: {
+    flex: 1,
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    lineHeight: 15,
+    color: colors.ochre,
   },
 
   // Meta
