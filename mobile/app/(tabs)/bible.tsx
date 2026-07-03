@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { ChevronLeft, Search } from 'lucide-react-native';
+import { ChevronDown, ChevronLeft, Search } from 'lucide-react-native';
 import {
   fetchBooks,
   fetchChapterContent,
@@ -42,6 +42,7 @@ export default function BibleScreen() {
 
   // Reader state
   const [readerChapter, setReaderChapter] = useState<number | null>(null);
+  const [introOpen, setIntroOpen] = useState(false);
   const [readerVerses, setReaderVerses] = useState<DisplayVerse[]>([]);
   const [readerLoading, setReaderLoading] = useState(false);
   const [highlight, setHighlight] = useState<Set<number>>(new Set());
@@ -63,6 +64,7 @@ export default function BibleScreen() {
     async (book: BibleBook, chapter: number, highlightVerses?: string) => {
       setSelectedBook(book);
       setReaderChapter(chapter);
+      setIntroOpen(false);
       setHighlight(parseVerseRange(highlightVerses));
       setReaderLoading(true);
       setReaderVerses([]);
@@ -119,6 +121,50 @@ export default function BibleScreen() {
               <Text style={styles.readerBookAm}>{selectedBook.amharicName}</Text>
               <Text style={styles.readerChapterNum}>{`Chapter ${readerChapter} · ${selectedBook.name}`}</Text>
             </View>
+            {/* Book introduction (መግቢያ) from the printed Emmaus edition — chapter 1 only */}
+            {readerChapter === 1 && selectedBook.introduction && (
+              <View style={styles.introCard}>
+                <TouchableOpacity style={styles.introToggle} onPress={() => setIntroOpen(v => !v)} hitSlop={8}>
+                  <Text style={styles.introLabel}>የመጽሐፉ መግቢያ</Text>
+                  <ChevronDown
+                    size={16}
+                    strokeWidth={1.6}
+                    color={colors.inkSoft}
+                    style={{ transform: [{ rotate: introOpen ? '180deg' : '0deg' }] }}
+                  />
+                </TouchableOpacity>
+                {introOpen && (
+                  <View style={styles.introBody}>
+                    {selectedBook.introduction.display_title ? (
+                      <Text style={styles.introDisplayTitle}>{selectedBook.introduction.display_title}</Text>
+                    ) : null}
+                    <Text style={styles.introProse}>{selectedBook.introduction.introduction}</Text>
+                    {(selectedBook.introduction.outline?.length ?? 0) > 0 && (
+                      <>
+                        <Text style={styles.introOutlineHead}>
+                          {selectedBook.introduction.outline_heading || 'አጠቃላይ የመጽሐፉ ይዘት'}
+                        </Text>
+                        {selectedBook.introduction.outline.map((item, i) => {
+                          const m = item.match(/\((\d{1,3})\s*[፥:]/);
+                          const ch = m ? parseInt(m[1], 10) : null;
+                          const linked = ch !== null && ch >= 1 && ch <= selectedBook.chapters;
+                          return (
+                            <TouchableOpacity
+                              key={i}
+                              disabled={!linked}
+                              onPress={() => { if (linked) openReader(selectedBook, ch!); }}
+                            >
+                              <Text style={[styles.introOutlineItem, linked && styles.introOutlineLink]}>{`• ${item}`}</Text>
+                            </TouchableOpacity>
+                          );
+                        })}
+                      </>
+                    )}
+                    <Text style={styles.introSource}>ከኤማሁስ ኅትመት የተወሰደ</Text>
+                  </View>
+                )}
+              </View>
+            )}
             <View style={styles.readerBody}>
               {readerVerses.map((v, idx) => {
                 if (v.type === 'header') {
@@ -186,7 +232,7 @@ export default function BibleScreen() {
               activeOpacity={0.7}
             >
               <Text style={[styles.tabText, activeTab === t.key && styles.tabTextActive]}>
-                {t.l} <Text style={styles.tabAm}>{'· ' + t.am}</Text>
+                {t.am} <Text style={styles.tabAm}>{'· ' + t.l}</Text>
               </Text>
             </TouchableOpacity>
           ))}
@@ -318,16 +364,16 @@ const styles = StyleSheet.create({
     borderBottomColor: colors.oxblood,
   },
   tabText: {
-    fontFamily: fonts.ui,
-    fontSize: 11,
+    fontFamily: fonts.ethiopic,
+    fontSize: 12,
     color: colors.inkSoft,
   },
   tabTextActive: {
     color: colors.ink,
-    fontWeight: '500',
   },
   tabAm: {
-    fontFamily: fonts.ethiopic,
+    fontFamily: fonts.ui,
+    fontSize: 11,
   },
   countRow: {
     paddingHorizontal: 22,
@@ -474,6 +520,72 @@ const styles = StyleSheet.create({
   readerBody: {
     paddingHorizontal: 24,
     paddingTop: 4,
+  },
+  introCard: {
+    marginHorizontal: 24,
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: colors.rule,
+    borderRadius: 12,
+    backgroundColor: colors.cream,
+  },
+  introToggle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+  },
+  introLabel: {
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 14,
+    color: colors.ink,
+  },
+  introBody: {
+    paddingHorizontal: 16,
+    paddingBottom: 16,
+    borderTopWidth: 1,
+    borderTopColor: colors.rule,
+  },
+  introDisplayTitle: {
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 15,
+    color: colors.oxblood,
+    marginTop: 12,
+    marginBottom: 6,
+  },
+  introProse: {
+    fontFamily: fonts.ethiopic,
+    fontSize: 14,
+    lineHeight: 26,
+    color: colors.ink,
+    marginTop: 8,
+    marginBottom: 10,
+    textAlign: 'justify',
+  },
+  introOutlineHead: {
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 13,
+    color: colors.ink,
+    marginBottom: 6,
+  },
+  introOutlineItem: {
+    fontFamily: fonts.ethiopic,
+    fontSize: 13,
+    lineHeight: 22,
+    color: colors.inkMid,
+    marginBottom: 3,
+  },
+  introOutlineLink: {
+    color: colors.oxblood,
+  },
+  introSource: {
+    fontFamily: fonts.mono,
+    fontSize: 9,
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    color: colors.inkSoft,
+    marginTop: 12,
   },
   verseSectionTitle: {
     fontFamily: fonts.garamondSemiBold,

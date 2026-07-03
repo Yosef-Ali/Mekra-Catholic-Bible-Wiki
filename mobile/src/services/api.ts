@@ -73,12 +73,21 @@ export interface ChapterContent {
   formattingRules: any | null;
 }
 
+export interface BookIntroduction {
+  display_title: string | null;   // e.g. የጌታችን የኢየሱስ ክርስቶስ ወንጌል · ቅዱስ ሉቃስ እንደ ጻፈው
+  introduction: string;           // መግቢያ prose from the printed Emmaus edition
+  outline_heading: string | null; // usually አጠቃላይ የመጽሐፉ ይዘት
+  outline: string[];              // outline entries with verse ranges
+  source_page: number | null;
+}
+
 export interface BibleBook {
   id: number;
   name: string;
   amharicName: string;
   chapters: number;
   section: 'OT' | 'NT' | 'Apocrypha';
+  introduction?: BookIntroduction | null;
 }
 
 export interface ApiResponse<T> {
@@ -145,6 +154,24 @@ export async function fetchBooks(): Promise<BibleBook[]> {
   return (await apiFetch<BibleBook[]>('/books')) ?? [];
 }
 
+// ---------- Daily Mass readings (both rites) ----------
+export interface DailyReading {
+  type: string; label: string; labelAm: string; citation: string;
+  book?: string; chapter?: number; verses?: string;
+}
+export interface RiteDaily {
+  liturgical: any;
+  celebration?: string | null;
+  readings: DailyReading[] | null;
+  source?: string;
+  verified?: boolean;
+}
+export interface DailyReadingsData { date: string; roman: RiteDaily; geez: RiteDaily }
+
+export async function fetchDailyReadings(): Promise<DailyReadingsData | null> {
+  return await apiFetch<DailyReadingsData>('/readings/today');
+}
+
 /** Fetch Bible books by section */
 export async function fetchBooksBySection(section: 'OT' | 'NT' | 'Apocrypha'): Promise<BibleBook[]> {
   return (await apiFetch<BibleBook[]>(`/books/section/${section}`)) ?? [];
@@ -154,6 +181,17 @@ export async function fetchBooksBySection(section: 'OT' | 'NT' | 'Apocrypha'): P
 export async function fetchConcepts(): Promise<WikiPage[]> {
   // DB page_type is singular ('concept'); the 'concepts' folder name won't match.
   return (await apiFetch<WikiPage[]>('/wiki?type=concept')) ?? [];
+}
+
+/**
+ * Fetch comparative pages (Catholic vs other traditions).
+ *
+ * These live in a deliberately separate, opt-in section so the main teaching
+ * layer stays purely Catholic. Returns [] on any failure so the Home screen
+ * can degrade gracefully when the section is empty or the backend is offline.
+ */
+export async function fetchComparatives(): Promise<WikiPage[]> {
+  return (await apiFetch<WikiPage[]>('/wiki?type=comparative')) ?? [];
 }
 
 /** Fetch a single chapter's verse content from the database. */

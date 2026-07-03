@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from 'react';
+import React, { useMemo, useState } from 'react';
 import {
   View,
   Text,
@@ -6,13 +6,11 @@ import {
   StyleSheet,
   TouchableOpacity,
   ActivityIndicator,
-  Platform,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { ChevronRight, Settings } from 'lucide-react-native';
-import Constants from 'expo-constants';
-import { fetchTeachings, WikiPage } from '../../src/services/api';
+import { fetchTeachings, fetchComparatives, fetchDailyReadings, WikiPage, DailyReadingsData, DailyReading } from '../../src/services/api';
 import { useApi } from '../../src/hooks/useApi';
 import { CrossMark, OrnamentDivider, Rubric, screenBase } from '../../src/components/Primitives';
 import { colors, fonts, layout } from '../../src/theme/colors';
@@ -40,23 +38,30 @@ export default function HomeScreen() {
   const weekday = useMemo(() => getWeekday(), []);
 
   const { data: teachings, loading, error } = useApi<WikiPage[]>(fetchTeachings);
+  const { data: comparatives } = useApi<WikiPage[]>(fetchComparatives);
+  const { data: daily } = useApi<DailyReadingsData | null>(fetchDailyReadings);
+  const [rite, setRite] = useState<'roman' | 'geez'>('roman');
 
   // Show first 6 teachings as featured cards
   const featured = useMemo(() => (teachings ?? []).slice(0, 6), [teachings]);
-
-  // Debug: show API connection status
-  const [debugInfo, setDebugInfo] = useState('');
-  useEffect(() => {
-    const hostUri = Constants.expoConfig?.hostUri ?? 'none';
-    const devHost = Platform.OS === 'web' ? 'localhost' : (hostUri.split(':')[0] || '192.168.1.3');
-    const apiBase = `http://${devHost}:5173/api`;
-    const status = loading ? 'loading...' : error ? `ERROR: ${error}` : `OK (${teachings?.length ?? 0} items)`;
-    setDebugInfo(`API: ${apiBase}\nStatus: ${status}\nhostUri: ${hostUri}`);
-  }, [loading, error, teachings]);
+  const comparativeList = useMemo(() => comparatives ?? [], [comparatives]);
 
   const openArticle = (slug: string) => {
     router.push({ pathname: '/article/[slug]', params: { slug, type: 'teaching' } });
   };
+
+  const openComparative = (slug: string) => {
+    router.push({ pathname: '/article/[slug]', params: { slug, type: 'comparative' } });
+  };
+
+  const openReading = (r: DailyReading) => {
+    if (!r.book || !r.chapter) return;
+    router.push({
+      pathname: '/bible',
+      params: { book: r.book, chapter: String(r.chapter), ...(r.verses ? { verses: r.verses } : {}) },
+    });
+  };
+  const activeRite = daily ? daily[rite] : null;
 
   return (
     <ScrollView
@@ -79,22 +84,14 @@ export default function HomeScreen() {
         </TouchableOpacity>
       </View>
 
-      {/* Greeting */}
+      {/* Greeting — Amharic-first */}
       <View style={styles.greeting}>
         <Rubric>{'Eastertide · ' + weekday}</Rubric>
-        <Text style={styles.greetingTitle}>
-          {greeting},{'\n'}
-          <Text style={styles.greetingName}>Friend</Text>.
+        <Text style={styles.greetingTitleAm}>{'ሰላም ለአንተ ይሁን።'}</Text>
+        <Text style={styles.greetingEn}>
+          {greeting}, <Text style={styles.greetingName}>Friend</Text>.
         </Text>
-        <Text style={styles.greetingAmharic}>{'ሰላም ለአንተ ይሁን።'}</Text>
       </View>
-
-      {/* Debug banner — remove once data works */}
-      {__DEV__ && (
-        <View style={styles.debugBanner}>
-          <Text style={styles.debugText}>{debugInfo}</Text>
-        </View>
-      )}
 
       {/* Verse of the Day */}
       <View style={styles.verseCard}>
@@ -108,6 +105,57 @@ export default function HomeScreen() {
           "From his fullness we have all received, grace upon grace."
         </Text>
       </View>
+
+      {/* Daily Mass readings — both rites */}
+      {daily && (
+        <View style={styles.dailyCard}>
+          <View style={styles.dailyHeader}>
+            <Text style={styles.dailyTitle}>የዕለቱ ንባባት</Text>
+            <View style={styles.riteToggle}>
+              {(['roman', 'geez'] as const).map(r => (
+                <TouchableOpacity
+                  key={r}
+                  onPress={() => setRite(r)}
+                  style={[styles.riteBtn, rite === r && styles.riteBtnActive]}
+                >
+                  <Text style={[styles.riteBtnText, rite === r && styles.riteBtnTextActive]}>
+                    {r === 'roman' ? 'ላቲን' : 'ግዕዝ'}
+                  </Text>
+                </TouchableOpacity>
+              ))}
+            </View>
+          </View>
+          {rite === 'roman' ? (
+            <Text style={styles.dailyContext}>
+              {activeRite?.liturgical?.celebration?.nameAm ?? activeRite?.liturgical?.dayName ?? ''}
+            </Text>
+          ) : (
+            <Text style={styles.dailyContext}>
+              {[activeRite?.liturgical?.ethDateAm, activeRite?.liturgical?.fasting].filter(Boolean).join(' · ')}
+            </Text>
+          )}
+          {activeRite?.readings ? (
+            <>
+              {activeRite.readings.map((r, i) => (
+                <TouchableOpacity
+                  key={i}
+                  style={styles.dailyRow}
+                  onPress={() => openReading(r)}
+                  disabled={!r.book}
+                >
+                  <Text style={styles.dailyRowLabel}>{r.labelAm}</Text>
+                  <Text style={[styles.dailyRowCitation, r.book && styles.dailyRowLink]}>{r.citation}</Text>
+                </TouchableOpacity>
+              ))}
+              {activeRite.verified === false && (
+                <Text style={styles.dailyUnverified}>ያልተረጋገጠ · unverified</Text>
+              )}
+            </>
+          ) : (
+            <Text style={styles.dailyEmpty}>ንባባት ገና አልገቡም።</Text>
+          )}
+        </View>
+      )}
 
       {/* Continue Reading */}
       {featured.length > 0 && (
@@ -127,10 +175,10 @@ export default function HomeScreen() {
             </View>
             <View style={screenBase.flex1}>
               <Text style={styles.continueTitle}>
-                {featured[0].title_en ?? featured[0].slug}
+                {featured[0].title_am ?? featured[0].title_en ?? featured[0].slug}
               </Text>
               <Text style={styles.continueSub}>
-                {featured[0].title_am ?? ''}
+                {featured[0].title_en ?? ''}
                 {featured[0].compendium_q ? ` · Q ${featured[0].compendium_q}` : ''}
               </Text>
             </View>
@@ -142,8 +190,8 @@ export default function HomeScreen() {
       {/* Teaching Section */}
       <View style={styles.teachingHeader}>
         <Text style={styles.teachingTitle}>
-          Teaching{' '}
-          <Text style={styles.teachingTitleAm}>{'· ትምህርት'}</Text>
+          {'ትምህርት'}{' '}
+          <Text style={styles.teachingTitleEn}>· Teaching</Text>
         </Text>
         <TouchableOpacity onPress={() => router.push('/(tabs)/teaching')}>
           <Text style={styles.allLink}>
@@ -174,10 +222,10 @@ export default function HomeScreen() {
                 <Text style={styles.teachingPart}>Q {t.compendium_q}</Text>
               )}
               <Text style={styles.teachingName} numberOfLines={2}>
-                {t.title_en ?? t.slug}
+                {t.title_am ?? t.title_en ?? t.slug}
               </Text>
               <Text style={styles.teachingAm} numberOfLines={1}>
-                {t.title_am ?? ''}
+                {t.title_en ?? ''}
               </Text>
               {t.sources && (
                 <Text style={styles.teachingQ}>{t.sources} sources</Text>
@@ -187,27 +235,51 @@ export default function HomeScreen() {
         </ScrollView>
       )}
 
+      {/* Comparisons — dedicated, opt-in section. Kept separate from the main
+          teaching so Catholic doctrine is never diluted by other traditions. */}
+      {comparativeList.length > 0 && (
+        <View style={styles.cmpSection}>
+          <View style={styles.cmpHeader}>
+            <Text style={styles.cmpTitle}>
+              {'ልዩነትና አንድነት'}{' '}
+              <Text style={styles.cmpTitleEn}>· Comparisons</Text>
+            </Text>
+            <Text style={styles.cmpCount}>{comparativeList.length} pages</Text>
+          </View>
+          <Text style={styles.cmpNote}>
+            የካቶሊክ ቤተክርስቲያን ትምህርት ከኢትዮጵያ ኦርቶዶክስ ተዋሕዶ፣ ከምሥራቅ ኦርቶዶክስና ከፕሮቴስታንት አብያተ ክርስቲያናት ትምህርት ጋር ያለውን ልዩነትና አንድነት የሚያሳዩ ገጾች።
+          </Text>
+          <Text style={styles.cmpNoteEn}>
+            A separate reference layer — the main teaching above remains purely Catholic.
+          </Text>
+          {comparativeList.map((c) => (
+            <TouchableOpacity
+              key={c.slug}
+              style={styles.cmpRow}
+              activeOpacity={0.7}
+              onPress={() => openComparative(c.slug)}
+            >
+              <View style={styles.cmpAccent} />
+              <View style={screenBase.flex1}>
+                <Text style={styles.cmpRowAm} numberOfLines={1}>
+                  {c.title_am ?? c.title_en ?? c.slug}
+                </Text>
+                {c.title_en && (
+                  <Text style={styles.cmpRowEn} numberOfLines={1}>{c.title_en}</Text>
+                )}
+              </View>
+              <ChevronRight size={14} color={colors.inkSoft} />
+            </TouchableOpacity>
+          ))}
+        </View>
+      )}
+
       <OrnamentDivider w={140} py={16} />
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  debugBanner: {
-    marginHorizontal: 20,
-    marginBottom: 8,
-    padding: 10,
-    backgroundColor: '#FFF3CD',
-    borderWidth: 1,
-    borderColor: '#FFCC02',
-    borderRadius: 6,
-  },
-  debugText: {
-    fontFamily: 'JetBrainsMono_400Regular',
-    fontSize: 9,
-    color: '#333',
-    lineHeight: 14,
-  },
   header: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -238,23 +310,24 @@ const styles = StyleSheet.create({
     paddingTop: 12,
     paddingBottom: 16,
   },
-  greetingTitle: {
-    fontFamily: fonts.garamond,
-    fontSize: 32,
-    lineHeight: 34,
+  greetingTitleAm: {
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 30,
+    lineHeight: 40,
     color: colors.ink,
     marginTop: 6,
+  },
+  greetingEn: {
+    fontFamily: fonts.garamond,
+    fontSize: 20,
+    lineHeight: 26,
+    color: colors.inkMid,
+    marginTop: 2,
   },
   greetingName: {
     fontFamily: fonts.garamondItalic,
     color: colors.oxblood,
     fontStyle: 'italic',
-  },
-  greetingAmharic: {
-    fontFamily: fonts.ethiopic,
-    fontSize: 17,
-    color: colors.inkMid,
-    marginTop: 4,
   },
   verseCard: {
     marginHorizontal: 20,
@@ -263,6 +336,73 @@ const styles = StyleSheet.create({
     backgroundColor: colors.cream,
     borderWidth: 1,
     borderColor: colors.rule,
+  },
+  dailyCard: {
+    marginHorizontal: 20,
+    marginBottom: 16,
+    padding: 18,
+    backgroundColor: colors.cream,
+    borderWidth: 1,
+    borderColor: colors.rule,
+  },
+  dailyHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: 8,
+  },
+  dailyTitle: {
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 15,
+    color: colors.ink,
+  },
+  riteToggle: { flexDirection: 'row', gap: 6 },
+  riteBtn: {
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderWidth: 1,
+    borderColor: colors.rule,
+    borderRadius: 6,
+  },
+  riteBtnActive: { backgroundColor: colors.oxblood, borderColor: colors.oxblood },
+  riteBtnText: { fontFamily: fonts.ethiopic, fontSize: 11, color: colors.inkMid },
+  riteBtnTextActive: { color: colors.parchment },
+  dailyContext: {
+    fontFamily: fonts.ethiopic,
+    fontSize: 12,
+    color: colors.inkSoft,
+    marginBottom: 10,
+  },
+  dailyRow: {
+    flexDirection: 'row',
+    alignItems: 'baseline',
+    gap: 8,
+    paddingVertical: 4,
+  },
+  dailyRowLabel: {
+    fontFamily: fonts.ethiopic,
+    fontSize: 11,
+    color: colors.inkSoft,
+    width: 92,
+  },
+  dailyRowCitation: {
+    fontFamily: fonts.garamond,
+    fontSize: 14,
+    color: colors.inkMid,
+    flex: 1,
+  },
+  dailyRowLink: { color: colors.oxblood },
+  dailyUnverified: {
+    fontFamily: fonts.mono,
+    fontSize: 9,
+    letterSpacing: 1,
+    color: colors.ochre,
+    marginTop: 8,
+  },
+  dailyEmpty: {
+    fontFamily: fonts.ethiopic,
+    fontSize: 12,
+    color: colors.inkSoft,
   },
   verseAccent: {
     position: 'absolute',
@@ -331,14 +471,15 @@ const styles = StyleSheet.create({
     color: colors.ink,
   },
   continueTitle: {
-    fontFamily: fonts.garamond,
-    fontSize: 19,
-    lineHeight: 21,
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 18,
+    lineHeight: 24,
     color: colors.ink,
   },
   continueSub: {
-    fontFamily: fonts.ethiopic,
+    fontFamily: fonts.garamondItalic,
     fontSize: 14,
+    fontStyle: 'italic',
     color: colors.inkMid,
     marginTop: 2,
   },
@@ -351,12 +492,12 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   teachingTitle: {
-    fontFamily: fonts.garamond,
+    fontFamily: fonts.ethiopicMedium,
     fontSize: 22,
     color: colors.ink,
   },
-  teachingTitleAm: {
-    fontFamily: fonts.ethiopic,
+  teachingTitleEn: {
+    fontFamily: fonts.garamond,
     fontSize: 18,
     color: colors.inkMid,
   },
@@ -393,15 +534,16 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
   },
   teachingName: {
-    fontFamily: fonts.garamond,
-    fontSize: 20,
-    lineHeight: 22,
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 18,
+    lineHeight: 24,
     color: colors.ink,
     marginTop: 6,
   },
   teachingAm: {
-    fontFamily: fonts.ethiopic,
-    fontSize: 15,
+    fontFamily: fonts.garamondItalic,
+    fontSize: 14,
+    fontStyle: 'italic',
     color: colors.inkMid,
     marginTop: 2,
   },
@@ -411,5 +553,74 @@ const styles = StyleSheet.create({
     color: colors.inkSoft,
     letterSpacing: 0.9,
     marginTop: 14,
+  },
+
+  // Comparisons section
+  cmpSection: {
+    paddingHorizontal: 24,
+    paddingTop: 28,
+  },
+  cmpHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'baseline',
+    marginBottom: 6,
+  },
+  cmpTitle: {
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 22,
+    color: colors.ink,
+  },
+  cmpTitleEn: {
+    fontFamily: fonts.garamond,
+    fontSize: 18,
+    color: colors.inkMid,
+  },
+  cmpCount: {
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    color: colors.inkSoft,
+    textTransform: 'uppercase',
+    letterSpacing: 1,
+  },
+  cmpNote: {
+    fontFamily: fonts.ethiopic,
+    fontSize: 13,
+    lineHeight: 21,
+    color: colors.inkMid,
+  },
+  cmpNoteEn: {
+    fontFamily: fonts.garamondItalic,
+    fontSize: 12,
+    lineHeight: 18,
+    fontStyle: 'italic',
+    color: colors.inkSoft,
+    marginTop: 2,
+    marginBottom: 6,
+  },
+  cmpRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    paddingVertical: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.rule,
+  },
+  cmpAccent: {
+    width: 3,
+    height: 28,
+    backgroundColor: colors.oxblood,
+  },
+  cmpRowAm: {
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 16,
+    color: colors.ink,
+  },
+  cmpRowEn: {
+    fontFamily: fonts.garamondItalic,
+    fontSize: 13,
+    fontStyle: 'italic',
+    color: colors.inkMid,
+    marginTop: 1,
   },
 });
