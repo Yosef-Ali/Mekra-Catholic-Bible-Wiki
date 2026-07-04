@@ -55,7 +55,7 @@ Follow the existing design tokens (parchment/cream/rule/oxblood, font-garamond/e
 
 ---
 
-## Task 3 — Import a full Roman-rite lectionary dataset (L, highest value)
+## ✅ DONE 2026-07-04 — Task 3 — Roman lectionary imported (730 days, 2026–2027, cpbjr/catholic-readings-api MIT)
 
 **Context:** Only Jul 3–5 2026 are seeded; other days depend on an AI fallback
 (needs GEMINI_API_KEY in web/.env, stores unverified). A complete lectionary
