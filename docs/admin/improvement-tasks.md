@@ -76,17 +76,45 @@ readings (or at least the Day Mass: Is 52:7-10 / Heb 1:1-6 / Jn 1:1-18).
 
 ---
 
-## Task 4 — Geʽez-rite readings (ግጻዌ) ingestion (M, needs user's source)
+## 🟡 IN PROGRESS, PAUSED 2026-07-04 — Task 4 — Geʽez-rite readings (ግጻዌ) ingestion (M)
 
 **Context:** The Geʽez tab shows computed Ethiopian calendar context (date, feasts,
-fasts — engine verified) but no readings. The Ethiopian lectionary (መጽሐፈ ግጻዌ)
-exists in print/PDF; the USER must supply a source file (ask before starting).
+fasts — engine verified) but no readings. A source was found and fetched:
+«መጽሐፈ ግጻዌ ከነምልክቱ በጣዖመ ዜማ ዘደብር ዓባይ» (Debre Abay edition, myorthodoxbooks.org),
+archived at `raw/liturgical/gitsawe/source/metshafe-gitsawe.pdf`. It is a **scanned,
+copy-protected PDF with no digital text layer** — extraction requires reading page
+images visually, not `pdftotext`.
 
-**Do:** When a source lands in `raw/liturgical/` (wiki), write an extractor
-(pattern: follow `scripts/extract_liturgical.py` and `scripts/extract_book_intros.mjs`)
-producing day→readings mappings, then a loader into `daily_readings` rite='geez'.
-Ethiopian dates map to Gregorian via `toEthiopian()` in `web/server/liturgical.ts`.
-Amharic book names → English via the `books` table (`amharic_name` column).
+**Progress so far** (full detail in `raw/liturgical/gitsawe/README.md`):
+- Confirmed the book's own 3-part structure and the daily reading formula (Matins
+  psalm → 4-reading pre-Liturgy block + 2nd psalm → 1 rotating Liturgy Gospel),
+  consistent across every day examined.
+- Transcribed the complete book-name abbreviation legend (page 4 of the source).
+- **Meskerem days 1–7 fully transcribed and calendar-anchored** (two independent
+  confirmations: Day 1 = New Year, Day 7 = a distinctive commemoration text read
+  identically twice). Some individual abbreviation cells within these 7 days carry
+  `(?)` low-confidence flags — worth a fluent reader's spot-check.
+- **Paused at Day 8**: the red day-of-month headers are in the same decorative
+  Ge'ez numeral typeface that blocked chapter/verse extraction — illegible with
+  confidence even at 500 DPI targeted crops. Sequential block-counting past Day 7
+  cannot be independently verified, and one cross-check (a block mentioning ሚካኤል,
+  whose monthly feast falls on a fixed day) suggested a possible drift. User decided
+  (2026-07-04) to stop rather than publish unverified day numbers.
+- Chapter/verse numbers were never attempted at all (same numeral problem, worse —
+  smaller glyphs); one content-based guess at a verse was caught wrong on
+  re-examination and discarded rather than reported.
+
+**Do (when resuming):** Get a fluent reader to confirm day-of-month numbering for
+printed pages 14–20 of the source (`raw/liturgical/gitsawe/source/pages/f010-016.png`
+— page images already rendered, no PDF tools needed) using printed pages 9–13 as a
+calibration check (those correspond to the already-confirmed Days 1–7). Once day
+numbers are confirmed, continue the same transcription method through Meskerem
+30, then the other 12 months. Only after day-numbering AND the (?)-flagged
+abbreviation cells are confirmed should any of this be loaded into `daily_readings`
+rite='geez' — do not load unverified data into the app DB.
+Loader pattern (once data is trustworthy): follow `scripts/extract_book_intros.mjs`'s
+structure; Ethiopian dates map to Gregorian via `toEthiopian()` in
+`web/server/liturgical.ts`; Amharic book names → English via the `books` table.
 
 **Verify:** Geʽez tab on the home page shows readings with working deep links.
 

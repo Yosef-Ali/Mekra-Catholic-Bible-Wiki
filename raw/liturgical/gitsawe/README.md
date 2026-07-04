@@ -7,7 +7,9 @@ copy-protected, no digital text layer — every page had to be read visually, pa
 page image; `pdftotext` returns only a fragmented watermark on every page).
 
 **Status:** structure-only pilot for መስከረም (PDF pages 5–16 = printed pages 9–20).
-No chapter/verse numbers are recorded — see "Why no verse numbers" below.
+**Days 1–7 confirmed and usable; paused at Day 8 pending a fluent reader's
+confirmation of day-of-month numbering** (see "PAUSED at Day 8" below).
+No chapter/verse numbers are recorded anywhere — see "Why no verse numbers" below.
 
 ## The book's own structure (from its preface, pages 2–3)
 
@@ -87,8 +89,13 @@ crop once re-examined carefully — exactly the kind of error this whole project
 built to avoid. Getting exact verse ranges out of this source needs either a cleaner
 scan or a reader fluent in this book's numeral notation.
 
-## Day-by-day book assignments — Meskerem 1–10 (confidence noted; NOT independently
-## re-verified against a second source — treat as a careful first pass)
+## Day-by-day book assignments — CONFIRMED for Meskerem 1–7 only
+
+These 7 days are anchored two independent ways: Day 1 is the book's own opening
+(እንቁጣጣሽ, New Year — unmistakable), and Day 7's commemoration text («አባ ቢሦራ...
+ቅዱስ ሚካኤል») was read identically on two separate occasions in this session,
+including before any pilot was planned. Sequential day-block counting between
+these two anchors is internally consistent (7 blocks, 7 days, no skips or merges).
 
 | Day | ዘንጉህ | ወንጌል ዘቅዳሴ (Gospel · Pauline · Catholic · Acts) | ቅዳሴ Gospel |
 |---|---|---|---|
@@ -99,22 +106,53 @@ scan or a reader fluent in this book's numeral notation.
 | 5 | ምስባክ | ሉቃስ · ዕብራ(?) · ያዕቆብ · ግብ.ሐዋ | ማርቆስ |
 | 6 | ምስባክ | ሉቃስ · ዕብራ(?) · ይሁዳ · ግብ.ሐዋ | ማቴዎስ |
 | 7 | ምስባክ | ማቴዎስ · ሮሜ · ያዕቆብ · ግብ.ሐዋ | ማቴዎስ |
-| 8 | ምስባክ | ማቴዎስ · ዕብራ · ያዕቆብ · ግብ.ሐዋ | ሉቃስ |
-| 9 | ምስባክ | ማቴዎስ · ቆር.ቀ · ይሁዳ · ግብ.ሐዋ | ማቴዎስ |
-| 10 | ምስባክ | ሉቃስ · ቆር.ቀ · ኤፌ(?) · ግብ.ሐዋ | ማቴዎስ |
 
-Days 11–30 (PDF pages 11–16) show the identical structural pattern but were not
-transcribed to the same level of per-cell confidence in this pass — the abbreviation
-cells for the Pauline/Catholic epistle slots are the recurring soft spot (small,
-sometimes-ambiguous marks distinguishing e.g. ኤፌ vs a similar-looking neighbor, or
-the ቀ/ካ ordinal marks). Continuing days 11–30 at the same care level, or having a
-fluent reader spot-check the (?) entries above, are the natural next steps.
+## PAUSED at Day 8 — day-numbering could not be independently verified (2026-07-04)
+
+Continuing past Day 7, I hit the same root problem that blocked chapter/verse
+numbers, one level up: **the red day-of-month headers are also in a Ge'ez numeral
+typeface that I could not reliably distinguish**, even with targeted high-resolution
+crops (attempted at 500 DPI on PDF pages 8–9; the glyphs remained ambiguous, and my
+own coordinate-guessing for where to crop kept missing the target — itself a sign of
+how dense this particular scan is).
+
+Two candidate methods disagreed and I could not resolve which was right:
+- **Sequential block-counting** (treat the 8th red header found, in order, as
+  Meskerem 8) — simple, but silently wrong if any block was mis-split or merged
+  earlier, and unverifiable without reading the numerals.
+- **Numeral reading** of the header itself — the numerals looked plausible but I
+  cannot certify them at this print quality (same issue as verse numbers).
+
+One internal cross-check flagged a likely mismatch: a block in this range mentions
+**ሚካኤል** (Michael) in its commemoration text. Michael's monthly feast in Ethiopian
+tradition falls on a fixed day-of-month, and if that's day 12 (general practice —
+not independently re-verified in this project), it wouldn't line up with that
+block's sequential position. That discrepancy is exactly why I stopped rather than
+publish a guessed day number.
+
+**Decision (user, 2026-07-04): stop and get a fluent reader to confirm day
+numbering before continuing.** This matches the same discipline applied throughout
+this project — no unverified citation gets published as fact.
+
+### What a reviewer needs
+
+- `source/pages/f009-009.png` through `f016-016.png` — the 12 rendered page images
+  (PDF pages 5–16, printed pages 9–20), already in this folder; no PDF tools needed.
+- Printed pages 9–13 (`f005`–`f009`) cover the confirmed Days 1–7 — useful as a
+  calibration check for a reviewer to confirm they're reading the same numeral
+  shapes I read for Days 1 and 7 before moving into the unconfirmed range.
+- Printed pages 14–20 (`f010`–`f016`) are the unconfirmed territory: please read
+  off the actual day-of-month number from each red header directly, rather than
+  assuming sequential order continues cleanly.
+- `source/metshafe-gitsawe.pdf` — the full source, if higher-resolution re-crops
+  of specific headers are wanted (`pdftoppm -f <pdf-page> -l <pdf-page> -r 500 ...`).
 
 ## Recommendation
 
-This confirms option 3 is achievable and the book/reading-source data has real value
-(a priest could use "on this day, at ቅዳሴ read from ሉቃስ; at ወንጌል ዘቅዳሴ read Romans,
-James, Acts" even without exact verse numbers — a native reader knows the passage from
-the book+context). But precision matters here the same way it did for the Bible text
-itself: the (?)-flagged entries above should not be treated as final until confirmed
-by someone who reads this specific book's notation fluently.
+Days 1–7 have real, usable value now (a priest could use "on this day, at ቅዳሴ read
+from ሉቃስ; at ወንጌል ዘቅዳሴ read Romans, James, Acts" even without exact verse numbers —
+a native reader knows the passage from the book + context). The `(?)`-flagged cells
+within those 7 days should still be confirmed before being treated as final. Days
+8–30 need a fluent reader's day-number confirmation before any further transcription
+work is worth doing — otherwise correctly-read content risks being filed under the
+wrong date.
