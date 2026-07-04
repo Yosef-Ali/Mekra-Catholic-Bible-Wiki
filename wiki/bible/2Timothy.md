@@ -4,12 +4,24 @@
 **Amharic:** 2ኛ ወደ ጢሞቴዎስ
 **Chapters:** 4
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/holy-orders]], [[teaching/forgiveness-resurrection-eternal-life]]
 
 ## Overview
 2 Timothy is Paul's farewell letter, written from a Roman dungeon as he faces imminent execution. Unlike the public, ecclesial tone of 1 Timothy, this letter is intensely personal — a testament from a spiritual father to his beloved son in the faith. Paul reflects on his life as an offering already poured out (4:6), recalls the faith of Timothy's grandmother Lois and mother Eunice (1:5), and entrusts the gospel to Timothy as a "good deposit" to guard (1:14). The letter contains the New Testament's most famous statement on the inspiration and purpose of Scripture (3:14–17) and concludes with a poignant list of personal requests — bring the cloak, the books, and above all the parchments (4:13).
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> 64 ዓ.ም ገደማ ጳውሎስ በሮሜ እስር ቤት ሳለ ሁለተኛውን መልእክቱን ጽፎአል። በዚያን ወቅት ብዙ የጳውሎስ ወዳጆች ከድተውት ነበር (1፥15-18፤ 4፥9፤18)። በዚህ መልእክት ቅዱስ ጳውሎስ ለጢሞቴዎስ ያለውን ጠንካራ ወዳጅነቱንና ወንድማዊ ፍቅሩን ገልጾአል። እንዲሁም ለጢሞቴዎስ የመጨረሻ ቃሉንና ምክሩን የለገሰበት መልእክቱ ነበር። ጳውሎስ ጢሞቴዎስ በእምነት እንዲጸና፥ ያለ ፍርሃት ምእምናንን ከሐሰተኛ አስተማሪዎች እንዲጠብቅ፥ እውነተኛውን የቤተ ክርስትያን አስተምህሮ በምንም ዓይነት ነገር ሳይናወጥ እንዲያስተምር አቅዶ የጻፈው መልእክት ነው ማለት ይቻላል። በእርሱም ዘንድ የነበረውን ዕቃ ጢሞቲዎስ እንዲያመጣለትና በዚያውም እንዲጎበኘው ያሳስበዋል። ይህ መልእክት የቤተ ክርስትያን አገልጋዮች በምን ዓይነት መንገድ መመላለስ እንደሚገባቸውና እውነተኛውን አስተምህሮ መያዝ እንደሚጠበቅባቸው ያስተምራል። በመጨረሻ ጢሞቴዎስን በማበረታታት ያለፍርሃትና ያለመናወጥ ከሞት ጽዋ ተካፋይ እንደሚሆን ይመሰክራል።
+— Emmaus PDF p. 646
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መግቢያ (1፥1‑2)
+- ለጢሞቴዎስ የተሰጠ ምክር (1፥3–2፥13)
+- በክሕደት ጊዜ ታማኝ ሆኖ መገኘት (2፥14–4፥5)
+- በወቅቱ ስለ ነበሩት ሁኔታዎችና አስፈላጊ መመሪያዎች (4፥6‑18)
+- ማጠቃለያ (4፥19‑22)
 
 ## Key Themes
 **Scripture — God-Breathed and Profitable.** 2 Timothy 3:14–17 is the central New Testament text on biblical inspiration: "All Scripture is θεόπνευστος (God-breathed) and profitable for teaching, reproof, correction, and training in righteousness, that the man of God may be complete, equipped for every good work." The Catholic Church teaches that Scripture is inspired by God and committed to the Church for the sake of salvation (CCC 105–108). The passage also emphasizes the continuity of faith from childhood through the sacred writings — a pattern visible in the role of Lois and Eunice in forming Timothy's faith (1:5).

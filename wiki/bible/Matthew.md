@@ -4,8 +4,8 @@
 **Amharic:** የማቴዎስ ወንጌል
 **Chapters:** 28
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/the-church]], [[teaching/baptism]], [[teaching/the-lords-prayer]], [[teaching/moral-law-and-grace]], [[teaching/passion-death-resurrection]], [[teaching/jesus-christ-incarnation]]
 
 ## Overview
@@ -13,6 +13,20 @@
 የማቴዎስ ወንጌል (The Gospel according to Matthew) is the first book of the New Testament and stands as the great bridge between the Old and New Covenants. Traditionally attributed to Matthew/Levi the tax collector, one of the Twelve Apostles (ማቴዎስ 9:9), this Gospel was likely composed around AD 70–85 for a primarily Jewish-Christian community. Its central concern is to demonstrate that Jesus of Nazareth is the promised Messiah who fulfills the Law and the Prophets. The genealogy in chapter 1 traces Jesus' lineage through David to Abraham, and repeated formula-quotations ("this was to fulfill what was spoken by the prophet...") anchor every major event in Israel's Scriptures.
 
 Matthew is the most *ecclesial* of the Gospels: it alone uses the word ቤተክርስቲያን (Church) (16:18, 18:17) and contains the most extensive teaching blocks on community life, forgiveness, and discipline. The Gospel is structured around five great discourses — the Sermon on the Mount (chs. 5–7), the Missionary Discourse (ch. 10), the Parables of the Kingdom (ch. 13), the Community Discourse (ch. 18), and the Eschatological Discourse (chs. 24–25) — echoing the five books of the Torah and presenting Jesus as the New Moses who delivers the new Law from the mountain.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ወንጌል የሚለው ቃል መልካም ዜና፥ ብሥራት ወይም የምሥራች ማለት ነው። በዚህም መሠረት የማቴዎስ ወንጌል አስቀድሞ የተነገረለትንና በተስፋ መምጣቱ ሲጠበቅ የነበረውን የኢየሱስን መሢሕነትና አዳኝነት ያበሥራል። ይህም የምሥራች ቃል ለአይሁድ ብቻ ሳይሆን ለመላው ዓለም ጭምር ነው። የኢየሱስ ስብከቶች በማቴዎስ ወንጌል መዋቅር ውስጥ ትልቅ ስፍራ ይይዛሉ። በተለይም የተራራው ስብከት የክርስቲያናዊ ሕይወት መመሪያ ወይም አዲሱ የክርስቶስ ፈቃድ ተብሎ ሊወሰድ ይችላል። የማቴዎስ ወንጌል ወልድ አምላክ እንደ ሆነ አማኑኤል በማለት ያበስርና ከልደቱ ጀምሮ ስለ ጥምቀቱና ስለ ፈተናው ያብራራል። ከዚያም በገሊላ የፈጸመውን የስብከት፥ የማስተማርና የመፈወስ አገልግሎት ያቀርባል። ኢየሱስ የእግዚአብሔርን ሕግ ለመተርጎም ሥልጣን ያለው መምህር፥ ዘላለማዊ ንጉሥ፥ በክቡር ደሙ፥ በሕማማቱና በትንሣኤው የአዲስ ኪዳንና ቤተ ክርስቲያንንን መሥራች እንደሆነ ይገልጻል።
+— Emmaus PDF p. 529
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- የኢየሱስ መወለድ (1፥1–2፥23)
+- የእግዚአብሔር መንግሥት አዋጅና የተራራው ስብከት (3፥1–7፥29)
+- የሐዋርያቱ መመረጥ፥ መላክና የተልእኮ መመሪያ (8፥1–11፥1)
+- ከእስራኤል የገጠመው ተቃውሞና ስለ እግዚአብሔር መንግሥት ምሳሌዎች (11፥2–13፥53)
+- ኢየሱስ፥ የእግዚአብሔር መንግሥትና ቤተ ክርስቲያን (13፥54–18፥35)
+- በይሁዳና በኢየሩሳሌም የነበረው ተልእኮ (19፥1–25፥46)
+- ሕማማቱናና ትንሣኤው (26፥1–28፥20)
 
 ## Key Themes
 

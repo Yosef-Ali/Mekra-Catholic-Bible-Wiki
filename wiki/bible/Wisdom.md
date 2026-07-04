@@ -4,8 +4,8 @@
 **Amharic:** መጽሐፈ ጥበብ
 **Chapters:** 19
 **Section:** Apocrypha
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/god-the-father-creator]], [[teaching/jesus-christ-incarnation]], [[teaching/holy-spirit]], [[teaching/man-and-the-fall]], [[teaching/sin]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/moral-law-and-grace]], [[teaching/virtues]]
 
 ## Overview
@@ -13,6 +13,18 @@
 The Book of Wisdom (መጽሐፈ ጥበብ, also called the Wisdom of Solomon) is the most theologically sophisticated book of the deuterocanon. Written in Greek, probably in Alexandria during the first century BC, it addresses the Jewish community living under Hellenistic cultural pressure, facing the temptation to assimilate or abandon the ancestral faith. The book, attributed to Solomon as its implied author (though actually pseudonymous), unfolds in three major sections: the contrast between the righteous and the wicked and the vindication of immortality (chs. 1–5), the nature and gifts of divine Wisdom (chs. 6–9), and Wisdom's guidance of Israel's history from Adam through the Exodus (chs. 10–19).
 
 Wisdom is the Old Testament book that most explicitly teaches the immortality of the soul and the resurrection hope, using Greek philosophical vocabulary to express biblical truth. It also contains the most detailed biblical description of the origin of death — "through the devil's envy death entered the world" (2:24) — and the closest Old Testament approach to the doctrine of the Holy Spirit's indwelling (1:7). The Church reads Wisdom as a bridge between the Old and New Testaments: its language about Wisdom as "the breath of the power of God, a pure emanation of the glory of the Almighty" (7:25–26) profoundly shaped the Nicene theology of the Son's eternal generation, and its teaching on the souls of the righteous being "in the hand of God" (3:1) has entered the Church's funeral liturgy. The Amharic title መጽሐፈ ጥበብ ("The Book of Wisdom") reflects its place in the Ethiopian canon, where it has been valued both for its doctrinal depth and its apologetic engagement with pagan culture.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> መጽሐፈ ጥበበ በእስክንድርያ (ግብጽ)፥ በግሪክ ቋንቋ፥ በጠቢቡ ሰለሞን ስም፥ እንደ ተጻፈ ይታመናል። በዚህ መጽሐፍ ውስጥ፥ በየጥቅሱ፥ የብሉይ ኪዳን ሐሳቦችንና ትምህርቶችን ማስተዋል ይቻላል። አይሁድ በስቃይና በጭቆና ጊዜ በእምነታቸው እንዲጸኑ ያስተምራል። መለኮታዊ ጥበብ የተለየ ክብር እንዳላት ያሳስባል (6፥22–11፥1)። እግዚአብሔር እስራኤላውያንን ከግብጽ ባርነት በድንቅና በተአምራት ማስወጣቱን ያብራራል (11፥2‑16፤ 12፥23‑27፤ 15፥18–19፥22።) የእግዚአብሔርን ምሕረት ያወድሳል (11፥17–12፥22)። የጣዖት አምልኮን ስሕተት ያሳያል (13፥1–15፥17)። እያንዳንዱ ሰው ስለሚቀበለው ሽልማትና ቅጣት ያስተምራል (1፥1–6፥21)። የመጀመርያዎቹ ዐሥር ምዕራፎች በአዲስ ኪዳን ውስጥ ኢየሱስ የሚያስተምረውን ለመረዳት የሚያግዙ ሐሳቦችን ይዘዋል።
+— Emmaus PDF p. 379
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- 1. የጽድቅ ሽልማት (1፥1–6፥21)
+- 2. የሰሎሞን የጥበብ ውዳሴ (6፥22–11፥1)
+- 3. ከግብጽ ባርነት ለወጣው ሕዝብ የእግዚአብሔር መግቦተ እግዚአብሔር (11፥2‑16፥ 12፥23‑27፥ 15፥18–19፥22)
+- 4. የእግዚአብሔር ምሕረት (11፥17–12፥22)
+- 5. የጣዖት አምልኮ አሳፋሪነት (13፥1–15፥17)
 
 ## Key Themes
 

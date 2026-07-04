@@ -4,8 +4,8 @@
 **Amharic:** መጽሐፈ ኢዮብ
 **Chapters:** 42
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/god-the-father-creator]], [[teaching/man-and-the-fall]], [[teaching/sin]], [[teaching/moral-law-and-grace]], [[teaching/passion-death-resurrection]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/prayer-combat]]
 
 ## Overview
@@ -13,6 +13,11 @@
 The Book of Job (መጽሐፈ ኢዮብ) is the Bible's most sustained meditation on the mystery of innocent suffering. Set in the land of Uz outside Israel, it tells the story of a righteous and prosperous man who loses everything — children, wealth, and health — in a single day, not as punishment for sin but as part of a cosmic test permitted by God. The prose prologue (chs. 1–2) frames the drama in the heavenly court where the Adversary (Satan) challenges Job's integrity: does Job fear God for nothing? The vast poetic core (chs. 3–41) unfolds as a cycle of dialogues: three friends — Eliphaz, Bildad, and Zophar — argue the traditional retribution theology (suffering = punishment for sin), while Job protests his innocence and demands an audience with God. A fourth voice, Elihu, prepares the way for the divine answer. Finally, God speaks "out of the whirlwind" (chs. 38–41), not answering Job's demand for explanation but revealing the majesty and mystery of creation, reducing Job to awed silence and repentance. The epilogue restores Job's fortunes, though the book refuses to reduce suffering to a tidy formula.
 
 Catholic tradition reads Job on multiple levels: as a historical figure whose patience is praised by James (5:11) and the early Fathers; as a type of Christ the innocent sufferer; and as a profound exploration of faith that purifies human ideas about God. The Catechism draws on Job to address the scandal of evil (CCC 309) and the redemptive value of suffering united to Christ's passion. The Amharic title መጽሐፈ ኢዮብ ("The Book of Job") follows the Ethiopian canonical tradition where Job is counted among the poetical and wisdom books.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> መጽሐፈ ኢዮብ ከጥበብ መጻሕፍት አንዱ ሲሆን፥ የንጹሕ ሰው መሰቃየትን አስመልክቶ የሚነሡትን ጥያቄዎች በትረካ የሚዳስስ ጽሑፍ ነው። በትውልዱ እስራኤላዊ ባልሆነው ኢዮብ ላይ የሚደርሰውን የፈተና መጀመርያ በመጀመርያዎቹ ሁለት ምዕራፎች ውስጥ እናነባለን። የዚህ ሁሉ መነሻ በእግዚአብሔርና የሰው ልጆች ተቀናቃኝ በሆነው በሰይጣን መካከል የተከናወነው ንግግር ነው። እግዚአብሔር በኢዮብ ጻድቅነት ሲደሰት፥ ሰይጣን ግን የኢዮብ እግዚአብሔርን መፍራት እውንተኛነት እንደሚጎድለውና በጥቅም ላይ እንደ ተመሠረተ በመቍጠር ይሟገታል። በሌላ አነጋጋር ኢዮብ እግዚአብሔርን የሚያመልከውም ሆነ መልካም አኗኗር የሚከተለው ሀብትን፥ ጤናንና ጥቅምን ለማግኘት ብሎ እንጂ፥ በእውነት እግዚአብሔርን አፍቅሮ አይደለም እንደማለት ነው። እግዚአብሔርም የኢዮብ እውነተኛነት ይገለጥ ዘንድ ችግር እንዲገጥመው ይፈቅዳል። የኢዮብ ሦስት ጓደኞች የደረሰበትን ሰምተው ሊያጽናኑት ይመጣሉ። ኢዮብ ብሶቱን መግለጽ ይጀምራል። ጓደኞቹ የኢዮብ መከራ የኃጢአት ቅጣት ነው ብለው ያስባሉ። ከኢዮብም ጋር በዚህ ሐሳብ ይከራከራሉ። ለነሱ መፍትሔው የሚመጣው ኢዮብ ኃጢአቱን አምኖ ንስሐ ሲገባ ነው። ኢዮብ ግን የጓደኞቹን ሐሳብ አይቀበልም። ይልቁንም እግዚአብሔር ለዚህ ጉዳይ መልስ እንዲሰጠው ደጋግሞ ይጠይቃል። በዚሁ አጋጣሚ ኤሊሁ የሚባል አንድ ወጣት የኢዮብን ጓደኞች የሚመስል ክርክር ያቀርባል። እንደ ጓደኞቹም ኢዮብን ይወቅሰዋል። በታሪኩ መጨረሻ እግዚአብሔር ለኢዮብ ይገለጻል። ነገር ግን ኢዮብ ወይም አንባቢ በሚጠብቀው መልክ እግዚአብሔር መልስ አይሰጥም። ኢዮብ፥ በታሪኩ መጀመርያ፥ በእግዚአብሔርና በሰይጣን መካከል የነበረውን ክርክር አያውቅም። ሆኖም እግዚአብሔር ስለዚህ ጉዳይ ምንም አያነሣም፤ ኢዮብ ለምን እንደተሰቃየ አይናገርም። ይልቁንም እግዚአብሔር ከሰው ውጭ ስላሉ ፍጥረታት አስደናቂነት በመዘርዘር ያብራራል። እግዚአብሔር ንግግሩን ሲጨርስ ኢዮብ መገረሙን፥ አድናቆቱንና ትንሽነቱን ይመሰክራል። ምንም እንኳን ኢዮብ ቢያማርር፥ እግዚአብሔርን ግን አልተሳደበም። ከዚህ አንጻር የሰይጣን ግምት ውድቅ ሆኗል። “እንደ ኢዮብ የመሰለ ጻድቅ ሰው የለም” የሚለው የእግዚአብሔርም አቋም ትክክለኛነት ተረጋግጧል። በተጨማሪም የኢዮብ ግልጽነትና ንጹሕነት በአምላክ ዘንድ ተቀባይነትን አግኝቷል። በዚህም እግዚአብሔር ኢዮብን ይደግፈዋል። እጥፍ ድርብ አድርጎ ሀብት፥ ጤናና ልጆችን ይሰጠዋል። ጓደኞቹን ግን ከመውቀስም አልፎ የኢዮብን መሥዋዕትና ጸሎት እንዲጠይቁ ያዛቸዋል። የመጽሐፈ ኢዮብን ክፍሎች እንድሚከተለው ማቅረብ ይቻላል 1. መቅድም (1፥1–2፥13) 2. የመጀመርያ ዙር ንግግሮችና ክርክር (3፥1–14፥22) 3. የሁለተኛ ዙር ንግግሮችና ክርክር (15፥1–21፥34) 4. የሦስተኛ ዙር ንግግሮችና ክርክር (22፥1–27፥23) 5. ስለ ጥበብ የቀረበ ቅኔ (28፥1‑28) 6. የኢዮብ መከራ (29፥1–31፥40) 7. የኤሊሁ ንግግር (32፥1–37፥24) 8. እግዚአብሔር ለኢዮብ ተገለጠ (38፥1–42፥6) 9. መደምደምያ (42፥7‑17)
+— Emmaus PDF p. 300
 
 ## Key Themes
 

@@ -1,10 +1,20 @@
 # Joel (ትንቢተ ኢዩኤል)
 **Type:** bible | **Amharic:** ትንቢተ ኢዩኤል | **Chapters:** 3 | **Section:** OT
-**Sources:** 2 | **Last updated:** 2026-05-06
+**Sources:** 3 | **Last updated:** 2026-07-04
 **Related:** [[teaching/holy-spirit]], [[concepts/ንስሐ]]
 
 ## Overview
 Joel prophesies in response to a devastating locust plague that has stripped Judah bare. He interprets the catastrophe as "the day of the Lord" — both imminent judgment and eschatological hope. The book pivots from lament to promise: God will restore the years the locusts have eaten and pour out His Spirit on all flesh. Joel is read in the Catholic liturgy on Ash Wednesday and at Pentecost.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ትንቢተ ኢዩኤል ከክርስቶስ ልደት በፊት በአምስተኛው ወይም በአራተኛው ምእተ ዓመት አካባቢ ስለተከሠተው ሁኔታ የሚያስተምር መጽሐፍ ነው። ይህም የእግዚአብሔር ሕዝብ በፋርስ ዘመን የገጠመውን ተግዳሮት ያሳያል። ኢዩኤል በእስራኤል ምድር ታላቅ የአንበጣ መንጋ የሚመጣበትንና ብርቱ ጥፋት የሚያስከትል ድርቅ የሚከሠትበትን ጊዜ ይገልጣል፤ እነዚህ ሁኔታዎችም የጌታን ቀን መምጣት መቃረብ የሚያመለክቱ መሆኑን ይናገራል፤ የጌታም ቀን ሲመጣ እግዚአብሔር ቅዱስ ፈቃዱን የሚቃወሙትን ሁሉ እንደሚቀጣ ጨምሮ ያስረዳል። ነቢዩ፥ ሕዝቡ ንስሓ እንዲገባ የእግዚአብሔርን ጥሪ በመግለጽ፥ ንስሐ ከገቡም ወደ ቀድሞው ሁኔታቸው በመመለስ እንደሚባርካቸው ያስገነዝባቸዋል። ከትንቢቱ ውስጥ ጐልቶ የሚታየው የተስፋ ቃል እግዚአብሔር በወንዶችና በሴቶች፥ በወጣቶችና በሽማግሌዎች ጭምር፥ በሕዝቡ ሁሉ ላይ መንፈሱን እንደሚያወርድ የሚገልጠው ነው።
+— Emmaus PDF p. 502
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- 1. አንበጣና የጠላት ጦር ሠራዊት (1፥1–2፥17)
+- 2. የጌታ ቀን (2፥18‑32)
+- 3. ጌታ አሕዛብን እንደሚቀጣ (3፥1‑21)
 
 ## Key Themes
 **The Day of the Lord.** Joel transforms a natural disaster into theological revelation. The locust invasion images an invading army — God's instrument of judgment calling the people to repentance. "Return to me with all your heart, with fasting, weeping, and mourning" (2:12). Yet beyond judgment lies restoration: the threshing floors will be full of grain.

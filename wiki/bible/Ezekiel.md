@@ -4,13 +4,35 @@
 **Amharic:** ትንቢተ ሕዝቅኤል
 **Chapters:** 48
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/holy-spirit]], [[teaching/baptism]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/the-church]], [[teaching/jesus-christ-incarnation]], [[teaching/moral-law-and-grace]]
 
 ## Overview
 
 ትንቢተ ሕዝቅኤል (The Book of Ezekiel) is the great prophetic book of the Babylonian exile. Ezekiel ben Buzi, a priest carried into exile with King Jehoiachin in 597 BC, received his prophetic call by the river Chebar in Babylon (ch. 1). His ministry spans the darkest period of Israel's history — the final destruction of Jerusalem and the Temple in 586 BC — and yet his prophecy culminates in the most detailed vision of restoration and new life in the Old Testament. The book divides into three major sections: Oracles of Judgment against Judah and Jerusalem (chs. 1–24), Oracles against the Nations (chs. 25–32), and Oracles of Restoration and Hope (chs. 33–48). Ezekiel is both priest and prophet: his concern for the Temple, holiness, and the Glory of the LORD departing and returning to the Temple shapes the book's theology. The vision of the valley of dry bones (ch. 37), the promise of a new heart and new spirit (ch. 36), and the vision of the new Temple with the river of life flowing from it (chs. 40–48) are among the most influential prophetic texts in Scripture, directly informing the Church's theology of Baptism, the Holy Spirit, resurrection, and the heavenly Jerusalem.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ነቢዩ ሕዝቅኤል ኢየሩሳሌም ከመፍረስዋ በፊትና ከመፍረስዋም በኋላ፥ (በአምስት መቶ ሰማንያ ሰባት ዓመት) ቅድመ ልደተ ክርስቶስ በፊት፥ በስደት በባቢሎን ይኖር ነበር። የእርሱ የትንቢት ቃል የተነገረው በባቢሎን በስደት ለሚገኙትና በኢየሩሳሌም ለሚኖሩት ሕዝብ ነበር። ትንቢተ ሕዝቅኤል አራት ዐበይት ነጥቦች አሉት። 1. የእግዚአብሔር ፍርድ በሕዝቡ ላይ ሊመጣ መቃረቡንና የኢየሩሳሌም መያዝና መፍረስ የደረሰ ስለ መሆኑ፤ 2. እግዚአብሔር ሕዝቡን የጨቈኑትንና ያሳሳቱትን ልዩ ልዩ መንግሥታት የሚቀጣ ስለ መሆኑ፤ 3. ከኢየሩሳሌም መውደቅ በኋላ እስራኤልን ለማጽናናት መልእክት ስለ መሰጠቱና ወደፊትም መልካም ዕድል እንደሚገጥማት ስለ መነገሩን፤ 4. ቤተ መቅደሱና የእስራኤል መንግሥት ወደ ቀድሞው ሁኔታ እንደሚመለስ ሕዝቅኤል ሥዕላዊ መግለጫ ስለ ማቅረቡ ናቸው። ሕዝቅኤል ታላቅ እምነትና አርቆ አስተዋይነት ነበረው። የወደፊቱን ሁኔታ በራእይ መልክ ተመልክቶታል፤ መልእክቱ በአብዛኛው የተላለፉት በምሳሌያዊ ንግግርና ድርጊት ነበር። ሕዝቅኤል ውስጣዊ የሆነ የልብና የመንፈስ መታደስ አስፈላጊ መሆኑንና እያንዳንዱ ሰው ስለ ራሱ ኃጢአት ተጠያቂ መሆኑን በአንክሮ አመልክቷል። ከዚሁም ጋር የሕዝቡ ሕይወት ስለ መታደሱ ያለውን ተስፋ ገልጦአል። ሕዝቅኤል ካህንም ነቢይም እንደመሆኑ መጠን ስለ ቤተ መቅደሱና ስለ ቅድስና አስፈላጊነት የተለየ ቀናኢነት ነበረው።
+— Emmaus PDF p. 465
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- ሕዝቅኤል የእግዚአብሔርን ክብር ማየቱና የእርሱም ነቢይ እንዲሆን መመረጡ (1፥1–3፥27)
+- ይሁዳና ኢየሩሳሌም የሚደመሰሱ መሆናቸውን ሕዝቅኤል በምሳሌ ማስረዳቱ (4፥1–5፥17)
+- ጥፋት መቃረቡ (6፥1–7፥27)
+- የእግዚአብሔር ክብር ኃጢአተኛይቱን ኢየሩሳሌምን መተዉ (8፥1–11፥25)
+- የይሁዳና የኢየሩሳሌም ውድቀት (12፥1–24፥27)
+- በሌሎች አገሮች ላይ የተላለፈ ፍርድ (25፥1–32፥32)
+- ሕዝቡ ከኃጢአታቸው እንዲመለሱ ሕዝቅኤል ማስጠንቀቅ የሚገባው መሆኑ (33፥1‑20)
+- የኢየሩሳሌም ውድቀት ዜና (33፥21‑33)
+- ሕዝቡን እንደሚመልስና ይሁዳን እንደሚያድን እግዚአብሔር ተስፋ መስጠቱ
+- (34፥1–37፥28)
+- ጎግ ተሸንፎ እስራኤል እንደምትመለስ (38፥1–39፥29)
+- ሕዝቅኤል ወደፊት ስለሚሠራው ቤተ መቅደስ ያየው ራእይ (40፥1–46፥24)
+- ከቤተ መቅደሱ ሥር ስለሚፈልቀው ውሃ (47፥1‑12)
+- ለእስራኤላውያን የሚመለሰላቸው የጥንት ርስታቸው ድንበርና ለየነገዱ የተደረገ ክፍፍል
+- (47፥13–48፥35)
 
 ## Key Themes
 

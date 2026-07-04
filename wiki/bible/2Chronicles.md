@@ -4,8 +4,8 @@
 **Amharic:** 2ኛ ዜና መዋዕል
 **Chapters:** 36
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/jesus-christ-incarnation]], [[teaching/the-church]], [[teaching/eucharist]], [[teaching/prayer-in-christian-life]], [[teaching/sin]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/penance]]
 
 ## Overview
@@ -13,6 +13,11 @@
 2 Chronicles (2ኛ ዜና መዋዕል, "Second Chronicles") continues the Chronicler's theological history from Solomon's accession through the destruction of Jerusalem and the edict of Cyrus that ends the exile. Unlike the parallel account in 1–2 Kings, the Chronicler focuses exclusively on the southern kingdom of Judah, treating the northern kingdom of Israel only when it intersects with Judah's story. The book's structure reveals its purpose: Solomon's reign (chs. 1–9) is presented as the golden age of wisdom, Temple-building, and international glory; the divided monarchy (chs. 10–36) follows a repeated theological pattern of sin, prophetic warning, repentance, and deliverance; and the final chapter brings the narrative to its climax in the catastrophe of 586 BC and the surprise of Cyrus's decree. The Chronicler's message to post-exilic Judah is clear: the Temple is the center of your identity, the Davidic covenant is still in effect, and the God who moved the heart of a pagan emperor to restore you (36:22–23) is the same God who will fulfill every promise in His time.
 
 The Amharic title 2ኛ ዜና መዋዕል pairs with 1 Chronicles in the Septuagint's Παραλειπομένων tradition. In Catholic reading, 2 Chronicles provides the biblical paradigm of revival and reform — Hezekiah's Passover, Josiah's covenant renewal, and the repeated pattern of prophetic intervention followed by national repentance model the Church's constant need for reform and renewal (ecclesia semper reformanda). The book's most famous verse — "If my people who are called by my name humble themselves and pray..." (7:14) — is a foundational text for the sacrament of penance and the Church's understanding of forgiveness and healing ([[teaching/penance]], [[teaching/forgiveness-resurrection-eternal-life]]).
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> መጽሐፈ ዜና መዋዕል ሁለተኛ ሲጀምር ንጉሥ ሰሎሞን የፈጸማቸውን ተግባራት በሰፊው በመዳሰስ ነው። ንጉሡ ሕዝቡን ለማስተዳደር ጥበብ ስለ መጠየቁንና ቤተ መቅደሱን ለመሥራት ስለ መዘጋጀቱን ይገልጻል። እንዲሁም ንግሥት ሳባ እርሱንም መቅደሱን መጐብኘትዋን ይናገራል። በመቀጠልም በንጉሥ ሮብዓም ስሕተት ምክንያት ስለተከፋፈሉት ሁለት መንግሥታት ይተርካል። በተጨማሪም፥ በሃይማኖት ረገድ መታደስን ስላመጡት የይሁዳ ነገሥታት ይናገራል። ለምሳሌ ንጉሥ አሳ ከርኵሰት ምድሪቱን ስለማንጻቱ፥ ንጉሥ ሕስቅያስ ቤተ መቅደሱን ስለ ማንጻቱና የፋሲካን በዓል በድምቀት ስለማክበሩ፥ ንጉሥ ኢዮስያስ ቤተ መቅደሱን ስለማደሱና የሕጉን መጽሐፍ በማግኘት የአምልኮ ሥርዓት ተሐድሶ ስለማምጣቱ ይገልጻል። በመጨረሻም የመጽሐፉ ሐሳብ የሚያበቃው የፋርስ ንጉሥ ቂሮስ በባቢሎን ላሉት አይሁዳውያን ወደ አገራቸው ተመልሰው ቤተ መቅደሱን እንዲሠሩ መፍቀዱን በመግለጽ ነው። ዜና መዋዕል ሁለተኛ በሁለት ዐበይት ክፍሎች ይከፈላል። አንደኛው ከምዕራፍ አንድ እስከ ዘጠኝ ያለው ሲሆን ንጉሥ ሰሎሞን ስላከናወናቸው ተግባራት ይገልጻል። ሁለተኛው ከምዕራፍ ዐሥር እስከ ሠላሳ ስድስት ያለው ሲሆን ለሁለት ስለተከፈለው የእስራኤል መንግሥት ያወሳል። የመጽሐፉ አወቃቀር 1. የሰሎሞን ታሪክ (1፥1–9፥31) 1.1 ሰሎሞን፥ ጥበብ እና ሀብት (1፥1‑17) 1.2 ሰሎሞን ለቤተ-መቅደሱ ሥራ ያደረገው ዝግጅት እና ግንባታ (2፥1–5፥1) 1.3 ሰሎሞን ቤተ መቅደሱን ለእግዚአብሔር ቀደሰው (5፥2–7፥22) 1.4 ሰሎሞን ዝና (8፥1–9፥31) 2. ስለተከፈለው የእስራኤል መንግሥት (10፥1–36፥23) 2.1 የእስራኤላውያን ከይሁዳ መለየት (10፥1‑19) 2.2 የይሁዳ ነገሥታት (11፥1–28፥27) 2.3 የሕዝቅያስ ተሐድሶ እና የዘመነ መንግሥቱ ፍጻሜ (29፥1–32፥33) 2.4 ምናሴ እና አሞጽ (አሞን) (33) 2.5 የኢዮስያስ መታደስ (34፥1–35፥27) 2.6 የይሁዳ መውደቅ (36፥1‑21) 2.7 የነፃነት አዋጅ (36፥22‑23)
+— Emmaus PDF p. 221
 
 ## Key Themes
 

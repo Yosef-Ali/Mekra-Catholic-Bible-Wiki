@@ -4,8 +4,8 @@
 **Amharic:** መጽሐፈ መቃብያን ካልእ
 **Chapters:** 16
 **Section:** Apocrypha
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/passion-death-resurrection]], [[teaching/sin]], [[teaching/prayer-in-christian-life]]
 
 ## Overview
@@ -13,6 +13,20 @@
 2 Maccabees is not a sequel to 1 Maccabees but a parallel account, covering the same period (c. 180–161 BC) from a different theological perspective. It is the abridgment of a lost five-volume work by Jason of Cyrene (2:23). While 1 Maccabees emphasizes military and political history, 2 Maccabees focuses on theological themes: God's miraculous interventions, the sanctity of the Temple, and — most importantly — martyrdom and bodily resurrection. The book contains the most explicit Old Testament affirmations of resurrection from the dead, creation ex nihilo, prayer for the dead, and the intercession of the saints. These passages are critical for Catholic doctrine on purgatory (2 Macc 12:43-45) and the intercessory power of the saints in heaven (ch. 15, where the deceased prophet Jeremiah intercedes for the living).
 
 The narrative centers on the heroic martyrdoms of Eleazar (ch. 6) and the mother with her seven sons (ch. 7), who accept torture and death rather than violate the dietary laws. Their confessions of faith in resurrection are among the most powerful in Scripture: "The King of the universe will raise us up to an everlasting renewal of life" (7:9).
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ምንም እንኳን በከፊል ቢመሳሰልም ሁለተኛው የመቃብያን መጽሐፍ ከመጀመሪያው የሚቀጥል አይደለም። የሚጀምረውም ትንሽ ቀደም ብሎ ሲሆን ከአንጥዮኩስ ኤጲፋኔስ አባት አራተኛው ሴሌኡከስ ዘመን ነው። መጽሐፉ የሚያበቃውም በይሁዳ መቃቢስ ድልና በኒቃሮን ሽንፈት ነው። ትረካው አንጥዮኩስ ኤጲፋኔስ ሥልጣን ከጨበጠበት ከ 175 ቅድመ ልደተ ክርስቶስ ጀምሮ ስምዖን እስከ ሞተበትና ዮሐንስ ሐርቃናም በ 134 ቅድመ ልደተ ክርስቶስ የመሪነቱን ኃላፊነት እስከተረከበ ድረስ ያለፉትን አርባ ዓመታት የዳሰሰ ነው። መጽሐፉ የእነዚያን የሩቅ ዘመናት ክስተቶች በውስጡ የያዘ በመሆኑ የላቀ ዋጋ የሚሰጠው ነው። በሕዝቡ ላይ የደረሰው መከራ የኃጢአት ውጤት ሲሆን የመሪዎቹ ድል ደግሞ በእግዚአብሔር ኃይል የተገኘ ነው። ይህ መጽሐፍ ሰዎች ከመጥፎ ተግባራቸው እንዲመለሱ ያስተምራል። መቃቢስ ለነጻነት ያደረገው ተጋድሎ በሰማይ መላእክት የታገዘ ሲሆን በድል የተጠናቀቀውም በአምላክ ረድኤት ነው። በሕዝቡ ላይ የደረሰባቸው መሰደድ እንኳን ሳይቀር በኃጢአታቸው ብዛት የመጨረሻ ጥፋት ላይ ከመድረሳቸው በፊት ወደ ልቦናቸው እንዲመለሱ እግዚአብሔር ምሕረቱን ያሳየበት ድርጊት ነው። የመጽሐፉ ዓላማ የእስክንድርያዎቹ አይሁዳውያን በእስራኤል ከሚኖሩ ወንድሞቻቸው ጋር ያላቸውን አንድነት በተግባር እንዲገልጹ መቀስቀስ ነው። ሁለተኛው መጽሐፈ መቃቢያን የቤተ መቅደሱን የማይሻር ቅድስና በማረጋገጥ፥ ቤተ መቅደሱን ባረከሰው በአሳዳጁ በአንጥዮኩስ ኤጲፋንዮስ ሞትና በቤተ መቅደሱ የምረቃ በዓል ይጀምራል። ሁለተኛው ክፍል እንደዚሁ፥ ቤተ መቅደሱን ለማጥፋት በተነሣው በአንዱ አሳዳጅ (ኒቃኖር) ሞትና በመታሰቢያ በዓል ይጀምራል። ሁለተኛው መጽሐፈ መቃቢያን የሚከተሉትን የነገረ መለኮት ፍሬ ሐሳቦች ይዟል። አንዱ የእግዚአብሔር ሕዝብ ስለሚደርስበት መከራ ነው፤ ሌላው በመጨረሻው ቀን ስለሚሆነው የሙታን ትንሣኤ ነው፤ ሌላው ደግሞ በምድር ላይ በሚኖሩ ሰዎችና በሰማይ ባሉ ቅዱሳን መካከል የሚከናወነው የጸሎት እና የአማላጅነት ምስጢር ነው። እንዲሁም በዚህ ምድር ላይ ያሉ ለሞቱት ወንድሞቻቸውና እህቶቻቸው የሚያቀርቡት ጸሎትንና መሥዋዕት ናቸው።
+— Emmaus PDF p. 289
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- በግብጽ ለነበሩት አይሁድ የተላከ ደብዳቤ (1፥1–2፥18)
+- የፃፈው መቅድም (2፥19‑32)
+- በሄሊዮድሮስ ቤተ መቅደሱን ለማርከስ የተደረገ ሙከራ (3፥1‑40)
+- ርክሰትና ስደት (4፥1–7፥42)
+- የይሁዳ ድሎች እና የቤተ መቅደሱ መንጻት (8፥1–10፥9)
+- የስደቱ እንደገና መቀስቀስ (10፥10–15፥36)
+- የጸሐፊው መደምደሚያ (15፥37‑39)
 
 ## Key Themes
 

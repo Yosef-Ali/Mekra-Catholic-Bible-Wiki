@@ -1,10 +1,19 @@
 # Haggai (ትንቢተ ሐጌ)
 **Type:** bible | **Amharic:** ትንቢተ ሐጌ | **Chapters:** 2 | **Section:** OT
-**Sources:** 2 | **Last updated:** 2026-05-06
+**Sources:** 3 | **Last updated:** 2026-07-04
 **Related:** [[concepts/አምልኮ]], [[places/ኢየሩሳሌም]]
 
 ## Overview
 Haggai is the first post-exilic prophet, active in 520 BC. The returned exiles had laid the Temple foundation but abandoned the work to build their own houses. Haggai delivers four oracles over four months, demanding the Temple be rebuilt. The people obey, and the prophet promises that "the latter splendor of this house shall be greater than the former" (2:9).
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> በትንቢተ ሐጌ የተጠናቀሩት አጫጭር መልእክቶች እግዚአብሔር ከክርስቶስ ልደት በፊት በአምስት መቶ ምእተ ዓመት፥ በነቢዩ ሐጌ አማካይነት ያስተላለፋቸው ናቸው። ሕዝቡ ከስደት ተመልሰው በኢየሩሳሌም መኖር ከጀመሩ ጥቂት ዓመቶች ያለፋቸው ቢሆንም እንኳን ቤተ መቅደሱ ገና እንደ ፈረሰ ነበር፤ ስለዚህ መልእክቱ የሕዝቡ መሪዎች ቤተ መቅደሱን እንዲያድሱ የሚገፋፋ ነበር፤ ሕዝቡ በእውነተኛ ፀፀት ንሥሐ ከገቡ፥ እግዚአብሔር ወደ ፊት ሰላምና ብልጽግና እንደሚሰጣቸው ይናገራል።
+— Emmaus PDF p. 519
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- 1. ጌታ ቤተ መቅደሱ እንዲሠራ ማዘዙ (1፥1‑15)
+- 2. ጌታ ለሕዝቡ የሰጠው የበረከትና የማጽናናት ተስፋ (2፥1‑23)
 
 ## Key Themes
 **Priorities of the Kingdom.** "Is it a time for you to dwell in paneled houses while this house lies in ruins?" (1:4). Haggai's challenge to misplaced priorities echoes through Catholic social teaching — the worship of God takes precedence over material comfort. The Temple is type of Christ and the Church, the true dwelling of God among men.

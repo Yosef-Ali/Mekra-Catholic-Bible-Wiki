@@ -4,13 +4,23 @@
 **Amharic:** ትንቢተ ዳንኤል
 **Chapters:** 14
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/jesus-christ-incarnation]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/ascension-and-judgment]], [[teaching/faith-and-revelation]], [[teaching/passion-death-resurrection]], [[teaching/the-church]], [[teaching/holy-spirit]]
 
 ## Overview
 
 ትንቢተ ዳንኤል (The Book of Daniel) is the great apocalyptic book of the Old Testament, set in the Babylonian and Persian exilic period (6th century BC). The book's bilingual composition (Hebrew in 1:1–2:4a and chs. 8–12; Aramaic in 2:4b–7:28) and its placement among the Writings (Ketuvim) in the Hebrew canon rather than the Prophets (Nevi'im) reflects its distinctive character: it is court narrative and apocalyptic vision, wisdom and prophecy. The book divides into the Court Tales (chs. 1–6), recounting the faithfulness of Daniel and his companions in the royal courts of Babylon and Persia — the fiery furnace, the writing on the wall, the lions' den — and the Apocalyptic Visions (chs. 7–12), revealing the succession of world empires, the coming of the Son of Man, and the resurrection of the dead. The Catholic canon includes the Greek additions (Susanna, Bel and the Dragon, the Prayer of Azariah, and the Song of the Three Young Men) as deuterocanonical. Daniel is the Old Testament counterpart to Revelation: where Revelation unveils the triumph of the Lamb, Daniel unveils the coming of the Son of Man and the final victory of the saints of the Most High.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ትንቢተ ዳንኤል የዓለም ሥልጣኔዎች ጊዜያዊ እንደሆኑና በየተራ እንደሚጠፉ ይናገራል። ታላላቅ መንግሥታት ምንም ያህል ገናና ቢሆኑ ጊዜያቸውን ጠብቀው እንደሚወድቁ ከመጽሐፉ መረዳት ይቻላል። በሌላ በኩል ደግሞ የሥልጣኖች ሁሉ ባለቤት የሆነው አምላክ ለንጹሐን ተበዳዮች እንደሚቆምና በመሢሕ አማካኝነት ዘላለማዊ መንግሥትን እንደሚያመጣ ያበሥራል። ትንቢተ ዳንኤል እነዚህን ታሪኮች በተምሳሌቶችና በምሳሌያዊ ዘይቤ ይተርካል። እግዚአብሔር የእስራኤላዊያን ብቻ ሳይሆን የባቢሎናዊያንም ፈጣሪና ጌታ መሆኑን ከመጀመሪያዎቹ የትንቢተ ዳንኤል መጽሐፍ መማር እንችላለን። እንደዚሁም ለእውነተኛ አምላክ ታማኝ የሆነ ሰው በብዙ መከራ ቢያልፍም እንኳን የአምላክን ድጋፍ እንደማያጣ ያመለክታል። መጽሐፉ በማስተዋልና በጥበብ የላቀውን የዳንኤልን፥ እንዲሁም የሦስቱ ጓደኞቹን ፈተናና ድሎች የሚገልጹ ታሪኮች (ክፍል 1-6) ይዟል። ትምህርቱም እምነት ያላቸው ሰዎች ፈተናን መቋቋምና መከራን ማሸነፍ እንደሚችሉ የሚያሳይ ነው። እነኚህ ታሪኮች ዘመን የማይሽረው መልእክት አላቸው። ከዚህም የተነሣ በተለያየ ዘመን ፈተና ለደረሰባቸው ሰዎች በእምነት መጽናትና ተስፋ ማድረግ ምን ያህል አስፈላጊ እንደሆነ ያሳያል። በመቃቢያን ዘመንም በግሪካዊያን ተጽእኖ የእምነታቸውን ትእዛዛት እንዳይጠብቁ የተከለከሉ አይሁዶች በትንቢተ ዳንኤል ንባብ ይጽናኑ ነበር። የትንቢተ ዳንኤል ሁለተኛው ክፍል ከ 7-12 ምዕራፎች የእግዚአብሔር መንግሥት ሲመጣ የሚከሰቱትን ነገሮች በራእይ መልክ ያሳያል። የመሢሕንም ዘመን መልካም ተስፋዎች ያበሥራል። መጽሐፉ እንደሚገልጸው የጥንት ታላላቅ ነገሥታት በጌታ ላይ የተነሡት በከንቱ ነበር። ጌታም ሁሉንም ኃይሎች አሸንፏል፤ መንግሥቱንም ለዘላለም ይጠብቃታል። ሙታንም ሽልማት ወይም ቅጣት ለመቀበል ይነሣሉ። ከዚህ ራእያዊ ሥነ ጽሑፍ፥ ትክክለኛ ምግባርን መጠበቅን፥ ለመለኮታዊ ኃይል መገዛትን፥ የእግዚአብሔርን መንግሥት የመጨረሻ ድል አድራጊነትን መቀበልን እንማራለን። የእግዚአብሔር መንግሥት መምጣት በወንጌሎች ውስጥ ማእከላዊ ሥፍራ ይዟል፤ ኢየሱስ “የእግዚአብሔር መንግሥት መጥታለች” ብሎ በብዙ ምሳሌዎቹ ውስጥ አስተምሯል። “የሰው ልጅ በመጨረሻ ዘመን በደመና ለፍርድ ይመጣል” የተባለውም የወንጌል ጥቅስ በትንቢተ ዳንኤል በምዕራፍ 7 በደመና ከሚመጣው የሰው ልጅ ገለጻ ጋር ይስማማል። በተጨማሪም በምዕራፍ 13-14 ላይ የሶስናን፥ የቤልን እና የድራጎኑን ትረካዎች እናገኛለን። የሶስና ታሪክ፥ ልክ እንደ ዮሴፍ ታሪክ፥ እግዚአብሔር ከንጹሕ ተበዳዮች ጋር እንደሚቆም ያሳያል። እንዲሁም ነቢዩ ዳንኤል የሐሰት ምስክሮችን የሚያጋልጥበት ጥበብ ከእግዚአብሔር እንደተሰጠው ያመለክታል። በቤል እና በድራጎኑ ታሪክም እግዚአብሔር ለዳንኤል በሰጠው ጥበብ አማካኝነት የጣዖት አምልኮና አግባብ የሌለው ፍርሃት ሲጋለጥ ይታያል።
+— Emmaus PDF p. 488
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- ዳንኤል እና የባቢሎን ነገሥታት (1፥1–6፥29)
+- የዳንኤል ራእዮች (7፥1–12፥13)
+- የሶስና፥ የቤልና የድራጎኑ ታሪክ (13፥1–14፥42)
 
 ## Key Themes
 

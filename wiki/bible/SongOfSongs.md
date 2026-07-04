@@ -4,8 +4,8 @@
 **Amharic:** መኃልየ መኃልይ
 **Chapters:** 8
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/god-the-father-creator]], [[teaching/jesus-christ-incarnation]], [[teaching/the-church]], [[teaching/mary]], [[teaching/marriage]], [[teaching/eucharist]], [[teaching/prayer-in-christian-life]]
 
 ## Overview
@@ -13,6 +13,11 @@
 The Song of Songs (መኃልየ መኃልይ, "The Song of Songs" — i.e., the greatest of all songs) is the most passionate and mysterious book in the Bible. A collection of love poems celebrating the mutual desire, pursuit, and union of a man and a woman, the Song has no explicit mention of God, the covenant, the Law, or Israel's history. This startling absence has provoked centuries of interpretation. The literal sense celebrates the goodness of human love, sexuality, and marriage as gifts of the Creator — a necessary antidote to any spirituality that would denigrate the body or eros. Yet the Jewish and Christian traditions have always read the Song as more than love poetry: it is the allegory of God's passionate love for Israel, of Christ the Bridegroom's love for His Bride the Church, and of the individual soul's journey into union with God.
 
 The Song's inclusion in the canon was debated by some rabbis, but Rabbi Akiva famously settled the question: "The whole world is not worth the day on which the Song of Songs was given to Israel; for all the Scriptures are holy, but the Song of Songs is the Holy of Holies." Catholic tradition, following Origen, Bernard of Clairvaux, and John of the Cross, has made the Song the foundational text of mystical theology — the language of spiritual marriage, the dark night, and the soul's transformation in love. The Amharic title መኃልየ መኃልይ (literally "Song of Songs," from the Hebrew Shir ha-Shirim) reflects its superlative status. In the Ethiopian tradition, the Song has been read both liturgically and in the contemplative life of monastic communities.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> መኃልየ መኃልይ የፍቅር ቅኔዎች ስብስብ ነው። ስለ ጾታ መልካምነት፥ የጾታዊ ፍቅርን ዐቢይነትና የዐቢይነትን ጣራ ያሳያል። ግጥሞቹ በምልልስ መልክ ሲቀርቡ፥ የመፈላለግ፥ የመነፋፈቅ፥ የመደናነቅ ጉዞ ነው የሚያሳዩት። አይሁድና ክርስቲያኖች መኃልየ መኃልይ ከጾታዊ ፍቅር ባሻገር የሚከበር ምሥጢር እንዳለው ያስተምራሉ። ምሳሌያዊ ትርጉሞችንም ይሰጣሉ። አይሁድ በዚህ ማኅሌት አማካይነት በእግዚአብሔርና በእስራኤል ሕዝብ መከከል ስለነበረውና ስላለው የፍቅር ታሪክ ያስተምራሉ። (ኢሳ 5፥1-7፤ 54፥4-8፤ 62፥5፤ ኤር. 2፥2፤ 3፤ 32፤ ሕዝ. 16፤ 23፤ ሆሴ. 1-3 ተመልከቱ።) በነቢያት መጻሕፍት ውስጥ አፍቃሪና ታማኝ ለሆነው እግዚአብሔር ሕዝቡ ተገቢ ያልሆነ ምላሽ መስጠቱን የሚገልጹ ምሳሌዎች ይገኛሉ። መኃልየ መኃልይ ግን ስለ መልካም ግንኙነትና ስለ ፍቅር ያስተምራል። ይህ ሐሳብ በኢሳ. 62፥3-5 ላይም ይገኛል። ክርስቲያኖች ደግሞ ይህ ማኅሌት ክርስቶስ ስለ ቤተ ክርስቲያን ያለውን ፍቅር ያስተምራል ይላሉ። ይህ ሐሳብ በማቴዎስ 9፥15 ላይ ይገኛል። ኢየሱስም እንዲህ አላቸው “ሚዜዎች ሙሽራው ከእነርሱ ጋር ሳለ ሊያዝኑ ይችላሉን? ነገር ግን ሙሽራው ከእነርሱ የሚወሰድበት ወራት ይመጣል፤ በዚያ ጊዜም ይጾማሉ።” በማቴዎስ 25፥1-13 የእግዚአብሔር መንግሥት በሙላት መምጣት በሰርግ ምሳሌ ተተርኳል። ዮሐ. 3፥29፤ ኤፌ. 5፥23-32፤ ራእ. 19፥7-9፤ 21፥9-11 ተመልከቱ።
+— Emmaus PDF p. 376
 
 ## Key Themes
 

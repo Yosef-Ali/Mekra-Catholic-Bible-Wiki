@@ -4,8 +4,8 @@
 **Amharic:** መጽሐፈ ሲራክ (ዘኢየሱስ ወልደ ሲራክ)
 **Chapters:** 51
 **Section:** Apocrypha
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/sin]], [[teaching/moral-law-and-grace]], [[teaching/virtues]], [[teaching/marriage]], [[teaching/human-dignity]], [[teaching/society-and-justice]]
 
 ## Overview
@@ -13,6 +13,11 @@
 Sirach (also called Ecclesiasticus, "the Church's Book") is the longest wisdom book in the Catholic canon, composed in Hebrew around 180 BC by Jesus ben Sirach (Yeshua ben Sira) and translated into Greek by his grandson around 132 BC. Unlike Proverbs, which is a collection of short sayings, Sirach is a unified work of ethical instruction covering nearly every aspect of life: honor of parents, friendship, wealth and poverty, speech and silence, women and marriage, the priesthood, sacrifice, and the history of Israel. Its tone is conservative and priestly — deeply invested in the Temple, the Law, and the wisdom tradition. The book was widely used in the early Church (hence its Latin name, Ecclesiasticus, "the Church's book") for catechesis and moral instruction. It remains a treasury of practical wisdom for Catholic life.
 
 Sirach 24 is the theological summit: personified Wisdom speaks of her origin from God, her dwelling in Israel, and her identification with the Torah. This passage is read in the Marian liturgy because the Church applies Wisdom's self-description to the Blessed Virgin, the "Seat of Wisdom."
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> መጽሐፈ ሲራክ የሚለው ርእስ የተወሰደው ከሲራክ 50፥27 መሆኑን መረዳት ይቻላል፦ የኢየሩሳሌም ሰው የሲራክ የልጅ ልጅ፥ የአልዓዛር ልጅ በሆነው በኢያሱ እንደ ተጻፈ ያመለክታል። ደራሲው ከፍተኛ የጥበብ፥ የሕገ ኦሪት፥ የክህነት፥ የቤተመቅደስና የአምልኮ ፍቅር ነበረው። በዘመኑ የነበሩ አንባብያን ቅዱሳት መጻሕፍትን በማጥናት፥ ሃይማኖታቸውን እንዲጠብቁ፥ በአይሁድ እምነት እንዲጸኑ፥ መልካም ሥነ ምግባር እንዲላበሱ ይጋብዛል። በመጽሐፉ ውስጥ አያሌ ምሳሌዎችና ፈሊጦች ይገኛሉ። ምሳሌዎቹም ግለሰብን፥ ቤተሰብንና ማኅበረሰብን ይመለከታሉ፤ እርስ በእርሳቸውና ከአምላክ ጋር ያላቸውን ግንኙነት ይዳስሳሉ። ትኩረት ከሚሰጥባቸው ርእሶች መካከል ወዳጅነት፥ ትምህርት፥ ድህነትና ሀብት፥ ሕጎች፥ አምልኮና አያሌ ባህል ነክ ጉዳዮች ይገኙበታል። መጽሐፉ ከክርስቶስ ልደት በፊት 175 አካባቢ በዕብራይስጥ ቋንቋ እንደ ተጻፈ ይገመታል። የደራሲው የልጅ ልጅ ኢያሱም ይህንኑ መጽሐፍ ወደ ግሪክ ቋንቋ ከክርስቶስ ልደት በፊት በ 117 አካባቢ እንደተረጐመው ይታመናል። ይህንና ተመሳሳይ ፍሬ ሐሳቦችን በመጽሐፉ መቅድም ውስጥ ማግኘት ይቻላል። መጽሐፉን በተለያዩ ርእሶች መከፋፈል ያዳግታል። ምክንያቱም የምሳሌዎቹ ፍሬ ሐሳቦች በሁሉም ክፍሎች ውስጥ የገኛሉና። ሆኖም ከ 1–43 ያሉት ምዕራፎች በአብዛኛው የሥነ ምግባር ጥያቄዎችን ይዳስሳሉ። ከ44፥1–50፥24 ያሉት ምዕራፎች ደግሞ የእስራኤል ታላላቅ የእምነት ሰዎችን የሚያወድስ ክፍልን ያቀርቡልናል። ምዕራፍ 51፥1‑12 ደራሲው ለአምላክ ምስጋና የሚያቀርብበት ክፍል ነው። በምዕራፍ 51፥13‑30 ላይ ደግሞ ሰዎች እውነተኛ ጥበብን እንዲሹና እንዲመርጡ አበክሮ ይጋብዛል።
+— Emmaus PDF p. 390
 
 ## Key Themes
 

@@ -4,8 +4,8 @@
 **Amharic:** ወደ ሮሜ ሰዎች
 **Chapters:** 16
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/baptism]], [[teaching/moral-law-and-grace]], [[teaching/sin]], [[teaching/virtues]], [[teaching/human-dignity]], [[teaching/forgiveness-resurrection-eternal-life]]
 
 ## Overview
@@ -13,6 +13,20 @@
 ወደ ሮሜ ሰዎች (The Letter of Paul to the Romans) is the most systematic and theologically profound of Paul's letters and arguably the single most influential document in Christian history. Written around AD 56–57 from Corinth (or its port Cenchreae, via the deaconess Phoebe in Romans 16:1–2), Paul addresses a mixed Jewish-Gentile Christian community in Rome — a church he did not found and had not yet visited. His purpose is dual: to present his mature understanding of the Gospel (the "good news" of God's righteousness revealed in Christ) and to secure the Roman church's support for his planned mission to Spain (15:24–28).
 
 Romans unfolds as a carefully structured theological argument. After the greeting and thesis statement (1:16–17), Paul demonstrates the universal reign of sin over both Gentiles (1:18–32) and Jews (2:1–3:20). He then proclaims justification by faith apart from works of the Law (3:21–5:21), explores the new life in the Spirit and freedom from sin (6:1–8:39), wrestles with the mystery of Israel's unbelief (9:1–11:36), and concludes with a sweeping exhortation to the transformed Christian life of worship, love, and service (12:1–15:13). The letter is the closest Paul comes to a "summa" of his theology — the gospel of God's righteousness revealed in Christ and received by faith.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> የሐዋርያው የጳውሎስ መልእክት ወደ ሮም ሰዎች የተጻፈው ጳውሎስ በሮም የምትገኘውን ቤተ ክርስቲያን ለመጐብኘት ዕቅድ ስለ ነበረው፥ ተዘጋጅተው እንዲጠብቁት ለማድረግ ነው። የጳውሎስ ዕቅድ በሮም ከሚገኙት ምእመናን ጋር ለጥቂት ጊዜ ከሠራ በኋላ በእነርሱ ረዳትነት ወደ ስፔን ለመሄድ ነበር፤ ስለ ክርስትና እምነት የተረዳውንና ክርስቲያኖች በሕይወታቸው ተግባራዊ ስለሚያደርጉበትም የክርስትና ትምህርት ሁኔታ በመዘርዘር ጽፎአል። ጳውሎስ በሮም ለሚገኙት ምእመናን ሰላምታውን ካስተላለፈና እንደሚጸልይላቸውም ተስፋ ከሰጣቸው በኋላ የመልእክቱን ማእከላዊ ሐሳብ ይገልጻል፤ እርሱም “ ‘ጻድቅ በእምነት ይኖራል’ ተብሎ እንደ ተጻፈ የእግዚአብሔር ጽድቅ ከእምነት ወደ እምነት በእርሱ ይገለጣልና” የሚለው ቃል መሆኑን ያመለክታል። ከዚህ በኋላ ጳውሎስ ይህንኑ ሐሳብ በማስፋፋት ይጽፋል፤ አይሁድም ሆኑ አሕዛብ፥ ሰዎች ሁሉ የኃጢአት ተገዢዎች ስለ ሆኑ ከእግዚአብሔር ጋር መታረቅ ይኖርባቸዋል፤ ሰዎች ከእግዚአብሔር ጋር ሊታረቁ የሚችሉትም በኢየሱስ ክርስቶስ በማመን ነው፤ ከእግዚአብሔር ጋር የሚመሠርቱት አዲስ ኅብረት አዲስ ሕይወት ስለ መሆኑ ጳውሎስ በሰፊው ያስረዳል። አማኝ ከእግዚአብሔር ጋር ሰላም ይኖረዋል፤ በእግዚአብሔርም መንፈስ አማካይነት ከኃጢአትና ከሞት ኃይል ነጻ ይወጣል፤ ከምዕራፍ 5 እስከ 8 ጳውሎስ የእግዚአብሔር ሕግና በአማኞች ሕይወት የሚሠራው የመንፈስ ኃይል ምን እንደሆነ ይገልጣል፤ ከዚህም በመቀጠል ጳውሎስ “እግዚአብሔር ለሰው ዘር ባለው ዕቅድ ውስጥ አይሁድና አሕዛብ እንዴት ሊጣመሩ ይችላሉ?” ለሚለው ጥያቄ መልስ ይሰጣል። አይሁድ ኢየሱስን ሳይቀበሉ መቅረታቸው ለጳውሎስ ትልቅ የሐዘን ምክንያት ነበር። ይሁን እንጂ አይሁድ ኢየሱስን የሚቀበሉበት ጊዜ እንደሚመጣ ጳውሎስ ያምናል፤ በመጨረሻ ጳውሎስ የክርስትናን ሕይወት እንዴት መኖር እንደሚገባ፥ በተለይም ምእመናን እርስ በርስ ባላቸው ግንኙነት የፍቅርን መንገድ እንዴት መከተል እንደሚገባቸው ያስረዳል፤ እግዚአብሔርን ስለ ማገልገል፥ ክርስቲያኖች ስለ አገራቸውና እርስ በእርስ ስለሚኖራቸው ኃላፊነትና በኅሊና ምክንያት ስለሚነሡ ጥያቄዎችም በመዘርዘር ይገልጻል።
+— Emmaus PDF p. 604
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- የመጽሐፉ ፍሬ ሐሳብ መግቢያ (1፥1‑17)
+- መዳን ለሰው ልጅ አስፈላጊ መሆኑ (1፥18–3፥20)
+- የእግዚአብሔር የማዳኑ መንገድ (3፥21–4፥25)
+- በክርስቶስ የሚገኝ አዲስ ሕይወት (5፥1–8፥39)
+- እስራኤል በእግዚአብሔር ዕቅድ (9፥1–11፥36)
+- ክርስቲያናዊ ምግባር (12፥1–15፥13)
+- ማጠቃለያና ሰላምታ (15፥14–16፥27)
 
 ## Key Themes
 

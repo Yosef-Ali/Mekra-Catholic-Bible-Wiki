@@ -4,8 +4,8 @@
 **Amharic:** ኦሪት ዘፀአት
 **Chapters:** 40
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/eucharist]], [[teaching/baptism]], [[teaching/moral-law-and-grace]], [[teaching/god-the-father-creator]], [[teaching/the-church]], [[teaching/jesus-christ-incarnation]], [[teaching/passion-death-resurrection]], [[teaching/holy-spirit]]
 
 ## Overview
@@ -13,6 +13,22 @@
 ኦሪት ዘፀአት (Exodus, meaning "departure" or "going out") is the second book of the Torah and the great narrative of Israel's liberation from Egypt. The book moves from oppressive slavery (ch. 1) through the call of Moses at the burning bush (chs. 3–4), the ten plagues and the Passover (chs. 7–12), the crossing of the Red Sea (chs. 13–15), the journey to Mount Sinai (chs. 16–18), the giving of the Law and the covenant ratification (chs. 19–24), and the construction of the Tabernacle (chs. 25–40). Exodus is the foundational salvation event of the Old Testament: just as Genesis answers "who created the world?", Exodus answers "who redeemed Israel, and how?" The exodus pattern — God sees, hears, descends, delivers, and binds — becomes the paradigm for every subsequent act of divine redemption, culminating in the Paschal Mystery of Christ.
 
 Catholic tradition reads Exodus typologically and sacramentally. The Passover lamb whose blood saves from the destroyer prefigures Christ, the Lamb of God whose blood delivers from sin and death. The crossing of the Red Sea prefigures Baptism. The manna in the wilderness prefigures the Eucharist. The Tabernacle prefigures both the Incarnation (the Word "tabernacled" among us, John 1:14) and the Church as the dwelling place of God. Exodus is not merely Israel's story — it is the Church's story, the great catechism of liberation, covenant, and worship.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> የስሙ ወይም የርእሱ ስያሜ እስራኤላውያን ከግብጽ ከመውጣታቸው ጋር የተያያዘ ነው። ፀአት፦ መውጣት፥ አወጣጥ እንደማለት ነው። ስለዚህ ኦሪት ዘፀአት ማለት የመውጣት ዜና፥ ሥርዓት፥ ደንብ፥ ሕግ ማለት ነው። ዘፀአት የሚለው አመጣጡ ከግሪክ የተወሰደና መውጣት፥ መለየት ማለት ነው (ዘፍ. 50፥24‑25፥ ሉቃ. 9፥31፥ ዕብ. 11፥ 22)። ዘፀአት የሚለው ስያሜ በዕብራይስጥ ቋንቋ ከመጽሐፉ የመጀመሪያ ሁለት ቃላት (ኤሌህ ሽሞት) ትርጉሙም “ስሞች እነዚህ ናቸው” ማለት ነው። በኦሪተ ዘፍጥረት ለተነገረው ታሪክ ተከታይ መጽሐፍ ቢሆንም ለሕጉ ግን የመጀመሪያ መጽሐፍ ነው። የኦሪት ዘፀአት ጠቅላላ ሐሳብ በምዕራፍ 19፥3‑6 ተገልጧል። በተጠቀሱት ቁጥሮች የተገለጸው በሁለት ዋና ዋና ሐሳቦች ሊከፈል ይችላል። እነሱም፦ ግፈኞች በሆኑ ግብጻውያን ላይ የተደረገው የእግዚአብሔር ፍርድ (19፥4‑5) እና ግፍና በደል ለተፈራረቀባቸው እስራኤላውያን የተሰጠው ነጻነትና ሕግ ናቸው (19፥4፤ 19፥5)። በአጠቃላይ ይህ መጽሐፍ እስራኤላውያን በእግዚአብሔር ኃይል፥ በሙሴ መሪነት፥ ከግብጽ ባርነት ወጥተው ቀይ ባሕርን ተሻግረውና በሲና ተራራ ስር ሳሉ የሃይማኖት ሕግና የመንግሥት ሕግ ከተሰጣቸው በኋላ ራሳቸውን የቻሉ ነጻና የእግዚአብሔር ቅዱስ ሕዝብ መባላቸውን በመጀመሪያው ክፍል ይተርካል፤ በ 2 ኛው ክፍል ደግሞ ስለተለያዩ ሕጎች ዘርዝሮ ያስረዳል። ሕጎቹም አሥሩ ትእዛዛት (ዘፀ. 20፥1‑17)፥ የሕዝብ አስተዳደር ሕጎችና (ዘፀ. 21‑23) እና የሃይማኖት ሕጎች ናቸው። ስለመገናኛው ድንኳን ሥርዓት፥ ስለ መሥዋዕትና ስለ ካህናት ሁኔታ የሚናገረው ሁሉ በዚህ ውስጥ ይካተታል (ዘፀ. 24‑30)። የኦሪት ዘፀአት ዓላማ ጠቅለል ባለ መልኩ ሲታይ እግዚአብሔር አምላክ፥ ስሙንና የስሙን ማንነት፥ የማዳን ኃይሉን፥ አመራሩን፥ ቃል ኪዳኑን፥ ሥርዓተ አምልኮውን ይዘረዝራል። እንዲሁም በማይታዘዙት ግብፃውያን እና የእግዚአብሔርን እርዳታ በሚጠብቁት እስራኤላውያን ላይ አስደናቂ ተአምራቱን እንዳሳየ የሚገልጽ መጽሐፍ ነው።
+— Emmaus PDF p. 34
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- የእስራኤል ሕዝብ ከግብጽ ነጻ መውጣት (1፥1–15፥21)
+- የእስራኤል ሕዝብ ባርነት በግብጽ (1፥1‑22)
+- የሙሴ ልደትና እድገት (2፥1–4፥31)
+- ሙሴና አሮን በፈርኦን ፊት (5፥1–11፥10)
+- ፋሲካና ከግብጽ መውጣት (12፥1–15፥21)
+- ከቀይ ባሕር እስከ ሲና ተራራ የተደረገ ጉዞ (15፥22–18፥27)
+- ለእስራኤል ሕዝብ የተሰጠ ሕግና ቃል ኪዳን (19፥1–24፥18)
+- የተቀደሰው ድንኳንና የአምልኮ ሥርዓት (25፥1–40፥38)
+- 4 ዳንና
 
 ## Key Themes
 

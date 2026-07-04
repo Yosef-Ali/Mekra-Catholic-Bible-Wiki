@@ -4,8 +4,8 @@
 **Amharic:** መጽሐፈ መክብብ
 **Chapters:** 12
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/god-the-father-creator]], [[teaching/man-and-the-fall]], [[teaching/sin]], [[teaching/moral-law-and-grace]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/virtues]]
 
 ## Overview
@@ -13,6 +13,11 @@
 Ecclesiastes (መጽሐፈ መክብብ, "The Book of the Preacher/Assembler") is the Bible's most unflinching meditation on the limits of human wisdom and the vanity of life "under the sun." Attributed to Qoheleth (the "Preacher," traditionally identified with Solomon in his old age), the book relentlessly interrogates every source of human meaning — wisdom, pleasure, work, wealth, power, even righteousness — and finds each one insufficient to bear the weight of eternity. Its famous refrain, "Vanity of vanities, all is vanity" (1:2), sets the tone for a work that has been called the most philosophical book in Scripture and the most honest.
 
 Yet Ecclesiastes is not a counsel of despair. The Preacher's honesty about life's futility is the necessary prelude to genuine faith — stripping away every idol so that the fear of God remains as the only solid ground. The book's final word (12:13–14) is not nihilistic but reverent: "Fear God and keep His commandments, for this is the whole duty of man." Catholic tradition reads Ecclesiastes as a diagnosis of the world's vanity apart from God, a diagnosis that finds its cure in the resurrection of Christ — the one who has conquered death and given eternal meaning to temporal life. The Catechism draws on Ecclesiastes in its treatment of the desire for God (CCC 27–30) and the reality of death (CCC 1006–1009). The Amharic title መጽሐፈ መክብብ means "The Book of the Assembler/Preacher," reflecting the Hebrew Qoheleth.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ይህ መጽሐፍ ሰው በሀብት፥ በዝና፥ በስኬት ወይም በስሜት እርካታ የሕይወትን ትርጉምና ዓላማ በሙላት ማግኘት እንደማይችል በትረካና በምሳሌዎች አማካይነት ይገልጻል። ሰው የጥበብንም ምሥጢር በደንብ እንደማይረዳ፥ ነገር ግን ከሞኝነት መራቅ እንዳለበት ያስተምራል። በመጽሐፉ ከሚደጋገሙ መሪ ሐሳቦች አንዱና ዋነኛው “የከንቱ ከንቱ” የሚለው አባባል ነው (1፥14፤ እንደሚችል ያመለክታል። “ታዲያ ከጸሐይ በታች፥ የሰው ልጅ ድካም ትርፉ ምን ይሆን?” የሚለውን ጥያቄ አበክሮ ያቀርባል። እንዲሁም ትንሽ ትርፍ የሚባል ቢገኝ እንኳን ሞት ሁሉንም እኩል እንደሚያደርገው ያወሳል (2፥14‑15፤ 19‑20)። መጽሐፈ መክብብ ሰው በሕይወቱ ከመጠን ያለፈ መተማመንና ትምክህት እንዳይኖረው ያስተምራል። ሆኖም ሰው ተስፋ መቁረጥ ሳይሆን በእግዚአብሔር ስጦታ ሊደሰት እንደሚገባው ያስታውሳል (2፥24፤ 3፥12፤ 5፥17‑18፤ 8፥15፤ 9፥7‑9፤ 11፥9)። በክርስትና እምነት ተከታዮች ዘንድ ይህ መጽሐፍ ሰው በራሱና በዓለም ከመመካት ይልቅ በእግዚአብሔር፥ በክርስቶስና በዘላለማዊ ሕይወት መመካት እንደሚገባው ለማስተማር አገልግሏል። መጽሐፍ መክብብን በሚከተለው መንገድ መክፈል ይቻላል፦ የሕይወትን ትርጒም ፍለጋ (1፥1–6፥9) የሕይወት ትርጒም ድምዳሜ (6፥10-12) የመልካም ተግባርን መንገዶች ማወቅ አስቸጋሪነት (7፥1–8፥17) የወደፊቱን ማወቅ አስቸጋሪነት (9፥1–12፥14)
+— Emmaus PDF p. 372
 
 ## Key Themes
 

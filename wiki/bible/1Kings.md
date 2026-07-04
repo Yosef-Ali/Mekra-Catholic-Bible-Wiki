@@ -4,8 +4,8 @@
 **Amharic:** 1ኛ ነገሥት
 **Chapters:** 22
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/god-the-father-creator]], [[teaching/jesus-christ-incarnation]], [[teaching/the-church]], [[teaching/prayer-in-christian-life]], [[teaching/moral-law-and-grace]]
 
 ## Overview
@@ -13,6 +13,11 @@
 1 Kings (1ኛ ነገሥት, "First Kings") continues the narrative of Israel's monarchy from the death of David through the reign of Solomon and the division of the kingdom. The book opens with Solomon's accession and his famous prayer for wisdom at Gibeon, then recounts the zenith of Israel's united monarchy: the construction and dedication of the Temple in Jerusalem, Solomon's international fame, and the visit of the Queen of Sheba. But the glory fades — Solomon's heart turns to foreign gods, and after his death the kingdom fractures into Israel (north) under Jeroboam and Judah (south) under Rehoboam. The second half of the book shifts to the prophetic ministry of Elijah, the great opponent of Baal worship, culminating in the contest on Mount Carmel (ch. 18) and the mysterious theophany at Horeb (ch. 19). Throughout, 1 Kings evaluates each king by a single criterion: fidelity to the covenant and the exclusive worship of the Lord in Jerusalem. The Temple is the theological center of the book, and Elijah is the prototype of the prophet who calls God's people back to covenant faithfulness — a role that reaches its fulfillment in John the Baptist and ultimately in Christ.
 
 The Amharic title 1ኛ ነገሥት (First Kings) reflects the Septuagint and Vulgate tradition that treats Samuel and Kings as four books of "Kingdoms" (Βασιλειῶν). In Catholic tradition, 1 Kings is read as both historical chronicle and spiritual lesson: Solomon's wisdom prefigures Christ the true Wisdom of God (cf. Matthew 12:42), the Temple prefigures the Church as the dwelling place of God (cf. 1 Corinthians 3:16), and Elijah's ascent in the whirlwind (2 Kings 2) prefigures the Ascension.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> የመጽሐፉ ስያሜ የተገኘው ከዕብራውያን ትውፊት ሲሆን እነርሱ ይህንን መጽሐፍ በቋንቋቸው “ነገሥት” ብለው ይጠሩት ነበር። መጽሐፈ ነገሥት አንደኛ እና ሁለተኛ አንድ ወጥ መጽሐፎች ነበሩ። መጽሐፉ ለመጀመሪያ ጊዜ ለሁለት የተከፈለው የሰብዓ ሊቃናት ተርጓሚዎች በዕብራይስጥ ቋንቋ ተጽፎ የነበረውን ወደ ግሪክ ቋንቋ በተረጐሙበት ጊዜ ነበር። ከዚያ በኋላ የታተሙት መጽሐፎችም ይህንን አከፋፈል ተከትለውታል። መጽሐፉ እንዲጻፍ ምክንያት ከሆኑት ዋና ዋና ነገሮች መካከል፥ በመጽሐፈ ሳሙኤል ተጀምሮ የነበረውን የእስራኤልን ታሪክ የተሟላ ማድረግ አንዱ ነው፤ እስራኤላውያን በደረሰባቸው ጥፋት፥ ማለትም፦ ከሀገራቸው በመባረራቸውና በመማረካቸው አዝነው “እግዚአብሔር ትቶናል” ብለው አስበው ነበር። ጸሐፊው ግን እግዚአብሔር ቃል ኪዳኑን ረስቶ እንዳልተዋቸው፥ ነገር ግን የእስራኤል ነገሥታትና ሕዝቡ እግዚአብሔን ትተውት እንደ ነበር፥ በዚህም ምክንያት ይህ ሁሉ መከራ እንደመጣባቸው ያስገነዝባል። የመጽሐፉ አጠቃላይ ይዘት የንጉሥ ዳዊት የመጨርሻ ዘመን (1፥1–2፥46) የንጉሥ ሰሎሞንና ሥራዎቹ (3፥1–11፥43) የእስራኤል መንግሥት ለሁለት መከፈል (12፥1–22፥54)
+— Emmaus PDF p. 171
 
 ## Key Themes
 

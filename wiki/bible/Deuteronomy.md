@@ -4,13 +4,28 @@
 **Amharic:** ኦሪት ዘዳግም
 **Chapters:** 34
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/moral-law-and-grace]], [[teaching/faith-and-revelation]], [[teaching/first-three-commandments]], [[teaching/the-church]], [[teaching/jesus-christ-incarnation]], [[teaching/eucharist]], [[teaching/baptism]]
 
 ## Overview
 
 ኦሪት ዘዳግም (Deuteronomy, from the Greek δευτερονόμιον meaning "second law") is the fifth and final book of the Torah. Its Hebrew name, דְּבָרִים (Devarim, "words"), captures its literary form: a series of farewell speeches delivered by Moses to Israel on the plains of Moab, east of the Jordan, as the people prepare to enter the Promised Land without him. The book is structured around three major orations (chs. 1–4, 5–28, 29–30), followed by Moses' final blessings, the Song of Moses, and his death on Mount Nebo (chs. 31–34). Deuteronomy is not a mere repetition of the law but a covenant renewal document — Moses recapitulates the exodus and wilderness narrative, re-proclaims the Decalogue (ch. 5), and calls Israel to a wholehearted love of God expressed in obedience. The book is among the most-quoted Old Testament texts in the New Testament: Jesus answers Satan's temptations with Deuteronomy alone (Matthew 4:1–11), and the Shema (6:4–5) is identified by Jesus as the greatest commandment (Mark 12:29–30). Deuteronomy is the charter of covenant fidelity, a summons to choose life, and the theological bridge from the exodus generation to the life of Israel in the land.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ኦሪት ዘዳግም፥ የእስራኤል ሕዝብ ለብዙ ጊዜ በምድረ በዳ ከተጓዙ በኋላ ወደ ከነዓን ለመግባት ጥቂት ሲቀራቸው በሞዓብ ምድር በቆዩበት ጊዜ ሙሴ በተከታታይ ያደረገላቸውን ንግግር የያዘ ነው። በኦሪት ዘዳግም ተመዝግበው ከሚገኙት በጣም ጠቃሚ ከሆኑት ጉዳዮች መካከል አንዳንዶቹ የሚከተሉት ናቸው፦ 1. ሙሴ ባለፉት አርባ ዓመቶች ውስጥ ስለ ተፈጸሙት ታላላቅ ድርጊቶች በማስታወስ ይናገራል፤ እግዚአብሔር በምድረ በዳ እንዴት እንደ መራቸው ሕዝቡን በማስታወስ፥ ለእግዚአብሔር ታማኞች እንዲሆኑና በቅንነት እንዲታዘዙት ያሳስባቸዋል። 2. ሙሴ ዐሥሩን ትእዛዞች እንደገና እየጠቀሰ በተለይ ስለ መጀመሪያው ትእዛዝ ፍች አብራርቶ እያስረዳ፥ ሕዝቡ እግዚአብሔርን ብቻ እንዲያመልኩ ያሳስባቸዋል፤ ከዚህም ጋር በማያያዝ እስራኤላውያን በተስፋይቱ ምድር ስለሚተዳደሩባቸው ልዩ ልዩ ሕጎች በድጋሚ እየጠቀሰ ያብራራል። 3. ሙሴ፥ እግዚአብሔር ከእነርሱ ጋር የገባው ቃል ኪዳን ምን ዓይነት እንደሆነ በመተርጐም፥ ሕዝቡ ለዚህ ቃል ኪዳን ያላቸውን ታማኝነት እንዲያድሱ ያስገነዝባቸዋል። 4. ኢያሱ በሙሴ እግር ተተክቶ የእግዚአብሔር ሕዝብ መሪ በመሆን ይሾማል፤ ሙሴ ስለ እግዚአብሔር ታማኝነት የተቀኘውን መዝሙር ከዘመረና የእስራኤልን ነገዶች በሙሉ ከባረከ በኋላ ከዮርዳኖስ ወንዝ በስተ ምሥራቅ በሚገኘው በሞዓብ ምድር ይሞታል። የመጽሐፉ ፍሬ ነገር እግዚአብሔር የሚወዳቸውንና የተመረጡትን ሕዝቡን ስለ ማዳኑና ስለ መባረኩ ይናገራል፤ ሕዝቡም የእግዚአብሔር በረከት ሳይለያቸው በሕይወት መኖር ይችሉ ዘንድ እግዚአብሔር ያደረገላቸውን ሁሉ በማስታወስ ዘወትር እግዚአብሔርን መውደድና ለእርሱም መታዘዝ እንደሚገባቸው ያስገነዝባል። የመጽሐፉን ዋና ሐሳብ ከያዙ ጥቅሶች መሀል ዘዳግም 6፥4‑6 ይገኝበታል። ኢየሱስ “ከትእዛዞች ሁሉ የምትበልጠው ታላቂቱ ትእዛዝ” ብሎ የተናገራቸውን ቃላት የሚገልጹ ጥቅሶች ናቸው። እነዚህም፦ “እግዚአብሔር አምላክህን በፍጹም ልብህ በፍጹም ነፍስህ፥ በፍጹም ኃይልህ ውደድ” የሚሉት ቃላት ናቸው።
+— Emmaus PDF p. 91
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- ሀ. የመጀመሪያው የሙሴ ንግግር (1፥1–4፥49)
+- ለ. ሁለተኛው የሙሴ ንግግር (5፥1–26፥19)
+- 1. ዐሥሩ ትእዛዞች (5፥1–10፥22)
+- 2. ሕጎች፥ ደንቦችና ማስጠንቀቂያዎች (11፥1–26፥19)
+- ሐ. ወደ ከነዓን ከመግባታቸው በፊት የተሰጠ መመሪያ (27፥1–28፥68)
+- መ. የቃል ኪዳኑ መታደስ (29፥1–30፥20)
+- ሠ. የሙሴ የመጨረሻው ንግግር (31፥1–33፥29)
+- ረ. የሙሴ ሞት (34፥1‑12)
 
 ## Key Themes
 

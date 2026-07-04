@@ -4,13 +4,18 @@
 **Amharic:** ትንቢተ ኤርምያስ
 **Chapters:** 52
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/moral-law-and-grace]], [[teaching/sin]], [[teaching/the-church]], [[teaching/eucharist]], [[teaching/jesus-christ-incarnation]], [[teaching/passion-death-resurrection]], [[teaching/penance]]
 
 ## Overview
 
 ትንቢተ ኤርምያስ (The Book of Jeremiah) is the longest prophetic book in the Old Testament (by word count) and the most intense personal portrait of a prophet's interior life. Jeremiah ben Hilkiah, of the priestly line of Anathoth, received his call as a youth in 627 BC and prophesied for over forty years through the final decades of the kingdom of Judah — the reforms of Josiah, the collapse under Jehoiakim and Zedekiah, the Babylonian siege, the destruction of Jerusalem and the Temple in 587 BC, and the aftermath in Egypt. The book is a complex weave of poetic oracles, prose sermons, biographical narratives (from Baruch the scribe), and the deeply personal "Confessions of Jeremiah" — laments in which the prophet wrestles with God over his vocation, his suffering, and the apparent failure of his mission. Jeremiah is nicknamed "the weeping prophet," but his tears are the tears of God over His faithless bride, Israel. Above all, Jeremiah is the prophet of the new covenant — the promise that God will write His law on human hearts, a promise the Church sees fulfilled in Christ and celebrated in every Eucharist.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> የኬልቅያስ ልጅ ኤርምያስ የካህናት ወገን ከሆነ ቤተሰብ፤ በቢንያም ግዛት በምትገኝ በዓናቶት በምትባል በአነስተኛ ከተማ ተወለደ። ኤርምያስ የነቢይነቱን አገልግሎት የጀመረው በኢዮስያስ በነገሠ በዓሥራ ሦስተኛው ዓመት 627 ከክርስቶስ ልደት በፊት ነበር። አገልግሎቱንም ያበቃው ባቢሎናውያን ኢየሩሳሌምን በ 587 ከክርስቶስ ልደት በፊት ከደመሰስዋት በኋላ ነበር። ነቢዩ ኤርምያስ ራሱን ከሕዝቡ መራራ መከራ ጋር አንድ ስላደረገ ትዳር ሳይመሠርት ቀረ (16፥1-4)። ትንቢተ ኤርምያስ የመጽሐፍ ቅዱስ ረጅሙ መጽሐፍ ነው። ነቢዩ ኤርምያስ ከአሦር አገዛዝ በከፊል ነጻነት ባገኘው በኢዮስያስ፤ የግብጽ ገባር በነበረው በኢዮአቄም፤ በባቢሎን አገዛዝ ሥር በነበረው በሴዴቅያስ ከዚያም ለባቢሎን እንደ ተቀጽላ አስተዳዳሪ በነበረው ጎዶልያስ ዘመነ መንግሥት ሥር አገልግሎአል። መጽሐፉ ምድሪቱ በጣዖት እንደተሞላች (2፥4-13፤ 5፥20-25፤ 28፥13-17) በውጤቱም አስከፊ የእግዚአብሔር ቊጣና ፍርድ እንደሚመጣባት በዋነኝነት የሚናገር ነው። ሕዝቡ እውነተኛ ንስሐ የሚገባ ቢሆን ግን ከእግዚአብሔር ዘንድ የመዳን ተስፋ እንደሚኖረው ይገልጻል (3፥9–4፥2)። ነቢዩ ኤርምያስ ብዙ መከራ ደርሶበታል። ቤተ መቅደስ እንዳይገባ ተከልክሎአል (15፥10)፤ አድሎ ተደርጐበታል (36፥5)፤ ተረግሞአል (17፥15)፤ ሤራ ተሢሮበታል (18፥18፤ 20፥10)፤ በውኃ ማጠራቀምያ ጕድጓድ ተጥሎአል (38፥5)። ይህም ሁኔታ የነቢዩ ኤርምያስ ኑዛዜ ተብለው በሚታወቁት ምዕራፎች (11፥18–12፥6፤ 15፥10-21፤ 17፥14-18፤ 18፥18-23፤ 20፥7-18) ውስጥ ተዘርዝሯል። በዚህም የተነሣ ነቢይ መሆን እንደቆጨው (17፥14-18)፤ እግዚአብሔርም እንዳስቀየመው (15፥15-18)፤ የተወለደበትን ቀን እንደረገመና ሞትንም እንደተመኘ (20፥14-18) ተናግሮአል። በሌላ በኩል፥ ምንም መከራ ቢበዛበትም ነቢዩ ኤርምያስ እግዚአብሔርን ያወድስ ነበር። እንዲሁም ለሕዝቡ በእግዚአብሔር ፊት በጸሎት መማለድን አልተወም ነበር (15፥10፤ በኢየሩሳሌም መሰብሰባቸውንና (27፥3) በእነዚህም መንግሥታት ላይ ጌታ ፍርዱን እንደሚያመጣ ነቢዩ ይገልጻል። ነቢዩ ኤርምያስ እግዚአብሔር ባቢሎንን እንደሾማት ፍርዱንም የሚፈጽምባት መሣርያ እንደ ሆነች ተናግሮአል (4-6)። ይህም ትንቢት ሕዝቡ ንስሐ ባለመግባቱና በኃጢአቱ በመጽናቱ (13፥23) ባቢሎናውያን ኢየሩሳሌምን በደመሰስዋት ጊዜ ተፈጽሟል። በመጨረሻም በምድሪቱ የነበሩት ትሩፋን ጎዶልያስን ከገደሉ በኋላ ነቢዩ ኤርምያስንና ጸሐፊውን ባሮክን በመያዝ ወደ ግብጽ መሸሻቸውን ይገልጻል (43፥6-7)። ትንቢተ ኤርምያስ በግጥምና በዝርው ተጽፎአል። ልብን በብርሃን የሚሞላ የተስፋ ቃል ኪዳን ይገኝበታል። መጽሐፉ በዋነኝነት ስለ ጌታ የፍርድ መልእክት ይናገራል። ይህም የእግዚአብሔርን ሕዝብ ከአደጋ ለማዳን ያለመ ነው። ትንቢተ ኤርምያስ አንድ ሰው ከእግዚአብሔር ጋር ውስጣዊና ግላዊ ዝምድና ሊኖረው እንደሚገባው፤ ውጫዊ ሥርዓተ አምልኮ ለብቻው ፍሬ እንደሌለው ያስረዳል (6፥16-21፤ 7፥21-23)። እውነተኛ ንስሐና ከልብ የመነጨ ተአዝዞ እንደሚገባ፤ ውስጣችንንም በፍጹም ማጽዳትና መለወጥ እንዳለብን ያስተምራል (4፥3-4)። በዚህም አካሄድ የእግዚአብሔርን ቃል የሚሰሙና የሚቀበሉ ተስፋ የሌላቸው አለመሆናቸውን በመልእክቱ ይናገራል። ነቢዩ በመከራ የተጐሳቈለውን ሕዝቡን ያለ ተስፋና ያለ መጽናናት አልተወውም። የነቢዩ ኤርምያስ ተልእኮ ለማፍረስና ለመንቀል ብቻ ሳይሆን ለማነጽና ለመትከልም ነውና (18፥7-9)። ይህንንም የተስፋ ቃል ለማጽናት ነቢዩ ለሕዘቡ “ሕጌን በልባቸው አኖራለሁ፥ በልባቸውም እጽፈዋለሁ፤ እኔም አምላክ እሆናቸዋለሁ፤ እነርሱም ሕዝብ ይሆኑኛል” በማለት የእግዚአብሔርን አዲሱን ቃል ኪዳን ያበሥራል (30፥31-34)። የመጽሐፉ አጠቃላይ ይዘት በኢዮስያስ ዘመን የተነገረ ትንቢት (1፥1–6፥30) በኢዮአቄም ዘመን ቀደም ብሎ የተነገረ ትንቢት (7፥1–20፥18) በኢየሩሳሌም ላይ የተነገረ ትንቢት (21፥1–25፥38) የቤተ መቅደሱ ስብከት (26፥1-24) ከሐሰተኛ ነብያት ጋር የተደረገ ክርክር (27፥1–29፥32) ስለ ኢየሩሳሌምና ስለ ይሁዳ መታደስ የተነገረ ትንቢት (30፥1–35፥19) ኤርምያስ እና የኢየሩሳሌም ውድቀት (36፥1–45፥5) በተለያዩ አገሮች መንግሥታት ላይ የተነገረ የፍርድ ትንቢቶች (46፥1–51፥64) ስለ ኢየሩሳሌም መፍረስ (52፥1-34)
+— Emmaus PDF p. 431
 
 ## Key Themes
 

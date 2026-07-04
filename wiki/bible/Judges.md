@@ -4,13 +4,23 @@
 **Amharic:** መጽሐፈ መሣፍንት
 **Chapters:** 21
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/sin]], [[teaching/moral-law-and-grace]], [[teaching/faith-and-revelation]], [[teaching/the-church]], [[teaching/virtues]]
 
 ## Overview
 
 መጽሐፈ መሣፍንት (Judges, meaning "deliverers" or "rulers") is the seventh book of the Bible and the second book of the Deuteronomistic History. It narrates the turbulent period between Joshua's death and the rise of the monarchy — roughly two centuries of Israel's life in the land, marked by a recurring cycle: apostasy, oppression, cry for deliverance, and the rise of a judge (שֹׁפֵט, shophet) whom God raises up to rescue the people. The book's structure follows a four-part pattern stated in its own theological prologue: "the people did what was evil in the sight of the LORD" (rebellion) → "the LORD gave them into the hand of" an enemy (retribution) → "the people of Israel cried out to the LORD" (repentance) → "the LORD raised up a deliverer" (salvation). After each judge dies, the cycle repeats — and each cycle spirals further downward into chaos. The book's haunting refrain — "In those days there was no king in Israel; everyone did what was right in his own eyes" (17:6; 21:25) — exposes the moral anarchy that results when covenant fidelity collapses. Judges is not a book of heroes but of flawed deliverers: Gideon the fearful, Jephthah the rash, Samson the sensual. The book functions as a sustained argument for the necessity of godly leadership and, ultimately, for the kingship of David — whose dynasty will culminate in Christ, the true Judge and King.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> መጽሐፈ መሳፍንት የእስራኤል ሕዝብ ወደ ከነዓን ከገቡበት ጊዜ አንሥቶ ንጉሣዊው መንግሥት እስከ ተመሠረተበት ጊዜ ድረስ ያለውን ታሪክ የያዘ ነው፤ ይህም ዘመን የእስራኤል ሕዝብ ጣዖትን በማምለክ በእግዚአብሔር ላይ ማመፅን ያበዙበት ጊዜ ነበር። ይህም ታሪክ የሚያመለክተው “መሳፍንት” የተባሉት ታላላቅ መሪዎች የፈጸሙአቸውን ተግባሮች ነው፤ ከእነዚህም መሳፍንት መካከል አብዛኞቹ የጦር መሪዎች ነበሩ፤ ከእነርሱም በጣም የታወቀው ታላቅ መሪ፥ ሥራው ከምዕራፍ 13‑16 ተዘርዝሮ የሚገኘው ሶምሶን የተባለው ሰው ነው። ከመጽሐፉ የምናገኘው ታላቅ ትምህርት የእስራኤል ሕዝብ ህልውና የሚረጋገጠው ለእግዚአ ብሔር ባላቸው ታማኝነት ሲሆን፥ ለእርሱ ታማኞች ሳይሆኑ ሲቀሩ ዘወትር ጥፋት ይደርስባቸው እንደ ነበር የሚያስገነዝበው ነው፤ ከዚህም የበለጠ ሌላ ነገር አለ፤ ይኸውም ሕዝቡ ለእግዚአብሔር ያለውን ታማኝነት በማጓደሉ ጥፋት ቢደርስበትም እንኳ፥ ንስሓ ገብቶ ወደ እርሱ በተመለሰ ቊጥር እግዚአብሔር ያድነው ነበር።
+— Emmaus PDF p. 124
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- እስከ ኢያሱ ሞት ድረስ የነበረው ሁናቴ (1፥1–2፥10)
+- የእስራኤል መሳፍንት (2፥11–16፥31)
+- የተለያዩ ድርጊቶች (17፥1–21፥25)
 
 ## Key Themes
 

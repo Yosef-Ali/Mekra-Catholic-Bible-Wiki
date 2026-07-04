@@ -4,13 +4,18 @@
 **Amharic:** ትንቢተ አሞጽ
 **Chapters:** 9
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/moral-law-and-grace]], [[teaching/faith-and-revelation]], [[teaching/god-the-father-creator]], [[teaching/the-church]], [[teaching/jesus-christ-incarnation]], [[teaching/ascension-and-judgment]]
 
 ## Overview
 
 ትንቢተ አሞጽ (The Book of Amos) is the earliest of the writing prophets and the great prophetic voice for social justice. Amos was not a professional prophet but "a herdsman and a dresser of sycamore figs" (7:14), called by God from Tekoa in Judah to prophesy against the northern kingdom of Israel during the prosperous but corrupt reign of Jeroboam II (c. 760–750 BC). The book's structure is a masterpiece of rhetorical strategy: it opens with oracles against the surrounding nations (chs. 1–2), drawing Israel into applause — until the judgment turns on Israel itself. The core of the book (chs. 3–6) delivers fierce denunciations of social injustice: the rich who trample the poor, the merchants who cheat with false scales, the judges who sell the righteous for silver, and the religious who observe feast days while neglecting justice. Five visions of judgment (chs. 7–9) culminate in the promise of restoration — the fallen booth of David will be raised up. Amos is the prophet of social justice, but his justice is theological: the oppression of the poor is an offense against the God who made heaven and earth and who hears the cry of the afflicted.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> አሞጽ በደቡባዊ የይሁዳ አገር በምትገኝ ቴቁሔ በምትባል መንደር ተወለደ። ንጉሥ ኢዮርብዓም 2ኛ በነገሠበት ዘመን፥ ነቢዩ በሰሜናዊው የእስራኤል መንገሥት ላይ ትንቢትን ተናገረ። አሞጽ በበግ አርቢነት (1፥1)፥ በመንጋ ጠባቂነትና የዋርካ ዛፎችን በመንከባከብ (7፥14) ሥራ ላይ ተሠማርቶ ነበር። ስለዚህም በነቢያት ማኅበር እንዳልነበር፤ የነቢይም ልጅ እንዳልሆነ፥ ዳሩ ግን ጌታ ከዕለታዊ ሥራው ላይ እንደ ጠራው ተናግሮአል (7፥10-17)። አሞጽ ነቢይ ብቻ ሳይሆን ባለ ራእይም ጭምር ነበር (7፥1-9፤ 8፥1—9፥6)። እርሱ ትንቢቱን በተናገረበት ወቅት የእስራኤል መንግሥት ሰላም የሰፈነበትና ታላቅ ባለጸግነት የተቀዳጀበት ዘመን ነበር። ቢሆንም ሀብታሞች ደሀውን በመጨቆንና በመበደል ቁሳዊ ጥቅማ ጥቅሞች ያገኙ ነበር። ይህንንም ሁኔታ ነቢዩ አሞጽ በዝርዝር በማመልከት ወቅሶታል (4፥1፤ 5፥11፤ 6፥4-7፤)። የእስራኤል ሕዝብ የተለያዩ መሥዋዕትን በማቅረብ (4፥4፤ እንኳ የጽድቅንና የፍትሕን ተግባራት አለመፈጸማቸውን ነቢዩ ይናገራል። ሀብታሙ በደሀው ላይ የሚፈጽመውን ኢፍትሐዊ የሀብት ክፍፍል ያወግዛል (2፥6፤ 3፥9-10፤ 4፥1፤ 8፥5-6)። ነቢዩ አሞጽ በመላ እስራኤል ለበዝባዦችና ለጨቋኞች የሚያደላ ሥርዓት ይቃወማል (3፥10፤ 5፥7-24፤ (2፥7፤ 8፥4) ተገቢው ፍትሕ እንዲያገኝ ይከራከራል። እንዲሁም በእስራኤል ያለውን ብልሹ ሥነ ምግባርና (2፥4፤7፤8) የጣዖት አምልኮ (5፥26፤ 8፥14) ቁልጭ አድርጎ ያሳየናል። በጌልገላና በቤርሳቤህ የሚገኙትን የአምልኮ ስፍራዎች ያወግዛል (3፥14፤ 4፥4-5፤ 5፥4-5፤ 7፥10-13)። ነቢዩ የጌታን ፍርድ በአምስቱ ራእዮች ውስጥ ይመለከታል። እንዲሁም ስለ ሁለት የእስራኤል የመታደስ ቃል ኪዳን ትንቢት ይናገራል። ባጠቃላይ ትንቢተ አሞጽ የእግዚአብሔርን የቃል ኪዳኑን ሕግጋት በመተላለፋቸው በአሕዛብ፥ በይሁዳና በእስራኤል መንግሥታት ላይ የሚያመጣውን የቊጣውን ፍርድ የሚገልጽ ትንቢት ነው። ትንቢተ አሞጽ በሦስት ዐበይት ክፍሎች ይከፈላል። አንደኛው ክፍል ከምዕራፍ አንድ እስከ ምዕራፍ ሁለት ያለው ነው፤ ይህም ስለ ነቢዩ አሞጽና የእግዚአብሔርን የቃል ኪዳኑን ሕግ በመተላለፋቸው በሌሎች ሕዝቦች፥ በይሁዳና በእስራኤል መንግሥታት ላይ ስለተሰጠ ፍርድ ያወሳል። ሁለተኛው ክፍል ከምዕራፍ ሦስት እስከ ምዕራፍ ስድስት ድረስ ያለው ነው፤ ይህም የእግዚአብሔርን ኃያልነት ስለማወደስና ጌታ በእስራኤል ላይ ስለሚያመጣው ፍርድ በሰፊው የሚዳስስ ነው። ሦስተኛው ክፍል ከምዕራፍ ሰባት እስከ ምዕራፍ ዘጠኝ ያለውን ያጠቃልላል፤ በዚህም ክፍል ውስጥ ስለ አምስቱ ራእዮች፤ ስለ ቤቴሉ ካህን አሚስያስ፤ ነቢዩ አሞጽ ስለ ተነበየው ትንቢትና ስለ መታደስ የቃል ኪዳን ተስፋ ይናገራል። ትንቢተ አሞጽ እግዚአብሔር በሙሴ አማካይነት የሰጠውን የቃል ኪዳኑን ሕግ መጠበቅ እንደሚገባ፥ የእግዚአብሔር ኃያልነቱና ቃል ኪዳኑ በእስራኤል ላይ ብቻ ሳይሆን በፍጥረታት ሁሉ ላይ እንደሚሠራ፥ ደካማውን የሕብረተሰብ ክፍል መበዝበዝና ፍትሕን በማጓደል መጨቆን እንደማይገባ ያስተምራል፤ ይህ የሆነ እንደሆነ ግን ጌታ በፍርዱ ተገቢውን ምላሽ እንደሚሰጥ በመልእክቱ ውስጥ ይናገራል። ትንቢተ አሞጽ፥ የእስራኤል ልጆች በእግዚአብሔር መመረጣቸው ከሌሎች ሕዝቦች የሚለያቸውና ባለጠግነትን የሚያጎናጽፋቸው ሳይሆን፥ ይልቁንም ፍትሕንና ጽድቅን እንዲፈጽሙ የሚያስገድዳቸው ኃላፊነት መሆኑን ያስረዳል። ፍትሕና ጽድቅ ካልተጨመሩበት በቀር ውጫዊ የአምልኮ ሥርዓትና ባለጠግነት ብቻቸውን የመዳንን የሕይወት የውኃ ምንጭ ሊያስገኙልን አይችሉም። ስለዚህም እንዲህ ያለውን በደሀው ላይ የሚደርሰውን ጭቆና በኀዘን በመመልከት ነቢዩ፦ “ፍርድ እንደ ውኃ፥ ጽድቅም እንደማይደርቅ ምንጭ ይፍሰስ” (5፥24) ብሎ ትንቢት ተናገረ።
+— Emmaus PDF p. 505
 
 ## Key Themes
 

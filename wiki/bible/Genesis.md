@@ -4,8 +4,8 @@
 **Amharic:** ኦሪት ዘፍጥረት
 **Chapters:** 50
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/god-the-father-creator]], [[teaching/man-and-the-fall]], [[teaching/faith-and-revelation]], [[teaching/human-dignity]], [[teaching/sin]], [[teaching/moral-law-and-grace]], [[teaching/the-church]]
 
 ## Overview
@@ -13,6 +13,23 @@
 ኦሪት ዘፍጥረት (Genesis, meaning "origin" or "beginning") is the first book of the Torah (Pentateuch) and the foundation of all Scripture. Traditionally attributed to Moses, it narrates the origins of the cosmos, humanity, sin, and the chosen people of Israel. The book divides into two major sections: the Primeval History (chs. 1–11), which tells of Creation, the Fall, the Flood, and the Tower of Babel — establishing the universal human condition under sin — and the Patriarchal History (chs. 12–50), which recounts God's call of Abraham and His covenant promises carried through Isaac, Jacob, and Joseph. Every major Catholic doctrine — creation, original sin, covenant, election, and the protoevangelium (first gospel) — finds its roots in Genesis. The book's opening words "In the beginning" (በመጀመሪያ) are deliberately echoed in John 1:1, binding creation and redemption in the single economy of the Word.
 
 Genesis is not a scientific textbook but theological narrative: it answers the question of who created and why, not how in modern scientific terms. The Church reads Genesis in light of Christ — Adam is "a type of the one who was to come" (Romans 5:14), Eve prefigures Mary the new Eve, and the covenant with Abraham is fulfilled in the new and eternal covenant. The naming of the book in the Amharic tradition — ኦሪት ዘፍጥረት (the Law of Creation) — underscores its place as the first book of the Law and the interpretive key to the entire biblical canon.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ኦሪት ዘፍጥረት ከኦሪት መጽሐፎች ቀዳሚው ነው። ኦሪት ዘፍጥረት የሚለው የአማርኛው ርእስና በሌሎች ቋንቋዎች ታትመው የምናገኛቸው ሥራዎች የሰባ ሊቃናቱን ስያሜ የተከተሉ ሲሆን፥ የግሪኩን 5፥1 “የአዳም የዘር ሐረግ መጽሐፍ ይህ ነው” ከሚለው ይነሣል። የዕብራይስጡ የርእስ አሰጣጥ ባህል የተለየ ነበር። የአንድ መጽሐፍ ወይም የብራና ጥቅል የመጀመሪያ ቃል ወይም ቃላት ተወስደው ለርእስነት ያገለግላሉ። በዚህም መሠረት ኦሪት ዘፍጥረት በዕብራይስጥ ባሕል “በሬሺት” ተብሎ ነው የሚጠራው። ቃል በቃል ፍቹ “በመጀመርያ” ማለት ነው። ኦሪት ዘፍጥረት በሁለት ዋና ክፍሎች የተዋቀረ ነው። እነርሱም፦ ዘፍ. 1፥1–11፥26 እና መነሻ ይገልጻል፤ እግዚአብሔር ዓለምን እንዴት እንደፈጠረ፥ ምድርንም በሰው ልጆች እንዴት እንደሞላት፥ ከሰው ልጆች ጋር ምን ዓይነት ቃል ኪዳን እንዳቆመ ይገልጻል። ዘፍ. 11፥27–50፥26 የእስራኤልን አባቶች ታሪክ ያቀርባል። ይህም እግዚአብሔር እንዴት አድርጎ እስራኤልን እንደጠራ ካሳየ በኋላ አምላክ የሰጣቸውን በረከትና ምድር እንዴት እንደሚወርሱ ያሳያል። በሁለተኛው ክፍል ውስጥ ታሪኮቹን የሚከፍሉ ሦስት ዋነኛ መለያዎች አሉ። እነርሱም፦ 1. አብርሃምና ሣራ (11፥27– ናቸው። ኦሪት ዘፍጥረት፥ እንደ ስያሜው ስለ ፍጥረት፥ ስለ ዓለምና ስለ ሕይወት፥ ስለ ሰው፥ ስለ ኃጢአት፥ እንደዚሁም ስለ ተመረጡ ሕዝቦች ጅማሬ ይገልጻል። ታሪኩ በአጠቃላይ እግዚአብሔር በራሱ የማዳን እቅድ የሰው ልጆችን ታሪክ ሲመራ፥ ለሰው ያለውን የፍቅሩን ጥበቃ ያሳያል። እንግዲህ የኦሪት ዘፍጥረት ትኩረትም እንደሚከተለው ነው፤ ስለ አዳም፥ በእግዚአብሔርና በፍጥረት መሀል ስለተደረገው ቃል ኪዳን፥ ስለ ኖህ፥ ስለ እስራኤል አባቶች ታሪክ፥ ማለትም ስለ አብርሃም፥ ስለ ይስሐቅ፥ ስለ ያዕቆብና ስለ ዮሴፍ ያስተምራል።
+— Emmaus PDF p. 10
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- ፍጥረት (1፥1–2፥25)
+- የኃጢአትና የችግር አጀማመር (3፥1‑24)
+- ከአዳም እስከ ኖኅ (4፥1–5፥32)
+- ኖኅና የጥፋት ውሃ (6፥1–10፥32)
+- የባቢሎን ግንብ (11፥1‑9)
+- ከሴም እስከ አብርሃም (11፥10‑32)
+- አባቶች አብርሃም፥ ይስሐቅ፥ ያዕቆብ (12፥1–35፥29)
+- የኤሳው ትውልድ (36፥1‑43)
+- ዮሴፍና ወንድሞቹ (37፥1–45፥28)
+- እስራኤላውያን በግብጽ (46፥1–50፥26)
 
 ## Key Themes
 

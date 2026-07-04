@@ -4,8 +4,8 @@
 **Amharic:** ኦሪተ ዘሌዋውያን
 **Chapters:** 27
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/sin]], [[teaching/moral-law-and-grace]], [[teaching/eucharist]], [[teaching/god-the-father-creator]]
 
 ## Overview
@@ -13,6 +13,14 @@
 ኦሪተ ዘሌዋውያን (Leviticus, "pertaining to the Levites") is the third book of the Torah, situated at the foot of Mount Sinai. While Exodus ends with the construction of the Tabernacle, Leviticus provides the instruction manual for worship within it. The book is primarily legal and ritual: it prescribes the sacrificial system (chs. 1–7), the consecration of the Aaronic priesthood (chs. 8–10), purity laws (chs. 11–16), and the Holiness Code (chs. 17–27). Though often considered the most challenging book for modern readers, Leviticus is indispensable for understanding Christ's sacrifice on the Cross and His priesthood. The Letter to the Hebrews cannot be understood without Leviticus. Every sacrifice — burnt offering, grain offering, peace offering, sin offering, guilt offering — finds its fulfillment in the one perfect sacrifice of Christ. The Day of Atonement (ch. 16) with its two goats (one sacrificed, one sent into the wilderness bearing sin) is the most vivid Old Testament type of redemption.
 
 Leviticus also contains the great commandment to love: "You shall love your neighbor as yourself" (19:18), which Jesus identifies as the second greatest commandment (Matt 22:39). The book's central theme is holiness — God is holy, and His people are called to be holy. The separation between clean and unclean, sacred and profane, is not arbitrary but pedagogical, forming Israel in the consciousness of God's transcendent otherness.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ይህ መጽሐፍ ለክህነት አገልግሎት ለእግዚአብሔር ስለ ተለዩት ስለ ሌዊ ነገድ ስለሚናገር ኦሪት ዘሌዋውያን ተብሎ ተሰይሞአል። ኦሪት ዘሌዋውያን በዋነኝነት የአሮን ልጆች መኖር ስለሚገባቸው የቅድስና ሕይወትና መስጠት ስላለባቸው ንጹሕ አምልኮ ያወሳል። በኦሪት ዘፀአት የመጨረሻዎቹ ምዕራፎች ሙሴ የመገናኛውን ድንኳን ሠርቶ መፈጸሙን፤ የእግዚአብሔርም ግርማ በላዩ ላይ መውረዱን ይገልጻል። ኦሪት ዘሌዋውያን ይሄን ሐሳብ ያስቀጥላል። ከዚህ ከአዲሱ መገናኛ ድንኳን እግዚአብሔር በሙሴ በኩል መልእክት ያስተላልፍል። ይህም መልእክት የአሮን ልጆች ለእግዚአብሔርም የተለዩት የሌዊ ነገድና የእስራኤል ጉባኤ ሁሉ ሊከተሉት የሚገባን የአምልኮ ሕጎች፤ ሥርዓቶች፤ ደንቦች፤ መመሪያዎችና ትእዛዞች የያዘ ነው። በጠቅላላው የኦሪት ዘሌዋውያን የመልእክቱ ዋነኛ ዓላማ ለእስራኤል ጉባኤ በሙሉ “እኔ ጌታ አምላካችሁ ቅዱስ ነኝና እናንተ ቅዱሳን ሁኑ” (19፥2) የሚል ነው። ይህም ቅዱስና መለኮታዊ ወደ ሆነው እግዚአብሔር እንዲቀርቡ ይጋብዛል። ለዚህም የሚሆን የአምልኮና የሥነ ምግባር መመሪያዎችን ይሰጣል፤ ይደነግጋልም። ብሔረ ኦሪት ውስጥ ከሚገኙት ስድስት መቶ ዐሥራ ሦስት ትእዛዛት መካከል ሁለት መቶ ሀምሳ ሰባቱ ትእዛዛት በኦሪት ዘሌዋውያን ውስጥ ይገኛሉ። እነዚህም ትዛዛትና ደንቦች እግዚአብሔር የእስራኤል ጌታዋ በመሆኑ (22፥3፤ 25፥38)፥ የሕያዋን ሁሉ ነፍስ በደም ውስጥ በመገኘቱና (17፥11) ጌታ ቅዱስ እንደሆነ እስራኤልም ቅዱስ መሆን አለባት በሚለው ትእዛዝ (20፥26) ላይ የተመሠረቱ ናቸው። ስለዚህ እስራኤላውያን በምድረ በዳ በነበሩ ጊዜ በእግዚአብሔር ፊት ቅድስናቸውን ጠብቀው እንዲቆዩ የሚያስችል ሃይማኖታዊና የአምልኮ መመርያዎችንና ሕጎችን በውስጡ የያዘ ነው። ኦሪት ዘሌዋውያን በሁለት ዐበይት ክፍሎች ይከፈላል። ከምዕራፍ አንድ እስከ ዐሥራ ሰባት አምልኮን የሚመለከቱ ሕግጋትን ይመለከታል፤ ደግሞ ከምዕራፍ ዐሥራ ስምንት እስከ ምዕራፍ ሀያ ሰባት የሥነ ምግባር ሕግጋትን ይመለከታል። እንዲሁም ይህ መጽሐፍ በስድስት ንዑስ ክፍሎች ይከፈላል፤ አንደኛው ክፍል ከምዕራፍ አንድ እስከ ምዕራፍ ሰባት ያለውን የሚያጠቃልል ሲሆን የሚያወሳው ስለተለያዩ መሥዋዕቶች የአቀራረብ ደንቦች ነው። ሁለተኛው ክፍል ከምዕራፍ ስምንት እስከ ምዕራፍ ዐሥር ያለውን የሚያካትት ሲሆን የሚናገረውም አሮንና ልጆቹ የክህነት ማዕረግ ተቀብለው የአምልኮውን ሥርዓት ተግባር ላይ ሲያውሉት የሚገልጽ ነው። ሦስተኛው ክፍል ከምዕራፍ ዐሥራ አንድ እስከ ምዕራፍ ዐሥራ አምስት ያለውን የሚያካትት ሲሆን የሚገልጸውም በአምልኮ ጊዜ ስለሚደረጉ የንጽሕና ሥርዓቶች መመርያ ነው። አራተኛው ክፍል ዐሥራ ስድስተኛውን ምዕራፍ የሚመመለከት ሲሆን በማስተስረያ ቀን በተግባር ስለሚውሉ ደንቦች የሚገልጽ ምዕራፍ ነው። አምስተኛው ክፍል ከምዕራፍ ዐሥራ ሰባት እስከ ምዕራፍ ሀያ ስድስት ያለውን የሚያካትት ሲሆን የቅድስና ሕግ በሚል የሚታወቁትን የተለያዩ ጉዳዮችን የሚመለከት ነው። የመጨረሻውና ስድስተኛው ክፍል ምዕራፍ ሀያ ሰባትን የሚመለከት ሲሆን ስለ መሓላ፤ በፈቃደኝነት ስለሚቀርብ ስጦታና ስለ አስራት የሚገልጽ ምዕራፍ ነው። ኦሪት ዘሌዋውያን በይዘቱ እንዴት የእግዚአብሔር ሕዝብ ከቅዱስ እግዚአብሔር ጋር ያለውን ትስስር ጠብቈ ማቆየት እንደሚችል የሚያስረዳ ነው። ይህ መጽሐፍ ስለ ቅድስና፤ ስለ እግዚአብሔር መገኘት፤ ስለ ቃል ኪዳን፤ ስለ መሥዋዕት ማለትም፤ ለእግዚአብሔር ስለሚቀርብ ስጦታ፤ ለኃጢአት ማስተስረያ ስለሚቀርብ መሥዋዕትና በእግዚአብሔርና በእስራኤል ጉባኤ መካከል መሥዋዕትን በመጠቀም ግንኙነትን ማድረግ ስለሚያስችል መሥዋዕት የሚናገር ነው። ክርስትያኖች ኦሪት ዘሌዋውያንን መተርጎምና መገንዘብ ያለባቸው ለሰው ልጆች ኃጢአት መሥዋዕት ከሆነው ከኢየሱስ ክርስቶስ አንጻር በመመልከት ነው። እንዲሁም በወንጌል ከሚታወቁ ጥቅሶች መካከል አንዱ በኦሪት ዘሌዋውያን 19፥18 ላይ የሚገኘው ጥቅስ ነው፤ እርሱም “ባልንጀራህን እንደ ራስህ ውደድ” የሚለው ነው።
+— Emmaus PDF p. 55
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- ሀ. የመባና የመሥዋዕት ሕግ (1፥1–7፥38)
 
 ## Key Themes
 

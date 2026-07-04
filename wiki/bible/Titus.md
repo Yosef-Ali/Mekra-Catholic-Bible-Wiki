@@ -4,12 +4,24 @@
 **Amharic:** ወደ ቲቶ
 **Chapters:** 3
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/holy-orders]], [[teaching/the-church]], [[teaching/baptism]], [[teaching/moral-law-and-grace]]
 
 ## Overview
 Titus is the shortest of the Pastoral Epistles, written by Paul (or a close disciple) to Titus, his trusted co-worker left on the island of Crete to "set in order what remains, and appoint elders in every town" (1:5). Crete's reputation was notorious — "Cretans are always liars, evil beasts, lazy gluttons" (1:12, quoting Epimenides) — and the fledgling churches needed firm leadership and sound doctrine. The letter combines instructions on ordination of elders/bishops, warnings against false teachers (especially "those of the circumcision," 1:10), and ethical instruction for older men, older women, young men, and slaves. Its theological center is the "appearing of the goodness and loving-kindness of God our Savior" in Christ (3:4–7).
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ቲቶ ወደ ክርስትና እምነት ከመጣ በኋላ ጳውሎስን በወንጌል ተልእኮው በቅርብ የሚረዳ ሰው ነበር። ጳውሎስ ይህን መልእክት የጻፈው በዕድሜ አነስተኛ ለሆነው ለዚሁ ለሥራ ባልደረባው ነው። ቲቶ በዚያን ጊዜ የቤተ ክርስቲያንን ሥራ በመቈጣጠር በቀርጤስ ይገኝ ነበር። መልእክቱ የሚያተኲረው በሦስት ዋና ዋና ነገሮች ላይ ነው፦ አንደኛ፥ የቤተ ክርስቲያን መሪዎች ለሥነ ምግባር ሊሰጡት የሚገባውን ትኩረት ማሳሰብ ነው፤ በተለይ በቀርጤስ ተከስቶ ለነበረው የሥነ ምግባር ብሉሽነት ወቅታዊ የሆነ መልእክት የማስተላለፍ ዓላማ ነበረው። ሁለተኛ፥ በቤተ ክርስቲያን ውስጥ የሚገኙትን የተለያዩ ቡድኖች ማለትም በዕድሜ የገፉ ወንዶችንና ሴቶችን፥ እንዲሁም ወጣቶች ወንዶችንና አገልጋዮችን እንዴት ማስተማር እንደሚገባው ቲቶን ለመምከር ነው። በመጨረሻም ስለ ክርስቲያናዊ ሥነ ምግባር በተለይም በሰላምና በወዳጅነት ስለ መኖር፥ እንዲሁም ከቤተ ክርስቲያን ውስጥ ጥላቻን፥ ክርክርንና መለያየትን ስለ ማስወገድ፥ ለቲቶ ምክርና መመሪያ ለመስጠት ነው።
+— Emmaus PDF p. 649
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መግቢያ (1፥1‑4)
+- የቤተ ክርስቲያን መሪዎች (1፥5‑16)
+- በቤተ ክርስቲያን የተለያዩ ቡድኖች የሥራ ድርሻ (2፥1‑15)
+- ምክርና ማስጠንቀቂያ (3፥1‑11)
+- ማጠቃለያ (3፥12‑15)
 
 ## Key Themes
 **Church Order and Sound Doctrine in a Hostile Culture.** Titus 1:5–9 outlines qualifications for elders/overseers parallel to 1 Timothy 3: the elder must be blameless, the husband of one wife, not arrogant or greedy, hospitable, a lover of good, and "holding firm to the trustworthy word as taught, so that he may be able to give instruction in sound doctrine and also to rebuke those who contradict it" (1:9). False teachers must be silenced because they are upsetting whole families (1:11). To the pure, all things are pure; but to the defiled, nothing is pure (1:15) — a principle distinguishing Christian freedom from both legalism and license.

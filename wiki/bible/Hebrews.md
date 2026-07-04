@@ -4,8 +4,8 @@
 **Amharic:** ወደ ዕብራውያን
 **Chapters:** 13
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/jesus-christ-incarnation]], [[teaching/passion-death-resurrection]], [[teaching/eucharist]], [[teaching/faith-and-revelation]], [[teaching/baptism]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/holy-orders]], [[teaching/the-church]]
 
 ## Overview
@@ -13,6 +13,23 @@
 ወደ ዕብራውያን (The Letter to the Hebrews) is unique among the New Testament writings — less a letter than a sophisticated theological homily, the most Hellenistic in style yet the most deeply rooted in Jewish priestly and sacrificial categories. Authorship has been debated since antiquity; while Eastern tradition favored Paul, modern scholarship is agnostic (Origen's honest verdict: "who wrote the epistle, God only knows"). Likely composed before the destruction of the Temple in AD 70, Hebrews addresses Jewish Christians tempted to abandon their Christian confession and return to the security of the Levitical system. The author's strategy is not to denigrate the old covenant but to show that Christ is its fulfillment — the old was a shadow; Christ is the substance (8:5; 10:1).
 
 Structurally, Hebrews alternates between theological exposition and urgent pastoral exhortation. The opening (1:1–4) is a majestic statement of Christology: God has spoken definitively in His Son, who is the radiance of glory, the exact imprint of God's nature, and the one who made purification for sins before sitting at the right hand of Majesty. The letter then demonstrates Christ's superiority over angels (chs. 1–2), Moses (ch. 3), Joshua (ch. 4), and the Levitical priesthood (chs. 5–7), presents Him as the mediator of a new and better covenant (chs. 8–10), and culminates in the great "Hall of Faith" and exhortation to endurance (chs. 11–12). Hebrews is the New Testament's most sustained exposition of Christ's high priesthood and sacrificial death.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ይህ መልእክት በደረሰባቸው ከባድ ተቃውሞ የተነሣ እምነታቸውን ሊተዉ የተቃረቡ ክርስቲያኖችን ለማጽናናት ተጻፈ ነው። ትውፊት የዚህ መልእክት ጸሐፊ ጳውሎስ እንደ ያስተምራል። ጸሐፊው የዕብራውያን አማኞችን ለታማኝነት የሚጠራቸው ኢየሱስ ክርስቶስ እውነተኛና የመጨረሻው የእግዚአብሔር መገለጥ መሆኑን በማሳየት ነው። እነዚህ ክርስቲያኖች በእምነታቸው እንዲጸኑ ያበረታታቸዋል፤ ይህንንም በሚያደርግበት ጊዜ ሦስት እውነቶችን አጒልቶ ያሳያል፦ 1. በተቀበለው መከራ አማካይነት ለአብ እውነተኛ ታዛዥ የሆነው ኢየሱስ ዘላለማዊ የእግዚአብሔር ልጅ ነው፤ የእግዚአብሔር ልጅ በመሆኑም ከብሉይ ኪዳን ነቢያት፥ ከሙሴና ከመላእክት እጅግ የላቀ ነው። 2. ኢየሱስ ከብሉይ ኪዳን ካህናት እጅግ የላቀ ዘላለማዊ ካህን መሆኑን እግዚአብሔር ራሱ ተናግሮአል። 3. በኢየሱስ በኩል አማኙ ከኃጢአት፥ ከፍርሃትና ከሞት ይድናል፤ በዕብራውያን የእምነት ሥርዓቶችና የእንስሳት መሥዋዕት እንደ ጥላ የነበረው መዳን ሊቀ ካህናት በሆነው ኢየሱስ አማካኝነት ሙላትንና ፍጻሜን አግኝቷል። ጸሐፊው በእስራኤል ታሪክ ዝነኞች የሆኑ የእግዚአብሔር ሰዎችን እምነት እንደ ምሳሌ በመጠቀም በምዕራፍ ዐሥራ አንድ አንባቢዎቹ በእምነታቸው እንዲጸኑ ያሳስባቸዋል፤ እንዲሁም በምዕራፍ ዐሥራ ሁለት አንባቢዎቹ ዐይኖቻቸውን በኢየሱስ ላይ በማተኰር በእምነታቸው እንዲጸኑና ማንኛውም ዓይነት መከራና ሥቃይ ቢደርስባቸው እንኳን እንዲታገሡ ይመክራቸዋል፤ በመጨረሻም የምክርና የማስጠንቀቂያ ቃል በመስጠት ይደመድማል።
+— Emmaus PDF p. 652
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መግቢያ፦ እግዚአብሔር በክርስቶስ መገለጡ (1፥1‑3)
+- ክርስቶስ ከመላእክት በላይ መሆኑ (1፥4–2፥18)
+- ክርስቶስ ከሙሴና ከኢያሱ በላይ መሆኑ (3፥1–4፥13)
+- የክርስቶስ ክህነት የበላይነት (4፥14–7፥28)
+- የክርስቶስ ቃል ኪዳን ዘላለማዊነት (8፥1–9፥22)
+- የክርስቶስ መሥዋዕትነት ብልጫ (9፥23–10፥39)
+- የእምነት ታላቅነት (11፥1–12፥29)
+- እግዚአብሔርን ደስ ማሰኘት (13፥1‑19)
+- የመዝጊያ ጸሎት (13፥20‑21)
+- ማጠቃለያ (13፥22‑25)
 
 ## Key Themes
 

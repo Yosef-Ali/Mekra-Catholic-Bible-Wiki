@@ -4,8 +4,8 @@
 **Amharic:** 1ኛ ወደ ቆሮንቶስ
 **Chapters:** 16
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/eucharist]], [[teaching/the-church]], [[teaching/baptism]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/virtues]], [[teaching/moral-law-and-grace]]
 
 ## Overview
@@ -13,6 +13,21 @@
 1ኛ ወደ ቆሮንቶስ (The First Letter of Paul to the Corinthians) is one of Paul's longest and most pastorally rich letters, written around AD 53–55 from Ephesus during his third missionary journey. Corinth was a bustling, cosmopolitan port city — wealthy, diverse, and notoriously immoral. The Christian community Paul had founded there (Acts 18:1–18) was fracturing under the pressures of factionalism, class division, sexual immorality, lawsuits, idol-food controversies, abuses in worship, and doctrinal confusion about the resurrection. Paul's letter is a pastoral intervention: he addresses each crisis in turn, applying the Gospel to the concrete, messy life of a real first-century church.
 
 The letter's structure is episodic, responding to reports from Chloe's people (1:11) and a letter of questions from the Corinthians themselves (7:1). Paul corrects divisions centered on personalities (chs. 1–4), confronts sexual immorality and lawsuits (chs. 5–6), answers questions about marriage, celibacy, and food offered to idols (chs. 7–10), regulates worship — including head coverings, the Lord's Supper, and spiritual gifts (chs. 11–14) — and delivers the New Testament's most extended defense of the bodily resurrection (ch. 15). At the heart of the letter stands the "Hymn to Love" (ch. 13), which relativizes every spiritual gift and theological insight under the supremacy of ἀγάπη (ፍቅር).
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ጳውሎስ ለቆሮንቶስ ሰዎች የጻፈላቸው የመጀመሪያው መልእክት በቆሮንቶስ ባቋቋመው ቤተ ክርስቲያን ውስጥ ስለ ክርስትና ሕይወትና እምነት ተነሥቶ ለነበረው ችግር መፍትሔ ለማስገኘት በማሰብ ነው። በዚያን ጊዜ ቆሮንቶስ ዓለም ዐቀፋዊት የሆነች የግሪክ ከተማ ከመሆንዋም በላይ አካይያ ለተባለ የሮም ግዛት ዋና ከተማ ነበረች። ይህች ከተማ ታላቅ በሆነ የንግድ እንቅስቃሴ፥ በደረጀ ባህል፥ በመስፋፋት ላይ በነበረ ምግባረ ብልሹነትና በሃይማኖቶች ብዛት የታወቀች ነበረች። ሐዋርያው በተለይ ያተኰረው በቤተ ክርስቲያኒቱ ውስጥ ስለ ነበረው መከፋፈል፥ ስለ ምግባረ ብልሹነትን፥ ስለ ዝሙትና ስለ ጋብቻ፥ ስለ ቤተ ክርስቲያን ሥርዓት፥ ስለ መንፈስ ቅዱስ ስጦታዎችና ስለ ትንሣኤ ነበር፤ እንዲሁም ሐዋርያው የምሥራቹን ቃል በእነዚህ ጥያቄዎች ላይ በማተኰር በጥንቃቄ ያቀርባል። “ፍቅር” እግዚአብሔር ለሕዝቡ ከሰጣቸው ስጦታዎች የበለጠ መሆኑን የሚገልጠው ዐሥራ ሦስተኛው ምዕራፍ ከዚህ መጽሐፍ እጅግ ታዋቂ የሆነው ክፍል እንደሆነ ይገመታል።
+— Emmaus PDF p. 612
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መግቢያ (1፥1‑9)
+- በክርስቲያኖች መካከል የተነሣ መከፋፈል (1፥10–4፥21)
+- ምግባረ ብልሹነትና የቤተሰብ ሕይወት (5፥1–7፥40)
+- ክርስቲያኖችና የክርስቲያን እምነት ያልተቀበሉ (8፥1–11፥1)
+- የቤተ ክርስቲያን ሕይወትና የአምልኮ ሥርዓት (11፥2–14፥40)
+- የክርስቶስና የአማኞች ትንሣኤ (15፥1‑58)
+- በይሁዳ ላሉ ለተቸገሩ ክርስቲያኖች ርዳታ (16፥1‑4)
+- ማጠቃለያ (16፥5‑24)
 
 ## Key Themes
 

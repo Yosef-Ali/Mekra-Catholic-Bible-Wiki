@@ -4,8 +4,8 @@
 **Amharic:** የሐዋርያት ሥራ
 **Chapters:** 28
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/the-church]], [[teaching/holy-spirit]], [[teaching/baptism]], [[teaching/faith-and-revelation]], [[teaching/passion-death-resurrection]], [[teaching/ascension-and-judgment]]
 
 ## Overview
@@ -13,6 +13,24 @@
 የሐዋርያት ሥራ (The Acts of the Apostles) is the second volume of Luke's two-part work, continuing the narrative begun in the Gospel of Luke (ሉቃስ 1:1–4; የሐዋርያት 1:1). Addressed to the same Theophilus, Acts traces the explosive growth of the early Church from the Ascension of Christ through the descent of the Holy Spirit at Pentecost, the missionary journeys of Paul, and the arrival of the Gospel in Rome — the capital of the Gentile world. Traditionally dated c. AD 80–85, Acts is our only canonical history of the apostolic era, bridging the ministry of Jesus with the life of the Pauline churches.
 
 Luke structures Acts around Christ's programmatic promise in Acts 1:8 — "you shall be my witnesses in Jerusalem, in all Judea and Samaria, and to the ends of the earth." The book unfolds in three geographic movements: the Jerusalem mission (chs. 1–7), the Judean and Samaritan expansion (chs. 8–12), and the Pauline mission to the Gentiles culminating in Rome (chs. 13–28). At the center of this geography stands Pentecost (ch. 2), where the promised Holy Spirit descends on the apostles and the Church is born. Acts is thus the narrative of the Spirit — the promised Advocate who empowers, guides, and drives the mission toward the Gentiles, overcoming every barrier of language, culture, and law.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> የሐዋርያት ሥራ ከሉቃስ ወንጌል የቀጠለ ነው፤ የመጽሐፉ ዋና ዓላማ የመጀመሪያዎቹ የኢየሱስ ተከታዮች በመንፈስ ቅዱስ ተመርተው ስለ እርሱ የሚናገረውን የምሥራች ቃል “በኢየሩሳሌም፥ በይሁዳ ምድር ሁሉ፥ በሰማርያ፥ እስከ ምድርም ዳርቻ” (1፥8) እንዴት እንዳሠራጩ መተረክ ነው፤ መጽሐፉ የክርስትና እምነት በአይሁድ መካከል ተጀምሮ የመላው ዓለም ሕዝብ እምነት እስኪሆን ድረስ እንዴት እንደ ተስፋፋ የሚናገር ታሪክ ነው። ክርስቲያኖች የሮምን መንግሥት ለመቀናቀን ውስጥ ለውስጥ የሚሠሩ ሰዎች እንዳልሆኑና የክርስትና ሃይማኖት በአይሁድ ሃይማኖት የተሰጡት ተስፋዎች እንዴት ፍጻሜ እንዳገኙ የሚያስረዳ መጽሐፍ ነው። የሐዋርያት ሥራ ስለ ኢየሱስ የሚነገረው የምሥራች ቃል የሚደርስበት ቦታ በየጊዜው እየሰፋ መሄዱን ያሳያል፤ በተጨማሪም የቤተ ክርስቲያንን መመሥረት በሚያንጸባርቁ ሦስት ዋና ዋና ክፍሎች ሊመደብ ይችላል፦ 1. የክርስትና ሃይማኖት ከኢየሱስ ዕርገት በኋላ በኢየሩሳሌም ስለ መጀመሩ፤ 2. በእስራኤል አገር በሙሉ ስለ መዳረሱ፤ 3. ሮምን ጨምሮ በሜዲቴራኒያን ባሕር ዙሪያ ባሉት አገሮች ስለ መስፋፋቱ። በሐዋርያት ሥራ ውስጥ ጐላ ብሎ የሚታየው የመንፈስ ቅዱስ ሥራ ሲሆን በጰንጠቆስጤ ቀን በኢየሩሳሌም በነበሩት አማኞች ላይ በኃይል መውረዱን፥ እንዲሁም በመጽሐፉ ውስጥ በተዘረዘሩት ድርጊቶች ሁሉ እንደታየው መንፈስ ቅዱስ ቤተ ክርስቲያንንና መሪዎችዋን መምራቱንና ማበረታታቱን ይገልጻል። በጥንት ጊዜ ይቀርብ የነበረው የክርስትና መልእክት በልዩ ልዩ ስብከቶች ውስጥ፥ በአስተዋጽዖ መልክ ቀርቦአል፤ በሐዋርያት ሥራ ውስጥ የተፈጸሙት ድርጊቶችም መልእክቱ በአማኞች ሕይወትና በቤተ ክርስቲያን ኅብረት የነበረው ኃይል ምን ያኽል ታላቅ እንደነበር ያስረዳሉ።
+— Emmaus PDF p. 588
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- የምስክርነቱ ዝግጅት (1፥1‑26)
+- ኢየሱስ በመጨረሻ የሰጠው ትእዛዝና ተስፋ (1፥1‑14)
+- በይሁዳ ቦታ የተተካ (1፥15‑26)
+- ምስክርነት በኢየሩሳሌም (2፥1–8፥3)
+- ምስክርነት በይሁዳና በሰማርያ (8፥4–12፥25)
+- የጳውሎስ ሐዋርያዊ አገልግሎት (13፥1–28፥31)
+- የመጀመሪያው ሐዋርያዊ ጉዞ (13፥1–14፥28)
+- የኢየሩሳሌም ጉባኤ (15፥1‑35)
+- ሁለተኛው ሐዋርያዊ ጉዞ (15፥36–18፥22)
+- ሦስተኛው ሐዋርያዊ ጉዞ (18፥23–21፥16)
+- የጳውሎስ በኢየሩሳሌም፥ በቂሳርያና በሮም መታሰር (21፥17–28፥31)
 
 ## Key Themes
 

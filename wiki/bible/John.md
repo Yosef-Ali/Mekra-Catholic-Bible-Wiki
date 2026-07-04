@@ -4,8 +4,8 @@
 **Amharic:** የዮሐንስ ወንጌል
 **Chapters:** 21
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/jesus-christ-incarnation]], [[teaching/eucharist]], [[teaching/holy-spirit]], [[teaching/faith-and-revelation]], [[teaching/baptism]], [[teaching/god-the-father-creator]], [[teaching/forgiveness-resurrection-eternal-life]]
 
 ## Overview
@@ -13,6 +13,18 @@
 የዮሐንስ ወንጌል (The Gospel according to John) stands apart from Matthew, Mark, and Luke — the "Synoptic" Gospels — in structure, style, and theological depth. Where the Synoptics recount Jesus' Galilean ministry through parables and exorcisms, John presents long discourses, meditative dialogues, and seven great "signs" (σημεῖα) that reveal Jesus' divine identity. Early tradition identifies the author as John the apostle, "the disciple whom Jesus loved" (13:23; 21:20–24), writing in Ephesus toward the end of the first century (c. AD 90–100). The Gospel is the product of decades of theological reflection within the Johannine community, and it opens with the most sublime Christological statement in Scripture: the eternal Word (ቃል/Λόγος) who was with God and was God, through whom all things were made, became flesh and dwelled among us (1:1, 14).
 
 John's stated purpose is evangelistic and life-giving: "these are written that you may believe that Jesus is the Christ, the Son of God, and that believing you may have life in his name" (20:31). The Gospel is structured in two major sections: the Book of Signs (chs. 1–12), where Jesus reveals His glory through seven miracles (changing water to wine, healing the official's son, healing the paralytic, feeding the 5,000, walking on water, healing the man born blind, and raising Lazarus), and the Book of Glory (chs. 13–20), which begins with the Last Supper discourse and proceeds through the Passion, Resurrection, and appearances. The Farewell Discourse (chs. 14–17) is the theological heart of the Gospel, where Jesus promises the coming Paraclete (Holy Spirit) and prays for the unity of all believers.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> የዮሐንስ ወንጌል ሥጋ የለበሰው ሕያው የእግዚአብሔር ቃል በሰዎች መካከል እንደተገለጸ ይተነትናል። መጽሐፉ ራሱ እንደሚገልጠው ይህ ወንጌል የተጻፈው አንባቢዎች ኢየሱስ አዳኝ ሆኖ ይመጣል የተባለው የእግዚአብሔር ልጅ መሆኑን እንዲያምኑ ነው፤ በእርሱም በማመናቸው የዘለዓለም ሕይወት እንደሚኖራቸው ሰዎች እንዲረዱ ተጻፈ (20፥31።) የወንጌሉ መቅድም ዘላለማዊው የእግዚአብሔር ቃልና ኢየሱስ አንድ መሆናቸውን ያሳያል፤ ከዚያም የእግዚአብሔር ልጅ፥ ኢየሱስ የሚሠራቸውን ተአምራት ይዘረዝራል። በተጨማሪም ከእነዚህ ተአምራት ምን ውጤት እንደተገኘ የሚያስረዱት ታሪኮች ይከተላሉ። በዮሐንስ ወንጌል ውስጥ አንዳንድ ሰዎች በኢየሱስ አምነው የእርሱ ተከታዮች ቢሆኑም፥ ሌሎች ደግሞ መቃወማቸውንና በእርሱ አናምንም ማለታቸውን ማስተዋል ይቻላል። ከምዕራፍ 13‑17 ያለው የወንጌል ክፍል የኢየሱስን የስንብት ንግግር አካቷል፤ ይህም ኢየሱስ በተያዘበት ምሽት ከደቀ መዛሙርቱ ጋር ምን ያኽል የጠበቀ ግንኙነት እንደ ነበረውና በስቅለቱም ዋዜማ የመዘጋጀትና የመጽናናት ቃል እንዳሰማቸው ያሳያል። የመጨረሻዎቹ ምዕራፎች ስለ ኢየሱስ መያዝና ለፍርድ መቅረብ፥ ስለ ስቅለቱና ትንሣኤው፥ እንዲሁም ከትንሣኤው በኋላ ለደቀ መዛሙርቱ ስለ መገለጡ የሚያወሱ ናቸው። በዮሐንስ ወንጌል ውስጥ የኢየሱስ የሕማማቱ ወቅት የክብሩም ሰዓት እንደሆነ በተደጋጋሚ ተገልጿል። የዮሐንስ ወንጌል በኢየሱስ ክርስቶስ አማካይነት የሚገኘውን ዘላለማዊ ሕይወት ጐላ አድርጎ ያሳያል፤ ይህም ጸጋ ከወዲሁ በዚህ ምድር ላይ እንደሚጀምር በማሳየት ነው። ለምሳሌ፥ ኢየሱስ “እኔ የሕይወት እንጀራ ነኝ፤ እኔ የዓለም ብርሃን ነኝ፤ እኔ መልካም እረኛ ነኝ፤ እኔ መንገድ፥ እውነት፥ ሕይወትም ነኝ” ሲል ጸጋው በዚህ ምድር ላይ መጀመሩን ያሳያል። የዮሐንስን ወንጌል ልዩ ከሚያደርጉት ነገሮች አንዱ መንፈሳዊ እውነቶችን ለማስረዳት የተለመዱና በዕለታዊ ኑሮ የምንጠቀምባቸውን፥ ማለትም እንደ ውሃ፥ እንጀራ፥ ብርሃን፥ እረኛ፥ በጎች፥ የወይን ተክልና የወይን ፍሬ የመሳሰሉ ነገሮችን በምሳሌ መጠቀሙ ነው።
+— Emmaus PDF p. 575
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መቅድም (1፥1‑18)
+- የልዩ ልዩ ተአምራቶች ወይም ምልክቶች መጽሐፍ (1፥19–12፥50)
+- የክብር መጽሐፍ (13፥1–20፥31)
+- የጌታ በገሊላ እንደገና ለደቀ መዛሙርቱ መገለጡ (21፥1‑25)
+- 5 ብርሃንም
 
 ## Key Themes
 

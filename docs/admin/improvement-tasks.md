@@ -157,7 +157,7 @@ user review each group.
 
 ---
 
-## Task 7 — Wiki enrichment from book intros (M, needs plan confirmation)
+## ✅ DONE 2026-07-04 — Task 7 — Wiki enrichment from book intros (M)
 
 **Context:** `wiki:raw/bible/intros/NN-<Book>.md` holds all 73 printed introductions.
 `wiki/bible/<Book>.md` synthesis pages exist for all books. Wiki rule: discuss

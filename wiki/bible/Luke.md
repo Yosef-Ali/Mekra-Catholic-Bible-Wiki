@@ -4,8 +4,8 @@
 **Amharic:** የሉቃስ ወንጌል
 **Chapters:** 24
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/mary]], [[teaching/eucharist]], [[teaching/holy-spirit]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/the-church]], [[teaching/prayer-in-christian-life]], [[teaching/society-and-justice]]
 
 ## Overview
@@ -13,6 +13,21 @@
 የሉቃስ ወንጌል (The Gospel according to Luke) is the longest Gospel and the first volume of a two-part work (Luke–Acts) that traces the movement of salvation from Nazareth to Jerusalem to the ends of the earth. The author, Luke the beloved physician (Colossians 4:14) and companion of Paul, addresses his work to "most excellent Theophilus" (1:3) — likely a Gentile Christian of high standing, though the name (meaning "lover of God") may also address every reader. Composed around AD 80–85, Luke explicitly states his method: he has carefully investigated everything from the beginning, drawing on eyewitness testimony, to write an orderly account (1:1–4). This is the most self-consciously literary of the Gospels, written in polished Greek and structured with a historian's care.
 
 Luke is the Gospel of mercy, of the marginalized, of women, and of the Holy Spirit. It alone contains the parables of the Good Samaritan (10:25–37) and the Prodigal Son (15:11–32), the Magnificat of Mary (1:46–55), the infancy narratives with their intimate detail (1:5–2:52), and the Emmaus road encounter (24:13–35). Luke's Jesus is the Savior of all — Jew and Gentile, rich and poor, righteous and sinner — whose table fellowship with outcasts scandalizes the religious establishment and reveals the radical inclusivity of the Kingdom. The Gospel is punctuated by joy and praise: angels sing at Jesus' birth, the seventy-two return rejoicing, and the Gospel ends with the disciples in the Temple "continually blessing God" (24:53).
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> የሉቃስ ወንጌል ውስጥ ብዙ ክርስቶሳዊ ጭብጦችን እናገኛለን፤ ከነዚህም ውስጥ የመዳን ምሥጢር ዋነኛው ጭብጥ ነው። ወንጌሉ መዳን የሰው ልጆችን ሁሉ የሚመለከት መሆኑን አበክሮ ያሳያል። ከዚህም የተነሣ ኢየሱስ ሁሉንም ሰውና ሁሉንም ግዛት የእግዚአብሔር ቤተሰብ አድርጎ ለመሰብሰብ እንደመጣ ይተነትናል። እንዲሁም ኢየሱስ ቀደም ብሎ ይመጣል ተብሎ በነቢያት የተነገረለትና፥ የእስራኤል ሕዝብ ሲጠባበቀው የነበረው “መሢሕ” እንደሆነ ይገልጻል። የሉቃስ ወንጌልን ከሌሎቹ ወንጌሎች ለየት የሚያደርጉት ነጥቦች አሉ፤ ከነዚህም ውስጥ ለድሆች፥ ለአሕዛብ፥ ለሴቶች የሚሰጠው ልዩ ትኩረት ይገኝበታል። የሉቃስ ወንጌል የምሕረትና የደስታ ወንጌል ተብሎም ይጠራል። ስለ ደጉ ሳምራዊ (10፥25-37)፥ ጠፍቶ ስለ ተመለሰው ልጅ ታሪክ (15፥11-32)፥ ስለ መላእኩ ገብርኤል የማርያም ብሥራት (1፥26-38)፥ ኢየሱስ በልጅነቱ ወደ ቤተ መቅደስ ስለ መሄዱ (2፥41-51)፥ የምናገኘው በሉቃስ ወንጌል ብቻ ነው። ውብ የሆኑ ዝማሬዎች፥ ማለትም፦ የማርያም የምስጋና ጸሎት (1፥46-55)፥ የዘካርያስ ቡራኬ (1፥46-55)፥ የአረጋዊው ስምዖን ቡራኬ (2፥29-35)፥ “ክብር ለእግዚአብሔር በአርያም ይሁን! ሰላምም ደስ በሚሰኝባቸው ሰዎች መካከል በምድር ይሁን!” የሚለው የመላእክት ዝማሬ በሉቃስ ውስጥ የምናገኛቸው ናቸው።
+— Emmaus PDF p. 557
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መቅድም (1፥1‑4)
+- የኢየሱስ መወለድ (1፥5–2፥52)
+- ኢየሱስ ለአገልግሎት ያደረገው ዝግጅት (3፥1–4፥13)
+- አገልግሎቱን በገሊላ መጀመሩ (4፥14–9፥50)
+- ወደ ኢየሩሳሌም መጓዙና የሉቃስ የጉዞው ትረካ (9፥51–19፥27)
+- በኢየሩሳሌም የማስተማር አገልግሎት (19፥28–21፥38)
+- የሕማማቱ ታሪክ (22፥1–23፥56)
+- የትንሣኤው ታሪክ (24፥1‑53)
 
 ## Key Themes
 

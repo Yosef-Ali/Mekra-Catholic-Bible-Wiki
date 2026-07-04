@@ -4,12 +4,24 @@
 **Amharic:** የይሁዳ
 **Chapters:** 1
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/moral-law-and-grace]], [[teaching/faith-and-revelation]], [[teaching/forgiveness-resurrection-eternal-life]]
 
 ## Overview
 Jude (25 verses), written by "Jude, a servant of Jesus Christ and brother of James" (traditionally one of the "brothers of the Lord"), is a fiery polemic against false teachers who have secretly crept into the Church and perverted God's grace into licentiousness (v. 4). The letter draws heavily on Jewish apocalyptic traditions, citing the punishment of the fallen angels, the destruction of Sodom and Gomorrah, and even the apocryphal Book of Enoch (1 Enoch 1:9 in vv. 14–15) and the Assumption of Moses (v. 9). Jude's original intent was to write about "our common salvation," but the urgency of the crisis redirected him to exhort believers to "contend for the faith that was once for all delivered to the saints" (v. 3).
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> የይሁዳ መልእክት የተጻፈው አማኞች ሳይሆኑ አማኞች መስለው የሐሰት ትምህርት ከሚያሠራጩ ሰዎች ክርስቲያኖችን ለማስጠንቀቅ ነው። በይዘቱ ሁለተኛ ጴጥሮስን በሚመስለው በዚህ አጭር መልእክት ጸሐፊው “በማያዳግም ሁኔታ እግዚአብሔር ለሕዝቡ አንድ ጊዜ ስለ ሰጠው እምነት በብርቱ እንዲጋደሉ” አንባቢዎቹን በጥብቅ ያሳስባል።
+— Emmaus PDF p. 670
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መግቢያ (1‑2)
+- የሐሰተኞች መምህራን ትምህርት፥ ጠባይና ውድቀት (3‑16)
+- እምነትን እንዲጠብቁ የተሰጠ ምክር (17‑23)
+- ቡራኬ (24‑25)
+- ሰላምታ
 
 ## Key Themes
 **Contend for the Faith — The Deposit under Attack.** Jude 3 is the biblical mandate for apologetics and doctrinal vigilance: "contend for the faith that was once for all delivered (παραδοθείσῃ) to the saints." The "faith" here is not merely a personal trust but the body of apostolic teaching — a sacred deposit (depositum fidei) entrusted to the Church and not subject to revision. The false teachers have rejected authority, blasphemed what they do not understand, and followed the way of Cain, Balaam, and Korah (v. 11) — archetypes of rebellion. This informs [[teaching/faith-and-revelation]] on the immutability of the deposit of faith.

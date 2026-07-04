@@ -4,13 +4,24 @@
 **Amharic:** ትንቢተ ዮናስ
 **Chapters:** 4
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/god-the-father-creator]], [[teaching/faith-and-revelation]], [[teaching/jesus-christ-incarnation]], [[teaching/passion-death-resurrection]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/moral-law-and-grace]]
 
 ## Overview
 
 ትንቢተ ዮናስ (The Book of Jonah) is unique among the prophetic books: it contains almost no prophecy — only five Hebrew words of oracle ("Yet forty days, and Nineveh shall be overthrown," 3:4) — and is instead a narrative about a reluctant prophet. Jonah ben Amittai is called to preach repentance to Nineveh, the capital of the Assyrian Empire, Israel's mortal enemy. He flees in the opposite direction, is swallowed by a great fish, prays from its belly, is delivered, finally preaches to Nineveh, and then — when the entire city repents and God relents — is furious at God's mercy. The book is a satire on narrow nationalism and a profound meditation on the universality of God's mercy. Jesus makes Jonah the primary sign of His own death and resurrection: "For just as Jonah was three days and three nights in the belly of the great fish, so will the Son of Man be three days and three nights in the heart of the earth" (Matt 12:40). He also contrasts the repentance of Nineveh at Jonah's preaching with the unbelief of His own generation (Matt 12:41). Jonah is read in its entirety at the Jewish afternoon service of Yom Kippur as the great liturgy of repentance and divine mercy.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ትንቢተ ዮናስ፥ የእግዚአብሔርን ተልእኮ በሸሸ በአንድ ነቢይ ላይ የሚደርሰውን ችግር የሚገልጥ መጽሐፍ በመሆኑ ከሌሎች የትንቢት መጻሕፍት የተለየ መልክ አለው። እግዚአብሔር ዮናስን “የእስራኤል ብርቱ ጠላትና የታላቁ የአሦር መንግሥት ዋና ከተማ ወደነበረችው ወደ ነነዌ ሂድ!” በማለት አዘዘው፤ ዮናስ ግን “እግዚአብሔር ከተማይቱን ለማጥፋት የሰጠውን ብርቱ ማስጠንቀቂያ በሥራ ላይ ላያውለው ይችላል” ብሎ ስላሰበ፥ የእግዚአብሔርን ቃል ይዞ ወደ ነነዌ መሄድ አልፈለገም፤ ብዙ ውጣ ውረድ ካሳለፍ በኋላ ደስ ሳይለው ታዘዘ፤ “ነነዌ ትጠፋለች” ብሎ ተነበየ። ንጉሡ፥ ሕዝቡና እንስሳት የእግዚአብሔርን ምሕረት ለማግኘት ብለው ማቅ ለብሰው መጾም ጀመሩ። ንሥሐ በመግባታቸው ዮናስ የፈራው ነገር ተከሠተ፤ ነነዌም ከጥፋት ዳነች። ዮናስም የጥፋት ትንቢቱ ተፈጻሚነት ሳያገኝ በመቅረቱ አኰረፈ። መጽሐፉ እግዚአብሔር በፍጥረቱ ሁሉ ላይ ሥልጣን እንዳለው ያስረዳል፤ ይልቁንም እግዚአብሔር የፍቅርና የምሕረት አምላክ በመሆኑ የሕዝቡን ጠላቶች ከሚቀጣና ከሚደመስስ ይልቅ ይቅር ሊላቸውና ሊያድናቸው እንደሚወድ ያስረዳል።
+— Emmaus PDF p. 509
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- የዮናስ ከጌታ መሸሽ (1፥1‑16)
+- የዮናስ ጸሎት (2፥1‑11)
+- የዮናስ ወደ ነነዌ መሄድና የሕዝቡ ንስሓ (3፥1‑10)
+- እግዚአብሔር ባደረገው ምሕረት ዮናስ መበሳጨቱ (4፥1‑11)
 
 ## Key Themes
 

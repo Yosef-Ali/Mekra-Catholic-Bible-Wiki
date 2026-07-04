@@ -4,13 +4,36 @@
 **Amharic:** ትንቢተ ኢሳይያስ
 **Chapters:** 66
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/jesus-christ-incarnation]], [[teaching/passion-death-resurrection]], [[teaching/mary]], [[teaching/baptism]], [[teaching/holy-spirit]], [[teaching/the-church]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/god-the-father-creator]]
 
 ## Overview
 
 ትንቢተ ኢሳይያስ (The Book of Isaiah) is the first and greatest of the Major Prophets, spanning the prophetic ministry of Isaiah ben Amoz from the death of King Uzziah (c. 740 BC) through the Assyrian crisis, the Babylonian exile, and the eschatological vision of new heavens and a new earth. The book's 66 chapters mirror the 66 books of the Christian canon and divide broadly into three sections: Proto-Isaiah (chs. 1–39), focused on judgment against Judah and the nations during the Assyrian period; Deutero-Isaiah (chs. 40–55), the "Book of Consolation" addressed to the exiles in Babylon with the promise of a new exodus; and Trito-Isaiah (chs. 56–66), the vision of the restored community and new creation. Isaiah is called the "Fifth Gospel" because of its density of messianic prophecy — no Old Testament book more thoroughly prefigures the person, mission, and passion of Jesus Christ. The Church reads Isaiah especially during Advent and Holy Week: the Immanuel prophecy (7:14), the royal child of peace (9:6–7), the Spirit-anointed servant (61:1–2), and above all the Fourth Servant Song (52:13–53:12) are the scriptural spine of the Church's Christology.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ትንቢተ ኢሳይያስ ከክርስቶስ ልደት በፊት በስምንተኛው መቶ ዓመት መጨረሻ አካባቢ በኢየሩሳሌም ይኖር በነበረው በታላቁ ነቢይ ስም የተጠራ ነው፤ ይህ መጽሐፍ በሦስት ዋና ዋና ክፍሎች ሊመደብ ይችላል። 1. ከምዕራፍ 1-39 ያለው ክፍል የደቡባዊው መንግሥት፥ ይሁዳ፥ አሦር በተባለ ኃያል መንግሥት ጥቃት ስለሚደርስበት ጊዜ የሚናገር ነው። ኢሳይያስ ይሁዳን በአደጋ ላይ የጣለው የአሦር ኃይል ሳይሆን የሕዝቡ ኃጢአትና ለእግዚአብሔር አለመታዘዝ፥ እንዲሁም በእግዚአብሔር ላይ ያላቸውን እምነት ማጓደል እንደሆነ ተመለከተ፤ ግልጥ በሆነ አነጋገር ጽድቅና ፍትሕ ወደሞላበት ሕይወት እንዲመለሱ ሕዝቡና መሪዎቹ አሳሰበ። ለእግዚአብሔር አለመታዘዝ ክስረትንና ጥፋትን እንደሚያስከትል በማስጠንቀቅ አስተማረ። በተጨማሪም ነቢዩ ኢሳይያስ በሚመጡት ዘመናት በዓለም ዙሪያ ሰላም የሚሰፍን እና በፍጹምነት የሚያስተዳድር ንጉሥ ከዳዊት ዘር እንደሚመጣ አስቀድሞ ተንብዮል። 2. ከምዕራፍ 40-55 ያለው ክፍል በአብዛኛው የይሁዳ ሕዝብ ወደ ባቢሎን በመሰደዱ እንዴት ውድቀትና ተስፋ መቊረጥ እንደደረሰበት የሚናገር ነው። ነቢዩ፥ እግዚአብሔር ሕዝቡን ነጻ የሚያወጣበትና በአዲስ ሁኔታ ኑሮ ይመሠርቱ ዘንድ ወደ ኢየሩሳሌም የሚመልስበት ጊዜ መቃረቡን አበሠረ። በእነዚህ ምዕራፎች ውስጥ ጐልቶ የሚታየው ርእስ እግዚአብሔር የታሪክ ባለቤት መሆኑን፥ ለሕዝቡም ልዩ ተልእኮ መስጠቱን፥ በእስራኤል አማካይነት ሕዝቦችን ሁሉ ወደ እውነተኛው አምላክ መጥራቱን ነው። በዚሁ ክፍል “ስለ እግዚአብሔር አገልጋይ ወይም ባርያ” የሚናገሩት ምንባቦች በብሉይ ኪዳን ከተላለፉት ታላላቅ መልእክቶች መካከል የሚቈጠሩ ናቸው። ይህ አገልጋይ በአዲስ ኪዳንም የክርስቶስ ምሳሌ ነው። 3. ከምዕራፍ 56-66 ያለው ክፍል በአብዛኛውን የሚተርከው ወደ ኢየሩሳሌም ስለተመለሱት እግዚአብሔር ለእስራኤል የሰጠውን የተስፋ ቃል ስለሚጠብቁት ሕዝብ ነው፤ የተለየ ትኲረት እንዲደረግባቸው የተፈለጉት ፍሬ ሐሳቦች ጽድቅና ፍትሕ፥ ሰንበትን ማክበርና መሥዋዕትን ማቅረብ፥ እንዲሁም በጸሎት መትጋት ናቸው። ከዚህ ክፍል ታዋቂው በጣም ታዋቂ ከሚባሉ ጥቅሶች መካከል ኢሳያስ ምዕራፍ 61፥1-2 ይገኝበታ፤ ኢየሱስም በአገልግሎቱ መጀመሪያ ላይ ይህንን ጥቅስ ስለ ጥሪው ማስረጃ አድርጎ አቅርቦታል።
+— Emmaus PDF p. 410
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መግቢያ (1፥1‑31)
+- ስለ ይሁዳና ስለ እስራኤል የተላለፉ መልእክቶች (2፥1–5፥30)
+- ስለ ተስፋ ቀኖችና ስለመሢሕ አመጣጥ ይናገራል (6፥1–9፥7)
+- ስለ ይሁዳና እስራኤል ተጨማሪ መልእክቶች (9፥8–12፥6)
+- የእግዚአብሔር ቅጣት በሌሎች ሕዝቦች ላይ (13፥1–23፥18)
+- ለሚሠቃዩት የእግዚአብሔር ሕዝብ የተስፋ መልእክት (24፥1–27፥13)
+- እግዚአብሔር ዐመፀኛ ሕዝቡን የሚቀጣ መሆኑ (28፥1–31፥9)
+- እግዚአብሔር ኤዶምን የሚቀጣ፥ ኢየሩሳሌምን ግን የሚባርክ መሆኑ (32፥1–35፥10)
+- አሦር፥ ባቢሎን፥ ንጉሥ ሕዝቅያስና ኢሳይያስ (36፥1–39፥8)
+- እግዚአብሔር ሕዝቡን የሚያድን መሆኑ (40፥1–48፥22)
+- የእግዚአብሔር አገልጋይ (49፥1–53፥12)
+- እግዚአብሔር የሰጠውን ተስፋ እንደሚጠብቅ (54፥1–55፥13)
+- ሕዝቦች ሁሉ የእግዚአብሔር ወገኖች ለመሆን እንደሚችሉ (56፥1‑8)
+- ለእግዚአብሔር ታማኞች ያልሆኑ መሪዎች እንደሚቀጡ (56፥9–59፥21)
+- የኢየሩሳሌም የወደፊት የክብር ተስፋ (60፥1–62፥12)
+- የእግዚአብሔር አዲሱ ድንቅ ፍጥረት (63፥1–66፥24)
 
 ## Key Themes
 

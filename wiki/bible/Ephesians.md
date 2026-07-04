@@ -4,8 +4,8 @@
 **Amharic:** ወደ ኤፌሶን
 **Chapters:** 6
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/the-church]], [[teaching/baptism]], [[teaching/faith-and-revelation]], [[teaching/god-the-father-creator]], [[teaching/moral-law-and-grace]], [[teaching/virtues]], [[teaching/holy-spirit]]
 
 ## Overview
@@ -13,6 +13,49 @@
 ወደ ኤፌሶን (The Letter of Paul to the Ephesians) is the most cosmic and ecclesial of the Pauline letters. While some dispute whether Paul himself wrote it or a close disciple in his name, the letter stands within the Pauline corpus as a maturing of themes from Colossians and the undisputed letters. Written likely from prison (3:1; 4:1; 6:20) around AD 60–62, Ephesians addresses not a specific crisis but the grand sweep of God's eternal plan — the "mystery" hidden for ages and now revealed: that in Christ, Jews and Gentiles are reconciled into one Body, the Church, which is the fullness of Christ who fills all in all (1:23).
 
 The letter divides into two majestic halves. The theological section (chs. 1–3) is written in the mode of prayer and doxology: Paul blesses God for election before the foundation of the world (1:4), redemption through Christ's blood (1:7), the sealing of the Spirit as the guarantee of inheritance (1:13–14), and the revelation of the mystery that Gentiles are fellow-heirs and members of the same Body (3:6). The ethical section (chs. 4–6) flows from this: "I therefore, a prisoner for the Lord, urge you to walk in a manner worthy of the calling" (4:1). The unity of the Spirit (4:1–16), the putting off of the old self (4:17–24), the household code (5:21–6:9), and the armor of God (6:10–20) all unfold from the indicative of what God has done in Christ.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ጳውሎስ ለኤፌሶን ሰዎች የጻፈው መልእክት ከሁሉ በፊት የሚያተኲረው “የእግዚአብሔር ዕቅድ የሚፈጸመው በሰማይና በምድር ያሉት ፍጥረቶች ሁሉ ተጠቃለው በአንዱ በክርስቶስ ሥልጣን ሥር የሚሆኑበት ጊዜ ሲደርስ ነው” በሚለው አሳብ ላይ ነው። በተጨማሪም ከኢየሱስ ክርስቶስ ጋር በመተባበር የሰው ዘር ሁሉ አንድ እንዲሆን፥ ይህን ታላቅ ዕቅድ በሥራ ላይ እንዲያውሉት የእግዚአብሔርን ሕዝብ የሚያሳስብ ነው። የኤፌሶን መልእክት በመጀመሪያው ክፍል ጸሐፊው ስለ አንድነት የጀመረውን ርእስ ያስፋፋል። እንደዚሁም እግዚአብሔር አብ ሕዝቡን እንዴት እንደ መረጠ፥ በልጁ በኢየሱስ ክርስቶስ አማካኝነት የኃጢአታቸውን ይቅርታ እንዴት እንዳገኘና እንዴት እንደ ነጻ ይገልጻል። የእግዚአብሔርም ታላቅ የተስፋ ቃል በመንፈስ ቅዱስ አማካይነት እንዴት እንደ ተረጋገጠ ያስረዳል፤ በሁለተኛው ክፍል ደግሞ ጸሐፊው አንባቢዎቹ በጋራ ሕይወታቸው በክርስቶስ ያላቸው አንድነት እውነተኛ ይሆን ዘንድ እንዴት መኖር እንደሚገባቸው ያሳስባቸዋል። ሰዎች በክርስቶስ ባላቸው ኅብረት እንዴት አንድ ላይ እንደሚኖሩ በልዩ ልዩ ፈሊጣዊ አነጋገር ተገልጦአል፤ ቤተ ክርስቲያን በአካል ስትመሰል ክርስቶስ ደግሞ የአካሉ ራስ ሆኖ ተመስሏል፤ ቤተ ክርስቲያን በሕንጻ ስትመሰል ክርስቶስ ደግሞ በማእዘኑ ድንጋይ ይመሰላል፤ ቤተ ክርስቲያን በሚስት ስትመሰል ክርስቶስ በባል ይመሰላል። ጸሐፊው በክርስቶስ በኩል የተገለጠውን የእግዚአብሔርን ጸጋ እጅግ በማድነቅ፥ ሁሉን ነገር የሚመለከተው ከክርስቶስ ፍቅር፥ መሥዋዕትነት፥ ይቅርታ፥ ጸጋና ሰላም አኳያ ነው።
+— Emmaus PDF p. 629
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መግቢያ (1፥1‑2)
+- ክርስቶስና ቤተ ክርስቲያን (1፥3–3፥21)
+- በክርስቶስ አዲስ ሕይወት (4፥1–6፥20)
+- መደምደሚያ (6፥21‑24)
+- እንድንሆን ነው። 13 እናንተም ደግሞ የእውነትን
+- ቃል፥ ይኸውም የመዳናችሁን ወንጌል
+- ሰምታችሁ፥ በክርስቶስም አምናችሁ፥ በተስፋው
+- መንፈስ በመንፈስ ቅዱስ ታተማችሁ፤ 14 እርሱም
+- ለክብሩ ምስጋና ለእግዚአብሔር ሕዝብ ያለውን
+- ሁሉ እስኪዋጅ ድረስ የርስታችን መያዣ ነው።
+- የጳውሎስ ጸሎት
+- ደግሞ፥ በጌታ ኢየሱስ ለቅዱሳኖች
+- ሁሉ ያላችሁን እምነትና ፍቅር ሰምቻለሁ፤
+- በዚህም ምክንያት፥ 16 ስለ እናንተን በጸሎቴ
+- ባስታወስኩ ቍጥር ምስጋናዬን አላቋረጥኩም።
+- 17 የክብር ባለቤት የጌታችን የኢየሱስ ክርስቶስ
+- አባት እግዚአብሔር እርሱን በማወቅ የጥበብንና
+- የመገለጥን መንፈስ እንዲሰጣችሁ እለምናለሁ።
+- 18 በእርሱ የተጠራችሁበት ተስፋ ምን እንደሆን፥
+- ከቅዱሳንም ጋር የሚኖራችሁን የርስት ክብር
+- ባለጠግነት ምንነት እንድታውቁ፥ የልቦናችሁ
+- ዐይኖች እንዲበሩ፤ 19 ለእኛ ለምናምነውም
+- ከሁሉ በላይ ታላቅ የሆነውን፥ የኀይሉ ታላቅ
+- ብርታት አሠራር፥ ኀይሉን ምን እንደሆን
+- እንድታውቁ፥ 20 ይህን ኃይል እርሱ ክርስቶስን
+- ከሙታን ሲያስነሣውና በሰማያዊ ስፍራ በቀኙ
+- ሲያስቀምጠው የታየ ነው። 21 የተቀመጠውም
+- ከግዛትና ከሥልጣን፥ ከኃይልና ከጌትነት
+- እንዲሁም በዚህ ዘመን ብቻ ሳይሆን
+- በሚመጣውም ዘመን ቢሆን ከሚጠራው ስም
+- ሁሉ በላይ ነው። 22 ሁሉንም ከእግሩ በታች
+- አስገዛለት፤ ከሁሉ በላይም ራስ እንዲሆን ለቤተ
+- ክርስቲያን ሰጠው። 23 እርሷም አካሉና ሁሉን
+- በሁሉ የሚሞላ የእርሱ ሙላቱ ናት።
+- 15 እኔ
+- ምዕራፍ 2
 
 ## Key Themes
 

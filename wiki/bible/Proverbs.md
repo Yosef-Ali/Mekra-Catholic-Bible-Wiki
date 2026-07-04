@@ -4,8 +4,8 @@
 **Amharic:** መጽሐፈ ምሳሌ
 **Chapters:** 31
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/god-the-father-creator]], [[teaching/morality-and-conscience]], [[teaching/virtues]], [[teaching/moral-law-and-grace]], [[teaching/human-dignity]], [[teaching/marriage]], [[teaching/society-and-justice]]
 
 ## Overview
@@ -13,6 +13,11 @@
 The Book of Proverbs (መጽሐፈ ምሳሌ, "The Book of Parables/Proverbs") is the Bible's primary repository of practical wisdom, a collection of sayings and instructions for living well in the fear of the Lord. Traditionally attributed to Solomon (1:1, 10:1, 25:1), though incorporating contributions from other sages (Agur, Lemuel) and the editorial work of Hezekiah's court, Proverbs addresses every dimension of human life: family, work, speech, wealth, friendship, justice, and the education of the young. Its genre is the mashal (ምሳሌ) — a compact, memorable saying that invites reflection and application. The book's structure moves from extended fatherly instructions in chapters 1–9 (where Wisdom is personified as a woman calling out in the streets) to the short, pithy couplets of chapters 10–29, and culminates in the acrostic poem on the virtuous woman (31:10–31).
 
 Proverbs is not a set of promises or guarantees but observations about how God's moral order generally works — wisdom increases the probability of a life well lived, while folly courts disaster. Catholic tradition reads Proverbs in continuity with the Wisdom literature of the Old Testament (Job, Ecclesiastes, Sirach, Wisdom) and sees its fullest expression in Christ, "the wisdom of God" (1 Corinthians 1:24). The Amharic title መጽሐፈ ምሳሌ ("Book of Proverbs/Parables") captures the mashal form, and the Ethiopian tradition has long valued Proverbs as a manual for Christian character formation, especially for the young.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> መጽሐፈ ምሳሌ የምክሮችና የአባባሎች ስብስብ ሲሆን የመጽሐፉም ዓላማ ጥበብን ማስተማር ነው። ጥበብም የሚመለከተው ሐሳብንና እውቀትን ብቻ ሳይሆን ተግባርን፥ የሕይወት ልምምድን፥ ሙያንና ጸባይንም ጭምር ነው። የጥበብ ባለቤትና ምንጭ አምላክ መሆኑንና ሰዎችም ጥበብን ከአምላክ እንደሚቀበሉ ያስተምራል። እንደ ምሳሌ 16፥12-15 አስተምህሮ ነገሥታት፥ ጻፎችና የቤተሰብ ኃላፊዎች (ምሳሌ 1፥1‑7) በአግባቡ የሚሠሩትና የሚያስተዳድሩት ከእግዚአብሔር በሚቀበሉት ጥበብ ነው። የጥበብ ጉዳይ ከመጽሐፈ መክብብና ከመጽሐፈ ኢዮብ ይልቅ በመጽሐፍ ምሳሌ ውስጥ በሰፊው ተተንትኗል። ለጥበብ የተሰጠው ትኩረት ከሚታይባቸው መንገዶች አንዱ በምሳሌያዊና በዘይቤያዊ ንግግር ጥበብን መግለጽ ነው። በዚህም መሠረት፥ በሰውኛ ዘይቤ፥ ጥበብ በአንዲት እመቤት ተመስላ ቀርባለች። እመቤት ጥበብ ሰዎች ጥበብን እንዲፈልጉ ትጋብዛለች። ሰው በግሉ ወይንም በራሱ ምንም ቢጥር ከጥበብ የሚገኘውን ጸጋ የሚተካካል እውቀትና አቅም ማግኘት አይችልም። ለሰው ልጅ ትልቁ የሕይወት ምርጫ የጥበብን ጎዳና መከተል ነው። ምንም እንኳን የጥበብ ጉዳናን የሚመርጥ ሰው ብዙ መሰናክል ቢገጥመውም፥ በማስተዋል ፈተናዎችን መወጣት ይችላል። ጥበብ ከእግዚአብሔር ስለሚሰጥ፥ ሰው ልቡን ወደ ጥበብ ሊያዘነብል ይገባዋል። ጥበብን ለማግኘት ረጋ ማለትና ማስተዋል ያስፈልጋል። በክርስትና እይታ ክርስቶስ ከአብ የተላክ የእግዚአብሔር ጥበብ ሲሆን፥ ለሰዎች እውነተኛና ሙላት ያለውን ሕይወት ይሰጣል። የክርስቶስም ትምህርት የጥበብ ትምህርት እንደሆነ የያዕቆብ መልክትም ይዘረዝራል። በመጽሐፈ ምሳሌ ውስጥ ዘጠኝ ንኡስ ክፍሎችን ማየት ይቻላል። 1. ርእስና መግቢያ (1፥1‑7) 2. የወላጆች እና የ “እመቤት ጥበብ” ምክር (1፥8–9፥18) 3. የሰለሞን ምሳሌዎች (10፥1–22፥16) 4. የጠቢባን ምሳሌዎች (22፥17–24፥22) 5. ተጨማሪ የጠቢባን ምሳሌዎች (24፥23‑34) 6. ተጨማሪ የሰለሞን ምሳሌዎች (25፥1–29፥27) 7. የአጉርና የሌሎች ጠቢባን ምሳሌዎች ኤሊሁ ንግግር (30፥1‑33) 8. የንጉሥ ልሙኤል ምሳሌዎች (31፥1‑9) 9. የመልካም ሴት ክብር (31፥10‑31)
+— Emmaus PDF p. 358
 
 ## Key Themes
 

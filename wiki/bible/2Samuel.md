@@ -4,13 +4,18 @@
 **Amharic:** 2ኛ ሳሙኤል
 **Chapters:** 24
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/jesus-christ-incarnation]], [[teaching/mary]], [[teaching/the-church]], [[teaching/sin]], [[teaching/forgiveness-resurrection-eternal-life]], [[teaching/passion-death-resurrection]]
 
 ## Overview
 
 2ኛ ሳሙኤል (2 Samuel) is the tenth book of the Bible and the fourth book of the Deuteronomistic History. The book narrates the reign of David — his consolidation of power over Judah and Israel (chs. 1–5), the establishment of Jerusalem as the political and religious capital and the great covenant promise of an eternal dynasty (chs. 6–10), David's catastrophic sin with Bathsheba and its cascading consequences (chs. 11–20), and the final appendix of poems and episodes that close the narrative (chs. 21–24). 2 Samuel is simultaneously a book of triumph and tragedy: it records David's greatest moments — the ark brought to Jerusalem, the Davidic covenant, the defeat of surrounding enemies — and his worst — adultery with Bathsheba, the arranged murder of Uriah, the rape of Tamar, the rebellion of Absalom. The theological center of the book is chapter 7: God's promise to establish David's house and throne forever, a covenant that is unconditional in its ultimate fulfillment (the Messiah) yet administrated through the obedience or disobedience of David's sons. 2 Samuel is the book of the Davidic covenant, the scriptural foundation of messianic hope, and a profound meditation on sin, repentance, and the mercy of God that is greater than all human failure.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ሁለተኛ ሳሙኤል ታሪኩን በሐተታ፥ በግጥም፥ በመዝሙር እና በሥነ ጽሑፋዊ ውበት የሚያቀርብ መጽሐፍ ነው። የሳኦልንና የዮናታንን ሞት በማስመልከት ዳዊት የኀዘን ቅኔ ሲቀኝ ሥነ ጹሑፋዊ ቅርጹ ግጥም እንደሆነ መረዳት ይቻላል። እንዲሁም ሁለተኛ ሳሙኤል የዳዊትን በመላው እስራኤል ላይ መንገሥ ያወሳ፤ በተጨማሪም ከአገር ውስጥና ከአገር ውጪ ካሉት ጠላቶቹ ጋር የነበረውን ጦርነት በሐተታ መልክ ያቀርበዋል። እግዚአብሔር ከሳኦል እጅ ባዳነው ጊዜ ዳዊት በመዝሙር ተቀኝቷል። ሁለተኛ ሳሙኤል ማራኪ፥ ልብ አንጠልጣይ እና የአንባቢያንን ትኩረት የሚስብ መጽሐፍ ነው። የመጽሐፉ አወቃቀር፦ ሁለተኛ ሳሙኤል በሁለት ዋና ዋና ክፍሎች ተዋቅሯል። የመጀመሪያው ክፍል ከምዕራፍ አንድ እስከ ምዕራፍ አራት ስለ ሳኦልና ዮናታን አሟሟት ከተረከ በኋላ ዳዊት በይሁዳ ነገድ ላይ በኬብሮን መንገሱን ያስገነዝበናል። ሁለተኛው ክፍል ደግሞ ከምዕራፍ አምስት ቍጥር አንድ እስከ ምዕራፍ ሀያ አራት ቍጥር ሀያ አምስት ያለው ሐሳብ ሲሆን ዳዊት በመላው እስራኤል ላይ እንደ ነገሠ ይገልጻል። ሕዝቡ በዳዊት አስተዳደር ዘመን በምድራዊ ሀብት የበለጸጉበትና ጠላቶቻቸውን በጦርነት ድል ያደረጉበት ጊዜ ነበር። ዳዊት ታቦቱን ከአቢዳራ ቤት ወደ ኢየሩሳሌም ማምጣቱ በዳዊት ዘመን መንፈሳዊ ተሐድሶ እንደተካሔደ የሚያሳይ ምልክት ነው። ይሁን እንጂ ዳዊት በንግሥናው ጊዜ የልቡን ፍላጎትና ምኞት ለመፈጸም ሲል ክፉ ተግባር ፈጽሟል። የእግዚአብሔርንም ሕግ በመጻረር ከቤርሳቤህ ጋር ዝሙት ፈጽሞል ንጹሕ የሆነውን ኦርዮንን በተንኰል በጦር ሜዳ እንዲሞት አድርጓል። ከዚህም የተነሣ እግዚአብሔር በዳዊት ቤት ላይ ታላቅ ቅጣት እንዳመጣና በጠላቶቹም ፊት እንዳዋረደው ይገልጻል። ዳዊት የዝሙትና ንጹሕ ሰውን የማስገደል ኀጢአቱ፥ እንዲሁም የወንዶች ልጆቹን ኀጢአት አይቶ እንዳላየ ሳይወቅሳቸው መቅረቱ፥ በቤተሰቡና በመላው አገሪቱ የሁከትና የብጥብጥ ምክንያት እንደሆነ እንመለከታለን። የመጽሐፉ አጠቃላይ ይዘት የዳዊት ወደ ዙፋን መምጣት ወይም መንገሥ (1፥1–5፥5) ዳዊት በይሁዳ ላይ እነደ ነገሠ (1፥27–4፥12) ዳዊት በመላው እስራኤል ላይ እነደ ነገሠ (5፥1-5) ዳዊት በንግሥናው ዘመን የፈጸማቸው ተግባራትና ያገኘው ክብር (5፥6–9፥13) ዳዊት ፍልስጥኤማውያንን ድል ማድረጉና ኢየሩሳሌምን መያዙ (5፥6‑25) ዳዊት የቃል ኪዳኑን ታቦት ወደ ኢየሩሳሌም ማምጣቱ (6) እግዚአብሔር ለዳዊት ቤት የገባው ንግሥና የገባው የዘላለም ቃል ኪዳን (7) የዳዊት መንግሥት መስፋፋትና ለሀገሩም ሕዝብ ፍትሕ መስፈኑ (8) ዳዊት ለዮናታን ለግባው ቃል ኪዳን ታማኝነት ማሳየቱ (9) የዳዊት መንግሥት ድክመትና ውድቀት (10፥1–20፥26) ዳዊት በዝሙት መበደሉና ነፍስ ማጥፋቱ (10፥1–12፥31) የዳዊት ልጆች አምኖንና አቤሴሎም መሞት (13፥1–20፥26) የዳዊት መንግሥት በፍጻሜው ላይ የነበረው ገጽታ (21፥1–24፥25)
+— Emmaus PDF p. 157
 
 ## Key Themes
 

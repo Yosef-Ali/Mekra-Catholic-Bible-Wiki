@@ -4,8 +4,8 @@
 **Amharic:** 2ኛ ነገሥት
 **Chapters:** 25
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/jesus-christ-incarnation]], [[teaching/ascension-and-judgment]], [[teaching/faith-and-revelation]], [[teaching/sin]], [[teaching/baptism]], [[teaching/the-church]], [[teaching/prayer-in-christian-life]]
 
 ## Overview
@@ -13,6 +13,11 @@
 2 Kings (2ኛ ነገሥት, "Second Kings") continues the narrative of the divided monarchy from the death of Ahab through the final destruction of Jerusalem and the exile to Babylon. The book is structured around two great trajectories of decline: the northern kingdom of Israel, which spirals through dynastic coups and idolatry until its conquest by Assyria in 722 BC (ch. 17), and the southern kingdom of Judah, which endures longer through periodic reform (Hezekiah, Josiah) but ultimately succumbs to Babylon in 586 BC (ch. 25). The prophetic ministry of Elisha dominates the opening chapters — his miracles, his role in international politics, and his mentorship of the "sons of the prophets" establish him as Elijah's true successor. The book's theological lens is uncompromising: every king is evaluated by fidelity to the covenant and the exclusive worship of the Lord at Jerusalem. The exile is not an accident of history but the long-threatened judgment of God on persistent apostasy. Yet the book's final note — Jehoiachin released from prison and given a seat at the Babylonian king's table (25:27–30) — whispers of a hope beyond judgment, a flicker of the Davidic promise that God has not abandoned His covenant.
 
 The Amharic title 2ኛ ነገሥት (Second Kings) follows the Septuagint-Vulgate tradition of four books of "Kingdoms." Catholic tradition reads 2 Kings as both historical chronicle and theological diagnosis: the exile reveals the cost of infidelity, while Elisha's prophetic signs — healing, feeding, raising the dead — prefigure the works of Christ. The book's unflinching portrayal of divine judgment and the remnant theology it implies find their resolution in the New Testament proclamation that the kingdom of God has drawn near in Jesus, the true Son of David.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> በሁለተኛ መጽሐፈ ነገሥት ውስጥ በኤልያስና በኤልሳዕ የተደረጉት ተአምራት፥ የእስራኤልና የይሁዳ ነገሥታት ታሪክ፥ እንዲሁም የሕዝቡ መማረክ በዘገባና በትረካ ተጽፏል። ሁለተኛ መጽሐፈ ነገሥት በእስራኤልና በይሁዳ ነገሥታት የተፈጸመውን የ 300 ዓመታት ታሪክ ይዟል። መጽሐፉ የአንደኛ መጽሐፈ ነገሥት ተከታይ ሲሆን ታሪኩን የሚጀምረው አንደኛ መጽሐፈ ነገሥት ካቆመበት ነው። ሁለተኛ መጽሐፈ ነገሥት ከሦስት ዋና ዋና ክፍሎች የተዋቀረ ነው። ከምዕራፍ አንድ እስከ ምዕራፍ ሰባት ያለው የመጀመሪያው ክፍል የነቢዩ የኤልያስን በእሳት ሠረገላ ወደ ሰማይ ማረግና፥ የነቢዩ የኤልሳዕን የነቢይነት ዘመን፥ እንዲሁም በነቢዩ በኤልሳዕ የተደረጉ ተኣምራትን የያዘ ነው። ሁለተኛው ክፍል ከምዕራፍ ስምንት እስከ ምዕራፍ ዐሥራ ሰባት ያለው ሲሆን፥ የይሁዳንና የእስራኤልን መንግሥታት ታሪክ የሚዘረዝርና የእስራኤልን መንግሥት መውደቅ የሚተርክ ነው። ከምዕራፍ ዐሥራ ስምንት እስከ ምዕራፍ ሀያ አምስት ያለው ሦስተኛው የመጽሐፉ ክፍል ደግሞ፥ የይሁዳ መንግሥት ብቻውን ያደረገውን የጉዞ ሂደትና በመጨረሻም በናቡከደነፆር መሪነት የይሁዳ ሕዝብ ተማርኮ ወደ ባቢሎን መወሰዱን ይናገራል። ይህ መጽሐፍ እግዚአብሔር ለሚገዙለትና ዘወትር ለሚያመልኩት ክብርን የሚሰጥ፥ ከትእዛዙ ፈቀቅ በሚሉ ላይ ደግሞ ታላቅ መከራን የሚያመጣ፥ በእውነት የሚፈርድ አምላክ መሆኑን ያስተምራል። እግዚአብሔር በሕጉና በትእዛዙ መሠረት እየሄዱ የሚያገለግሉትን ቅዱሳን ሰዎች በምድር ላይ ተሰሚነትንና ክብርን እንደሚሰጣቸው ማስተዋል ይቻላል። ከዚህም በላይ በሰው ልጆች ሁሉ ላይ ከተፈረደው የሞት ፍርድ አምልጠው በሕይወት መኖር እንዲችሉ የሚያደርግ አምላክ መሆኑን ኤልያስን በእሳት ሠረገላ ወደ ሰማይ በማሳረግ አሳይቷል። ለነቢዩ ለኤልሳዕም ሕያዋን ጥፋተኞችን እንዲገድል፥ የሞተን እንዲያስነሣ፥ ሌሎች ታላላቅ ተአምራትን እንዲሠራ ኃይልን ሰጥቶታል። በአንጻሩ ደግሞ በተለያዩ ዘመናት የተነሡት አብዛኞቹ የእስራኤልም ሆኑ የይሁዳ ነገሥታት እግዚአብሔርን ማምለክ ትተው ሌሎች አማልክትን ማምለክ በመጀመራቸው በተለያዩ ጊዜያት በጠላቶቻቸው እንዲወረሩና በምርኮ ከአገራቸው ተወስደው በባዕዳን አገር በመጻተኛነት እንዲኖሩ አድርጓቸዋል። ይህም እግዚአብሔር ለእርሱ የማይታዘዝን ሕዝብ እንዴት እንደሚቅጣ ያሳያል። የመጽሐፉ አጠቃላይ ይዘት የኤልያስና የኤልሳዕ ታሪክና ተአምራት (1፥1–8፥15) የእስራኤልና የይሁዳ መንግሥታት፥ የሰማርያ አወዳደቅ (8፥16–17፥41) የይሁዳ መንግሥት ከንጉሥ ሕዝቅያስ እስከ ባቢሎን ምርኮ (18፥1–25፥30)
+— Emmaus PDF p. 189
 
 ## Key Themes
 

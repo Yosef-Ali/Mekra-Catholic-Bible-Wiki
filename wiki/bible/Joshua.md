@@ -4,13 +4,29 @@
 **Amharic:** መጽሐፈ ኢያሱ
 **Chapters:** 24
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/the-church]], [[teaching/moral-law-and-grace]], [[teaching/god-the-father-creator]], [[teaching/first-three-commandments]]
 
 ## Overview
 
 መጽሐፈ ኢያሱ (Joshua, from the Hebrew יְהוֹשֻׁעַ meaning "YHWH is salvation") is the sixth book of the Bible and the first book of the Deuteronomistic History (Joshua through Kings). The book narrates the entry of Israel into the Promised Land under Joshua's leadership after the death of Moses. Structurally, it divides into three major movements: the crossing of the Jordan and the conquest of the land (chs. 1–12), the distribution of tribal inheritances (chs. 13–21), and the covenant renewal at Shechem (chs. 22–24). Joshua is a book about the fulfillment of God's promises — the land sworn to Abraham, Isaac, and Jacob (Genesis 12:7) is now possessed. But possession is not automatic; it requires Israel's faithful obedience. The book's central command — "Be strong and courageous" (1:6–9) — rings throughout as Joshua leads a new generation out of the wilderness and into their inheritance. The name "Joshua" in Hebrew (Yehoshua) is the same as "Jesus" (Yeshua) in its later form, making the book a profound type of Christ: just as Joshua led Israel into the earthly promised land, so Jesus leads the Church into the heavenly promised land. The conquest narratives raise difficult moral questions but must be read in their theological context as the execution of divine judgment against deeply corrupt Canaanite cultures (Deuteronomy 9:4–5), not as a model for human warfare.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> መጽሐፈ ኢያሱ ወልደ ነዌ ታሪካዊ ይዘት ያለው መጽሐፍ ነው። ይህ መጽሐፍ እግዚአብሔር በሙሴ አማካይነት የመረጠውና የሾመው (ዘኍ. 27፥12‑23) ኢያሱ እስራኤላውያንን በመምራት የከነዓንን ምድር በኃይል መያዙን ይተርካል። እንዲሁም በዘፍጥረት እግዚአብሔር ለአብርሃም፥ ለይስሐቅና ለእስራኤል ልጆች የሰጠው የርስት ቃል ኪዳን በመጽሐፈ ኢያሱ ሲፈጸም ይታያል። ይሄው ቃል ኪዳን በዘኍልቅም በሙሴ መሪነት በዮርዳኖስ ወንዝ በስተ ምሥራቅ መከናወን ጀምሮ በመጽሐፈ ኢያሱ በተግባር ላይ ሲውል ይታያል። መጽሐፈ ኢያሱ የኦሪት ዘዳግምን ሐሳብ የሚያስቀጥል ጽሑፍ ነው። በሁለቱ መጻሕፍት መካከልም ጠንካራ የሐሳብ ቊርኝት አለ። ኢያሱ በእግዚአብሔር ተልእኮ ተሰጥቶታል። እርሱም በዘዳግም ምዕራፍ ሰባት ቊጥር አንድና ምዕራፍ ሀያ ከቊጥር ዐሥራ ስድስት እስከ ዐሥራ ስምንት ላይ ባሉት ሕግጋት ላይ ተመሥርቶ ተግባራቱን ይፈጽማል። ኢያሱ አመንዝራይቱን ረዓብንና ቤተሰብዋን በመታደግ ከነዓናውያንን ማጥፋቱ (6፥22‑27)፤ ከይሁዳ ነገድ የሆነውን አካንንና ቤተሰቡን ባለመታመናቸው በድንጋይ እንዲወገሩ ማድረጉ (7፥1–8፥29) የገባዖንን ሰዎች በማገዝ በቅዱስ ጦርነት የኢየሩሳሌምን ንጉሥ ጥምር ኃይልንና ሠላሳ አንድ የሚሆኑትን የከነዓን ነገሥታትን ማጥፋቱ በዝርዝር ተተርኳል (10፥1– በተያያዘ ስላልጠፉት ስለ ገባዖን ሰዎች ተገልጿል። ኢያሱ የከነዓንን ምድር በኃይል ለመያዝ በሦስት ማዕከላዊ ስፍራዎች ተጠቅሟል፤ እነርሱም ጌልጌላ ቤቴልና ገባዖን ናቸው። እንዲሁም መጽሐፉ በዕጣ ስለተደረገው የመሬት ክፍፍል ያብራራል። ኢያሱ በጌልጌላ፥ ለይሁዳ ለኤፍሬምና ለምናሴ በዕጣ መሬት ያከፋፍላቸዋል። በሴሎ ደግሞ ለተቀሩት የእስራኤል ነገዶች የመሬት ማከፋፈሉን ሥራ ይፈጽማል። በመጨረሻ ኢያሱ ሁለት የስንብት ንግግር ያደርጋል። አንዱ ለእግዚአብሔር ፍጹም መታዘዝ እንደሚገባ፤ ሌላኛው ደግሞ በሴኬም ቃል ኪዳን ስለ ማድረግ የሚያወሳ ነው። ስለዚህ የመጽሐፈ ኢያሱ የሐሳቡ ዋና ዓላማ እግዚአብሔር በኢያሱ አማካይነት ለእስራኤል ሕዝብ “እግዚአብሔር ምድሪቱን ሰጥቷችኋል” (2፥9) የሚል ነው። መጽሐፉ በሁለት ዐበይት ክፍሎች ይከፈላል። አንደኛው ክፍል ከምዕራፍ አንድ እስከ ምዕራፍ ዐሥራ ሁለት ድረስ ያለው ሲሆን፥ ኢያሱ የእስራኤልን ነገዶች በመምራት ከዮርዳኖስ በስተ ምዕራብ በኩል ያለውን የከነዓን ምድር በኃይል ስለመቈጣጠራቸው ያወሳል። ሁለተኛው ክፍል ከምዕራፍ ዐሥራ ሦስት እስከ ምዕራፍ ሀያ አራት ድረስ ያለው ሲሆን ኢያሱም የተያዘውን ቦታ ሁሉ ለዐሥራ ሁለቱ የእስራኤል ነገዶች ማከፋፈሉን የሚናገር ነው። እንዲሁም ይህ መጽሐፍ በስድስት ንዑስ ክፍሎች ይከፈላል። አንደኛው ከምዕራፍ አንድ ቊጥር አንድ እስከ ቊጥር ዐሥራ ስምንት ድረስ ያለው ሲሆን ኢያሱ ከጌታ ተልእኮውን ስለ መቀበሉ ይገልጻል። ሁለተኛው ከምዕራፍ ሁለት ቊጥር አንድ እስከ ምዕራፍ ዐሥራ ሁለት ቊጥር ሀያ አራት ያለው ሲሆን ኢያሱ ከነዓንን ስለ መያዙና ስለ ማጥፋቱ ያወሳል። ሦስተኛው ከምዕራፍ ዐሥራ ሦስት ቊጥር አንድ እስከ ምዕራፍ ሀያ አንድ ቊጥር ሀያ አራት ያለው ሲሆን ኢያሱ ምድሪቱን በዕጣ ስለማከፋፈሉ ይናገራል። አራተኛው ምዕራፍ ሀያ ሁለት ከቊጥር አንድ እስከ ቊጥር ሠላሳ አራት ያለውን ሲሆን ሁለተኛው መሠውያ ሕጋዊ ወይስ አይደለም የሚለውን ጕዳይ ይመለከታል። አምስተኛው ከምዕራፍ ሀያ ሦስት ቊጥር አንድ እስከ ምዕራፍ ሀያ አራት ቊጥር ሀያ ስምንት ያለው ሲሆን የኢያሱን የመሰናበቻ ንግግር ይመለከታል። ስድስተኛው ምዕራፍ ሀያ አራት ከቊጥር ሀያ ዘጠኝ እስከ ሠላሳ ሦስት ያለው ሲሆን ስለ ኢያሱ መሞትና መቀበር ይተርካል። በአንድ በኩል ኢያሱ በምድሪቱ በሚኖሩት ሕዝቦች ላይ አሰቃቂና አስፈሪ ተግባራት የሚፈጽም ቢሆንም እንኳ መጽሐፉ እጅግ ጠቃሚ መልእክቶችን በውስጡ ይዟል። ይህ መጽሐፍ ለእግዚአብሔር በፍጹም መታዘዝ እንደሚገባን፤ በእርሱም ኃይልና በማያጓድለው ረድኤቱ ላይ ፍጹም መመርኮዝ እንዳለብን፤ በእግዚአብሔር ፈቃድና እቅድ በሥልጣን ላይ ላሉት መታመንና መታዘዝም እንደሚይስፈልገን ያስተምራል። በተጨማሪም በማኅበረሰብና በቤተሰብ አባላት መካከል ጠንካራ ትስስር ሊኖር እንደሚገባ፤ በችኮላ የበቀል እርምጃ መውሰድ እንደማይገባና የእግዚአብሔር ጸጋ እጅግ ጠቀሜታ እንዳለው በሚያስተላልፈው መልእክት ውስጥ ያሳስባል። ኢያሱ በእግዚአብሔር ላይ ጽኑ እምነት እንዲኖረን፥ “እኔና ቤቴ ግን እግዚአብሔርን እናመልካለን” (24፥15) በማለት ጠንካራ መልእክት አስተላልፏል።
+— Emmaus PDF p. 112
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- የከነዓን ድል መሆን (1፥1–12፥24)
+- የመሬት ክፍፍል (13፥1–21፥45)
+- ከዮርዳኖስ በስተ ምሥራቅ ያለው መሬት (13፥1‑33)
+- ከዮርዳኖስ በስተ ምዕራብ ያለው መሬት (14፥1–19፥51)
+- የመማጠኛ ከተሞች (20፥1‑9)
+- የሌዋውያን ከተሞች (21፥1‑45)
+- ከምሥራቅ የመጡት ነገዶች ወደ ቦታቸው መመለስ (22፥1‑34)
+- የኢያሱ የመሰናበቻ ንግግር (23፥1‑16)
+- በሴኬም የቃል ኪዳኑ መታደስ (24፥1‑33)
 
 ## Key Themes
 

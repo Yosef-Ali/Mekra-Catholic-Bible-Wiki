@@ -4,8 +4,8 @@
 **Amharic:** የማርቆስ ወንጌል
 **Chapters:** 16
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/passion-death-resurrection]], [[teaching/jesus-christ-incarnation]], [[teaching/faith-and-revelation]], [[teaching/sin]], [[teaching/baptism]], [[teaching/ascension-and-judgment]]
 
 ## Overview
@@ -13,6 +13,18 @@
 የማርቆስ ወንጌል (The Gospel according to Mark) is the shortest and earliest of the four Gospels, traditionally dated to AD 60–70. Early Church tradition, attested by Papias and Clement of Alexandria, identifies its author as John Mark, a companion of both Peter and Paul (Acts 12:12, 25; 1 Peter 5:13), who recorded Peter's apostolic preaching in Rome. The Gospel opens not with a genealogy or infancy narrative but with a bold declaration: "The beginning of the gospel of Jesus Christ, the Son of God" (1:1) — and immediately plunges into the baptism and public ministry of Jesus.
 
 Mark's narrative style is urgent and compressed. The Greek word εὐθύς ("immediately") appears over 40 times, propelling the reader from scene to scene. This is the Gospel of action: Jesus exorcises, heals, teaches, and confronts with relentless momentum, yet the narrative is punctuated by the "Messianic Secret" — Jesus repeatedly commands demons, healed persons, and even the disciples not to reveal His identity until the appropriate time. The turning point comes at Caesarea Philippi (8:27–30), where Peter confesses Jesus as the Christ, after which the narrative pivots decisively toward Jerusalem and the Cross. The Gospel's original ending at 16:8 — the women fleeing the empty tomb in fear and silence — remains one of the most discussed textual cruxes in New Testament scholarship.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> የማርቆስ ወንጌል “ይህ የእግዚአብሔር ልጅ የኢየሱስ ክርስቶስ የምሥራች ቃል መጀመሪያ ነው” በማለት ይጀምራል። የማርቆስ ወንጌል በአንድ በኩል የኢየሱስን ማንነት ከተለያየ አቅጣጫ ያሳያል፤ ለእግዚአብሔርና ለወንጌል ጸሐፊው ኢየሱስ መሢሕ ነው። አጋንንት የእግዚአብሔር ቅዱስ ብለው ይጠሩታል። ሕዝቡ የዮሴፍና የማሪያም ልጅ ይለዋል። ፈሪሳዊያን ሥልጣኑን በመካድ በብኤል ዘቡል እንደሚሠራ ይናገራሉ። ከሐዋርያት መካከል ጴጥሮስ መሢሕ ይለዋል። በሚሰቀልበት ጊዜ ሮማዊው መቶ አለቃ ይህ ሰው በእውነት የእግዚአብሔር ልጅ ነበር ይላል። እንግዲህ የማርቆስ ወንጌል ኢየሱስን ለማወቅ ከገሊላ እስከ ኢየሩሳሌም፥ እስከ ጎልጎታን እስክ እስከ ሞቱ ድረስ መከተል እንደሚያስፈልግ ይገልጻል። በሌላ አነጋገር የኢየሱስን ማንነት ከሕማማቱ፥ ከሞቱና ከትንሣኤው ነጥለን ማየት አንችልም። በማርቆስ ወንጌል ውስጥ ያሉትን የማንነት ጥያቄዎች ከዚህ በታች በተዘረዘሩት ማስረጃዎች ማየት እንችላለን፦ “ይህ ምንድነው? ይህ አዲስ ትምህርት ምንድነው?” (1፥27)፤ “ይህ ሰው ስለምን እንደዚህ ይናገራል? ከአንዱ ከእግዚአብሔር በቀር ኃጢአት ሊያስተሰርይ ማን ይችላል?” (2፥7)፤ “ነፋስም ባሕርም የሚታዘዙለት ይህ ማን ነው?” (4፥41)፤ “እናንተሳ ማን ትሉኛላችሁ?” (8፥29) ሌሎችም እነዚህን የሚመሳስሉ ጥያቄዎችን ማስተዋል ይቻላል።
+— Emmaus PDF p. 546
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- የኢየሱስ አገልግሎት ዝግጅት (1፥1‑13)
+- የኢየሱስ የማንነት ምሥጢር (1፥14–8፥26)
+- የኢየሱስ ማንነት እየተገለጠ መምጣቱ (8፥27–9፥32)
+- የተልእኮው ሙሉ ምሥጢር መገለጥ (9፥33–16፥8)
+- ከሞት የተነሣው ጌታ መገለጥና ዕርገቱ (16፥9‑20)
 
 ## Key Themes
 

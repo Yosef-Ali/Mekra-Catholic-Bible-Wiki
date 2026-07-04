@@ -4,8 +4,8 @@
 **Amharic:** ወደ ገላትያ
 **Chapters:** 6
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/faith-and-revelation]], [[teaching/baptism]], [[teaching/moral-law-and-grace]], [[teaching/virtues]], [[teaching/the-church]], [[teaching/holy-spirit]]
 
 ## Overview
@@ -13,6 +13,18 @@
 ወደ ገላትያ (The Letter of Paul to the Galatians) is Paul's most fiery and passionate letter — the "Magna Carta of Christian freedom." Written around AD 48–54 to a group of churches in the Roman province of Galatia (central Anatolia, modern Turkey), the letter confronts a crisis at the heart of the Gospel itself. After Paul had preached Christ crucified and the Galatians had received the Spirit by faith, certain "agitators" — often called Judaizers — arrived teaching that Gentile converts must be circumcised and observe the Mosaic Law to be fully included in God's covenant people. For Paul, this was not a secondary matter of practice but a frontal assault on the sufficiency of Christ's work. The letter is the most concentrated expression of Paul's doctrine of justification by faith and the freedom of the Christian from the Law.
 
 The letter's structure reflects its urgency. Paul dispenses with his customary thanksgiving (compare Romans 1:8, 1 Corinthians 1:4) and launches immediately into an astonished rebuke (1:6). He defends his apostolic authority — his gospel came not from human beings but through a revelation of Jesus Christ (1:11–12) — and recounts his confrontation with Peter at Antioch, where Peter's withdrawal from table fellowship with Gentiles was "not acting consistently with the truth of the gospel" (2:11–14). The theological center of the letter (3:1–5:12) argues that Abraham was justified by faith, the Law was a temporary custodian until Christ came, and in Christ "there is neither Jew nor Greek, neither slave nor free, neither male nor female" (3:28). The ethical section (5:13–6:10) then shows that freedom is not license: the Spirit produces the fruit of love, while the flesh produces works deserving exclusion from the Kingdom.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ስለ ኢየሱስ አዳኝነት የሚናገረው የወንጌል ቃል በየቦታው እየተሰበከ፥ አይሁድ ያልሆኑ ሰዎች እየተቀበሉት በሄዱ መጠን፥ “ክርስቲያን እና የእግዚአብሔር ሕዝብ አባል ለመሆን የኦሪትን ሕግ መፈጸም ያስፈልጋል ወይስ አያስፈልግም? መገረዝ ያስፈልጋል ወይስ አያስፈልግም?” የሚሉት ጥያቄዎች አብረው ተነሡ፤ በሮም ስር በትንሿ እስያ የሮም ግዛት በሆነችው በገላትያ ባሉ አብያተ ክርስቲያናት መካከል “ሰው በእግዚአብሔር ፊት እንዲጸድቅ በኢየሱስ ማመን ብቻ ሳይሆን በሙሴም አማካይነት የተሰጠውን ሕግ መፈጸም አለበት” በማለት ጳውሎስን የሚቃወሙ ሰዎች ነበሩ። ጳውሎስ ይህን የገላትያን መልእክት የጻፈው በዚህ ትምህርት ግራ የተጋቡትን ሰዎች ወደ ትክክለኛው እምነትና የክርስትና ሕይወት ለመምራት ነው፤ ጳውሎስ የኢየሱስ ክርስቶስ ሐዋርያ መሆኑን በማረጋገጥ ይጀምራል፤ ለሐዋርያነት የጠራው እግዚአብሔር እንጂ ሰው እንዳልሆነና የእርሱም ተልእኮ አይሁድ ወዳልሆኑ ሰዎች እንደሆነ በመዘርዘር ያስረዳል፤ በመጨረሻዎቹ ምዕራፎች ውስጥ ክርስቲያናዊ ሕይወት በኢየሱስ በማመን ከሚገኘው ፍቅር የሚመነጭ መሆኑን ያስረዳል።
+— Emmaus PDF p. 626
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መግቢያ (1፥1‑10)
+- የጳውሎስ ሐዋርያዊ ሥልጣን (1፥11–2፥21)
+- በወንጌል የሚገኘው የእግዚአብሔር ጸጋና ነጻነት (3፥1–4፥31)
+- በወንጌል ላይ የተመሠረተ ክርስቲያናዊ ሕይወት (5፥1–6፥10)
+- መደምደሚያ (6፥11‑18)
 
 ## Key Themes
 

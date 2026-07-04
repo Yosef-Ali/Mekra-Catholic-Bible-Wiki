@@ -4,8 +4,8 @@
 **Amharic:** መዝሙረ ዳዊት
 **Chapters:** 150
 **Section:** OT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/prayer-in-christian-life]], [[teaching/prayer-combat]], [[teaching/the-lords-prayer]], [[teaching/jesus-christ-incarnation]], [[teaching/passion-death-resurrection]], [[teaching/holy-spirit]], [[teaching/the-church]], [[teaching/forgiveness-resurrection-eternal-life]]
 
 ## Overview
@@ -13,6 +13,11 @@
 መዝሙረ ዳዊት (The Book of Psalms, literally "the Psalms of David") is the prayer book and hymnal of Israel, adopted by the Church as the heart of her liturgy — the Divine Office (Liturgy of the Hours) and the responsorial psalm at every Mass. The 150 psalms span centuries of composition, from Moses (Ps 90) to the post-exilic period, traditionally gathered under David's name because he is the archetypal psalmist and the royal ancestor of the Messiah. The Psalter is divided into five "books" (1–41, 42–72, 73–89, 90–106, 107–150), each ending with a doxology, mirroring the five books of the Torah. The psalms cover the full range of human experience — praise, lament, thanksgiving, royal enthronement, wisdom, and imprecation — teaching that no emotion is too raw to bring before God.
 
 The Church reads the Psalms Christologically: Christ is the true David, the one who prayed the psalms in His earthly life and fulfills them in His Paschal Mystery. The messianic psalms (especially 2, 22, 45, 72, 89, 110, 118, and 132) find their definitive meaning in Jesus' incarnation, passion, resurrection, and eternal priesthood. The Psalter is the only book of Scripture whose entirety is prayed liturgically in the Church's cycle — this constant use makes it the most-quoted Old Testament book in the New Testament and the most intimate meeting place between the praying Christ, the praying Church, and the individual believer.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> በመዝሙረ ዳዊት ውስጥ 150 መዝሙሮች ይገኛሉ። በዕብራይስጡና በግሪኩ (ሰባ ሊቃናት) መካከል የአቆጣጠር ልዩነት አለ። አብዛኛውን ጊዜ የዕብራይስጡ መዝሙር ከግሪኩ በአንድ ቍጥር ይበልጣል። ለምሳሌ በዕብራይስጡ መዝሙር 24 በግሪኩ መዝሙር 23 ተብሎ ይጠራል። አብዛኛዎቹ የጥንት አብያተ ክርስቲያናት የግሪኩን አቆጣጠር ይከተሉ ነበር። ይህ መጽሐፍ የዕብራይስጡን አቆጣጠር ያመለክታል። በተጨማሪም በብዙ ቦታዎች “ምሕረት” የሚለው ቃል የግሪኩን ትርጒም የሚያንጸባርቅ ሲሆን፥ በዕብራይስጥ ቋንቋ “ሔሴድ” የሚለውን ቃል ይወክላል። ይህ የዕብራይስጥ ቃል ዘላለማዊ የእግዚአብሔር ፍቅር፥ ጸጋውን፥ ታማኝነቱንና ምሕረቱን ይገልጻል። የመዝሙረ ዳዊት ርእሶች የክርስትና እምነት ከመምጣቱ በፊት በአይሁድ የተዘጋጁ ናቸው። በመዝሙር መዝ. 40–41፤ 71–72፤ 88–89፤ እና 105–106 ላይ የሚገኙት ልዩ ውዳሴዎች መዝሙረ ዳዊትን በአምስት ይከፍሉታል። ይህም አምስቱን የሙሴ ወይም የኦሪትን መጻሕፍት የሚያስታውስ ይመስላል። አብዛኛዎቹ መዝሙሮች ከአምልኮ ጋር ይያያዛሉ። ለምሳሌ መዝ. 117–118፤ መዝ. 14–15፤ እና መዝ. 23–24፤ መመልከት ይቻላል። እንዲሁም የዳዊት መዝሙሮች በንዑሳን ዘውጎች ሊመደቡ ይችላሉ። አንዳንድ መዝሙሮች ምእመናንን ደስታ ለተሞላበት ውዳሴ ይጋብዛሉ። የውዳሴውም ምክንያት ፈጣሪነቱ፥ መጋቢነቱ (መዝ. 134–135፤ መዝ. 135–136) ሊሆን ይችላል። ከዚሁ ጋር በተያያዘ እግዚአብሔር በሕዝቡ መካከል የሚቀመጥባትን የጽዮንን ከተማ የሚያወደሱ መዝሙሮችም አሉ መዝ. 46–47፤ 96–99። እግዚአብሔር ስላዳነ፥ ከከፍተኛ አደጋና ውጥረት ስላወጣ የሚመሰግንባቸው መዝሙሮችም ይገኛሉ። ብዙ ጊዜ መዝሙረኛው የደረሰበትን ጭንቀትና መከራ ያስታውሳል። ልመናውንም ይገልጻል (መዝ. 29–30፤ 116)። ኃዘንንና ሰቆቃን የሚገልጹም በርካታ መዝሙሮች ሲኖሩ፥ አንዳንዶቹ ግለሰብን (መዝ. 3–7፤ 21–22)፤ አንዳንዶቹም ማኅበርን ይመለከታሉ (መዝ. 43–44)። መዝሙሮቹ አብዛኛውን ጊዜ ወደ እግዚአብሔር በመጮኽ ይጀምራሉ። “ከሲኦል ወይም ከአዘቅት ወይም ከአራዊት አድነኝ” የሚሉ መዝሙሮች ይገኙባቸዋል። ሲኦል፥ አዘቅት ወይም አራዊት የተለያዩ ጭንቅቶችን ወይም አደጋዎችን ሊወክሉ ይችላሉ። መዝ. 50–51 ግን ከኃጢአት ስለ መዳን ነው የሚገልጸው። ሰቆቃን የሚገልጹ አብዛኛዎቹ መዝሙሮች የሚደመደሙት በውዳሴ፥ በእግዚአብሔር የማዳን ተስፋ ላይና እግዚአብሔር ጸሎትን እንደሰማ በማረጋገጥ ነው። ንጉሥን የሚመለከቱ መዝሙሮች በክርስትና መሢሕን ወይንም ክርስቶስን የሚወክል ትርጒም አግኝተዋል (19–20፤ 20–21 እና 71–72)። የጥበብ መጻሕፍትን የሚያንጸባርቁ መዝሙሮችም ሲገኙ (መዝ. 36–37፤ 48–49)፤ በተለይም ለኦሪት ወይም ለእግዚአብሔር ሕግ ክብርና ወዳሴን የሚያቀርቡ መዝሙሮችም ይገኛሉ (መዝ. 18–19፤ 118–119)። እንዲሁም ታሪክን የሚጠቁሙ መዝሙሮችም አሉ (መዝ. 77–78፤ 104–105 እና 105–106)። በአጠቃላይ መዝሙረ ዳዊት እንዴት እንደሚጸለይ የሚያሳይ፥ ጥልቅ ስሜትንና ምኞትንም ለመግለጽ የሚያግዝ የጸሎት ትምህርት ቤት ነው ማለት ይቻላል።
+— Emmaus PDF p. 317
 
 ## Key Themes
 

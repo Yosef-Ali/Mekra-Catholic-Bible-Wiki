@@ -4,12 +4,25 @@
 **Amharic:** 3ኛ የዮሐንስ
 **Chapters:** 1
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/the-church]], [[teaching/moral-law-and-grace]], [[teaching/holy-orders]]
 
 ## Overview
 3 John (15 verses) is the New Testament's most personal letter — a note from "the elder" to a beloved Christian named Gaius. It addresses a concrete conflict in a local church: Diotrephes, "who likes to put himself first," has rejected the elder's authority, refused to welcome traveling missionaries, and expelled from the church those who wanted to show hospitality (vv. 9–10). The elder promises to deal with Diotrephes when he visits, commends the hospitable Demetrius, and reaffirms the Christian duty to support traveling brothers who have "gone out for the sake of the name" (v. 7).
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ሦስተኛው የዮሐንስ መልእክት የተጻፈው “በሽማግሌው” ሐዋርያ በዮሐንስ ሲሆን፥ የተጻፈውም ጋይዮስ ለተባለ የቤተ ክርስቲያን መሪ ነበር፤ ጸሐፊው በአንድ በኩል ሌሎችን ክርስቲያኖች በመርዳቱ ጋይዮስን ያመሰግነዋል፤ በሌላ በኩል ደግሞ ዲዮትሬፊስ ከተባለ ተንኰለኛ ሰው እንዲጠነቀቅ ያሳስበዋል።
+— Emmaus PDF p. 669
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መግቢያ (1‑4)
+- የጋይዮስ መመስገን (5‑8)
+- የዲዮትሬፊስ መወቀስ (9‑10)
+- የድሜጥሮስ መመስገን (11‑12)
+- ማጠቃለያ (13‑15)
+- ሰላምታ
 
 ## Key Themes
 **Hospitality and Support for Missionaries.** Traveling missionaries in the early church depended entirely on local believers for food, lodging, and financial support, since they "accepted nothing from the Gentiles" (v. 7). Gaius has been faithful in this ministry — welcoming even strangers and sending them on their journey "in a manner worthy of God" (v. 6). The elder calls such supporters "fellow workers in the truth" (v. 8). This material support of mission is a concrete expression of ecclesial communion.

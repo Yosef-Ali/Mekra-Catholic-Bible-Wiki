@@ -4,12 +4,24 @@
 **Amharic:** ወደ ፊልሞና
 **Chapters:** 1
 **Section:** NT
-**Sources:** 1
-**Last updated:** 2026-05-06
+**Sources:** 2
+**Last updated:** 2026-07-04
 **Related:** [[teaching/human-dignity]], [[teaching/baptism]], [[teaching/moral-law-and-grace]]
 
 ## Overview
 Philemon is Paul's shortest and most personal canonical letter — a 25-verse appeal written from prison to Philemon, a wealthy Christian in Colossae whose slave, Onesimus, had run away and encountered Paul. Under Roman law, Philemon had the right to punish Onesimus severely. Paul instead sends Onesimus back not as a runaway slave but as a "beloved brother" in Christ, offering to pay any debt himself and gently pressuring Philemon to receive Onesimus "no longer as a slave but more than a slave — a beloved brother" (v. 16). The letter is a masterpiece of pastoral tact that quietly subverts the institution of slavery by transforming the master-slave relationship through Christian brotherhood.
+
+## መግቢያ (ከኤማሁስ ኅትመት)
+
+> ፊልሞና የታወቀ ክርስቲያን ነበር፤ የቆላስይስ ቤተ ክርስቲያን አባል እንደ ነበረ ይገመታል። ፊልሞና ኦኔሲሞስ የሚባል ባርያ ነበረው፤ ይህም አገልጋይ ከጌታው ኰብልሎ በሄደበት ጊዜ በእስር ቤት ከነበረው ከጳውሎስ ጋር ተገናኘ፤ በጳውሎስም አማካይነት ኦኔሲሞስ የክርስትናን እምነት ከተቀበለ በኋላ ወደ ፊልሞና መመለስ ይፈልግ ነበር፤ ጳውሎስ ወደ ፊልሞና የጻፈው ፊልሞና ኦነሲሞስን በእርቅ መንፈስና በወንድማማችነት ፍቅር እንዲቀበለው ለማሳሰብ ነበር።
+— Emmaus PDF p. 651
+
+**አጠቃላይ የመጽሐፉ ይዘት:**
+- መግቢያ (1‑3)
+- የጳውሎስ ምስጋና ለፊልሞና (4‑7)
+- ጳውሎስ ስለ ኦኔሲሞስ ያቀረበው ጥብቅ ልመና (8‑22)
+- ማጠቃለያ (23‑25)
+- ሰላምታ
 
 ## Key Themes
 **Brotherhood Transforms Institution.** Paul does not directly attack the Roman legal system of slavery — such an attack would have been futile and possibly dangerous. Instead, he plants a theological seed that dissolves slavery from within: in Christ, the distinction between master and slave is relativized because both are brothers in the one Body (cf. Gal 3:28, Col 3:11). Paul calls Onesimus "my very heart" (v. 12) and "a beloved brother, especially to me, but how much more to you, both in the flesh and in the Lord" (v. 16). He offers to cover all debts for wrongs done. The letter thus models how the Gospel transforms unjust structures not primarily by political revolution but by the creation of new relationships in Christ — a principle foundational for [[teaching/human-dignity]].
