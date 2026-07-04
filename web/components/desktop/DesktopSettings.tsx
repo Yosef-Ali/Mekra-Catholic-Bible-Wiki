@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { View } from '../../types';
 import { ROLES, ALL_INTERESTS } from '../../constants';
 import { useProfileEditor } from '../../hooks/useProfileEditor';
-import { BookOpen, ChevronRight, LogOut, Pencil, Check, X, Info, Palette, Shield } from 'lucide-react';
+import { BookOpen, ChevronRight, LogOut, Pencil, Check, X, Info, Palette, Shield, CalendarDays, Plus, Trash2, Loader2 } from 'lucide-react';
 import { Ornament, Rubric, Meta, SectionLabel } from '../ui/ManuscriptPrimitives';
+import { readingsApi, DailyReading } from '../../services/apiClient';
 
 interface DesktopSettingsProps {
   setView: (view: View) => void;
@@ -13,9 +14,212 @@ const NAV_ITEMS = [
   { id: 'profile', label: 'Profile', icon: Pencil },
   { id: 'role', label: 'Role', icon: Shield },
   { id: 'interests', label: 'Interests', icon: Palette },
+  { id: 'readings', label: 'Daily Readings', icon: CalendarDays },
   { id: 'tools', label: 'Tools', icon: BookOpen },
   { id: 'about', label: 'About', icon: Info },
 ];
+
+const READING_TYPES: { value: string; label: string }[] = [
+  { value: 'first', label: 'First Reading · መጀመሪያ ንባብ' },
+  { value: 'psalm', label: 'Responsorial Psalm · መዝሙር' },
+  { value: 'second', label: 'Second Reading · ሁለተኛ ንባብ' },
+  { value: 'gospel', label: 'Gospel · ወንጌል' },
+];
+
+function todayIso() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+/** Admin panel: review, correct, and verify the (mostly AI/lectionary-sourced,
+ *  unverified) daily Mass readings before they're trusted on the home page. */
+const DailyReadingsPanel: React.FC = () => {
+  const [date, setDate] = useState(todayIso());
+  const [rite, setRite] = useState<'roman' | 'geez'>('roman');
+  const [loading, setLoading] = useState(false);
+  const [saving, setSaving] = useState(false);
+  const [saveMsg, setSaveMsg] = useState('');
+  const [saveErr, setSaveErr] = useState('');
+  const [liturgicalLabel, setLiturgicalLabel] = useState('');
+  const [celebration, setCelebration] = useState('');
+  const [source, setSource] = useState('');
+  const [wasVerified, setWasVerified] = useState(false);
+  const [rows, setRows] = useState<{ type: string; citation: string }[]>([]);
+
+  const load = useCallback((d: string, r: 'roman' | 'geez') => {
+    setLoading(true);
+    setSaveMsg('');
+    setSaveErr('');
+    readingsApi.get(d)
+      .then((data) => {
+        const rd = data[r];
+        setLiturgicalLabel(
+          r === 'roman'
+            ? (rd.liturgical?.celebration?.nameAm ?? rd.liturgical?.dayName ?? '')
+            : (rd.liturgical?.ethDateAm ?? '')
+        );
+        setCelebration(rd.celebration ?? '');
+        setSource(rd.source ?? '');
+        setWasVerified(rd.verified === true);
+        setRows(
+          (rd.readings ?? []).map((x: DailyReading) => ({ type: x.type, citation: x.citation }))
+        );
+      })
+      .catch(() => {
+        setLiturgicalLabel('');
+        setCelebration('');
+        setSource('');
+        setWasVerified(false);
+        setRows([]);
+      })
+      .finally(() => setLoading(false));
+  }, []);
+
+  useEffect(() => { load(date, rite); }, [date, rite, load]);
+
+  const updateRow = (i: number, field: 'type' | 'citation', value: string) => {
+    setRows((prev) => prev.map((r, idx) => (idx === i ? { ...r, [field]: value } : r)));
+  };
+  const removeRow = (i: number) => setRows((prev) => prev.filter((_, idx) => idx !== i));
+  const addRow = () => setRows((prev) => [...prev, { type: 'first', citation: '' }]);
+
+  const handleSave = async () => {
+    setSaving(true);
+    setSaveMsg('');
+    setSaveErr('');
+    try {
+      const cleanRows = rows.filter((r) => r.citation.trim().length > 0);
+      await readingsApi.update(date, {
+        rite,
+        celebration: celebration.trim() || null,
+        readings: cleanRows,
+        verified: true,
+        source: 'manual',
+      });
+      setSaveMsg('Saved and marked verified.');
+      setSource('manual');
+      setWasVerified(true);
+    } catch (e: any) {
+      setSaveErr(e?.message ?? 'Failed to save.');
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  const inputCls =
+    'w-full px-3 py-2 text-[13px] text-ink bg-transparent outline-none focus:border-oxblood/50 transition-colors';
+  const inputStyle = { background: 'var(--parchment)', border: '1px solid var(--rule)' };
+
+  return (
+    <div className="mt-8 mb-8" id="readings">
+      <SectionLabel>Daily Readings</SectionLabel>
+      <p className="font-sans text-[12px] text-ink-soft mb-4 -mt-1">
+        Review, correct, and verify the Mass readings shown on the home page. Most days are
+        imported from a lectionary dataset or an AI lookup and start unverified.
+      </p>
+
+      <div className="flex flex-wrap items-center gap-3 mb-5">
+        <input
+          type="date"
+          value={date}
+          onChange={(e) => setDate(e.target.value)}
+          className="px-3 py-2 font-mono text-[13px] text-ink outline-none"
+          style={inputStyle}
+        />
+        <div className="flex gap-1">
+          {(['roman', 'geez'] as const).map((r) => (
+            <button
+              key={r}
+              onClick={() => setRite(r)}
+              className={`px-3 py-2 font-mono text-[11px] tracking-wide border transition-colors ${
+                rite === r ? 'bg-oxblood text-parchment border-oxblood' : 'border-rule text-ink-mid hover:border-ink-soft'
+              }`}
+            >
+              {r === 'roman' ? 'ላቲን · Roman' : 'ግዕዝ · Geʽez'}
+            </button>
+          ))}
+        </div>
+        {loading && <Loader2 size={14} className="animate-spin text-ink-soft" />}
+
+        <div className="ml-auto flex items-center gap-2">
+          {wasVerified ? (
+            <span className="font-mono text-[10px] px-2 py-1 rounded-sm" style={{ background: 'rgba(60,120,60,0.12)', color: '#3a6b3a' }}>
+              ✓ verified{source ? ` · ${source}` : ''}
+            </span>
+          ) : (
+            <span className="font-mono text-[10px] px-2 py-1 rounded-sm text-ochre" style={{ background: 'rgba(182,133,48,0.1)' }}>
+              ያልተረጋገጠ · unverified{source ? ` · ${source}` : ''}
+            </span>
+          )}
+        </div>
+      </div>
+
+      {liturgicalLabel && (
+        <div className="font-ethiopic text-[13px] text-ink-mid mb-3">{liturgicalLabel}</div>
+      )}
+
+      <label className="block font-mono text-[10px] uppercase tracking-wider text-ink-soft mb-1">
+        Celebration / label
+      </label>
+      <input
+        value={celebration}
+        onChange={(e) => setCelebration(e.target.value)}
+        placeholder="e.g. Feast of St Thomas the Apostle"
+        className={`${inputCls} mb-4`}
+        style={inputStyle}
+      />
+
+      <div className="space-y-2 mb-3">
+        {rows.map((row, i) => (
+          <div key={i} className="flex items-center gap-2">
+            <select
+              value={row.type}
+              onChange={(e) => updateRow(i, 'type', e.target.value)}
+              className="px-2 py-2 font-sans text-[12px] text-ink outline-none w-[220px] shrink-0"
+              style={inputStyle}
+            >
+              {READING_TYPES.map((t) => (
+                <option key={t.value} value={t.value}>{t.label}</option>
+              ))}
+            </select>
+            <input
+              value={row.citation}
+              onChange={(e) => updateRow(i, 'citation', e.target.value)}
+              placeholder="e.g. Ephesians 2:19-22"
+              className={inputCls}
+              style={inputStyle}
+            />
+            <button
+              onClick={() => removeRow(i)}
+              className="p-2 text-ink-soft hover:text-oxblood transition-colors shrink-0"
+              title="Remove reading"
+            >
+              <Trash2 size={14} />
+            </button>
+          </div>
+        ))}
+      </div>
+
+      <button
+        onClick={addRow}
+        className="flex items-center gap-1.5 font-mono text-[11px] text-ink-soft hover:text-oxblood transition-colors mb-5"
+      >
+        <Plus size={13} /> Add reading
+      </button>
+
+      <div className="flex items-center gap-3">
+        <button
+          onClick={handleSave}
+          disabled={saving || rows.every((r) => !r.citation.trim())}
+          className="px-4 py-2 rounded-lg bg-oxblood text-parchment text-[13px] font-bold disabled:opacity-40 transition-opacity"
+        >
+          {saving ? 'Saving…' : 'Save as verified'}
+        </button>
+        {saveMsg && <p className="font-sans text-[12px] text-green-700">{saveMsg}</p>}
+        {saveErr && <p className="font-sans text-[12px] text-red-500">{saveErr}</p>}
+      </div>
+    </div>
+  );
+};
 
 export const DesktopSettings: React.FC<DesktopSettingsProps> = ({ setView }) => {
   const {
@@ -173,6 +377,10 @@ export const DesktopSettings: React.FC<DesktopSettingsProps> = ({ setView }) => 
             })}
           </div>
         </div>
+
+        <div className="h-px" style={{ background: 'var(--rule)' }} />
+
+        <DailyReadingsPanel />
 
         <div className="h-px" style={{ background: 'var(--rule)' }} />
 

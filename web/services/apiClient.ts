@@ -371,6 +371,24 @@ export const readingsApi = {
     if (!result.success || !result.data) throw new Error(result.error || 'Failed to fetch readings');
     return result.data;
   },
+
+  /** Upsert a day's readings for one rite. The server re-parses citations
+   *  into deep-linkable refs; verified=true marks the row human-confirmed. */
+  async update(date: string, payload: {
+    rite: 'roman' | 'geez';
+    celebration?: string | null;
+    readings: Array<{ type: string; citation: string }>;
+    verified?: boolean;
+    source?: string;
+  }): Promise<void> {
+    const response = await fetch(`${API_BASE}/readings/${date}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const result = await response.json();
+    if (!result.success) throw new Error(result.error || 'Failed to save readings');
+  },
 };
 
 export const wikiApi = {

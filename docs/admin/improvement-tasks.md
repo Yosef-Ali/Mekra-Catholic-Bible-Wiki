@@ -35,7 +35,7 @@ reader jumps to Luke 22. `cd mobile && npx tsc --noEmit` passes.
 
 ---
 
-## Task 2 — Admin screen to verify/correct daily readings (M)
+## ✅ DONE 2026-07-04 — Task 2 — Admin screen to verify/correct daily readings (M)
 
 **Context:** Daily Mass readings live in DB table `daily_readings`
 (date, rite 'roman'|'geez', celebration, readings JSONB, source, verified).
