@@ -17,6 +17,16 @@ const GEMINI_MODEL = 'gemini-3-flash-preview';
 const EDGE_TTS_VOICE = process.env.EDGE_TTS_VOICE || 'am-ET-MekdesNeural';
 const EDGE_AMHARIC_VOICES = new Set(['am-ET-MekdesNeural', 'am-ET-AmehaNeural']);
 
+// Quotation marks are silent in speech — they're visual formatting only,
+// carried over from the Bible/wiki text (curly “ ” from the DB, guillemets
+// « » from print citations). Left in, the Edge/Google neural voices
+// mis-vocalize the glyph itself (reported: opening ‘“’ read aloud as "ከ").
+// Strip them before synthesis; natural spacing and Ethiopic sentence
+// punctuation (። ፤ ፥) already carry the pacing.
+function sanitizeForSpeech(text: string): string {
+  return text.replace(/[«»“”‘’"']/g, '');
+}
+
 // Synthesize `text` with an Edge neural voice and return the MP3 bytes.
 async function edgeTTS(text: string, voice: string): Promise<Buffer> {
   const tts = new MsEdgeTTS();
@@ -226,10 +236,15 @@ router.post('/tts', async (req, res) => {
     return;
   }
   const edgeVoice = (typeof voice === 'string' && EDGE_AMHARIC_VOICES.has(voice)) ? voice : EDGE_TTS_VOICE;
+  const speechText = sanitizeForSpeech(text);
+  if (!speechText.trim()) {
+    res.status(400).json({ success: false, error: 'No speakable text after sanitization' });
+    return;
+  }
 
   // Preferred: Microsoft Edge neural TTS — free, no key, natural Amharic voice.
   try {
-    const mp3 = await edgeTTS(text, edgeVoice);
+    const mp3 = await edgeTTS(speechText, edgeVoice);
     if (mp3.length > 0) {
       res.setHeader('Content-Type', 'audio/mpeg');
       res.setHeader('X-TTS-Provider', 'edge');
@@ -244,7 +259,7 @@ router.post('/tts', async (req, res) => {
 
   // Fallback: free Google Translate TTS (robotic, but always available).
   try {
-    const results = await getAllAudioBase64(text, {
+    const results = await getAllAudioBase64(speechText, {
       lang: lang || 'am',
       slow: false,
       host: 'https://translate.google.com',
