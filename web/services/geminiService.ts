@@ -54,7 +54,7 @@ const getPersonalizedSystemInstruction = (profile: UserProfile | null) => {
   if (!profile) return SYSTEM_INSTRUCTION;
 
   return `${SYSTEM_INSTRUCTION}
-  
+
   --- USER CONTEXT (ADAPT YOUR RESPONSE TO THIS) ---
   You are speaking to a user with the following profile:
   - Role/Vocation: ${profile.role}
@@ -111,7 +111,7 @@ export const getDailyMassReadings = async (targetDate: Date = new Date()): Promi
 
     const prompt = `
       Find the official Catholic Daily Mass Readings for ${formattedDate}.
-      
+
       Tasks:
       1. Identify the Liturgical Date/Feast (e.g., "Tuesday of the 3rd Week of Lent").
       2. Provide the full text for:
@@ -127,26 +127,26 @@ export const getDailyMassReadings = async (targetDate: Date = new Date()): Promi
            - **Universal Metaphors**: Use universal examples (e.g., a traveler lost in a storm, the silence of a mountain, the warmth of a home, the battle of a soldier) rather than specific cultural clichés.
            - Avoid superficial examples. Go deep into the soul.
          - The reflection should be substantial (3-4 paragraphs) in Amharic.
-      
+
       Output Language: **AMHARIC** (Except for the JSON keys).
-      
+
       **IMPORTANT**: USE STANDARD ARABIC NUMERALS (1, 2, 3) for all verse numbers and dates. DO NOT use Ethiopic numerals.
 
       STRICT JSON OUTPUT REQUIRED:
-      1. Return ONLY a valid JSON object. 
+      1. Return ONLY a valid JSON object.
       2. Do not include markdown formatting (like \`\`\`json).
       3. **ESCAPE ALL DOUBLE QUOTES** inside the text content (e.g. "He said \\"Hello\\"").
       4. Ensure no unescaped control characters.
-      
+
       Structure:
       {
         "date": "The requested date",
         "liturgicalFeast": "Name of feast in English/Amharic mixed",
         "readings": [
-          { 
-            "type": "First Reading" | "Responsorial Psalm" | "Second Reading" | "Gospel", 
-            "reference": "Book Chapter:Verse", 
-            "text": "Full text in Amharic" 
+          {
+            "type": "First Reading" | "Responsorial Psalm" | "Second Reading" | "Gospel",
+            "reference": "Book Chapter:Verse",
+            "text": "Full text in Amharic"
           }
         ],
         "reflection": {
@@ -281,7 +281,7 @@ export const generateChatSuggestions = async (lastResponse: string, userProfile:
     if (userProfile) {
       contextPrompt = `
         User Profile: ${userProfile.role}, Age: ${userProfile.ageGroup}, Interests: ${userProfile.interests.join(', ')}.
-        Customize the suggestions to fit this user's capability and role. 
+        Customize the suggestions to fit this user's capability and role.
         (e.g. if Priest -> deeper theological questions. if Student -> educational/psychological questions).
         `;
     }
@@ -293,7 +293,7 @@ export const generateChatSuggestions = async (lastResponse: string, userProfile:
     ${contextPrompt}
 
     Based on this context, generate exactly 3 short, engaging follow-up questions in AMHARIC.
-    
+
     The questions must strictly follow these categories:
     1. **Psychological/Clarification**: How does this apply to the mind/heart?
     2. **Apologetics/Deep Dive**: Challenge based on user role.
@@ -383,7 +383,12 @@ export const stopAudioPlayback = () => {
 // Abort controller cancels in-flight fetch when stop/skip is called
 let fetchController: AbortController | null = null;
 
-export const generateAndPlayAudio = async (text: string): Promise<void> => {
+// Bible text is always Amharic, so callers reading verses can rely on the
+// 'am' default; bilingual wiki/teaching pages should detect per-segment
+// (see detectSpeechLang in DesktopArticle.tsx) and pass 'en' explicitly for
+// English-dominant segments, so the server picks an English voice instead
+// of forcing the Amharic voice to sound out English words phonetically.
+export const generateAndPlayAudio = async (text: string, lang: 'am' | 'en' = 'am'): Promise<void> => {
   // Kill any previous audio + in-flight request
   stopAudioPlayback();
   if (fetchController) fetchController.abort();
@@ -396,7 +401,7 @@ export const generateAndPlayAudio = async (text: string): Promise<void> => {
   const res = await fetch('/api/ai/tts', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ text: cleanText, lang: 'am' }),
+    body: JSON.stringify({ text: cleanText, lang }),
     signal: fetchController.signal,
   });
 

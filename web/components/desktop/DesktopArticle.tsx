@@ -12,6 +12,20 @@ import {
   stopAudioPlayback,
 } from '../../services/geminiService';
 
+// Teaching/wiki pages are bilingual — an Amharic synthesis often carries an
+// English gloss in parentheses (e.g. "— የያዕቆብ መልእክት 5:14–15 (The apostolic
+// foundation for the Anointing of the Sick)"). Reading that whole line with
+// the Amharic voice makes it sound out the English words phonetically.
+// Ethiopic block U+1200–U+137F covers Amharic/Ge'ez; count that against
+// Latin letters to decide which voice a given segment needs.
+function detectSpeechLang(text: string): 'am' | 'en' {
+  const ethiopic = (text.match(/[ሀ-፿]/g) || []).length;
+  const latin = (text.match(/[A-Za-z]/g) || []).length;
+  if (latin === 0) return 'am';
+  if (ethiopic === 0) return 'en';
+  return latin > ethiopic ? 'en' : 'am';
+}
+
 // Find a DOM Range spanning `needle` inside `container`, tolerant of whitespace
 // differences between the audio text and the rendered markdown. Returns null if
 // not found (fail-safe: no highlight rather than a wrong one).
@@ -124,6 +138,10 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
     () =>
       readableText
         .split(/(?<=[።?!])\s+|\n+/) // Amharic full stop / sentence ends / newlines
+        // pull "(...)" asides into their own pieces so a mixed line — Amharic
+        // citation + English gloss — gets voiced correctly per piece instead
+        // of one whole segment being misclassified by its majority language
+        .flatMap((s) => s.split(/(\([^)]*\))/g))
         .map((s) => s.trim())
         .filter((s) => s.length > 1),
     [readableText],
@@ -137,7 +155,7 @@ export const DesktopArticle: React.FC<DesktopArticleProps> = ({ setView, slug, o
       }
       setActiveSeg(i);
       try {
-        await generateAndPlayAudio(segments[i]);
+        await generateAndPlayAudio(segments[i], detectSpeechLang(segments[i]));
         if (session === sessionRef.current && !stoppedRef.current) speakSegment(i + 1, session);
       } catch (err: any) {
         if (err?.name === 'AbortError') return; // stop pressed — do not advance

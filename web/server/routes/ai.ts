@@ -16,15 +16,31 @@ const GEMINI_MODEL = 'gemini-3-flash-preview';
 // Amharic voices: am-ET-MekdesNeural (female), am-ET-AmehaNeural (male).
 const EDGE_TTS_VOICE = process.env.EDGE_TTS_VOICE || 'am-ET-MekdesNeural';
 const EDGE_AMHARIC_VOICES = new Set(['am-ET-MekdesNeural', 'am-ET-AmehaNeural']);
+// English voice for segments the client detects as English (teaching/wiki
+// pages are bilingual — e.g. an English gloss in parentheses after an
+// Amharic Scripture citation). Reading these with the Amharic voice makes
+// it try to pronounce English words phonetically ("read English as Amharic").
+const EDGE_ENGLISH_VOICE = process.env.EDGE_TTS_ENGLISH_VOICE || 'en-US-AndrewNeural';
 
-// Quotation marks are silent in speech — they're visual formatting only,
-// carried over from the Bible/wiki text (curly “ ” from the DB, guillemets
-// « » from print citations). Left in, the Edge/Google neural voices
-// mis-vocalize the glyph itself (reported: opening ‘“’ read aloud as "ከ").
-// Strip them before synthesis; natural spacing and Ethiopic sentence
-// punctuation (። ፤ ፥) already carry the pacing.
+function pickVoice(lang: unknown, voice: unknown): string {
+  if (typeof voice === 'string' && EDGE_AMHARIC_VOICES.has(voice)) return voice;
+  if (lang === 'en') return EDGE_ENGLISH_VOICE;
+  return EDGE_TTS_VOICE;
+}
+
+// Quotation marks and parentheses are silent in speech — visual formatting
+// only, carried over from the Bible/wiki text (curly “ ” from the DB,
+// guillemets « » from print citations, ( ) wrapping English glosses on
+// teaching pages). Left in, the Edge/Google neural voices mis-vocalize the
+// glyph itself (reported: opening ‘“’ read aloud as "ከ"). Strip them before
+// synthesis; natural spacing and Ethiopic sentence punctuation (። ፤ ፥)
+// already carry the pacing.
 function sanitizeForSpeech(text: string): string {
-  return text.replace(/[«»“”‘’"']/g, '');
+  // «» “” ‘’ "' — primary + nested Bible quotation styles; ‹› — single
+  // guillemets used for quote-within-quote (e.g. 1 Kings 13:2 nested oracle);
+  // ( ) — parenthetical asides (kept as segment-split markers client-side,
+  // stripped here since the bracket glyphs themselves aren't spoken)
+  return text.replace(/[«»“”‘’‹›"'()]/g, '');
 }
 
 // Synthesize `text` with an Edge neural voice and return the MP3 bytes.
@@ -235,7 +251,7 @@ router.post('/tts', async (req, res) => {
     res.status(400).json({ success: false, error: 'Missing text' });
     return;
   }
-  const edgeVoice = (typeof voice === 'string' && EDGE_AMHARIC_VOICES.has(voice)) ? voice : EDGE_TTS_VOICE;
+  const edgeVoice = pickVoice(lang, voice);
   const speechText = sanitizeForSpeech(text);
   if (!speechText.trim()) {
     res.status(400).json({ success: false, error: 'No speakable text after sanitization' });
@@ -248,6 +264,7 @@ router.post('/tts', async (req, res) => {
     if (mp3.length > 0) {
       res.setHeader('Content-Type', 'audio/mpeg');
       res.setHeader('X-TTS-Provider', 'edge');
+      res.setHeader('X-TTS-Voice', edgeVoice);
       res.setHeader('Content-Length', mp3.length.toString());
       res.send(mp3);
       return;
