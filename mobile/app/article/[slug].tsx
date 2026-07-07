@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useRef, useEffect } from 'react';
+import React, { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import {
   View,
   Text,
@@ -12,16 +12,22 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ChevronLeft, Volume2, Pause, Square } from 'lucide-react-native';
 import { fetchWikiPage, WikiPage } from '../../src/services/api';
 import { useApi } from '../../src/hooks/useApi';
-import { readArticle, stopTTS, pauseTTS, resumeTTS } from '../../src/services/tts';
+import { speakText, stopTTS, pauseTTS, resumeTTS } from '../../src/services/tts';
 import { Rubric, Ornament, OrnamentDivider, Meta, screenBase } from '../../src/components/Primitives';
 import { colors, fonts, layout } from '../../src/theme/colors';
 
 // ─── Parsing helpers ────────────────────────────────────────
 
+// NB: the wiki's bold-field convention is **Field:** value — colon INSIDE
+// the closing asterisks. Both regexes below previously expected **Field**:
+// (colon after), which never matches real frontmatter; every teaching
+// article's raw "**Type:** teaching **Amharic:** ..." lines were leaking
+// straight through as visible body text (and into TTS, see
+// extractSpeechSegments below). Fixed to match the actual convention.
 function parseFrontmatterFromBody(body: string): Record<string, string> {
   const result: Record<string, string> = {};
   for (const line of body.split('\n')) {
-    const m = line.match(/^\*\*([^*]+)\*\*:\s*(.+)$/);
+    const m = line.match(/^\*\*([^*]+):\*\*\s*(.+)$/);
     if (m) result[m[1].trim()] = m[2].trim();
   }
   return result;
@@ -33,7 +39,7 @@ function getArticleBody(body: string): string {
   let pastFrontmatter = false;
   for (const line of lines) {
     if (line.startsWith('# ')) continue;
-    if (/^\*\*[^*]+\*\*:\s*.+$/.test(line)) continue;
+    if (/^\*\*[^*]+:\*\*\s*.+$/.test(line)) continue;
     if (!pastFrontmatter && line.trim() === '') continue;
     pastFrontmatter = true;
     cleaned.push(line);
@@ -72,6 +78,104 @@ function isCCCRef(line: string): boolean {
 /** Check if line is a source/reference list item */
 function isSourceLine(line: string): boolean {
   return /^- `raw\//.test(line) || /^- Compendium of/.test(line) || /^- Catechism of/.test(line);
+}
+
+// ─── TTS text extraction ────────────────────────────────────
+// Mirrors MarkdownSection's block-walking logic but emits plain spoken text
+// instead of JSX. Wiki/teaching articles are bilingual — a citation line
+// like "— የያዕቆብ መልእክት 5:14–15 (The apostolic foundation for the Anointing
+// of the Sick)" pairs an Amharic reference with an English gloss — so
+// blockquote body and attribution are pushed as SEPARATE segments (same
+// split MarkdownSection already does for rendering), and every resulting
+// piece is further split at "(...)" boundaries and sentence ends so each
+// half can be routed to the correct voice (see detectSpeechLang below).
+
+/** Ethiopic block U+1200–U+137F covers Amharic/Ge'ez; compare against Latin
+ *  letters to decide which TTS voice a given segment needs. */
+function detectSpeechLang(text: string): 'am' | 'en' {
+  const ethiopic = (text.match(/[ሀ-፿]/g) || []).length;
+  const latin = (text.match(/[A-Za-z]/g) || []).length;
+  if (latin === 0) return 'am';
+  if (ethiopic === 0) return 'en';
+  return latin > ethiopic ? 'en' : 'am';
+}
+
+function extractSpeechBlocks(text: string): string[] {
+  const blocks: string[] = [];
+  const lines = text.split('\n');
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+
+    if (line.startsWith('## ') || line.startsWith('### ')) {
+      blocks.push(cleanInline(line.replace(/^#{2,3}\s*/, '')));
+      i++;
+      continue;
+    }
+
+    if (line.startsWith('> ')) {
+      const quoteLines: string[] = [];
+      while (i < lines.length && lines[i].startsWith('> ')) {
+        quoteLines.push(lines[i].replace(/^>\s*/, ''));
+        i++;
+      }
+      const quoteText = cleanInline(quoteLines.join('\n'));
+      const attrMatch = quoteText.match(/\n(—\s*.+)$/);
+      const body = attrMatch ? quoteText.replace(attrMatch[0], '') : quoteText;
+      if (body.trim()) blocks.push(body.trim());
+      if (attrMatch) blocks.push(attrMatch[1].trim()); // attribution as its OWN segment
+      continue;
+    }
+
+    if (isCCCRef(line) || isSourceLine(line)) { i++; continue; }
+
+    if (isQLine(line)) {
+      blocks.push(cleanInline(line.replace(/^\*?\*?Q:?\*?\*?\s*/, '')));
+      i++;
+      continue;
+    }
+
+    if (isALine(line)) {
+      const aLines: string[] = [line.replace(/^\*?\*?A:?\*?\*?\s*/, '')];
+      i++;
+      while (
+        i < lines.length && lines[i].trim() !== '' &&
+        !lines[i].startsWith('#') && !lines[i].startsWith('>') &&
+        !isQLine(lines[i]) && !isCCCRef(lines[i])
+      ) { aLines.push(lines[i]); i++; }
+      blocks.push(cleanInline(aLines.join(' ')));
+      continue;
+    }
+
+    if (line.trim() === '') { i++; continue; }
+
+    if (line.startsWith('- ') && !isSourceLine(line)) {
+      blocks.push(cleanInline(line.replace(/^-\s*/, '')));
+      i++;
+      continue;
+    }
+
+    const paraLines: string[] = [line];
+    i++;
+    while (
+      i < lines.length && lines[i].trim() !== '' &&
+      !lines[i].startsWith('#') && !lines[i].startsWith('>') && !lines[i].startsWith('- ') &&
+      !isQLine(lines[i]) && !isALine(lines[i]) && !isCCCRef(lines[i])
+    ) { paraLines.push(lines[i]); i++; }
+    blocks.push(cleanInline(paraLines.join(' ')));
+  }
+
+  return blocks;
+}
+
+function extractSpeechSegments(text: string): string[] {
+  return extractSpeechBlocks(text)
+    .flatMap((block) => block.split(/(?<=[።?!])\s+|\n+/))
+    // pull "(...)" asides into their own pieces (Amharic ref vs English gloss)
+    .flatMap((s) => s.split(/(\([^)]*\))/g))
+    .map((s) => s.trim())
+    .filter((s) => s.length > 1);
 }
 
 // ─── Markdown renderer ──────────────────────────────────────
@@ -260,20 +364,57 @@ export default function ArticleScreen() {
   const isAiGenerated = comparisonSource.includes('ai-generated');
 
   // ── Audio state ──
+  // Article playback chains one speakText() call per segment (bilingual —
+  // see extractSpeechSegments above) rather than one server-side "read the
+  // whole article" call. sessionRef/stoppedRef mirror the web app's
+  // DesktopArticle.tsx: they let Stop halt the CHAIN, not just the sound
+  // currently playing (speakText's own _aborted flag resets at the start
+  // of every call, so it alone can't stop the next segment from starting).
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
+  const [audioLoading, setAudioLoading] = useState(false);
   const mountedRef = useRef(true);
+  const sessionRef = useRef(0);
+  const stoppedRef = useRef(true);
+
+  const segments = useMemo(() => (body ? extractSpeechSegments(body) : []), [body]);
 
   useEffect(() => {
     return () => {
       mountedRef.current = false;
+      sessionRef.current++;
+      stoppedRef.current = true;
       stopTTS();
     };
   }, []);
 
-  const [audioLoading, setAudioLoading] = useState(false);
+  const speakSegment = useCallback(
+    async (i: number, session: number) => {
+      if (session !== sessionRef.current || stoppedRef.current || i >= segments.length) {
+        if (session === sessionRef.current && mountedRef.current) {
+          setIsPlaying(false);
+          setIsPaused(false);
+          setAudioLoading(false);
+        }
+        return;
+      }
+      try {
+        await speakText(segments[i], detectSpeechLang(segments[i]), {
+          backgroundAudio: true,
+          // clear the spinner as soon as sound actually starts, not when
+          // this (or any later) segment finishes playing
+          onLoaded: () => { if (mountedRef.current && session === sessionRef.current) setAudioLoading(false); },
+        });
+        if (session === sessionRef.current && !stoppedRef.current) speakSegment(i + 1, session);
+      } catch (e: any) {
+        if (__DEV__ && e?.name !== 'AbortError') console.warn('[TTS]', e);
+        if (session === sessionRef.current && !stoppedRef.current) speakSegment(i + 1, session);
+      }
+    },
+    [segments],
+  );
 
-  const toggleAudio = useCallback(async () => {
+  const toggleAudio = useCallback(() => {
     if (isPaused) {
       resumeTTS();
       setIsPaused(false);
@@ -284,28 +425,19 @@ export default function ArticleScreen() {
       setIsPaused(true);
       return;
     }
-    if (!slug) return;
+    if (!segments.length) return;
 
+    stoppedRef.current = false;
+    const session = ++sessionRef.current;
     setIsPlaying(true);
     setIsPaused(false);
     setAudioLoading(true);
-    try {
-      // readArticle fetches audio from server, then plays it.
-      // Loading state clears once the promise settles (audio finishes or fails).
-      await readArticle(slug, type, undefined, () => {
-        if (mountedRef.current) setAudioLoading(false);
-      });
-    } catch (e: any) {
-      if (__DEV__ && e?.name !== 'AbortError') console.warn('[TTS]', e);
-    }
-    if (mountedRef.current) {
-      setIsPlaying(false);
-      setIsPaused(false);
-      setAudioLoading(false);
-    }
-  }, [isPlaying, isPaused, slug, type]);
+    speakSegment(0, session);
+  }, [isPlaying, isPaused, segments, speakSegment]);
 
   const handleStop = useCallback(() => {
+    sessionRef.current++;
+    stoppedRef.current = true;
     stopTTS();
     setIsPlaying(false);
     setIsPaused(false);
