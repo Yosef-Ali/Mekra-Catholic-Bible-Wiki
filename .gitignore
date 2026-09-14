@@ -24,3 +24,6 @@ docs/*.docx
 # Defensive: an Obsidian path bug once created Users/mekdesyared/... here.
 Users/
 web/extraction_output
+
+# Claude Code local tool-permission state — personal, not content
+.claude/settings.local.json
