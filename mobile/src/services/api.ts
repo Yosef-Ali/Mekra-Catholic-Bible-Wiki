@@ -29,7 +29,7 @@ const DEV_HOST = getDevHost();
 
 const API_BASE = __DEV__
   ? `http://${DEV_HOST}:5173/api`
-  : 'https://mekra.app/api'; // TODO: set production URL
+  : 'https://fana-catholic-bible.vercel.app/api';
 
 // Log the resolved API base so we can debug connection issues
 if (__DEV__) {

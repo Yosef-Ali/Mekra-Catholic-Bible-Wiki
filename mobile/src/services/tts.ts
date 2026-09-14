@@ -35,7 +35,7 @@ function getDevHost(): string {
 const DEV_HOST = getDevHost();
 const API_BASE = __DEV__
   ? `http://${DEV_HOST}:5173/api`
-  : 'https://mekra.app/api';
+  : 'https://fana-catholic-bible.vercel.app/api';
 
 // ── State ──
 

@@ -79,7 +79,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
           FROM wiki_pages
           WHERE page_type = ${type}
           ORDER BY
-            NULLIF(regexp_replace(frontmatter->>'compendium_q', '\D.*$', ''), '')::int
+            NULLIF(regexp_replace(frontmatter->>'compendium_q', '\\D.*$', ''), '')::int
               NULLS LAST,
             slug
           LIMIT ${lim}
@@ -93,7 +93,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
           FROM wiki_pages
           ORDER BY
             page_type,
-            NULLIF(regexp_replace(frontmatter->>'compendium_q', '\D.*$', ''), '')::int
+            NULLIF(regexp_replace(frontmatter->>'compendium_q', '\\D.*$', ''), '')::int
               NULLS LAST,
             slug
           LIMIT ${lim}
