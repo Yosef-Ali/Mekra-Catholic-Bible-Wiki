@@ -1,4 +1,4 @@
-import { BibleBook, UserProfile } from "./types";
+import { BibleBookSeed, UserProfile } from "./types";
 
 /* ── Profile constants (shared by Settings, DesktopSettings, Onboarding) ── */
 
@@ -25,7 +25,7 @@ export const ALL_INTERESTS = [
 
 /* ── Bible books ── */
 
-export const CATHOLIC_BOOKS: BibleBook[] = [
+export const CATHOLIC_BOOKS: BibleBookSeed[] = [
   // --- OLD TESTAMENT (Pentateuch) ---
   { name: "Genesis", amharicName: "ኦሪት ዘፍጥረት", chapters: 50, section: 'OT' },
   { name: "Exodus", amharicName: "ኦሪት ዘጸአት", chapters: 40, section: 'OT' },

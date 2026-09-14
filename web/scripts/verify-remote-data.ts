@@ -27,7 +27,7 @@ async function verifyRemoteData() {
 
   for (const sample of samples) {
     const book = await db.select().from(books).where(eq(books.id, sample.bookId)).limit(1);
-    console.log(`   ✅ ${book[0]?.name} Ch${sample.chapterNumber}: ${sample.content.substring(0, 80)}...`);
+    console.log(`   ✅ ${book[0]?.name} Ch${sample.chapterNumber}: ${String(sample.content).substring(0, 80)}...`);
   }
 
   console.log('\n✅ Remote database is working correctly!');

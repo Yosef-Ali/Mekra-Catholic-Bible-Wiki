@@ -102,11 +102,16 @@ export async function searchChapters(pattern: string) {
 
     // Get book names for display
     const bookList = await db.select().from(books);
-    const bookMap = new Map(bookList.map(b => [b.id, b.amharicName || b.englishName]));
+    // `books` has no englishName column; the English name lives in `name`.
+    const bookMap = new Map(bookList.map(b => [b.id, b.amharicName || b.name]));
 
     // Process results to find line numbers
     const matches = results.map(chapter => {
-      const lines = chapter.content?.split('\n') || [];
+      // content is a jsonb column (typed `unknown`); coerce before splitting.
+      const contentText = typeof chapter.content === 'string'
+        ? chapter.content
+        : JSON.stringify(chapter.content ?? '');
+      const lines = contentText.split('\n');
       let lineNumber = 1;
       let matchedText = '';
 

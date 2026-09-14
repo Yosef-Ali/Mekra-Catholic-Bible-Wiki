@@ -33,7 +33,7 @@ async function verifyEachBook() {
         .limit(1);
 
       if (sample[0]) {
-        console.log(`   📝 Sample: ${sample[0].content.substring(0, 60).replace(/\n/g, ' ')}...`);
+        console.log(`   📝 Sample: ${String(sample[0].content).substring(0, 60).replace(/\n/g, ' ')}...`);
       }
     }
   }

@@ -108,7 +108,7 @@ router.put('/:userId/role', isAdmin, async (req, res) => {
     // Prevent removing own admin status if unique admin (optional safety check, skip for now to keep simple)
     await db.update(users)
       .set({ role })
-      .where(eq(users.id, parseInt(userId)));
+      .where(eq(users.id, parseInt(String(userId))));
 
     res.json({ success: true, message: 'Role updated successfully' });
   } catch (error: any) {

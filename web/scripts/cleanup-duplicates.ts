@@ -1,6 +1,6 @@
 import { db } from '../services/db';
 import { books, chapterContents } from '../services/schema';
-import { eq, gt } from 'drizzle-orm';
+import { and, eq, gt } from 'drizzle-orm';
 
 /**
  * Clean up duplicate book entries
@@ -41,8 +41,10 @@ async function cleanupDuplicates() {
         const existing = await db
           .select()
           .from(chapterContents)
-          .where(eq(chapterContents.bookId, originalBookId))
-          .where(eq(chapterContents.chapterNumber, chapter.chapterNumber))
+          .where(and(
+            eq(chapterContents.bookId, originalBookId),
+            eq(chapterContents.chapterNumber, chapter.chapterNumber),
+          ))
           .limit(1);
 
         if (existing.length === 0) {

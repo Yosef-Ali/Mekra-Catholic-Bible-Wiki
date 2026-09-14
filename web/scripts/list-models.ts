@@ -14,10 +14,10 @@ async function listModels() {
     console.log('Available models:');
     console.log('='.repeat(80));
 
-    for (const model of models) {
+    for await (const model of models) {
       console.log(`\n✅ ${model.name}`);
       console.log(`   Display Name: ${model.displayName}`);
-      console.log(`   Supported: ${model.supportedGenerationMethods?.join(', ')}`);
+      console.log(`   Supported: ${model.supportedActions?.join(', ')}`);
     }
 
     console.log('\n' + '='.repeat(80));

@@ -66,7 +66,9 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
       })
       .catch(() => {
         if (!cancelled) {
-          setBooks(CATHOLIC_BOOKS as any);
+          // Offline fallback: this list carries no DB ids, so chapter
+          // content stays unloaded — every id use below is guarded.
+          setBooks(CATHOLIC_BOOKS as BibleBook[]);
           setLoading(false);
         }
       });

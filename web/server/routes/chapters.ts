@@ -11,8 +11,8 @@ const router = Router();
  */
 router.get('/:bookId/:chapterNumber', async (req: Request, res: Response) => {
   try {
-    const bookId = parseInt(req.params.bookId);
-    const chapterNumber = parseInt(req.params.chapterNumber);
+    const bookId = parseInt(String(req.params.bookId));
+    const chapterNumber = parseInt(String(req.params.chapterNumber));
 
     if (isNaN(bookId) || isNaN(chapterNumber)) {
       return res.status(400).json({
@@ -68,7 +68,7 @@ router.get('/:bookId/:chapterNumber', async (req: Request, res: Response) => {
  */
 router.get('/book/:bookId', async (req: Request, res: Response) => {
   try {
-    const bookId = parseInt(req.params.bookId);
+    const bookId = parseInt(String(req.params.bookId));
 
     if (isNaN(bookId)) {
       return res.status(400).json({
@@ -106,8 +106,8 @@ router.get('/book/:bookId', async (req: Request, res: Response) => {
  */
 router.put('/:bookId/:chapterNumber', async (req: Request, res: Response) => {
   try {
-    const bookId = parseInt(req.params.bookId);
-    const chapterNumber = parseInt(req.params.chapterNumber);
+    const bookId = parseInt(String(req.params.bookId));
+    const chapterNumber = parseInt(String(req.params.chapterNumber));
     const { content } = req.body;
 
     if (isNaN(bookId) || isNaN(chapterNumber)) {

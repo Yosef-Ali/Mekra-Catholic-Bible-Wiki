@@ -75,7 +75,7 @@ function loadStructureForChapter(targetBook: string, chapter: number): ChStruct 
           }
         }
         for (const r of ch.poetry_ranges || []) {
-          if (Array.isArray(r) && r.length === 2) merged.poetry_ranges.push(r);
+          if (Array.isArray(r) && r.length === 2) merged.poetry_ranges.push(r as [number, number]);
         }
       }
     }

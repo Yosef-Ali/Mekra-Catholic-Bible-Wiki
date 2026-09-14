@@ -31,10 +31,7 @@ async function testAPI() {
       }
     }
 
-    console.log('✅ API is working!\n');
-    console.log('Response:', response.text);
-    console.log('\n✅ Your paid API account is active and ready!');
-    console.log('You can now process your Bible PDF.\n');
+    console.log('\n❌ No model in the list responded.');
 
   } catch (error: any) {
     console.error('❌ API Error:', error.message);

@@ -26,6 +26,13 @@ export interface BibleBook {
   introduction?: BookIntroduction | null;
 }
 
+/**
+ * Canonical book metadata as it ships in the client (CATHOLIC_BOOKS).
+ * No `id`: ids are assigned by the `books` table and only exist on rows
+ * that came back from the API.
+ */
+export type BibleBookSeed = Omit<BibleBook, 'id'>;
+
 export interface ChatMessage {
   id: string;
   role: 'user' | 'model';
