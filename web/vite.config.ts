@@ -1,11 +1,7 @@
 import path from 'path';
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
-import { apiMiddleware } from './server/middleware';
-import express from 'express';
-import pipelineRouter from './server/routes/pipeline';
-import aiRouter from './server/routes/ai';
-import wikiRouter from './server/routes/wiki';
+import app from './server/app';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
@@ -19,19 +15,9 @@ export default defineConfig(({ mode }) => {
       {
         name: 'api-server',
         configureServer(server) {
-          // Mount the Express pipeline router and /pipeline route natively into Vite
-          const app = express();
-          app.get('/pipeline', (_req, res) => {
-            res.sendFile(path.resolve(process.cwd(), 'pipeline-workflow.html'));
-          });
-          app.use(express.json());
-          app.use('/api/pipeline', pipelineRouter);
-          app.use('/api/ai', aiRouter);
-          app.use('/api/wiki', wikiRouter);
+          // The same Express app the Vercel function serves — one definition,
+          // so dev and production can never drift apart again.
           server.middlewares.use(app);
-
-          // Add default API middleware before Vite's middleware
-          server.middlewares.use(apiMiddleware());
         },
       },
     ],
