@@ -245,7 +245,7 @@ export function apiMiddleware(): Connect.NextHandleFunction {
       if (pathname === '/api/health' && req.method === 'GET') {
         return res.end(JSON.stringify({
           success: true,
-          message: 'Fana Catholic Bible API is running',
+          message: 'Emmaus Catholic Bible API is running',
           timestamp: new Date().toISOString()
         }));
       }
