@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { booksApi, chaptersApi } from '../services/apiClient';
 import { BibleBook, UserProfile } from '../types';
 import { getUserProfile } from '../services/storageService';
+import { getAdminToken } from '../services/adminAuth';
 import { generateAndPlayAudio, stopAudioPlayback, pauseAudioPlayback, resumeAudioPlayback, setTTSPlaybackRate } from '../services/geminiService';
 import { Volume2, Search, MoreHorizontal, ChevronLeft, ChevronRight, Play, Pause, Square, ChevronDown, X, PencilLine, SkipBack, SkipForward, Gauge } from 'lucide-react';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerHeader, DrawerTitle, DrawerClose } from './ui/Drawer';
@@ -139,7 +140,11 @@ export const BibleReader: React.FC = () => {
   const handleNext = () => { if (selectedBook && chapter < selectedBook.chapters) setChapter(chapter + 1); };
   const selectChapter = (book: BibleBook, ch: number) => { setSelectedBook(book); setChapter(ch); setDrawerOpen(false); setExpandedBookId(null); };
   const filteredBooks = books.filter(b => b.amharicName.includes(searchQuery) || b.name.toLowerCase().includes(searchQuery.toLowerCase()));
-  const isAdmin = userProfile?.role === 'Priest' || userProfile?.role === 'Theologian' || userProfile?.role === 'Catechist';
+  // Editing is offered only on a device where the admin passphrase has been
+  // accepted (Settings → Content Editor). It used to follow the role a
+  // visitor chose for themselves at onboarding, which protected nothing.
+  // The server enforces the passphrase on the save either way.
+  const isAdmin = !!getAdminToken();
 
   const verseNumbers = content.filter(v => v.type === 'verse' && v.number > 0).map(v => v.number);
   const maxVerseNumber = verseNumbers.length ? Math.max(...verseNumbers) : 0;
@@ -404,7 +409,7 @@ export const BibleReader: React.FC = () => {
       setSaveMessage('Saved!');
       setIsEditing(false);
       await loadChapter();
-    } catch { setSaveError('Save failed.'); }
+    } catch (e: any) { setSaveError(e?.message || 'Save failed.'); }
     finally { setSaving(false); }
   };
 

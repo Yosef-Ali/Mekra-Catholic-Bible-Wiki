@@ -20,6 +20,7 @@ import pipelineRouter from './routes/pipeline';
 import aiRouter from './routes/ai';
 import wikiRouter from './routes/wiki';
 import { apiMiddleware } from './middleware';
+import { guardWrites } from './auth';
 
 dotenv.config();
 
@@ -37,13 +38,27 @@ app.use((req, res, next) => {
   return jsonParser(req, res, next);
 });
 
-// Pipeline tooling UI
-app.get('/pipeline', (_req, res) => {
-  res.sendFile(path.resolve(process.cwd(), 'pipeline-workflow.html'));
+// Everything that can change data needs the admin token (see server/auth.ts).
+// Mounted ahead of every router so no route can be reached around it.
+app.use(guardWrites);
+
+// The editor calls this to check a passphrase. guardWrites has already
+// rejected the request if the token was missing or wrong.
+app.post('/api/admin/verify', (_req, res) => {
+  res.json({ success: true });
 });
 
+// The extraction pipeline spawns local scripts — from a GET request, with
+// arguments taken from the query string. It is a workstation tool and must
+// not exist on the public deployment at all.
+if (!process.env.VERCEL) {
+  app.get('/pipeline', (_req, res) => {
+    res.sendFile(path.resolve(process.cwd(), 'pipeline-workflow.html'));
+  });
+  app.use('/api/pipeline', pipelineRouter);
+}
+
 // Routers
-app.use('/api/pipeline', pipelineRouter);
 app.use('/api/ai', aiRouter);
 app.use('/api/wiki', wikiRouter);
 

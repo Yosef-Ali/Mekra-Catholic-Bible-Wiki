@@ -1,4 +1,5 @@
 import { BibleBook } from '../types';
+import { adminHeaders, describeWriteFailure } from './adminAuth';
 
 /**
  * API Client for frontend to communicate with backend
@@ -174,6 +175,7 @@ export const chaptersApi = {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
+          ...adminHeaders(),
         },
         body: JSON.stringify({ content }),
       });
@@ -181,7 +183,7 @@ export const chaptersApi = {
       const result: ApiResponse<any> = await response.json();
 
       if (!result.success) {
-        throw new Error(result.error || 'Failed to update chapter content');
+        throw new Error(describeWriteFailure(response.status, result.error || 'Failed to update chapter content'));
       }
     } catch (error) {
       console.error(`Error updating chapter ${bookId}:${chapterNumber}:`, error);
@@ -383,11 +385,11 @@ export const readingsApi = {
   }): Promise<void> {
     const response = await fetch(`${API_BASE}/readings/${date}`, {
       method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...adminHeaders() },
       body: JSON.stringify(payload),
     });
     const result = await response.json();
-    if (!result.success) throw new Error(result.error || 'Failed to save readings');
+    if (!result.success) throw new Error(describeWriteFailure(response.status, result.error || 'Failed to save readings'));
   },
 };
 

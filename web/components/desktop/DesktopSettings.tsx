@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { AdminGate } from '../AdminGate';
 import { View } from '../../types';
 import { ROLES, ALL_INTERESTS } from '../../constants';
 import { useProfileEditor } from '../../hooks/useProfileEditor';
@@ -380,7 +381,10 @@ export const DesktopSettings: React.FC<DesktopSettingsProps> = ({ setView }) => 
 
         <div className="h-px" style={{ background: 'var(--rule)' }} />
 
-        <DailyReadingsPanel />
+        {/* Saving here rewrites the day's readings for every reader. */}
+        <AdminGate title="Daily readings">
+          <DailyReadingsPanel />
+        </AdminGate>
 
         <div className="h-px" style={{ background: 'var(--rule)' }} />
 

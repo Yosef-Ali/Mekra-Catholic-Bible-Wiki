@@ -25,6 +25,7 @@ const Bookmarks = view(() => import('./components/Bookmarks'), 'Bookmarks');
 const WikiViewer = view(() => import('./components/WikiViewer'), 'WikiViewer');
 const Onboarding = view(() => import('./components/Onboarding'), 'Onboarding');
 const AdminEditMode = view(() => import('./components/AdminEditMode'), 'AdminEditMode');
+const AdminGate = view(() => import('./components/AdminGate'), 'AdminGate');
 const SettingsPage = view(() => import('./components/SettingsPage'), 'SettingsPage');
 const DesktopHome = view(() => import('./components/desktop/DesktopHome'), 'DesktopHome');
 const DesktopArticle = view(() => import('./components/desktop/DesktopArticle'), 'DesktopArticle');
@@ -113,7 +114,7 @@ const AppContent: React.FC = () => {
       case View.BOOKMARKS: return <Bookmarks />;
       case View.WIKI: return <WikiViewer />;
       case View.ADMIN_EDIT: return <SettingsPage setView={setView} />;
-      case View.CONTENT_EDITOR: return <AdminEditMode />;
+      case View.CONTENT_EDITOR: return <AdminGate><AdminEditMode /></AdminGate>;
       default: return <DailyDevotion onOpenSettings={() => setView(View.ADMIN_EDIT)} />;
     }
   };
@@ -136,7 +137,7 @@ const AppContent: React.FC = () => {
       case View.CONTENT_EDITOR:
         return (
           <DesktopContentWrapper>
-            <AdminEditMode />
+            <AdminGate><AdminEditMode /></AdminGate>
           </DesktopContentWrapper>
         );
       default:
