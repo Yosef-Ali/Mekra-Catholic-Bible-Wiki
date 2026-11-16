@@ -1,34 +1,54 @@
-import React, { useState, useEffect, useCallback, useMemo, createContext, useContext } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, lazy, Suspense } from 'react';
 import { View } from './types';
 import { Navigation } from './components/Navigation';
-import { DailyDevotion } from './components/DailyDevotion';
-import { BibleReader } from './components/BibleReader';
-import { ChatAssistant } from './components/ChatAssistant';
-import { Bookmarks } from './components/Bookmarks';
-import { WikiViewer } from './components/WikiViewer';
-import { Onboarding } from './components/Onboarding';
-import { AdminEditMode } from './components/AdminEditMode';
-import { SettingsPage } from './components/SettingsPage';
 import { getUserProfile } from './services/storageService';
 import { TypographyProvider } from './contexts/TypographyContext';
+import { FooterContext } from './contexts/FooterContext';
 import { useIsDesktop } from './hooks/useIsDesktop';
 import { DesktopTopBar } from './components/desktop/DesktopTopBar';
-import { DesktopHome } from './components/desktop/DesktopHome';
-import { DesktopArticle } from './components/desktop/DesktopArticle';
-import { DesktopAskAI } from './components/desktop/DesktopAskAI';
-import { DesktopBibleSelector } from './components/desktop/DesktopBibleSelector';
 import { DesktopContentWrapper } from './components/desktop/DesktopContentWrapper';
-import { DesktopBookmarks } from './components/desktop/DesktopBookmarks';
-import { DesktopSettings } from './components/desktop/DesktopSettings';
 import { SearchPalette } from './components/desktop/SearchPalette';
 
-// Footer visibility context
-export const FooterContext = createContext<{
-  hideFooter: boolean;
-  setHideFooter: (hide: boolean) => void;
-}>({ hideFooter: false, setHideFooter: () => {} });
+// Each view is its own chunk, fetched the first time it is shown. A phone
+// never downloads the desktop layouts (or the reverse), and nobody downloads
+// the 1,200-line content editor unless they open it. On a slow connection
+// that is the difference between the home screen appearing and not.
+const view = <T extends Record<string, React.ComponentType<any>>, K extends keyof T>(
+  load: () => Promise<T>,
+  name: K,
+) => lazy(() => load().then((m) => ({ default: m[name] })));
 
-export const useFooter = () => useContext(FooterContext);
+const DailyDevotion = view(() => import('./components/DailyDevotion'), 'DailyDevotion');
+const BibleReader = view(() => import('./components/BibleReader'), 'BibleReader');
+const ChatAssistant = view(() => import('./components/ChatAssistant'), 'ChatAssistant');
+const Bookmarks = view(() => import('./components/Bookmarks'), 'Bookmarks');
+const WikiViewer = view(() => import('./components/WikiViewer'), 'WikiViewer');
+const Onboarding = view(() => import('./components/Onboarding'), 'Onboarding');
+const AdminEditMode = view(() => import('./components/AdminEditMode'), 'AdminEditMode');
+const SettingsPage = view(() => import('./components/SettingsPage'), 'SettingsPage');
+const DesktopHome = view(() => import('./components/desktop/DesktopHome'), 'DesktopHome');
+const DesktopArticle = view(() => import('./components/desktop/DesktopArticle'), 'DesktopArticle');
+const DesktopAskAI = view(() => import('./components/desktop/DesktopAskAI'), 'DesktopAskAI');
+const DesktopBibleSelector = view(() => import('./components/desktop/DesktopBibleSelector'), 'DesktopBibleSelector');
+const DesktopBookmarks = view(() => import('./components/desktop/DesktopBookmarks'), 'DesktopBookmarks');
+const DesktopSettings = view(() => import('./components/desktop/DesktopSettings'), 'DesktopSettings');
+
+/** Shown while a view's chunk is loading. */
+const ViewLoading: React.FC = () => (
+  <div
+    className="h-full w-full flex items-center justify-center"
+    style={{ background: 'var(--parchment)' }}
+    role="status"
+    aria-label="Loading"
+  >
+    <div className="flex gap-1.5">
+      <span className="w-1.5 h-1.5 bg-oxblood/40 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
+      <span className="w-1.5 h-1.5 bg-oxblood/40 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
+      <span className="w-1.5 h-1.5 bg-oxblood/40 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+    </div>
+  </div>
+);
+
 
 // Main app content (protected)
 const AppContent: React.FC = () => {
@@ -126,7 +146,13 @@ const AppContent: React.FC = () => {
 
   // Show onboarding for new users
   if (showOnboarding) {
-    return <Onboarding onComplete={handleOnboardingComplete} />;
+    return (
+      <div className="h-screen h-[100dvh] w-screen">
+        <Suspense fallback={<ViewLoading />}>
+          <Onboarding onComplete={handleOnboardingComplete} />
+        </Suspense>
+      </div>
+    );
   }
 
   /* ── Desktop layout ── */
@@ -143,7 +169,7 @@ const AppContent: React.FC = () => {
           <DesktopTopBar currentView={currentView} setView={setView} onSearchOpen={openSearch} />
           <main className="flex-1 min-h-0">
             <div key={currentView} className="h-full animate-in fade-in duration-300">
-              {renderDesktopView()}
+              <Suspense fallback={<ViewLoading />}>{renderDesktopView()}</Suspense>
             </div>
           </main>
           <SearchPalette open={searchOpen} onClose={closeSearch} setView={setView} openWikiPage={openWikiPage} />
@@ -164,7 +190,7 @@ const AppContent: React.FC = () => {
       >
         <main className="flex-1 h-full relative">
           <div key={currentView} className="h-full animate-in fade-in duration-300">
-            {renderMobileView()}
+            <Suspense fallback={<ViewLoading />}>{renderMobileView()}</Suspense>
           </div>
         </main>
         <Navigation

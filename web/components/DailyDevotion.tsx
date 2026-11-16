@@ -1,9 +1,10 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { getDailyMassReadings } from '../services/geminiService';
 import { getUserProfile } from '../services/storageService';
+import { readingsApi } from '../services/apiClient';
 import { DailyMassContent } from '../types';
 import { ChevronRight, ChevronDown, ChevronUp, BookOpen } from 'lucide-react';
-import { useFooter } from '../App';
+import { useFooter } from '../contexts/FooterContext';
 import { useScrollHideFooter } from '../hooks/useScrollHideFooter';
 import { CrossMark, Ornament, Rubric } from './ui/ManuscriptPrimitives';
 
@@ -29,13 +30,27 @@ export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings }) 
   useScrollHideFooter(setHideFooter, scrollRef);
 
   useEffect(() => {
+    let cancelled = false;
     const fetchContent = async () => {
       setLoading(true);
       const result = await getDailyMassReadings(new Date());
+      if (cancelled) return;
       setData(result);
       setLoading(false);
     };
     fetchContent();
+    return () => { cancelled = true; };
+  }, []);
+
+  // The liturgical season comes from the server's computed calendar (never
+  // AI, never a literal). This label used to be the fixed word "Eastertide".
+  const [season, setSeason] = useState<string | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    readingsApi.get('today')
+      .then((d) => { if (!cancelled) setSeason(d.roman.liturgical?.season ?? null); })
+      .catch(() => { /* offline: show the weekday alone */ });
+    return () => { cancelled = true; };
   }, []);
 
   const getVerseOfDay = () => {
@@ -118,7 +133,7 @@ export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings }) 
       {/* ── Greeting ── */}
       <div className="px-6 pt-3 pb-4">
         <div className="font-mono text-[9px] tracking-[0.18em] uppercase text-oxblood mb-1.5">
-          <Rubric>Eastertide · {new Date().toLocaleDateString('en', { weekday: 'long' })}</Rubric>
+          <Rubric>{[season, new Date().toLocaleDateString('en', { weekday: 'long' })].filter(Boolean).join(' · ')}</Rubric>
         </div>
         <h1 className="font-garamond text-[32px] leading-[1.08] font-medium text-ink m-0">
           Good {new Date().getHours() < 12 ? 'morning' : new Date().getHours() < 18 ? 'afternoon' : 'evening'},

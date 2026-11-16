@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { romanYear } from '../../services/romanNumeral';
 import { View } from '../../types';
 import { Ornament, Rubric, CrossMark } from '../ui/ManuscriptPrimitives';
 import { wikiApi, WikiPageListItem, readingsApi, DailyReadingsData, DailyReading } from '../../services/apiClient';
@@ -149,7 +150,14 @@ export const DesktopHome: React.FC<DesktopHomeProps> = ({ setView, openWikiPage,
         <div className="flex items-end gap-8 mb-9">
           <div className="flex-1">
             <div className="font-mono text-[10px] tracking-[0.18em] uppercase mb-3">
-              <Rubric>{'Vol. I  ·  Eastertide  ·  Anno Domini ⅯⅯⅩⅩⅥ'}</Rubric>
+              {/* Season and year are computed. They used to be the literal
+                  text "Eastertide … ⅯⅯⅩⅩⅥ", which was wrong for most of the
+                  year and would have been wrong for every year after 2026. */}
+              <Rubric>
+                {['Vol. I', daily?.roman.liturgical?.season, `Anno Domini ${romanYear(new Date().getFullYear())}`]
+                  .filter(Boolean)
+                  .join('  ·  ')}
+              </Rubric>
             </div>
             <h1 className="font-ethiopic font-medium text-[60px] leading-[1.05] m-0">
               {'ከመጽሐፍ ቅዱስ '}<span className="text-oxblood">{'እስከ'}</span>{' ቅዳሴ።'}

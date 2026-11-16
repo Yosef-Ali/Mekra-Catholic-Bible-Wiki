@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { wikiApi, WikiPageListItem, WikiPage } from '../services/apiClient';
 import { ChevronLeft, Search, BookOpen, X } from 'lucide-react';
-import { useFooter } from '../App';
+import { useFooter } from '../contexts/FooterContext';
 import { useScrollHideFooter } from '../hooks/useScrollHideFooter';
 
 type Tab = 'teaching' | 'concept' | 'figure' | 'qa';

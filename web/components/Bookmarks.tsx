@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Bookmark } from '../types';
 import { getBookmarks, removeBookmark } from '../services/storageService';
 import { Trash2, MessageCircle, BookOpen, Quote, Calendar, BookmarkIcon } from 'lucide-react';
-import { useFooter } from '../App';
+import { useFooter } from '../contexts/FooterContext';
 import { useScrollHideFooter } from '../hooks/useScrollHideFooter';
 import { CrossMark, Ornament, SectionLabel } from './ui/ManuscriptPrimitives';
 

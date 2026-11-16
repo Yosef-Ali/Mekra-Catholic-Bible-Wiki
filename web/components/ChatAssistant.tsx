@@ -1,9 +1,10 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
+import { escapeHtml } from '../services/escapeHtml';
 import { streamChatResponse, generateAndPlayAudio, generateChatSuggestions, getInitialLiturgicalSuggestions } from '../services/geminiService';
 import { saveBookmark, saveChatSession, getChatSessions, deleteChatSession, saveUserProfile, getUserProfile } from '../services/storageService';
 import { ChatMessage, ChatSession, UserProfile } from '../types';
 import { Send, User, Sparkles, Languages, ExternalLink, RefreshCcw, Mic, Volume2, Copy, BookOpen, Heart, History, Loader2, Lightbulb, Bookmark, BookmarkCheck, Menu, Plus, Trash2, X, UserCog, Settings } from 'lucide-react';
-import { useFooter } from '../App';
+import { useFooter } from '../contexts/FooterContext';
 import { useScrollHideFooter } from '../hooks/useScrollHideFooter';
 import { IconButton } from './ui/IconButton';
 import { CrossMark } from './ui/ManuscriptPrimitives';
@@ -219,17 +220,8 @@ export const ChatAssistant: React.FC = () => {
         const chunkText = chunk.text || "";
         fullRawText += chunkText;
 
-        // Extract Links
-        if (chunk.candidates?.[0]?.groundingMetadata?.groundingChunks) {
-            const chunks = chunk.candidates[0].groundingMetadata.groundingChunks;
-            chunks.forEach((c: any) => {
-                if (c.web?.uri && c.web?.title) {
-                    if (!groundingLinks.find(l => l.url === c.web.uri)) {
-                        groundingLinks.push({ title: c.web.title, url: c.web.uri });
-                    }
-                }
-            });
-        }
+        // (The server proxy streams text only — there is no grounding
+        // metadata to read, so groundingLinks stays empty.)
 
         const parts = fullRawText.split('|||');
         const amharicPart = parts[0].trim();
@@ -411,7 +403,10 @@ export const ChatAssistant: React.FC = () => {
     const verseClass = isUser ? 'text-parchment font-bold text-xs bg-parchment/10 px-1.5 py-0.5 rounded mx-1' : 'text-oxblood font-bold text-xs bg-oxblood/20 px-1.5 py-0.5 rounded mx-1';
     const supClass = isUser ? 'text-parchment/60 font-black text-[0.65em] mx-0.5' : 'text-oxblood/70 font-black text-[0.65em] mx-0.5';
 
-    return text
+    // The result is injected with dangerouslySetInnerHTML, and `text` is
+    // either what the user typed or what the model returned — neither is
+    // trusted. Escape it first so only the tags added below are ever HTML.
+    return escapeHtml(text)
       .replace(/\*\*(.*?)\*\*/g, `<strong class="${boldClass}">$1</strong>`)
       .replace(/__(.*?)__/g, `<strong class="${boldClass}">$1</strong>`)
       .replace(/(?<!\*)\*(?!\*)(.*?)\*/g, `<em class="${italicClass}">$1</em>`)

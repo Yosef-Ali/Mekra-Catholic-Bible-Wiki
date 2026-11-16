@@ -118,13 +118,7 @@ export const DesktopAskAI: React.FC<DesktopAskAIProps> = ({ setView }) => {
 
       for await (const chunk of stream) {
         fullText += chunk.text || '';
-        if (chunk.candidates?.[0]?.groundingMetadata?.groundingChunks) {
-          for (const c of chunk.candidates[0].groundingMetadata.groundingChunks) {
-            if (c.web?.uri && c.web?.title && !groundingLinks.find((l) => l.url === c.web.uri)) {
-              groundingLinks.push({ title: c.web.title, url: c.web.uri });
-            }
-          }
-        }
+        // (The server proxy streams text only — no grounding metadata.)
 
         const parts = fullText.split('|||');
         const amPart = parts[0].trim();

@@ -244,6 +244,90 @@ router.post('/chat-stream', async (req, res) => {
   }
 });
 
+// ── Daily Mass readings + homily (mobile-web home) ──
+// This used to run in the browser with the Gemini key compiled into the
+// bundle. It runs here so the key stays on the server. The client sends only
+// a date; the prompt is fixed, so this is not a general-purpose model proxy.
+const DAILY_MASS_MODEL = 'gemini-3-pro-preview';
+
+router.post('/daily-mass', async (req, res) => {
+  const raw = String(req.body?.date ?? '');
+  const match = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const date = match ? new Date(Date.UTC(+match[1], +match[2] - 1, +match[3])) : null;
+  if (!date || isNaN(date.getTime())) {
+    res.status(400).json({ success: false, error: 'date must be YYYY-MM-DD' });
+    return;
+  }
+  const formattedDate = date.toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+  });
+
+  const prompt = `
+      Find the official Catholic Daily Mass Readings for ${formattedDate}.
+
+      Tasks:
+      1. Identify the Liturgical Date/Feast (e.g., "Tuesday of the 3rd Week of Lent").
+      2. Provide the full text for:
+         - First Reading
+         - Responsorial Psalm
+         - Second Reading (if applicable for today)
+         - Gospel
+      3. Write a deep, powerful Homily/Reflection.
+         - **Style**: Combine the **intellectual clarity of Bishop Robert Barron** and the **dramatic, soul-piercing rhetoric of Archbishop Fulton Sheen**.
+         - **Focus**: **Psychological** and **Mystical**.
+           - **Psychological**: Analyze the human condition—our anxieties, our hidden fears, the ego, and the thirst for meaning. How does today's reading heal the human mind?
+           - **Mystical**: Speak of the soul's union with God. Use imagery of Light, Fire, the Desert, and the Heart.
+           - **Universal Metaphors**: Use universal examples (e.g., a traveler lost in a storm, the silence of a mountain, the warmth of a home, the battle of a soldier) rather than specific cultural clichés.
+           - Avoid superficial examples. Go deep into the soul.
+         - The reflection should be substantial (3-4 paragraphs) in Amharic.
+
+      Output Language: **AMHARIC** (Except for the JSON keys).
+
+      **IMPORTANT**: USE STANDARD ARABIC NUMERALS (1, 2, 3) for all verse numbers and dates. DO NOT use Ethiopic numerals.
+
+      STRICT JSON OUTPUT REQUIRED:
+      1. Return ONLY a valid JSON object.
+      2. Do not include markdown formatting (like \`\`\`json).
+      3. **ESCAPE ALL DOUBLE QUOTES** inside the text content (e.g. "He said \\"Hello\\"").
+      4. Ensure no unescaped control characters.
+
+      Structure:
+      {
+        "date": "The requested date",
+        "liturgicalFeast": "Name of feast in English/Amharic mixed",
+        "readings": [
+          {
+            "type": "First Reading" | "Responsorial Psalm" | "Second Reading" | "Gospel",
+            "reference": "Book Chapter:Verse",
+            "text": "Full text in Amharic"
+          }
+        ],
+        "reflection": {
+          "title": "Title in Amharic",
+          "authorStyle": "Description",
+          "content": "Content in Amharic"
+        }
+      }
+    `;
+
+  try {
+    const response = await getGeminiAI().models.generateContent({
+      model: DAILY_MASS_MODEL,
+      contents: prompt,
+      config: {
+        tools: [{ googleSearch: {} }],
+        temperature: 0.2, // low, to keep the JSON structure valid
+      },
+    });
+    const text = response.text || '';
+    if (!text) throw new Error('No text returned');
+    res.json({ success: true, text });
+  } catch (err: any) {
+    console.error('daily-mass error:', err);
+    res.status(502).json({ success: false, error: err?.message || 'daily-mass failure' });
+  }
+});
+
 // ── TTS (Gemini neural, Amharic; google-translate fallback) ──
 router.post('/tts', async (req, res) => {
   const { text, lang, voice } = req.body || {};

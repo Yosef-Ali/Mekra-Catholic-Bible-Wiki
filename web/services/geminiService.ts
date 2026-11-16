@@ -1,24 +1,12 @@
-import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 import { SYSTEM_INSTRUCTION } from "../constants";
 import { UserProfile } from "../types";
 
-// Initialize Gemini AI using latest API (matches scripts pattern)
-// IMPORTANT: In a Vite client build, use VITE_GEMINI_API_KEY from .env/.env.local
-// Fallback to process.env for server-side scripts.
-const apiKey =
-  // Vite client env
-  (typeof import.meta !== 'undefined' && (import.meta as any).env?.VITE_GEMINI_API_KEY) ||
-  // Node/server-side
-  process.env.GEMINI_API_KEY ||
-  '';
-const hasApiKey = !!apiKey;
-const ai = new GoogleGenAI({ apiKey });
+// Every model call in this file goes through the server (/api/ai/*). There is
+// deliberately no SDK client and no API key here: this module is bundled for
+// the browser, and a key referenced from it is published to every visitor.
 
-// Use Gemini 3 Pro Preview - kept ONLY for features Ollama can't do:
-// - getDailyMassReadings (needs googleSearch grounding)
-// - generateAndPlayAudio (TTS)
-// All other AI calls now go through Ollama Cloud via /api/ai (server proxy).
-const modelName = "gemini-3-pro-preview";
+/** One streamed chunk of chat text. */
+export interface ChatChunk { text: string }
 
 // --- Ollama proxy helpers (server-side, key never exposed to browser) ---
 async function ollamaGenerate(opts: { system?: string; prompt: string; json?: boolean; temperature?: number }): Promise<string> {
@@ -106,65 +94,20 @@ export const getDailyMassReadings = async (targetDate: Date = new Date()): Promi
   const staleData = cache?.data;
 
   try {
-    if (!hasApiKey) throw new Error("Missing GEMINI_API_KEY");
-    const formattedDate = targetDate.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    // Local calendar date, not toISOString(): that is UTC and names the wrong
+    // day for part of every day in any timezone ahead of or behind it.
+    const y = targetDate.getFullYear();
+    const m = String(targetDate.getMonth() + 1).padStart(2, '0');
+    const d = String(targetDate.getDate()).padStart(2, '0');
 
-    const prompt = `
-      Find the official Catholic Daily Mass Readings for ${formattedDate}.
-
-      Tasks:
-      1. Identify the Liturgical Date/Feast (e.g., "Tuesday of the 3rd Week of Lent").
-      2. Provide the full text for:
-         - First Reading
-         - Responsorial Psalm
-         - Second Reading (if applicable for today)
-         - Gospel
-      3. Write a deep, powerful Homily/Reflection.
-         - **Style**: Combine the **intellectual clarity of Bishop Robert Barron** and the **dramatic, soul-piercing rhetoric of Archbishop Fulton Sheen**.
-         - **Focus**: **Psychological** and **Mystical**.
-           - **Psychological**: Analyze the human condition—our anxieties, our hidden fears, the ego, and the thirst for meaning. How does today's reading heal the human mind?
-           - **Mystical**: Speak of the soul's union with God. Use imagery of Light, Fire, the Desert, and the Heart.
-           - **Universal Metaphors**: Use universal examples (e.g., a traveler lost in a storm, the silence of a mountain, the warmth of a home, the battle of a soldier) rather than specific cultural clichés.
-           - Avoid superficial examples. Go deep into the soul.
-         - The reflection should be substantial (3-4 paragraphs) in Amharic.
-
-      Output Language: **AMHARIC** (Except for the JSON keys).
-
-      **IMPORTANT**: USE STANDARD ARABIC NUMERALS (1, 2, 3) for all verse numbers and dates. DO NOT use Ethiopic numerals.
-
-      STRICT JSON OUTPUT REQUIRED:
-      1. Return ONLY a valid JSON object.
-      2. Do not include markdown formatting (like \`\`\`json).
-      3. **ESCAPE ALL DOUBLE QUOTES** inside the text content (e.g. "He said \\"Hello\\"").
-      4. Ensure no unescaped control characters.
-
-      Structure:
-      {
-        "date": "The requested date",
-        "liturgicalFeast": "Name of feast in English/Amharic mixed",
-        "readings": [
-          {
-            "type": "First Reading" | "Responsorial Psalm" | "Second Reading" | "Gospel",
-            "reference": "Book Chapter:Verse",
-            "text": "Full text in Amharic"
-          }
-        ],
-        "reflection": {
-          "title": "Title in Amharic",
-          "authorStyle": "Description",
-          "content": "Content in Amharic"
-        }
-      }
-    `;
-
-    const response = await ai.models.generateContent({
-      model: modelName,
-      contents: prompt,
-      config: {
-        tools: [{ googleSearch: {} }],
-        temperature: 0.2, // Lower temperature to ensure valid JSON structure
-      }
+    const res = await fetch('/api/ai/daily-mass', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ date: `${y}-${m}-${d}` }),
     });
+    if (!res.ok) throw new Error(`Daily Mass proxy error ${res.status}`);
+    const response = await res.json();
+    if (!response.success) throw new Error(response.error || 'Daily Mass proxy failure');
 
     let text = response.text;
     if (!text) throw new Error("No text returned");
@@ -262,7 +205,7 @@ export const streamChatResponse = async function* (
         try {
           const obj = JSON.parse(payload);
           if (obj.text) {
-            yield { text: obj.text } as GenerateContentResponse;
+            yield { text: obj.text } as ChatChunk;
           }
         } catch {
           // ignore
@@ -271,7 +214,7 @@ export const streamChatResponse = async function* (
     }
   } catch (error) {
     console.error("Chat error", error);
-    yield { text: "Error connecting to the spiritual guide. Please check your connection." } as GenerateContentResponse;
+    yield { text: "Error connecting to the spiritual guide. Please check your connection." } as ChatChunk;
   }
 };
 

@@ -6,7 +6,7 @@ import { generateAndPlayAudio, stopAudioPlayback, pauseAudioPlayback, resumeAudi
 import { Volume2, Search, MoreHorizontal, ChevronLeft, ChevronRight, Play, Pause, Square, ChevronDown, X, PencilLine, SkipBack, SkipForward, Gauge } from 'lucide-react';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerHeader, DrawerTitle, DrawerClose } from './ui/Drawer';
 import { IconButton } from './ui/IconButton';
-import { useFooter } from '../App';
+import { useFooter } from '../contexts/FooterContext';
 import { useScrollHideFooter } from '../hooks/useScrollHideFooter';
 import TypographyEditor from './TypographyEditor';
 import { useTypography } from '../contexts/TypographyContext';
@@ -336,13 +336,21 @@ export const BibleReader: React.FC = () => {
 
   useEffect(() => { setUserProfile(getUserProfile()); }, []);
 
+  // Each load takes a ticket; a response is applied only if its ticket is
+  // still the latest. Without this, tapping Next quickly could let chapter
+  // 5's text arrive after chapter 6 was requested and render under the
+  // chapter 6 heading — the wrong Scripture under a correct-looking title.
+  const loadTicket = useRef(0);
+
   const loadChapter = useCallback(async () => {
     if (!selectedBook) return;
+    const ticket = ++loadTicket.current;
     try {
       setLoading(true);
       setSaveMessage(''); setSaveError('');
 
       const { content: raw, formattingRules } = await chaptersApi.getContent(selectedBook.id, chapter);
+      if (ticket !== loadTicket.current) return;
       const rawString = typeof raw === 'string' ? raw : JSON.stringify(raw ?? '', null, 2);
       setRawContent(rawString || '');
       setEditorValue(rawString || '');
@@ -357,11 +365,12 @@ export const BibleReader: React.FC = () => {
       setContent(verses);
       setHasPoetry(poetry);
     } catch (error) {
+      if (ticket !== loadTicket.current) return;
       console.error('Failed to load chapter content', error);
       setContent([]);
       setHasPoetry(false);
     } finally {
-      setLoading(false);
+      if (ticket === loadTicket.current) setLoading(false);
     }
   }, [selectedBook, chapter, parseContent]);
 

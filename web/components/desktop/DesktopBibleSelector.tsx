@@ -154,6 +154,24 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
     return [];
   }, [getVerseFormatting]);
 
+  // The one place reader-mode chapter text is fetched. Each call takes a
+  // ticket and a response is applied only while its ticket is the latest:
+  // paging quickly otherwise let an earlier chapter's text land after a later
+  // one was requested, showing the wrong Scripture under the new heading.
+  const readerTicket = useRef(0);
+  const loadReaderChapter = useCallback((bookId: number, ch: number) => {
+    const ticket = ++readerTicket.current;
+    setReaderLoading(true);
+    setReaderVerses([]);
+    chaptersApi.getContent(bookId, ch)
+      .then(({ content, formattingRules }) => {
+        if (ticket !== readerTicket.current) return;
+        setReaderVerses(parseContent(content, formattingRules || null));
+      })
+      .catch(() => { if (ticket === readerTicket.current) setReaderVerses([]); })
+      .finally(() => { if (ticket === readerTicket.current) setReaderLoading(false); });
+  }, [parseContent]);
+
   // Apply initial Bible reference (from wiki scripture link) — jump straight to content
   useEffect(() => {
     if (!initialRef || books.length === 0) return;
@@ -168,17 +186,10 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
       setSelectedBook(match.name);
       setSelectedChapter(initialRef.chapter);
       setReaderMode(true);
-      setReaderLoading(true);
-      setReaderVerses([]);
-      chaptersApi.getContent(match.id, initialRef.chapter)
-        .then(({ content, formattingRules }) => {
-          setReaderVerses(parseContent(content, formattingRules || null));
-        })
-        .catch(() => setReaderVerses([]))
-        .finally(() => setReaderLoading(false));
+      loadReaderChapter(match.id, initialRef.chapter);
       onRefConsumed?.();
     }
-  }, [initialRef, books, onRefConsumed, parseContent]);
+  }, [initialRef, books, onRefConsumed, loadReaderChapter]);
 
   // Fetch verse preview when book/chapter changes (selector mode)
   useEffect(() => {
@@ -208,27 +219,15 @@ export const DesktopBibleSelector: React.FC<DesktopBibleSelectorProps> = ({ setV
   const openReader = useCallback(() => {
     if (!activeBookData?.id) return;
     setReaderMode(true);
-    setReaderLoading(true);
-    setReaderVerses([]);
-    chaptersApi.getContent(activeBookData.id, selectedChapter)
-      .then(({ content, formattingRules }) => {
-        setReaderVerses(parseContent(content, formattingRules || null));
-      })
-      .catch(() => setReaderVerses([]))
-      .finally(() => setReaderLoading(false));
-  }, [activeBookData?.id, selectedChapter, parseContent]);
+    loadReaderChapter(activeBookData.id, selectedChapter);
+  }, [activeBookData?.id, selectedChapter, loadReaderChapter]);
 
   // Navigate chapters in reader mode
   const goToChapter = useCallback((ch: number) => {
     if (!activeBookData?.id || ch < 1 || ch > totalChapters) return;
     setSelectedChapter(ch);
-    setReaderLoading(true);
-    setReaderVerses([]);
-    chaptersApi.getContent(activeBookData.id, ch)
-      .then(({ content, formattingRules }) => setReaderVerses(parseContent(content, formattingRules || null)))
-      .catch(() => setReaderVerses([]))
-      .finally(() => setReaderLoading(false));
-  }, [activeBookData?.id, totalChapters, parseContent]);
+    loadReaderChapter(activeBookData.id, ch);
+  }, [activeBookData?.id, totalChapters, loadReaderChapter]);
 
   const handleCopyVerse = useCallback(async () => {
     if (!versePreview) return;
