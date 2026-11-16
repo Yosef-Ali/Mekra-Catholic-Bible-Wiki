@@ -33,8 +33,8 @@ importers:
         specifier: ^0.555.0
         version: 0.555.0(react@19.2.0)
       msedge-tts:
-        specifier: ^2.0.6
-        version: 2.0.6
+        specifier: ^2.1.1
+        version: 2.1.1
       pdf-lib:
         specifier: ^1.17.1
         version: 1.17.1
@@ -2528,8 +2528,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  msedge-tts@2.0.6:
-    resolution: {integrity: sha512-ztgcTW0p3zS+86EFc7eNBXAtxLD4sPWQuyIzmV8Nb8wq/54Mok4cxwHZxKQuU96gALIRCH4FyMbI6Q59tDnNaA==}
+  msedge-tts@2.1.1:
+    resolution: {integrity: sha512-eJ8moPZYqLl5eEZpg5lU2gCG9Pjao/yMTl6TMgD0M7YoKDQcdSUxv6QgjUelkjYRHYWXlKzG1tKM5WnZwxwGFw==}
     engines: {node: '>=16.0.0'}
 
   nanoid@3.3.11:
@@ -3287,6 +3287,18 @@ packages:
 
   ws@8.18.3:
     resolution: {integrity: sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+  ws@8.23.0:
+    resolution: {integrity: sha512-wCkmX8QMOrKjgO8HW2WyDbTSGeqkocxgDzS9iR79rEAexty6/2qzilx3Ag8Tqf9ykop3irLKle0MtVn5qjVnoQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -5220,9 +5232,9 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isomorphic-ws@5.0.0(ws@8.18.3):
+  isomorphic-ws@5.0.0(ws@8.23.0):
     dependencies:
-      ws: 8.18.3
+      ws: 8.23.0
 
   jackspeak@3.4.3:
     dependencies:
@@ -5712,13 +5724,13 @@ snapshots:
 
   ms@2.1.3: {}
 
-  msedge-tts@2.0.6:
+  msedge-tts@2.1.1:
     dependencies:
       axios: 1.18.1
       buffer: 6.0.3
-      isomorphic-ws: 5.0.0(ws@8.18.3)
+      isomorphic-ws: 5.0.0(ws@8.23.0)
       stream-browserify: 3.0.0
-      ws: 8.18.3
+      ws: 8.23.0
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -6490,6 +6502,8 @@ snapshots:
   wrappy@1.0.2: {}
 
   ws@8.18.3: {}
+
+  ws@8.23.0: {}
 
   xml-name-validator@5.0.0: {}
 
