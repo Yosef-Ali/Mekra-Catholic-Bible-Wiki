@@ -108,14 +108,14 @@ const AppContent: React.FC = () => {
   /* ── Mobile view renderer (existing) ── */
   const renderMobileView = () => {
     switch (currentView) {
-      case View.DEVOTION: return <DailyDevotion onOpenSettings={() => setView(View.ADMIN_EDIT)} />;
-      case View.READER: return <TypographyProvider><BibleReader /></TypographyProvider>;
+      case View.DEVOTION: return <DailyDevotion onOpenSettings={() => setView(View.ADMIN_EDIT)} openBibleRef={openBibleRef} onOpenTeaching={() => setView(View.WIKI)} />;
+      case View.READER: return <TypographyProvider><BibleReader initialRef={pendingBibleRef} onRefConsumed={() => setPendingBibleRef(null)} /></TypographyProvider>;
       case View.CHAT: return <ChatAssistant />;
       case View.BOOKMARKS: return <Bookmarks />;
       case View.WIKI: return <WikiViewer />;
       case View.ADMIN_EDIT: return <SettingsPage setView={setView} />;
       case View.CONTENT_EDITOR: return <AdminGate><AdminEditMode /></AdminGate>;
-      default: return <DailyDevotion onOpenSettings={() => setView(View.ADMIN_EDIT)} />;
+      default: return <DailyDevotion onOpenSettings={() => setView(View.ADMIN_EDIT)} openBibleRef={openBibleRef} onOpenTeaching={() => setView(View.WIKI)} />;
     }
   };
 

@@ -24,7 +24,7 @@ const PUBLIC_POST = new Set([
   '/api/ai/chat-stream',
   '/api/ai/chat',
   '/api/ai/tts',
-  '/api/ai/daily-mass',
+  '/api/ai/daily-reflection',
   '/api/ai/proofread',
   '/api/ai/ocr',
   '/api/chapters/search',

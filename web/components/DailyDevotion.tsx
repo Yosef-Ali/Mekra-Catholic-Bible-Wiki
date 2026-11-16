@@ -1,14 +1,14 @@
-import React, { useEffect, useState, useRef } from 'react';
-import { getDailyMassReadings } from '../services/geminiService';
-import { getUserProfile } from '../services/storageService';
-import { readingsApi } from '../services/apiClient';
-import { DailyMassContent } from '../types';
-import { ChevronRight, ChevronDown, ChevronUp, BookOpen } from 'lucide-react';
+import React, { useEffect, useMemo, useState, useRef } from 'react';
+import { getDailyReflection, DailyReflection } from '../services/geminiService';
+import { getUserProfile, getLastRead } from '../services/storageService';
+import { readingsApi, booksApi, chaptersApi, DailyReadingsData, DailyReading } from '../services/apiClient';
+import { pickVerse } from '../services/verseText';
+import { ChevronRight, ChevronDown, ChevronUp } from 'lucide-react';
 import { useFooter } from '../contexts/FooterContext';
 import { useScrollHideFooter } from '../hooks/useScrollHideFooter';
 import { CrossMark, Ornament, Rubric } from './ui/ManuscriptPrimitives';
 
-/* ── sample teaching cards (matches design) ── */
+/* ── teaching shortcuts ── */
 const TEACHING_CHAPTERS = [
   { slug: 'baptism', en: 'Baptism', am: 'ጥምቀት', part: 'II', q: '252–264', color: '#7A2522' },
   { slug: 'confirmation', en: 'Confirmation', am: 'ሜሮን', part: 'II', q: '265–270', color: '#B68530' },
@@ -16,54 +16,91 @@ const TEACHING_CHAPTERS = [
   { slug: 'penance', en: 'Penance', am: 'ንስሐ', part: 'II', q: '295–312', color: '#2C4A52' },
 ];
 
+type BibleRef = { book: string; chapter: number; verses?: string };
+
 interface DailyDevotionProps {
   onOpenSettings?: () => void;
+  /** Open the reader at a passage. */
+  openBibleRef?: (ref: BibleRef) => void;
+  /** Open the teaching section. */
+  onOpenTeaching?: () => void;
 }
 
-export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings }) => {
-  const [data, setData] = useState<DailyMassContent | null>(null);
+/**
+ * Home screen for phone-width browsers.
+ *
+ * Everything scriptural here comes from the server: the day's readings from
+ * the lectionary table (/api/readings) and the verse text from the Bible
+ * database (/api/chapters). The one AI-written piece is the reflection, which
+ * is labelled as such. This screen used to ask a model for the readings and
+ * their full text and show whatever came back as Scripture.
+ */
+export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings, openBibleRef, onOpenTeaching }) => {
+  const [daily, setDaily] = useState<DailyReadingsData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [offline, setOffline] = useState(false);
+  const [verse, setVerse] = useState<{ reference: string; text: string; ref: BibleRef } | null>(null);
+  const [reflection, setReflection] = useState<DailyReflection | null>(null);
   const [isReflectionExpanded, setIsReflectionExpanded] = useState(false);
 
   const { setHideFooter } = useFooter();
   const scrollRef = useRef<HTMLDivElement>(null);
   useScrollHideFooter(setHideFooter, scrollRef);
 
-  useEffect(() => {
-    let cancelled = false;
-    const fetchContent = async () => {
-      setLoading(true);
-      const result = await getDailyMassReadings(new Date());
-      if (cancelled) return;
-      setData(result);
-      setLoading(false);
-    };
-    fetchContent();
-    return () => { cancelled = true; };
-  }, []);
-
-  // The liturgical season comes from the server's computed calendar (never
-  // AI, never a literal). This label used to be the fixed word "Eastertide".
-  const [season, setSeason] = useState<string | null>(null);
+  // 1. The day: liturgical context and reading citations.
   useEffect(() => {
     let cancelled = false;
     readingsApi.get('today')
-      .then((d) => { if (!cancelled) setSeason(d.roman.liturgical?.season ?? null); })
-      .catch(() => { /* offline: show the weekday alone */ });
+      .then((d) => { if (!cancelled) setDaily(d); })
+      .catch(() => { if (!cancelled) setOffline(true); })
+      .finally(() => { if (!cancelled) setLoading(false); });
     return () => { cancelled = true; };
   }, []);
 
-  const getVerseOfDay = () => {
-    if (!data?.readings?.[0]) return null;
-    const reading = data.readings[0];
-    const text = reading.text.split(/[።፡]/)[0] + '።';
-    return {
-      reference: reading.reference,
-      text: text.length > 200 ? text.substring(0, 200) + '...' : text,
-    };
+  const readings: DailyReading[] = useMemo(() => daily?.roman.readings ?? [], [daily]);
+  const season: string | null = daily?.roman.liturgical?.season ?? null;
+  const celebration: string | null = daily?.roman.celebration ?? daily?.roman.liturgical?.dayName ?? null;
+
+  // 2. Verse of the day: the opening verse of the Gospel, read from the
+  //    Bible database. If any step fails the card is simply not shown —
+  //    there is no stand-in text.
+  useEffect(() => {
+    const gospel = readings.find((r) => r.type === 'gospel' && r.book && r.chapter)
+      ?? readings.find((r) => r.book && r.chapter);
+    if (!gospel?.book || !gospel.chapter) return;
+    let cancelled = false;
+    (async () => {
+      try {
+        const books = await booksApi.getAll();
+        const book = books.find((b) => b.name === gospel.book);
+        if (!book) return;
+        const { content } = await chaptersApi.getContent(book.id, gospel.chapter!);
+        const found = pickVerse(content, gospel.verses);
+        if (cancelled || !found) return;
+        setVerse({
+          reference: `${book.amharicName} ${gospel.chapter}:${found.number}`,
+          text: found.text,
+          ref: { book: gospel.book!, chapter: gospel.chapter!, verses: String(found.number) },
+        });
+      } catch { /* no verse card */ }
+    })();
+    return () => { cancelled = true; };
+  }, [readings]);
+
+  // 3. Reflection: AI commentary on those readings. Never blocks the page.
+  useEffect(() => {
+    if (!daily || readings.length === 0) return;
+    let cancelled = false;
+    getDailyReflection(daily.date, readings.map((r) => r.citation), celebration)
+      .then((r) => { if (!cancelled) setReflection(r); });
+    return () => { cancelled = true; };
+  }, [daily, readings, celebration]);
+
+  const lastRead = useMemo(() => getLastRead(), []);
+  const openReading = (r: DailyReading) => {
+    if (r.book && r.chapter && openBibleRef) openBibleRef({ book: r.book, chapter: r.chapter, verses: r.verses });
   };
 
-  const verse = getVerseOfDay();
   const profile = getUserProfile();
   const userName = profile?.name || 'Friend';
   const initials = userName
@@ -141,57 +178,61 @@ export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings }) 
           <em className="text-oxblood italic">{userName}</em>.
         </h1>
         <div className="font-ethiopic text-[17px] text-ink-mid mt-1">ሰላም ለአንተ ይሁን።</div>
-      </div>
-
-      {/* ── Verse of the Day Card ── */}
-      <div
-        className="mx-5 mb-4 p-5 relative"
-        style={{ background: 'var(--cream)', border: '1px solid var(--rule)' }}
-      >
-        <div className="absolute top-0 left-0 w-[3px] h-7" style={{ background: 'var(--oxblood)' }} />
-        <div className="font-mono text-[9px] tracking-[0.14em] uppercase text-ink-soft mb-2.5">
-          Verse of the day · {verse?.reference || 'ዮሐንስ 1:16'}
-        </div>
-        <div className="font-ethiopic text-[17px] leading-[1.55] text-ink">
-          {verse?.text || (
-            <>
-              «ከእርሱ ሙላት ሁላችን ተቀብለናል፣{' '}
-              <span className="text-oxblood">ጸጋ በጸጋ ላይ።»</span>
-            </>
-          )}
-        </div>
-        {!verse && (
-          <div className="font-garamond italic text-ink-mid mt-2 text-[13px] leading-[1.45]">
-            "From his fullness we have all received, grace upon grace."
-          </div>
+        {celebration && (
+          <div className="font-garamond italic text-[15px] text-ink-mid mt-2">{celebration}</div>
         )}
       </div>
 
-      {/* ── Continue Reading ── */}
-      <div className="px-6 pb-3">
-        <div className="flex justify-between items-baseline mb-2.5">
-          <div className="font-sans text-[10px] tracking-[0.16em] uppercase text-ink-soft">
+      {offline && (
+        <div className="mx-5 mb-4 p-4 font-garamond text-[15px] text-ink-mid" style={{ border: '1px solid var(--rule)' }} role="status">
+          Couldn't load today's readings. Check your connection — the Bible and teaching sections may still open.
+        </div>
+      )}
+
+      {/* ── Verse of the Day (Bible database) ── */}
+      {verse && (
+        <button
+          type="button"
+          onClick={() => openBibleRef?.(verse.ref)}
+          className="mx-5 mb-4 p-5 relative text-left block"
+          style={{ background: 'var(--cream)', border: '1px solid var(--rule)', width: 'calc(100% - 2.5rem)' }}
+          aria-label={`Verse of the day, ${verse.reference}. Open in the reader.`}
+        >
+          <div className="absolute top-0 left-0 w-[3px] h-7" style={{ background: 'var(--oxblood)' }} />
+          <div className="font-mono text-[9px] tracking-[0.14em] uppercase text-ink-soft mb-2.5">
+            Verse of the day · {verse.reference}
+          </div>
+          <div className="font-ethiopic text-[17px] leading-[1.55] text-ink">{verse.text}</div>
+        </button>
+      )}
+
+      {/* ── Continue Reading (real position, shown once there is one) ── */}
+      {lastRead && (
+        <div className="px-6 pb-3">
+          <div className="mb-2.5">
             <Rubric>Continue</Rubric>
           </div>
-          <div className="font-mono text-[10px] text-ink-soft">62%</div>
-        </div>
-        <div
-          className="py-3.5 flex items-center gap-3.5"
-          style={{ borderTop: '1px solid var(--rule)', borderBottom: '1px solid var(--rule)' }}
-        >
-          <div
-            className="w-11 h-14 flex items-center justify-center font-ethiopic text-[26px] text-ink"
-            style={{ background: 'var(--vellum-dark)', borderLeft: '3px solid var(--oxblood)' }}
+          <button
+            type="button"
+            onClick={() => openBibleRef?.({ book: lastRead.book, chapter: lastRead.chapter })}
+            className="w-full py-3.5 flex items-center gap-3.5 text-left"
+            style={{ borderTop: '1px solid var(--rule)', borderBottom: '1px solid var(--rule)' }}
           >
-            ቁ
-          </div>
-          <div className="flex-1">
-            <div className="font-garamond text-[19px] font-medium leading-[1.1]">The Eucharist</div>
-            <div className="font-ethiopic text-[14px] text-ink-mid mt-0.5">ቁርባን · Q 271–294</div>
-          </div>
-          <ChevronRight size={16} className="text-ink-soft" />
+            <div
+              className="w-11 h-14 flex items-center justify-center font-garamond text-[22px] text-ink"
+              style={{ background: 'var(--vellum-dark)', borderLeft: '3px solid var(--oxblood)' }}
+              aria-hidden="true"
+            >
+              {lastRead.chapter}
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="font-ethiopic text-[17px] leading-[1.2] text-ink truncate">{lastRead.amharicName || lastRead.book}</div>
+              <div className="font-garamond text-[14px] text-ink-mid mt-0.5">{`${lastRead.book} · chapter ${lastRead.chapter}`}</div>
+            </div>
+            <ChevronRight size={16} className="text-ink-soft" />
+          </button>
         </div>
-      </div>
+      )}
 
       {/* ── Teaching Section ── */}
       <div className="px-6 pt-2.5 pb-2">
@@ -200,15 +241,17 @@ export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings }) 
             Teaching{' '}
             <span className="font-ethiopic text-ink-mid text-[18px]">· ትምህርት</span>
           </h2>
-          <div className="font-mono text-[10px] text-ink-soft">All ›</div>
+          <button type="button" onClick={onOpenTeaching} className="font-mono text-[10px] text-ink-soft py-2 pl-3">All ›</button>
         </div>
       </div>
 
       <div className="pl-6 flex gap-3 overflow-x-auto no-scrollbar pb-5">
         {TEACHING_CHAPTERS.map((c) => (
-          <div
+          <button
+            type="button"
             key={c.slug}
-            className="min-w-[168px] p-4 pt-4 pb-3.5 relative flex-shrink-0"
+            onClick={onOpenTeaching}
+            className="min-w-[168px] p-4 pt-4 pb-3.5 relative flex-shrink-0 text-left"
             style={{ border: '1px solid var(--rule)', background: 'var(--cream)' }}
           >
             <div className="absolute top-0 left-0 w-[3px] h-[22px]" style={{ background: c.color }} />
@@ -216,7 +259,7 @@ export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings }) 
             <div className="font-garamond text-[22px] font-medium leading-[1.05] mt-1.5">{c.en}</div>
             <div className="font-ethiopic text-[17px] text-ink-mid mt-0.5">{c.am}</div>
             <div className="font-mono text-[9px] text-ink-soft mt-3.5 tracking-[0.1em]">Q {c.q}</div>
-          </div>
+          </button>
         ))}
       </div>
 
@@ -224,8 +267,8 @@ export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings }) 
         <Ornament w={140} />
       </div>
 
-      {/* ── Today's Readings Section ── */}
-      {data?.readings && data.readings.length > 0 && (
+      {/* ── Today's Readings (lectionary table) ── */}
+      {readings.length > 0 && (
         <div className="px-6 pb-5">
           <div className="flex items-baseline justify-between mb-3">
             <h2 className="font-garamond text-[22px] font-medium m-0">
@@ -233,60 +276,72 @@ export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings }) 
               <span className="font-ethiopic text-ink-mid text-[18px]">· ንባብ</span>
             </h2>
             <div className="font-mono text-[10px] text-ink-soft uppercase tracking-[0.14em]">
-              {data.readings.length} passages
+              {daily?.roman.verified ? `${readings.length} passages` : 'unverified'}
             </div>
           </div>
 
           <div className="space-y-0 divide-y" style={{ borderTop: '1px solid var(--rule)', borderColor: 'var(--rule)' }}>
-            {data.readings.map((reading, idx) => (
-              <div
-                key={idx}
-                className="py-3 flex items-center gap-3 cursor-pointer"
-                style={{ borderColor: 'var(--rule)' }}
-              >
-                <div className="flex items-center">
-                  <CrossMark size={11} color="#B68530" />
-                </div>
-                <div className="flex-1 min-w-0">
-                  <div className="font-garamond text-[15px] font-medium">{reading.reference}</div>
-                  <div className="font-mono text-[9px] text-ink-soft uppercase tracking-[0.12em] mt-0.5">
-                    {reading.type}
+            {readings.map((reading, idx) => {
+              const canOpen = !!(reading.book && reading.chapter && openBibleRef);
+              return (
+                <button
+                  type="button"
+                  key={idx}
+                  onClick={() => openReading(reading)}
+                  disabled={!canOpen}
+                  className="w-full py-3 flex items-center gap-3 text-left disabled:cursor-default"
+                  style={{ borderColor: 'var(--rule)' }}
+                >
+                  <div className="flex items-center">
+                    <CrossMark size={11} color="#B68530" />
                   </div>
-                </div>
-                <ChevronRight size={14} className="text-ink-soft" />
-              </div>
-            ))}
+                  <div className="flex-1 min-w-0">
+                    <div className="font-garamond text-[15px] font-medium">{reading.citation}</div>
+                    <div className="font-mono text-[9px] text-ink-soft uppercase tracking-[0.12em] mt-0.5">
+                      {reading.label} · <span className="font-ethiopic normal-case tracking-normal">{reading.labelAm}</span>
+                    </div>
+                  </div>
+                  {canOpen && <ChevronRight size={14} className="text-ink-soft" />}
+                </button>
+              );
+            })}
           </div>
         </div>
       )}
 
-      {/* ── Reflection ── */}
-      {data?.reflection && (
+      {/* ── Reflection (AI-written, and labelled so) ── */}
+      {reflection ? (
         <div className="px-6 pb-32">
           <div className="font-sans text-[11px] tracking-[0.18em] uppercase text-ink-soft font-medium mb-3">
             <Rubric>§ Today's Reflection</Rubric>
           </div>
           <div className="p-5" style={{ background: 'var(--cream)', border: '1px solid var(--rule)' }}>
             <div className="font-mono text-[9px] text-ink-soft uppercase tracking-[0.14em] mb-2">
-              {data.reflection.authorStyle || 'Daily Homily'}
+              AI-generated reflection · not a homily
             </div>
             <h3 className="font-garamond text-[22px] font-medium leading-tight mb-3 text-ink">
-              {data.reflection.title}
+              {reflection.title}
             </h3>
-            <p className="font-ethiopic text-[16px] leading-[1.7] text-ink m-0">
-              {isReflectionExpanded
-                ? data.reflection.content
-                : `${data.reflection.content.substring(0, 200)}…`}
+            <p className="font-ethiopic text-[16px] leading-[1.7] text-ink m-0 whitespace-pre-line">
+              {isReflectionExpanded || reflection.content.length <= 200
+                ? reflection.content
+                : `${reflection.content.substring(0, 200)}…`}
             </p>
-            <button
-              onClick={() => setIsReflectionExpanded(!isReflectionExpanded)}
-              className="mt-4 font-mono text-[10px] text-oxblood uppercase tracking-[0.14em] flex items-center gap-1"
-            >
-              {isReflectionExpanded ? 'Show less' : 'Read more'}
-              {isReflectionExpanded ? <ChevronUp size={12} /> : <ChevronDown size={12} />}
-            </button>
+            {reflection.content.length > 200 && (
+              <button
+                type="button"
+                onClick={() => setIsReflectionExpanded(!isReflectionExpanded)}
+                className="mt-4 py-2 font-mono text-[10px] text-oxblood uppercase tracking-[0.14em] flex items-center gap-1"
+                aria-expanded={isReflectionExpanded}
+              >
+                {isReflectionExpanded ? 'Show less' : 'Read more'}
+                {isReflectionExpanded ? <ChevronUp size={12} /> : <ChevronDown size={12} />}
+              </button>
+            )}
           </div>
         </div>
+      ) : (
+        <div className="pb-32" />
       )}
     </div>
   );

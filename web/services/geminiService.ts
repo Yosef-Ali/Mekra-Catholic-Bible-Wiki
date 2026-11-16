@@ -80,74 +80,53 @@ Use standard numerals (1, 2, 3), not Amharic numerals.`,
   }
 };
 
-import { getCachedDailyReadings, setCachedDailyReadings, isCacheValid } from './storageService';
+export interface DailyReflection { title: string; content: string }
 
-export const getDailyMassReadings = async (targetDate: Date = new Date()): Promise<any> => {
-  // Check cache first for instant loading
-  const cache = getCachedDailyReadings();
-  if (isCacheValid(cache)) {
-    console.log('📦 Returning cached daily readings');
-    return cache!.data;
-  }
+const REFLECTION_CACHE_KEY = 'emmaus_daily_reflection';
 
-  // Show stale data while we fetch fresh data (if cache exists but expired)
-  const staleData = cache?.data;
+/**
+ * An AI-written reflection on the day's readings. It is commentary, labelled
+ * as AI-generated wherever it is shown — never Scripture. The readings are
+ * passed in (they come from the lectionary table via /api/readings); the
+ * model does not choose them and is told not to reproduce their text.
+ *
+ * Cached per calendar day, so it is generated once per device per day.
+ * Resolves to null when there is nothing to show; the home screen simply
+ * omits the section.
+ */
+export const getDailyReflection = async (
+  dateKey: string,
+  citations: string[],
+  celebration?: string | null,
+): Promise<DailyReflection | null> => {
+  if (citations.length === 0) return null;
 
   try {
-    // Local calendar date, not toISOString(): that is UTC and names the wrong
-    // day for part of every day in any timezone ahead of or behind it.
-    const y = targetDate.getFullYear();
-    const m = String(targetDate.getMonth() + 1).padStart(2, '0');
-    const d = String(targetDate.getDate()).padStart(2, '0');
+    const cached = JSON.parse(localStorage.getItem(REFLECTION_CACHE_KEY) || 'null');
+    if (cached?.dateKey === dateKey && cached.title && cached.content) {
+      return { title: cached.title, content: cached.content };
+    }
+  } catch { /* unreadable cache: fetch again */ }
 
-    const res = await fetch('/api/ai/daily-mass', {
+  try {
+    const res = await fetch('/api/ai/daily-reflection', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ date: `${y}-${m}-${d}` }),
+      body: JSON.stringify({ date: dateKey, citations, celebration: celebration ?? undefined }),
     });
-    if (!res.ok) throw new Error(`Daily Mass proxy error ${res.status}`);
+    if (!res.ok) return null;
     const response = await res.json();
-    if (!response.success) throw new Error(response.error || 'Daily Mass proxy failure');
+    if (!response.success || !response.text) return null;
 
-    let text = response.text;
-    if (!text) throw new Error("No text returned");
+    const parsed = JSON.parse(extractJson(response.text));
+    if (typeof parsed?.title !== 'string' || typeof parsed?.content !== 'string' || !parsed.content.trim()) return null;
 
-    text = extractJson(text);
-
-    try {
-      const parsedData = JSON.parse(text);
-      // Cache the fresh data
-      setCachedDailyReadings(parsedData);
-      console.log('✅ Fetched and cached fresh daily readings');
-      return parsedData;
-    } catch (parseError) {
-      console.error("JSON Parse Error in Mass Readings:", parseError);
-      console.log("Malformed JSON Text:", text);
-      throw parseError; // Re-throw to hit the outer catch block and return fallback
-    }
-
+    const reflection = { title: parsed.title, content: parsed.content };
+    try { localStorage.setItem(REFLECTION_CACHE_KEY, JSON.stringify({ dateKey, ...reflection })); } catch { /* full or private */ }
+    return reflection;
   } catch (error) {
-    console.error("Failed to fetch mass readings", error);
-
-    // Return stale data if available
-    if (staleData) {
-      console.log('⚠️ Returning stale cached data due to fetch error');
-      return staleData;
-    }
-
-    // Fallback data
-    return {
-      date: targetDate.toLocaleDateString(),
-      liturgicalFeast: "Ordinary Time",
-      readings: [
-        { type: "Gospel", reference: "John 3:16", text: "እግዚአብሔር አንድያ ልጁን እስኪሰጥ ድረስ ዓለሙን እንዲሁ ወዶአልና..." }
-      ],
-      reflection: {
-        title: "የእግዚአብሔር ፍቅር",
-        authorStyle: "Fulton Sheen Style",
-        content: "እግዚአብሔር ፍቅር ነው። ይህ ፍቅር ደግሞ በቃላት ብቻ ሳይሆን በተግባር የተገለጠ ነው።..."
-      }
-    };
+    console.error('Failed to fetch daily reflection', error);
+    return null;
   }
 };
 

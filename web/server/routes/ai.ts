@@ -244,13 +244,26 @@ router.post('/chat-stream', async (req, res) => {
   }
 });
 
-// ── Daily Mass readings + homily (mobile-web home) ──
-// This used to run in the browser with the Gemini key compiled into the
-// bundle. It runs here so the key stays on the server. The client sends only
-// a date; the prompt is fixed, so this is not a general-purpose model proxy.
-const DAILY_MASS_MODEL = 'gemini-3-pro-preview';
+// ── Daily reflection (mobile-web home) ──
+// The model writes a reflection ON the day's readings. It is told which
+// readings they are — the client passes the citations it got from
+// /api/readings, i.e. from the lectionary table — and it is told not to
+// reproduce Scripture. Scripture text on the home screen comes only from the
+// database. (This route used to ask the model to find the readings by web
+// search and return their "full text in Amharic", which put model-written
+// Scripture in front of readers.)
+const REFLECTION_MODEL = 'gemini-3-pro-preview';
 
-router.post('/daily-mass', async (req, res) => {
+// Citations and the feast name are interpolated into the prompt, so they are
+// restricted to what a citation can contain: letters, digits, spaces and
+// reference punctuation.
+const SAFE_REFERENCE = /^[\p{L}\p{M}\p{N} .,:;()'’\-–]+$/u;
+const cleanReference = (value: unknown, max: number): string | null => {
+  const s = String(value ?? '').trim();
+  return s.length > 0 && s.length <= max && SAFE_REFERENCE.test(s) ? s : null;
+};
+
+router.post('/daily-reflection', async (req, res) => {
   const raw = String(req.body?.date ?? '');
   const match = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
   const date = match ? new Date(Date.UTC(+match[1], +match[2] - 1, +match[3])) : null;
@@ -258,28 +271,33 @@ router.post('/daily-mass', async (req, res) => {
     res.status(400).json({ success: false, error: 'date must be YYYY-MM-DD' });
     return;
   }
+
+  const input: unknown[] = Array.isArray(req.body?.citations) ? req.body.citations : [];
+  const citations = input.slice(0, 8).map((c) => cleanReference(c, 80)).filter((c): c is string => c !== null);
+  if (citations.length === 0) {
+    res.status(400).json({ success: false, error: 'citations[] required' });
+    return;
+  }
+  const celebration = cleanReference(req.body?.celebration, 120);
+
   const formattedDate = date.toLocaleDateString('en-US', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
   });
 
   const prompt = `
-      Find the official Catholic Daily Mass Readings for ${formattedDate}.
+      The Catholic Mass readings for ${formattedDate}${celebration ? ` (${celebration})` : ''} are:
+      ${citations.map((c) => `- ${c}`).join('\n      ')}
 
-      Tasks:
-      1. Identify the Liturgical Date/Feast (e.g., "Tuesday of the 3rd Week of Lent").
-      2. Provide the full text for:
-         - First Reading
-         - Responsorial Psalm
-         - Second Reading (if applicable for today)
-         - Gospel
-      3. Write a deep, powerful Homily/Reflection.
+      Write a deep, powerful reflection on these readings.
          - **Style**: Combine the **intellectual clarity of Bishop Robert Barron** and the **dramatic, soul-piercing rhetoric of Archbishop Fulton Sheen**.
          - **Focus**: **Psychological** and **Mystical**.
-           - **Psychological**: Analyze the human condition—our anxieties, our hidden fears, the ego, and the thirst for meaning. How does today's reading heal the human mind?
+           - **Psychological**: Analyze the human condition—our anxieties, our hidden fears, the ego, and the thirst for meaning. How do today's readings heal the human mind?
            - **Mystical**: Speak of the soul's union with God. Use imagery of Light, Fire, the Desert, and the Heart.
            - **Universal Metaphors**: Use universal examples (e.g., a traveler lost in a storm, the silence of a mountain, the warmth of a home, the battle of a soldier) rather than specific cultural clichés.
            - Avoid superficial examples. Go deep into the soul.
          - The reflection should be substantial (3-4 paragraphs) in Amharic.
+
+      **DO NOT quote or reproduce the text of Scripture.** Refer to a passage only by its citation (for example "John 3:16"). The reader sees the passages themselves, from the printed edition, beside this reflection.
 
       Output Language: **AMHARIC** (Except for the JSON keys).
 
@@ -293,38 +311,23 @@ router.post('/daily-mass', async (req, res) => {
 
       Structure:
       {
-        "date": "The requested date",
-        "liturgicalFeast": "Name of feast in English/Amharic mixed",
-        "readings": [
-          {
-            "type": "First Reading" | "Responsorial Psalm" | "Second Reading" | "Gospel",
-            "reference": "Book Chapter:Verse",
-            "text": "Full text in Amharic"
-          }
-        ],
-        "reflection": {
-          "title": "Title in Amharic",
-          "authorStyle": "Description",
-          "content": "Content in Amharic"
-        }
+        "title": "Title in Amharic",
+        "content": "The reflection in Amharic"
       }
     `;
 
   try {
     const response = await getGeminiAI().models.generateContent({
-      model: DAILY_MASS_MODEL,
+      model: REFLECTION_MODEL,
       contents: prompt,
-      config: {
-        tools: [{ googleSearch: {} }],
-        temperature: 0.2, // low, to keep the JSON structure valid
-      },
+      config: { temperature: 0.4 },
     });
     const text = response.text || '';
     if (!text) throw new Error('No text returned');
     res.json({ success: true, text });
   } catch (err: any) {
-    console.error('daily-mass error:', err);
-    res.status(502).json({ success: false, error: err?.message || 'daily-mass failure' });
+    console.error('daily-reflection error:', err);
+    res.status(502).json({ success: false, error: err?.message || 'daily-reflection failure' });
   }
 });
 

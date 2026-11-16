@@ -110,63 +110,33 @@ export const saveUserProfile = (profile: UserProfile) => {
   }
 };
 
-// --- DAILY READINGS CACHE ---
-const CACHE_KEY_DAILY_READINGS = 'mekra_daily_readings_cache';
-const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
+// --- LAST-READ POSITION ---
+// Where the reader was last open, so the app can resume there instead of
+// always starting at John 1. New key, so it carries the app's current name;
+// the older mekra_* keys above keep theirs because renaming them would
+// discard what people have already saved.
+const STORAGE_KEY_LAST_READ = 'emmaus_last_read';
 
-interface CachedDailyReadings {
-  data: any;
-  timestamp: number;
-  dateKey: string; // Format: "YYYY-MM-DD"
+export interface LastRead {
+  book: string;        // English name, as in the books table — stable across sessions
+  amharicName: string;
+  chapter: number;
 }
 
-/**
- * Get the date key for cache comparison (today's date in YYYY-MM-DD format)
- */
-const getTodayDateKey = (): string => {
-  const now = new Date();
-  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
-};
-
-/**
- * Check if cached data is still valid (same day and not expired)
- */
-export const isCacheValid = (cache: CachedDailyReadings | null): boolean => {
-  if (!cache) return false;
-  
-  const now = Date.now();
-  const todayKey = getTodayDateKey();
-  
-  // Cache is valid if it's for today AND within TTL
-  return cache.dateKey === todayKey && (now - cache.timestamp) < CACHE_TTL_MS;
-};
-
-/**
- * Get cached daily readings from localStorage
- */
-export const getCachedDailyReadings = (): CachedDailyReadings | null => {
+export const getLastRead = (): LastRead | null => {
   try {
-    const stored = localStorage.getItem(CACHE_KEY_DAILY_READINGS);
-    if (!stored) return null;
-    return JSON.parse(stored);
-  } catch (e) {
-    console.error("Failed to load cached daily readings", e);
+    const stored = JSON.parse(localStorage.getItem(STORAGE_KEY_LAST_READ) || 'null');
+    if (stored && typeof stored.book === 'string' && Number.isInteger(stored.chapter) && stored.chapter > 0) {
+      return { book: stored.book, amharicName: String(stored.amharicName ?? ''), chapter: stored.chapter };
+    }
+    return null;
+  } catch {
     return null;
   }
 };
 
-/**
- * Save daily readings to localStorage cache
- */
-export const setCachedDailyReadings = (data: any): void => {
+export const saveLastRead = (position: LastRead): void => {
   try {
-    const cache: CachedDailyReadings = {
-      data,
-      timestamp: Date.now(),
-      dateKey: getTodayDateKey()
-    };
-    localStorage.setItem(CACHE_KEY_DAILY_READINGS, JSON.stringify(cache));
-  } catch (e) {
-    console.error("Failed to cache daily readings", e);
-  }
+    localStorage.setItem(STORAGE_KEY_LAST_READ, JSON.stringify(position));
+  } catch { /* full or private mode — resuming is a convenience */ }
 };

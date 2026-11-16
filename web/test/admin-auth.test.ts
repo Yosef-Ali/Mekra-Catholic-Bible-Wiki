@@ -37,7 +37,7 @@ describe('needsAdmin — which requests are protected', () => {
   });
 
   it('keeps the read-only POSTs the apps depend on open', () => {
-    for (const p of ['/api/ai/tts', '/api/ai/chat-stream', '/api/ai/generate', '/api/ai/daily-mass', '/api/chapters/search']) {
+    for (const p of ['/api/ai/tts', '/api/ai/chat-stream', '/api/ai/generate', '/api/ai/daily-reflection', '/api/chapters/search']) {
       expect(needsAdmin('POST', p)).toBe(false);
       expect(needsAdmin('POST', p + '/')).toBe(false);
     }

@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { booksApi, chaptersApi } from '../services/apiClient';
 import { BibleBook, UserProfile } from '../types';
-import { getUserProfile } from '../services/storageService';
+import { getUserProfile, getLastRead, saveLastRead } from '../services/storageService';
+import { firstVerseOfRange } from '../services/verseText';
 import { getAdminToken } from '../services/adminAuth';
 import { generateAndPlayAudio, stopAudioPlayback, pauseAudioPlayback, resumeAudioPlayback, setTTSPlaybackRate } from '../services/geminiService';
 import { Volume2, Search, MoreHorizontal, ChevronLeft, ChevronRight, Play, Pause, Square, ChevronDown, X, PencilLine, SkipBack, SkipForward, Gauge } from 'lucide-react';
@@ -30,7 +31,13 @@ interface DisplayVerse {
   isNewParagraph?: boolean;
 }
 
-export const BibleReader: React.FC = () => {
+interface BibleReaderProps {
+  /** Open at this passage (a reading or verse tapped elsewhere in the app). */
+  initialRef?: { book: string; chapter: number; verses?: string } | null;
+  onRefConsumed?: () => void;
+}
+
+export const BibleReader: React.FC<BibleReaderProps> = ({ initialRef, onRefConsumed }) => {
   const [books, setBooks] = useState<BibleBook[]>([]);
   const [selectedBook, setSelectedBook] = useState<BibleBook | null>(null);
   const [chapter, setChapter] = useState(1);
@@ -341,6 +348,12 @@ export const BibleReader: React.FC = () => {
 
   useEffect(() => { setUserProfile(getUserProfile()); }, []);
 
+  // The passage this reader was opened for, captured once at mount, and the
+  // verse to scroll to after its chapter has rendered.
+  const initialRefAtMount = useRef(initialRef ?? null);
+  const onRefConsumedAtMount = useRef(onRefConsumed);
+  const pendingVerse = useRef<number | null>(null);
+
   // Each load takes a ticket; a response is applied only if its ticket is
   // still the latest. Without this, tapping Next quickly could let chapter
   // 5's text arrive after chapter 6 was requested and render under the
@@ -384,14 +397,44 @@ export const BibleReader: React.FC = () => {
       try {
         const fetchedBooks = await booksApi.getAll();
         setBooks(fetchedBooks);
-        const john = fetchedBooks.find(b => b.name === 'John') || fetchedBooks[0];
-        if (john) setSelectedBook(john);
+        // Where to open: the passage we were sent to, else where the reader
+        // was last left, else John 1.
+        const wanted = initialRefAtMount.current;
+        const resume = getLastRead();
+        const target = wanted ?? (resume ? { book: resume.book, chapter: resume.chapter } : null);
+        const found = target ? fetchedBooks.find(b => b.name === target.book) : undefined;
+        if (found && target) {
+          setSelectedBook(found);
+          setChapter(Math.min(Math.max(1, target.chapter), found.chapters));
+          pendingVerse.current = wanted ? firstVerseOfRange(wanted.verses) : null;
+        } else {
+          const john = fetchedBooks.find(b => b.name === 'John') || fetchedBooks[0];
+          if (john) setSelectedBook(john);
+        }
+        if (wanted) onRefConsumedAtMount.current?.();
       } catch (error) { console.error('Failed to load books:', error); }
     };
     fetchBooks();
   }, []);
 
+  // Remember the position so the next visit resumes here.
+  useEffect(() => {
+    if (!selectedBook) return;
+    saveLastRead({ book: selectedBook.name, amharicName: selectedBook.amharicName, chapter });
+  }, [selectedBook, chapter]);
+
   useEffect(() => { loadChapter(); }, [loadChapter]);
+
+  // Once the chapter we were sent to is on screen, bring its verse into view.
+  useEffect(() => {
+    const n = pendingVerse.current;
+    if (n === null || loading || content.length === 0) return;
+    pendingVerse.current = null;
+    const el = document.getElementById(`verse-${n}`);
+    if (!el) return;
+    el.scrollIntoView({ block: 'center' });
+    setSpotlightVerseNumber(n);
+  }, [content, loading]);
 
   const handleSaveChapter = async () => {
     if (!selectedBook || !editorValue.trim()) return;
