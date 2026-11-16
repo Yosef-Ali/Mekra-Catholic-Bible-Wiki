@@ -1,6 +1,6 @@
 
-import { db } from '../../services/db';
-import { users } from '../../services/schema';
+import { db } from '../../services/db.js';
+import { users } from '../../services/schema.js';
 import { eq, desc } from 'drizzle-orm';
 
 // Sync user from Firebase

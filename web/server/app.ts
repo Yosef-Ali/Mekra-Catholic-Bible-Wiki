@@ -4,7 +4,7 @@
  * Mounted three ways, all running this same code:
  *   - Vite dev server   → vite.config.ts calls server.middlewares.use(app)
  *   - `npm run server`  → server/index.ts, a plain listener on :3001
- *   - Vercel            → api/[...path].ts, the whole app as ONE function
+ *   - Vercel            → api/router.ts, the whole app as ONE function
  *
  * It is deliberately one function rather than a file per route: Vercel's
  * Hobby plan allows 12 functions per deployment and, outside Next.js, every
@@ -16,11 +16,11 @@ import express from 'express';
 import cors from 'cors';
 import path from 'path';
 import dotenv from 'dotenv';
-import pipelineRouter from './routes/pipeline';
-import aiRouter from './routes/ai';
-import wikiRouter from './routes/wiki';
-import { apiMiddleware } from './middleware';
-import { guardWrites } from './auth';
+import pipelineRouter from './routes/pipeline.js';
+import aiRouter from './routes/ai.js';
+import wikiRouter from './routes/wiki.js';
+import { apiMiddleware } from './middleware.js';
+import { guardWrites } from './auth.js';
 
 dotenv.config();
 

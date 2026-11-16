@@ -4,7 +4,7 @@
  * The app itself lives in server/app.ts, shared with the Vite dev server and
  * the Vercel function so all three serve identical routes.
  */
-import app from './app';
+import app from './app.js';
 
 const PORT = process.env.PORT || 3001;
 

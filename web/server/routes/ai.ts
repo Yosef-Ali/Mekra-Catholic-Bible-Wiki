@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { GoogleGenAI } from '@google/genai';
 import { getAllAudioBase64 } from 'google-tts-api';
 import { MsEdgeTTS, OUTPUT_FORMAT } from 'msedge-tts';
-import { quotesSpeech } from '../../services/reflectionGuard';
+import { quotesSpeech } from '../../services/reflectionGuard.js';
 
 const router = Router();
 

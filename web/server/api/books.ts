@@ -1,5 +1,5 @@
-import { db } from '../../services/db';
-import { books } from '../../services/schema';
+import { db } from '../../services/db.js';
+import { books } from '../../services/schema.js';
 import { eq } from 'drizzle-orm';
 
 // Server action: Get all books from database

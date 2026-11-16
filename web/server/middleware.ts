@@ -1,9 +1,9 @@
 import type { Connect } from 'vite';
-import { getAllBooks, getBookById, getBooksBySection, searchBooks } from './api/books';
-import { getChapterContent, getAvailableChapters, updateChapterContent, searchChapters } from './api/chapters';
-import { proofreadContent, extractTextFromImage, chatWithAI } from './api/ai';
-import { syncUser, getAllUsers, updateUserRole, isUserAdmin } from './api/users';
-import { getDailyReadings, upsertDailyReadings } from './api/readings';
+import { getAllBooks, getBookById, getBooksBySection, searchBooks } from './api/books.js';
+import { getChapterContent, getAvailableChapters, updateChapterContent, searchChapters } from './api/chapters.js';
+import { proofreadContent, extractTextFromImage, chatWithAI } from './api/ai.js';
+import { syncUser, getAllUsers, updateUserRole, isUserAdmin } from './api/users.js';
+import { getDailyReadings, upsertDailyReadings } from './api/readings.js';
 
 // Helper to parse request body
 async function parseBody(req: any): Promise<any> {

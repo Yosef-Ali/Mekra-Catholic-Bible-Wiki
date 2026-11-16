@@ -18,9 +18,9 @@
  *   → upserts a verified row (admin/priest correction path).
  */
 
-import { db } from '../../services/db';
+import { db } from '../../services/db.js';
 import { sql } from 'drizzle-orm';
-import { romanDay, geezDay } from '../liturgical';
+import { romanDay, geezDay } from '../liturgical.js';
 
 // ---------- table ----------
 let tableReady = false;

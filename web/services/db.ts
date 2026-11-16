@@ -31,7 +31,7 @@ if (!connectionString) {
 // unnest, etc.) which Drizzle doesn't expose directly.
 export const sql = neon(connectionString);
 
-import * as schema from "./schema";
+import * as schema from "./schema.js";
 
 // Create and export Drizzle ORM instance
 export const db = drizzle(sql, { schema });
