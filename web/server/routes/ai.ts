@@ -252,7 +252,7 @@ router.post('/chat-stream', async (req, res) => {
 // database. (This route used to ask the model to find the readings by web
 // search and return their "full text in Amharic", which put model-written
 // Scripture in front of readers.)
-const REFLECTION_MODEL = 'gemini-3-pro-preview';
+const REFLECTION_MODEL = GEMINI_MODEL;
 
 // Citations and the feast name are interpolated into the prompt, so they are
 // restricted to what a citation can contain: letters, digits, spaces and

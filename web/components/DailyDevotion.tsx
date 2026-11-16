@@ -245,7 +245,7 @@ export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings, op
         </div>
       </div>
 
-      <div className="pl-6 flex gap-3 overflow-x-auto no-scrollbar pb-5">
+      <div className="pl-6 flex gap-3 overflow-x-auto no-scrollbar pb-5 flex-shrink-0">
         {TEACHING_CHAPTERS.map((c) => (
           <button
             type="button"
