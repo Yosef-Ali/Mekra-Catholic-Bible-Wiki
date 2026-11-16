@@ -97,24 +97,61 @@ export interface ApiResponse<T> {
   error?: string;
 }
 
+/**
+ * The request did not produce an answer: no connection, a timeout, or a
+ * server error. Distinct from "the server answered and there is nothing
+ * there", which apiFetch reports as null.
+ */
+export class ApiError extends Error {
+  constructor(message: string, public readonly status?: number) {
+    super(message);
+    this.name = 'ApiError';
+  }
+}
+
+const REQUEST_TIMEOUT_MS = 20000;
+
+/**
+ * GET an API path.
+ *
+ *   - resolves with the data on success
+ *   - resolves with null when the server says it does not exist (404, or
+ *     success:false) — a real answer, e.g. a wiki slug with no page
+ *   - throws ApiError when there was no usable answer at all
+ *
+ * It used to return null for every failure, so screens could not tell
+ * "offline" from "empty": with no connection the reader said "This chapter
+ * isn't available yet" and the teaching list simply showed nothing.
+ */
 async function apiFetch<T>(path: string): Promise<T | null> {
   const url = `${API_BASE}${path}`;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  let res: Response;
   try {
     if (__DEV__) console.log(`[Emmaus API] GET ${url}`);
-    const res = await fetch(url);
-    if (!res.ok) {
-      if (__DEV__) console.warn(`[Emmaus API] ${res.status} from ${url}`);
-      return null;
-    }
-    const json: ApiResponse<T> = await res.json();
-    if (__DEV__) console.log(`[Emmaus API] OK ${path} — ${json.count ?? '?'} items`);
-    return json.success ? json.data : null;
+    res = await fetch(url, { signal: controller.signal });
   } catch (e: unknown) {
-    if (__DEV__) {
-      console.warn(`[Emmaus API] FAILED ${url}`, e instanceof Error ? e.message : e);
-    }
-    return null;
+    if (__DEV__) console.warn(`[Emmaus API] FAILED ${url}`, e instanceof Error ? e.message : e);
+    throw new ApiError('No connection');
+  } finally {
+    clearTimeout(timer);
   }
+
+  if (res.status === 404) return null;
+  if (!res.ok) {
+    if (__DEV__) console.warn(`[Emmaus API] ${res.status} from ${url}`);
+    throw new ApiError(`Server error (${res.status})`, res.status);
+  }
+
+  let json: ApiResponse<T>;
+  try {
+    json = await res.json();
+  } catch {
+    throw new ApiError('Unreadable response', res.status);
+  }
+  if (__DEV__) console.log(`[Emmaus API] OK ${path} — ${json.count ?? '?'} items`);
+  return json.success ? json.data : null;
 }
 
 /** Fetch all teaching articles (slim list) */

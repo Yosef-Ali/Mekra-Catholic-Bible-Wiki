@@ -20,7 +20,7 @@ import {
   DisplayVerse,
 } from '../../src/services/api';
 import { useApi } from '../../src/hooks/useApi';
-import { Rubric, screenBase } from '../../src/components/Primitives';
+import { Rubric, LoadError, screenBase } from '../../src/components/Primitives';
 import { colors, fonts, layout } from '../../src/theme/colors';
 
 type Section = 'NT' | 'OT' | 'Apocrypha';
@@ -47,7 +47,12 @@ export default function BibleScreen() {
   const [readerLoading, setReaderLoading] = useState(false);
   const [highlight, setHighlight] = useState<Set<number>>(new Set());
 
-  const { data: allBooks, loading } = useApi<BibleBook[]>(fetchBooks);
+  const { data: allBooks, loading, error: booksError, refetch: refetchBooks } = useApi<BibleBook[]>(fetchBooks);
+  const [readerError, setReaderError] = useState(false);
+  // Ticket for chapter loads: only the newest request may write state, so
+  // tapping through chapters quickly can never leave an earlier chapter's
+  // text on screen under a later chapter's heading.
+  const readerTicket = useRef(0);
 
   const filteredBooks = useMemo(
     () => (allBooks ?? []).filter((b) => b.section === activeTab),
@@ -67,15 +72,27 @@ export default function BibleScreen() {
       setIntroOpen(false);
       setHighlight(parseVerseRange(highlightVerses));
       setReaderLoading(true);
+      setReaderError(false);
       setReaderVerses([]);
-      const result = await fetchChapterContent(book.id, chapter);
-      setReaderVerses(result ? parseVerses(result.content, result.formattingRules) : []);
-      setReaderLoading(false);
+      const ticket = ++readerTicket.current;
+      try {
+        const result = await fetchChapterContent(book.id, chapter);
+        if (ticket !== readerTicket.current) return;
+        setReaderVerses(result ? parseVerses(result.content, result.formattingRules) : []);
+      } catch {
+        // A failed request is not an empty chapter — say so and offer a retry.
+        if (ticket !== readerTicket.current) return;
+        setReaderError(true);
+      } finally {
+        if (ticket === readerTicket.current) setReaderLoading(false);
+      }
     },
     [],
   );
 
   const closeReader = useCallback(() => {
+    readerTicket.current++; // drop any chapter still in flight
+    setReaderError(false);
     setReaderChapter(null);
     setReaderVerses([]);
     setHighlight(new Set());
@@ -111,6 +128,8 @@ export default function BibleScreen() {
           <View style={styles.loadingWrap}>
             <ActivityIndicator color={colors.oxblood} size="small" />
           </View>
+        ) : readerError ? (
+          <LoadError onRetry={() => openReader(selectedBook, readerChapter)} />
         ) : readerVerses.length === 0 ? (
           <View style={styles.loadingWrap}>
             <Text style={styles.emptyText}>This chapter isn't available yet.</Text>
@@ -250,6 +269,8 @@ export default function BibleScreen() {
           <View style={styles.loadingWrap}>
             <ActivityIndicator color={colors.oxblood} size="small" />
           </View>
+        ) : booksError ? (
+          <LoadError onRetry={refetchBooks} />
         ) : (
           <View style={styles.bookList}>
             {filteredBooks.map((book) => {

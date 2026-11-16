@@ -35,6 +35,7 @@ export default function SearchScreen() {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<WikiPage[]>([]);
   const [searching, setSearching] = useState(false);
+  const [searchFailed, setSearchFailed] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Debounced search — 300ms after user stops typing
@@ -48,13 +49,26 @@ export default function SearchScreen() {
     }
 
     setSearching(true);
+    setSearchFailed(false);
+    // `stale` flips when the query changes or the screen unmounts, so a slow
+    // response for an earlier query can never replace a newer one's results.
+    let stale = false;
     debounceRef.current = setTimeout(async () => {
-      const data = await searchWiki(query.trim());
-      setResults(data);
-      setSearching(false);
+      try {
+        const data = await searchWiki(query.trim());
+        if (stale) return;
+        setResults(data);
+      } catch {
+        if (stale) return;
+        setResults([]);
+        setSearchFailed(true);
+      } finally {
+        if (!stale) setSearching(false);
+      }
     }, 300);
 
     return () => {
+      stale = true;
       if (debounceRef.current) clearTimeout(debounceRef.current);
     };
   }, [query]);
@@ -110,8 +124,17 @@ export default function SearchScreen() {
         {/* Empty state */}
         {!searching && query.length > 0 && results.length === 0 && (
           <View style={styles.emptyState}>
-            <Text style={styles.emptyText}>No results for "{query}"</Text>
-            <Text style={styles.emptyHint}>Try searching in Amharic or English</Text>
+            {searchFailed ? (
+              <>
+                <Text style={styles.emptyText}>Couldn't reach the server</Text>
+                <Text style={styles.emptyHint}>Check your connection, then edit the search to try again</Text>
+              </>
+            ) : (
+              <>
+                <Text style={styles.emptyText}>No results for "{query}"</Text>
+                <Text style={styles.emptyHint}>Try searching in Amharic or English</Text>
+              </>
+            )}
           </View>
         )}
 

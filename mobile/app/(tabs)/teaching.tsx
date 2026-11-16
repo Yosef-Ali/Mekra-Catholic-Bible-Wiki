@@ -12,7 +12,7 @@ import { useRouter } from 'expo-router';
 import { ChevronRight } from 'lucide-react-native';
 import { fetchTeachings, WikiPage } from '../../src/services/api';
 import { useApi } from '../../src/hooks/useApi';
-import { Rubric, ScreenHeader, screenBase } from '../../src/components/Primitives';
+import { Rubric, ScreenHeader, LoadError, screenBase } from '../../src/components/Primitives';
 import { colors, fonts, layout } from '../../src/theme/colors';
 
 /** Compendium parts — derive counts from live data */
@@ -38,7 +38,7 @@ const scrollContent = { paddingBottom: layout.scrollBottomPadding };
 export default function TeachingScreen() {
   const insets = useSafeAreaInsets();
   const router = useRouter();
-  const { data: teachings, loading } = useApi<WikiPage[]>(fetchTeachings);
+  const { data: teachings, loading, error, refetch } = useApi<WikiPage[]>(fetchTeachings);
 
   // Compute part counts from live data
   const partCounts = useMemo(() => {
@@ -63,7 +63,7 @@ export default function TeachingScreen() {
       <ScreenHeader
         title="Teaching"
         titleAm="ትምህርት"
-        subtitle={loading ? 'Loading...' : `${teachings?.length ?? 0} articles · Catholic Teaching Wiki`}
+        subtitle={loading ? 'Loading...' : error ? 'Offline · Catholic Teaching Wiki' : `${teachings?.length ?? 0} articles · Catholic Teaching Wiki`}
       />
 
       {/* Parts */}
@@ -92,6 +92,8 @@ export default function TeachingScreen() {
             <ActivityIndicator color={colors.oxblood} size="small" />
             <Text style={styles.loadingText}>Fetching teachings...</Text>
           </View>
+        ) : error ? (
+          <LoadError onRetry={refetch} />
         ) : (
           (teachings ?? []).map((t) => (
             <TouchableOpacity

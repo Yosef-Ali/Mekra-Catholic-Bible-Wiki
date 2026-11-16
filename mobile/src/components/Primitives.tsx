@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 import Svg, { Path, Circle } from 'react-native-svg';
 import { colors, fonts } from '../theme/colors';
 
@@ -65,6 +65,30 @@ export const OrnamentDivider: React.FC<{ w?: number; py?: number }> = ({
 }) => (
   <View style={[styles.ornamentWrap, { paddingVertical: py }]}>
     <Ornament w={w} />
+  </View>
+);
+
+/**
+ * Shown when a request failed (as opposed to returning nothing). Says so
+ * plainly and offers a retry — on an unreliable connection the honest
+ * message is "couldn't reach the server", not an empty screen.
+ */
+export const LoadError: React.FC<{ onRetry: () => void; message?: string }> = ({
+  onRetry,
+  message = "Couldn't reach the server. Check your connection.",
+}) => (
+  <View style={styles.loadError} accessibilityRole="alert">
+    <Text style={styles.loadErrorAm}>መገናኘት አልተቻለም።</Text>
+    <Text style={styles.loadErrorText}>{message}</Text>
+    <TouchableOpacity
+      onPress={onRetry}
+      style={styles.loadErrorBtn}
+      activeOpacity={0.7}
+      accessibilityRole="button"
+      accessibilityLabel="Try again"
+    >
+      <Text style={styles.loadErrorBtnText}>Try again · እንደገና ሞክር</Text>
+    </TouchableOpacity>
   </View>
 );
 
@@ -137,5 +161,38 @@ const styles = StyleSheet.create({
   },
   ornamentWrap: {
     alignItems: 'center',
+  },
+  loadError: {
+    alignItems: 'center',
+    paddingVertical: 28,
+    paddingHorizontal: 24,
+    gap: 8,
+  },
+  loadErrorAm: {
+    fontFamily: fonts.ethiopicMedium,
+    fontSize: 16,
+    color: colors.ink,
+  },
+  loadErrorText: {
+    fontFamily: fonts.garamond,
+    fontSize: 15,
+    color: colors.inkMid,
+    textAlign: 'center',
+  },
+  loadErrorBtn: {
+    marginTop: 8,
+    paddingVertical: 10,
+    paddingHorizontal: 18,
+    borderWidth: 1,
+    borderColor: colors.oxblood,
+    minHeight: 44,
+    justifyContent: 'center',
+  },
+  loadErrorBtnText: {
+    fontFamily: fonts.mono,
+    fontSize: 11,
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    color: colors.oxblood,
   },
 });

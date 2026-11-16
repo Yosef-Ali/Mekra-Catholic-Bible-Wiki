@@ -13,7 +13,7 @@ import { ChevronLeft, Volume2, Pause, Square } from 'lucide-react-native';
 import { fetchWikiPage, WikiPage } from '../../src/services/api';
 import { useApi } from '../../src/hooks/useApi';
 import { speakText, stopTTS, pauseTTS, resumeTTS } from '../../src/services/tts';
-import { Rubric, Ornament, OrnamentDivider, Meta, screenBase } from '../../src/components/Primitives';
+import { Rubric, Ornament, OrnamentDivider, Meta, LoadError, screenBase } from '../../src/components/Primitives';
 import { colors, fonts, layout } from '../../src/theme/colors';
 
 // ─── Parsing helpers ────────────────────────────────────────
@@ -348,7 +348,7 @@ export default function ArticleScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
 
-  const { data: page, loading } = useApi<WikiPage | null>(
+  const { data: page, loading, error, refetch } = useApi<WikiPage | null>(
     () => fetchWikiPage(slug, type),
     [slug, type],
   );
@@ -485,6 +485,11 @@ export default function ArticleScreen() {
         <View style={s.loadingWrap}>
           <ActivityIndicator color={colors.oxblood} />
           <Text style={s.loadingText}>Loading article...</Text>
+        </View>
+      ) : error ? (
+        // Could not ask — different from "asked, and there is no such page".
+        <View style={s.loadingWrap}>
+          <LoadError onRetry={refetch} />
         </View>
       ) : !page ? (
         <View style={s.loadingWrap}>

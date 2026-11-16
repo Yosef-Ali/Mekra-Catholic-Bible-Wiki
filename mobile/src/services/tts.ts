@@ -37,6 +37,19 @@ const API_BASE = __DEV__
   ? `http://${DEV_HOST}:5173/api`
   : 'https://fana-catholic-bible.vercel.app/api';
 
+/**
+ * Thrown when playback is cancelled. A plain class, not DOMException: Hermes
+ * (the React Native engine) has no DOMException global, so the old
+ * `new DOMException('Aborted', 'AbortError')` raised a ReferenceError on a
+ * phone instead of the abort it meant to signal.
+ */
+export class AbortError extends Error {
+  constructor() {
+    super('Aborted');
+    this.name = 'AbortError';
+  }
+}
+
 // ── State ──
 
 let currentSound: Audio.Sound | null = null;
@@ -126,14 +139,14 @@ export async function speakText(
     body: JSON.stringify({ text: clean, lang, ...ttsParams }),
   });
 
-  if (_aborted) throw new DOMException('Aborted', 'AbortError');
+  if (_aborted) throw new AbortError();
   if (!res.ok) throw new Error(`TTS ${res.status}`);
 
   const blob = await res.blob();
   if (blob.size === 0) throw new Error('TTS returned empty audio');
 
   const base64 = await blobToBase64(blob);
-  if (_aborted) throw new DOMException('Aborted', 'AbortError');
+  if (_aborted) throw new AbortError();
 
   const { sound } = await Audio.Sound.createAsync(
     { uri: base64 },
@@ -145,7 +158,11 @@ export async function speakText(
   return new Promise<void>((resolve, reject) => {
     sound.setOnPlaybackStatusUpdate((status) => {
       if (!status.isLoaded) {
-        if ('error' in status) reject(new Error(String(status.error)));
+        // Unloaded: either a playback error, or stopTTS() tore the sound
+        // down. Settle either way — leaving this promise pending forever
+        // stranded the caller's await (and everything it was holding).
+        if ('error' in status && status.error) reject(new Error(String(status.error)));
+        else reject(new AbortError());
         return;
       }
       if (status.didJustFinish) {

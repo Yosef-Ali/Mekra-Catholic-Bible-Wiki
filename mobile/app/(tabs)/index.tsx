@@ -12,7 +12,7 @@ import { useRouter } from 'expo-router';
 import { ChevronRight, Settings } from 'lucide-react-native';
 import { fetchTeachings, fetchComparatives, fetchDailyReadings, WikiPage, DailyReadingsData, DailyReading } from '../../src/services/api';
 import { useApi } from '../../src/hooks/useApi';
-import { CrossMark, OrnamentDivider, Rubric, screenBase } from '../../src/components/Primitives';
+import { CrossMark, OrnamentDivider, Rubric, LoadError, screenBase } from '../../src/components/Primitives';
 import { colors, fonts, layout } from '../../src/theme/colors';
 
 const ACCENT_COLORS = [colors.oxblood, colors.ochre, colors.teal, colors.oxblood, colors.ochre, colors.teal];
@@ -37,7 +37,7 @@ export default function HomeScreen() {
   const greeting = useMemo(() => getGreeting(), []);
   const weekday = useMemo(() => getWeekday(), []);
 
-  const { data: teachings, loading, error } = useApi<WikiPage[]>(fetchTeachings);
+  const { data: teachings, loading, error, refetch } = useApi<WikiPage[]>(fetchTeachings);
   const { data: comparatives } = useApi<WikiPage[]>(fetchComparatives);
   const { data: daily } = useApi<DailyReadingsData | null>(fetchDailyReadings);
   const [rite, setRite] = useState<'roman' | 'geez'>('roman');
@@ -86,7 +86,9 @@ export default function HomeScreen() {
 
       {/* Greeting — Amharic-first */}
       <View style={styles.greeting}>
-        <Rubric>{'Eastertide · ' + weekday}</Rubric>
+        {/* Season from the server's computed calendar; this was the fixed
+            word "Eastertide" all year. Offline, the weekday stands alone. */}
+        <Rubric>{[daily?.roman.liturgical?.season, weekday].filter(Boolean).join(' · ')}</Rubric>
         <Text style={styles.greetingTitleAm}>{'ሰላም ለአንተ ይሁን።'}</Text>
         <Text style={styles.greetingEn}>
           {greeting}, <Text style={styles.greetingName}>Friend</Text>.
@@ -195,7 +197,7 @@ export default function HomeScreen() {
         </Text>
         <TouchableOpacity onPress={() => router.push('/(tabs)/teaching')}>
           <Text style={styles.allLink}>
-            {loading ? '...' : `All ${teachings?.length ?? 0} ›`}
+            {loading || error ? '...' : `All ${teachings?.length ?? 0} ›`}
           </Text>
         </TouchableOpacity>
       </View>
@@ -204,6 +206,8 @@ export default function HomeScreen() {
         <View style={styles.loadingRow}>
           <ActivityIndicator color={colors.oxblood} size="small" />
         </View>
+      ) : error ? (
+        <LoadError onRetry={refetch} />
       ) : (
         <ScrollView
           horizontal
