@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { GoogleGenAI } from '@google/genai';
 import { getAllAudioBase64 } from 'google-tts-api';
 import { MsEdgeTTS, OUTPUT_FORMAT } from 'msedge-tts';
+import { quotesSpeech } from '../../services/reflectionGuard';
 
 const router = Router();
 
@@ -263,6 +264,22 @@ const cleanReference = (value: unknown, max: number): string | null => {
   return s.length > 0 && s.length <= max && SAFE_REFERENCE.test(s) ? s : null;
 };
 
+// True when the model's JSON answer holds quoted speech in its title or
+// content. The answer is parsed first: checking the raw text would trip on
+// JSON's own string delimiters. An answer that cannot be parsed is passed
+// through — the client rejects it there.
+const reflectionQuotesSpeech = (text: string): boolean => {
+  const start = text.indexOf('{');
+  const end = text.lastIndexOf('}');
+  if (start === -1 || end <= start) return false;
+  try {
+    const parsed = JSON.parse(text.slice(start, end + 1));
+    return quotesSpeech(String(parsed?.title ?? '')) || quotesSpeech(String(parsed?.content ?? ''));
+  } catch {
+    return false;
+  }
+};
+
 router.post('/daily-reflection', async (req, res) => {
   const raw = String(req.body?.date ?? '');
   const match = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
@@ -298,6 +315,7 @@ router.post('/daily-reflection', async (req, res) => {
          - The reflection should be substantial (3-4 paragraphs) in Amharic.
 
       **DO NOT quote or reproduce the text of Scripture.** Refer to a passage only by its citation (for example "John 3:16"). The reader sees the passages themselves, from the printed edition, beside this reflection.
+      **DO NOT use quotation marks anywhere in the reflection, and do not write direct speech.** Never write what Jesus or any biblical figure said as a quotation, not even in your own words: describe it indirectly (for example: he asks the man what he wants) and give the citation.
 
       Output Language: **AMHARIC** (Except for the JSON keys).
 
@@ -317,14 +335,26 @@ router.post('/daily-reflection', async (req, res) => {
     `;
 
   try {
-    const response = await getGeminiAI().models.generateContent({
-      model: REFLECTION_MODEL,
-      contents: prompt,
-      config: { temperature: 0.4 },
-    });
-    const text = response.text || '';
-    if (!text) throw new Error('No text returned');
-    res.json({ success: true, text });
+    // The model is told not to quote, and usually complies. When it does not,
+    // ask once more; if it still quotes, send nothing — the home screen then
+    // simply has no reflection, which is better than invented Scripture.
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      const response = await getGeminiAI().models.generateContent({
+        model: REFLECTION_MODEL,
+        contents: attempt === 1
+          ? prompt
+          : `${prompt}\n      Your previous answer contained quoted speech. Rewrite it with NO quotation marks and NO direct speech at all.`,
+        config: { temperature: 0.4 },
+      });
+      const text = response.text || '';
+      if (!text) throw new Error('No text returned');
+      if (!reflectionQuotesSpeech(text)) {
+        res.json({ success: true, text });
+        return;
+      }
+      console.warn(`daily-reflection: attempt ${attempt} contained quoted speech; discarded`);
+    }
+    res.status(502).json({ success: false, error: 'reflection contained quoted speech' });
   } catch (err: any) {
     console.error('daily-reflection error:', err);
     res.status(502).json({ success: false, error: err?.message || 'daily-reflection failure' });

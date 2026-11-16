@@ -48,18 +48,25 @@ export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings, op
   useScrollHideFooter(setHideFooter, scrollRef);
 
   // 1. The day: liturgical context and reading citations.
+  //    `attempt` is bumped by the Try again button to run this once more.
+  const [attempt, setAttempt] = useState(0);
   useEffect(() => {
     let cancelled = false;
+    setLoading(true);
+    setOffline(false);
     readingsApi.get('today')
       .then((d) => { if (!cancelled) setDaily(d); })
       .catch(() => { if (!cancelled) setOffline(true); })
       .finally(() => { if (!cancelled) setLoading(false); });
     return () => { cancelled = true; };
-  }, []);
+  }, [attempt]);
 
   const readings: DailyReading[] = useMemo(() => daily?.roman.readings ?? [], [daily]);
   const season: string | null = daily?.roman.liturgical?.season ?? null;
-  const celebration: string | null = daily?.roman.celebration ?? daily?.roman.liturgical?.dayName ?? null;
+  // The stored celebration is often just the season again ("Ordinary Time"),
+  // which the header already shows; the computed day name says more.
+  const stored = daily?.roman.celebration ?? null;
+  const celebration: string | null = (stored && stored !== season ? stored : daily?.roman.liturgical?.dayName) ?? stored;
 
   // 2. Verse of the day: the opening verse of the Gospel, read from the
   //    Bible database. If any step fails the card is simply not shown —
@@ -186,6 +193,13 @@ export const DailyDevotion: React.FC<DailyDevotionProps> = ({ onOpenSettings, op
       {offline && (
         <div className="mx-5 mb-4 p-4 font-garamond text-[15px] text-ink-mid" style={{ border: '1px solid var(--rule)' }} role="status">
           Couldn't load today's readings. Check your connection — the Bible and teaching sections may still open.
+          <button
+            type="button"
+            onClick={() => setAttempt((n) => n + 1)}
+            className="mt-3 py-2 block font-mono text-[10px] text-oxblood uppercase tracking-[0.14em]"
+          >
+            Try again
+          </button>
         </div>
       )}
 

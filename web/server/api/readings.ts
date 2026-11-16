@@ -120,6 +120,12 @@ function structureReadings(raw: Array<{ type: string; citation: string }>): Read
 }
 
 // ---------- AI fallback (server-side Gemini with search grounding) ----------
+// gemini-3-pro-preview, used here before, has been retired. This is the model
+// the chat uses. Search grounding is kept on purpose: without it the model
+// answers from memory, and a remembered lectionary is a guess. Google refuses
+// grounded requests on a free-tier key (429), in which case this returns null
+// and the day simply has no readings for that rite.
+const AI_LOOKUP_MODEL = 'gemini-3-flash-preview';
 async function aiLookupReadings(dateStr: string, rite: 'roman' | 'geez', context: string): Promise<{ celebration: string; readings: Array<{ type: string; citation: string }> } | null> {
   const key = process.env.GEMINI_API_KEY || process.env.API_KEY;
   if (!key) return null;
@@ -132,7 +138,7 @@ Respond with STRICT JSON only, no prose:
 Rules: use standard English book names; omit "second" when the day has none; include the responsorial psalm as type "psalm".`;
   try {
     const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-pro-preview:generateContent?key=${key}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/${AI_LOOKUP_MODEL}:generateContent?key=${key}`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

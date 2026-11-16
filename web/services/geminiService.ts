@@ -80,6 +80,8 @@ Use standard numerals (1, 2, 3), not Amharic numerals.`,
   }
 };
 
+import { quotesSpeech } from './reflectionGuard';
+
 export interface DailyReflection { title: string; content: string }
 
 const REFLECTION_CACHE_KEY = 'emmaus_daily_reflection';
@@ -103,7 +105,7 @@ export const getDailyReflection = async (
 
   try {
     const cached = JSON.parse(localStorage.getItem(REFLECTION_CACHE_KEY) || 'null');
-    if (cached?.dateKey === dateKey && cached.title && cached.content) {
+    if (cached?.dateKey === dateKey && cached.title && cached.content && !quotesSpeech(cached.title) && !quotesSpeech(cached.content)) {
       return { title: cached.title, content: cached.content };
     }
   } catch { /* unreadable cache: fetch again */ }
@@ -120,6 +122,9 @@ export const getDailyReflection = async (
 
     const parsed = JSON.parse(extractJson(response.text));
     if (typeof parsed?.title !== 'string' || typeof parsed?.content !== 'string' || !parsed.content.trim()) return null;
+    // The server already refuses these; checked again here so that no path
+    // (an older server, a stale response) can show quoted "Scripture".
+    if (quotesSpeech(parsed.title) || quotesSpeech(parsed.content)) return null;
 
     const reflection = { title: parsed.title, content: parsed.content };
     try { localStorage.setItem(REFLECTION_CACHE_KEY, JSON.stringify({ dateKey, ...reflection })); } catch { /* full or private */ }
